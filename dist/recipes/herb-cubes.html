@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Basics</p>
-              <h1>Frozen herb cubes</h1>
-              <p class="hu">Fűszerkockák</p>
+              <p class="kicker" data-edit="t7">Basics</p>
+              <h1 data-edit="t8">Frozen herb cubes</h1>
+              <p class="hu" data-edit="t9">Fűszerkockák</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill warn">Replaced</span>
-                <span class="pill quiet">15 min</span>
-                <span class="pill quiet">12 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill warn" data-edit="t11">Replaced</span>
+                <span class="pill quiet" data-edit="t12">15 min</span>
+                <span class="pill quiet" data-edit="t13">12 portions</span>
               </div>
-              <p>From 6 months, stirred into a hot meal. Do not keep the blended paste for a week, and do not add salt for an older child either.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">From 6 months, stirred into a hot meal. Do not keep the blended paste for a week, and do not add salt for an older child either.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/herb-cubes.jpg" alt="A serving of Frozen herb cubes">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>20 g</strong> fresh parsley and dill <span class="meta">(washed; herbs, not a salty mix)</span></li><li><strong>1</strong> ripe tomato <span class="meta">(chopped)</span></li><li><strong>1 small</strong> sweet pepper <span class="meta">(seeds removed)</span></li><li><strong>a splash</strong> water <span class="meta">(only to blend; no salt)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">none</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>20 g</strong> fresh parsley and dill <span class="meta">(washed; herbs, not a salty mix)</span></li><li data-edit="t18"><strong>1</strong> ripe tomato <span class="meta">(chopped)</span></li><li data-edit="t19"><strong>1 small</strong> sweet pepper <span class="meta">(seeds removed)</span></li><li data-edit="t20"><strong>a splash</strong> water <span class="meta">(only to blend; no salt)</span></li></ul>
+              <h2 data-edit="t21">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t22">none</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Wash the herbs, tomato, and sweet pepper.</li><li>Blend them with a splash of water until smooth, adding no salt.</li><li>Pour into an ice tray at once.</li><li>Freeze the same day rather than keeping a raw paste in the fridge.</li><li>Thaw a cube in the fridge and use it within two days, or stir it into hot food from frozen.</li></ol>
+              <h2 data-edit="t23">Method</h2>
+              <ol><li data-edit="t24">Wash the herbs, tomato, and sweet pepper.</li><li data-edit="t25">Blend them with a splash of water until smooth, adding no salt.</li><li data-edit="t26">Pour into an ice tray at once.</li><li data-edit="t27">Freeze the same day rather than keeping a raw paste in the fridge.</li><li data-edit="t28">Thaw a cube in the fridge and use it within two days, or stir it into hot food from frozen.</li></ol>
             </section>
           </div>
           <section class="callout replace">
-            <h2>Replaced</h2>
-            <p>The usual seasoning paste was raw vegetables kept for a week in the fridge, and salt was suggested for older children.</p>
-            <p>Blend herbs, tomato, and sweet pepper and freeze them at once in ice cubes, with no salt. Keep a thawed cube for two days in the fridge at most.</p>
+            <h2 data-edit="t29">Replaced</h2>
+            <p data-edit="t30">The usual seasoning paste was raw vegetables kept for a week in the fridge, and salt was suggested for older children.</p>
+            <p data-edit="t31">Blend herbs, tomato, and sweet pepper and freeze them at once in ice cubes, with no salt. Keep a thawed cube for two days in the fridge at most.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/unsalted-stock.html">Unsalted stock</a><a href="/recipes/liver-dumplings.html">Liver dumplings</a><a href="/recipes/fresh-pasta.html">Fresh pasta</a>
+            <strong data-edit="t32">More in this group</strong>
+            <a href="/recipes/unsalted-stock.html" data-edit="t33">Unsalted stock</a><a href="/recipes/liver-dumplings.html" data-edit="t34">Liver dumplings</a><a href="/recipes/fresh-pasta.html" data-edit="t35">Fresh pasta</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t36">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t37">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

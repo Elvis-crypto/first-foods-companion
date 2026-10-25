@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/" aria-current="page">Guides</a>
-        <a href="/recipes/">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" aria-current="page" data-edit="t1">Guides</a>
+        <a href="/recipes/" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -46,33 +47,33 @@
     
         <div class="layout">
           <aside class="side">
-            <strong>Guides</strong>
-            <a href="/topics/why-first-foods-matter.html">What the first foods are actually for</a><a href="/topics/when-to-start.html">When to start</a><a href="/topics/ways-of-feeding.html">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html">What to introduce, and when</a><a href="/topics/allergens.html">Introducing allergens</a><a href="/topics/portions-and-milk.html" aria-current="page">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html">A week, in outline</a><a href="/topics/how-meals-happen.html">How the meal happens</a><a href="/topics/gagging-and-choking.html">Gagging and choking</a><a href="/topics/picky-eating.html">Picky eating</a><a href="/topics/illness.html">When a child is ill</a><a href="/topics/teething.html">Teething</a><a href="/topics/vitamins-and-minerals.html">Vitamins and minerals</a><a href="/topics/pocket-guide.html">A pocket guide</a>
+            <strong data-edit="t7">Guides</strong>
+            <a href="/topics/why-first-foods-matter.html" data-edit="t8">What the first foods are actually for</a><a href="/topics/when-to-start.html" data-edit="t9">When to start</a><a href="/topics/ways-of-feeding.html" data-edit="t10">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html" data-edit="t11">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html" data-edit="t12">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html" data-edit="t13">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html" data-edit="t14">What to introduce, and when</a><a href="/topics/allergens.html" data-edit="t15">Introducing allergens</a><a href="/topics/portions-and-milk.html" aria-current="page" data-edit="t16">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html" data-edit="t17">A week, in outline</a><a href="/topics/how-meals-happen.html" data-edit="t18">How the meal happens</a><a href="/topics/gagging-and-choking.html" data-edit="t19">Gagging and choking</a><a href="/topics/picky-eating.html" data-edit="t20">Picky eating</a><a href="/topics/illness.html" data-edit="t21">When a child is ill</a><a href="/topics/teething.html" data-edit="t22">Teething</a><a href="/topics/vitamins-and-minerals.html" data-edit="t23">Vitamins and minerals</a><a href="/topics/pocket-guide.html" data-edit="t24">A pocket guide</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Guides</p>
-            <h1>Portions, texture, and milk</h1>
-            <p class="lede">Appetite is a better measure than a spoon count. Milk remains the main drink until the first birthday.</p>
+            <p class="kicker" data-edit="t25">Guides</p>
+            <h1 data-edit="t26">Portions, texture, and milk</h1>
+            <p class="lede" data-edit="t27">Appetite is a better measure than a spoon count. Milk remains the main drink until the first birthday.</p>
             <figure class="hero-photo">
               <img src="/assets/img/topics/portions-and-milk.jpg" alt="A small bowl of vegetable mash beside a glass of milk">
             </figure>
-            <h2>Findings</h2>
+            <h2 data-edit="t28">Findings</h2>
             <article class="finding">
-              <a href="#amounts"><strong>Start with teaspoons, then follow the baby.</strong> A few spoons one day and a whole bowl the next can both be normal.</a>
+              <a href="#amounts" data-edit="t29"><strong>Start with teaspoons, then follow the baby.</strong> A few spoons one day and a whole bowl the next can both be normal.</a>
             </article><article class="finding">
-              <a href="#milk"><strong>Milk is still the largest part of the diet until 12 months.</strong> Food teaches iron and skill. It does not replace feeds on a schedule you invent.</a>
+              <a href="#milk" data-edit="t30"><strong>Milk is still the largest part of the diet until 12 months.</strong> Food teaches iron and skill. It does not replace feeds on a schedule you invent.</a>
             </article><article class="finding">
-              <a href="#texture"><strong>Texture should be moving by eight or nine months.</strong> Water from an open cup can start with meals. Juice does not.</a>
+              <a href="#texture" data-edit="t31"><strong>Texture should be moving by eight or nine months.</strong> Water from an open cup can start with meals. Juice does not.</a>
             </article>
-            <h2 id="amounts">How much food</h2><p>The first meals are practice as much as nutrition: one to three teaspoons, once a day, building toward two and then three meals. By the end of the first year many children are on three meals and two snacks, with portions that still vary wildly between children and between days.</p><p>Forcing the last spoons teaches a child to ignore fullness. So does offering food as a reward or as comfort for every upset. The division of responsibility is on the meals page: you decide what is offered, the child decides how much.</p><h2 id="milk">Where milk fits</h2><p>Keep breast milk or formula on demand alongside meals. There is no need to drop a milk feed the day solids start. Toward the first birthday, food carries more of the iron and the milk feeds often settle into a morning, an evening, and perhaps one more.</p><p>After 12 months, drinks of milk at a volume much above 400 ml a day are a common reason a toddler will not eat. Offer water with meals. A bottle used as a constant sip can also pool milk on teeth.</p><h2 id="texture">Texture and cups</h2><p>Smooth food at six months, mash and soft strips by eight or nine, and chopped family food by twelve is a fair arc. Individual babies move faster or slower. The risk is a child who reaches a year still on thin purée and then refuses lumps.</p><p>Offer sips of water in an open or free-flow cup with meals so drinking is practised. Juice, including diluted juice, is not a baby drink. The American Academy of Pediatrics advises no juice before 12 months.</p>
-            <h2>References</h2>
-            <ol class="refs"><li class="ref" id="ref-1">
+            <h2 id="amounts" data-edit="t32">How much food</h2><p data-edit="t33">The first meals are practice as much as nutrition: one to three teaspoons, once a day, building toward two and then three meals. By the end of the first year many children are on three meals and two snacks, with portions that still vary wildly between children and between days.</p><p data-edit="t34">Forcing the last spoons teaches a child to ignore fullness. So does offering food as a reward or as comfort for every upset. The division of responsibility is on the meals page: you decide what is offered, the child decides how much.</p><h2 id="milk" data-edit="t35">Where milk fits</h2><p data-edit="t36">Keep breast milk or formula on demand alongside meals. There is no need to drop a milk feed the day solids start. Toward the first birthday, food carries more of the iron and the milk feeds often settle into a morning, an evening, and perhaps one more.</p><p data-edit="t37">After 12 months, drinks of milk at a volume much above 400 ml a day are a common reason a toddler will not eat. Offer water with meals. A bottle used as a constant sip can also pool milk on teeth.</p><h2 id="texture" data-edit="t38">Texture and cups</h2><p data-edit="t39">Smooth food at six months, mash and soft strips by eight or nine, and chopped family food by twelve is a fair arc. Individual babies move faster or slower. The risk is a child who reaches a year still on thin purée and then refuses lumps.</p><p data-edit="t40">Offer sips of water in an open or free-flow cup with meals so drinking is practised. Juice, including diluted juice, is not a baby drink. The American Academy of Pediatrics advises no juice before 12 months.</p>
+            <h2 data-edit="t41">References</h2>
+            <ol class="refs"><li class="ref" id="ref-1" data-edit="t42">
               <a href="https://www.who.int/publications/i/item/9789240081864">WHO Guideline for complementary feeding of infants and young children 6–23 months</a>
               <div class="meta">World Health Organization, 2023</div>
-            </li><li class="ref" id="ref-2">
+            </li><li class="ref" id="ref-2" data-edit="t43">
               <a href="https://doi.org/10.1542/peds.2017-0967">Fruit Juice in Infants, Children, and Adolescents</a>
               <div class="meta">AAP, Pediatrics, 2017</div>
-            </li><li class="ref" id="ref-3">
+            </li><li class="ref" id="ref-3" data-edit="t44">
               <a href="https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/">Your baby’s first solid foods</a>
               <div class="meta">NHS, 2024</div>
             </li></ol>
@@ -81,10 +82,11 @@
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t45">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t46">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

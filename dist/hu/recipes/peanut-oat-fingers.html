@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Allergén gyakorlat</p>
-              <h1>Zabos mogyorórúd</h1>
-              <p class="hu">Peanut oat fingers</p>
+              <p class="kicker" data-edit="t7">Allergén gyakorlat</p>
+              <h1 data-edit="t8">Zabos mogyorórúd</h1>
+              <p class="hu" data-edit="t9">Peanut oat fingers</p>
               <div class="pills">
-                <span class="pill">8 hónapos kortól</span>
-                <span class="pill warn">Igazított</span>
-                <span class="pill quiet">25 min</span>
-                <span class="pill quiet">6 adag</span>
+                <span class="pill" data-edit="t10">8 hónapos kortól</span>
+                <span class="pill warn" data-edit="t11">Igazított</span>
+                <span class="pill quiet" data-edit="t12">25 min</span>
+                <span class="pill quiet" data-edit="t13">6 adag</span>
               </div>
-              <p>Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a földimogyorót már jól tűri, kb. két teáskanál sima földimogyoróvajat keverj ételbe hígítva, hetente háromszor. Ha egy rúd keményre sül, dobd ki.</p>
-              <p class="meta">Fagyasztható.</p>
+              <p data-edit="t14">Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a földimogyorót már jól tűri, kb. két teáskanál sima földimogyoróvajat keverj ételbe hígítva, hetente háromszor. Ha egy rúd keményre sül, dobd ki.</p>
+              <p class="meta" data-edit="t15">Fagyasztható.</p>
             </div>
             <img src="/assets/img/recipes/peanut-oat-fingers.jpg" alt="Egy adag: Zabos mogyorórúd">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>40 g</strong> zabpehely <span class="meta">(gluténként van feltüntetve; puha rúd, nem kemény rúd)</span></li><li><strong>1 kicsi</strong> érett banán <span class="meta">(pépesítve; cukor nélkül)</span></li><li><strong>1 teáskanál</strong> sima földimogyoróvaj <span class="meta">(a tésztába elkeverve; sűrű kanálnyit önmagában soha)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">glutén</span><span class="pill quiet">földimogyoró</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>40 g</strong> zabpehely <span class="meta">(gluténként van feltüntetve; puha rúd, nem kemény rúd)</span></li><li data-edit="t18"><strong>1 kicsi</strong> érett banán <span class="meta">(pépesítve; cukor nélkül)</span></li><li data-edit="t19"><strong>1 teáskanál</strong> sima földimogyoróvaj <span class="meta">(a tésztába elkeverve; sűrű kanálnyit önmagában soha)</span></li></ul>
+              <h2 data-edit="t20">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t21">glutén</span><span class="pill quiet" data-edit="t22">földimogyoró</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>A banánt törd pépesre.</li><li>Keverd bele a zabpelyhet és a földimogyoróvajat, amíg a massza egyenletes.</li><li>Nedves kézzel formázz rövid, vastag rudakat.</li><li>Süsd 160 °C-on, amíg megszilárdul, de még puha.</li><li>Hűtsd ki, és nyomj meg egyet: inkább nyomódjon szét, mint törjön.</li><li>Puha rudat adj, ne kanálnyi földimogyoróvajat.</li></ol>
+              <h2 data-edit="t23">Elkészítés</h2>
+              <ol><li data-edit="t24">A banánt törd pépesre.</li><li data-edit="t25">Keverd bele a zabpelyhet és a földimogyoróvajat, amíg a massza egyenletes.</li><li data-edit="t26">Nedves kézzel formázz rövid, vastag rudakat.</li><li data-edit="t27">Süsd 160 °C-on, amíg megszilárdul, de még puha.</li><li data-edit="t28">Hűtsd ki, és nyomj meg egyet: inkább nyomódjon szét, mint törjön.</li><li data-edit="t29">Puha rudat adj, ne kanálnyi földimogyoróvajat.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Igazított</h2>
-            <p>Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Sűrű földimogyoróvajat önmagában soha ne adj, és kemény rudat se kínálj.</p>
-            <p>Zabpehelyből, banánból és a tésztába kevert egy teáskanál sima földimogyoróvajból süss puha rudakat.</p>
+            <h2 data-edit="t30">Igazított</h2>
+            <p data-edit="t31">Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Sűrű földimogyoróvajat önmagában soha ne adj, és kemény rudat se kínálj.</p>
+            <p data-edit="t32">Zabpehelyből, banánból és a tésztába kevert egy teáskanál sima földimogyoróvajból süss puha rudakat.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/fruit-oat-wheat-biscuits.html">Gyümölcsös keksz</a><a href="/hu/recipes/crumb-zucchini.html">Morzsás cukkini</a><a href="/hu/recipes/fish-and-shrimp-muffin.html">Halas muffin</a>
+            <strong data-edit="t33">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/fruit-oat-wheat-biscuits.html" data-edit="t34">Gyümölcsös keksz</a><a href="/hu/recipes/crumb-zucchini.html" data-edit="t35">Morzsás cukkini</a><a href="/hu/recipes/fish-and-shrimp-muffin.html" data-edit="t36">Halas muffin</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t37">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t38">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

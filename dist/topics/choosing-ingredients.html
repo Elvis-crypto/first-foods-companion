@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/" aria-current="page">Guides</a>
-        <a href="/recipes/">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" aria-current="page" data-edit="t1">Guides</a>
+        <a href="/recipes/" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -46,36 +47,36 @@
     
         <div class="layout">
           <aside class="side">
-            <strong>Guides</strong>
-            <a href="/topics/why-first-foods-matter.html">What the first foods are actually for</a><a href="/topics/when-to-start.html">When to start</a><a href="/topics/ways-of-feeding.html">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html" aria-current="page">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html">What to introduce, and when</a><a href="/topics/allergens.html">Introducing allergens</a><a href="/topics/portions-and-milk.html">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html">A week, in outline</a><a href="/topics/how-meals-happen.html">How the meal happens</a><a href="/topics/gagging-and-choking.html">Gagging and choking</a><a href="/topics/picky-eating.html">Picky eating</a><a href="/topics/illness.html">When a child is ill</a><a href="/topics/teething.html">Teething</a><a href="/topics/vitamins-and-minerals.html">Vitamins and minerals</a><a href="/topics/pocket-guide.html">A pocket guide</a>
+            <strong data-edit="t7">Guides</strong>
+            <a href="/topics/why-first-foods-matter.html" data-edit="t8">What the first foods are actually for</a><a href="/topics/when-to-start.html" data-edit="t9">When to start</a><a href="/topics/ways-of-feeding.html" data-edit="t10">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html" aria-current="page" data-edit="t11">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html" data-edit="t12">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html" data-edit="t13">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html" data-edit="t14">What to introduce, and when</a><a href="/topics/allergens.html" data-edit="t15">Introducing allergens</a><a href="/topics/portions-and-milk.html" data-edit="t16">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html" data-edit="t17">A week, in outline</a><a href="/topics/how-meals-happen.html" data-edit="t18">How the meal happens</a><a href="/topics/gagging-and-choking.html" data-edit="t19">Gagging and choking</a><a href="/topics/picky-eating.html" data-edit="t20">Picky eating</a><a href="/topics/illness.html" data-edit="t21">When a child is ill</a><a href="/topics/teething.html" data-edit="t22">Teething</a><a href="/topics/vitamins-and-minerals.html" data-edit="t23">Vitamins and minerals</a><a href="/topics/pocket-guide.html" data-edit="t24">A pocket guide</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Guides</p>
-            <h1>Choosing ingredients</h1>
-            <p class="lede">Variety, including bitter greens, matters more than an organic label. A short list of foods is genuinely unsuitable.</p>
+            <p class="kicker" data-edit="t25">Guides</p>
+            <h1 data-edit="t26">Choosing ingredients</h1>
+            <p class="lede" data-edit="t27">Variety, including bitter greens, matters more than an organic label. A short list of foods is genuinely unsuitable.</p>
             <figure class="hero-photo">
               <img src="/assets/img/topics/choosing-ingredients.jpg" alt="Pumpkin, apple, egg, lentils, salmon, and yogurt">
             </figure>
-            <h2>Findings</h2>
+            <h2 data-edit="t28">Findings</h2>
             <article class="finding">
-              <a href="#variety"><strong>Offer bitter and savoury flavours early.</strong> Babies who meet green vegetables in the first weeks of solids are more willing to eat them later.</a>
+              <a href="#variety" data-edit="t29"><strong>Offer bitter and savoury flavours early.</strong> Babies who meet green vegetables in the first weeks of solids are more willing to eat them later.</a>
             </article><article class="finding">
-              <a href="#iron-foods"><strong>Put an iron food on the early shopping list.</strong> Meat, lentils, beans, tofu, and fortified infant cereal are the practical sources.</a>
+              <a href="#iron-foods" data-edit="t30"><strong>Put an iron food on the early shopping list.</strong> Meat, lentils, beans, tofu, and fortified infant cereal are the practical sources.</a>
             </article><article class="finding">
-              <a href="#avoid"><strong>A short avoid-list is enough.</strong> Honey, added salt, added sugar, rice drinks, whole nuts, unpasteurised dairy, and a few fish are the items with a real reason behind them.</a>
+              <a href="#avoid" data-edit="t31"><strong>A short avoid-list is enough.</strong> Honey, added salt, added sugar, rice drinks, whole nuts, unpasteurised dairy, and a few fish are the items with a real reason behind them.</a>
             </article>
-            <h2 id="variety">Variety, including the awkward tastes</h2><p>ESPGHAN asks for a range of flavours and textures, bitter greens included. A month of only sweet pear and banana teaches a narrow palate. Broccoli, spinach in a mixture, bean, and fish can appear in the first fortnight.</p><p>Organic produce has not been shown to change allergy or growth outcomes for infants. Wash it. Peel when the skin is tough or heavily soiled. Seasonality is a pleasure and a budget tool, not a safety rule.</p><h2 id="iron-foods">Build around iron</h2><p>A useful kitchen keeps one iron food ready: cooked mince in the freezer, red lentils in the cupboard, unsalted beans, eggs, or a fortified cereal you actually tolerate the taste of. Pair plant iron with fruit or pepper for vitamin C.</p><p>Rice cereal is optional. It is not required for sleep or for a first spoon, and rice drinks are a different product entirely. Children under five should not drink rice drinks, because of arsenic.</p><h2 id="avoid">Foods with a specific reason to skip or change</h2><p>Honey, even baked, can contain spores that produce infant botulism. It waits until after the first birthday, and it is still sugar then. Salt waits too: an infant’s daily ceiling is under 1 gram, which is already reached by ordinary foods, so none is added and stock cubes, ham, and soy sauce stay out. Sugar and fruit juice are not needed; whole fruit is the right form.</p><p>Whole nuts, whole grapes, popcorn, and hard dried fruit are choking hazards. Shark, swordfish, and marlin are too high in mercury. Unpasteurised milk and mould-ripened cheeses can carry listeria. Undercooked kidney beans and other dried beans can cause rapid illness; boil them until they are completely soft. Liver is nutritious and so high in vitamin A that once a week, in a small portion, is the ceiling.</p>
-            <h2>References</h2>
-            <ol class="refs"><li class="ref" id="ref-1">
+            <h2 id="variety" data-edit="t32">Variety, including the awkward tastes</h2><p data-edit="t33">ESPGHAN asks for a range of flavours and textures, bitter greens included. A month of only sweet pear and banana teaches a narrow palate. Broccoli, spinach in a mixture, bean, and fish can appear in the first fortnight.</p><p data-edit="t34">Organic produce has not been shown to change allergy or growth outcomes for infants. Wash it. Peel when the skin is tough or heavily soiled. Seasonality is a pleasure and a budget tool, not a safety rule.</p><h2 id="iron-foods" data-edit="t35">Build around iron</h2><p data-edit="t36">A useful kitchen keeps one iron food ready: cooked mince in the freezer, red lentils in the cupboard, unsalted beans, eggs, or a fortified cereal you actually tolerate the taste of. Pair plant iron with fruit or pepper for vitamin C.</p><p data-edit="t37">Rice cereal is optional. It is not required for sleep or for a first spoon, and rice drinks are a different product entirely. Children under five should not drink rice drinks, because of arsenic.</p><h2 id="avoid" data-edit="t38">Foods with a specific reason to skip or change</h2><p data-edit="t39">Honey, even baked, can contain spores that produce infant botulism. It waits until after the first birthday, and it is still sugar then. Salt waits too: an infant’s daily ceiling is under 1 gram, which is already reached by ordinary foods, so none is added and stock cubes, ham, and soy sauce stay out. Sugar and fruit juice are not needed; whole fruit is the right form.</p><p data-edit="t40">Whole nuts, whole grapes, popcorn, and hard dried fruit are choking hazards. Shark, swordfish, and marlin are too high in mercury. Unpasteurised milk and mould-ripened cheeses can carry listeria. Undercooked kidney beans and other dried beans can cause rapid illness; boil them until they are completely soft. Liver is nutritious and so high in vitamin A that once a week, in a small portion, is the ceiling.</p>
+            <h2 data-edit="t41">References</h2>
+            <ol class="refs"><li class="ref" id="ref-1" data-edit="t42">
               <a href="https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/">Foods to avoid giving babies and young children</a>
               <div class="meta">NHS, 2024</div>
-            </li><li class="ref" id="ref-2">
+            </li><li class="ref" id="ref-2" data-edit="t43">
               <a href="https://doi.org/10.1097/MPG.0000000000001454">Complementary Feeding: A Position Paper</a>
               <div class="meta">ESPGHAN, JPGN, 2017</div>
-            </li><li class="ref" id="ref-3">
+            </li><li class="ref" id="ref-3" data-edit="t44">
               <a href="https://doi.org/10.1542/peds.2017-0967">Fruit Juice in Infants, Children, and Adolescents: Current Recommendations</a>
               <div class="meta">Heyman and Abrams, Pediatrics, 2017</div>
-            </li><li class="ref" id="ref-4">
+            </li><li class="ref" id="ref-4" data-edit="t45">
               <a href="https://www.cdc.gov/botulism/about/index.html">About botulism</a>
               <div class="meta">US Centers for Disease Control and Prevention, 2024</div>
             </li></ol>
@@ -84,10 +85,11 @@
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t46">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t47">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

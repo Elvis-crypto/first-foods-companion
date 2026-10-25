@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Mixed purées</p>
-              <h1>Veal with vegetables</h1>
-              <p class="hu">Zöldséges borjú</p>
+              <p class="kicker" data-edit="t7">Mixed purées</p>
+              <h1 data-edit="t8">Veal with vegetables</h1>
+              <p class="hu" data-edit="t9">Zöldséges borjú</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill sage">Sound idea</span>
-                <span class="pill quiet">40 min</span>
-                <span class="pill quiet">4 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill sage" data-edit="t11">Sound idea</span>
+                <span class="pill quiet" data-edit="t12">40 min</span>
+                <span class="pill quiet" data-edit="t13">4 portions</span>
               </div>
-              <p>Beef works the same way as veal. Serve it fully cooked, with no salt. The point of the dish is the iron.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">Beef works the same way as veal. Serve it fully cooked, with no salt. The point of the dish is the iron.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/veal-vegetables.jpg" alt="A serving of Veal with vegetables">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>120 g</strong> beef or veal stewing meat <span class="meta">(lean, raw weight; either meat is a sound choice)</span></li><li><strong>100 g</strong> carrot <span class="meta">(peeled weight)</span></li><li><strong>120 g</strong> ripe tomato <span class="meta">(peeled, fresh)</span></li><li><strong>40 g</strong> onion <span class="meta">(peeled)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">none</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>120 g</strong> beef or veal stewing meat <span class="meta">(lean, raw weight; either meat is a sound choice)</span></li><li data-edit="t18"><strong>100 g</strong> carrot <span class="meta">(peeled weight)</span></li><li data-edit="t19"><strong>120 g</strong> ripe tomato <span class="meta">(peeled, fresh)</span></li><li data-edit="t20"><strong>40 g</strong> onion <span class="meta">(peeled)</span></li></ul>
+              <h2 data-edit="t21">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t22">none</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Cut the meat, peeled carrot, peeled tomato, and onion into small pieces.</li><li>Cover with unsalted water and cook until the meat is fully done and the vegetables are soft.</li><li>Check there is no pink in the middle of the meat.</li><li>Blend until smooth, with a little cooking water if needed.</li><li>Do not add salt.</li></ol>
+              <h2 data-edit="t23">Method</h2>
+              <ol><li data-edit="t24">Cut the meat, peeled carrot, peeled tomato, and onion into small pieces.</li><li data-edit="t25">Cover with unsalted water and cook until the meat is fully done and the vegetables are soft.</li><li data-edit="t26">Check there is no pink in the middle of the meat.</li><li data-edit="t27">Blend until smooth, with a little cooking water if needed.</li><li data-edit="t28">Do not add salt.</li></ol>
             </section>
           </div>
           <section class="callout sound">
-            <h2>Sound idea</h2>
-            <p>Veal is sometimes treated as a special food, but it is not nutritionally better than beef. Salt is often added to a meat sauce.</p>
-            <p>Use beef or veal, since both are equal choices. Cook the meat with carrot, tomato, and onion until fully done, then blend, and do not add salt.</p>
+            <h2 data-edit="t29">Sound idea</h2>
+            <p data-edit="t30">Veal is sometimes treated as a special food, but it is not nutritionally better than beef. Salt is often added to a meat sauce.</p>
+            <p data-edit="t31">Use beef or veal, since both are equal choices. Cook the meat with carrot, tomato, and onion until fully done, then blend, and do not add salt.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/apple-peach-semolina.html">Apple and peach semolina with yogurt</a><a href="/recipes/pear-banana-oat.html">Pear and banana with oats</a><a href="/recipes/plum-peach-yogurt.html">Plum and peach with yogurt</a>
+            <strong data-edit="t32">More in this group</strong>
+            <a href="/recipes/apple-peach-semolina.html" data-edit="t33">Apple and peach semolina with yogurt</a><a href="/recipes/pear-banana-oat.html" data-edit="t34">Pear and banana with oats</a><a href="/recipes/plum-peach-yogurt.html" data-edit="t35">Plum and peach with yogurt</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t36">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t37">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

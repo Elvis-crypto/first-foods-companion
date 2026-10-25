@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Mixed purées</p>
-              <h1>Liver and potato with vegetables</h1>
-              <p class="hu">Zöldséges máj burgonyával</p>
+              <p class="kicker" data-edit="t7">Mixed purées</p>
+              <h1 data-edit="t8">Liver and potato with vegetables</h1>
+              <p class="hu" data-edit="t9">Zöldséges máj burgonyával</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill warn">Adjusted</span>
-                <span class="pill quiet">35 min</span>
-                <span class="pill quiet">4 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill warn" data-edit="t11">Adjusted</span>
+                <span class="pill quiet" data-edit="t12">35 min</span>
+                <span class="pill quiet" data-edit="t13">4 portions</span>
               </div>
-              <p>One portion is the week&#x27;s liver, about 15 g of cooked liver in that bowl. Freeze the rest for later weeks, and do not also give a vitamin A supplement.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">One portion is the week&#x27;s liver, about 15 g of cooked liver in that bowl. Freeze the rest for later weeks, and do not also give a vitamin A supplement.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/liver-potato.jpg" alt="A serving of Liver and potato with vegetables">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>80 g</strong> chicken liver <span class="meta">(raw weight, so each portion has about 15 g of cooked liver)</span></li><li><strong>240 g</strong> potato <span class="meta">(peeled weight)</span></li><li><strong>80 g</strong> ripe tomato <span class="meta">(peeled)</span></li><li><strong>60 g</strong> pumpkin <span class="meta">(peeled and seeded)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">none</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>80 g</strong> chicken liver <span class="meta">(raw weight, so each portion has about 15 g of cooked liver)</span></li><li data-edit="t18"><strong>240 g</strong> potato <span class="meta">(peeled weight)</span></li><li data-edit="t19"><strong>80 g</strong> ripe tomato <span class="meta">(peeled)</span></li><li data-edit="t20"><strong>60 g</strong> pumpkin <span class="meta">(peeled and seeded)</span></li></ul>
+              <h2 data-edit="t21">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t22">none</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Peel the potato and pumpkin, and peel the tomato.</li><li>Cook them in unsalted water until soft.</li><li>Add the liver and cook until it is brown all through, with no pink.</li><li>Blend until smooth.</li><li>Divide so each child&#x27;s portion contains only about 15 g of the cooked liver.</li><li>Do not add salt, and do not serve a second portion in the same week.</li></ol>
+              <h2 data-edit="t23">Method</h2>
+              <ol><li data-edit="t24">Peel the potato and pumpkin, and peel the tomato.</li><li data-edit="t25">Cook them in unsalted water until soft.</li><li data-edit="t26">Add the liver and cook until it is brown all through, with no pink.</li><li data-edit="t27">Blend until smooth.</li><li data-edit="t28">Divide so each child&#x27;s portion contains only about 15 g of the cooked liver.</li><li data-edit="t29">Do not add salt, and do not serve a second portion in the same week.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Adjusted</h2>
-            <p>Liver is very high in vitamin A, so a large portion or a repeat in the same week is too much. A vitamin A supplement on top of the liver stacks the dose.</p>
-            <p>Fully cook the chicken liver, put only about 15 g of cooked liver in the child&#x27;s portion, and serve liver at most once a week. Do not pair this meal with a vitamin A supplement.</p>
+            <h2 data-edit="t30">Adjusted</h2>
+            <p data-edit="t31">Liver is very high in vitamin A, so a large portion or a repeat in the same week is too much. A vitamin A supplement on top of the liver stacks the dose.</p>
+            <p data-edit="t32">Fully cook the chicken liver, put only about 15 g of cooked liver in the child&#x27;s portion, and serve liver at most once a week. Do not pair this meal with a vitamin A supplement.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/apple-peach-semolina.html">Apple and peach semolina with yogurt</a><a href="/recipes/pear-banana-oat.html">Pear and banana with oats</a><a href="/recipes/plum-peach-yogurt.html">Plum and peach with yogurt</a>
+            <strong data-edit="t33">More in this group</strong>
+            <a href="/recipes/apple-peach-semolina.html" data-edit="t34">Apple and peach semolina with yogurt</a><a href="/recipes/pear-banana-oat.html" data-edit="t35">Pear and banana with oats</a><a href="/recipes/plum-peach-yogurt.html" data-edit="t36">Plum and peach with yogurt</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t37">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t38">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

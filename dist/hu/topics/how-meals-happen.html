@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/" aria-current="page">Útmutatók</a>
-        <a href="/hu/recipes/">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" aria-current="page" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -46,33 +47,33 @@
     
         <div class="layout">
           <aside class="side">
-            <strong>Útmutatók</strong>
-            <a href="/hu/topics/why-first-foods-matter.html">Mire valók valójában az első ételek</a><a href="/hu/topics/when-to-start.html">Mikor kezdjük</a><a href="/hu/topics/ways-of-feeding.html">Kanál, ujjak vagy mindkettő</a><a href="/hu/topics/choosing-ingredients.html">Alapanyagok választása</a><a href="/hu/topics/cooking-and-seasoning.html">Főzés és ízesítés</a><a href="/hu/topics/tools-and-hygiene.html">Eszközök, higiénia és a fagyasztó</a><a href="/hu/topics/what-to-introduce.html">Mit vezess be, és mikor</a><a href="/hu/topics/allergens.html">Az allergének bevezetése</a><a href="/hu/topics/portions-and-milk.html">Adagok, állag és tej</a><a href="/hu/topics/a-week-of-meals.html">Egy hét, vázlatosan</a><a href="/hu/topics/how-meals-happen.html" aria-current="page">Hogyan történik az étkezés</a><a href="/hu/topics/gagging-and-choking.html">Öklendezés és fulladás</a><a href="/hu/topics/picky-eating.html">Válogatós evés</a><a href="/hu/topics/illness.html">Amikor a gyermek beteg</a><a href="/hu/topics/teething.html">Fogzás</a><a href="/hu/topics/vitamins-and-minerals.html">Vitaminok és ásványi anyagok</a><a href="/hu/topics/pocket-guide.html">Zsebkalauz</a>
+            <strong data-edit="t7">Útmutatók</strong>
+            <a href="/hu/topics/why-first-foods-matter.html" data-edit="t8">Mire valók valójában az első ételek</a><a href="/hu/topics/when-to-start.html" data-edit="t9">Mikor kezdjük</a><a href="/hu/topics/ways-of-feeding.html" data-edit="t10">Kanál, ujjak vagy mindkettő</a><a href="/hu/topics/choosing-ingredients.html" data-edit="t11">Alapanyagok választása</a><a href="/hu/topics/cooking-and-seasoning.html" data-edit="t12">Főzés és ízesítés</a><a href="/hu/topics/tools-and-hygiene.html" data-edit="t13">Eszközök, higiénia és a fagyasztó</a><a href="/hu/topics/what-to-introduce.html" data-edit="t14">Mit vezess be, és mikor</a><a href="/hu/topics/allergens.html" data-edit="t15">Az allergének bevezetése</a><a href="/hu/topics/portions-and-milk.html" data-edit="t16">Adagok, állag és tej</a><a href="/hu/topics/a-week-of-meals.html" data-edit="t17">Egy hét, vázlatosan</a><a href="/hu/topics/how-meals-happen.html" aria-current="page" data-edit="t18">Hogyan történik az étkezés</a><a href="/hu/topics/gagging-and-choking.html" data-edit="t19">Öklendezés és fulladás</a><a href="/hu/topics/picky-eating.html" data-edit="t20">Válogatós evés</a><a href="/hu/topics/illness.html" data-edit="t21">Amikor a gyermek beteg</a><a href="/hu/topics/teething.html" data-edit="t22">Fogzás</a><a href="/hu/topics/vitamins-and-minerals.html" data-edit="t23">Vitaminok és ásványi anyagok</a><a href="/hu/topics/pocket-guide.html" data-edit="t24">Zsebkalauz</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Útmutatók</p>
-            <h1>Hogyan történik az étkezés</h1>
-            <p class="lede">Azt, hogy mit teszel oda, te döntöd el. Azt, hogy megeszi-e, és mennyit, a gyerek. A nyomás rossz tanár.</p>
+            <p class="kicker" data-edit="t25">Útmutatók</p>
+            <h1 data-edit="t26">Hogyan történik az étkezés</h1>
+            <p class="lede" data-edit="t27">Azt, hogy mit teszel oda, te döntöd el. Azt, hogy megeszi-e, és mennyit, a gyerek. A nyomás rossz tanár.</p>
             <figure class="hero-photo">
               <img src="/assets/img/topics/how-meals-happen.jpg" alt="Puha zöldség és rizs egy tányéron, kanállal">
             </figure>
-            <h2>Megállapítások</h2>
+            <h2 data-edit="t28">Megállapítások</h2>
             <article class="finding">
-              <a href="#dor"><strong>Oszd meg a felelősséget.</strong> A felnőtt választja az ételt, az időt és a helyet. A gyerek választja, hogy eszik-e, és mennyit.</a>
+              <a href="#dor" data-edit="t29"><strong>Oszd meg a felelősséget.</strong> A felnőtt választja az ételt, az időt és a helyet. A gyerek választja, hogy eszik-e, és mennyit.</a>
             </article><article class="finding">
-              <a href="#exposure"><strong>A visszautasított ételnek többnyire több nyugodt találkozás kell, nem egy másik étkezés helyette.</strong> Nyolc–tizenöt kóstolás nyomás nélkül rendes ív egy új íznél.</a>
+              <a href="#exposure" data-edit="t30"><strong>A visszautasított ételnek többnyire több nyugodt találkozás kell, nem egy másik étkezés helyette.</strong> Nyolc–tizenöt kóstolás nyomás nélkül rendes ív egy új íznél.</a>
             </article><article class="finding">
-              <a href="#tricks"><strong>A képernyő, a repülős kanál és az édességért kötött alku visszaüt.</strong> Azt tanítják, hogy a gyerek ne hallgasson az éhségére, és hogy az édes étel a jutalom.</a>
+              <a href="#tricks" data-edit="t31"><strong>A képernyő, a repülős kanál és az édességért kötött alku visszaüt.</strong> Azt tanítják, hogy a gyerek ne hallgasson az éhségére, és hogy az édes étel a jutalom.</a>
             </article>
-            <h2 id="dor">Ki miről dönt</h2><p>Ellyn Satter felelősségmegosztása a válaszkész etetés legtisztább mondata. Olyan étkezést kínálsz, amelynek rendje van: van benne valami, amit a gyerek általában elfogad, és valami, amit még tanul. Leülsz. Nem könyörögsz, nem kergeted kanállal, és nem főzöl második ebédet, ha az elsőt visszautasítja.</p><p>Ha a baba elfordul, összeszorítja a száját, vagy játszani kezd, végzett. Ha akkor lezárod az étkezést, az siker. Így tanulja meg, hogy a saját teltsége számít.</p><h2 id="exposure">Ismételt találkozás</h2><p>Az ételneofóbia, vagyis az új ételek miatti gyanakvás, a tipegőkorban erősödik, és teljesen hétköznapi. A bizonyítékokon alapuló válasz az ismételt, semleges találkozás: az étel megjelenik, nem esik róla sok szó, és a jövő héten újra ott van. Az evésért járó dicséret és a visszautasítás miatti csalódás egyaránt nyomás.</p><p>Ha a visszautasításra mindig egy kedvenc étel készül helyette, a visszautasítást tanítod be. Tálalj egy étkezést. Legyen benne valami, amit a gyerek már elfogad, hogy ne éhesen álljon fel. Az új ételt hagyhatja figyelmen kívül.</p><h2 id="tricks">Trükkök, amelyek nem érik meg</h2><p>Ha etetés közben képernyő köti le a babát, a gyomor megtelik, a lecke kimarad. Az alku („ezt edd meg, és jöhet valami édes”) a sós ételt kötelességgé teszi. Ha minden zöldséget úgy elrejtesz, hogy a gyerek soha nem látja, az is kihagyja a leckét. Egy látható darab akkor is dolgozik, ha a tányéron marad.</p><p>Egyetek együtt, amikor csak lehet. A gyerek az asztalnál ülőket megbízhatóbban utánozza, mint hogy egy beszédet követne az egészséges ételekről.</p>
-            <h2>Források</h2>
-            <ol class="refs"><li class="ref" id="ref-1">
+            <h2 id="dor" data-edit="t32">Ki miről dönt</h2><p data-edit="t33">Ellyn Satter felelősségmegosztása a válaszkész etetés legtisztább mondata. Olyan étkezést kínálsz, amelynek rendje van: van benne valami, amit a gyerek általában elfogad, és valami, amit még tanul. Leülsz. Nem könyörögsz, nem kergeted kanállal, és nem főzöl második ebédet, ha az elsőt visszautasítja.</p><p data-edit="t34">Ha a baba elfordul, összeszorítja a száját, vagy játszani kezd, végzett. Ha akkor lezárod az étkezést, az siker. Így tanulja meg, hogy a saját teltsége számít.</p><h2 id="exposure" data-edit="t35">Ismételt találkozás</h2><p data-edit="t36">Az ételneofóbia, vagyis az új ételek miatti gyanakvás, a tipegőkorban erősödik, és teljesen hétköznapi. A bizonyítékokon alapuló válasz az ismételt, semleges találkozás: az étel megjelenik, nem esik róla sok szó, és a jövő héten újra ott van. Az evésért járó dicséret és a visszautasítás miatti csalódás egyaránt nyomás.</p><p data-edit="t37">Ha a visszautasításra mindig egy kedvenc étel készül helyette, a visszautasítást tanítod be. Tálalj egy étkezést. Legyen benne valami, amit a gyerek már elfogad, hogy ne éhesen álljon fel. Az új ételt hagyhatja figyelmen kívül.</p><h2 id="tricks" data-edit="t38">Trükkök, amelyek nem érik meg</h2><p data-edit="t39">Ha etetés közben képernyő köti le a babát, a gyomor megtelik, a lecke kimarad. Az alku („ezt edd meg, és jöhet valami édes”) a sós ételt kötelességgé teszi. Ha minden zöldséget úgy elrejtesz, hogy a gyerek soha nem látja, az is kihagyja a leckét. Egy látható darab akkor is dolgozik, ha a tányéron marad.</p><p data-edit="t40">Egyetek együtt, amikor csak lehet. A gyerek az asztalnál ülőket megbízhatóbban utánozza, mint hogy egy beszédet követne az egészséges ételekről.</p>
+            <h2 data-edit="t41">Források</h2>
+            <ol class="refs"><li class="ref" id="ref-1" data-edit="t42">
               <a href="https://www.ellynsatterinstitute.org/satter-feeding-dynamics-model/">A Satter-féle etetési modell és a felelősség megosztása</a>
               <div class="meta">Ellyn Satter Institute, 2024</div>
-            </li><li class="ref" id="ref-2">
+            </li><li class="ref" id="ref-2" data-edit="t43">
               <a href="https://doi.org/10.3945/jn.110.130005">Válaszkész etetés és a gyermekek alultápláltsága</a>
               <div class="meta">Black és Aboud, The Journal of Nutrition (a válaszkész etetés fogalmának áttekintése), 2011</div>
-            </li><li class="ref" id="ref-3">
+            </li><li class="ref" id="ref-3" data-edit="t44">
               <a href="https://doi.org/10.1097/MPG.0000000000001454">Hozzátáplálás: állásfoglalás, a válaszkész etetésről</a>
               <div class="meta">ESPGHAN, JPGN, 2017</div>
             </li></ol>
@@ -81,10 +82,11 @@
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t45">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t46">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

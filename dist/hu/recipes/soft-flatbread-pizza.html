@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Puha falatok</p>
-              <h1>Mini zöldséges pizza</h1>
-              <p class="hu">Soft vegetable flatbread</p>
+              <p class="kicker" data-edit="t7">Puha falatok</p>
+              <h1 data-edit="t8">Mini zöldséges pizza</h1>
+              <p class="hu" data-edit="t9">Soft vegetable flatbread</p>
               <div class="pills">
-                <span class="pill">12 hónapos kortól</span>
-                <span class="pill warn">Lecserélt</span>
-                <span class="pill quiet">75 min</span>
-                <span class="pill quiet">4 adag</span>
+                <span class="pill" data-edit="t10">12 hónapos kortól</span>
+                <span class="pill warn" data-edit="t11">Lecserélt</span>
+                <span class="pill quiet" data-edit="t12">75 min</span>
+                <span class="pill quiet" data-edit="t13">4 adag</span>
               </div>
-              <p>Négyzetekre vágva, meleg, puha darabokban kínáld. Az alja hajoljon meg, ne törjön szét.</p>
-              <p class="meta">Fagyasztható.</p>
+              <p data-edit="t14">Négyzetekre vágva, meleg, puha darabokban kínáld. Az alja hajoljon meg, ne törjön szét.</p>
+              <p class="meta" data-edit="t15">Fagyasztható.</p>
             </div>
             <img src="/assets/img/recipes/soft-flatbread-pizza.jpg" alt="Egy adag: Mini zöldséges pizza">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>150 g</strong> sima búzaliszt <span class="meta">(a tésztához)</span></li><li><strong>2 g</strong> instant élesztő <span class="meta">(kb. 1/2 teáskanál)</span></li><li><strong>95 ml</strong> víz <span class="meta">(langyos)</span></li><li><strong>2 teáskanál</strong> olívaolaj <span class="meta">(1 teáskanál a tésztába, 1 teáskanál a zöldségekre)</span></li><li><strong>150 g</strong> érett paradicsom <span class="meta">(só nélkül sűrű szósszá főzve)</span></li><li><strong>50 g</strong> cukkini <span class="meta">(apróra kockázva, puhára sütve)</span></li><li><strong>40 g</strong> kaliforniai paprika <span class="meta">(apróra kockázva, puhára sütve)</span></li><li><strong>40 g</strong> hagyma <span class="meta">(apróra kockázva, puhára sütve)</span></li><li><strong>20 g</strong> mozzarella <span class="meta">(pasztőrözött, apróra tépve)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">glutén</span><span class="pill quiet">tej</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>150 g</strong> sima búzaliszt <span class="meta">(a tésztához)</span></li><li data-edit="t18"><strong>2 g</strong> instant élesztő <span class="meta">(kb. 1/2 teáskanál)</span></li><li data-edit="t19"><strong>95 ml</strong> víz <span class="meta">(langyos)</span></li><li data-edit="t20"><strong>2 teáskanál</strong> olívaolaj <span class="meta">(1 teáskanál a tésztába, 1 teáskanál a zöldségekre)</span></li><li data-edit="t21"><strong>150 g</strong> érett paradicsom <span class="meta">(só nélkül sűrű szósszá főzve)</span></li><li data-edit="t22"><strong>50 g</strong> cukkini <span class="meta">(apróra kockázva, puhára sütve)</span></li><li data-edit="t23"><strong>40 g</strong> kaliforniai paprika <span class="meta">(apróra kockázva, puhára sütve)</span></li><li data-edit="t24"><strong>40 g</strong> hagyma <span class="meta">(apróra kockázva, puhára sütve)</span></li><li data-edit="t25"><strong>20 g</strong> mozzarella <span class="meta">(pasztőrözött, apróra tépve)</span></li></ul>
+              <h2 data-edit="t26">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t27">glutén</span><span class="pill quiet" data-edit="t28">tej</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>A lisztet, az élesztőt, a vizet és 1 teáskanál olajat keverd puha tésztává. Cukrot és sót ne adj hozzá.</li><li>Röviden gyúrd össze, takard le, és hagyd megkelni, kb. 45 percig.</li><li>Amíg a tészta kel, a cukkinit, a kaliforniai paprikát és a hagymát süsd puhára, a paradicsomot pedig sűrű szósszá főzd.</li><li>A tésztát nyomkodd vékonyra egy kis tepsiben, majd kend rá a paradicsomot, a zöldségeket és a mozzarellát.</li><li>200 °C-on süsd kb. 12 percig, amíg az alja átsül, de puha marad, a sajt pedig megolvad. Sonkát ne tegyél rá.</li><li>Hűtsd le, és négyzetekre vágd.</li></ol>
+              <h2 data-edit="t29">Elkészítés</h2>
+              <ol><li data-edit="t30">A lisztet, az élesztőt, a vizet és 1 teáskanál olajat keverd puha tésztává. Cukrot és sót ne adj hozzá.</li><li data-edit="t31">Röviden gyúrd össze, takard le, és hagyd megkelni, kb. 45 percig.</li><li data-edit="t32">Amíg a tészta kel, a cukkinit, a kaliforniai paprikát és a hagymát süsd puhára, a paradicsomot pedig sűrű szósszá főzd.</li><li data-edit="t33">A tésztát nyomkodd vékonyra egy kis tepsiben, majd kend rá a paradicsomot, a zöldségeket és a mozzarellát.</li><li data-edit="t34">200 °C-on süsd kb. 12 percig, amíg az alja átsül, de puha marad, a sajt pedig megolvad. Sonkát ne tegyél rá.</li><li data-edit="t35">Hűtsd le, és négyzetekre vágd.</li></ol>
             </section>
           </div>
           <section class="callout replace">
-            <h2>Lecserélt</h2>
-            <p>A megszokott mini pizzához sonkát, nádcukrot és sót használtak, és 9 vagy 10 hónapos korra szánták. A sonka sós, pácolt hús, abban a korban pedig a kenyér túl rágós.</p>
-            <p>A sonka és a cukor volt a gond, a kenyér állaga miatt pedig csak 12 hónapos kortól kerüljön az asztalra. Süss puha, élesztős lepényt cukor és só nélkül, sonka nélkül. A tetejére paradicsom, sült zöldség és egy kevés mozzarella kerüljön, és vágd négyzetekre.</p>
+            <h2 data-edit="t36">Lecserélt</h2>
+            <p data-edit="t37">A megszokott mini pizzához sonkát, nádcukrot és sót használtak, és 9 vagy 10 hónapos korra szánták. A sonka sós, pácolt hús, abban a korban pedig a kenyér túl rágós.</p>
+            <p data-edit="t38">A sonka és a cukor volt a gond, a kenyér állaga miatt pedig csak 12 hónapos kortól kerüljön az asztalra. Süss puha, élesztős lepényt cukor és só nélkül, sonka nélkül. A tetejére paradicsom, sült zöldség és egy kevés mozzarella kerüljön, és vágd négyzetekre.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/vegetable-bulgur.html">Zöldséges bulgur</a><a href="/hu/recipes/green-pasta-cheese.html">Zöld tészta sajttal</a><a href="/hu/recipes/tomato-chicken-pasta.html">Paradicsomos csirkés tészta</a>
+            <strong data-edit="t39">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/vegetable-bulgur.html" data-edit="t40">Zöldséges bulgur</a><a href="/hu/recipes/green-pasta-cheese.html" data-edit="t41">Zöld tészta sajttal</a><a href="/hu/recipes/tomato-chicken-pasta.html" data-edit="t42">Paradicsomos csirkés tészta</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t43">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t44">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

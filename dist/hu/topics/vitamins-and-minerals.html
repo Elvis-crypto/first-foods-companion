@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/" aria-current="page">Útmutatók</a>
-        <a href="/hu/recipes/">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" aria-current="page" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -46,38 +47,38 @@
     
         <div class="layout">
           <aside class="side">
-            <strong>Útmutatók</strong>
-            <a href="/hu/topics/why-first-foods-matter.html">Mire valók valójában az első ételek</a><a href="/hu/topics/when-to-start.html">Mikor kezdjük</a><a href="/hu/topics/ways-of-feeding.html">Kanál, ujjak vagy mindkettő</a><a href="/hu/topics/choosing-ingredients.html">Alapanyagok választása</a><a href="/hu/topics/cooking-and-seasoning.html">Főzés és ízesítés</a><a href="/hu/topics/tools-and-hygiene.html">Eszközök, higiénia és a fagyasztó</a><a href="/hu/topics/what-to-introduce.html">Mit vezess be, és mikor</a><a href="/hu/topics/allergens.html">Az allergének bevezetése</a><a href="/hu/topics/portions-and-milk.html">Adagok, állag és tej</a><a href="/hu/topics/a-week-of-meals.html">Egy hét, vázlatosan</a><a href="/hu/topics/how-meals-happen.html">Hogyan történik az étkezés</a><a href="/hu/topics/gagging-and-choking.html">Öklendezés és fulladás</a><a href="/hu/topics/picky-eating.html">Válogatós evés</a><a href="/hu/topics/illness.html">Amikor a gyermek beteg</a><a href="/hu/topics/teething.html">Fogzás</a><a href="/hu/topics/vitamins-and-minerals.html" aria-current="page">Vitaminok és ásványi anyagok</a><a href="/hu/topics/pocket-guide.html">Zsebkalauz</a>
+            <strong data-edit="t7">Útmutatók</strong>
+            <a href="/hu/topics/why-first-foods-matter.html" data-edit="t8">Mire valók valójában az első ételek</a><a href="/hu/topics/when-to-start.html" data-edit="t9">Mikor kezdjük</a><a href="/hu/topics/ways-of-feeding.html" data-edit="t10">Kanál, ujjak vagy mindkettő</a><a href="/hu/topics/choosing-ingredients.html" data-edit="t11">Alapanyagok választása</a><a href="/hu/topics/cooking-and-seasoning.html" data-edit="t12">Főzés és ízesítés</a><a href="/hu/topics/tools-and-hygiene.html" data-edit="t13">Eszközök, higiénia és a fagyasztó</a><a href="/hu/topics/what-to-introduce.html" data-edit="t14">Mit vezess be, és mikor</a><a href="/hu/topics/allergens.html" data-edit="t15">Az allergének bevezetése</a><a href="/hu/topics/portions-and-milk.html" data-edit="t16">Adagok, állag és tej</a><a href="/hu/topics/a-week-of-meals.html" data-edit="t17">Egy hét, vázlatosan</a><a href="/hu/topics/how-meals-happen.html" data-edit="t18">Hogyan történik az étkezés</a><a href="/hu/topics/gagging-and-choking.html" data-edit="t19">Öklendezés és fulladás</a><a href="/hu/topics/picky-eating.html" data-edit="t20">Válogatós evés</a><a href="/hu/topics/illness.html" data-edit="t21">Amikor a gyermek beteg</a><a href="/hu/topics/teething.html" data-edit="t22">Fogzás</a><a href="/hu/topics/vitamins-and-minerals.html" aria-current="page" data-edit="t23">Vitaminok és ásványi anyagok</a><a href="/hu/topics/pocket-guide.html" data-edit="t24">Zsebkalauz</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Útmutatók</p>
-            <h1>Vitaminok és ásványi anyagok</h1>
-            <p class="lede">A D-vitamin az első napoktól kiegészítés kérdése. A vas hat hónapos kortól étel kérdése. A többi az étrendet követi.</p>
+            <p class="kicker" data-edit="t25">Útmutatók</p>
+            <h1 data-edit="t26">Vitaminok és ásványi anyagok</h1>
+            <p class="lede" data-edit="t27">A D-vitamin az első napoktól kiegészítés kérdése. A vas hat hónapos kortól étel kérdése. A többi az étrendet követi.</p>
             <figure class="hero-photo">
               <img src="/assets/img/topics/vitamins-and-minerals.jpg" alt="Főtt csirkemáj, alma, tojás és vöröslencse">
             </figure>
-            <h2>Megállapítások</h2>
+            <h2 data-edit="t28">Megállapítások</h2>
             <article class="finding">
-              <a href="#d"><strong>Az anyatejes csecsemőnek D-vitamin-kiegészítőre van szüksége.</strong> Az étel nem fedezi. A magyar gyakorlatban a szokásos megelőző adagot a gyermekorvos vagy a védőnő írja fel, gyakran napi 400 IU-t, azaz 400 NE-t.</a>
+              <a href="#d" data-edit="t29"><strong>Az anyatejes csecsemőnek D-vitamin-kiegészítőre van szüksége.</strong> Az étel nem fedezi. A magyar gyakorlatban a szokásos megelőző adagot a gyermekorvos vagy a védőnő írja fel, gyakran napi 400 IU-t, azaz 400 NE-t.</a>
             </article><article class="finding">
-              <a href="#iron-min"><strong>A vas hat hónapos kor után az ételből jön, nem egy szokásos vasas erősítőből.</strong> A hús, a hüvelyesek és a dúsított gabonapehely a forrás. Kiegészítő kimutatott hiányra vagy meghatározott kockázatra való, nem alapból jár.</a>
+              <a href="#iron-min" data-edit="t30"><strong>A vas hat hónapos kor után az ételből jön, nem egy szokásos vasas erősítőből.</strong> A hús, a hüvelyesek és a dúsított gabonapehely a forrás. Kiegészítő kimutatott hiányra vagy meghatározott kockázatra való, nem alapból jár.</a>
             </article><article class="finding">
-              <a href="#b12"><strong>A vegán csecsemőétrendhez terv kell, nem bizakodás.</strong> A B12-vitamin, a jód, a vas, a cink, a kalcium és a DHA nem kerül bele magától a csak növényi étrendbe.</a>
+              <a href="#b12" data-edit="t31"><strong>A vegán csecsemőétrendhez terv kell, nem bizakodás.</strong> A B12-vitamin, a jód, a vas, a cink, a kalcium és a DHA nem kerül bele magától a csak növényi étrendbe.</a>
             </article><article class="finding">
-              <a href="#a"><strong>A máj egy adag A-vitamin.</strong> Hetente egyszer, kis adagban, bőven elég. Ne tegyél mellé A-vitamin-kiegészítőt.</a>
+              <a href="#a" data-edit="t32"><strong>A máj egy adag A-vitamin.</strong> Hetente egyszer, kis adagban, bőven elég. Ne tegyél mellé A-vitamin-kiegészítőt.</a>
             </article>
-            <h2 id="d">D-vitamin</h2><p>Közép-Európában a csecsemők az év nagy részében nem képeznek elég D-vitamint a napból, az anyatej pedig keveset tartalmaz. Az NHS anyatejes babáknak születéstől egyéves korig napi 8,5–10 mikrogramm (340–400 IU, tehát 340–400 NE) D-vitamint javasol. A magyar gyermekorvosi gyakorlat ehhez közeli napi D-vitamin-cseppet szokott felírni, néha magasabb megelőző adagban is. Azt a készítményt és azt az adagot használd, amit felírtak. Második készítményt ne tegyél rá „a biztonság kedvéért”.</p><p>A csecsemőtápszer már tartalmaz D-vitamint. Ha a baba napi 500 ml körül vagy annál többet iszik, lehet, hogy nincs szüksége külön cseppre. Ez a felíró orvos kérdése, mert a helyes válasz a tápszertől és a mennyiségtől függ.</p><h2 id="iron-min">Vas, cink és jód</h2><p>A vas étrendi szükséglete a második félévben a testmérethez képest magas, az egyesült államokbeli referenciaértékek szerint körülbelül napi 11 mg, és ezt az étkezések gyakorisága fedezi, nem egyetlen hősies adag. A legtöbb napon legyen vasban gazdag étel. A cink a hússal és a babfélékkel jár együtt. A növények önmagukban soványabb cinkforrást adnak.</p><p>A jód a pajzsmirigynek és a fejlődésnek fontos. A tejtermék, a tojás és a hal hozza. A jódozott só a lakosság eszköze, és egyéves kor alatt rossz eszköz, mert maga a só is korlátozott. A szoptató anya jódbevitele számít; ez az ő kiegészítőjének a kérdése, nem ok arra, hogy a babát sózd.</p><h2 id="b12">Vegetáriánus és vegán tányérok</h2><p>A lakto-ovo vegetáriánus csecsemőétrend működhet, ha a tojást és a tejterméket valóban megeszi, és a vas tervezett. Vegán étrendet össze lehet állítani, és könnyű elrontani. Az ESPGHAN azt kéri, hogy a vegán csecsemő orvosi és dietetikusi felügyeletet és megbízható B12-vitamin-forrást kapjon. A jódnak, az algaolajból származó DHA-nak, a vasnak, a cinknek és a kalciumnak megnevezett ételek kellenek, nem egy remény, hogy a változatosság majd fedezi őket.</p><p>A növényi ital nem csecsemőtápszer. A rizsital öt év alatt nem alkalmas. Más növényi ital az első évben nem lehet a fő ital, hacsak az orvos nem egy meghatározott készítményt választott.</p><h2 id="a">Az A-vitamin és a máj szabálya</h2><p>A máj vasban gazdag, és előformált A-vitaminban annyira gazdag, hogy egy nagy vagy gyakori adag túlviheti a biztonságos mennyiséget. Kis adag, a gyermek adagjában körülbelül 15 gramm főtt máj, legfeljebb hetente egyszer: ennyi ennek a ténynek az óvatos olvasata. Azon a héten, amikor A-vitamint tartalmazó kiegészítőt használtok, a májat teljesen hagyd ki.</p><p>A szokásos zöldségek karotinoidokat adnak, ezeket a szervezet szabályozott módon alakítja át. A répára nincs hasonló felső határ. A répától narancssárga bőr ártalmatlan, és elmúlik.</p>
-            <h2>Források</h2>
-            <ol class="refs"><li class="ref" id="ref-1">
+            <h2 id="d" data-edit="t33">D-vitamin</h2><p data-edit="t34">Közép-Európában a csecsemők az év nagy részében nem képeznek elég D-vitamint a napból, az anyatej pedig keveset tartalmaz. Az NHS anyatejes babáknak születéstől egyéves korig napi 8,5–10 mikrogramm (340–400 IU, tehát 340–400 NE) D-vitamint javasol. A magyar gyermekorvosi gyakorlat ehhez közeli napi D-vitamin-cseppet szokott felírni, néha magasabb megelőző adagban is. Azt a készítményt és azt az adagot használd, amit felírtak. Második készítményt ne tegyél rá „a biztonság kedvéért”.</p><p data-edit="t35">A csecsemőtápszer már tartalmaz D-vitamint. Ha a baba napi 500 ml körül vagy annál többet iszik, lehet, hogy nincs szüksége külön cseppre. Ez a felíró orvos kérdése, mert a helyes válasz a tápszertől és a mennyiségtől függ.</p><h2 id="iron-min" data-edit="t36">Vas, cink és jód</h2><p data-edit="t37">A vas étrendi szükséglete a második félévben a testmérethez képest magas, az egyesült államokbeli referenciaértékek szerint körülbelül napi 11 mg, és ezt az étkezések gyakorisága fedezi, nem egyetlen hősies adag. A legtöbb napon legyen vasban gazdag étel. A cink a hússal és a babfélékkel jár együtt. A növények önmagukban soványabb cinkforrást adnak.</p><p data-edit="t38">A jód a pajzsmirigynek és a fejlődésnek fontos. A tejtermék, a tojás és a hal hozza. A jódozott só a lakosság eszköze, és egyéves kor alatt rossz eszköz, mert maga a só is korlátozott. A szoptató anya jódbevitele számít; ez az ő kiegészítőjének a kérdése, nem ok arra, hogy a babát sózd.</p><h2 id="b12" data-edit="t39">Vegetáriánus és vegán tányérok</h2><p data-edit="t40">A lakto-ovo vegetáriánus csecsemőétrend működhet, ha a tojást és a tejterméket valóban megeszi, és a vas tervezett. Vegán étrendet össze lehet állítani, és könnyű elrontani. Az ESPGHAN azt kéri, hogy a vegán csecsemő orvosi és dietetikusi felügyeletet és megbízható B12-vitamin-forrást kapjon. A jódnak, az algaolajból származó DHA-nak, a vasnak, a cinknek és a kalciumnak megnevezett ételek kellenek, nem egy remény, hogy a változatosság majd fedezi őket.</p><p data-edit="t41">A növényi ital nem csecsemőtápszer. A rizsital öt év alatt nem alkalmas. Más növényi ital az első évben nem lehet a fő ital, hacsak az orvos nem egy meghatározott készítményt választott.</p><h2 id="a" data-edit="t42">Az A-vitamin és a máj szabálya</h2><p data-edit="t43">A máj vasban gazdag, és előformált A-vitaminban annyira gazdag, hogy egy nagy vagy gyakori adag túlviheti a biztonságos mennyiséget. Kis adag, a gyermek adagjában körülbelül 15 gramm főtt máj, legfeljebb hetente egyszer: ennyi ennek a ténynek az óvatos olvasata. Azon a héten, amikor A-vitamint tartalmazó kiegészítőt használtok, a májat teljesen hagyd ki.</p><p data-edit="t44">A szokásos zöldségek karotinoidokat adnak, ezeket a szervezet szabályozott módon alakítja át. A répára nincs hasonló felső határ. A répától narancssárga bőr ártalmatlan, és elmúlik.</p>
+            <h2 data-edit="t45">Források</h2>
+            <ol class="refs"><li class="ref" id="ref-1" data-edit="t46">
               <a href="https://www.nhs.uk/baby/weaning-and-feeding/vitamins-for-children/">Vitaminok gyermekeknek</a>
               <div class="meta">NHS, 2024</div>
-            </li><li class="ref" id="ref-2">
+            </li><li class="ref" id="ref-2" data-edit="t47">
               <a href="https://doi.org/10.1097/MPG.0000000000001454">Hozzátáplálás: állásfoglalás, a vasról és a vegán étrendekről</a>
               <div class="meta">ESPGHAN, JPGN, 2017</div>
-            </li><li class="ref" id="ref-3">
+            </li><li class="ref" id="ref-3" data-edit="t48">
               <a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/">A vas étrendi referencia-bevitelei</a>
               <div class="meta">National Academies / NIH Étrend-kiegészítők Hivatala, egészségügyi szakembereknek szóló vas-ténylap, 2023</div>
-            </li><li class="ref" id="ref-4">
+            </li><li class="ref" id="ref-4" data-edit="t49">
               <a href="https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/">Kerülendő ételek csecsemőknek és kisgyermekeknek: a máj és az A-vitamin</a>
               <div class="meta">NHS, 2024</div>
             </li></ol>
@@ -86,10 +87,11 @@
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t50">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t51">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

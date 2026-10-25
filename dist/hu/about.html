@@ -20,45 +20,47 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/">Receptek</a>
-        <a href="/hu/about.html" aria-current="page">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" aria-current="page" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
   <main class="wrap">
     
     <section class="section">
-      <p class="kicker">Az oldalról</p>
-      <h1>Eredeti társoldal, nem a könyv másolata.</h1>
-      <p class="lede">Az ételötletek és a kérdések, amelyeket a családok feltesznek, az <em>Anya, kérek még!</em> című könyvből jöttek, Ambrus Éva írta, a BOOOK Kiadó adta ki. Az itteni mondatokat ehhez az oldalhoz írtuk. A könyv szövegét és fényképeit nem közöljük.</p>
+      <p class="kicker" data-edit="t7">Az oldalról</p>
+      <h1 data-edit="t8">Eredeti társoldal, nem a könyv másolata.</h1>
+      <p class="lede" data-edit="t9">Az ételötletek és a kérdések, amelyeket a családok feltesznek, az <em>Anya, kérek még!</em> című könyvből jöttek, Ambrus Éva írta, a BOOOK Kiadó adta ki. Az itteni mondatokat ehhez az oldalhoz írtuk. A könyv szövegét és fényképeit nem közöljük.</p>
     </section>
     <section class="section prose">
-      <h2>Ami megmaradt</h2><p>Egy magyar hozzátáplálós konyha váza: sütőtök, alma, túró, csípősség nélküli paprika, néha máj, szálkamentes hal, tojás, bab, és a kis ünnepi sütemények, amelyeket a családok tényleg meg akarnak sütni. Ahol az étel eleve sima főtt gyümölcs vagy zöldség volt, a recept közel marad ahhoz.</p><h2>Ami megváltozott</h2><p>Egyéves kor alatt a hozzáadott só és cukor kikerül. Méz egyáltalán nincs ezekben a receptekben. Földimogyoró, tojás, tej, búza, szezám, hal, szója és darált dióféle már hat hónapos kor körül, biztonságos állagban kerül az étrendbe, nem az első születésnap felé halasztva. A sült panír sütőben készül, és puha marad. Az egész dió, a kemény kerek darab, a ponty, a korai mustár és a sós sonka kiesik. Minden receptoldal megmondja, hogy az ötlet jó volt, igazítottuk, vagy lecseréltük.</p><h2>Hogyan készültek az útmutatók</h2><p>A korra, a vasra, a fehérjére, az allergénekre, a D-vitaminra és a fulladásra vonatkozó állítások valódi forráshoz kötöttek: ESPGHAN, WHO, EFSA, a LEAP és az EAT vizsgálat, NHS, CDC, AAP, vagy magyar szakmai összefoglaló. Ha egy ismerős helyi oldal még a régi gyümölcs, aztán hús sorrendet tanítja, az útmutató ezt kimondja. Az oldal nem talál ki személyes gyógyszeradagot. Szoptatott csecsemőnek a D-vitamin felírt készítmény.</p><h2>Amit ez az oldal nem tesz meg</h2><p>Nem mondja meg, hogy a te gyereked jól van. Nem helyettesít egy csecsemő-elsősegély tanfolyamot. Végezz tanfolyamot. Ha a baba csendes, és nem tud köhögni, hívj segítséget.</p>
+      <h2 data-edit="t10">Ami megmaradt</h2><p data-edit="t11">Egy magyar hozzátáplálós konyha váza: sütőtök, alma, túró, csípősség nélküli paprika, néha máj, szálkamentes hal, tojás, bab, és a kis ünnepi sütemények, amelyeket a családok tényleg meg akarnak sütni. Ahol az étel eleve sima főtt gyümölcs vagy zöldség volt, a recept közel marad ahhoz.</p><h2 data-edit="t12">Ami megváltozott</h2><p data-edit="t13">Egyéves kor alatt a hozzáadott só és cukor kikerül. Méz egyáltalán nincs ezekben a receptekben. Földimogyoró, tojás, tej, búza, szezám, hal, szója és darált dióféle már hat hónapos kor körül, biztonságos állagban kerül az étrendbe, nem az első születésnap felé halasztva. A sült panír sütőben készül, és puha marad. Az egész dió, a kemény kerek darab, a ponty, a korai mustár és a sós sonka kiesik. Minden receptoldal megmondja, hogy az ötlet jó volt, igazítottuk, vagy lecseréltük.</p><h2 data-edit="t14">Hogyan készültek az útmutatók</h2><p data-edit="t15">A korra, a vasra, a fehérjére, az allergénekre, a D-vitaminra és a fulladásra vonatkozó állítások valódi forráshoz kötöttek: ESPGHAN, WHO, EFSA, a LEAP és az EAT vizsgálat, NHS, CDC, AAP, vagy magyar szakmai összefoglaló. Ha egy ismerős helyi oldal még a régi gyümölcs, aztán hús sorrendet tanítja, az útmutató ezt kimondja. Az oldal nem talál ki személyes gyógyszeradagot. Szoptatott csecsemőnek a D-vitamin felírt készítmény.</p><h2 data-edit="t16">Amit ez az oldal nem tesz meg</h2><p data-edit="t17">Nem mondja meg, hogy a te gyereked jól van. Nem helyettesít egy csecsemő-elsősegély tanfolyamot. Végezz tanfolyamot. Ha a baba csendes, és nem tud köhögni, hívj segítséget.</p>
     </section>
     
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t18">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t19">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

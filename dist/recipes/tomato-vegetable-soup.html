@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Toddler meals</p>
-              <h1>Tomato vegetable soup</h1>
-              <p class="hu">Zöldséges paradicsomkrémleves</p>
+              <p class="kicker" data-edit="t7">Toddler meals</p>
+              <h1 data-edit="t8">Tomato vegetable soup</h1>
+              <p class="hu" data-edit="t9">Zöldséges paradicsomkrémleves</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill sage">Sound idea</span>
-                <span class="pill quiet">30 min</span>
-                <span class="pill quiet">4 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill sage" data-edit="t11">Sound idea</span>
+                <span class="pill quiet" data-edit="t12">30 min</span>
+                <span class="pill quiet" data-edit="t13">4 portions</span>
               </div>
-              <p>Serve warm in a bowl. It is a complete soft meal without cream.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">Serve warm in a bowl. It is a complete soft meal without cream.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/tomato-vegetable-soup.jpg" alt="A serving of Tomato vegetable soup">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>3 medium</strong> Tomatoes <span class="meta">(Chopped)</span></li><li><strong>1 medium</strong> Carrot <span class="meta">(Peeled and chopped)</span></li><li><strong>1 medium</strong> Potato <span class="meta">(Peeled and chopped)</span></li><li><strong>1 small</strong> Red pepper <span class="meta">(Seeds removed and chopped)</span></li><li><strong>400 ml</strong> Water <span class="meta">(Enough to simmer the vegetables)</span></li><li><strong>1 tablespoon</strong> Olive oil <span class="meta">(Stirred in after blending)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">none</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>3 medium</strong> Tomatoes <span class="meta">(Chopped)</span></li><li data-edit="t18"><strong>1 medium</strong> Carrot <span class="meta">(Peeled and chopped)</span></li><li data-edit="t19"><strong>1 medium</strong> Potato <span class="meta">(Peeled and chopped)</span></li><li data-edit="t20"><strong>1 small</strong> Red pepper <span class="meta">(Seeds removed and chopped)</span></li><li data-edit="t21"><strong>400 ml</strong> Water <span class="meta">(Enough to simmer the vegetables)</span></li><li data-edit="t22"><strong>1 tablespoon</strong> Olive oil <span class="meta">(Stirred in after blending)</span></li></ul>
+              <h2 data-edit="t23">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t24">none</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Put the tomatoes, carrot, potato, red pepper, and water in a pan.</li><li>Simmer until the potato and carrot are very soft.</li><li>Blend until completely smooth.</li><li>Stir in the olive oil off the heat.</li><li>Cool to serving temperature.</li></ol>
+              <h2 data-edit="t25">Method</h2>
+              <ol><li data-edit="t26">Put the tomatoes, carrot, potato, red pepper, and water in a pan.</li><li data-edit="t27">Simmer until the potato and carrot are very soft.</li><li data-edit="t28">Blend until completely smooth.</li><li data-edit="t29">Stir in the olive oil off the heat.</li><li data-edit="t30">Cool to serving temperature.</li></ol>
             </section>
           </div>
           <section class="callout sound">
-            <h2>Sound idea</h2>
-            <p>Salt and cream are not required. The vegetables should be blended smooth for the early months.</p>
-            <p>Cook tomato, carrot, potato, and red pepper, blend them, and stir olive oil in at the end.</p>
+            <h2 data-edit="t31">Sound idea</h2>
+            <p data-edit="t32">Salt and cream are not required. The vegetables should be blended smooth for the early months.</p>
+            <p data-edit="t33">Cook tomato, carrot, potato, and red pepper, blend them, and stir olive oil in at the end.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/soft-cinnamon-oats.html">Soft cinnamon oat bake</a><a href="/recipes/apple-peanut-quinoa.html">Apple peanut quinoa</a><a href="/recipes/apple-porridge.html">Apple porridge</a>
+            <strong data-edit="t34">More in this group</strong>
+            <a href="/recipes/soft-cinnamon-oats.html" data-edit="t35">Soft cinnamon oat bake</a><a href="/recipes/apple-peanut-quinoa.html" data-edit="t36">Apple peanut quinoa</a><a href="/recipes/apple-porridge.html" data-edit="t37">Apple porridge</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t38">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t39">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

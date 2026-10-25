@@ -62,19 +62,23 @@
       .replace(/"/g, "&quot;");
   }
 
+  function editAttr(id, field) {
+    return ' data-edit="recipe:' + escapeText(id) + ":" + field + '"';
+  }
+
   function card(recipe) {
     var primary = recipe.primary || recipe.title;
     var secondary = recipe.secondary || recipe.title_hu;
     return (
       '<a class="recipe-card" href="' + prefix + "/recipes/" + escapeText(recipe.id) + '.html">' +
         '<div class="pills">' +
-          '<span class="pill">' + escapeText(recipe.min_age_months) + " " + escapeText(months) + "</span>" +
-          '<span class="' + (recipe.verdict === "sound" ? "pill sage" : "pill warn") + '">' + escapeText(recipe.verdict_label) + "</span>" +
-          '<span class="pill quiet">' + escapeText(recipe.category_label) + "</span>" +
+          '<span class="pill"' + editAttr(recipe.id, "age") + ">" + escapeText(recipe.min_age_months) + " " + escapeText(months) + "</span>" +
+          '<span class="' + (recipe.verdict === "sound" ? "pill sage" : "pill warn") + '"' + editAttr(recipe.id, "verdict") + ">" + escapeText(recipe.verdict_label) + "</span>" +
+          '<span class="pill quiet"' + editAttr(recipe.id, "category") + ">" + escapeText(recipe.category_label) + "</span>" +
         "</div>" +
-        "<h3>" + escapeText(primary) + "</h3>" +
-        '<p class="hu">' + escapeText(secondary) + "</p>" +
-        "<p>" + escapeText(recipe.time_minutes) + " min · " + escapeText(recipe.portions) + "</p>" +
+        "<h3" + editAttr(recipe.id, "title") + ">" + escapeText(primary) + "</h3>" +
+        '<p class="hu"' + editAttr(recipe.id, "secondary") + ">" + escapeText(secondary) + "</p>" +
+        "<p" + editAttr(recipe.id, "details") + ">" + escapeText(recipe.time_minutes) + " min · " + escapeText(recipe.portions) + "</p>" +
       "</a>"
     );
   }
@@ -152,6 +156,7 @@
       var top = list.getBoundingClientRect().top;
       if (top > window.innerHeight - 120) list.scrollIntoView({ behavior: "smooth", block: "start" });
     }
+    document.dispatchEvent(new CustomEvent("recipes:rendered"));
   }
 
   function press(buttons, attr, value) {

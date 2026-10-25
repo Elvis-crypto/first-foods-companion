@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Puha falatok</p>
-              <h1>Répás vöröslencsés falatok</h1>
-              <p class="hu">Lentil and carrot bites</p>
+              <p class="kicker" data-edit="t7">Puha falatok</p>
+              <h1 data-edit="t8">Répás vöröslencsés falatok</h1>
+              <p class="hu" data-edit="t9">Lentil and carrot bites</p>
               <div class="pills">
-                <span class="pill">8 hónapos kortól</span>
-                <span class="pill warn">Igazított</span>
-                <span class="pill quiet">40 min</span>
-                <span class="pill quiet">4 adag</span>
+                <span class="pill" data-edit="t10">8 hónapos kortól</span>
+                <span class="pill warn" data-edit="t11">Igazított</span>
+                <span class="pill quiet" data-edit="t12">40 min</span>
+                <span class="pill quiet" data-edit="t13">4 adag</span>
               </div>
-              <p>Hasznos, vasban gazdag étel. A puha falatokat melegen kínáld.</p>
-              <p class="meta">Fagyasztható.</p>
+              <p data-edit="t14">Hasznos, vasban gazdag étel. A puha falatokat melegen kínáld.</p>
+              <p class="meta" data-edit="t15">Fagyasztható.</p>
             </div>
             <img src="/assets/img/recipes/lentil-carrot-bites.jpg" alt="Egy adag: Répás vöröslencsés falatok">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>80 g</strong> vöröslencse <span class="meta">(átöblítve)</span></li><li><strong>1 közepes</strong> sárgarépa <span class="meta">(lereszelve)</span></li><li><strong>120 g</strong> édesburgonya <span class="meta">(meghámozva, felkockázva)</span></li><li><strong>300 ml</strong> víz <span class="meta">(sima)</span></li><li><strong>1</strong> tojás <span class="meta">(a sütőben teljesen átsütve)</span></li><li><strong>10 g</strong> enyhe kemény sajt <span class="meta">(pasztőrözött, finomra reszelve, ne cheddar legyen)</span></li><li><strong>1 teáskanál</strong> koriander <span class="meta">(felaprítva, elhagyható)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">tojás</span><span class="pill quiet">tej</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>80 g</strong> vöröslencse <span class="meta">(átöblítve)</span></li><li data-edit="t18"><strong>1 közepes</strong> sárgarépa <span class="meta">(lereszelve)</span></li><li data-edit="t19"><strong>120 g</strong> édesburgonya <span class="meta">(meghámozva, felkockázva)</span></li><li data-edit="t20"><strong>300 ml</strong> víz <span class="meta">(sima)</span></li><li data-edit="t21"><strong>1</strong> tojás <span class="meta">(a sütőben teljesen átsütve)</span></li><li data-edit="t22"><strong>10 g</strong> enyhe kemény sajt <span class="meta">(pasztőrözött, finomra reszelve, ne cheddar legyen)</span></li><li data-edit="t23"><strong>1 teáskanál</strong> koriander <span class="meta">(felaprítva, elhagyható)</span></li></ul>
+              <h2 data-edit="t24">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t25">tojás</span><span class="pill quiet" data-edit="t26">tej</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>A lencsét, a sárgarépát és az édesburgonyát a vízben lassú tűzön főzd nagyon puhára, amíg a lencse szétfő.</li><li>A felesleges levet öntsd le, és törd majdnem simára.</li><li>Keverd bele a tojást, az enyhe sajtot, és ha szeretnéd, a koriandert. Cheddart ne használj.</li><li>Formálj kis lapos falatokat, és 190 °C-on süsd, amíg a tojás megköt, a külseje pedig puha marad.</li><li>Ne süsd ki őket. Ezután hűts le egyet, és nyomd szét, hogy lásd az állagot.</li></ol>
+              <h2 data-edit="t27">Elkészítés</h2>
+              <ol><li data-edit="t28">A lencsét, a sárgarépát és az édesburgonyát a vízben lassú tűzön főzd nagyon puhára, amíg a lencse szétfő.</li><li data-edit="t29">A felesleges levet öntsd le, és törd majdnem simára.</li><li data-edit="t30">Keverd bele a tojást, az enyhe sajtot, és ha szeretnéd, a koriandert. Cheddart ne használj.</li><li data-edit="t31">Formálj kis lapos falatokat, és 190 °C-on süsd, amíg a tojás megköt, a külseje pedig puha marad.</li><li data-edit="t32">Ne süsd ki őket. Ezután hűts le egyet, és nyomd szét, hogy lásd az állagot.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Igazított</h2>
-            <p>A cheddar ebben a korban nagyon sós, a kisütéstől pedig kemény kéreg kerülne erre a vasban gazdag falatra. A lencsének és a zöldségnek formázás előtt teljesen puhának kell lennie.</p>
-            <p>A vöröslencsét, a sárgarépát és az édesburgonyát főzd puhára, majd tojással és kevés enyhe, pasztőrözött sajttal kösd össze, vagy a sajtot hagyd el. Cheddart ne használj. A falatokat süsd meg, ne süsd ki, és koriandert csak akkor tegyél bele, ha szeretnéd.</p>
+            <h2 data-edit="t33">Igazított</h2>
+            <p data-edit="t34">A cheddar ebben a korban nagyon sós, a kisütéstől pedig kemény kéreg kerülne erre a vasban gazdag falatra. A lencsének és a zöldségnek formázás előtt teljesen puhának kell lennie.</p>
+            <p data-edit="t35">A vöröslencsét, a sárgarépát és az édesburgonyát főzd puhára, majd tojással és kevés enyhe, pasztőrözött sajttal kösd össze, vagy a sajtot hagyd el. Cheddart ne használj. A falatokat süsd meg, ne süsd ki, és koriandert csak akkor tegyél bele, ha szeretnéd.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/vegetable-bulgur.html">Zöldséges bulgur</a><a href="/hu/recipes/green-pasta-cheese.html">Zöld tészta sajttal</a><a href="/hu/recipes/tomato-chicken-pasta.html">Paradicsomos csirkés tészta</a>
+            <strong data-edit="t36">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/vegetable-bulgur.html" data-edit="t37">Zöldséges bulgur</a><a href="/hu/recipes/green-pasta-cheese.html" data-edit="t38">Zöld tészta sajttal</a><a href="/hu/recipes/tomato-chicken-pasta.html" data-edit="t39">Paradicsomos csirkés tészta</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t40">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t41">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

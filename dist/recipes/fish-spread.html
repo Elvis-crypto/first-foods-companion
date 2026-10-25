@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Basics</p>
-              <h1>White fish spread</h1>
-              <p class="hu">Halpástétom</p>
+              <p class="kicker" data-edit="t7">Basics</p>
+              <h1 data-edit="t8">White fish spread</h1>
+              <p class="hu" data-edit="t9">Halpástétom</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill sage">Sound idea</span>
-                <span class="pill quiet">25 min</span>
-                <span class="pill quiet">2 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill sage" data-edit="t11">Sound idea</span>
+                <span class="pill quiet" data-edit="t12">25 min</span>
+                <span class="pill quiet" data-edit="t13">2 portions</span>
               </div>
-              <p>From 6 months. If fish is new, try the first taste in the morning on a well day, and once it is tolerated keep offering fish a few times a week.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">From 6 months. If fish is new, try the first taste in the morning on a well day, and once it is tolerated keep offering fish a few times a week.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/fish-spread.jpg" alt="A serving of White fish spread">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>60 g</strong> boneless white fish <span class="meta">(pollock, cod, or haddock; not shark, swordfish, marlin, carp, or smoked fish)</span></li><li><strong>80 g</strong> potato <span class="meta">(peeled and cooked soft)</span></li><li><strong>1 tsp</strong> rapeseed or olive oil <span class="meta">(stirred in at the end)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">fish</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>60 g</strong> boneless white fish <span class="meta">(pollock, cod, or haddock; not shark, swordfish, marlin, carp, or smoked fish)</span></li><li data-edit="t18"><strong>80 g</strong> potato <span class="meta">(peeled and cooked soft)</span></li><li data-edit="t19"><strong>1 tsp</strong> rapeseed or olive oil <span class="meta">(stirred in at the end)</span></li></ul>
+              <h2 data-edit="t20">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t21">fish</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Check the fillet and remove every bone.</li><li>Poach or steam it until it flakes and is opaque all through.</li><li>Mash it with the cooked potato and the oil.</li><li>Thin with a little cooking water if needed.</li><li>Cool quickly.</li><li>Serve, or freeze in a small pot, and do not use smoked fish.</li></ol>
+              <h2 data-edit="t22">Method</h2>
+              <ol><li data-edit="t23">Check the fillet and remove every bone.</li><li data-edit="t24">Poach or steam it until it flakes and is opaque all through.</li><li data-edit="t25">Mash it with the cooked potato and the oil.</li><li data-edit="t26">Thin with a little cooking water if needed.</li><li data-edit="t27">Cool quickly.</li><li data-edit="t28">Serve, or freeze in a small pot, and do not use smoked fish.</li></ol>
             </section>
           </div>
           <section class="callout sound">
-            <h2>Sound idea</h2>
-            <p>Smoked fish is salty and is not the same as a fresh cooked fillet.</p>
-            <p>Blend cooked boneless white fish with potato and oil. Leave out smoked fish, shark, swordfish, marlin, and carp.</p>
+            <h2 data-edit="t29">Sound idea</h2>
+            <p data-edit="t30">Smoked fish is salty and is not the same as a fresh cooked fillet.</p>
+            <p data-edit="t31">Blend cooked boneless white fish with potato and oil. Leave out smoked fish, shark, swordfish, marlin, and carp.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/unsalted-stock.html">Unsalted stock</a><a href="/recipes/liver-dumplings.html">Liver dumplings</a><a href="/recipes/fresh-pasta.html">Fresh pasta</a>
+            <strong data-edit="t32">More in this group</strong>
+            <a href="/recipes/unsalted-stock.html" data-edit="t33">Unsalted stock</a><a href="/recipes/liver-dumplings.html" data-edit="t34">Liver dumplings</a><a href="/recipes/fresh-pasta.html" data-edit="t35">Fresh pasta</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t36">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t37">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

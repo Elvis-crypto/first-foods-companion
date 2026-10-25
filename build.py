@@ -8,6 +8,7 @@ import json
 import re
 import shutil
 import sys
+from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -274,6 +275,14 @@ UI = {
         "language": "Language",
         "day": "Day",
         "night": "Night",
+        "sign_in": "Sign in",
+        "edit_text": "Edit text",
+        "edit_done": "Done",
+        "reset_page": "Reset this page",
+        "reset_confirm": "Remove your edits on this page?",
+        "edit_saved": "Saved",
+        "edit_error": "Could not save that edit.",
+        "edit_hint": "Your edits stay on your account. Other people still see the original.",
         "months": "months+",
         "empty": "No recipes match those filters.",
         "one": "recipe",
@@ -365,6 +374,14 @@ UI = {
         "language": "Nyelv",
         "day": "Nappal",
         "night": "Éjszaka",
+        "sign_in": "Belépés",
+        "edit_text": "Szöveg szerkesztése",
+        "edit_done": "Kész",
+        "reset_page": "Oldal visszaállítása",
+        "reset_confirm": "Törlöd a saját módosításaidat ezen az oldalon?",
+        "edit_saved": "Mentve",
+        "edit_error": "A módosítást nem sikerült menteni.",
+        "edit_hint": "A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják.",
         "months": "hónapos kortól",
         "empty": "Nincs a szűrésnek megfelelő recept.",
         "one": "recept",
@@ -659,6 +676,7 @@ def chrome(ui, title: str, body: str, current: str, bare: str, extra_script: str
           <option value="hu"{selected_hu}>Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="{esc(ui['day'])}" data-night="{esc(ui['night'])}" aria-pressed="false">{esc(ui['night'])}</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="{esc(ui['sign_in'])}" data-label-edit="{esc(ui['edit_text'])}" data-done="{esc(ui['edit_done'])}" data-reset="{esc(ui['reset_page'])}" data-confirm="{esc(ui['reset_confirm'])}" data-saved="{esc(ui['edit_saved'])}" data-error="{esc(ui['edit_error'])}" data-hint="{esc(ui['edit_hint'])}"></div>
       </div>
     </div>
   </header>
@@ -671,12 +689,154 @@ def chrome(ui, title: str, body: str, current: str, bare: str, extra_script: str
   </footer>
   {extra_script}
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>
 """
 
 
+VOID_TAGS = {
+    "area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta",
+    "param", "source", "track", "wbr",
+}
+EDITABLE_TAGS = {
+    "a", "button", "h1", "h2", "h3", "p", "li", "label", "option", "span",
+    "strong", "em", "figcaption", "summary", "small", "dt", "dd", "th", "td", "legend",
+}
+SKIP_TREE_TAGS = {"script", "style", "textarea"}
+
+
+class _Node:
+    def __init__(self, kind: str, tag: str = "", attrs: list | None = None, data: str = "") -> None:
+        self.kind = kind
+        self.tag = tag
+        self.attrs = attrs or []
+        self.data = data
+        self.children: list[_Node] = []
+
+
+class _TreeParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=False)
+        self.root = _Node("root")
+        self.stack = [self.root]
+
+    def _add(self, node: _Node) -> _Node:
+        self.stack[-1].children.append(node)
+        return node
+
+    def handle_decl(self, decl: str) -> None:
+        self._add(_Node("decl", data=decl))
+
+    def handle_comment(self, data: str) -> None:
+        self._add(_Node("comment", data=data))
+
+    def handle_data(self, data: str) -> None:
+        self._add(_Node("text", data=data))
+
+    def handle_entityref(self, name: str) -> None:
+        self._add(_Node("text", data=f"&{name};"))
+
+    def handle_charref(self, name: str) -> None:
+        self._add(_Node("text", data=f"&#{name};"))
+
+    def handle_starttag(self, tag: str, attrs: list) -> None:
+        node = self._add(_Node("element", tag=tag, attrs=list(attrs)))
+        if tag not in VOID_TAGS:
+            self.stack.append(node)
+
+    def handle_startendtag(self, tag: str, attrs: list) -> None:
+        self._add(_Node("element", tag=tag, attrs=list(attrs)))
+
+    def handle_endtag(self, tag: str) -> None:
+        for index in range(len(self.stack) - 1, 0, -1):
+            if self.stack[index].tag == tag:
+                del self.stack[index:]
+                return
+
+
+def _has_attr(node: _Node, name: str) -> bool:
+    return any(key == name for key, _value in node.attrs)
+
+
+def _visible_text(node: _Node) -> str:
+    if node.kind == "text":
+        return node.data
+    if node.kind != "element" or node.tag in SKIP_TREE_TAGS:
+        return ""
+    return "".join(_visible_text(child) for child in node.children)
+
+
+def _stamp_node(node: _Node, ancestor_unit: bool, ancestor_skip: bool, counter: int) -> int:
+    if node.kind == "root":
+        for child in node.children:
+            counter = _stamp_node(child, ancestor_unit, ancestor_skip, counter)
+        return counter
+    if node.kind != "element":
+        return counter
+    skip = (
+        ancestor_skip
+        or node.tag in SKIP_TREE_TAGS
+        or _has_attr(node, "data-recipe-list")
+        or _has_attr(node, "data-no-edit")
+    )
+    unit = ancestor_unit
+    blocked = (
+        skip
+        or unit
+        or _has_attr(node, "data-edit")
+        or _has_attr(node, "data-count")
+        or _has_attr(node, "data-age-note")
+        or _has_attr(node, "data-theme-toggle")
+    )
+    if node.tag in EDITABLE_TAGS and not blocked and _visible_text(node).strip():
+        node.attrs.append(("data-edit", f"t{counter}"))
+        counter += 1
+        unit = True
+    elif _has_attr(node, "data-edit"):
+        unit = True
+    for child in node.children:
+        counter = _stamp_node(child, unit, skip, counter)
+    return counter
+
+
+def _serialize(node: _Node) -> str:
+    if node.kind == "root":
+        return "".join(_serialize(child) for child in node.children)
+    if node.kind == "text":
+        return node.data
+    if node.kind == "decl":
+        return f"<!{node.data}>"
+    if node.kind == "comment":
+        return f"<!--{node.data}-->"
+    rendered = []
+    for name, value in node.attrs:
+        if value is None:
+            rendered.append(f" {name}")
+        else:
+            rendered.append(f' {name}="{esc(value)}"')
+    attrs = "".join(rendered)
+    if node.tag in VOID_TAGS:
+        return f"<{node.tag}{attrs}>"
+    inner = "".join(_serialize(child) for child in node.children)
+    return f"<{node.tag}{attrs}>{inner}</{node.tag}>"
+
+
+def stamp_document(document: str) -> str:
+    parser = _TreeParser()
+    parser.feed(document)
+    parser.close()
+    _stamp_node(parser.root, False, False, 0)
+    return _serialize(parser.root)
+
+
 def write_page(relative: str, document: str) -> None:
+    try:
+        stamped = stamp_document(document)
+        if stamped.count("<html") == 1 and stamped.count("</html>") == 1:
+            document = stamped
+    except Exception:
+        pass
     path = DIST / relative
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(document, encoding="utf-8", newline="\n")
@@ -841,15 +1001,16 @@ def recipe_card(ui, recipe: dict) -> str:
     pill = "sage" if verdict == "sound" else "warn"
     primary = recipe["title_hu"] if ui["code"] == "hu" else recipe["title"]
     secondary = recipe["title"] if ui["code"] == "hu" else recipe["title_hu"]
+    edit = recipe["id"]
     return f"""<a class="recipe-card" href="{href(ui, '/recipes/' + recipe['id'] + '.html')}">
       <div class="pills">
-        <span class="pill">{esc(recipe['min_age_months'])} {esc(ui['months'])}</span>
-        <span class="pill {pill}">{esc(ui['verdicts'][verdict])}</span>
-        <span class="pill quiet">{esc(ui['categories'][recipe['category']])}</span>
+        <span class="pill" data-edit="recipe:{esc(edit)}:age">{esc(recipe['min_age_months'])} {esc(ui['months'])}</span>
+        <span class="pill {pill}" data-edit="recipe:{esc(edit)}:verdict">{esc(ui['verdicts'][verdict])}</span>
+        <span class="pill quiet" data-edit="recipe:{esc(edit)}:category">{esc(ui['categories'][recipe['category']])}</span>
       </div>
-      <h3>{esc(primary)}</h3>
-      <p class="hu">{esc(secondary)}</p>
-      <p>{esc(recipe['time_minutes'])} min · {esc(portions_label(recipe['portions'], ui))}</p>
+      <h3 data-edit="recipe:{esc(edit)}:title">{esc(primary)}</h3>
+      <p class="hu" data-edit="recipe:{esc(edit)}:secondary">{esc(secondary)}</p>
+      <p data-edit="recipe:{esc(edit)}:details">{esc(recipe['time_minutes'])} min · {esc(portions_label(recipe['portions'], ui))}</p>
     </a>"""
 
 

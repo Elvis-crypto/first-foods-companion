@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Vegyes pürék</p>
-              <h1>Gesztenyés alma csirkével</h1>
-              <p class="hu">Chestnut, apple, and chicken</p>
+              <p class="kicker" data-edit="t7">Vegyes pürék</p>
+              <h1 data-edit="t8">Gesztenyés alma csirkével</h1>
+              <p class="hu" data-edit="t9">Chestnut, apple, and chicken</p>
               <div class="pills">
-                <span class="pill">6 hónapos kortól</span>
-                <span class="pill sage">Jó ötlet</span>
-                <span class="pill quiet">35 min</span>
-                <span class="pill quiet">4 adag</span>
+                <span class="pill" data-edit="t10">6 hónapos kortól</span>
+                <span class="pill sage" data-edit="t11">Jó ötlet</span>
+                <span class="pill quiet" data-edit="t12">35 min</span>
+                <span class="pill quiet" data-edit="t13">4 adag</span>
               </div>
-              <p>Sima kanálnyit adj. A csirke a vas miatt van benne, és a gesztenyében nem maradhat darab.</p>
-              <p class="meta">Fagyasztható.</p>
+              <p data-edit="t14">Sima kanálnyit adj. A csirke a vas miatt van benne, és a gesztenyében nem maradhat darab.</p>
+              <p class="meta" data-edit="t15">Fagyasztható.</p>
             </div>
             <img src="/assets/img/recipes/chestnut-apple-chicken.jpg" alt="Egy adag: Gesztenyés alma csirkével">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>80 g</strong> főtt, hámozott gesztenye <span class="meta">(sima, cukor és só nélkül)</span></li><li><strong>100 g</strong> alma <span class="meta">(előkészített súly, hámozva, magház nélkül, megfőzve)</span></li><li><strong>120 g</strong> bőr nélküli csirkecomb <span class="meta">(nyers súly)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">nincs</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>80 g</strong> főtt, hámozott gesztenye <span class="meta">(sima, cukor és só nélkül)</span></li><li data-edit="t18"><strong>100 g</strong> alma <span class="meta">(előkészített súly, hámozva, magház nélkül, megfőzve)</span></li><li data-edit="t19"><strong>120 g</strong> bőr nélküli csirkecomb <span class="meta">(nyers súly)</span></li></ul>
+              <h2 data-edit="t20">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t21">nincs</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>A csirkét sózatlan vízben főzd, amíg a közepében nincs rózsaszín.</li><li>A hámozott, magház nélküli almát főzd puhára.</li><li>Sima, főtt, hámozott gesztenyét használj, ne édesített krémet.</li><li>A csirkét, az almát és a gesztenyét turmixold teljesen simára; ha kell, egy kanál főzővízzel.</li><li>Ellenőrizd, hogy nem maradt gesztenyedarab.</li><li>Sót ne adj hozzá.</li></ol>
+              <h2 data-edit="t22">Elkészítés</h2>
+              <ol><li data-edit="t23">A csirkét sózatlan vízben főzd, amíg a közepében nincs rózsaszín.</li><li data-edit="t24">A hámozott, magház nélküli almát főzd puhára.</li><li data-edit="t25">Sima, főtt, hámozott gesztenyét használj, ne édesített krémet.</li><li data-edit="t26">A csirkét, az almát és a gesztenyét turmixold teljesen simára; ha kell, egy kanál főzővízzel.</li><li data-edit="t27">Ellenőrizd, hogy nem maradt gesztenyedarab.</li><li data-edit="t28">Sót ne adj hozzá.</li></ol>
             </section>
           </div>
           <section class="callout sound">
-            <h2>Jó ötlet</h2>
-            <p>A gesztenyének simának kell lennie, mert a darabok fulladást okozhatnak. Ha csak gyümölcs lenne, kimaradna a vas, amit a csirke ad.</p>
-            <p>A főtt gesztenyét, a főtt almát és a teljesen átsült csirkét turmixold simára. Ez jobb tányér, mint a gyümölcs önmagában, és só nem kerül bele.</p>
+            <h2 data-edit="t29">Jó ötlet</h2>
+            <p data-edit="t30">A gesztenyének simának kell lennie, mert a darabok fulladást okozhatnak. Ha csak gyümölcs lenne, kimaradna a vas, amit a csirke ad.</p>
+            <p data-edit="t31">A főtt gesztenyét, a főtt almát és a teljesen átsült csirkét turmixold simára. Ez jobb tányér, mint a gyümölcs önmagában, és só nem kerül bele.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/apple-peach-semolina.html">Almás-barackos búzadara joghurttal</a><a href="/hu/recipes/pear-banana-oat.html">Körtés banán zabbal</a><a href="/hu/recipes/plum-peach-yogurt.html">Szilvás barack joghurttal</a>
+            <strong data-edit="t32">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/apple-peach-semolina.html" data-edit="t33">Almás-barackos búzadara joghurttal</a><a href="/hu/recipes/pear-banana-oat.html" data-edit="t34">Körtés banán zabbal</a><a href="/hu/recipes/plum-peach-yogurt.html" data-edit="t35">Szilvás barack joghurttal</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t36">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t37">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

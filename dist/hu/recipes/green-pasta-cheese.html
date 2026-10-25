@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Puha falatok</p>
-              <h1>Zöld tészta sajttal</h1>
-              <p class="hu">Green pasta with cheese</p>
+              <p class="kicker" data-edit="t7">Puha falatok</p>
+              <h1 data-edit="t8">Zöld tészta sajttal</h1>
+              <p class="hu" data-edit="t9">Green pasta with cheese</p>
               <div class="pills">
-                <span class="pill">8 hónapos kortól</span>
-                <span class="pill warn">Igazított</span>
-                <span class="pill quiet">25 min</span>
-                <span class="pill quiet">4 adag</span>
+                <span class="pill" data-edit="t10">8 hónapos kortól</span>
+                <span class="pill warn" data-edit="t11">Igazított</span>
+                <span class="pill quiet" data-edit="t12">25 min</span>
+                <span class="pill quiet" data-edit="t13">4 adag</span>
               </div>
-              <p>Ami nem nyomható szét, azt vágd fel vagy pépesítsd, és forrón ne, csak melegen add. A joghurtot közvetlenül evés előtt keverd bele.</p>
-              <p class="meta">Frissen a legjobb.</p>
+              <p data-edit="t14">Ami nem nyomható szét, azt vágd fel vagy pépesítsd, és forrón ne, csak melegen add. A joghurtot közvetlenül evés előtt keverd bele.</p>
+              <p class="meta" data-edit="t15">Frissen a legjobb.</p>
             </div>
             <img src="/assets/img/recipes/green-pasta-cheese.jpg" alt="Egy adag: Zöld tészta sajttal">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>100 g</strong> apró tészta <span class="meta">(száraz súly, nagyon puhára főzve)</span></li><li><strong>60 g</strong> spenót <span class="meta">(megmosva, a kemény szár nélkül)</span></li><li><strong>100 g</strong> brokkoli <span class="meta">(kis rózsák)</span></li><li><strong>1 kis gerezd</strong> fokhagyma <span class="meta">(apróra vágva)</span></li><li><strong>1 teáskanál</strong> olívaolaj <span class="meta">(a fokhagymához és a zöldségekhez)</span></li><li><strong>1 evőkanál</strong> natúr joghurt <span class="meta">(pasztőrözött, cukrozatlan)</span></li><li><strong>10 g</strong> enyhe kemény sajt <span class="meta">(pasztőrözött, finomra reszelve)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">glutén</span><span class="pill quiet">tej</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>100 g</strong> apró tészta <span class="meta">(száraz súly, nagyon puhára főzve)</span></li><li data-edit="t18"><strong>60 g</strong> spenót <span class="meta">(megmosva, a kemény szár nélkül)</span></li><li data-edit="t19"><strong>100 g</strong> brokkoli <span class="meta">(kis rózsák)</span></li><li data-edit="t20"><strong>1 kis gerezd</strong> fokhagyma <span class="meta">(apróra vágva)</span></li><li data-edit="t21"><strong>1 teáskanál</strong> olívaolaj <span class="meta">(a fokhagymához és a zöldségekhez)</span></li><li data-edit="t22"><strong>1 evőkanál</strong> natúr joghurt <span class="meta">(pasztőrözött, cukrozatlan)</span></li><li data-edit="t23"><strong>10 g</strong> enyhe kemény sajt <span class="meta">(pasztőrözött, finomra reszelve)</span></li></ul>
+              <h2 data-edit="t24">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t25">glutén</span><span class="pill quiet" data-edit="t26">tej</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>A tésztát sótlan vízben főzd nagyon puhára, majd szűrd le.</li><li>A fokhagymát az olívaolajon kevesebb mint egy percig párold, és erősen ne barnítsd meg.</li><li>Add hozzá a brokkolit és a spenótot egy kevés vízzel, és főzd, amíg könnyen pépesíthetők.</li><li>A zöldségeket aprítsd fel vagy pépesítsd, és keverd a tésztába.</li><li>A tűzről levéve keverd bele a joghurtot és a sajtot. Sót ne adj hozzá.</li></ol>
+              <h2 data-edit="t27">Elkészítés</h2>
+              <ol><li data-edit="t28">A tésztát sótlan vízben főzd nagyon puhára, majd szűrd le.</li><li data-edit="t29">A fokhagymát az olívaolajon kevesebb mint egy percig párold, és erősen ne barnítsd meg.</li><li data-edit="t30">Add hozzá a brokkolit és a spenótot egy kevés vízzel, és főzd, amíg könnyen pépesíthetők.</li><li data-edit="t31">A zöldségeket aprítsd fel vagy pépesítsd, és keverd a tésztába.</li><li data-edit="t32">A tűzről levéve keverd bele a joghurtot és a sajtot. Sót ne adj hozzá.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Igazított</h2>
-            <p>A megszokott tányér sózott volt, és egy csésze tejszínnel nagyon gazdag; gyakran 11 hónapos kor körül adták. A babának sem egy csipet só, sem ennyi tejszín nem kell.</p>
-            <p>Puha tésztát használj spenóttal, brokkolival és kevés, olívaolajon párolt fokhagymával. Keverj bele egy evőkanál natúr joghurtot és egy kevés pasztőrözött sajtot. Sót ne adj hozzá.</p>
+            <h2 data-edit="t33">Igazított</h2>
+            <p data-edit="t34">A megszokott tányér sózott volt, és egy csésze tejszínnel nagyon gazdag; gyakran 11 hónapos kor körül adták. A babának sem egy csipet só, sem ennyi tejszín nem kell.</p>
+            <p data-edit="t35">Puha tésztát használj spenóttal, brokkolival és kevés, olívaolajon párolt fokhagymával. Keverj bele egy evőkanál natúr joghurtot és egy kevés pasztőrözött sajtot. Sót ne adj hozzá.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/vegetable-bulgur.html">Zöldséges bulgur</a><a href="/hu/recipes/tomato-chicken-pasta.html">Paradicsomos csirkés tészta</a><a href="/hu/recipes/baby-bolognese.html">Bababolognai</a>
+            <strong data-edit="t36">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/vegetable-bulgur.html" data-edit="t37">Zöldséges bulgur</a><a href="/hu/recipes/tomato-chicken-pasta.html" data-edit="t38">Paradicsomos csirkés tészta</a><a href="/hu/recipes/baby-bolognese.html" data-edit="t39">Bababolognai</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t40">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t41">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

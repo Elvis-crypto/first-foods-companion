@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/" aria-current="page">Guides</a>
-        <a href="/recipes/">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" aria-current="page" data-edit="t1">Guides</a>
+        <a href="/recipes/" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -46,33 +47,33 @@
     
         <div class="layout">
           <aside class="side">
-            <strong>Guides</strong>
-            <a href="/topics/why-first-foods-matter.html">What the first foods are actually for</a><a href="/topics/when-to-start.html">When to start</a><a href="/topics/ways-of-feeding.html">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html">What to introduce, and when</a><a href="/topics/allergens.html">Introducing allergens</a><a href="/topics/portions-and-milk.html">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html">A week, in outline</a><a href="/topics/how-meals-happen.html">How the meal happens</a><a href="/topics/gagging-and-choking.html">Gagging and choking</a><a href="/topics/picky-eating.html">Picky eating</a><a href="/topics/illness.html">When a child is ill</a><a href="/topics/teething.html">Teething</a><a href="/topics/vitamins-and-minerals.html">Vitamins and minerals</a><a href="/topics/pocket-guide.html" aria-current="page">A pocket guide</a>
+            <strong data-edit="t7">Guides</strong>
+            <a href="/topics/why-first-foods-matter.html" data-edit="t8">What the first foods are actually for</a><a href="/topics/when-to-start.html" data-edit="t9">When to start</a><a href="/topics/ways-of-feeding.html" data-edit="t10">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html" data-edit="t11">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html" data-edit="t12">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html" data-edit="t13">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html" data-edit="t14">What to introduce, and when</a><a href="/topics/allergens.html" data-edit="t15">Introducing allergens</a><a href="/topics/portions-and-milk.html" data-edit="t16">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html" data-edit="t17">A week, in outline</a><a href="/topics/how-meals-happen.html" data-edit="t18">How the meal happens</a><a href="/topics/gagging-and-choking.html" data-edit="t19">Gagging and choking</a><a href="/topics/picky-eating.html" data-edit="t20">Picky eating</a><a href="/topics/illness.html" data-edit="t21">When a child is ill</a><a href="/topics/teething.html" data-edit="t22">Teething</a><a href="/topics/vitamins-and-minerals.html" data-edit="t23">Vitamins and minerals</a><a href="/topics/pocket-guide.html" aria-current="page" data-edit="t24">A pocket guide</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Guides</p>
-            <h1>A pocket guide</h1>
-            <p class="lede">The decisions that matter, on one page, with a link to the longer explanation.</p>
+            <p class="kicker" data-edit="t25">Guides</p>
+            <h1 data-edit="t26">A pocket guide</h1>
+            <p class="lede" data-edit="t27">The decisions that matter, on one page, with a link to the longer explanation.</p>
             <figure class="hero-photo">
               <img src="/assets/img/topics/pocket-guide.jpg" alt="Minced chicken with soft carrot and pear">
             </figure>
-            <h2>Findings</h2>
+            <h2 data-edit="t28">Findings</h2>
             <article class="finding">
-              <a href="#do"><strong>Start around six months, with iron and the main allergens.</strong> Keep milk feeds. Move texture on. Eat together. Repeat refused foods calmly.</a>
+              <a href="#do" data-edit="t29"><strong>Start around six months, with iron and the main allergens.</strong> Keep milk feeds. Move texture on. Eat together. Repeat refused foods calmly.</a>
             </article><article class="finding">
-              <a href="#dont"><strong>Leave out honey, added salt, added sugar, and whole nuts.</strong> Leave out juice, rice drinks, ham, stock cubes, and hard round foods.</a>
+              <a href="#dont" data-edit="t30"><strong>Leave out honey, added salt, added sugar, and whole nuts.</strong> Leave out juice, rice drinks, ham, stock cubes, and hard round foods.</a>
             </article><article class="finding">
-              <a href="#ask"><strong>Ask a clinician before peanut if eczema is severe or egg allergy is already known.</strong> Ask the same day if breathing, colour, or responsiveness change after a food.</a>
+              <a href="#ask" data-edit="t31"><strong>Ask a clinician before peanut if eczema is severe or egg allergy is already known.</strong> Ask the same day if breathing, colour, or responsiveness change after a food.</a>
             </article>
-            <h2 id="do">Do</h2><p>Wait until the baby is developing the skills to eat, and start by about six months, not before four. Offer meat, lentils, beans, egg, or fortified cereal early. Offer peanut, egg, milk, wheat, sesame, fish, and soy in safe textures and keep them in the week once tolerated. Sit the baby upright. Add a little oil. Use herbs. Freeze unsalted extras.</p><p>Read the pages on timing, allergens, and how meals happen if you want the reasoning rather than the list.</p><h2 id="dont">Do not</h2><p>Do not add salt or sugar. Do not give honey before one year. Do not give whole nuts, whole grapes, popcorn, or thick nut butter. Do not give rice drinks to a child under five. Do not use cow’s milk as the main drink before one. Do not serve liver more than once a week. Do not keep a raw herb paste for a week or store garlic in oil. Do not feed from a screen or bargain with dessert.</p><p>Party cakes, chocolate bars, and crisp granola are occasional foods for older toddlers, and several familiar versions are the wrong texture or the wrong sweetener for a baby. The recipe pages say what was changed and why.</p><h2 id="ask">Ask someone</h2><p>Before the first peanut taste if the baby has severe eczema or an egg allergy. If growth is faltering. If you are feeding a vegan diet. If a food caused widespread hives, swelling, breathing difficulty, or floppiness: that last group is an emergency service, not a next-week appointment.</p><p>This site is an evidence-checked companion inspired by a Hungarian weaning book. It is not that book, and it is not a personal medical opinion on your child.</p>
-            <h2>References</h2>
-            <ol class="refs"><li class="ref" id="ref-1">
+            <h2 id="do" data-edit="t32">Do</h2><p data-edit="t33">Wait until the baby is developing the skills to eat, and start by about six months, not before four. Offer meat, lentils, beans, egg, or fortified cereal early. Offer peanut, egg, milk, wheat, sesame, fish, and soy in safe textures and keep them in the week once tolerated. Sit the baby upright. Add a little oil. Use herbs. Freeze unsalted extras.</p><p data-edit="t34">Read the pages on timing, allergens, and how meals happen if you want the reasoning rather than the list.</p><h2 id="dont" data-edit="t35">Do not</h2><p data-edit="t36">Do not add salt or sugar. Do not give honey before one year. Do not give whole nuts, whole grapes, popcorn, or thick nut butter. Do not give rice drinks to a child under five. Do not use cow’s milk as the main drink before one. Do not serve liver more than once a week. Do not keep a raw herb paste for a week or store garlic in oil. Do not feed from a screen or bargain with dessert.</p><p data-edit="t37">Party cakes, chocolate bars, and crisp granola are occasional foods for older toddlers, and several familiar versions are the wrong texture or the wrong sweetener for a baby. The recipe pages say what was changed and why.</p><h2 id="ask" data-edit="t38">Ask someone</h2><p data-edit="t39">Before the first peanut taste if the baby has severe eczema or an egg allergy. If growth is faltering. If you are feeding a vegan diet. If a food caused widespread hives, swelling, breathing difficulty, or floppiness: that last group is an emergency service, not a next-week appointment.</p><p data-edit="t40">This site is an evidence-checked companion inspired by a Hungarian weaning book. It is not that book, and it is not a personal medical opinion on your child.</p>
+            <h2 data-edit="t41">References</h2>
+            <ol class="refs"><li class="ref" id="ref-1" data-edit="t42">
               <a href="https://doi.org/10.1097/MPG.0000000000001454">Complementary Feeding: A Position Paper</a>
               <div class="meta">ESPGHAN, JPGN, 2017</div>
-            </li><li class="ref" id="ref-2">
+            </li><li class="ref" id="ref-2" data-edit="t43">
               <a href="https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/">Foods to avoid giving babies and young children</a>
               <div class="meta">NHS, 2024</div>
-            </li><li class="ref" id="ref-3">
+            </li><li class="ref" id="ref-3" data-edit="t44">
               <a href="https://doi.org/10.1186/s40413-016-0137-9">Addendum Guidelines for the Prevention of Peanut Allergy</a>
               <div class="meta">NIAID expert panel, 2017</div>
             </li></ol>
@@ -81,10 +82,11 @@
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t45">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t46">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

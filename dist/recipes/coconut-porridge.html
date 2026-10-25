@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Toddler meals</p>
-              <h1>Coconut porridge</h1>
-              <p class="hu">Kókuszos zabkása</p>
+              <p class="kicker" data-edit="t7">Toddler meals</p>
+              <h1 data-edit="t8">Coconut porridge</h1>
+              <p class="hu" data-edit="t9">Kókuszos zabkása</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill sage">Sound idea</span>
-                <span class="pill quiet">15 min</span>
-                <span class="pill quiet">2 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill sage" data-edit="t11">Sound idea</span>
+                <span class="pill quiet" data-edit="t12">15 min</span>
+                <span class="pill quiet" data-edit="t13">2 portions</span>
               </div>
-              <p>Offer it from a bowl with a spoon. Do not put coconut milk in a bottle.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">Offer it from a bowl with a spoon. Do not put coconut milk in a bottle.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/coconut-porridge.jpg" alt="A serving of Coconut porridge">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>40 g</strong> Rolled oats <span class="meta">(Ordinary or fine)</span></li><li><strong>100 ml</strong> Unsweetened coconut milk <span class="meta">(Plain coconut milk from a carton or can)</span></li><li><strong>100 ml</strong> Water <span class="meta">(To dilute the coconut milk)</span></li><li><strong>80 g</strong> Ripe banana or mango <span class="meta">(Mashed)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">gluten</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>40 g</strong> Rolled oats <span class="meta">(Ordinary or fine)</span></li><li data-edit="t18"><strong>100 ml</strong> Unsweetened coconut milk <span class="meta">(Plain coconut milk from a carton or can)</span></li><li data-edit="t19"><strong>100 ml</strong> Water <span class="meta">(To dilute the coconut milk)</span></li><li data-edit="t20"><strong>80 g</strong> Ripe banana or mango <span class="meta">(Mashed)</span></li></ul>
+              <h2 data-edit="t21">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t22">gluten</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Stir the coconut milk and water together in a small pan.</li><li>Add the oats and simmer until soft.</li><li>Stir in the mashed banana or mango.</li><li>Cool to serving temperature.</li><li>Serve in a bowl.</li></ol>
+              <h2 data-edit="t23">Method</h2>
+              <ol><li data-edit="t24">Stir the coconut milk and water together in a small pan.</li><li data-edit="t25">Add the oats and simmer until soft.</li><li data-edit="t26">Stir in the mashed banana or mango.</li><li data-edit="t27">Cool to serving temperature.</li><li data-edit="t28">Serve in a bowl.</li></ol>
             </section>
           </div>
           <section class="callout sound">
-            <h2>Sound idea</h2>
-            <p>This is a bowl of porridge, not a coconut drink in a bottle. Sweetened coconut milk would add sugar.</p>
-            <p>Cook the oats in unsweetened coconut milk diluted with water, then stir in ripe banana or mango.</p>
+            <h2 data-edit="t29">Sound idea</h2>
+            <p data-edit="t30">This is a bowl of porridge, not a coconut drink in a bottle. Sweetened coconut milk would add sugar.</p>
+            <p data-edit="t31">Cook the oats in unsweetened coconut milk diluted with water, then stir in ripe banana or mango.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/soft-cinnamon-oats.html">Soft cinnamon oat bake</a><a href="/recipes/apple-peanut-quinoa.html">Apple peanut quinoa</a><a href="/recipes/apple-porridge.html">Apple porridge</a>
+            <strong data-edit="t32">More in this group</strong>
+            <a href="/recipes/soft-cinnamon-oats.html" data-edit="t33">Soft cinnamon oat bake</a><a href="/recipes/apple-peanut-quinoa.html" data-edit="t34">Apple peanut quinoa</a><a href="/recipes/apple-porridge.html" data-edit="t35">Apple porridge</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t36">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t37">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

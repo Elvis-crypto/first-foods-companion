@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/" aria-current="page">Útmutatók</a>
-        <a href="/hu/recipes/">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" aria-current="page" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -46,30 +47,30 @@
     
         <div class="layout">
           <aside class="side">
-            <strong>Útmutatók</strong>
-            <a href="/hu/topics/why-first-foods-matter.html">Mire valók valójában az első ételek</a><a href="/hu/topics/when-to-start.html">Mikor kezdjük</a><a href="/hu/topics/ways-of-feeding.html">Kanál, ujjak vagy mindkettő</a><a href="/hu/topics/choosing-ingredients.html">Alapanyagok választása</a><a href="/hu/topics/cooking-and-seasoning.html">Főzés és ízesítés</a><a href="/hu/topics/tools-and-hygiene.html">Eszközök, higiénia és a fagyasztó</a><a href="/hu/topics/what-to-introduce.html">Mit vezess be, és mikor</a><a href="/hu/topics/allergens.html">Az allergének bevezetése</a><a href="/hu/topics/portions-and-milk.html">Adagok, állag és tej</a><a href="/hu/topics/a-week-of-meals.html">Egy hét, vázlatosan</a><a href="/hu/topics/how-meals-happen.html">Hogyan történik az étkezés</a><a href="/hu/topics/gagging-and-choking.html">Öklendezés és fulladás</a><a href="/hu/topics/picky-eating.html">Válogatós evés</a><a href="/hu/topics/illness.html" aria-current="page">Amikor a gyermek beteg</a><a href="/hu/topics/teething.html">Fogzás</a><a href="/hu/topics/vitamins-and-minerals.html">Vitaminok és ásványi anyagok</a><a href="/hu/topics/pocket-guide.html">Zsebkalauz</a>
+            <strong data-edit="t7">Útmutatók</strong>
+            <a href="/hu/topics/why-first-foods-matter.html" data-edit="t8">Mire valók valójában az első ételek</a><a href="/hu/topics/when-to-start.html" data-edit="t9">Mikor kezdjük</a><a href="/hu/topics/ways-of-feeding.html" data-edit="t10">Kanál, ujjak vagy mindkettő</a><a href="/hu/topics/choosing-ingredients.html" data-edit="t11">Alapanyagok választása</a><a href="/hu/topics/cooking-and-seasoning.html" data-edit="t12">Főzés és ízesítés</a><a href="/hu/topics/tools-and-hygiene.html" data-edit="t13">Eszközök, higiénia és a fagyasztó</a><a href="/hu/topics/what-to-introduce.html" data-edit="t14">Mit vezess be, és mikor</a><a href="/hu/topics/allergens.html" data-edit="t15">Az allergének bevezetése</a><a href="/hu/topics/portions-and-milk.html" data-edit="t16">Adagok, állag és tej</a><a href="/hu/topics/a-week-of-meals.html" data-edit="t17">Egy hét, vázlatosan</a><a href="/hu/topics/how-meals-happen.html" data-edit="t18">Hogyan történik az étkezés</a><a href="/hu/topics/gagging-and-choking.html" data-edit="t19">Öklendezés és fulladás</a><a href="/hu/topics/picky-eating.html" data-edit="t20">Válogatós evés</a><a href="/hu/topics/illness.html" aria-current="page" data-edit="t21">Amikor a gyermek beteg</a><a href="/hu/topics/teething.html" data-edit="t22">Fogzás</a><a href="/hu/topics/vitamins-and-minerals.html" data-edit="t23">Vitaminok és ásványi anyagok</a><a href="/hu/topics/pocket-guide.html" data-edit="t24">Zsebkalauz</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Útmutatók</p>
-            <h1>Amikor a gyermek beteg</h1>
-            <p class="lede">Ismerős étel, elég folyadék, és a megszokott tejtáplálás. Beteg napon rossz allergiát kimondani, és rossz új ételt bevezetni.</p>
+            <p class="kicker" data-edit="t25">Útmutatók</p>
+            <h1 data-edit="t26">Amikor a gyermek beteg</h1>
+            <p class="lede" data-edit="t27">Ismerős étel, elég folyadék, és a megszokott tejtáplálás. Beteg napon rossz allergiát kimondani, és rossz új ételt bevezetni.</p>
             <figure class="hero-photo">
               <img src="/assets/img/topics/illness.jpg" alt="Híg zabkása és egy kis tál joghurt">
             </figure>
-            <h2>Megállapítások</h2>
+            <h2 data-edit="t28">Megállapítások</h2>
             <article class="finding">
-              <a href="#fluids"><strong>A folyadék és a tejtáplálás előbbre való, mint a tökéletes menü.</strong> A kis, ismerős étkezések elegendők. Fiatal gyermeket ne koplaltass.</a>
+              <a href="#fluids" data-edit="t29"><strong>A folyadék és a tejtáplálás előbbre való, mint a tökéletes menü.</strong> A kis, ismerős étkezések elegendők. Fiatal gyermeket ne koplaltass.</a>
             </article><article class="finding">
-              <a href="#new"><strong>Betegség alatt ne vezess be új allergént.</strong> Az aznapi kiütést vagy hányást nem lehet értelmezni.</a>
+              <a href="#new" data-edit="t30"><strong>Betegség alatt ne vezess be új allergént.</strong> Az aznapi kiütést vagy hányást nem lehet értelmezni.</a>
             </article><article class="finding">
-              <a href="#call"><strong>Ismerd a jeleket, amelyekhez még aznap orvos kell.</strong> A kevés vizelet, a besüppedt kutacs, a vér a székletben, a szokatlan aluszékonyság vagy az erőlködő légzés nem olyan megfigyelés, amin otthon ülni lehet.</a>
+              <a href="#call" data-edit="t31"><strong>Ismerd a jeleket, amelyekhez még aznap orvos kell.</strong> A kevés vizelet, a besüppedt kutacs, a vér a székletben, a szokatlan aluszékonyság vagy az erőlködő légzés nem olyan megfigyelés, amin otthon ülni lehet.</a>
             </article>
-            <h2 id="fluids">Etess betegség idején, finoman</h2><p>Az étvágy lázra és fájó szájra csökken. Az anyatej vagy a tápszer marad. Kínálj kisebb adagot abból, amit a gyermek már szeret. Elég a joghurt, a gyümölcs, egy sima kása, vagy egy leves, amit nem sóztál. Ha egy hányingeres gyermekre ráerőlteted a kiegyensúlyozott tányért, ételundort szerzel.</p><p>Hányásnál vagy hasmenésnél, ha a tej egymagában már nem tart lépést a veszteséggel, az orális rehidrációs oldat a megfelelő eszköz. A védőnő végigvezet rajta. A cukros gyümölcslé rossz helyettesítő, és súlyosbíthatja a hasmenést.</p><h2 id="new">A kísérletet hagyd egy egészséges hétre</h2><p>A betegség megváltoztatja a bőrt és a székletet. Egy új étel ugyanazon a napon hamis allergiatörténetet csinál, és egy ételt, amelyet a család aztán évekre kerül. Várd meg, míg a gyermek jól van, és csak utána térj vissza a bevezetés tervéhez.</p><p>A fogzást és a betegséget gyakran egymás számlájára írják. A kis hőemelkedésnél nagyobb láz, vagy a kifejezetten rosszul lévő gyermek nem magyarázható egy foggal. Nézesd meg.</p><h2 id="call">Mikor telefonálj</h2><p>Még aznap telefonálj, ha a gyermek három hónaposnál fiatalabb és láza van, ha szokatlanul petyhüdt vagy alig ébreszthető, ha erőlködve lélegzik, ha vér van a hányadékában vagy a székletében, vagy ha nem ürít vizeletet. Ilyenkor az étkezési tanács nem számít.</p><p>Antibiotikum után az étrendnek nincs szüksége különleges tisztítókúrára. A megszokott étel megfelel, joghurttal együtt, ha szereti. A probiotikus készítmények választhatók, a gyógyulásnak nem kötelező részei.</p>
-            <h2>Források</h2>
-            <ol class="refs"><li class="ref" id="ref-1">
+            <h2 id="fluids" data-edit="t32">Etess betegség idején, finoman</h2><p data-edit="t33">Az étvágy lázra és fájó szájra csökken. Az anyatej vagy a tápszer marad. Kínálj kisebb adagot abból, amit a gyermek már szeret. Elég a joghurt, a gyümölcs, egy sima kása, vagy egy leves, amit nem sóztál. Ha egy hányingeres gyermekre ráerőlteted a kiegyensúlyozott tányért, ételundort szerzel.</p><p data-edit="t34">Hányásnál vagy hasmenésnél, ha a tej egymagában már nem tart lépést a veszteséggel, az orális rehidrációs oldat a megfelelő eszköz. A védőnő végigvezet rajta. A cukros gyümölcslé rossz helyettesítő, és súlyosbíthatja a hasmenést.</p><h2 id="new" data-edit="t35">A kísérletet hagyd egy egészséges hétre</h2><p data-edit="t36">A betegség megváltoztatja a bőrt és a székletet. Egy új étel ugyanazon a napon hamis allergiatörténetet csinál, és egy ételt, amelyet a család aztán évekre kerül. Várd meg, míg a gyermek jól van, és csak utána térj vissza a bevezetés tervéhez.</p><p data-edit="t37">A fogzást és a betegséget gyakran egymás számlájára írják. A kis hőemelkedésnél nagyobb láz, vagy a kifejezetten rosszul lévő gyermek nem magyarázható egy foggal. Nézesd meg.</p><h2 id="call" data-edit="t38">Mikor telefonálj</h2><p data-edit="t39">Még aznap telefonálj, ha a gyermek három hónaposnál fiatalabb és láza van, ha szokatlanul petyhüdt vagy alig ébreszthető, ha erőlködve lélegzik, ha vér van a hányadékában vagy a székletében, vagy ha nem ürít vizeletet. Ilyenkor az étkezési tanács nem számít.</p><p data-edit="t40">Antibiotikum után az étrendnek nincs szüksége különleges tisztítókúrára. A megszokott étel megfelel, joghurttal együtt, ha szereti. A probiotikus készítmények választhatók, a gyógyulásnak nem kötelező részei.</p>
+            <h2 data-edit="t41">Források</h2>
+            <ol class="refs"><li class="ref" id="ref-1" data-edit="t42">
               <a href="https://www.nhs.uk/conditions/diarrhoea-and-vomiting/">Hasmenés és hányás</a>
               <div class="meta">NHS, 2024</div>
-            </li><li class="ref" id="ref-2">
+            </li><li class="ref" id="ref-2" data-edit="t43">
               <a href="https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding">A csecsemők és kisgyermekek táplálása</a>
               <div class="meta">Egészségügyi Világszervezet (WHO), ténylap, 2023</div>
             </li></ol>
@@ -78,10 +79,11 @@
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t44">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t45">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

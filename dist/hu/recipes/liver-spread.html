@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Alapok</p>
-              <h1>Májkrém</h1>
-              <p class="hu">Liver spread</p>
+              <p class="kicker" data-edit="t7">Alapok</p>
+              <h1 data-edit="t8">Májkrém</h1>
+              <p class="hu" data-edit="t9">Liver spread</p>
               <div class="pills">
-                <span class="pill">6 hónapos kortól</span>
-                <span class="pill warn">Igazított</span>
-                <span class="pill quiet">25 min</span>
-                <span class="pill quiet">1 adag</span>
+                <span class="pill" data-edit="t10">6 hónapos kortól</span>
+                <span class="pill warn" data-edit="t11">Igazított</span>
+                <span class="pill quiet" data-edit="t12">25 min</span>
+                <span class="pill quiet" data-edit="t13">1 adag</span>
               </div>
-              <p>6 hónapos kortól, puha zöldségre kenve, nem sós kekszre. Ugyanazon a héten ne adj májgaluskát vagy más májat, és ne párosítsd A-vitamin-készítménnyel.</p>
-              <p class="meta">Fagyasztható.</p>
+              <p data-edit="t14">6 hónapos kortól, puha zöldségre kenve, nem sós kekszre. Ugyanazon a héten ne adj májgaluskát vagy más májat, és ne párosítsd A-vitamin-készítménnyel.</p>
+              <p class="meta" data-edit="t15">Fagyasztható.</p>
             </div>
             <img src="/assets/img/recipes/liver-spread.jpg" alt="Egy adag: Májkrém">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>20 g nyers</strong> csirkemáj <span class="meta">(kb. 15 g főtt; a héten csak egyszer)</span></li><li><strong>40 g</strong> étkezési alma <span class="meta">(meghámozva, puhára főzve)</span></li><li><strong>1 teáskanál</strong> repce- vagy olívaolaj <span class="meta">(vékony krémet ad)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">nincs</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>20 g nyers</strong> csirkemáj <span class="meta">(kb. 15 g főtt; a héten csak egyszer)</span></li><li data-edit="t18"><strong>40 g</strong> étkezési alma <span class="meta">(meghámozva, puhára főzve)</span></li><li data-edit="t19"><strong>1 teáskanál</strong> repce- vagy olívaolaj <span class="meta">(vékony krémet ad)</span></li></ul>
+              <h2 data-edit="t20">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t21">nincs</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>A májat vízben főzd, amíg teljesen megfő, és nem marad benne rózsaszín.</li><li>Ellenőrizd, hogy a gyerek főtt mája kb. 15 g.</li><li>Az almát főzd puhára.</li><li>A májat, az almát és az olajat turmixold, amíg a krém vékony lesz.</li><li>Gyorsan hűtsd le.</li><li>Vékony rétegben kend puha zöldségre.</li></ol>
+              <h2 data-edit="t22">Elkészítés</h2>
+              <ol><li data-edit="t23">A májat vízben főzd, amíg teljesen megfő, és nem marad benne rózsaszín.</li><li data-edit="t24">Ellenőrizd, hogy a gyerek főtt mája kb. 15 g.</li><li data-edit="t25">Az almát főzd puhára.</li><li data-edit="t26">A májat, az almát és az olajat turmixold, amíg a krém vékony lesz.</li><li data-edit="t27">Gyorsan hűtsd le.</li><li data-edit="t28">Vékony rétegben kend puha zöldségre.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Igazított</h2>
-            <p>A sós májkrém sós kekszre kenve figyelmen kívül hagyja az A-vitamin-korlátot, és sót is ad.</p>
-            <p>A teljesen átsült csirkemájat almával és egy kevés olajjal turmixold vékony krémmé, só nélkül. A gyerek adagja kb. 15 g főtt máj, hetente legfeljebb egyszer, és nem A-vitamin-készítmény mellett.</p>
+            <h2 data-edit="t29">Igazított</h2>
+            <p data-edit="t30">A sós májkrém sós kekszre kenve figyelmen kívül hagyja az A-vitamin-korlátot, és sót is ad.</p>
+            <p data-edit="t31">A teljesen átsült csirkemájat almával és egy kevés olajjal turmixold vékony krémmé, só nélkül. A gyerek adagja kb. 15 g főtt máj, hetente legfeljebb egyszer, és nem A-vitamin-készítmény mellett.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/unsalted-stock.html">Sózatlan alaplé</a><a href="/hu/recipes/liver-dumplings.html">Májgaluska</a><a href="/hu/recipes/fresh-pasta.html">Házi tészta</a>
+            <strong data-edit="t32">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/unsalted-stock.html" data-edit="t33">Sózatlan alaplé</a><a href="/hu/recipes/liver-dumplings.html" data-edit="t34">Májgaluska</a><a href="/hu/recipes/fresh-pasta.html" data-edit="t35">Házi tészta</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t36">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t37">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

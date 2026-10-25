@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Soft pieces</p>
-              <h1>Vegetable bulgur</h1>
-              <p class="hu">Zöldséges bulgur</p>
+              <p class="kicker" data-edit="t7">Soft pieces</p>
+              <h1 data-edit="t8">Vegetable bulgur</h1>
+              <p class="hu" data-edit="t9">Zöldséges bulgur</p>
               <div class="pills">
-                <span class="pill">8 months+</span>
-                <span class="pill warn">Adjusted</span>
-                <span class="pill quiet">30 min</span>
-                <span class="pill quiet">4 portions</span>
+                <span class="pill" data-edit="t10">8 months+</span>
+                <span class="pill warn" data-edit="t11">Adjusted</span>
+                <span class="pill quiet" data-edit="t12">30 min</span>
+                <span class="pill quiet" data-edit="t13">4 portions</span>
               </div>
-              <p>Offer it warm and soft enough to squash. Mash it for a baby who is not chewing yet.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">Offer it warm and soft enough to squash. Mash it for a baby who is not chewing yet.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/vegetable-bulgur.jpg" alt="A serving of Vegetable bulgur">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>80 g</strong> fine bulgur <span class="meta">(wheat)</span></li><li><strong>1 medium</strong> carrot <span class="meta">(about 80 g, finely diced)</span></li><li><strong>1 small</strong> parsley root or parsnip <span class="meta">(about 60 g, finely diced)</span></li><li><strong>1 medium</strong> ripe tomato <span class="meta">(chopped)</span></li><li><strong>60 g</strong> peas <span class="meta">(frozen, to be crushed)</span></li><li><strong>300 ml</strong> water <span class="meta">(plain, no stock)</span></li><li><strong>1 tsp</strong> olive oil <span class="meta">(stirred in at the end)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">gluten</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>80 g</strong> fine bulgur <span class="meta">(wheat)</span></li><li data-edit="t18"><strong>1 medium</strong> carrot <span class="meta">(about 80 g, finely diced)</span></li><li data-edit="t19"><strong>1 small</strong> parsley root or parsnip <span class="meta">(about 60 g, finely diced)</span></li><li data-edit="t20"><strong>1 medium</strong> ripe tomato <span class="meta">(chopped)</span></li><li data-edit="t21"><strong>60 g</strong> peas <span class="meta">(frozen, to be crushed)</span></li><li data-edit="t22"><strong>300 ml</strong> water <span class="meta">(plain, no stock)</span></li><li data-edit="t23"><strong>1 tsp</strong> olive oil <span class="meta">(stirred in at the end)</span></li></ul>
+              <h2 data-edit="t24">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t25">gluten</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Dice the carrot and the parsley root or parsnip, and chop the tomato.</li><li>Simmer the vegetables in the water until very soft, about 15 minutes.</li><li>Stir in the bulgur and the peas and cook until the bulgur is soft and the liquid is absorbed.</li><li>Crush the peas, then stir in the olive oil.</li><li>Mash the serving for a baby who is not yet chewing, and check that every piece squashes.</li></ol>
+              <h2 data-edit="t26">Method</h2>
+              <ol><li data-edit="t27">Dice the carrot and the parsley root or parsnip, and chop the tomato.</li><li data-edit="t28">Simmer the vegetables in the water until very soft, about 15 minutes.</li><li data-edit="t29">Stir in the bulgur and the peas and cook until the bulgur is soft and the liquid is absorbed.</li><li data-edit="t30">Crush the peas, then stir in the olive oil.</li><li data-edit="t31">Mash the serving for a baby who is not yet chewing, and check that every piece squashes.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Adjusted</h2>
-            <p>This grain pot is often held back until 9 or 10 months, and it is sometimes cooked in salty stock. Whole peas are also awkward if a baby is only just starting to chew.</p>
-            <p>Cook the bulgur and vegetables in plain water until they squash easily, and crush the peas. Offer it from 8 months, and mash the serving for a baby who is not chewing yet.</p>
+            <h2 data-edit="t32">Adjusted</h2>
+            <p data-edit="t33">This grain pot is often held back until 9 or 10 months, and it is sometimes cooked in salty stock. Whole peas are also awkward if a baby is only just starting to chew.</p>
+            <p data-edit="t34">Cook the bulgur and vegetables in plain water until they squash easily, and crush the peas. Offer it from 8 months, and mash the serving for a baby who is not chewing yet.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/green-pasta-cheese.html">Green pasta with cheese</a><a href="/recipes/tomato-chicken-pasta.html">Tomato chicken pasta</a><a href="/recipes/baby-bolognese.html">Baby bolognese</a>
+            <strong data-edit="t35">More in this group</strong>
+            <a href="/recipes/green-pasta-cheese.html" data-edit="t36">Green pasta with cheese</a><a href="/recipes/tomato-chicken-pasta.html" data-edit="t37">Tomato chicken pasta</a><a href="/recipes/baby-bolognese.html" data-edit="t38">Baby bolognese</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t39">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t40">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

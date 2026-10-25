@@ -20,45 +20,47 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/">Recipes</a>
-        <a href="/about.html" aria-current="page">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" data-edit="t2">Recipes</a>
+        <a href="/about.html" aria-current="page" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
   <main class="wrap">
     
     <section class="section">
-      <p class="kicker">About</p>
-      <h1>An original companion, not a copy of the book.</h1>
-      <p class="lede">The dish ideas and the questions families ask came from <em>Anya, kérek még!</em> by Ambrus Éva, published by BOOOK Kiadó. The sentences on this site were written for it. The book’s text and photographs are not reproduced.</p>
+      <p class="kicker" data-edit="t7">About</p>
+      <h1 data-edit="t8">An original companion, not a copy of the book.</h1>
+      <p class="lede" data-edit="t9">The dish ideas and the questions families ask came from <em>Anya, kérek még!</em> by Ambrus Éva, published by BOOOK Kiadó. The sentences on this site were written for it. The book’s text and photographs are not reproduced.</p>
     </section>
     <section class="section prose">
-      <h2>What was kept</h2><p>The shape of a Hungarian weaning kitchen: pumpkin, apple, cottage cheese, paprika without the heat, liver once in a while, fish without bones, egg, beans, and the small celebration cakes families actually want to bake. Where a dish was already a plain cooked fruit or vegetable, the recipe stays close to that idea.</p><h2>What was changed</h2><p>Added salt and sugar come out of food for children under one. Honey is not used at all here. Peanut, egg, milk, wheat, sesame, fish, soy, and ground nuts are offered around six months in a safe texture, instead of being delayed toward the first birthday. Fried crusts become oven bakes. Whole nuts, round hard pieces, carp, mustard in the early months, and salty ham are replaced. Each recipe page says whether the idea was sound, adjusted, or replaced.</p><h2>How the guides were written</h2><p>Claims about age, iron, protein, allergens, vitamin D, and choking are tied to a real source: ESPGHAN, WHO, EFSA, the LEAP and EAT trials, NHS, CDC, AAP, or a Hungarian public page. If a familiar local page still teaches an older fruit-then-meat ladder, the guide says so. This site does not invent a personal dose of medicine. Vitamin D for a breastfed baby is a prescribed product.</p><h2>What this site will not do</h2><p>It will not tell you that your child is well. It will not walk you through infant back blows as if reading them once were training. Take a first-aid course. If a baby is silent and cannot cough, call for emergency help.</p>
+      <h2 data-edit="t10">What was kept</h2><p data-edit="t11">The shape of a Hungarian weaning kitchen: pumpkin, apple, cottage cheese, paprika without the heat, liver once in a while, fish without bones, egg, beans, and the small celebration cakes families actually want to bake. Where a dish was already a plain cooked fruit or vegetable, the recipe stays close to that idea.</p><h2 data-edit="t12">What was changed</h2><p data-edit="t13">Added salt and sugar come out of food for children under one. Honey is not used at all here. Peanut, egg, milk, wheat, sesame, fish, soy, and ground nuts are offered around six months in a safe texture, instead of being delayed toward the first birthday. Fried crusts become oven bakes. Whole nuts, round hard pieces, carp, mustard in the early months, and salty ham are replaced. Each recipe page says whether the idea was sound, adjusted, or replaced.</p><h2 data-edit="t14">How the guides were written</h2><p data-edit="t15">Claims about age, iron, protein, allergens, vitamin D, and choking are tied to a real source: ESPGHAN, WHO, EFSA, the LEAP and EAT trials, NHS, CDC, AAP, or a Hungarian public page. If a familiar local page still teaches an older fruit-then-meat ladder, the guide says so. This site does not invent a personal dose of medicine. Vitamin D for a breastfed baby is a prescribed product.</p><h2 data-edit="t16">What this site will not do</h2><p data-edit="t17">It will not tell you that your child is well. It will not walk you through infant back blows as if reading them once were training. Take a first-aid course. If a baby is silent and cannot cough, call for emergency help.</p>
     </section>
     
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t18">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t19">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

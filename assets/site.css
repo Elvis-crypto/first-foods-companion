@@ -72,7 +72,25 @@ a:hover { color: var(--paprika); }
 .nav-links { display: flex; gap: 1.1rem; }
 .nav-links a { color: var(--ink); text-decoration: none; font-weight: 600; }
 .nav-links a:hover { color: var(--paprika-dark); }
-.nav-tools { display: flex; align-items: center; gap: 0.45rem; }
+.nav-tools { display: flex; align-items: center; gap: 0.45rem; flex-wrap: wrap; }
+#account-slot { display: flex; align-items: center; gap: 0.45rem; }
+#account-slot[hidden] { display: none; }
+.edit-status { font-size: 0.85rem; color: var(--ink-soft); }
+[data-edit-toggle][aria-pressed="true"] { background: var(--amber); }
+[contenteditable="true"],
+[contenteditable="plaintext-only"] {
+  outline: 1px dashed var(--paprika);
+  outline-offset: 2px;
+  cursor: text;
+}
+dialog {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--paper-2);
+  color: var(--ink);
+  max-width: min(420px, calc(100% - 2rem));
+}
+dialog::backdrop { background: rgba(20, 12, 8, 0.45); }
 .nav-tools select, .theme-toggle {
   font: inherit;
   color: var(--ink);

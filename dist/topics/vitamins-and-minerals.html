@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/" aria-current="page">Guides</a>
-        <a href="/recipes/">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" aria-current="page" data-edit="t1">Guides</a>
+        <a href="/recipes/" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -46,38 +47,38 @@
     
         <div class="layout">
           <aside class="side">
-            <strong>Guides</strong>
-            <a href="/topics/why-first-foods-matter.html">What the first foods are actually for</a><a href="/topics/when-to-start.html">When to start</a><a href="/topics/ways-of-feeding.html">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html">What to introduce, and when</a><a href="/topics/allergens.html">Introducing allergens</a><a href="/topics/portions-and-milk.html">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html">A week, in outline</a><a href="/topics/how-meals-happen.html">How the meal happens</a><a href="/topics/gagging-and-choking.html">Gagging and choking</a><a href="/topics/picky-eating.html">Picky eating</a><a href="/topics/illness.html">When a child is ill</a><a href="/topics/teething.html">Teething</a><a href="/topics/vitamins-and-minerals.html" aria-current="page">Vitamins and minerals</a><a href="/topics/pocket-guide.html">A pocket guide</a>
+            <strong data-edit="t7">Guides</strong>
+            <a href="/topics/why-first-foods-matter.html" data-edit="t8">What the first foods are actually for</a><a href="/topics/when-to-start.html" data-edit="t9">When to start</a><a href="/topics/ways-of-feeding.html" data-edit="t10">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html" data-edit="t11">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html" data-edit="t12">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html" data-edit="t13">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html" data-edit="t14">What to introduce, and when</a><a href="/topics/allergens.html" data-edit="t15">Introducing allergens</a><a href="/topics/portions-and-milk.html" data-edit="t16">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html" data-edit="t17">A week, in outline</a><a href="/topics/how-meals-happen.html" data-edit="t18">How the meal happens</a><a href="/topics/gagging-and-choking.html" data-edit="t19">Gagging and choking</a><a href="/topics/picky-eating.html" data-edit="t20">Picky eating</a><a href="/topics/illness.html" data-edit="t21">When a child is ill</a><a href="/topics/teething.html" data-edit="t22">Teething</a><a href="/topics/vitamins-and-minerals.html" aria-current="page" data-edit="t23">Vitamins and minerals</a><a href="/topics/pocket-guide.html" data-edit="t24">A pocket guide</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Guides</p>
-            <h1>Vitamins and minerals</h1>
-            <p class="lede">Vitamin D is a supplement decision from the first days. Iron is a food decision from six months. The rest follows the diet.</p>
+            <p class="kicker" data-edit="t25">Guides</p>
+            <h1 data-edit="t26">Vitamins and minerals</h1>
+            <p class="lede" data-edit="t27">Vitamin D is a supplement decision from the first days. Iron is a food decision from six months. The rest follows the diet.</p>
             <figure class="hero-photo">
               <img src="/assets/img/topics/vitamins-and-minerals.jpg" alt="Cooked chicken liver, apple, egg, and red lentils">
             </figure>
-            <h2>Findings</h2>
+            <h2 data-edit="t28">Findings</h2>
             <article class="finding">
-              <a href="#d"><strong>Breastfed infants need a vitamin D supplement.</strong> Food will not cover it. In Hungarian practice the usual prevention dose is prescribed by the paediatrician or health visitor, often 400 IU a day.</a>
+              <a href="#d" data-edit="t29"><strong>Breastfed infants need a vitamin D supplement.</strong> Food will not cover it. In Hungarian practice the usual prevention dose is prescribed by the paediatrician or health visitor, often 400 IU a day.</a>
             </article><article class="finding">
-              <a href="#iron-min"><strong>Iron comes from food after six months, not from a routine tonic.</strong> Meat, legumes, and fortified cereal are the sources. A supplement is for a diagnosed deficiency or a specific risk, not a default.</a>
+              <a href="#iron-min" data-edit="t30"><strong>Iron comes from food after six months, not from a routine tonic.</strong> Meat, legumes, and fortified cereal are the sources. A supplement is for a diagnosed deficiency or a specific risk, not a default.</a>
             </article><article class="finding">
-              <a href="#b12"><strong>A vegan infant diet needs a plan, not optimism.</strong> Vitamin B12, iodine, iron, zinc, calcium, and DHA do not appear by accident in a plant-only diet.</a>
+              <a href="#b12" data-edit="t31"><strong>A vegan infant diet needs a plan, not optimism.</strong> Vitamin B12, iodine, iron, zinc, calcium, and DHA do not appear by accident in a plant-only diet.</a>
             </article><article class="finding">
-              <a href="#a"><strong>Liver is a vitamin A dose.</strong> Once a week, in a small portion, is plenty. Do not add a vitamin A supplement on top.</a>
+              <a href="#a" data-edit="t32"><strong>Liver is a vitamin A dose.</strong> Once a week, in a small portion, is plenty. Do not add a vitamin A supplement on top.</a>
             </article>
-            <h2 id="d">Vitamin D</h2><p>Infants in Central Europe do not make enough vitamin D from sun for most of the year, and breast milk contains little. The NHS recommends 8.5 to 10 micrograms (340 to 400 IU) a day for breastfed babies from birth to one year. Hungarian paediatric practice commonly prescribes a daily vitamin D drop in that neighbourhood, sometimes up to a higher prevention dose. Use the product and the dose you were given. Do not stack a second product ‘to be safe’.</p><p>Infant formula already contains vitamin D. A baby drinking around 500 ml or more a day may not need an extra drop; this is a question for the prescriber, because the right answer depends on the formula and the volume.</p><h2 id="iron-min">Iron, zinc, and iodine</h2><p>The dietary iron need in the second six months is high relative to body size, about 11 mg a day in US reference values, and it is met by food frequency rather than by one heroic portion. Serve an iron food most days. Zinc travels with meat and with beans. Plants alone are a thinner zinc source.</p><p>Iodine matters for the thyroid and for development. Dairy, eggs, and fish carry it. Iodised salt is the population tool and is the wrong tool under one year, because salt itself is restricted. A breastfeeding mother’s iodine intake matters; that is her supplement conversation, not a reason to salt the baby.</p><h2 id="b12">Vegetarian and vegan plates</h2><p>A lacto-ovo vegetarian infant diet can work if eggs and dairy are actually eaten and iron is planned. A vegan diet can be constructed and is easy to get wrong. ESPGHAN asks that vegan infants receive medical and dietetic supervision and a reliable vitamin B12 source. Iodine, DHA from an algal oil, iron, zinc, and calcium need named foods, not a hope that variety will cover them.</p><p>Plant drinks are not infant formula. Rice drinks are unsuitable under five. Other plant drinks are not a main drink in the first year unless a clinician has chosen a specific product.</p><h2 id="a">Vitamin A and the liver rule</h2><p>Liver is rich in iron and so rich in preformed vitamin A that a large or frequent portion can overshoot. A small serving, about 15 grams of cooked liver in the child’s share, at most once a week, is the cautious reading of that fact. Skip liver entirely in a week when a vitamin A containing supplement is being used.</p><p>Ordinary vegetables supply carotenoids, which the body converts in a regulated way. There is no matching limit on carrots. Orange skin from carrots is harmless and fades.</p>
-            <h2>References</h2>
-            <ol class="refs"><li class="ref" id="ref-1">
+            <h2 id="d" data-edit="t33">Vitamin D</h2><p data-edit="t34">Infants in Central Europe do not make enough vitamin D from sun for most of the year, and breast milk contains little. The NHS recommends 8.5 to 10 micrograms (340 to 400 IU) a day for breastfed babies from birth to one year. Hungarian paediatric practice commonly prescribes a daily vitamin D drop in that neighbourhood, sometimes up to a higher prevention dose. Use the product and the dose you were given. Do not stack a second product ‘to be safe’.</p><p data-edit="t35">Infant formula already contains vitamin D. A baby drinking around 500 ml or more a day may not need an extra drop; this is a question for the prescriber, because the right answer depends on the formula and the volume.</p><h2 id="iron-min" data-edit="t36">Iron, zinc, and iodine</h2><p data-edit="t37">The dietary iron need in the second six months is high relative to body size, about 11 mg a day in US reference values, and it is met by food frequency rather than by one heroic portion. Serve an iron food most days. Zinc travels with meat and with beans. Plants alone are a thinner zinc source.</p><p data-edit="t38">Iodine matters for the thyroid and for development. Dairy, eggs, and fish carry it. Iodised salt is the population tool and is the wrong tool under one year, because salt itself is restricted. A breastfeeding mother’s iodine intake matters; that is her supplement conversation, not a reason to salt the baby.</p><h2 id="b12" data-edit="t39">Vegetarian and vegan plates</h2><p data-edit="t40">A lacto-ovo vegetarian infant diet can work if eggs and dairy are actually eaten and iron is planned. A vegan diet can be constructed and is easy to get wrong. ESPGHAN asks that vegan infants receive medical and dietetic supervision and a reliable vitamin B12 source. Iodine, DHA from an algal oil, iron, zinc, and calcium need named foods, not a hope that variety will cover them.</p><p data-edit="t41">Plant drinks are not infant formula. Rice drinks are unsuitable under five. Other plant drinks are not a main drink in the first year unless a clinician has chosen a specific product.</p><h2 id="a" data-edit="t42">Vitamin A and the liver rule</h2><p data-edit="t43">Liver is rich in iron and so rich in preformed vitamin A that a large or frequent portion can overshoot. A small serving, about 15 grams of cooked liver in the child’s share, at most once a week, is the cautious reading of that fact. Skip liver entirely in a week when a vitamin A containing supplement is being used.</p><p data-edit="t44">Ordinary vegetables supply carotenoids, which the body converts in a regulated way. There is no matching limit on carrots. Orange skin from carrots is harmless and fades.</p>
+            <h2 data-edit="t45">References</h2>
+            <ol class="refs"><li class="ref" id="ref-1" data-edit="t46">
               <a href="https://www.nhs.uk/baby/weaning-and-feeding/vitamins-for-children/">Vitamins for children</a>
               <div class="meta">NHS, 2024</div>
-            </li><li class="ref" id="ref-2">
+            </li><li class="ref" id="ref-2" data-edit="t47">
               <a href="https://doi.org/10.1097/MPG.0000000000001454">Complementary Feeding: A Position Paper, on iron and on vegan diets</a>
               <div class="meta">ESPGHAN, JPGN, 2017</div>
-            </li><li class="ref" id="ref-3">
+            </li><li class="ref" id="ref-3" data-edit="t48">
               <a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/">Dietary Reference Intakes for iron</a>
               <div class="meta">National Academies / NIH Office of Dietary Supplements, Iron fact sheet for health professionals, 2023</div>
-            </li><li class="ref" id="ref-4">
+            </li><li class="ref" id="ref-4" data-edit="t49">
               <a href="https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/">Foods to avoid giving babies and young children, liver and vitamin A</a>
               <div class="meta">NHS, 2024</div>
             </li></ol>
@@ -86,10 +87,11 @@
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t50">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t51">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

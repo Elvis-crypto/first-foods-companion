@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Soft pieces</p>
-              <h1>Banana pancakes</h1>
-              <p class="hu">Banános babacsinta</p>
+              <p class="kicker" data-edit="t7">Soft pieces</p>
+              <h1 data-edit="t8">Banana pancakes</h1>
+              <p class="hu" data-edit="t9">Banános babacsinta</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill sage">Sound idea</span>
-                <span class="pill quiet">15 min</span>
-                <span class="pill quiet">2 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill sage" data-edit="t11">Sound idea</span>
+                <span class="pill quiet" data-edit="t12">15 min</span>
+                <span class="pill quiet" data-edit="t13">2 portions</span>
               </div>
-              <p>Break into mashable pieces or mash the serving for a 6-month-old. Leave them unsweetened.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">Break into mashable pieces or mash the serving for a 6-month-old. Leave them unsweetened.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/banana-pancakes.jpg" alt="A serving of Banana pancakes">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>1 medium</strong> ripe banana <span class="meta">(mashed smooth)</span></li><li><strong>1</strong> egg <span class="meta">(cooked through)</span></li><li><strong>1 tbsp</strong> plain wheat flour <span class="meta">(about 10 g)</span></li><li><strong>1 tsp</strong> olive oil <span class="meta">(thin film in the pan)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">egg</span><span class="pill quiet">gluten</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>1 medium</strong> ripe banana <span class="meta">(mashed smooth)</span></li><li data-edit="t18"><strong>1</strong> egg <span class="meta">(cooked through)</span></li><li data-edit="t19"><strong>1 tbsp</strong> plain wheat flour <span class="meta">(about 10 g)</span></li><li data-edit="t20"><strong>1 tsp</strong> olive oil <span class="meta">(thin film in the pan)</span></li></ul>
+              <h2 data-edit="t21">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t22">egg</span><span class="pill quiet" data-edit="t23">gluten</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Mash the banana until smooth.</li><li>Beat in the egg and the flour, and add no sugar.</li><li>Heat a thin film of oil on low heat.</li><li>Cook small pancakes until the underside is set, then turn them.</li><li>Cook until the egg is fully set in the center, then mash or break them for the baby.</li></ol>
+              <h2 data-edit="t24">Method</h2>
+              <ol><li data-edit="t25">Mash the banana until smooth.</li><li data-edit="t26">Beat in the egg and the flour, and add no sugar.</li><li data-edit="t27">Heat a thin film of oil on low heat.</li><li data-edit="t28">Cook small pancakes until the underside is set, then turn them.</li><li data-edit="t29">Cook until the egg is fully set in the center, then mash or break them for the baby.</li></ol>
             </section>
           </div>
           <section class="callout sound">
-            <h2>Sound idea</h2>
-            <p>Ripe banana, egg, and a little flour are already a plain batter, with no need for sugar. The pancake is a problem only if the center stays raw or the round is too thick to mash.</p>
-            <p>No ingredient change is needed. Cook small pancakes in a thin film of oil on low heat until the egg is fully set, and do not add sugar.</p>
+            <h2 data-edit="t30">Sound idea</h2>
+            <p data-edit="t31">Ripe banana, egg, and a little flour are already a plain batter, with no need for sugar. The pancake is a problem only if the center stays raw or the round is too thick to mash.</p>
+            <p data-edit="t32">No ingredient change is needed. Cook small pancakes in a thin film of oil on low heat until the egg is fully set, and do not add sugar.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/vegetable-bulgur.html">Vegetable bulgur</a><a href="/recipes/green-pasta-cheese.html">Green pasta with cheese</a><a href="/recipes/tomato-chicken-pasta.html">Tomato chicken pasta</a>
+            <strong data-edit="t33">More in this group</strong>
+            <a href="/recipes/vegetable-bulgur.html" data-edit="t34">Vegetable bulgur</a><a href="/recipes/green-pasta-cheese.html" data-edit="t35">Green pasta with cheese</a><a href="/recipes/tomato-chicken-pasta.html" data-edit="t36">Tomato chicken pasta</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t37">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t38">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

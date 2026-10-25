@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Nasi</p>
-              <h1>Sütőtökös keksz</h1>
-              <p class="hu">Pumpkin oat biscuits</p>
+              <p class="kicker" data-edit="t7">Nasi</p>
+              <h1 data-edit="t8">Sütőtökös keksz</h1>
+              <p class="hu" data-edit="t9">Pumpkin oat biscuits</p>
               <div class="pills">
-                <span class="pill">7 hónapos kortól</span>
-                <span class="pill warn">Igazított</span>
-                <span class="pill quiet">22 min</span>
-                <span class="pill quiet">10 adag</span>
+                <span class="pill" data-edit="t10">7 hónapos kortól</span>
+                <span class="pill warn" data-edit="t11">Igazított</span>
+                <span class="pill quiet" data-edit="t12">22 min</span>
+                <span class="pill quiet" data-edit="t13">10 adag</span>
               </div>
-              <p>Puha, vastag darabokban tálald. Még azelőtt vedd ki a sütőből, hogy a szélek megszáradnának.</p>
-              <p class="meta">Fagyasztható.</p>
+              <p data-edit="t14">Puha, vastag darabokban tálald. Még azelőtt vedd ki a sütőből, hogy a szélek megszáradnának.</p>
+              <p class="meta" data-edit="t15">Fagyasztható.</p>
             </div>
             <img src="/assets/img/recipes/pumpkin-biscuits.jpg" alt="Egy adag: Sütőtökös keksz">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>150 g</strong> Sütőtökpüré <span class="meta">(Megfőzve, cukor nélkül)</span></li><li><strong>100 g</strong> Zabpehely <span class="meta">(A finom zabpehely puhább marad)</span></li><li><strong>1 evőkanál</strong> Enyhe olaj <span class="meta">(Puhán tartja a korongokat)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">glutén</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>150 g</strong> Sütőtökpüré <span class="meta">(Megfőzve, cukor nélkül)</span></li><li data-edit="t18"><strong>100 g</strong> Zabpehely <span class="meta">(A finom zabpehely puhább marad)</span></li><li data-edit="t19"><strong>1 evőkanál</strong> Enyhe olaj <span class="meta">(Puhán tartja a korongokat)</span></li></ul>
+              <h2 data-edit="t20">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t21">glutén</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>Melegítsd elő a sütőt 180 °C-ra.</li><li>Keverd össze a sütőtököt, a zabpelyhet és az olajat.</li><li>Nyomj vastag, kis korongokat sütőpapírral bélelt tepsire.</li><li>Süsd, amíg éppen megköt, de még puha, körülbelül 14 percig.</li><li>Kendő alatt hűtsd, hogy ne keményedjenek meg.</li></ol>
+              <h2 data-edit="t22">Elkészítés</h2>
+              <ol><li data-edit="t23">Melegítsd elő a sütőt 180 °C-ra.</li><li data-edit="t24">Keverd össze a sütőtököt, a zabpelyhet és az olajat.</li><li data-edit="t25">Nyomj vastag, kis korongokat sütőpapírral bélelt tepsire.</li><li data-edit="t26">Süsd, amíg éppen megköt, de még puha, körülbelül 14 percig.</li><li data-edit="t27">Kendő alatt hűtsd, hogy ne keményedjenek meg.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Igazított</h2>
-            <p>Az ilyesmit néha mézzel édesítik, de mézet nem használunk. A száraz, kemény keksz nem a cél.</p>
-            <p>Süsd a sütőtököt és a zabpelyhet puha kekszzé, méz és cukor nélkül.</p>
+            <h2 data-edit="t28">Igazított</h2>
+            <p data-edit="t29">Az ilyesmit néha mézzel édesítik, de mézet nem használunk. A száraz, kemény keksz nem a cél.</p>
+            <p data-edit="t30">Süsd a sütőtököt és a zabpelyhet puha kekszzé, méz és cukor nélkül.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/free-from-biscuits.html">Tej- és tojásmentes keksz</a><a href="/hu/recipes/banana-biscuits.html">Banános keksz</a><a href="/hu/recipes/apple-oat-rounds.html">Almás korong</a>
+            <strong data-edit="t31">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/free-from-biscuits.html" data-edit="t32">Tej- és tojásmentes keksz</a><a href="/hu/recipes/banana-biscuits.html" data-edit="t33">Banános keksz</a><a href="/hu/recipes/apple-oat-rounds.html" data-edit="t34">Almás korong</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t35">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t36">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

@@ -20,1233 +20,1234 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
   <main class="wrap">
     
     <section class="section">
-      <p class="kicker">Recipes</p>
-      <h1>Cook these versions.</h1>
-      <p class="lede">Filter by the age of the child, or mark ingredients to require or leave out. Recipes that start at the age you choose are listed first. Earlier ones stay, because a younger recipe is still fine. Hungarian names are kept so you can find the dish you had in mind.</p>
+      <p class="kicker" data-edit="t7">Recipes</p>
+      <h1 data-edit="t8">Cook these versions.</h1>
+      <p class="lede" data-edit="t9">Filter by the age of the child, or mark ingredients to require or leave out. Recipes that start at the age you choose are listed first. Earlier ones stay, because a younger recipe is still fine. Hungarian names are kept so you can find the dish you had in mind.</p>
       <div class="filters">
         <input type="search" data-filter-q placeholder="Search by name or ingredient" aria-label="Search recipes">
-        <label class="meta" for="age-en">Show recipes a child this age can start</label>
+        <label class="meta" for="age-en" data-edit="t10">Show recipes a child this age can start</label>
         <select id="age-en" data-filter-age>
-          <option value="">Any minimum age</option>
-          <option value="6">6 months</option><option value="7">7 months</option><option value="8">8 months</option><option value="9">9 months</option><option value="10">10 months</option><option value="12">12 months</option>
+          <option value="" data-edit="t11">Any minimum age</option>
+          <option value="6" data-edit="t12">6 months</option><option value="7" data-edit="t13">7 months</option><option value="8" data-edit="t14">8 months</option><option value="9" data-edit="t15">9 months</option><option value="10" data-edit="t16">10 months</option><option value="12" data-edit="t17">12 months</option>
         </select>
         <p class="meta age-note" data-age-note hidden aria-live="polite" data-starts="Starts at {n} months" data-earlier="Also fine from earlier" data-note="Starting at {n} months: {start}. Still fine from earlier: {earlier}." data-note-only="Starting at {n} months: {start}." data-note-earlier="Nothing starts at {n} months. Still fine from earlier: {earlier}."></p>
-        <div class="chips" role="group" aria-label="Category"><button type="button" data-filter-cat="all" aria-pressed="true">All</button><button type="button" data-filter-cat="simple-purees" aria-pressed="false">Simple purées</button><button type="button" data-filter-cat="mixed-purees" aria-pressed="false">Mixed purées</button><button type="button" data-filter-cat="finger-foods" aria-pressed="false">Soft pieces</button><button type="button" data-filter-cat="toddler-meals" aria-pressed="false">Toddler meals</button><button type="button" data-filter-cat="snacks" aria-pressed="false">Snacks</button><button type="button" data-filter-cat="celebrations" aria-pressed="false">Celebrations</button><button type="button" data-filter-cat="basics" aria-pressed="false">Basics</button><button type="button" data-filter-cat="allergens" aria-pressed="false">Allergen practice</button></div>
-        <div class="chips" role="group" aria-label="Scrutiny"><button type="button" data-filter-verdict="all" aria-pressed="true">Any note</button><button type="button" data-filter-verdict="sound" aria-pressed="false">Sound idea</button><button type="button" data-filter-verdict="adjust" aria-pressed="false">Adjusted</button><button type="button" data-filter-verdict="replace" aria-pressed="false">Replaced</button></div>
+        <div class="chips" role="group" aria-label="Category"><button type="button" data-filter-cat="all" aria-pressed="true" data-edit="t18">All</button><button type="button" data-filter-cat="simple-purees" aria-pressed="false" data-edit="t19">Simple purées</button><button type="button" data-filter-cat="mixed-purees" aria-pressed="false" data-edit="t20">Mixed purées</button><button type="button" data-filter-cat="finger-foods" aria-pressed="false" data-edit="t21">Soft pieces</button><button type="button" data-filter-cat="toddler-meals" aria-pressed="false" data-edit="t22">Toddler meals</button><button type="button" data-filter-cat="snacks" aria-pressed="false" data-edit="t23">Snacks</button><button type="button" data-filter-cat="celebrations" aria-pressed="false" data-edit="t24">Celebrations</button><button type="button" data-filter-cat="basics" aria-pressed="false" data-edit="t25">Basics</button><button type="button" data-filter-cat="allergens" aria-pressed="false" data-edit="t26">Allergen practice</button></div>
+        <div class="chips" role="group" aria-label="Scrutiny"><button type="button" data-filter-verdict="all" aria-pressed="true" data-edit="t27">Any note</button><button type="button" data-filter-verdict="sound" aria-pressed="false" data-edit="t28">Sound idea</button><button type="button" data-filter-verdict="adjust" aria-pressed="false" data-edit="t29">Adjusted</button><button type="button" data-filter-verdict="replace" aria-pressed="false" data-edit="t30">Replaced</button></div>
         <div class="food-filters">
-          <label class="meta" for="food-en">Ingredients</label>
+          <label class="meta" for="food-en" data-edit="t31">Ingredients</label>
           <input id="food-en" type="search" data-filter-foods placeholder="Find an ingredient" aria-label="Find an ingredient" autocomplete="off">
-          <p class="meta">Click once to require it. Click again to leave it out. Click again to clear.</p>
-          <div class="chips" role="group" aria-label="Ingredients" data-food-chips data-required-suffix=", required" data-excluded-suffix=", excluded"><button type="button" data-food="apple" data-label="Apple" data-state="off" aria-pressed="false">Apple</button><button type="button" data-food="pear" data-label="Pear" data-state="off" aria-pressed="false">Pear</button><button type="button" data-food="banana" data-label="Banana" data-state="off" aria-pressed="false">Banana</button><button type="button" data-food="peach" data-label="Peach" data-state="off" aria-pressed="false">Peach</button><button type="button" data-food="berries" data-label="Berries" data-state="off" aria-pressed="false">Berries</button><button type="button" data-food="mango" data-label="Mango" data-state="off" aria-pressed="false">Mango</button><button type="button" data-food="avocado" data-label="Avocado" data-state="off" aria-pressed="false">Avocado</button><button type="button" data-food="pumpkin" data-label="Pumpkin" data-state="off" aria-pressed="false">Pumpkin</button><button type="button" data-food="carrot" data-label="Carrot" data-state="off" aria-pressed="false">Carrot</button><button type="button" data-food="sweet-potato" data-label="Sweet potato" data-state="off" aria-pressed="false">Sweet potato</button><button type="button" data-food="potato" data-label="Potato" data-state="off" aria-pressed="false">Potato</button><button type="button" data-food="zucchini" data-label="Zucchini" data-state="off" aria-pressed="false">Zucchini</button><button type="button" data-food="broccoli" data-label="Broccoli" data-state="off" aria-pressed="false">Broccoli</button><button type="button" data-food="cauliflower" data-label="Cauliflower" data-state="off" aria-pressed="false">Cauliflower</button><button type="button" data-food="spinach" data-label="Spinach" data-state="off" aria-pressed="false">Spinach</button><button type="button" data-food="peas" data-label="Peas" data-state="off" aria-pressed="false">Peas</button><button type="button" data-food="tomato" data-label="Tomato" data-state="off" aria-pressed="false">Tomato</button><button type="button" data-food="onion" data-label="Onion or garlic" data-state="off" aria-pressed="false">Onion or garlic</button><button type="button" data-food="pepper" data-label="Pepper" data-state="off" aria-pressed="false">Pepper</button><button type="button" data-food="dairy" data-label="Dairy" data-state="off" aria-pressed="false">Dairy</button><button type="button" data-food="egg" data-label="Egg" data-state="off" aria-pressed="false">Egg</button><button type="button" data-food="yogurt" data-label="Yogurt" data-state="off" aria-pressed="false">Yogurt</button><button type="button" data-food="cottage" data-label="Cottage cheese" data-state="off" aria-pressed="false">Cottage cheese</button><button type="button" data-food="cheese" data-label="Cheese" data-state="off" aria-pressed="false">Cheese</button><button type="button" data-food="milk" data-label="Milk" data-state="off" aria-pressed="false">Milk</button><button type="button" data-food="oats" data-label="Oats" data-state="off" aria-pressed="false">Oats</button><button type="button" data-food="wheat" data-label="Wheat" data-state="off" aria-pressed="false">Wheat</button><button type="button" data-food="rice" data-label="Rice" data-state="off" aria-pressed="false">Rice</button><button type="button" data-food="quinoa" data-label="Quinoa" data-state="off" aria-pressed="false">Quinoa</button><button type="button" data-food="corn" data-label="Corn" data-state="off" aria-pressed="false">Corn</button><button type="button" data-food="chicken" data-label="Chicken" data-state="off" aria-pressed="false">Chicken</button><button type="button" data-food="liver" data-label="Liver" data-state="off" aria-pressed="false">Liver</button><button type="button" data-food="red-meat" data-label="Beef, veal, or pork" data-state="off" aria-pressed="false">Beef, veal, or pork</button><button type="button" data-food="fish" data-label="Fish" data-state="off" aria-pressed="false">Fish</button><button type="button" data-food="shrimp" data-label="Shrimp" data-state="off" aria-pressed="false">Shrimp</button><button type="button" data-food="peanut" data-label="Peanut" data-state="off" aria-pressed="false">Peanut</button><button type="button" data-food="tree-nut" data-label="Tree nut" data-state="off" aria-pressed="false">Tree nut</button><button type="button" data-food="sesame" data-label="Sesame" data-state="off" aria-pressed="false">Sesame</button><button type="button" data-food="legumes" data-label="Beans, lentils, or tofu" data-state="off" aria-pressed="false">Beans, lentils, or tofu</button></div>
-          <button type="button" class="text-button" data-food-clear hidden>Clear ingredients</button>
+          <p class="meta" data-edit="t32">Click once to require it. Click again to leave it out. Click again to clear.</p>
+          <div class="chips" role="group" aria-label="Ingredients" data-food-chips data-required-suffix=", required" data-excluded-suffix=", excluded"><button type="button" data-food="apple" data-label="Apple" data-state="off" aria-pressed="false" data-edit="t33">Apple</button><button type="button" data-food="pear" data-label="Pear" data-state="off" aria-pressed="false" data-edit="t34">Pear</button><button type="button" data-food="banana" data-label="Banana" data-state="off" aria-pressed="false" data-edit="t35">Banana</button><button type="button" data-food="peach" data-label="Peach" data-state="off" aria-pressed="false" data-edit="t36">Peach</button><button type="button" data-food="berries" data-label="Berries" data-state="off" aria-pressed="false" data-edit="t37">Berries</button><button type="button" data-food="mango" data-label="Mango" data-state="off" aria-pressed="false" data-edit="t38">Mango</button><button type="button" data-food="avocado" data-label="Avocado" data-state="off" aria-pressed="false" data-edit="t39">Avocado</button><button type="button" data-food="pumpkin" data-label="Pumpkin" data-state="off" aria-pressed="false" data-edit="t40">Pumpkin</button><button type="button" data-food="carrot" data-label="Carrot" data-state="off" aria-pressed="false" data-edit="t41">Carrot</button><button type="button" data-food="sweet-potato" data-label="Sweet potato" data-state="off" aria-pressed="false" data-edit="t42">Sweet potato</button><button type="button" data-food="potato" data-label="Potato" data-state="off" aria-pressed="false" data-edit="t43">Potato</button><button type="button" data-food="zucchini" data-label="Zucchini" data-state="off" aria-pressed="false" data-edit="t44">Zucchini</button><button type="button" data-food="broccoli" data-label="Broccoli" data-state="off" aria-pressed="false" data-edit="t45">Broccoli</button><button type="button" data-food="cauliflower" data-label="Cauliflower" data-state="off" aria-pressed="false" data-edit="t46">Cauliflower</button><button type="button" data-food="spinach" data-label="Spinach" data-state="off" aria-pressed="false" data-edit="t47">Spinach</button><button type="button" data-food="peas" data-label="Peas" data-state="off" aria-pressed="false" data-edit="t48">Peas</button><button type="button" data-food="tomato" data-label="Tomato" data-state="off" aria-pressed="false" data-edit="t49">Tomato</button><button type="button" data-food="onion" data-label="Onion or garlic" data-state="off" aria-pressed="false" data-edit="t50">Onion or garlic</button><button type="button" data-food="pepper" data-label="Pepper" data-state="off" aria-pressed="false" data-edit="t51">Pepper</button><button type="button" data-food="dairy" data-label="Dairy" data-state="off" aria-pressed="false" data-edit="t52">Dairy</button><button type="button" data-food="egg" data-label="Egg" data-state="off" aria-pressed="false" data-edit="t53">Egg</button><button type="button" data-food="yogurt" data-label="Yogurt" data-state="off" aria-pressed="false" data-edit="t54">Yogurt</button><button type="button" data-food="cottage" data-label="Cottage cheese" data-state="off" aria-pressed="false" data-edit="t55">Cottage cheese</button><button type="button" data-food="cheese" data-label="Cheese" data-state="off" aria-pressed="false" data-edit="t56">Cheese</button><button type="button" data-food="milk" data-label="Milk" data-state="off" aria-pressed="false" data-edit="t57">Milk</button><button type="button" data-food="oats" data-label="Oats" data-state="off" aria-pressed="false" data-edit="t58">Oats</button><button type="button" data-food="wheat" data-label="Wheat" data-state="off" aria-pressed="false" data-edit="t59">Wheat</button><button type="button" data-food="rice" data-label="Rice" data-state="off" aria-pressed="false" data-edit="t60">Rice</button><button type="button" data-food="quinoa" data-label="Quinoa" data-state="off" aria-pressed="false" data-edit="t61">Quinoa</button><button type="button" data-food="corn" data-label="Corn" data-state="off" aria-pressed="false" data-edit="t62">Corn</button><button type="button" data-food="chicken" data-label="Chicken" data-state="off" aria-pressed="false" data-edit="t63">Chicken</button><button type="button" data-food="liver" data-label="Liver" data-state="off" aria-pressed="false" data-edit="t64">Liver</button><button type="button" data-food="red-meat" data-label="Beef, veal, or pork" data-state="off" aria-pressed="false" data-edit="t65">Beef, veal, or pork</button><button type="button" data-food="fish" data-label="Fish" data-state="off" aria-pressed="false" data-edit="t66">Fish</button><button type="button" data-food="shrimp" data-label="Shrimp" data-state="off" aria-pressed="false" data-edit="t67">Shrimp</button><button type="button" data-food="peanut" data-label="Peanut" data-state="off" aria-pressed="false" data-edit="t68">Peanut</button><button type="button" data-food="tree-nut" data-label="Tree nut" data-state="off" aria-pressed="false" data-edit="t69">Tree nut</button><button type="button" data-food="sesame" data-label="Sesame" data-state="off" aria-pressed="false" data-edit="t70">Sesame</button><button type="button" data-food="legumes" data-label="Beans, lentils, or tofu" data-state="off" aria-pressed="false" data-edit="t71">Beans, lentils, or tofu</button></div>
+          <button type="button" class="text-button" data-food-clear hidden data-edit="t72">Clear ingredients</button>
         </div>
         <p class="count" data-count>131 recipes</p>
       </div>
       <div class="recipe-list" data-recipe-list>
         <a class="recipe-card" href="/recipes/pumpkin-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:pumpkin-puree:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:pumpkin-puree:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:pumpkin-puree:category">Simple purées</span>
       </div>
-      <h3>Pumpkin purée</h3>
-      <p class="hu">Sütőtökpüré</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:pumpkin-puree:title">Pumpkin purée</h3>
+      <p class="hu" data-edit="recipe:pumpkin-puree:secondary">Sütőtökpüré</p>
+      <p data-edit="recipe:pumpkin-puree:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/peach-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:peach-puree:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:peach-puree:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:peach-puree:category">Simple purées</span>
       </div>
-      <h3>Peach purée</h3>
-      <p class="hu">Barackpüré</p>
-      <p>20 min · 4 portions</p>
+      <h3 data-edit="recipe:peach-puree:title">Peach purée</h3>
+      <p class="hu" data-edit="recipe:peach-puree:secondary">Barackpüré</p>
+      <p data-edit="recipe:peach-puree:details">20 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/potato-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:potato-puree:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:potato-puree:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:potato-puree:category">Simple purées</span>
       </div>
-      <h3>Potato purée</h3>
-      <p class="hu">Burgonyapüré</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:potato-puree:title">Potato purée</h3>
+      <p class="hu" data-edit="recipe:potato-puree:secondary">Burgonyapüré</p>
+      <p data-edit="recipe:potato-puree:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:apple-puree:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:apple-puree:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:apple-puree:category">Simple purées</span>
       </div>
-      <h3>Apple purée</h3>
-      <p class="hu">Almapüré</p>
-      <p>20 min · 4 portions</p>
+      <h3 data-edit="recipe:apple-puree:title">Apple purée</h3>
+      <p class="hu" data-edit="recipe:apple-puree:secondary">Almapüré</p>
+      <p data-edit="recipe:apple-puree:details">20 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/pear-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:pear-puree:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:pear-puree:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:pear-puree:category">Simple purées</span>
       </div>
-      <h3>Pear purée</h3>
-      <p class="hu">Körtepüré</p>
-      <p>20 min · 4 portions</p>
+      <h3 data-edit="recipe:pear-puree:title">Pear purée</h3>
+      <p class="hu" data-edit="recipe:pear-puree:secondary">Körtepüré</p>
+      <p data-edit="recipe:pear-puree:details">20 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/sweet-potato-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:sweet-potato-puree:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:sweet-potato-puree:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:sweet-potato-puree:category">Simple purées</span>
       </div>
-      <h3>Sweet potato purée</h3>
-      <p class="hu">Édesburgonyapüré</p>
-      <p>45 min · 4 portions</p>
+      <h3 data-edit="recipe:sweet-potato-puree:title">Sweet potato purée</h3>
+      <p class="hu" data-edit="recipe:sweet-potato-puree:secondary">Édesburgonyapüré</p>
+      <p data-edit="recipe:sweet-potato-puree:details">45 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/mango-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:mango-puree:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:mango-puree:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:mango-puree:category">Simple purées</span>
       </div>
-      <h3>Mango purée</h3>
-      <p class="hu">Mangópüré</p>
-      <p>10 min · 2 portions</p>
+      <h3 data-edit="recipe:mango-puree:title">Mango purée</h3>
+      <p class="hu" data-edit="recipe:mango-puree:secondary">Mangópüré</p>
+      <p data-edit="recipe:mango-puree:details">10 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/banana-mash.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:banana-mash:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:banana-mash:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:banana-mash:category">Simple purées</span>
       </div>
-      <h3>Banana mash</h3>
-      <p class="hu">Banánpüré</p>
-      <p>5 min · 2 portions</p>
+      <h3 data-edit="recipe:banana-mash:title">Banana mash</h3>
+      <p class="hu" data-edit="recipe:banana-mash:secondary">Banánpüré</p>
+      <p data-edit="recipe:banana-mash:details">5 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-chestnut-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:apple-chestnut-puree:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:apple-chestnut-puree:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:apple-chestnut-puree:category">Simple purées</span>
       </div>
-      <h3>Apple and chestnut purée</h3>
-      <p class="hu">Almás gesztenyepüré</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:apple-chestnut-puree:title">Apple and chestnut purée</h3>
+      <p class="hu" data-edit="recipe:apple-chestnut-puree:secondary">Almás gesztenyepüré</p>
+      <p data-edit="recipe:apple-chestnut-puree:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/blueberry-apple-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:blueberry-apple-puree:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:blueberry-apple-puree:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:blueberry-apple-puree:category">Simple purées</span>
       </div>
-      <h3>Blueberry and apple purée</h3>
-      <p class="hu">Áfonyás almapüré</p>
-      <p>20 min · 4 portions</p>
+      <h3 data-edit="recipe:blueberry-apple-puree:title">Blueberry and apple purée</h3>
+      <p class="hu" data-edit="recipe:blueberry-apple-puree:secondary">Áfonyás almapüré</p>
+      <p data-edit="recipe:blueberry-apple-puree:details">20 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/avocado-banana.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:avocado-banana:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:avocado-banana:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:avocado-banana:category">Simple purées</span>
       </div>
-      <h3>Avocado and banana purée</h3>
-      <p class="hu">Avokádó-banán püré</p>
-      <p>5 min · 2 portions</p>
+      <h3 data-edit="recipe:avocado-banana:title">Avocado and banana purée</h3>
+      <p class="hu" data-edit="recipe:avocado-banana:secondary">Avokádó-banán püré</p>
+      <p data-edit="recipe:avocado-banana:details">5 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/first-puree-mixes.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Simple purées</span>
+        <span class="pill" data-edit="recipe:first-puree-mixes:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:first-puree-mixes:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:first-puree-mixes:category">Simple purées</span>
       </div>
-      <h3>More purée mixes</h3>
-      <p class="hu">További pürévariációk</p>
-      <p>20 min · 1 portion</p>
+      <h3 data-edit="recipe:first-puree-mixes:title">More purée mixes</h3>
+      <p class="hu" data-edit="recipe:first-puree-mixes:secondary">További pürévariációk</p>
+      <p data-edit="recipe:first-puree-mixes:details">20 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/apple-peach-semolina.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:apple-peach-semolina:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:apple-peach-semolina:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:apple-peach-semolina:category">Mixed purées</span>
       </div>
-      <h3>Apple and peach semolina with yogurt</h3>
-      <p class="hu">Almás-barackos búzadara joghurttal</p>
-      <p>20 min · 2 portions</p>
+      <h3 data-edit="recipe:apple-peach-semolina:title">Apple and peach semolina with yogurt</h3>
+      <p class="hu" data-edit="recipe:apple-peach-semolina:secondary">Almás-barackos búzadara joghurttal</p>
+      <p data-edit="recipe:apple-peach-semolina:details">20 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/pear-banana-oat.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:pear-banana-oat:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:pear-banana-oat:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:pear-banana-oat:category">Mixed purées</span>
       </div>
-      <h3>Pear and banana with oats</h3>
-      <p class="hu">Körtés banán zabbal</p>
-      <p>20 min · 2 portions</p>
+      <h3 data-edit="recipe:pear-banana-oat:title">Pear and banana with oats</h3>
+      <p class="hu" data-edit="recipe:pear-banana-oat:secondary">Körtés banán zabbal</p>
+      <p data-edit="recipe:pear-banana-oat:details">20 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/plum-peach-yogurt.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:plum-peach-yogurt:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:plum-peach-yogurt:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:plum-peach-yogurt:category">Mixed purées</span>
       </div>
-      <h3>Plum and peach with yogurt</h3>
-      <p class="hu">Szilvás barack joghurttal</p>
-      <p>20 min · 2 portions</p>
+      <h3 data-edit="recipe:plum-peach-yogurt:title">Plum and peach with yogurt</h3>
+      <p class="hu" data-edit="recipe:plum-peach-yogurt:secondary">Szilvás barack joghurttal</p>
+      <p data-edit="recipe:plum-peach-yogurt:details">20 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-blueberry-curd.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:apple-blueberry-curd:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:apple-blueberry-curd:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:apple-blueberry-curd:category">Mixed purées</span>
       </div>
-      <h3>Green apple and blueberry with curd</h3>
-      <p class="hu">Zöldalmás áfonya túrókrémmel</p>
-      <p>20 min · 2 portions</p>
+      <h3 data-edit="recipe:apple-blueberry-curd:title">Green apple and blueberry with curd</h3>
+      <p class="hu" data-edit="recipe:apple-blueberry-curd:secondary">Zöldalmás áfonya túrókrémmel</p>
+      <p data-edit="recipe:apple-blueberry-curd:details">20 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/pineapple-curd.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:pineapple-curd:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:pineapple-curd:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:pineapple-curd:category">Mixed purées</span>
       </div>
-      <h3>Pineapple with curd</h3>
-      <p class="hu">Túrós ananász</p>
-      <p>10 min · 2 portions</p>
+      <h3 data-edit="recipe:pineapple-curd:title">Pineapple with curd</h3>
+      <p class="hu" data-edit="recipe:pineapple-curd:secondary">Túrós ananász</p>
+      <p data-edit="recipe:pineapple-curd:details">10 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-yogurt-porridge.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:apple-yogurt-porridge:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:apple-yogurt-porridge:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:apple-yogurt-porridge:category">Mixed purées</span>
       </div>
-      <h3>Apple and yogurt oat porridge</h3>
-      <p class="hu">Joghurtos alma zabkása</p>
-      <p>20 min · 2 portions</p>
+      <h3 data-edit="recipe:apple-yogurt-porridge:title">Apple and yogurt oat porridge</h3>
+      <p class="hu" data-edit="recipe:apple-yogurt-porridge:secondary">Joghurtos alma zabkása</p>
+      <p data-edit="recipe:apple-yogurt-porridge:details">20 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/spinach-potato.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:spinach-potato:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:spinach-potato:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:spinach-potato:category">Mixed purées</span>
       </div>
-      <h3>Spinach and potato</h3>
-      <p class="hu">Spenótos burgonya</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:spinach-potato:title">Spinach and potato</h3>
+      <p class="hu" data-edit="recipe:spinach-potato:secondary">Spenótos burgonya</p>
+      <p data-edit="recipe:spinach-potato:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/white-bean-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:white-bean-puree:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:white-bean-puree:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:white-bean-puree:category">Mixed purées</span>
       </div>
-      <h3>White bean purée</h3>
-      <p class="hu">Babpüré</p>
-      <p>75 min · 4 portions</p>
+      <h3 data-edit="recipe:white-bean-puree:title">White bean purée</h3>
+      <p class="hu" data-edit="recipe:white-bean-puree:secondary">Babpüré</p>
+      <p data-edit="recipe:white-bean-puree:details">75 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/asparagus-potato-cheese.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:asparagus-potato-cheese:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:asparagus-potato-cheese:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:asparagus-potato-cheese:category">Mixed purées</span>
       </div>
-      <h3>Asparagus and potato with cheese</h3>
-      <p class="hu">Spárgás burgonya sajttal</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:asparagus-potato-cheese:title">Asparagus and potato with cheese</h3>
+      <p class="hu" data-edit="recipe:asparagus-potato-cheese:secondary">Spárgás burgonya sajttal</p>
+      <p data-edit="recipe:asparagus-potato-cheese:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/zucchini-potato.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:zucchini-potato:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:zucchini-potato:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:zucchini-potato:category">Mixed purées</span>
       </div>
-      <h3>Zucchini and potato purée</h3>
-      <p class="hu">Cukkinis burgonyapüré</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:zucchini-potato:title">Zucchini and potato purée</h3>
+      <p class="hu" data-edit="recipe:zucchini-potato:secondary">Cukkinis burgonyapüré</p>
+      <p data-edit="recipe:zucchini-potato:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/carrot-jerusalem-artichoke.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:carrot-jerusalem-artichoke:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:carrot-jerusalem-artichoke:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:carrot-jerusalem-artichoke:category">Mixed purées</span>
       </div>
-      <h3>Carrot and Jerusalem artichoke</h3>
-      <p class="hu">Csicsókás répa</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:carrot-jerusalem-artichoke:title">Carrot and Jerusalem artichoke</h3>
+      <p class="hu" data-edit="recipe:carrot-jerusalem-artichoke:secondary">Csicsókás répa</p>
+      <p data-edit="recipe:carrot-jerusalem-artichoke:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/broccoli-cauliflower-cheese.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:broccoli-cauliflower-cheese:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:broccoli-cauliflower-cheese:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:broccoli-cauliflower-cheese:category">Mixed purées</span>
       </div>
-      <h3>Cauliflower and broccoli with cheese</h3>
-      <p class="hu">Karfiol és brokkoli sajttal</p>
-      <p>25 min · 4 portions</p>
+      <h3 data-edit="recipe:broccoli-cauliflower-cheese:title">Cauliflower and broccoli with cheese</h3>
+      <p class="hu" data-edit="recipe:broccoli-cauliflower-cheese:secondary">Karfiol és brokkoli sajttal</p>
+      <p data-edit="recipe:broccoli-cauliflower-cheese:details">25 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/fish-celeriac-sweet-potato.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:fish-celeriac-sweet-potato:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:fish-celeriac-sweet-potato:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:fish-celeriac-sweet-potato:category">Mixed purées</span>
       </div>
-      <h3>Fish with sweet potato and celeriac</h3>
-      <p class="hu">Halas édesburgonya zellerrel</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:fish-celeriac-sweet-potato:title">Fish with sweet potato and celeriac</h3>
+      <p class="hu" data-edit="recipe:fish-celeriac-sweet-potato:secondary">Halas édesburgonya zellerrel</p>
+      <p data-edit="recipe:fish-celeriac-sweet-potato:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/spring-vegetables-cauliflower.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:spring-vegetables-cauliflower:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:spring-vegetables-cauliflower:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:spring-vegetables-cauliflower:category">Mixed purées</span>
       </div>
-      <h3>Spring vegetables with cauliflower</h3>
-      <p class="hu">Tavaszi zöldség karfiollal</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:spring-vegetables-cauliflower:title">Spring vegetables with cauliflower</h3>
+      <p class="hu" data-edit="recipe:spring-vegetables-cauliflower:secondary">Tavaszi zöldség karfiollal</p>
+      <p data-edit="recipe:spring-vegetables-cauliflower:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/chestnut-apple-chicken.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:chestnut-apple-chicken:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:chestnut-apple-chicken:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:chestnut-apple-chicken:category">Mixed purées</span>
       </div>
-      <h3>Chestnut, apple, and chicken</h3>
-      <p class="hu">Gesztenyés alma csirkével</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:chestnut-apple-chicken:title">Chestnut, apple, and chicken</h3>
+      <p class="hu" data-edit="recipe:chestnut-apple-chicken:secondary">Gesztenyés alma csirkével</p>
+      <p data-edit="recipe:chestnut-apple-chicken:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/tomato-vegetable-pasta.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:tomato-vegetable-pasta:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:tomato-vegetable-pasta:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:tomato-vegetable-pasta:category">Mixed purées</span>
       </div>
-      <h3>Tomato vegetable pasta</h3>
-      <p class="hu">Paradicsomos zöldséges tészta</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:tomato-vegetable-pasta:title">Tomato vegetable pasta</h3>
+      <p class="hu" data-edit="recipe:tomato-vegetable-pasta:secondary">Paradicsomos zöldséges tészta</p>
+      <p data-edit="recipe:tomato-vegetable-pasta:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/zucchini-pea-salmon-couscous.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:zucchini-pea-salmon-couscous:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:zucchini-pea-salmon-couscous:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:zucchini-pea-salmon-couscous:category">Mixed purées</span>
       </div>
-      <h3>Zucchini, pea, salmon, and couscous</h3>
-      <p class="hu">Cukkini, borsó, lazac, kuszkusz</p>
-      <p>25 min · 4 portions</p>
+      <h3 data-edit="recipe:zucchini-pea-salmon-couscous:title">Zucchini, pea, salmon, and couscous</h3>
+      <p class="hu" data-edit="recipe:zucchini-pea-salmon-couscous:secondary">Cukkini, borsó, lazac, kuszkusz</p>
+      <p data-edit="recipe:zucchini-pea-salmon-couscous:details">25 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/yellow-fish-puree.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:yellow-fish-puree:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:yellow-fish-puree:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:yellow-fish-puree:category">Mixed purées</span>
       </div>
-      <h3>Yellow fish purée</h3>
-      <p class="hu">Halacskás sárgapüré</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:yellow-fish-puree:title">Yellow fish purée</h3>
+      <p class="hu" data-edit="recipe:yellow-fish-puree:secondary">Halacskás sárgapüré</p>
+      <p data-edit="recipe:yellow-fish-puree:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/pea-sweet-potato-fish.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:pea-sweet-potato-fish:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:pea-sweet-potato-fish:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:pea-sweet-potato-fish:category">Mixed purées</span>
       </div>
-      <h3>Pea, sweet potato, and fish</h3>
-      <p class="hu">Zöldborsós édesburgonyás hal</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:pea-sweet-potato-fish:title">Pea, sweet potato, and fish</h3>
+      <p class="hu" data-edit="recipe:pea-sweet-potato-fish:secondary">Zöldborsós édesburgonyás hal</p>
+      <p data-edit="recipe:pea-sweet-potato-fish:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/aubergine-chicken.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:aubergine-chicken:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:aubergine-chicken:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:aubergine-chicken:category">Mixed purées</span>
       </div>
-      <h3>Aubergine and chicken</h3>
-      <p class="hu">Padlizsános csirke</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:aubergine-chicken:title">Aubergine and chicken</h3>
+      <p class="hu" data-edit="recipe:aubergine-chicken:secondary">Padlizsános csirke</p>
+      <p data-edit="recipe:aubergine-chicken:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/chicken-apple-couscous.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:chicken-apple-couscous:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:chicken-apple-couscous:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:chicken-apple-couscous:category">Mixed purées</span>
       </div>
-      <h3>Chicken and apple with couscous</h3>
-      <p class="hu">Csirkés alma kuszkusszal</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:chicken-apple-couscous:title">Chicken and apple with couscous</h3>
+      <p class="hu" data-edit="recipe:chicken-apple-couscous:secondary">Csirkés alma kuszkusszal</p>
+      <p data-edit="recipe:chicken-apple-couscous:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/broccoli-sweet-potato-chicken.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:broccoli-sweet-potato-chicken:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:broccoli-sweet-potato-chicken:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:broccoli-sweet-potato-chicken:category">Mixed purées</span>
       </div>
-      <h3>Broccoli, sweet potato, and chicken</h3>
-      <p class="hu">Brokkoli, édesburgonya, csirke</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:broccoli-sweet-potato-chicken:title">Broccoli, sweet potato, and chicken</h3>
+      <p class="hu" data-edit="recipe:broccoli-sweet-potato-chicken:secondary">Brokkoli, édesburgonya, csirke</p>
+      <p data-edit="recipe:broccoli-sweet-potato-chicken:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/white-vegetable-pasta.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:white-vegetable-pasta:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:white-vegetable-pasta:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:white-vegetable-pasta:category">Mixed purées</span>
       </div>
-      <h3>White vegetable pasta</h3>
-      <p class="hu">Fehérzöldséges tészta</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:white-vegetable-pasta:title">White vegetable pasta</h3>
+      <p class="hu" data-edit="recipe:white-vegetable-pasta:secondary">Fehérzöldséges tészta</p>
+      <p data-edit="recipe:white-vegetable-pasta:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/veal-vegetables.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:veal-vegetables:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:veal-vegetables:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:veal-vegetables:category">Mixed purées</span>
       </div>
-      <h3>Veal with vegetables</h3>
-      <p class="hu">Zöldséges borjú</p>
-      <p>40 min · 4 portions</p>
+      <h3 data-edit="recipe:veal-vegetables:title">Veal with vegetables</h3>
+      <p class="hu" data-edit="recipe:veal-vegetables:secondary">Zöldséges borjú</p>
+      <p data-edit="recipe:veal-vegetables:details">40 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/liver-potato.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:liver-potato:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:liver-potato:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:liver-potato:category">Mixed purées</span>
       </div>
-      <h3>Liver and potato with vegetables</h3>
-      <p class="hu">Zöldséges máj burgonyával</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:liver-potato:title">Liver and potato with vegetables</h3>
+      <p class="hu" data-edit="recipe:liver-potato:secondary">Zöldséges máj burgonyával</p>
+      <p data-edit="recipe:liver-potato:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/cornmeal-fruit-cup.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:cornmeal-fruit-cup:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:cornmeal-fruit-cup:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:cornmeal-fruit-cup:category">Mixed purées</span>
       </div>
-      <h3>Cornmeal and fruit cup</h3>
-      <p class="hu">Gyümölcsös kukoricakása</p>
-      <p>20 min · 4 portions</p>
+      <h3 data-edit="recipe:cornmeal-fruit-cup:title">Cornmeal and fruit cup</h3>
+      <p class="hu" data-edit="recipe:cornmeal-fruit-cup:secondary">Gyümölcsös kukoricakása</p>
+      <p data-edit="recipe:cornmeal-fruit-cup:details">20 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/more-mixed-plates.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Mixed purées</span>
+        <span class="pill" data-edit="recipe:more-mixed-plates:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:more-mixed-plates:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:more-mixed-plates:category">Mixed purées</span>
       </div>
-      <h3>More mixed plates</h3>
-      <p class="hu">További vegyes tányérok</p>
-      <p>30 min · 1 portion</p>
+      <h3 data-edit="recipe:more-mixed-plates:title">More mixed plates</h3>
+      <p class="hu" data-edit="recipe:more-mixed-plates:secondary">További vegyes tányérok</p>
+      <p data-edit="recipe:more-mixed-plates:details">30 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/vegetable-bulgur.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:vegetable-bulgur:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:vegetable-bulgur:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-bulgur:category">Soft pieces</span>
       </div>
-      <h3>Vegetable bulgur</h3>
-      <p class="hu">Zöldséges bulgur</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:vegetable-bulgur:title">Vegetable bulgur</h3>
+      <p class="hu" data-edit="recipe:vegetable-bulgur:secondary">Zöldséges bulgur</p>
+      <p data-edit="recipe:vegetable-bulgur:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/green-pasta-cheese.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:green-pasta-cheese:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:green-pasta-cheese:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:green-pasta-cheese:category">Soft pieces</span>
       </div>
-      <h3>Green pasta with cheese</h3>
-      <p class="hu">Zöld tészta sajttal</p>
-      <p>25 min · 4 portions</p>
+      <h3 data-edit="recipe:green-pasta-cheese:title">Green pasta with cheese</h3>
+      <p class="hu" data-edit="recipe:green-pasta-cheese:secondary">Zöld tészta sajttal</p>
+      <p data-edit="recipe:green-pasta-cheese:details">25 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/tomato-chicken-pasta.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:tomato-chicken-pasta:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:tomato-chicken-pasta:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:tomato-chicken-pasta:category">Soft pieces</span>
       </div>
-      <h3>Tomato chicken pasta</h3>
-      <p class="hu">Paradicsomos csirkés tészta</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:tomato-chicken-pasta:title">Tomato chicken pasta</h3>
+      <p class="hu" data-edit="recipe:tomato-chicken-pasta:secondary">Paradicsomos csirkés tészta</p>
+      <p data-edit="recipe:tomato-chicken-pasta:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/baby-bolognese.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:baby-bolognese:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:baby-bolognese:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:baby-bolognese:category">Soft pieces</span>
       </div>
-      <h3>Baby bolognese</h3>
-      <p class="hu">Bababolognai</p>
-      <p>40 min · 6 portions</p>
+      <h3 data-edit="recipe:baby-bolognese:title">Baby bolognese</h3>
+      <p class="hu" data-edit="recipe:baby-bolognese:secondary">Bababolognai</p>
+      <p data-edit="recipe:baby-bolognese:details">40 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/vegetable-shepherd-pie.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:vegetable-shepherd-pie:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:vegetable-shepherd-pie:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-shepherd-pie:category">Soft pieces</span>
       </div>
-      <h3>Vegetable shepherd&#x27;s pie</h3>
-      <p class="hu">Zöldséges pásztorpite</p>
-      <p>55 min · 6 portions</p>
+      <h3 data-edit="recipe:vegetable-shepherd-pie:title">Vegetable shepherd&#x27;s pie</h3>
+      <p class="hu" data-edit="recipe:vegetable-shepherd-pie:secondary">Zöldséges pásztorpite</p>
+      <p data-edit="recipe:vegetable-shepherd-pie:details">55 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/mild-paprika-stew.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:mild-paprika-stew:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:mild-paprika-stew:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:mild-paprika-stew:category">Soft pieces</span>
       </div>
-      <h3>Mild paprika stew</h3>
-      <p class="hu">Babavadas</p>
-      <p>40 min · 4 portions</p>
+      <h3 data-edit="recipe:mild-paprika-stew:title">Mild paprika stew</h3>
+      <p class="hu" data-edit="recipe:mild-paprika-stew:secondary">Babavadas</p>
+      <p data-edit="recipe:mild-paprika-stew:details">40 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/fish-broccoli-kohlrabi-pasta.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:fish-broccoli-kohlrabi-pasta:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:fish-broccoli-kohlrabi-pasta:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:fish-broccoli-kohlrabi-pasta:category">Soft pieces</span>
       </div>
-      <h3>Fish with broccoli and kohlrabi</h3>
-      <p class="hu">Hal brokkolival és karalábéval</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:fish-broccoli-kohlrabi-pasta:title">Fish with broccoli and kohlrabi</h3>
+      <p class="hu" data-edit="recipe:fish-broccoli-kohlrabi-pasta:secondary">Hal brokkolival és karalábéval</p>
+      <p data-edit="recipe:fish-broccoli-kohlrabi-pasta:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/green-salmon-rice.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:green-salmon-rice:age">8 months+</span>
+        <span class="pill sage" data-edit="recipe:green-salmon-rice:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:green-salmon-rice:category">Soft pieces</span>
       </div>
-      <h3>Green salmon with rice</h3>
-      <p class="hu">Zöld lazac rizzsel</p>
-      <p>30 min · 3 portions</p>
+      <h3 data-edit="recipe:green-salmon-rice:title">Green salmon with rice</h3>
+      <p class="hu" data-edit="recipe:green-salmon-rice:secondary">Zöld lazac rizzsel</p>
+      <p data-edit="recipe:green-salmon-rice:details">30 min · 3 portions</p>
     </a><a class="recipe-card" href="/recipes/fish-in-paper.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:fish-in-paper:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:fish-in-paper:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:fish-in-paper:category">Soft pieces</span>
       </div>
-      <h3>Fish baked in paper</h3>
-      <p class="hu">Hal sütőpapírban</p>
-      <p>30 min · 2 portions</p>
+      <h3 data-edit="recipe:fish-in-paper:title">Fish baked in paper</h3>
+      <p class="hu" data-edit="recipe:fish-in-paper:secondary">Hal sütőpapírban</p>
+      <p data-edit="recipe:fish-in-paper:details">30 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/oven-fish-fingers.html">
       <div class="pills">
-        <span class="pill">9 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:oven-fish-fingers:age">9 months+</span>
+        <span class="pill warn" data-edit="recipe:oven-fish-fingers:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:oven-fish-fingers:category">Soft pieces</span>
       </div>
-      <h3>Oven fish fingers</h3>
-      <p class="hu">Házi halrudak</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:oven-fish-fingers:title">Oven fish fingers</h3>
+      <p class="hu" data-edit="recipe:oven-fish-fingers:secondary">Házi halrudak</p>
+      <p data-edit="recipe:oven-fish-fingers:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/beef-meatballs.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:beef-meatballs:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:beef-meatballs:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:beef-meatballs:category">Soft pieces</span>
       </div>
-      <h3>Beef meatballs</h3>
-      <p class="hu">Húsgolyó</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:beef-meatballs:title">Beef meatballs</h3>
+      <p class="hu" data-edit="recipe:beef-meatballs:secondary">Húsgolyó</p>
+      <p data-edit="recipe:beef-meatballs:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/chicken-nuggets.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:chicken-nuggets:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:chicken-nuggets:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:chicken-nuggets:category">Soft pieces</span>
       </div>
-      <h3>Chicken nuggets</h3>
-      <p class="hu">Csirkés nuggets</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:chicken-nuggets:title">Chicken nuggets</h3>
+      <p class="hu" data-edit="recipe:chicken-nuggets:secondary">Csirkés nuggets</p>
+      <p data-edit="recipe:chicken-nuggets:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/lentil-carrot-bites.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:lentil-carrot-bites:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:lentil-carrot-bites:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:lentil-carrot-bites:category">Soft pieces</span>
       </div>
-      <h3>Lentil and carrot bites</h3>
-      <p class="hu">Répás vöröslencsés falatok</p>
-      <p>40 min · 4 portions</p>
+      <h3 data-edit="recipe:lentil-carrot-bites:title">Lentil and carrot bites</h3>
+      <p class="hu" data-edit="recipe:lentil-carrot-bites:secondary">Répás vöröslencsés falatok</p>
+      <p data-edit="recipe:lentil-carrot-bites:details">40 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/vegetable-nuggets.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:vegetable-nuggets:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:vegetable-nuggets:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-nuggets:category">Soft pieces</span>
       </div>
-      <h3>Vegetable nuggets</h3>
-      <p class="hu">Zöldséges nuggets</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:vegetable-nuggets:title">Vegetable nuggets</h3>
+      <p class="hu" data-edit="recipe:vegetable-nuggets:secondary">Zöldséges nuggets</p>
+      <p data-edit="recipe:vegetable-nuggets:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/vegetable-patties.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:vegetable-patties:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:vegetable-patties:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-patties:category">Soft pieces</span>
       </div>
-      <h3>Vegetable patties</h3>
-      <p class="hu">Zöldséges fasírt</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:vegetable-patties:title">Vegetable patties</h3>
+      <p class="hu" data-edit="recipe:vegetable-patties:secondary">Zöldséges fasírt</p>
+      <p data-edit="recipe:vegetable-patties:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/chickpea-patties.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:chickpea-patties:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:chickpea-patties:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:chickpea-patties:category">Soft pieces</span>
       </div>
-      <h3>Chickpea patties</h3>
-      <p class="hu">Csicseriborsófasírt</p>
-      <p>40 min · 4 portions</p>
+      <h3 data-edit="recipe:chickpea-patties:title">Chickpea patties</h3>
+      <p class="hu" data-edit="recipe:chickpea-patties:secondary">Csicseriborsófasírt</p>
+      <p data-edit="recipe:chickpea-patties:details">40 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/chickpea-pancakes.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:chickpea-pancakes:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:chickpea-pancakes:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:chickpea-pancakes:category">Soft pieces</span>
       </div>
-      <h3>Chickpea pancakes</h3>
-      <p class="hu">Csicseriborsós palacsinta</p>
-      <p>25 min · 4 portions</p>
+      <h3 data-edit="recipe:chickpea-pancakes:title">Chickpea pancakes</h3>
+      <p class="hu" data-edit="recipe:chickpea-pancakes:secondary">Csicseriborsós palacsinta</p>
+      <p data-edit="recipe:chickpea-pancakes:details">25 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/vegetable-fritters.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:vegetable-fritters:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:vegetable-fritters:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-fritters:category">Soft pieces</span>
       </div>
-      <h3>Vegetable fritters</h3>
-      <p class="hu">Zöldséges lepény</p>
-      <p>25 min · 4 portions</p>
+      <h3 data-edit="recipe:vegetable-fritters:title">Vegetable fritters</h3>
+      <p class="hu" data-edit="recipe:vegetable-fritters:secondary">Zöldséges lepény</p>
+      <p data-edit="recipe:vegetable-fritters:details">25 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/soft-flatbread-pizza.html">
       <div class="pills">
-        <span class="pill">12 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:soft-flatbread-pizza:age">12 months+</span>
+        <span class="pill warn" data-edit="recipe:soft-flatbread-pizza:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:soft-flatbread-pizza:category">Soft pieces</span>
       </div>
-      <h3>Soft vegetable flatbread</h3>
-      <p class="hu">Mini zöldséges pizza</p>
-      <p>75 min · 4 portions</p>
+      <h3 data-edit="recipe:soft-flatbread-pizza:title">Soft vegetable flatbread</h3>
+      <p class="hu" data-edit="recipe:soft-flatbread-pizza:secondary">Mini zöldséges pizza</p>
+      <p data-edit="recipe:soft-flatbread-pizza:details">75 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/banana-pancakes.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:banana-pancakes:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:banana-pancakes:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:banana-pancakes:category">Soft pieces</span>
       </div>
-      <h3>Banana pancakes</h3>
-      <p class="hu">Banános babacsinta</p>
-      <p>15 min · 2 portions</p>
+      <h3 data-edit="recipe:banana-pancakes:title">Banana pancakes</h3>
+      <p class="hu" data-edit="recipe:banana-pancakes:secondary">Banános babacsinta</p>
+      <p data-edit="recipe:banana-pancakes:details">15 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-curd-pancakes.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Soft pieces</span>
+        <span class="pill" data-edit="recipe:apple-curd-pancakes:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:apple-curd-pancakes:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:apple-curd-pancakes:category">Soft pieces</span>
       </div>
-      <h3>Apple and curd pancakes</h3>
-      <p class="hu">Túrós-almás csinta</p>
-      <p>20 min · 2 portions</p>
+      <h3 data-edit="recipe:apple-curd-pancakes:title">Apple and curd pancakes</h3>
+      <p class="hu" data-edit="recipe:apple-curd-pancakes:secondary">Túrós-almás csinta</p>
+      <p data-edit="recipe:apple-curd-pancakes:details">20 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/soft-cinnamon-oats.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:soft-cinnamon-oats:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:soft-cinnamon-oats:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:soft-cinnamon-oats:category">Toddler meals</span>
       </div>
-      <h3>Soft cinnamon oat bake</h3>
-      <p class="hu">Fahéjas zab</p>
-      <p>30 min · 6 portions</p>
+      <h3 data-edit="recipe:soft-cinnamon-oats:title">Soft cinnamon oat bake</h3>
+      <p class="hu" data-edit="recipe:soft-cinnamon-oats:secondary">Fahéjas zab</p>
+      <p data-edit="recipe:soft-cinnamon-oats:details">30 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-peanut-quinoa.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:apple-peanut-quinoa:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:apple-peanut-quinoa:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:apple-peanut-quinoa:category">Toddler meals</span>
       </div>
-      <h3>Apple peanut quinoa</h3>
-      <p class="hu">Almás mogyorós quinoa</p>
-      <p>25 min · 2 portions</p>
+      <h3 data-edit="recipe:apple-peanut-quinoa:title">Apple peanut quinoa</h3>
+      <p class="hu" data-edit="recipe:apple-peanut-quinoa:secondary">Almás mogyorós quinoa</p>
+      <p data-edit="recipe:apple-peanut-quinoa:details">25 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-porridge.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:apple-porridge:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:apple-porridge:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:apple-porridge:category">Toddler meals</span>
       </div>
-      <h3>Apple porridge</h3>
-      <p class="hu">Almás zabkása</p>
-      <p>15 min · 2 portions</p>
+      <h3 data-edit="recipe:apple-porridge:title">Apple porridge</h3>
+      <p class="hu" data-edit="recipe:apple-porridge:secondary">Almás zabkása</p>
+      <p data-edit="recipe:apple-porridge:details">15 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/yogurt-porridge.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:yogurt-porridge:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:yogurt-porridge:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:yogurt-porridge:category">Toddler meals</span>
       </div>
-      <h3>Yogurt porridge</h3>
-      <p class="hu">Joghurtos zabkása</p>
-      <p>15 min · 2 portions</p>
+      <h3 data-edit="recipe:yogurt-porridge:title">Yogurt porridge</h3>
+      <p class="hu" data-edit="recipe:yogurt-porridge:secondary">Joghurtos zabkása</p>
+      <p data-edit="recipe:yogurt-porridge:details">15 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/coconut-porridge.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:coconut-porridge:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:coconut-porridge:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:coconut-porridge:category">Toddler meals</span>
       </div>
-      <h3>Coconut porridge</h3>
-      <p class="hu">Kókuszos zabkása</p>
-      <p>15 min · 2 portions</p>
+      <h3 data-edit="recipe:coconut-porridge:title">Coconut porridge</h3>
+      <p class="hu" data-edit="recipe:coconut-porridge:secondary">Kókuszos zabkása</p>
+      <p data-edit="recipe:coconut-porridge:details">15 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/red-lentil-soup.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:red-lentil-soup:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:red-lentil-soup:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:red-lentil-soup:category">Toddler meals</span>
       </div>
-      <h3>Red lentil soup</h3>
-      <p class="hu">Vöröslencse krémleves</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:red-lentil-soup:title">Red lentil soup</h3>
+      <p class="hu" data-edit="recipe:red-lentil-soup:secondary">Vöröslencse krémleves</p>
+      <p data-edit="recipe:red-lentil-soup:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/tomato-vegetable-soup.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:tomato-vegetable-soup:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:tomato-vegetable-soup:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:tomato-vegetable-soup:category">Toddler meals</span>
       </div>
-      <h3>Tomato vegetable soup</h3>
-      <p class="hu">Zöldséges paradicsomkrémleves</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:tomato-vegetable-soup:title">Tomato vegetable soup</h3>
+      <p class="hu" data-edit="recipe:tomato-vegetable-soup:secondary">Zöldséges paradicsomkrémleves</p>
+      <p data-edit="recipe:tomato-vegetable-soup:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/sweet-potato-curd-dumplings.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:sweet-potato-curd-dumplings:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:sweet-potato-curd-dumplings:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:sweet-potato-curd-dumplings:category">Toddler meals</span>
       </div>
-      <h3>Sweet potato curd dumplings</h3>
-      <p class="hu">Édesburgonyás túrógombóc</p>
-      <p>55 min · 4 portions</p>
+      <h3 data-edit="recipe:sweet-potato-curd-dumplings:title">Sweet potato curd dumplings</h3>
+      <p class="hu" data-edit="recipe:sweet-potato-curd-dumplings:secondary">Édesburgonyás túrógombóc</p>
+      <p data-edit="recipe:sweet-potato-curd-dumplings:details">55 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/quinoa-curd-bake.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:quinoa-curd-bake:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:quinoa-curd-bake:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:quinoa-curd-bake:category">Toddler meals</span>
       </div>
-      <h3>Quinoa cottage cheese bake</h3>
-      <p class="hu">Túrós quinoa</p>
-      <p>40 min · 4 portions</p>
+      <h3 data-edit="recipe:quinoa-curd-bake:title">Quinoa cottage cheese bake</h3>
+      <p class="hu" data-edit="recipe:quinoa-curd-bake:secondary">Túrós quinoa</p>
+      <p data-edit="recipe:quinoa-curd-bake:details">40 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/egg-muffins.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:egg-muffins:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:egg-muffins:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:egg-muffins:category">Toddler meals</span>
       </div>
-      <h3>Egg muffins</h3>
-      <p class="hu">Tojásmuffin</p>
-      <p>25 min · 6 portions</p>
+      <h3 data-edit="recipe:egg-muffins:title">Egg muffins</h3>
+      <p class="hu" data-edit="recipe:egg-muffins:secondary">Tojásmuffin</p>
+      <p data-edit="recipe:egg-muffins:details">25 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/baked-chicken-loaf.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:baked-chicken-loaf:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:baked-chicken-loaf:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:baked-chicken-loaf:category">Toddler meals</span>
       </div>
-      <h3>Baked chicken and carrot loaf</h3>
-      <p class="hu">Sült csirkemell zöldséggel</p>
-      <p>45 min · 6 portions</p>
+      <h3 data-edit="recipe:baked-chicken-loaf:title">Baked chicken and carrot loaf</h3>
+      <p class="hu" data-edit="recipe:baked-chicken-loaf:secondary">Sült csirkemell zöldséggel</p>
+      <p data-edit="recipe:baked-chicken-loaf:details">45 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/vegetable-frittata.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:vegetable-frittata:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:vegetable-frittata:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-frittata:category">Toddler meals</span>
       </div>
-      <h3>Vegetable and cheese frittata</h3>
-      <p class="hu">Sajtos zöldséges frittata</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:vegetable-frittata:title">Vegetable and cheese frittata</h3>
+      <p class="hu" data-edit="recipe:vegetable-frittata:secondary">Sajtos zöldséges frittata</p>
+      <p data-edit="recipe:vegetable-frittata:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/potato-bake.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:potato-bake:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:potato-bake:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:potato-bake:category">Toddler meals</span>
       </div>
-      <h3>Potato and zucchini bake</h3>
-      <p class="hu">Rakott burgonya</p>
-      <p>50 min · 4 portions</p>
+      <h3 data-edit="recipe:potato-bake:title">Potato and zucchini bake</h3>
+      <p class="hu" data-edit="recipe:potato-bake:secondary">Rakott burgonya</p>
+      <p data-edit="recipe:potato-bake:details">50 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/mild-bean-stew.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:mild-bean-stew:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:mild-bean-stew:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:mild-bean-stew:category">Toddler meals</span>
       </div>
-      <h3>Mild white bean stew</h3>
-      <p class="hu">Babos zöldség</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:mild-bean-stew:title">Mild white bean stew</h3>
+      <p class="hu" data-edit="recipe:mild-bean-stew:secondary">Babos zöldség</p>
+      <p data-edit="recipe:mild-bean-stew:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/vegetable-egg-bake.html">
       <div class="pills">
-        <span class="pill">10 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:vegetable-egg-bake:age">10 months+</span>
+        <span class="pill warn" data-edit="recipe:vegetable-egg-bake:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-egg-bake:category">Toddler meals</span>
       </div>
-      <h3>Crustless spinach egg bake</h3>
-      <p class="hu">Zöldséges tojásos tál</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:vegetable-egg-bake:title">Crustless spinach egg bake</h3>
+      <p class="hu" data-edit="recipe:vegetable-egg-bake:secondary">Zöldséges tojásos tál</p>
+      <p data-edit="recipe:vegetable-egg-bake:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/soft-burger.html">
       <div class="pills">
-        <span class="pill">10 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:soft-burger:age">10 months+</span>
+        <span class="pill warn" data-edit="recipe:soft-burger:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:soft-burger:category">Toddler meals</span>
       </div>
-      <h3>Soft beef patties</h3>
-      <p class="hu">Házi húspogácsa</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:soft-burger:title">Soft beef patties</h3>
+      <p class="hu" data-edit="recipe:soft-burger:secondary">Házi húspogácsa</p>
+      <p data-edit="recipe:soft-burger:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/soft-rolls.html">
       <div class="pills">
-        <span class="pill">10 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:soft-rolls:age">10 months+</span>
+        <span class="pill warn" data-edit="recipe:soft-rolls:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:soft-rolls:category">Toddler meals</span>
       </div>
-      <h3>Soft milk rolls</h3>
-      <p class="hu">Házi kifli</p>
-      <p>120 min · 8 portions</p>
+      <h3 data-edit="recipe:soft-rolls:title">Soft milk rolls</h3>
+      <p class="hu" data-edit="recipe:soft-rolls:secondary">Házi kifli</p>
+      <p data-edit="recipe:soft-rolls:details">120 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/quick-soft-rolls.html">
       <div class="pills">
-        <span class="pill">10 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Toddler meals</span>
+        <span class="pill" data-edit="recipe:quick-soft-rolls:age">10 months+</span>
+        <span class="pill warn" data-edit="recipe:quick-soft-rolls:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:quick-soft-rolls:category">Toddler meals</span>
       </div>
-      <h3>Quick yogurt rolls</h3>
-      <p class="hu">Gyors kifli kelesztés nélkül</p>
-      <p>25 min · 8 portions</p>
+      <h3 data-edit="recipe:quick-soft-rolls:title">Quick yogurt rolls</h3>
+      <p class="hu" data-edit="recipe:quick-soft-rolls:secondary">Gyors kifli kelesztés nélkül</p>
+      <p data-edit="recipe:quick-soft-rolls:details">25 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/free-from-biscuits.html">
       <div class="pills">
-        <span class="pill">7 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:free-from-biscuits:age">7 months+</span>
+        <span class="pill warn" data-edit="recipe:free-from-biscuits:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:free-from-biscuits:category">Snacks</span>
       </div>
-      <h3>Banana oat oil biscuits</h3>
-      <p class="hu">Tej- és tojásmentes keksz</p>
-      <p>20 min · 10 portions</p>
+      <h3 data-edit="recipe:free-from-biscuits:title">Banana oat oil biscuits</h3>
+      <p class="hu" data-edit="recipe:free-from-biscuits:secondary">Tej- és tojásmentes keksz</p>
+      <p data-edit="recipe:free-from-biscuits:details">20 min · 10 portions</p>
     </a><a class="recipe-card" href="/recipes/banana-biscuits.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:banana-biscuits:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:banana-biscuits:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:banana-biscuits:category">Snacks</span>
       </div>
-      <h3>Banana oat biscuits</h3>
-      <p class="hu">Banános keksz</p>
-      <p>18 min · 8 portions</p>
+      <h3 data-edit="recipe:banana-biscuits:title">Banana oat biscuits</h3>
+      <p class="hu" data-edit="recipe:banana-biscuits:secondary">Banános keksz</p>
+      <p data-edit="recipe:banana-biscuits:details">18 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/pumpkin-biscuits.html">
       <div class="pills">
-        <span class="pill">7 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:pumpkin-biscuits:age">7 months+</span>
+        <span class="pill warn" data-edit="recipe:pumpkin-biscuits:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:pumpkin-biscuits:category">Snacks</span>
       </div>
-      <h3>Pumpkin oat biscuits</h3>
-      <p class="hu">Sütőtökös keksz</p>
-      <p>22 min · 10 portions</p>
+      <h3 data-edit="recipe:pumpkin-biscuits:title">Pumpkin oat biscuits</h3>
+      <p class="hu" data-edit="recipe:pumpkin-biscuits:secondary">Sütőtökös keksz</p>
+      <p data-edit="recipe:pumpkin-biscuits:details">22 min · 10 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-oat-rounds.html">
       <div class="pills">
-        <span class="pill">7 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:apple-oat-rounds:age">7 months+</span>
+        <span class="pill warn" data-edit="recipe:apple-oat-rounds:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:apple-oat-rounds:category">Snacks</span>
       </div>
-      <h3>Soft apple oat rounds</h3>
-      <p class="hu">Almás korong</p>
-      <p>25 min · 8 portions</p>
+      <h3 data-edit="recipe:apple-oat-rounds:title">Soft apple oat rounds</h3>
+      <p class="hu" data-edit="recipe:apple-oat-rounds:secondary">Almás korong</p>
+      <p data-edit="recipe:apple-oat-rounds:details">25 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/baked-cottage-cheese.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:baked-cottage-cheese:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:baked-cottage-cheese:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:baked-cottage-cheese:category">Snacks</span>
       </div>
-      <h3>Baked apple cottage cheese</h3>
-      <p class="hu">Túrós sütemény</p>
-      <p>35 min · 6 portions</p>
+      <h3 data-edit="recipe:baked-cottage-cheese:title">Baked apple cottage cheese</h3>
+      <p class="hu" data-edit="recipe:baked-cottage-cheese:secondary">Túrós sütemény</p>
+      <p data-edit="recipe:baked-cottage-cheese:details">35 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-carrot-muffins.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:apple-carrot-muffins:age">8 months+</span>
+        <span class="pill sage" data-edit="recipe:apple-carrot-muffins:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:apple-carrot-muffins:category">Snacks</span>
       </div>
-      <h3>Apple carrot oat muffins</h3>
-      <p class="hu">Almás-répás zabmuffin</p>
-      <p>25 min · 8 portions</p>
+      <h3 data-edit="recipe:apple-carrot-muffins:title">Apple carrot oat muffins</h3>
+      <p class="hu" data-edit="recipe:apple-carrot-muffins:secondary">Almás-répás zabmuffin</p>
+      <p data-edit="recipe:apple-carrot-muffins:details">25 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/free-from-muffins.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:free-from-muffins:age">8 months+</span>
+        <span class="pill sage" data-edit="recipe:free-from-muffins:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:free-from-muffins:category">Snacks</span>
       </div>
-      <h3>Banana pumpkin oat muffins</h3>
-      <p class="hu">Tej- és tojásmentes muffin</p>
-      <p>25 min · 8 portions</p>
+      <h3 data-edit="recipe:free-from-muffins:title">Banana pumpkin oat muffins</h3>
+      <p class="hu" data-edit="recipe:free-from-muffins:secondary">Tej- és tojásmentes muffin</p>
+      <p data-edit="recipe:free-from-muffins:details">25 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/pumpkin-bread.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:pumpkin-bread:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:pumpkin-bread:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:pumpkin-bread:category">Snacks</span>
       </div>
-      <h3>Soft pumpkin banana loaf</h3>
-      <p class="hu">Sütőtökös kenyér</p>
-      <p>45 min · 8 portions</p>
+      <h3 data-edit="recipe:pumpkin-bread:title">Soft pumpkin banana loaf</h3>
+      <p class="hu" data-edit="recipe:pumpkin-bread:secondary">Sütőtökös kenyér</p>
+      <p data-edit="recipe:pumpkin-bread:details">45 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/roasted-vegetable-fingers.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:roasted-vegetable-fingers:age">8 months+</span>
+        <span class="pill sage" data-edit="recipe:roasted-vegetable-fingers:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:roasted-vegetable-fingers:category">Snacks</span>
       </div>
-      <h3>Soft roasted vegetable fingers</h3>
-      <p class="hu">Zöldséges sültek</p>
-      <p>35 min · 4 portions</p>
+      <h3 data-edit="recipe:roasted-vegetable-fingers:title">Soft roasted vegetable fingers</h3>
+      <p class="hu" data-edit="recipe:roasted-vegetable-fingers:secondary">Zöldséges sültek</p>
+      <p data-edit="recipe:roasted-vegetable-fingers:details">35 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/fruit-curd-bites.html">
       <div class="pills">
-        <span class="pill">12 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:fruit-curd-bites:age">12 months+</span>
+        <span class="pill warn" data-edit="recipe:fruit-curd-bites:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:fruit-curd-bites:category">Snacks</span>
       </div>
-      <h3>Strawberry cottage cheese bites</h3>
-      <p class="hu">Túrós falatok</p>
-      <p>60 min · 6 portions</p>
+      <h3 data-edit="recipe:fruit-curd-bites:title">Strawberry cottage cheese bites</h3>
+      <p class="hu" data-edit="recipe:fruit-curd-bites:secondary">Túrós falatok</p>
+      <p data-edit="recipe:fruit-curd-bites:details">60 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/baked-custard.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:baked-custard:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:baked-custard:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:baked-custard:category">Snacks</span>
       </div>
-      <h3>Baked semolina custard</h3>
-      <p class="hu">Sült tejbegríz</p>
-      <p>40 min · 4 portions</p>
+      <h3 data-edit="recipe:baked-custard:title">Baked semolina custard</h3>
+      <p class="hu" data-edit="recipe:baked-custard:secondary">Sült tejbegríz</p>
+      <p data-edit="recipe:baked-custard:details">40 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/soft-oat-squares.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:soft-oat-squares:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:soft-oat-squares:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:soft-oat-squares:category">Snacks</span>
       </div>
-      <h3>Soft apple oat squares</h3>
-      <p class="hu">Zabos szelet</p>
-      <p>25 min · 8 portions</p>
+      <h3 data-edit="recipe:soft-oat-squares:title">Soft apple oat squares</h3>
+      <p class="hu" data-edit="recipe:soft-oat-squares:secondary">Zabos szelet</p>
+      <p data-edit="recipe:soft-oat-squares:details">25 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/date-nut-spoon.html">
       <div class="pills">
-        <span class="pill">12 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:date-nut-spoon:age">12 months+</span>
+        <span class="pill warn" data-edit="recipe:date-nut-spoon:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:date-nut-spoon:category">Snacks</span>
       </div>
-      <h3>Date and peanut spoon</h3>
-      <p class="hu">Gyümölcsös kanálkrém</p>
-      <p>15 min · 4 portions</p>
+      <h3 data-edit="recipe:date-nut-spoon:title">Date and peanut spoon</h3>
+      <p class="hu" data-edit="recipe:date-nut-spoon:secondary">Gyümölcsös kanálkrém</p>
+      <p data-edit="recipe:date-nut-spoon:details">15 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/mango-strawberry-ice.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:mango-strawberry-ice:age">8 months+</span>
+        <span class="pill sage" data-edit="recipe:mango-strawberry-ice:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:mango-strawberry-ice:category">Snacks</span>
       </div>
-      <h3>Mango strawberry soft ice</h3>
-      <p class="hu">Mangó-eper jég</p>
-      <p>120 min · 4 portions</p>
+      <h3 data-edit="recipe:mango-strawberry-ice:title">Mango strawberry soft ice</h3>
+      <p class="hu" data-edit="recipe:mango-strawberry-ice:secondary">Mangó-eper jég</p>
+      <p data-edit="recipe:mango-strawberry-ice:details">120 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/banana-mango-ice.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:banana-mango-ice:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:banana-mango-ice:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:banana-mango-ice:category">Snacks</span>
       </div>
-      <h3>Banana mango soft ice</h3>
-      <p class="hu">Banán-mangó fagyi</p>
-      <p>120 min · 4 portions</p>
+      <h3 data-edit="recipe:banana-mango-ice:title">Banana mango soft ice</h3>
+      <p class="hu" data-edit="recipe:banana-mango-ice:secondary">Banán-mangó fagyi</p>
+      <p data-edit="recipe:banana-mango-ice:details">120 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/cherry-banana-ice.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:cherry-banana-ice:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:cherry-banana-ice:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:cherry-banana-ice:category">Snacks</span>
       </div>
-      <h3>Cherry banana soft ice</h3>
-      <p class="hu">Cseresznyés banánfagyi</p>
-      <p>120 min · 4 portions</p>
+      <h3 data-edit="recipe:cherry-banana-ice:title">Cherry banana soft ice</h3>
+      <p class="hu" data-edit="recipe:cherry-banana-ice:secondary">Cseresznyés banánfagyi</p>
+      <p data-edit="recipe:cherry-banana-ice:details">120 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/banana-avocado-ice.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Snacks</span>
+        <span class="pill" data-edit="recipe:banana-avocado-ice:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:banana-avocado-ice:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:banana-avocado-ice:category">Snacks</span>
       </div>
-      <h3>Banana avocado soft ice</h3>
-      <p class="hu">Banán-avokádó jég</p>
-      <p>120 min · 4 portions</p>
+      <h3 data-edit="recipe:banana-avocado-ice:title">Banana avocado soft ice</h3>
+      <p class="hu" data-edit="recipe:banana-avocado-ice:secondary">Banán-avokádó jég</p>
+      <p data-edit="recipe:banana-avocado-ice:details">120 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/walnut-party-cake.html">
       <div class="pills">
-        <span class="pill">12 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:walnut-party-cake:age">12 months+</span>
+        <span class="pill warn" data-edit="recipe:walnut-party-cake:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:walnut-party-cake:category">Celebrations</span>
       </div>
-      <h3>Banana walnut layer cake</h3>
-      <p class="hu">Diós torta</p>
-      <p>45 min · 8 portions</p>
+      <h3 data-edit="recipe:walnut-party-cake:title">Banana walnut layer cake</h3>
+      <p class="hu" data-edit="recipe:walnut-party-cake:secondary">Diós torta</p>
+      <p data-edit="recipe:walnut-party-cake:details">45 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/chestnut-cake.html">
       <div class="pills">
-        <span class="pill">12 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:chestnut-cake:age">12 months+</span>
+        <span class="pill warn" data-edit="recipe:chestnut-cake:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:chestnut-cake:category">Celebrations</span>
       </div>
-      <h3>Chestnut and apple cake</h3>
-      <p class="hu">Gesztenyetorta</p>
-      <p>50 min · 8 portions</p>
+      <h3 data-edit="recipe:chestnut-cake:title">Chestnut and apple cake</h3>
+      <p class="hu" data-edit="recipe:chestnut-cake:secondary">Gesztenyetorta</p>
+      <p data-edit="recipe:chestnut-cake:details">50 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/melon-plate.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:melon-plate:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:melon-plate:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:melon-plate:category">Celebrations</span>
       </div>
-      <h3>Melon strip plate</h3>
-      <p class="hu">Dinnyetál</p>
-      <p>10 min · 2 portions</p>
+      <h3 data-edit="recipe:melon-plate:title">Melon strip plate</h3>
+      <p class="hu" data-edit="recipe:melon-plate:secondary">Dinnyetál</p>
+      <p data-edit="recipe:melon-plate:details">10 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/soft-cocoa-free-cake.html">
       <div class="pills">
-        <span class="pill">12 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:soft-cocoa-free-cake:age">12 months+</span>
+        <span class="pill warn" data-edit="recipe:soft-cocoa-free-cake:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:soft-cocoa-free-cake:category">Celebrations</span>
       </div>
-      <h3>Soft banana oat cake</h3>
-      <p class="hu">Puha torta</p>
-      <p>40 min · 8 portions</p>
+      <h3 data-edit="recipe:soft-cocoa-free-cake:title">Soft banana oat cake</h3>
+      <p class="hu" data-edit="recipe:soft-cocoa-free-cake:secondary">Puha torta</p>
+      <p data-edit="recipe:soft-cocoa-free-cake:details">40 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/stuffed-eggs.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:stuffed-eggs:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:stuffed-eggs:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:stuffed-eggs:category">Celebrations</span>
       </div>
-      <h3>Stuffed eggs</h3>
-      <p class="hu">Töltött tojás</p>
-      <p>20 min · 4 portions</p>
+      <h3 data-edit="recipe:stuffed-eggs:title">Stuffed eggs</h3>
+      <p class="hu" data-edit="recipe:stuffed-eggs:secondary">Töltött tojás</p>
+      <p data-edit="recipe:stuffed-eggs:details">20 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/cheese-cup.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:cheese-cup:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:cheese-cup:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:cheese-cup:category">Celebrations</span>
       </div>
-      <h3>Pear cheese cup</h3>
-      <p class="hu">Pohárkrém</p>
-      <p>15 min · 2 portions</p>
+      <h3 data-edit="recipe:cheese-cup:title">Pear cheese cup</h3>
+      <p class="hu" data-edit="recipe:cheese-cup:secondary">Pohárkrém</p>
+      <p data-edit="recipe:cheese-cup:details">15 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/vegetable-cake.html">
       <div class="pills">
-        <span class="pill">10 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:vegetable-cake:age">10 months+</span>
+        <span class="pill sage" data-edit="recipe:vegetable-cake:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-cake:category">Celebrations</span>
       </div>
-      <h3>Vegetable bar cake</h3>
-      <p class="hu">Zöldséges torta</p>
-      <p>50 min · 6 portions</p>
+      <h3 data-edit="recipe:vegetable-cake:title">Vegetable bar cake</h3>
+      <p class="hu" data-edit="recipe:vegetable-cake:secondary">Zöldséges torta</p>
+      <p data-edit="recipe:vegetable-cake:details">50 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/soft-spice-biscuits.html">
       <div class="pills">
-        <span class="pill">10 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:soft-spice-biscuits:age">10 months+</span>
+        <span class="pill warn" data-edit="recipe:soft-spice-biscuits:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:soft-spice-biscuits:category">Celebrations</span>
       </div>
-      <h3>Soft spice oat biscuits</h3>
-      <p class="hu">Fűszeres puha keksz</p>
-      <p>30 min · 10 portions</p>
+      <h3 data-edit="recipe:soft-spice-biscuits:title">Soft spice oat biscuits</h3>
+      <p class="hu" data-edit="recipe:soft-spice-biscuits:secondary">Fűszeres puha keksz</p>
+      <p data-edit="recipe:soft-spice-biscuits:details">30 min · 10 portions</p>
     </a><a class="recipe-card" href="/recipes/star-cheese-cake.html">
       <div class="pills">
-        <span class="pill">12 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:star-cheese-cake:age">12 months+</span>
+        <span class="pill warn" data-edit="recipe:star-cheese-cake:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:star-cheese-cake:category">Celebrations</span>
       </div>
-      <h3>Star cottage cheesecake</h3>
-      <p class="hu">Csillag túrótorta</p>
-      <p>55 min · 8 portions</p>
+      <h3 data-edit="recipe:star-cheese-cake:title">Star cottage cheesecake</h3>
+      <p class="hu" data-edit="recipe:star-cheese-cake:secondary">Csillag túrótorta</p>
+      <p data-edit="recipe:star-cheese-cake:details">55 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/soft-oat-clusters.html">
       <div class="pills">
-        <span class="pill">12 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Celebrations</span>
+        <span class="pill" data-edit="recipe:soft-oat-clusters:age">12 months+</span>
+        <span class="pill warn" data-edit="recipe:soft-oat-clusters:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:soft-oat-clusters:category">Celebrations</span>
       </div>
-      <h3>Soft oat clusters</h3>
-      <p class="hu">Zabos toboz</p>
-      <p>25 min · 8 portions</p>
+      <h3 data-edit="recipe:soft-oat-clusters:title">Soft oat clusters</h3>
+      <p class="hu" data-edit="recipe:soft-oat-clusters:secondary">Zabos toboz</p>
+      <p data-edit="recipe:soft-oat-clusters:details">25 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/unsalted-stock.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:unsalted-stock:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:unsalted-stock:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:unsalted-stock:category">Basics</span>
       </div>
-      <h3>Unsalted stock</h3>
-      <p class="hu">Sózatlan alaplé</p>
-      <p>90 min · 10 portions</p>
+      <h3 data-edit="recipe:unsalted-stock:title">Unsalted stock</h3>
+      <p class="hu" data-edit="recipe:unsalted-stock:secondary">Sózatlan alaplé</p>
+      <p data-edit="recipe:unsalted-stock:details">90 min · 10 portions</p>
     </a><a class="recipe-card" href="/recipes/liver-dumplings.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:liver-dumplings:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:liver-dumplings:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:liver-dumplings:category">Basics</span>
       </div>
-      <h3>Liver dumplings</h3>
-      <p class="hu">Májgaluska</p>
-      <p>25 min · 1 portion</p>
+      <h3 data-edit="recipe:liver-dumplings:title">Liver dumplings</h3>
+      <p class="hu" data-edit="recipe:liver-dumplings:secondary">Májgaluska</p>
+      <p data-edit="recipe:liver-dumplings:details">25 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/fresh-pasta.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:fresh-pasta:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:fresh-pasta:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:fresh-pasta:category">Basics</span>
       </div>
-      <h3>Fresh pasta</h3>
-      <p class="hu">Házi tészta</p>
-      <p>50 min · 4 portions</p>
+      <h3 data-edit="recipe:fresh-pasta:title">Fresh pasta</h3>
+      <p class="hu" data-edit="recipe:fresh-pasta:secondary">Házi tészta</p>
+      <p data-edit="recipe:fresh-pasta:details">50 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/oil-spoon.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:oil-spoon:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:oil-spoon:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:oil-spoon:category">Basics</span>
       </div>
-      <h3>Oil on the plate</h3>
-      <p class="hu">Olaj a végén</p>
-      <p>5 min · 1 portion</p>
+      <h3 data-edit="recipe:oil-spoon:title">Oil on the plate</h3>
+      <p class="hu" data-edit="recipe:oil-spoon:secondary">Olaj a végén</p>
+      <p data-edit="recipe:oil-spoon:details">5 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/herb-cubes.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:herb-cubes:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:herb-cubes:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:herb-cubes:category">Basics</span>
       </div>
-      <h3>Frozen herb cubes</h3>
-      <p class="hu">Fűszerkockák</p>
-      <p>15 min · 12 portions</p>
+      <h3 data-edit="recipe:herb-cubes:title">Frozen herb cubes</h3>
+      <p class="hu" data-edit="recipe:herb-cubes:secondary">Fűszerkockák</p>
+      <p data-edit="recipe:herb-cubes:details">15 min · 12 portions</p>
     </a><a class="recipe-card" href="/recipes/fridge-fruit-sauce.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:fridge-fruit-sauce:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:fridge-fruit-sauce:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:fridge-fruit-sauce:category">Basics</span>
       </div>
-      <h3>Fridge fruit sauce</h3>
-      <p class="hu">Gyümölcsszósz</p>
-      <p>20 min · 6 portions</p>
+      <h3 data-edit="recipe:fridge-fruit-sauce:title">Fridge fruit sauce</h3>
+      <p class="hu" data-edit="recipe:fridge-fruit-sauce:secondary">Gyümölcsszósz</p>
+      <p data-edit="recipe:fridge-fruit-sauce:details">20 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/apple-sauce.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:apple-sauce:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:apple-sauce:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:apple-sauce:category">Basics</span>
       </div>
-      <h3>Apple sauce</h3>
-      <p class="hu">Almaszósz</p>
-      <p>20 min · 4 portions</p>
+      <h3 data-edit="recipe:apple-sauce:title">Apple sauce</h3>
+      <p class="hu" data-edit="recipe:apple-sauce:secondary">Almaszósz</p>
+      <p data-edit="recipe:apple-sauce:details">20 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/liver-spread.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:liver-spread:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:liver-spread:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:liver-spread:category">Basics</span>
       </div>
-      <h3>Liver spread</h3>
-      <p class="hu">Májkrém</p>
-      <p>25 min · 1 portion</p>
+      <h3 data-edit="recipe:liver-spread:title">Liver spread</h3>
+      <p class="hu" data-edit="recipe:liver-spread:secondary">Májkrém</p>
+      <p data-edit="recipe:liver-spread:details">25 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/vegetable-tomato-sauce.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:vegetable-tomato-sauce:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:vegetable-tomato-sauce:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-tomato-sauce:category">Basics</span>
       </div>
-      <h3>Vegetable tomato sauce</h3>
-      <p class="hu">Zöldséges paradicsomszósz</p>
-      <p>35 min · 6 portions</p>
+      <h3 data-edit="recipe:vegetable-tomato-sauce:title">Vegetable tomato sauce</h3>
+      <p class="hu" data-edit="recipe:vegetable-tomato-sauce:secondary">Zöldséges paradicsomszósz</p>
+      <p data-edit="recipe:vegetable-tomato-sauce:details">35 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/sweet-potato-base.html">
       <div class="pills">
-        <span class="pill">7 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:sweet-potato-base:age">7 months+</span>
+        <span class="pill sage" data-edit="recipe:sweet-potato-base:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:sweet-potato-base:category">Basics</span>
       </div>
-      <h3>Sweet potato base</h3>
-      <p class="hu">Édesburgonyás lap</p>
-      <p>45 min · 6 portions</p>
+      <h3 data-edit="recipe:sweet-potato-base:title">Sweet potato base</h3>
+      <p class="hu" data-edit="recipe:sweet-potato-base:secondary">Édesburgonyás lap</p>
+      <p data-edit="recipe:sweet-potato-base:details">45 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/avocado-fish-spread.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:avocado-fish-spread:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:avocado-fish-spread:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:avocado-fish-spread:category">Basics</span>
       </div>
-      <h3>Avocado and salmon spread</h3>
-      <p class="hu">Avokádós hal</p>
-      <p>15 min · 2 portions</p>
+      <h3 data-edit="recipe:avocado-fish-spread:title">Avocado and salmon spread</h3>
+      <p class="hu" data-edit="recipe:avocado-fish-spread:secondary">Avokádós hal</p>
+      <p data-edit="recipe:avocado-fish-spread:details">15 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/beet-spread.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:beet-spread:age">8 months+</span>
+        <span class="pill sage" data-edit="recipe:beet-spread:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:beet-spread:category">Basics</span>
       </div>
-      <h3>Beet spread</h3>
-      <p class="hu">Céklakrém</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:beet-spread:title">Beet spread</h3>
+      <p class="hu" data-edit="recipe:beet-spread:secondary">Céklakrém</p>
+      <p data-edit="recipe:beet-spread:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/egg-spread.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:egg-spread:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:egg-spread:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:egg-spread:category">Basics</span>
       </div>
-      <h3>Egg spread</h3>
-      <p class="hu">Tojáskrém</p>
-      <p>15 min · 1 portion</p>
+      <h3 data-edit="recipe:egg-spread:title">Egg spread</h3>
+      <p class="hu" data-edit="recipe:egg-spread:secondary">Tojáskrém</p>
+      <p data-edit="recipe:egg-spread:details">15 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/fish-spread.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:fish-spread:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:fish-spread:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:fish-spread:category">Basics</span>
       </div>
-      <h3>White fish spread</h3>
-      <p class="hu">Halpástétom</p>
-      <p>25 min · 2 portions</p>
+      <h3 data-edit="recipe:fish-spread:title">White fish spread</h3>
+      <p class="hu" data-edit="recipe:fish-spread:secondary">Halpástétom</p>
+      <p data-edit="recipe:fish-spread:details">25 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/paprika-curd.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Replaced</span>
-        <span class="pill quiet">Basics</span>
+        <span class="pill" data-edit="recipe:paprika-curd:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:paprika-curd:verdict">Replaced</span>
+        <span class="pill quiet" data-edit="recipe:paprika-curd:category">Basics</span>
       </div>
-      <h3>Paprika cottage cheese</h3>
-      <p class="hu">Paprikás túró</p>
-      <p>15 min · 4 portions</p>
+      <h3 data-edit="recipe:paprika-curd:title">Paprika cottage cheese</h3>
+      <p class="hu" data-edit="recipe:paprika-curd:secondary">Paprikás túró</p>
+      <p data-edit="recipe:paprika-curd:details">15 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/fruit-oat-wheat-biscuits.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:fruit-oat-wheat-biscuits:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:fruit-oat-wheat-biscuits:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:fruit-oat-wheat-biscuits:category">Allergen practice</span>
       </div>
-      <h3>Fruit oat wheat biscuits</h3>
-      <p class="hu">Gyümölcsös keksz</p>
-      <p>25 min · 8 portions</p>
+      <h3 data-edit="recipe:fruit-oat-wheat-biscuits:title">Fruit oat wheat biscuits</h3>
+      <p class="hu" data-edit="recipe:fruit-oat-wheat-biscuits:secondary">Gyümölcsös keksz</p>
+      <p data-edit="recipe:fruit-oat-wheat-biscuits:details">25 min · 8 portions</p>
     </a><a class="recipe-card" href="/recipes/crumb-zucchini.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:crumb-zucchini:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:crumb-zucchini:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:crumb-zucchini:category">Allergen practice</span>
       </div>
-      <h3>Crumbed zucchini</h3>
-      <p class="hu">Morzsás cukkini</p>
-      <p>30 min · 2 portions</p>
+      <h3 data-edit="recipe:crumb-zucchini:title">Crumbed zucchini</h3>
+      <p class="hu" data-edit="recipe:crumb-zucchini:secondary">Morzsás cukkini</p>
+      <p data-edit="recipe:crumb-zucchini:details">30 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/fish-and-shrimp-muffin.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:fish-and-shrimp-muffin:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:fish-and-shrimp-muffin:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:fish-and-shrimp-muffin:category">Allergen practice</span>
       </div>
-      <h3>Fish and shrimp muffins</h3>
-      <p class="hu">Halas muffin</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:fish-and-shrimp-muffin:title">Fish and shrimp muffins</h3>
+      <p class="hu" data-edit="recipe:fish-and-shrimp-muffin:secondary">Halas muffin</p>
+      <p data-edit="recipe:fish-and-shrimp-muffin:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/yogurt-semolina.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:yogurt-semolina:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:yogurt-semolina:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:yogurt-semolina:category">Allergen practice</span>
       </div>
-      <h3>Yogurt semolina</h3>
-      <p class="hu">Joghurtos búzadara</p>
-      <p>15 min · 1 portion</p>
+      <h3 data-edit="recipe:yogurt-semolina:title">Yogurt semolina</h3>
+      <p class="hu" data-edit="recipe:yogurt-semolina:secondary">Joghurtos búzadara</p>
+      <p data-edit="recipe:yogurt-semolina:details">15 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/tofu-strips.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:tofu-strips:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:tofu-strips:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:tofu-strips:category">Allergen practice</span>
       </div>
-      <h3>Tofu strips</h3>
-      <p class="hu">Sült tofu</p>
-      <p>10 min · 2 portions</p>
+      <h3 data-edit="recipe:tofu-strips:title">Tofu strips</h3>
+      <p class="hu" data-edit="recipe:tofu-strips:secondary">Sült tofu</p>
+      <p data-edit="recipe:tofu-strips:details">10 min · 2 portions</p>
     </a><a class="recipe-card" href="/recipes/nut-dumplings.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:nut-dumplings:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:nut-dumplings:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:nut-dumplings:category">Allergen practice</span>
       </div>
-      <h3>Potato nut dumplings</h3>
-      <p class="hu">Magvas nudli</p>
-      <p>30 min · 4 portions</p>
+      <h3 data-edit="recipe:nut-dumplings:title">Potato nut dumplings</h3>
+      <p class="hu" data-edit="recipe:nut-dumplings:secondary">Magvas nudli</p>
+      <p data-edit="recipe:nut-dumplings:details">30 min · 4 portions</p>
     </a><a class="recipe-card" href="/recipes/peanut-yogurt.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:peanut-yogurt:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:peanut-yogurt:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:peanut-yogurt:category">Allergen practice</span>
       </div>
-      <h3>Peanut yogurt</h3>
-      <p class="hu">Mogyoróvajas joghurt</p>
-      <p>5 min · 1 portion</p>
+      <h3 data-edit="recipe:peanut-yogurt:title">Peanut yogurt</h3>
+      <p class="hu" data-edit="recipe:peanut-yogurt:secondary">Mogyoróvajas joghurt</p>
+      <p data-edit="recipe:peanut-yogurt:details">5 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/peanut-oat-fingers.html">
       <div class="pills">
-        <span class="pill">8 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:peanut-oat-fingers:age">8 months+</span>
+        <span class="pill warn" data-edit="recipe:peanut-oat-fingers:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:peanut-oat-fingers:category">Allergen practice</span>
       </div>
-      <h3>Peanut oat fingers</h3>
-      <p class="hu">Zabos mogyorórúd</p>
-      <p>25 min · 6 portions</p>
+      <h3 data-edit="recipe:peanut-oat-fingers:title">Peanut oat fingers</h3>
+      <p class="hu" data-edit="recipe:peanut-oat-fingers:secondary">Zabos mogyorórúd</p>
+      <p data-edit="recipe:peanut-oat-fingers:details">25 min · 6 portions</p>
     </a><a class="recipe-card" href="/recipes/carrot-egg.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:carrot-egg:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:carrot-egg:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:carrot-egg:category">Allergen practice</span>
       </div>
-      <h3>Carrot egg</h3>
-      <p class="hu">Sárgarépás tojás</p>
-      <p>12 min · 1 portion</p>
+      <h3 data-edit="recipe:carrot-egg:title">Carrot egg</h3>
+      <p class="hu" data-edit="recipe:carrot-egg:secondary">Sárgarépás tojás</p>
+      <p data-edit="recipe:carrot-egg:details">12 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/egg-sweet-potato.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill sage">Sound idea</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:egg-sweet-potato:age">6 months+</span>
+        <span class="pill sage" data-edit="recipe:egg-sweet-potato:verdict">Sound idea</span>
+        <span class="pill quiet" data-edit="recipe:egg-sweet-potato:category">Allergen practice</span>
       </div>
-      <h3>Egg and sweet potato</h3>
-      <p class="hu">Tojás édesburgonyával</p>
-      <p>20 min · 1 portion</p>
+      <h3 data-edit="recipe:egg-sweet-potato:title">Egg and sweet potato</h3>
+      <p class="hu" data-edit="recipe:egg-sweet-potato:secondary">Tojás édesburgonyával</p>
+      <p data-edit="recipe:egg-sweet-potato:details">20 min · 1 portion</p>
     </a><a class="recipe-card" href="/recipes/sesame-chickpea.html">
       <div class="pills">
-        <span class="pill">6 months+</span>
-        <span class="pill warn">Adjusted</span>
-        <span class="pill quiet">Allergen practice</span>
+        <span class="pill" data-edit="recipe:sesame-chickpea:age">6 months+</span>
+        <span class="pill warn" data-edit="recipe:sesame-chickpea:verdict">Adjusted</span>
+        <span class="pill quiet" data-edit="recipe:sesame-chickpea:category">Allergen practice</span>
       </div>
-      <h3>Sesame chickpeas</h3>
-      <p class="hu">Szezámos csicseriborsó</p>
-      <p>20 min · 2 portions</p>
+      <h3 data-edit="recipe:sesame-chickpea:title">Sesame chickpeas</h3>
+      <p class="hu" data-edit="recipe:sesame-chickpea:secondary">Szezámos csicseriborsó</p>
+      <p data-edit="recipe:sesame-chickpea:details">20 min · 2 portions</p>
     </a>
       </div>
     </section>
@@ -1254,10 +1255,11 @@
     
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t73">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t74">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

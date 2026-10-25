@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Egyszerű pürék</p>
-              <h1>Mangópüré</h1>
-              <p class="hu">Mango purée</p>
+              <p class="kicker" data-edit="t7">Egyszerű pürék</p>
+              <h1 data-edit="t8">Mangópüré</h1>
+              <p class="hu" data-edit="t9">Mango purée</p>
               <div class="pills">
-                <span class="pill">6 hónapos kortól</span>
-                <span class="pill sage">Jó ötlet</span>
-                <span class="pill quiet">10 min</span>
-                <span class="pill quiet">2 adag</span>
+                <span class="pill" data-edit="t10">6 hónapos kortól</span>
+                <span class="pill sage" data-edit="t11">Jó ötlet</span>
+                <span class="pill quiet" data-edit="t12">10 min</span>
+                <span class="pill quiet" data-edit="t13">2 adag</span>
               </div>
-              <p>Kanállal add, hogy ne csússzon le. Első kóstolóra néhány teáskanál elég.</p>
-              <p class="meta">Fagyasztható.</p>
+              <p data-edit="t14">Kanállal add, hogy ne csússzon le. Első kóstolóra néhány teáskanál elég.</p>
+              <p class="meta" data-edit="t15">Fagyasztható.</p>
             </div>
             <img src="/assets/img/recipes/mango-puree.jpg" alt="Egy adag: Mangópüré">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>180 g</strong> érett mangó <span class="meta">(csak a hús, hámozva, a magról levágva)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">nincs</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>180 g</strong> érett mangó <span class="meta">(csak a hús, hámozva, a magról levágva)</span></li></ul>
+              <h2 data-edit="t18">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t19">nincs</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>Válassz érett mangót, amely nyomásra kissé enged.</li><li>Hámozd meg, és a húst vágd le a magról.</li><li>A szálas rostokat vágd le.</li><li>Turmixold simára.</li><li>Ne főzd meg, és cukrot ne adj hozzá.</li></ol>
+              <h2 data-edit="t20">Elkészítés</h2>
+              <ol><li data-edit="t21">Válassz érett mangót, amely nyomásra kissé enged.</li><li data-edit="t22">Hámozd meg, és a húst vágd le a magról.</li><li data-edit="t23">A szálas rostokat vágd le.</li><li data-edit="t24">Turmixold simára.</li><li data-edit="t25">Ne főzd meg, és cukrot ne adj hozzá.</li></ol>
             </section>
           </div>
           <section class="callout sound">
-            <h2>Jó ötlet</h2>
-            <p>A mangópüré csúszós, a vastagabb darabok lecsúsznak a kanálról. Az érett mangót felesleges megfőzni.</p>
-            <p>Az érett mangót turmixold össze, és kanállal add. Az érett mangónak nincs szüksége főzésre és cukorra.</p>
+            <h2 data-edit="t26">Jó ötlet</h2>
+            <p data-edit="t27">A mangópüré csúszós, a vastagabb darabok lecsúsznak a kanálról. Az érett mangót felesleges megfőzni.</p>
+            <p data-edit="t28">Az érett mangót turmixold össze, és kanállal add. Az érett mangónak nincs szüksége főzésre és cukorra.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/pumpkin-puree.html">Sütőtökpüré</a><a href="/hu/recipes/peach-puree.html">Barackpüré</a><a href="/hu/recipes/potato-puree.html">Burgonyapüré</a>
+            <strong data-edit="t29">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/pumpkin-puree.html" data-edit="t30">Sütőtökpüré</a><a href="/hu/recipes/peach-puree.html" data-edit="t31">Barackpüré</a><a href="/hu/recipes/potato-puree.html" data-edit="t32">Burgonyapüré</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t33">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t34">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

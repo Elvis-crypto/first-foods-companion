@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Toddler meals</p>
-              <h1>Soft cinnamon oat bake</h1>
-              <p class="hu">Fahéjas zab</p>
+              <p class="kicker" data-edit="t7">Toddler meals</p>
+              <h1 data-edit="t8">Soft cinnamon oat bake</h1>
+              <p class="hu" data-edit="t9">Fahéjas zab</p>
               <div class="pills">
-                <span class="pill">8 months+</span>
-                <span class="pill warn">Replaced</span>
-                <span class="pill quiet">30 min</span>
-                <span class="pill quiet">6 portions</span>
+                <span class="pill" data-edit="t10">8 months+</span>
+                <span class="pill warn" data-edit="t11">Replaced</span>
+                <span class="pill quiet" data-edit="t12">30 min</span>
+                <span class="pill quiet" data-edit="t13">6 portions</span>
               </div>
-              <p>Serve warm, soaked or crumbled into plain yogurt. Freeze slices of the bake without the yogurt, and add yogurt after thawing.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">Serve warm, soaked or crumbled into plain yogurt. Freeze slices of the bake without the yogurt, and add yogurt after thawing.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/soft-cinnamon-oats.jpg" alt="A serving of Soft cinnamon oat bake">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>90 g</strong> Rolled oats <span class="meta">(Fine or ordinary oats)</span></li><li><strong>1 large</strong> Ripe banana <span class="meta">(Mashed smooth)</span></li><li><strong>180 ml</strong> Full-fat milk <span class="meta">(Pasteurized)</span></li><li><strong>a pinch</strong> Ground cinnamon <span class="meta">(Less than 1/8 teaspoon)</span></li><li><strong>120 g</strong> Plain full-fat yogurt <span class="meta">(Pasteurized; for soaking or crumbling at the table)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">gluten</span><span class="pill quiet">milk</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>90 g</strong> Rolled oats <span class="meta">(Fine or ordinary oats)</span></li><li data-edit="t18"><strong>1 large</strong> Ripe banana <span class="meta">(Mashed smooth)</span></li><li data-edit="t19"><strong>180 ml</strong> Full-fat milk <span class="meta">(Pasteurized)</span></li><li data-edit="t20"><strong>a pinch</strong> Ground cinnamon <span class="meta">(Less than 1/8 teaspoon)</span></li><li data-edit="t21"><strong>120 g</strong> Plain full-fat yogurt <span class="meta">(Pasteurized; for soaking or crumbling at the table)</span></li></ul>
+              <h2 data-edit="t22">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t23">gluten</span><span class="pill quiet" data-edit="t24">milk</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Heat the oven to 180°C.</li><li>Mash the banana and stir in the oats, milk, and cinnamon.</li><li>Spread the mixture in a small tin.</li><li>Bake until just set and still soft, about 18 minutes.</li><li>Cool until warm, then soak a piece in yogurt or crumble it in.</li><li>Offer small soft spoonfuls.</li></ol>
+              <h2 data-edit="t25">Method</h2>
+              <ol><li data-edit="t26">Heat the oven to 180°C.</li><li data-edit="t27">Mash the banana and stir in the oats, milk, and cinnamon.</li><li data-edit="t28">Spread the mixture in a small tin.</li><li data-edit="t29">Bake until just set and still soft, about 18 minutes.</li><li data-edit="t30">Cool until warm, then soak a piece in yogurt or crumble it in.</li><li data-edit="t31">Offer small soft spoonfuls.</li></ol>
             </section>
           </div>
           <section class="callout replace">
-            <h2>Replaced</h2>
-            <p>Crisp granola and chopped nuts were the problem. A dry cluster can break into hard pieces that a young child can choke on.</p>
-            <p>This is a soft baked oat porridge made with banana, oats, a pinch of cinnamon, and milk. If you stir in a teaspoon of smooth almond or peanut butter that is already tolerated, thin it into the yogurt and add tree-nut or peanut to the allergens. A baby with severe eczema or a known egg allergy needs a clinician before the first peanut taste.</p>
+            <h2 data-edit="t32">Replaced</h2>
+            <p data-edit="t33">Crisp granola and chopped nuts were the problem. A dry cluster can break into hard pieces that a young child can choke on.</p>
+            <p data-edit="t34">This is a soft baked oat porridge made with banana, oats, a pinch of cinnamon, and milk. If you stir in a teaspoon of smooth almond or peanut butter that is already tolerated, thin it into the yogurt and add tree-nut or peanut to the allergens. A baby with severe eczema or a known egg allergy needs a clinician before the first peanut taste.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/apple-peanut-quinoa.html">Apple peanut quinoa</a><a href="/recipes/apple-porridge.html">Apple porridge</a><a href="/recipes/yogurt-porridge.html">Yogurt porridge</a>
+            <strong data-edit="t35">More in this group</strong>
+            <a href="/recipes/apple-peanut-quinoa.html" data-edit="t36">Apple peanut quinoa</a><a href="/recipes/apple-porridge.html" data-edit="t37">Apple porridge</a><a href="/recipes/yogurt-porridge.html" data-edit="t38">Yogurt porridge</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t39">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t40">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/" aria-current="page">Guides</a>
-        <a href="/recipes/">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" aria-current="page" data-edit="t1">Guides</a>
+        <a href="/recipes/" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -46,36 +47,36 @@
     
         <div class="layout">
           <aside class="side">
-            <strong>Guides</strong>
-            <a href="/topics/why-first-foods-matter.html">What the first foods are actually for</a><a href="/topics/when-to-start.html" aria-current="page">When to start</a><a href="/topics/ways-of-feeding.html">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html">What to introduce, and when</a><a href="/topics/allergens.html">Introducing allergens</a><a href="/topics/portions-and-milk.html">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html">A week, in outline</a><a href="/topics/how-meals-happen.html">How the meal happens</a><a href="/topics/gagging-and-choking.html">Gagging and choking</a><a href="/topics/picky-eating.html">Picky eating</a><a href="/topics/illness.html">When a child is ill</a><a href="/topics/teething.html">Teething</a><a href="/topics/vitamins-and-minerals.html">Vitamins and minerals</a><a href="/topics/pocket-guide.html">A pocket guide</a>
+            <strong data-edit="t7">Guides</strong>
+            <a href="/topics/why-first-foods-matter.html" data-edit="t8">What the first foods are actually for</a><a href="/topics/when-to-start.html" aria-current="page" data-edit="t9">When to start</a><a href="/topics/ways-of-feeding.html" data-edit="t10">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html" data-edit="t11">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html" data-edit="t12">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html" data-edit="t13">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html" data-edit="t14">What to introduce, and when</a><a href="/topics/allergens.html" data-edit="t15">Introducing allergens</a><a href="/topics/portions-and-milk.html" data-edit="t16">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html" data-edit="t17">A week, in outline</a><a href="/topics/how-meals-happen.html" data-edit="t18">How the meal happens</a><a href="/topics/gagging-and-choking.html" data-edit="t19">Gagging and choking</a><a href="/topics/picky-eating.html" data-edit="t20">Picky eating</a><a href="/topics/illness.html" data-edit="t21">When a child is ill</a><a href="/topics/teething.html" data-edit="t22">Teething</a><a href="/topics/vitamins-and-minerals.html" data-edit="t23">Vitamins and minerals</a><a href="/topics/pocket-guide.html" data-edit="t24">A pocket guide</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Guides</p>
-            <h1>When to start</h1>
-            <p class="lede">The useful window is after four months and by about six. Readiness is a set of skills, and age still has a floor.</p>
+            <p class="kicker" data-edit="t25">Guides</p>
+            <h1 data-edit="t26">When to start</h1>
+            <p class="lede" data-edit="t27">The useful window is after four months and by about six. Readiness is a set of skills, and age still has a floor.</p>
             <figure class="hero-photo">
               <img src="/assets/img/topics/when-to-start.jpg" alt="A small bowl of green vegetable purée">
             </figure>
-            <h2>Findings</h2>
+            <h2 data-edit="t28">Findings</h2>
             <article class="finding">
-              <a href="#window"><strong>Not before 17 weeks, and not left until well past six months.</strong> European gastroenterology guidance sets that floor and asks families not to delay past about 26 weeks.</a>
+              <a href="#window" data-edit="t29"><strong>Not before 17 weeks, and not left until well past six months.</strong> European gastroenterology guidance sets that floor and asks families not to delay past about 26 weeks.</a>
             </article><article class="finding">
-              <a href="#signs"><strong>Sitting, a steady head, and bringing hands to the mouth matter.</strong> Interest in food and the fading of the tongue push are part of the same picture. Age alone is not a start signal, and skill before 17 weeks is not one either.</a>
+              <a href="#signs" data-edit="t30"><strong>Sitting, a steady head, and bringing hands to the mouth matter.</strong> Interest in food and the fading of the tongue push are part of the same picture. Age alone is not a start signal, and skill before 17 weeks is not one either.</a>
             </article><article class="finding">
-              <a href="#hungary"><strong>Hungarian advice and European advice are close, not identical.</strong> Local practice often says to wait until six months. The European paper allows a start from 17 weeks when a baby is ready, and still wants solids under way by six months.</a>
+              <a href="#hungary" data-edit="t31"><strong>Hungarian advice and European advice are close, not identical.</strong> Local practice often says to wait until six months. The European paper allows a start from 17 weeks when a baby is ready, and still wants solids under way by six months.</a>
             </article>
-            <h2 id="window">The window</h2><p>Exclusive breastfeeding for about six months is a goal the World Health Organization supports, and it is the right default for a healthy term baby who is growing well. ESPGHAN’s 2017 position is a little wider: do not start before four months (17 weeks), and do not wait beyond six months (26 weeks), because iron and energy needs rise and because delaying allergenic foods has no benefit.</p><p>EFSA’s 2019 review did not find harm, for healthy term infants in Europe, from a start anywhere in that same window. It is not an argument for starting at four months as a project. It is an argument against fear if a ready baby starts a few weeks before the half-birthday.</p><h2 id="signs">Signs that are worth watching</h2><p>Look for a baby who can sit with support and hold the head steady, who reaches for food and gets it to the mouth, and who does not automatically push every spoonful back out. Those skills protect the airway and make eating possible.</p><p>Waking at night, watching you eat, or chewing fists are ordinary infant behaviours. They are weak reasons to start. So is a wish to help the baby sleep. First foods are not a sleep method.</p><h2 id="hungary">What you will hear in Hungary</h2><p>The 2019 Hungarian professional guideline on feeding a healthy infant (identifier 001038) says solids may start from the beginning of the fifth month and should be under way by about six months. Exclusive breastfeeding until six months still fits that advice, and many health visitors put it that way.</p><p>Some familiar charts still use a slow ladder: fruit and vegetables first, grains later, meat after that. The iron and allergy evidence does not support that ladder. Start when the baby is ready, around six months, and include iron and the common allergens from the beginning.</p>
-            <h2>References</h2>
-            <ol class="refs"><li class="ref" id="ref-1">
+            <h2 id="window" data-edit="t32">The window</h2><p data-edit="t33">Exclusive breastfeeding for about six months is a goal the World Health Organization supports, and it is the right default for a healthy term baby who is growing well. ESPGHAN’s 2017 position is a little wider: do not start before four months (17 weeks), and do not wait beyond six months (26 weeks), because iron and energy needs rise and because delaying allergenic foods has no benefit.</p><p data-edit="t34">EFSA’s 2019 review did not find harm, for healthy term infants in Europe, from a start anywhere in that same window. It is not an argument for starting at four months as a project. It is an argument against fear if a ready baby starts a few weeks before the half-birthday.</p><h2 id="signs" data-edit="t35">Signs that are worth watching</h2><p data-edit="t36">Look for a baby who can sit with support and hold the head steady, who reaches for food and gets it to the mouth, and who does not automatically push every spoonful back out. Those skills protect the airway and make eating possible.</p><p data-edit="t37">Waking at night, watching you eat, or chewing fists are ordinary infant behaviours. They are weak reasons to start. So is a wish to help the baby sleep. First foods are not a sleep method.</p><h2 id="hungary" data-edit="t38">What you will hear in Hungary</h2><p data-edit="t39">The 2019 Hungarian professional guideline on feeding a healthy infant (identifier 001038) says solids may start from the beginning of the fifth month and should be under way by about six months. Exclusive breastfeeding until six months still fits that advice, and many health visitors put it that way.</p><p data-edit="t40">Some familiar charts still use a slow ladder: fruit and vegetables first, grains later, meat after that. The iron and allergy evidence does not support that ladder. Start when the baby is ready, around six months, and include iron and the common allergens from the beginning.</p>
+            <h2 data-edit="t41">References</h2>
+            <ol class="refs"><li class="ref" id="ref-1" data-edit="t42">
               <a href="https://pubmed.ncbi.nlm.nih.gov/28027215/">Complementary Feeding: A Position Paper</a>
               <div class="meta">Fewtrell et al. for ESPGHAN, JPGN, 2017</div>
-            </li><li class="ref" id="ref-2">
+            </li><li class="ref" id="ref-2" data-edit="t43">
               <a href="https://pubmed.ncbi.nlm.nih.gov/32626427/">Appropriate age range for introduction of complementary feeding into an infant&#x27;s diet</a>
               <div class="meta">EFSA Panel on Nutrition, Novel Foods and Food Allergens, EFSA Journal, 2019</div>
-            </li><li class="ref" id="ref-3">
+            </li><li class="ref" id="ref-3" data-edit="t44">
               <a href="https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding">Infant and young child feeding</a>
               <div class="meta">World Health Organization fact sheet, 2023</div>
-            </li><li class="ref" id="ref-4">
+            </li><li class="ref" id="ref-4" data-edit="t45">
               <a href="https://mdosz.hu/hun/wp-content/uploads/2025/03/mdosz-taplalkozasi-akademia-hirlevel-egysegesen-valaszkeszen-a-hozzataplalasrol-2025-februar.pdf">Egységesen, válasz készen a hozzátáplálásról</a>
               <div class="meta">Magyar Dietetikusok Országos Szövetsége, Táplálkozási Akadémia, 2025</div>
             </li></ol>
@@ -84,10 +85,11 @@
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t46">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t47">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

@@ -20,1233 +20,1234 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
   <main class="wrap">
     
     <section class="section">
-      <p class="kicker">Receptek</p>
-      <h1>Ezeket a változatokat főzd.</h1>
-      <p class="lede">Szűrj a gyerek kora szerint, vagy jelöld meg a hozzávalókat, amelyek kellenek, vagy amelyeket kihagynál. A választott kortól induló receptek kerülnek előre. A korábbiak is a listán maradnak, mert azok továbbra is jók. A magyar nevek megmaradtak, hogy ráismerd az ételre.</p>
+      <p class="kicker" data-edit="t7">Receptek</p>
+      <h1 data-edit="t8">Ezeket a változatokat főzd.</h1>
+      <p class="lede" data-edit="t9">Szűrj a gyerek kora szerint, vagy jelöld meg a hozzávalókat, amelyek kellenek, vagy amelyeket kihagynál. A választott kortól induló receptek kerülnek előre. A korábbiak is a listán maradnak, mert azok továbbra is jók. A magyar nevek megmaradtak, hogy ráismerd az ételre.</p>
       <div class="filters">
         <input type="search" data-filter-q placeholder="Keresés név vagy hozzávaló szerint" aria-label="Receptek keresése">
-        <label class="meta" for="age-hu">Ehhez a korhoz már adható receptek</label>
+        <label class="meta" for="age-hu" data-edit="t10">Ehhez a korhoz már adható receptek</label>
         <select id="age-hu" data-filter-age>
-          <option value="">Bármely alsó korhatár</option>
-          <option value="6">6 hónapos</option><option value="7">7 hónapos</option><option value="8">8 hónapos</option><option value="9">9 hónapos</option><option value="10">10 hónapos</option><option value="12">12 hónapos</option>
+          <option value="" data-edit="t11">Bármely alsó korhatár</option>
+          <option value="6" data-edit="t12">6 hónapos</option><option value="7" data-edit="t13">7 hónapos</option><option value="8" data-edit="t14">8 hónapos</option><option value="9" data-edit="t15">9 hónapos</option><option value="10" data-edit="t16">10 hónapos</option><option value="12" data-edit="t17">12 hónapos</option>
         </select>
         <p class="meta age-note" data-age-note hidden aria-live="polite" data-starts="{n} hónapos kortól" data-earlier="Korábban is adható" data-note="{n} hónapos kortól: {start}. Korábbról, és még mindig jó: {earlier}." data-note-only="{n} hónapos kortól: {start}." data-note-earlier="{n} hónapos kortól egy sem indul. Korábbról: {earlier}."></p>
-        <div class="chips" role="group" aria-label="Csoport"><button type="button" data-filter-cat="all" aria-pressed="true">Mind</button><button type="button" data-filter-cat="simple-purees" aria-pressed="false">Egyszerű pürék</button><button type="button" data-filter-cat="mixed-purees" aria-pressed="false">Vegyes pürék</button><button type="button" data-filter-cat="finger-foods" aria-pressed="false">Puha falatok</button><button type="button" data-filter-cat="toddler-meals" aria-pressed="false">Nagyobbacska ételek</button><button type="button" data-filter-cat="snacks" aria-pressed="false">Nasi</button><button type="button" data-filter-cat="celebrations" aria-pressed="false">Ünnep</button><button type="button" data-filter-cat="basics" aria-pressed="false">Alapok</button><button type="button" data-filter-cat="allergens" aria-pressed="false">Allergén gyakorlat</button></div>
-        <div class="chips" role="group" aria-label="Megítélés"><button type="button" data-filter-verdict="all" aria-pressed="true">Bármely megjegyzés</button><button type="button" data-filter-verdict="sound" aria-pressed="false">Jó ötlet</button><button type="button" data-filter-verdict="adjust" aria-pressed="false">Igazított</button><button type="button" data-filter-verdict="replace" aria-pressed="false">Lecserélt</button></div>
+        <div class="chips" role="group" aria-label="Csoport"><button type="button" data-filter-cat="all" aria-pressed="true" data-edit="t18">Mind</button><button type="button" data-filter-cat="simple-purees" aria-pressed="false" data-edit="t19">Egyszerű pürék</button><button type="button" data-filter-cat="mixed-purees" aria-pressed="false" data-edit="t20">Vegyes pürék</button><button type="button" data-filter-cat="finger-foods" aria-pressed="false" data-edit="t21">Puha falatok</button><button type="button" data-filter-cat="toddler-meals" aria-pressed="false" data-edit="t22">Nagyobbacska ételek</button><button type="button" data-filter-cat="snacks" aria-pressed="false" data-edit="t23">Nasi</button><button type="button" data-filter-cat="celebrations" aria-pressed="false" data-edit="t24">Ünnep</button><button type="button" data-filter-cat="basics" aria-pressed="false" data-edit="t25">Alapok</button><button type="button" data-filter-cat="allergens" aria-pressed="false" data-edit="t26">Allergén gyakorlat</button></div>
+        <div class="chips" role="group" aria-label="Megítélés"><button type="button" data-filter-verdict="all" aria-pressed="true" data-edit="t27">Bármely megjegyzés</button><button type="button" data-filter-verdict="sound" aria-pressed="false" data-edit="t28">Jó ötlet</button><button type="button" data-filter-verdict="adjust" aria-pressed="false" data-edit="t29">Igazított</button><button type="button" data-filter-verdict="replace" aria-pressed="false" data-edit="t30">Lecserélt</button></div>
         <div class="food-filters">
-          <label class="meta" for="food-hu">Hozzávalók</label>
+          <label class="meta" for="food-hu" data-edit="t31">Hozzávalók</label>
           <input id="food-hu" type="search" data-filter-foods placeholder="Hozzávaló keresése" aria-label="Hozzávaló keresése" autocomplete="off">
-          <p class="meta">Egy kattintás: csak ezzel. Még egy: e nélkül. Harmadik: törlés.</p>
-          <div class="chips" role="group" aria-label="Hozzávalók" data-food-chips data-required-suffix=", kötelező" data-excluded-suffix=", kizárva"><button type="button" data-food="apple" data-label="Alma" data-state="off" aria-pressed="false">Alma</button><button type="button" data-food="pear" data-label="Körte" data-state="off" aria-pressed="false">Körte</button><button type="button" data-food="banana" data-label="Banán" data-state="off" aria-pressed="false">Banán</button><button type="button" data-food="peach" data-label="Barack" data-state="off" aria-pressed="false">Barack</button><button type="button" data-food="berries" data-label="Bogyós gyümölcs" data-state="off" aria-pressed="false">Bogyós gyümölcs</button><button type="button" data-food="mango" data-label="Mangó" data-state="off" aria-pressed="false">Mangó</button><button type="button" data-food="avocado" data-label="Avokádó" data-state="off" aria-pressed="false">Avokádó</button><button type="button" data-food="pumpkin" data-label="Sütőtök" data-state="off" aria-pressed="false">Sütőtök</button><button type="button" data-food="carrot" data-label="Répa" data-state="off" aria-pressed="false">Répa</button><button type="button" data-food="sweet-potato" data-label="Édesburgonya" data-state="off" aria-pressed="false">Édesburgonya</button><button type="button" data-food="potato" data-label="Burgonya" data-state="off" aria-pressed="false">Burgonya</button><button type="button" data-food="zucchini" data-label="Cukkini" data-state="off" aria-pressed="false">Cukkini</button><button type="button" data-food="broccoli" data-label="Brokkoli" data-state="off" aria-pressed="false">Brokkoli</button><button type="button" data-food="cauliflower" data-label="Karfiol" data-state="off" aria-pressed="false">Karfiol</button><button type="button" data-food="spinach" data-label="Spenót" data-state="off" aria-pressed="false">Spenót</button><button type="button" data-food="peas" data-label="Borsó" data-state="off" aria-pressed="false">Borsó</button><button type="button" data-food="tomato" data-label="Paradicsom" data-state="off" aria-pressed="false">Paradicsom</button><button type="button" data-food="onion" data-label="Hagyma vagy fokhagyma" data-state="off" aria-pressed="false">Hagyma vagy fokhagyma</button><button type="button" data-food="pepper" data-label="Paprika" data-state="off" aria-pressed="false">Paprika</button><button type="button" data-food="dairy" data-label="Tejtermék" data-state="off" aria-pressed="false">Tejtermék</button><button type="button" data-food="egg" data-label="Tojás" data-state="off" aria-pressed="false">Tojás</button><button type="button" data-food="yogurt" data-label="Joghurt" data-state="off" aria-pressed="false">Joghurt</button><button type="button" data-food="cottage" data-label="Túró" data-state="off" aria-pressed="false">Túró</button><button type="button" data-food="cheese" data-label="Sajt" data-state="off" aria-pressed="false">Sajt</button><button type="button" data-food="milk" data-label="Tej" data-state="off" aria-pressed="false">Tej</button><button type="button" data-food="oats" data-label="Zab" data-state="off" aria-pressed="false">Zab</button><button type="button" data-food="wheat" data-label="Búza" data-state="off" aria-pressed="false">Búza</button><button type="button" data-food="rice" data-label="Rizs" data-state="off" aria-pressed="false">Rizs</button><button type="button" data-food="quinoa" data-label="Quinoa" data-state="off" aria-pressed="false">Quinoa</button><button type="button" data-food="corn" data-label="Kukorica" data-state="off" aria-pressed="false">Kukorica</button><button type="button" data-food="chicken" data-label="Csirke" data-state="off" aria-pressed="false">Csirke</button><button type="button" data-food="liver" data-label="Máj" data-state="off" aria-pressed="false">Máj</button><button type="button" data-food="red-meat" data-label="Marha, borjú vagy sertés" data-state="off" aria-pressed="false">Marha, borjú vagy sertés</button><button type="button" data-food="fish" data-label="Hal" data-state="off" aria-pressed="false">Hal</button><button type="button" data-food="shrimp" data-label="Garnéla" data-state="off" aria-pressed="false">Garnéla</button><button type="button" data-food="peanut" data-label="Földimogyoró" data-state="off" aria-pressed="false">Földimogyoró</button><button type="button" data-food="tree-nut" data-label="Dióféle" data-state="off" aria-pressed="false">Dióféle</button><button type="button" data-food="sesame" data-label="Szezám" data-state="off" aria-pressed="false">Szezám</button><button type="button" data-food="legumes" data-label="Bab, lencse vagy tofu" data-state="off" aria-pressed="false">Bab, lencse vagy tofu</button></div>
-          <button type="button" class="text-button" data-food-clear hidden>Hozzávalók törlése</button>
+          <p class="meta" data-edit="t32">Egy kattintás: csak ezzel. Még egy: e nélkül. Harmadik: törlés.</p>
+          <div class="chips" role="group" aria-label="Hozzávalók" data-food-chips data-required-suffix=", kötelező" data-excluded-suffix=", kizárva"><button type="button" data-food="apple" data-label="Alma" data-state="off" aria-pressed="false" data-edit="t33">Alma</button><button type="button" data-food="pear" data-label="Körte" data-state="off" aria-pressed="false" data-edit="t34">Körte</button><button type="button" data-food="banana" data-label="Banán" data-state="off" aria-pressed="false" data-edit="t35">Banán</button><button type="button" data-food="peach" data-label="Barack" data-state="off" aria-pressed="false" data-edit="t36">Barack</button><button type="button" data-food="berries" data-label="Bogyós gyümölcs" data-state="off" aria-pressed="false" data-edit="t37">Bogyós gyümölcs</button><button type="button" data-food="mango" data-label="Mangó" data-state="off" aria-pressed="false" data-edit="t38">Mangó</button><button type="button" data-food="avocado" data-label="Avokádó" data-state="off" aria-pressed="false" data-edit="t39">Avokádó</button><button type="button" data-food="pumpkin" data-label="Sütőtök" data-state="off" aria-pressed="false" data-edit="t40">Sütőtök</button><button type="button" data-food="carrot" data-label="Répa" data-state="off" aria-pressed="false" data-edit="t41">Répa</button><button type="button" data-food="sweet-potato" data-label="Édesburgonya" data-state="off" aria-pressed="false" data-edit="t42">Édesburgonya</button><button type="button" data-food="potato" data-label="Burgonya" data-state="off" aria-pressed="false" data-edit="t43">Burgonya</button><button type="button" data-food="zucchini" data-label="Cukkini" data-state="off" aria-pressed="false" data-edit="t44">Cukkini</button><button type="button" data-food="broccoli" data-label="Brokkoli" data-state="off" aria-pressed="false" data-edit="t45">Brokkoli</button><button type="button" data-food="cauliflower" data-label="Karfiol" data-state="off" aria-pressed="false" data-edit="t46">Karfiol</button><button type="button" data-food="spinach" data-label="Spenót" data-state="off" aria-pressed="false" data-edit="t47">Spenót</button><button type="button" data-food="peas" data-label="Borsó" data-state="off" aria-pressed="false" data-edit="t48">Borsó</button><button type="button" data-food="tomato" data-label="Paradicsom" data-state="off" aria-pressed="false" data-edit="t49">Paradicsom</button><button type="button" data-food="onion" data-label="Hagyma vagy fokhagyma" data-state="off" aria-pressed="false" data-edit="t50">Hagyma vagy fokhagyma</button><button type="button" data-food="pepper" data-label="Paprika" data-state="off" aria-pressed="false" data-edit="t51">Paprika</button><button type="button" data-food="dairy" data-label="Tejtermék" data-state="off" aria-pressed="false" data-edit="t52">Tejtermék</button><button type="button" data-food="egg" data-label="Tojás" data-state="off" aria-pressed="false" data-edit="t53">Tojás</button><button type="button" data-food="yogurt" data-label="Joghurt" data-state="off" aria-pressed="false" data-edit="t54">Joghurt</button><button type="button" data-food="cottage" data-label="Túró" data-state="off" aria-pressed="false" data-edit="t55">Túró</button><button type="button" data-food="cheese" data-label="Sajt" data-state="off" aria-pressed="false" data-edit="t56">Sajt</button><button type="button" data-food="milk" data-label="Tej" data-state="off" aria-pressed="false" data-edit="t57">Tej</button><button type="button" data-food="oats" data-label="Zab" data-state="off" aria-pressed="false" data-edit="t58">Zab</button><button type="button" data-food="wheat" data-label="Búza" data-state="off" aria-pressed="false" data-edit="t59">Búza</button><button type="button" data-food="rice" data-label="Rizs" data-state="off" aria-pressed="false" data-edit="t60">Rizs</button><button type="button" data-food="quinoa" data-label="Quinoa" data-state="off" aria-pressed="false" data-edit="t61">Quinoa</button><button type="button" data-food="corn" data-label="Kukorica" data-state="off" aria-pressed="false" data-edit="t62">Kukorica</button><button type="button" data-food="chicken" data-label="Csirke" data-state="off" aria-pressed="false" data-edit="t63">Csirke</button><button type="button" data-food="liver" data-label="Máj" data-state="off" aria-pressed="false" data-edit="t64">Máj</button><button type="button" data-food="red-meat" data-label="Marha, borjú vagy sertés" data-state="off" aria-pressed="false" data-edit="t65">Marha, borjú vagy sertés</button><button type="button" data-food="fish" data-label="Hal" data-state="off" aria-pressed="false" data-edit="t66">Hal</button><button type="button" data-food="shrimp" data-label="Garnéla" data-state="off" aria-pressed="false" data-edit="t67">Garnéla</button><button type="button" data-food="peanut" data-label="Földimogyoró" data-state="off" aria-pressed="false" data-edit="t68">Földimogyoró</button><button type="button" data-food="tree-nut" data-label="Dióféle" data-state="off" aria-pressed="false" data-edit="t69">Dióféle</button><button type="button" data-food="sesame" data-label="Szezám" data-state="off" aria-pressed="false" data-edit="t70">Szezám</button><button type="button" data-food="legumes" data-label="Bab, lencse vagy tofu" data-state="off" aria-pressed="false" data-edit="t71">Bab, lencse vagy tofu</button></div>
+          <button type="button" class="text-button" data-food-clear hidden data-edit="t72">Hozzávalók törlése</button>
         </div>
         <p class="count" data-count>131 recept</p>
       </div>
       <div class="recipe-list" data-recipe-list>
         <a class="recipe-card" href="/hu/recipes/pumpkin-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:pumpkin-puree:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:pumpkin-puree:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:pumpkin-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Sütőtökpüré</h3>
-      <p class="hu">Pumpkin purée</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:pumpkin-puree:title">Sütőtökpüré</h3>
+      <p class="hu" data-edit="recipe:pumpkin-puree:secondary">Pumpkin purée</p>
+      <p data-edit="recipe:pumpkin-puree:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/peach-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:peach-puree:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:peach-puree:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:peach-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Barackpüré</h3>
-      <p class="hu">Peach purée</p>
-      <p>20 min · 4 adag</p>
+      <h3 data-edit="recipe:peach-puree:title">Barackpüré</h3>
+      <p class="hu" data-edit="recipe:peach-puree:secondary">Peach purée</p>
+      <p data-edit="recipe:peach-puree:details">20 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/potato-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:potato-puree:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:potato-puree:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:potato-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Burgonyapüré</h3>
-      <p class="hu">Potato purée</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:potato-puree:title">Burgonyapüré</h3>
+      <p class="hu" data-edit="recipe:potato-puree:secondary">Potato purée</p>
+      <p data-edit="recipe:potato-puree:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:apple-puree:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:apple-puree:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:apple-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Almapüré</h3>
-      <p class="hu">Apple purée</p>
-      <p>20 min · 4 adag</p>
+      <h3 data-edit="recipe:apple-puree:title">Almapüré</h3>
+      <p class="hu" data-edit="recipe:apple-puree:secondary">Apple purée</p>
+      <p data-edit="recipe:apple-puree:details">20 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/pear-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:pear-puree:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:pear-puree:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:pear-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Körtepüré</h3>
-      <p class="hu">Pear purée</p>
-      <p>20 min · 4 adag</p>
+      <h3 data-edit="recipe:pear-puree:title">Körtepüré</h3>
+      <p class="hu" data-edit="recipe:pear-puree:secondary">Pear purée</p>
+      <p data-edit="recipe:pear-puree:details">20 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/sweet-potato-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:sweet-potato-puree:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:sweet-potato-puree:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:sweet-potato-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Édesburgonyapüré</h3>
-      <p class="hu">Sweet potato purée</p>
-      <p>45 min · 4 adag</p>
+      <h3 data-edit="recipe:sweet-potato-puree:title">Édesburgonyapüré</h3>
+      <p class="hu" data-edit="recipe:sweet-potato-puree:secondary">Sweet potato purée</p>
+      <p data-edit="recipe:sweet-potato-puree:details">45 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/mango-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:mango-puree:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:mango-puree:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:mango-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Mangópüré</h3>
-      <p class="hu">Mango purée</p>
-      <p>10 min · 2 adag</p>
+      <h3 data-edit="recipe:mango-puree:title">Mangópüré</h3>
+      <p class="hu" data-edit="recipe:mango-puree:secondary">Mango purée</p>
+      <p data-edit="recipe:mango-puree:details">10 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/banana-mash.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:banana-mash:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:banana-mash:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:banana-mash:category">Egyszerű pürék</span>
       </div>
-      <h3>Banánpüré</h3>
-      <p class="hu">Banana mash</p>
-      <p>5 min · 2 adag</p>
+      <h3 data-edit="recipe:banana-mash:title">Banánpüré</h3>
+      <p class="hu" data-edit="recipe:banana-mash:secondary">Banana mash</p>
+      <p data-edit="recipe:banana-mash:details">5 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-chestnut-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:apple-chestnut-puree:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:apple-chestnut-puree:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:apple-chestnut-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Almás gesztenyepüré</h3>
-      <p class="hu">Apple and chestnut purée</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:apple-chestnut-puree:title">Almás gesztenyepüré</h3>
+      <p class="hu" data-edit="recipe:apple-chestnut-puree:secondary">Apple and chestnut purée</p>
+      <p data-edit="recipe:apple-chestnut-puree:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/blueberry-apple-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:blueberry-apple-puree:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:blueberry-apple-puree:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:blueberry-apple-puree:category">Egyszerű pürék</span>
       </div>
-      <h3>Áfonyás almapüré</h3>
-      <p class="hu">Blueberry and apple purée</p>
-      <p>20 min · 4 adag</p>
+      <h3 data-edit="recipe:blueberry-apple-puree:title">Áfonyás almapüré</h3>
+      <p class="hu" data-edit="recipe:blueberry-apple-puree:secondary">Blueberry and apple purée</p>
+      <p data-edit="recipe:blueberry-apple-puree:details">20 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/avocado-banana.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:avocado-banana:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:avocado-banana:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:avocado-banana:category">Egyszerű pürék</span>
       </div>
-      <h3>Avokádó-banán püré</h3>
-      <p class="hu">Avocado and banana purée</p>
-      <p>5 min · 2 adag</p>
+      <h3 data-edit="recipe:avocado-banana:title">Avokádó-banán püré</h3>
+      <p class="hu" data-edit="recipe:avocado-banana:secondary">Avocado and banana purée</p>
+      <p data-edit="recipe:avocado-banana:details">5 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/first-puree-mixes.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Egyszerű pürék</span>
+        <span class="pill" data-edit="recipe:first-puree-mixes:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:first-puree-mixes:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:first-puree-mixes:category">Egyszerű pürék</span>
       </div>
-      <h3>További pürévariációk</h3>
-      <p class="hu">More purée mixes</p>
-      <p>20 min · 1 adag</p>
+      <h3 data-edit="recipe:first-puree-mixes:title">További pürévariációk</h3>
+      <p class="hu" data-edit="recipe:first-puree-mixes:secondary">More purée mixes</p>
+      <p data-edit="recipe:first-puree-mixes:details">20 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-peach-semolina.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:apple-peach-semolina:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:apple-peach-semolina:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:apple-peach-semolina:category">Vegyes pürék</span>
       </div>
-      <h3>Almás-barackos búzadara joghurttal</h3>
-      <p class="hu">Apple and peach semolina with yogurt</p>
-      <p>20 min · 2 adag</p>
+      <h3 data-edit="recipe:apple-peach-semolina:title">Almás-barackos búzadara joghurttal</h3>
+      <p class="hu" data-edit="recipe:apple-peach-semolina:secondary">Apple and peach semolina with yogurt</p>
+      <p data-edit="recipe:apple-peach-semolina:details">20 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/pear-banana-oat.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:pear-banana-oat:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:pear-banana-oat:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:pear-banana-oat:category">Vegyes pürék</span>
       </div>
-      <h3>Körtés banán zabbal</h3>
-      <p class="hu">Pear and banana with oats</p>
-      <p>20 min · 2 adag</p>
+      <h3 data-edit="recipe:pear-banana-oat:title">Körtés banán zabbal</h3>
+      <p class="hu" data-edit="recipe:pear-banana-oat:secondary">Pear and banana with oats</p>
+      <p data-edit="recipe:pear-banana-oat:details">20 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/plum-peach-yogurt.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:plum-peach-yogurt:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:plum-peach-yogurt:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:plum-peach-yogurt:category">Vegyes pürék</span>
       </div>
-      <h3>Szilvás barack joghurttal</h3>
-      <p class="hu">Plum and peach with yogurt</p>
-      <p>20 min · 2 adag</p>
+      <h3 data-edit="recipe:plum-peach-yogurt:title">Szilvás barack joghurttal</h3>
+      <p class="hu" data-edit="recipe:plum-peach-yogurt:secondary">Plum and peach with yogurt</p>
+      <p data-edit="recipe:plum-peach-yogurt:details">20 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-blueberry-curd.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:apple-blueberry-curd:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:apple-blueberry-curd:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:apple-blueberry-curd:category">Vegyes pürék</span>
       </div>
-      <h3>Zöldalmás áfonya túrókrémmel</h3>
-      <p class="hu">Green apple and blueberry with curd</p>
-      <p>20 min · 2 adag</p>
+      <h3 data-edit="recipe:apple-blueberry-curd:title">Zöldalmás áfonya túrókrémmel</h3>
+      <p class="hu" data-edit="recipe:apple-blueberry-curd:secondary">Green apple and blueberry with curd</p>
+      <p data-edit="recipe:apple-blueberry-curd:details">20 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/pineapple-curd.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:pineapple-curd:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:pineapple-curd:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:pineapple-curd:category">Vegyes pürék</span>
       </div>
-      <h3>Túrós ananász</h3>
-      <p class="hu">Pineapple with curd</p>
-      <p>10 min · 2 adag</p>
+      <h3 data-edit="recipe:pineapple-curd:title">Túrós ananász</h3>
+      <p class="hu" data-edit="recipe:pineapple-curd:secondary">Pineapple with curd</p>
+      <p data-edit="recipe:pineapple-curd:details">10 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-yogurt-porridge.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:apple-yogurt-porridge:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:apple-yogurt-porridge:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:apple-yogurt-porridge:category">Vegyes pürék</span>
       </div>
-      <h3>Joghurtos alma zabkása</h3>
-      <p class="hu">Apple and yogurt oat porridge</p>
-      <p>20 min · 2 adag</p>
+      <h3 data-edit="recipe:apple-yogurt-porridge:title">Joghurtos alma zabkása</h3>
+      <p class="hu" data-edit="recipe:apple-yogurt-porridge:secondary">Apple and yogurt oat porridge</p>
+      <p data-edit="recipe:apple-yogurt-porridge:details">20 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/spinach-potato.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:spinach-potato:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:spinach-potato:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:spinach-potato:category">Vegyes pürék</span>
       </div>
-      <h3>Spenótos burgonya</h3>
-      <p class="hu">Spinach and potato</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:spinach-potato:title">Spenótos burgonya</h3>
+      <p class="hu" data-edit="recipe:spinach-potato:secondary">Spinach and potato</p>
+      <p data-edit="recipe:spinach-potato:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/white-bean-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:white-bean-puree:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:white-bean-puree:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:white-bean-puree:category">Vegyes pürék</span>
       </div>
-      <h3>Babpüré</h3>
-      <p class="hu">White bean purée</p>
-      <p>75 min · 4 adag</p>
+      <h3 data-edit="recipe:white-bean-puree:title">Babpüré</h3>
+      <p class="hu" data-edit="recipe:white-bean-puree:secondary">White bean purée</p>
+      <p data-edit="recipe:white-bean-puree:details">75 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/asparagus-potato-cheese.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:asparagus-potato-cheese:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:asparagus-potato-cheese:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:asparagus-potato-cheese:category">Vegyes pürék</span>
       </div>
-      <h3>Spárgás burgonya sajttal</h3>
-      <p class="hu">Asparagus and potato with cheese</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:asparagus-potato-cheese:title">Spárgás burgonya sajttal</h3>
+      <p class="hu" data-edit="recipe:asparagus-potato-cheese:secondary">Asparagus and potato with cheese</p>
+      <p data-edit="recipe:asparagus-potato-cheese:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/zucchini-potato.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:zucchini-potato:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:zucchini-potato:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:zucchini-potato:category">Vegyes pürék</span>
       </div>
-      <h3>Cukkinis burgonyapüré</h3>
-      <p class="hu">Zucchini and potato purée</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:zucchini-potato:title">Cukkinis burgonyapüré</h3>
+      <p class="hu" data-edit="recipe:zucchini-potato:secondary">Zucchini and potato purée</p>
+      <p data-edit="recipe:zucchini-potato:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/carrot-jerusalem-artichoke.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:carrot-jerusalem-artichoke:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:carrot-jerusalem-artichoke:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:carrot-jerusalem-artichoke:category">Vegyes pürék</span>
       </div>
-      <h3>Csicsókás répa</h3>
-      <p class="hu">Carrot and Jerusalem artichoke</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:carrot-jerusalem-artichoke:title">Csicsókás répa</h3>
+      <p class="hu" data-edit="recipe:carrot-jerusalem-artichoke:secondary">Carrot and Jerusalem artichoke</p>
+      <p data-edit="recipe:carrot-jerusalem-artichoke:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/broccoli-cauliflower-cheese.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:broccoli-cauliflower-cheese:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:broccoli-cauliflower-cheese:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:broccoli-cauliflower-cheese:category">Vegyes pürék</span>
       </div>
-      <h3>Karfiol és brokkoli sajttal</h3>
-      <p class="hu">Cauliflower and broccoli with cheese</p>
-      <p>25 min · 4 adag</p>
+      <h3 data-edit="recipe:broccoli-cauliflower-cheese:title">Karfiol és brokkoli sajttal</h3>
+      <p class="hu" data-edit="recipe:broccoli-cauliflower-cheese:secondary">Cauliflower and broccoli with cheese</p>
+      <p data-edit="recipe:broccoli-cauliflower-cheese:details">25 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fish-celeriac-sweet-potato.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:fish-celeriac-sweet-potato:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:fish-celeriac-sweet-potato:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:fish-celeriac-sweet-potato:category">Vegyes pürék</span>
       </div>
-      <h3>Halas édesburgonya zellerrel</h3>
-      <p class="hu">Fish with sweet potato and celeriac</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:fish-celeriac-sweet-potato:title">Halas édesburgonya zellerrel</h3>
+      <p class="hu" data-edit="recipe:fish-celeriac-sweet-potato:secondary">Fish with sweet potato and celeriac</p>
+      <p data-edit="recipe:fish-celeriac-sweet-potato:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/spring-vegetables-cauliflower.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:spring-vegetables-cauliflower:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:spring-vegetables-cauliflower:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:spring-vegetables-cauliflower:category">Vegyes pürék</span>
       </div>
-      <h3>Tavaszi zöldség karfiollal</h3>
-      <p class="hu">Spring vegetables with cauliflower</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:spring-vegetables-cauliflower:title">Tavaszi zöldség karfiollal</h3>
+      <p class="hu" data-edit="recipe:spring-vegetables-cauliflower:secondary">Spring vegetables with cauliflower</p>
+      <p data-edit="recipe:spring-vegetables-cauliflower:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/chestnut-apple-chicken.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:chestnut-apple-chicken:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:chestnut-apple-chicken:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:chestnut-apple-chicken:category">Vegyes pürék</span>
       </div>
-      <h3>Gesztenyés alma csirkével</h3>
-      <p class="hu">Chestnut, apple, and chicken</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:chestnut-apple-chicken:title">Gesztenyés alma csirkével</h3>
+      <p class="hu" data-edit="recipe:chestnut-apple-chicken:secondary">Chestnut, apple, and chicken</p>
+      <p data-edit="recipe:chestnut-apple-chicken:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/tomato-vegetable-pasta.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:tomato-vegetable-pasta:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:tomato-vegetable-pasta:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:tomato-vegetable-pasta:category">Vegyes pürék</span>
       </div>
-      <h3>Paradicsomos zöldséges tészta</h3>
-      <p class="hu">Tomato vegetable pasta</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:tomato-vegetable-pasta:title">Paradicsomos zöldséges tészta</h3>
+      <p class="hu" data-edit="recipe:tomato-vegetable-pasta:secondary">Tomato vegetable pasta</p>
+      <p data-edit="recipe:tomato-vegetable-pasta:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/zucchini-pea-salmon-couscous.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:zucchini-pea-salmon-couscous:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:zucchini-pea-salmon-couscous:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:zucchini-pea-salmon-couscous:category">Vegyes pürék</span>
       </div>
-      <h3>Cukkini, borsó, lazac, kuszkusz</h3>
-      <p class="hu">Zucchini, pea, salmon, and couscous</p>
-      <p>25 min · 4 adag</p>
+      <h3 data-edit="recipe:zucchini-pea-salmon-couscous:title">Cukkini, borsó, lazac, kuszkusz</h3>
+      <p class="hu" data-edit="recipe:zucchini-pea-salmon-couscous:secondary">Zucchini, pea, salmon, and couscous</p>
+      <p data-edit="recipe:zucchini-pea-salmon-couscous:details">25 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/yellow-fish-puree.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:yellow-fish-puree:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:yellow-fish-puree:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:yellow-fish-puree:category">Vegyes pürék</span>
       </div>
-      <h3>Halacskás sárgapüré</h3>
-      <p class="hu">Yellow fish purée</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:yellow-fish-puree:title">Halacskás sárgapüré</h3>
+      <p class="hu" data-edit="recipe:yellow-fish-puree:secondary">Yellow fish purée</p>
+      <p data-edit="recipe:yellow-fish-puree:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/pea-sweet-potato-fish.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:pea-sweet-potato-fish:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:pea-sweet-potato-fish:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:pea-sweet-potato-fish:category">Vegyes pürék</span>
       </div>
-      <h3>Zöldborsós édesburgonyás hal</h3>
-      <p class="hu">Pea, sweet potato, and fish</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:pea-sweet-potato-fish:title">Zöldborsós édesburgonyás hal</h3>
+      <p class="hu" data-edit="recipe:pea-sweet-potato-fish:secondary">Pea, sweet potato, and fish</p>
+      <p data-edit="recipe:pea-sweet-potato-fish:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/aubergine-chicken.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:aubergine-chicken:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:aubergine-chicken:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:aubergine-chicken:category">Vegyes pürék</span>
       </div>
-      <h3>Padlizsános csirke</h3>
-      <p class="hu">Aubergine and chicken</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:aubergine-chicken:title">Padlizsános csirke</h3>
+      <p class="hu" data-edit="recipe:aubergine-chicken:secondary">Aubergine and chicken</p>
+      <p data-edit="recipe:aubergine-chicken:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/chicken-apple-couscous.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:chicken-apple-couscous:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:chicken-apple-couscous:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:chicken-apple-couscous:category">Vegyes pürék</span>
       </div>
-      <h3>Csirkés alma kuszkusszal</h3>
-      <p class="hu">Chicken and apple with couscous</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:chicken-apple-couscous:title">Csirkés alma kuszkusszal</h3>
+      <p class="hu" data-edit="recipe:chicken-apple-couscous:secondary">Chicken and apple with couscous</p>
+      <p data-edit="recipe:chicken-apple-couscous:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/broccoli-sweet-potato-chicken.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:broccoli-sweet-potato-chicken:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:broccoli-sweet-potato-chicken:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:broccoli-sweet-potato-chicken:category">Vegyes pürék</span>
       </div>
-      <h3>Brokkoli, édesburgonya, csirke</h3>
-      <p class="hu">Broccoli, sweet potato, and chicken</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:broccoli-sweet-potato-chicken:title">Brokkoli, édesburgonya, csirke</h3>
+      <p class="hu" data-edit="recipe:broccoli-sweet-potato-chicken:secondary">Broccoli, sweet potato, and chicken</p>
+      <p data-edit="recipe:broccoli-sweet-potato-chicken:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/white-vegetable-pasta.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:white-vegetable-pasta:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:white-vegetable-pasta:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:white-vegetable-pasta:category">Vegyes pürék</span>
       </div>
-      <h3>Fehérzöldséges tészta</h3>
-      <p class="hu">White vegetable pasta</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:white-vegetable-pasta:title">Fehérzöldséges tészta</h3>
+      <p class="hu" data-edit="recipe:white-vegetable-pasta:secondary">White vegetable pasta</p>
+      <p data-edit="recipe:white-vegetable-pasta:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/veal-vegetables.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:veal-vegetables:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:veal-vegetables:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:veal-vegetables:category">Vegyes pürék</span>
       </div>
-      <h3>Zöldséges borjú</h3>
-      <p class="hu">Veal with vegetables</p>
-      <p>40 min · 4 adag</p>
+      <h3 data-edit="recipe:veal-vegetables:title">Zöldséges borjú</h3>
+      <p class="hu" data-edit="recipe:veal-vegetables:secondary">Veal with vegetables</p>
+      <p data-edit="recipe:veal-vegetables:details">40 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/liver-potato.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:liver-potato:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:liver-potato:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:liver-potato:category">Vegyes pürék</span>
       </div>
-      <h3>Zöldséges máj burgonyával</h3>
-      <p class="hu">Liver and potato with vegetables</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:liver-potato:title">Zöldséges máj burgonyával</h3>
+      <p class="hu" data-edit="recipe:liver-potato:secondary">Liver and potato with vegetables</p>
+      <p data-edit="recipe:liver-potato:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/cornmeal-fruit-cup.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:cornmeal-fruit-cup:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:cornmeal-fruit-cup:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:cornmeal-fruit-cup:category">Vegyes pürék</span>
       </div>
-      <h3>Gyümölcsös kukoricakása</h3>
-      <p class="hu">Cornmeal and fruit cup</p>
-      <p>20 min · 4 adag</p>
+      <h3 data-edit="recipe:cornmeal-fruit-cup:title">Gyümölcsös kukoricakása</h3>
+      <p class="hu" data-edit="recipe:cornmeal-fruit-cup:secondary">Cornmeal and fruit cup</p>
+      <p data-edit="recipe:cornmeal-fruit-cup:details">20 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/more-mixed-plates.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Vegyes pürék</span>
+        <span class="pill" data-edit="recipe:more-mixed-plates:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:more-mixed-plates:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:more-mixed-plates:category">Vegyes pürék</span>
       </div>
-      <h3>További vegyes tányérok</h3>
-      <p class="hu">More mixed plates</p>
-      <p>30 min · 1 adag</p>
+      <h3 data-edit="recipe:more-mixed-plates:title">További vegyes tányérok</h3>
+      <p class="hu" data-edit="recipe:more-mixed-plates:secondary">More mixed plates</p>
+      <p data-edit="recipe:more-mixed-plates:details">30 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-bulgur.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:vegetable-bulgur:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:vegetable-bulgur:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-bulgur:category">Puha falatok</span>
       </div>
-      <h3>Zöldséges bulgur</h3>
-      <p class="hu">Vegetable bulgur</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:vegetable-bulgur:title">Zöldséges bulgur</h3>
+      <p class="hu" data-edit="recipe:vegetable-bulgur:secondary">Vegetable bulgur</p>
+      <p data-edit="recipe:vegetable-bulgur:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/green-pasta-cheese.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:green-pasta-cheese:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:green-pasta-cheese:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:green-pasta-cheese:category">Puha falatok</span>
       </div>
-      <h3>Zöld tészta sajttal</h3>
-      <p class="hu">Green pasta with cheese</p>
-      <p>25 min · 4 adag</p>
+      <h3 data-edit="recipe:green-pasta-cheese:title">Zöld tészta sajttal</h3>
+      <p class="hu" data-edit="recipe:green-pasta-cheese:secondary">Green pasta with cheese</p>
+      <p data-edit="recipe:green-pasta-cheese:details">25 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/tomato-chicken-pasta.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:tomato-chicken-pasta:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:tomato-chicken-pasta:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:tomato-chicken-pasta:category">Puha falatok</span>
       </div>
-      <h3>Paradicsomos csirkés tészta</h3>
-      <p class="hu">Tomato chicken pasta</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:tomato-chicken-pasta:title">Paradicsomos csirkés tészta</h3>
+      <p class="hu" data-edit="recipe:tomato-chicken-pasta:secondary">Tomato chicken pasta</p>
+      <p data-edit="recipe:tomato-chicken-pasta:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/baby-bolognese.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:baby-bolognese:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:baby-bolognese:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:baby-bolognese:category">Puha falatok</span>
       </div>
-      <h3>Bababolognai</h3>
-      <p class="hu">Baby bolognese</p>
-      <p>40 min · 6 adag</p>
+      <h3 data-edit="recipe:baby-bolognese:title">Bababolognai</h3>
+      <p class="hu" data-edit="recipe:baby-bolognese:secondary">Baby bolognese</p>
+      <p data-edit="recipe:baby-bolognese:details">40 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-shepherd-pie.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:vegetable-shepherd-pie:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:vegetable-shepherd-pie:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-shepherd-pie:category">Puha falatok</span>
       </div>
-      <h3>Zöldséges pásztorpite</h3>
-      <p class="hu">Vegetable shepherd&#x27;s pie</p>
-      <p>55 min · 6 adag</p>
+      <h3 data-edit="recipe:vegetable-shepherd-pie:title">Zöldséges pásztorpite</h3>
+      <p class="hu" data-edit="recipe:vegetable-shepherd-pie:secondary">Vegetable shepherd&#x27;s pie</p>
+      <p data-edit="recipe:vegetable-shepherd-pie:details">55 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/mild-paprika-stew.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:mild-paprika-stew:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:mild-paprika-stew:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:mild-paprika-stew:category">Puha falatok</span>
       </div>
-      <h3>Babavadas</h3>
-      <p class="hu">Mild paprika stew</p>
-      <p>40 min · 4 adag</p>
+      <h3 data-edit="recipe:mild-paprika-stew:title">Babavadas</h3>
+      <p class="hu" data-edit="recipe:mild-paprika-stew:secondary">Mild paprika stew</p>
+      <p data-edit="recipe:mild-paprika-stew:details">40 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fish-broccoli-kohlrabi-pasta.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:fish-broccoli-kohlrabi-pasta:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:fish-broccoli-kohlrabi-pasta:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:fish-broccoli-kohlrabi-pasta:category">Puha falatok</span>
       </div>
-      <h3>Hal brokkolival és karalábéval</h3>
-      <p class="hu">Fish with broccoli and kohlrabi</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:fish-broccoli-kohlrabi-pasta:title">Hal brokkolival és karalábéval</h3>
+      <p class="hu" data-edit="recipe:fish-broccoli-kohlrabi-pasta:secondary">Fish with broccoli and kohlrabi</p>
+      <p data-edit="recipe:fish-broccoli-kohlrabi-pasta:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/green-salmon-rice.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:green-salmon-rice:age">8 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:green-salmon-rice:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:green-salmon-rice:category">Puha falatok</span>
       </div>
-      <h3>Zöld lazac rizzsel</h3>
-      <p class="hu">Green salmon with rice</p>
-      <p>30 min · 3 adag</p>
+      <h3 data-edit="recipe:green-salmon-rice:title">Zöld lazac rizzsel</h3>
+      <p class="hu" data-edit="recipe:green-salmon-rice:secondary">Green salmon with rice</p>
+      <p data-edit="recipe:green-salmon-rice:details">30 min · 3 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fish-in-paper.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:fish-in-paper:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:fish-in-paper:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:fish-in-paper:category">Puha falatok</span>
       </div>
-      <h3>Hal sütőpapírban</h3>
-      <p class="hu">Fish baked in paper</p>
-      <p>30 min · 2 adag</p>
+      <h3 data-edit="recipe:fish-in-paper:title">Hal sütőpapírban</h3>
+      <p class="hu" data-edit="recipe:fish-in-paper:secondary">Fish baked in paper</p>
+      <p data-edit="recipe:fish-in-paper:details">30 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/oven-fish-fingers.html">
       <div class="pills">
-        <span class="pill">9 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:oven-fish-fingers:age">9 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:oven-fish-fingers:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:oven-fish-fingers:category">Puha falatok</span>
       </div>
-      <h3>Házi halrudak</h3>
-      <p class="hu">Oven fish fingers</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:oven-fish-fingers:title">Házi halrudak</h3>
+      <p class="hu" data-edit="recipe:oven-fish-fingers:secondary">Oven fish fingers</p>
+      <p data-edit="recipe:oven-fish-fingers:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/beef-meatballs.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:beef-meatballs:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:beef-meatballs:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:beef-meatballs:category">Puha falatok</span>
       </div>
-      <h3>Húsgolyó</h3>
-      <p class="hu">Beef meatballs</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:beef-meatballs:title">Húsgolyó</h3>
+      <p class="hu" data-edit="recipe:beef-meatballs:secondary">Beef meatballs</p>
+      <p data-edit="recipe:beef-meatballs:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/chicken-nuggets.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:chicken-nuggets:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:chicken-nuggets:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:chicken-nuggets:category">Puha falatok</span>
       </div>
-      <h3>Csirkés nuggets</h3>
-      <p class="hu">Chicken nuggets</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:chicken-nuggets:title">Csirkés nuggets</h3>
+      <p class="hu" data-edit="recipe:chicken-nuggets:secondary">Chicken nuggets</p>
+      <p data-edit="recipe:chicken-nuggets:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/lentil-carrot-bites.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:lentil-carrot-bites:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:lentil-carrot-bites:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:lentil-carrot-bites:category">Puha falatok</span>
       </div>
-      <h3>Répás vöröslencsés falatok</h3>
-      <p class="hu">Lentil and carrot bites</p>
-      <p>40 min · 4 adag</p>
+      <h3 data-edit="recipe:lentil-carrot-bites:title">Répás vöröslencsés falatok</h3>
+      <p class="hu" data-edit="recipe:lentil-carrot-bites:secondary">Lentil and carrot bites</p>
+      <p data-edit="recipe:lentil-carrot-bites:details">40 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-nuggets.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:vegetable-nuggets:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:vegetable-nuggets:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-nuggets:category">Puha falatok</span>
       </div>
-      <h3>Zöldséges nuggets</h3>
-      <p class="hu">Vegetable nuggets</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:vegetable-nuggets:title">Zöldséges nuggets</h3>
+      <p class="hu" data-edit="recipe:vegetable-nuggets:secondary">Vegetable nuggets</p>
+      <p data-edit="recipe:vegetable-nuggets:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-patties.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:vegetable-patties:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:vegetable-patties:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-patties:category">Puha falatok</span>
       </div>
-      <h3>Zöldséges fasírt</h3>
-      <p class="hu">Vegetable patties</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:vegetable-patties:title">Zöldséges fasírt</h3>
+      <p class="hu" data-edit="recipe:vegetable-patties:secondary">Vegetable patties</p>
+      <p data-edit="recipe:vegetable-patties:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/chickpea-patties.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:chickpea-patties:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:chickpea-patties:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:chickpea-patties:category">Puha falatok</span>
       </div>
-      <h3>Csicseriborsófasírt</h3>
-      <p class="hu">Chickpea patties</p>
-      <p>40 min · 4 adag</p>
+      <h3 data-edit="recipe:chickpea-patties:title">Csicseriborsófasírt</h3>
+      <p class="hu" data-edit="recipe:chickpea-patties:secondary">Chickpea patties</p>
+      <p data-edit="recipe:chickpea-patties:details">40 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/chickpea-pancakes.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:chickpea-pancakes:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:chickpea-pancakes:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:chickpea-pancakes:category">Puha falatok</span>
       </div>
-      <h3>Csicseriborsós palacsinta</h3>
-      <p class="hu">Chickpea pancakes</p>
-      <p>25 min · 4 adag</p>
+      <h3 data-edit="recipe:chickpea-pancakes:title">Csicseriborsós palacsinta</h3>
+      <p class="hu" data-edit="recipe:chickpea-pancakes:secondary">Chickpea pancakes</p>
+      <p data-edit="recipe:chickpea-pancakes:details">25 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-fritters.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:vegetable-fritters:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:vegetable-fritters:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-fritters:category">Puha falatok</span>
       </div>
-      <h3>Zöldséges lepény</h3>
-      <p class="hu">Vegetable fritters</p>
-      <p>25 min · 4 adag</p>
+      <h3 data-edit="recipe:vegetable-fritters:title">Zöldséges lepény</h3>
+      <p class="hu" data-edit="recipe:vegetable-fritters:secondary">Vegetable fritters</p>
+      <p data-edit="recipe:vegetable-fritters:details">25 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/soft-flatbread-pizza.html">
       <div class="pills">
-        <span class="pill">12 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:soft-flatbread-pizza:age">12 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:soft-flatbread-pizza:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:soft-flatbread-pizza:category">Puha falatok</span>
       </div>
-      <h3>Mini zöldséges pizza</h3>
-      <p class="hu">Soft vegetable flatbread</p>
-      <p>75 min · 4 adag</p>
+      <h3 data-edit="recipe:soft-flatbread-pizza:title">Mini zöldséges pizza</h3>
+      <p class="hu" data-edit="recipe:soft-flatbread-pizza:secondary">Soft vegetable flatbread</p>
+      <p data-edit="recipe:soft-flatbread-pizza:details">75 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/banana-pancakes.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:banana-pancakes:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:banana-pancakes:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:banana-pancakes:category">Puha falatok</span>
       </div>
-      <h3>Banános babacsinta</h3>
-      <p class="hu">Banana pancakes</p>
-      <p>15 min · 2 adag</p>
+      <h3 data-edit="recipe:banana-pancakes:title">Banános babacsinta</h3>
+      <p class="hu" data-edit="recipe:banana-pancakes:secondary">Banana pancakes</p>
+      <p data-edit="recipe:banana-pancakes:details">15 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-curd-pancakes.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Puha falatok</span>
+        <span class="pill" data-edit="recipe:apple-curd-pancakes:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:apple-curd-pancakes:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:apple-curd-pancakes:category">Puha falatok</span>
       </div>
-      <h3>Túrós-almás csinta</h3>
-      <p class="hu">Apple and curd pancakes</p>
-      <p>20 min · 2 adag</p>
+      <h3 data-edit="recipe:apple-curd-pancakes:title">Túrós-almás csinta</h3>
+      <p class="hu" data-edit="recipe:apple-curd-pancakes:secondary">Apple and curd pancakes</p>
+      <p data-edit="recipe:apple-curd-pancakes:details">20 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/soft-cinnamon-oats.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:soft-cinnamon-oats:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:soft-cinnamon-oats:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:soft-cinnamon-oats:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Fahéjas zab</h3>
-      <p class="hu">Soft cinnamon oat bake</p>
-      <p>30 min · 6 adag</p>
+      <h3 data-edit="recipe:soft-cinnamon-oats:title">Fahéjas zab</h3>
+      <p class="hu" data-edit="recipe:soft-cinnamon-oats:secondary">Soft cinnamon oat bake</p>
+      <p data-edit="recipe:soft-cinnamon-oats:details">30 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-peanut-quinoa.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:apple-peanut-quinoa:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:apple-peanut-quinoa:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:apple-peanut-quinoa:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Almás mogyorós quinoa</h3>
-      <p class="hu">Apple peanut quinoa</p>
-      <p>25 min · 2 adag</p>
+      <h3 data-edit="recipe:apple-peanut-quinoa:title">Almás mogyorós quinoa</h3>
+      <p class="hu" data-edit="recipe:apple-peanut-quinoa:secondary">Apple peanut quinoa</p>
+      <p data-edit="recipe:apple-peanut-quinoa:details">25 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-porridge.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:apple-porridge:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:apple-porridge:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:apple-porridge:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Almás zabkása</h3>
-      <p class="hu">Apple porridge</p>
-      <p>15 min · 2 adag</p>
+      <h3 data-edit="recipe:apple-porridge:title">Almás zabkása</h3>
+      <p class="hu" data-edit="recipe:apple-porridge:secondary">Apple porridge</p>
+      <p data-edit="recipe:apple-porridge:details">15 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/yogurt-porridge.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:yogurt-porridge:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:yogurt-porridge:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:yogurt-porridge:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Joghurtos zabkása</h3>
-      <p class="hu">Yogurt porridge</p>
-      <p>15 min · 2 adag</p>
+      <h3 data-edit="recipe:yogurt-porridge:title">Joghurtos zabkása</h3>
+      <p class="hu" data-edit="recipe:yogurt-porridge:secondary">Yogurt porridge</p>
+      <p data-edit="recipe:yogurt-porridge:details">15 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/coconut-porridge.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:coconut-porridge:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:coconut-porridge:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:coconut-porridge:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Kókuszos zabkása</h3>
-      <p class="hu">Coconut porridge</p>
-      <p>15 min · 2 adag</p>
+      <h3 data-edit="recipe:coconut-porridge:title">Kókuszos zabkása</h3>
+      <p class="hu" data-edit="recipe:coconut-porridge:secondary">Coconut porridge</p>
+      <p data-edit="recipe:coconut-porridge:details">15 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/red-lentil-soup.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:red-lentil-soup:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:red-lentil-soup:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:red-lentil-soup:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Vöröslencse krémleves</h3>
-      <p class="hu">Red lentil soup</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:red-lentil-soup:title">Vöröslencse krémleves</h3>
+      <p class="hu" data-edit="recipe:red-lentil-soup:secondary">Red lentil soup</p>
+      <p data-edit="recipe:red-lentil-soup:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/tomato-vegetable-soup.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:tomato-vegetable-soup:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:tomato-vegetable-soup:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:tomato-vegetable-soup:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Zöldséges paradicsomkrémleves</h3>
-      <p class="hu">Tomato vegetable soup</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:tomato-vegetable-soup:title">Zöldséges paradicsomkrémleves</h3>
+      <p class="hu" data-edit="recipe:tomato-vegetable-soup:secondary">Tomato vegetable soup</p>
+      <p data-edit="recipe:tomato-vegetable-soup:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/sweet-potato-curd-dumplings.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:sweet-potato-curd-dumplings:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:sweet-potato-curd-dumplings:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:sweet-potato-curd-dumplings:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Édesburgonyás túrógombóc</h3>
-      <p class="hu">Sweet potato curd dumplings</p>
-      <p>55 min · 4 adag</p>
+      <h3 data-edit="recipe:sweet-potato-curd-dumplings:title">Édesburgonyás túrógombóc</h3>
+      <p class="hu" data-edit="recipe:sweet-potato-curd-dumplings:secondary">Sweet potato curd dumplings</p>
+      <p data-edit="recipe:sweet-potato-curd-dumplings:details">55 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/quinoa-curd-bake.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:quinoa-curd-bake:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:quinoa-curd-bake:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:quinoa-curd-bake:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Túrós quinoa</h3>
-      <p class="hu">Quinoa cottage cheese bake</p>
-      <p>40 min · 4 adag</p>
+      <h3 data-edit="recipe:quinoa-curd-bake:title">Túrós quinoa</h3>
+      <p class="hu" data-edit="recipe:quinoa-curd-bake:secondary">Quinoa cottage cheese bake</p>
+      <p data-edit="recipe:quinoa-curd-bake:details">40 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/egg-muffins.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:egg-muffins:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:egg-muffins:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:egg-muffins:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Tojásmuffin</h3>
-      <p class="hu">Egg muffins</p>
-      <p>25 min · 6 adag</p>
+      <h3 data-edit="recipe:egg-muffins:title">Tojásmuffin</h3>
+      <p class="hu" data-edit="recipe:egg-muffins:secondary">Egg muffins</p>
+      <p data-edit="recipe:egg-muffins:details">25 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/baked-chicken-loaf.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:baked-chicken-loaf:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:baked-chicken-loaf:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:baked-chicken-loaf:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Sült csirkemell zöldséggel</h3>
-      <p class="hu">Baked chicken and carrot loaf</p>
-      <p>45 min · 6 adag</p>
+      <h3 data-edit="recipe:baked-chicken-loaf:title">Sült csirkemell zöldséggel</h3>
+      <p class="hu" data-edit="recipe:baked-chicken-loaf:secondary">Baked chicken and carrot loaf</p>
+      <p data-edit="recipe:baked-chicken-loaf:details">45 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-frittata.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:vegetable-frittata:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:vegetable-frittata:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-frittata:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Sajtos zöldséges frittata</h3>
-      <p class="hu">Vegetable and cheese frittata</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:vegetable-frittata:title">Sajtos zöldséges frittata</h3>
+      <p class="hu" data-edit="recipe:vegetable-frittata:secondary">Vegetable and cheese frittata</p>
+      <p data-edit="recipe:vegetable-frittata:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/potato-bake.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:potato-bake:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:potato-bake:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:potato-bake:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Rakott burgonya</h3>
-      <p class="hu">Potato and zucchini bake</p>
-      <p>50 min · 4 adag</p>
+      <h3 data-edit="recipe:potato-bake:title">Rakott burgonya</h3>
+      <p class="hu" data-edit="recipe:potato-bake:secondary">Potato and zucchini bake</p>
+      <p data-edit="recipe:potato-bake:details">50 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/mild-bean-stew.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:mild-bean-stew:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:mild-bean-stew:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:mild-bean-stew:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Babos zöldség</h3>
-      <p class="hu">Mild white bean stew</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:mild-bean-stew:title">Babos zöldség</h3>
+      <p class="hu" data-edit="recipe:mild-bean-stew:secondary">Mild white bean stew</p>
+      <p data-edit="recipe:mild-bean-stew:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-egg-bake.html">
       <div class="pills">
-        <span class="pill">10 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:vegetable-egg-bake:age">10 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:vegetable-egg-bake:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-egg-bake:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Zöldséges tojásos tál</h3>
-      <p class="hu">Crustless spinach egg bake</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:vegetable-egg-bake:title">Zöldséges tojásos tál</h3>
+      <p class="hu" data-edit="recipe:vegetable-egg-bake:secondary">Crustless spinach egg bake</p>
+      <p data-edit="recipe:vegetable-egg-bake:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/soft-burger.html">
       <div class="pills">
-        <span class="pill">10 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:soft-burger:age">10 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:soft-burger:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:soft-burger:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Házi húspogácsa</h3>
-      <p class="hu">Soft beef patties</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:soft-burger:title">Házi húspogácsa</h3>
+      <p class="hu" data-edit="recipe:soft-burger:secondary">Soft beef patties</p>
+      <p data-edit="recipe:soft-burger:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/soft-rolls.html">
       <div class="pills">
-        <span class="pill">10 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:soft-rolls:age">10 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:soft-rolls:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:soft-rolls:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Házi kifli</h3>
-      <p class="hu">Soft milk rolls</p>
-      <p>120 min · 8 adag</p>
+      <h3 data-edit="recipe:soft-rolls:title">Házi kifli</h3>
+      <p class="hu" data-edit="recipe:soft-rolls:secondary">Soft milk rolls</p>
+      <p data-edit="recipe:soft-rolls:details">120 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/quick-soft-rolls.html">
       <div class="pills">
-        <span class="pill">10 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nagyobbacska ételek</span>
+        <span class="pill" data-edit="recipe:quick-soft-rolls:age">10 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:quick-soft-rolls:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:quick-soft-rolls:category">Nagyobbacska ételek</span>
       </div>
-      <h3>Gyors kifli kelesztés nélkül</h3>
-      <p class="hu">Quick yogurt rolls</p>
-      <p>25 min · 8 adag</p>
+      <h3 data-edit="recipe:quick-soft-rolls:title">Gyors kifli kelesztés nélkül</h3>
+      <p class="hu" data-edit="recipe:quick-soft-rolls:secondary">Quick yogurt rolls</p>
+      <p data-edit="recipe:quick-soft-rolls:details">25 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/free-from-biscuits.html">
       <div class="pills">
-        <span class="pill">7 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:free-from-biscuits:age">7 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:free-from-biscuits:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:free-from-biscuits:category">Nasi</span>
       </div>
-      <h3>Tej- és tojásmentes keksz</h3>
-      <p class="hu">Banana oat oil biscuits</p>
-      <p>20 min · 10 adag</p>
+      <h3 data-edit="recipe:free-from-biscuits:title">Tej- és tojásmentes keksz</h3>
+      <p class="hu" data-edit="recipe:free-from-biscuits:secondary">Banana oat oil biscuits</p>
+      <p data-edit="recipe:free-from-biscuits:details">20 min · 10 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/banana-biscuits.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:banana-biscuits:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:banana-biscuits:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:banana-biscuits:category">Nasi</span>
       </div>
-      <h3>Banános keksz</h3>
-      <p class="hu">Banana oat biscuits</p>
-      <p>18 min · 8 adag</p>
+      <h3 data-edit="recipe:banana-biscuits:title">Banános keksz</h3>
+      <p class="hu" data-edit="recipe:banana-biscuits:secondary">Banana oat biscuits</p>
+      <p data-edit="recipe:banana-biscuits:details">18 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/pumpkin-biscuits.html">
       <div class="pills">
-        <span class="pill">7 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:pumpkin-biscuits:age">7 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:pumpkin-biscuits:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:pumpkin-biscuits:category">Nasi</span>
       </div>
-      <h3>Sütőtökös keksz</h3>
-      <p class="hu">Pumpkin oat biscuits</p>
-      <p>22 min · 10 adag</p>
+      <h3 data-edit="recipe:pumpkin-biscuits:title">Sütőtökös keksz</h3>
+      <p class="hu" data-edit="recipe:pumpkin-biscuits:secondary">Pumpkin oat biscuits</p>
+      <p data-edit="recipe:pumpkin-biscuits:details">22 min · 10 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-oat-rounds.html">
       <div class="pills">
-        <span class="pill">7 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:apple-oat-rounds:age">7 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:apple-oat-rounds:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:apple-oat-rounds:category">Nasi</span>
       </div>
-      <h3>Almás korong</h3>
-      <p class="hu">Soft apple oat rounds</p>
-      <p>25 min · 8 adag</p>
+      <h3 data-edit="recipe:apple-oat-rounds:title">Almás korong</h3>
+      <p class="hu" data-edit="recipe:apple-oat-rounds:secondary">Soft apple oat rounds</p>
+      <p data-edit="recipe:apple-oat-rounds:details">25 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/baked-cottage-cheese.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:baked-cottage-cheese:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:baked-cottage-cheese:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:baked-cottage-cheese:category">Nasi</span>
       </div>
-      <h3>Túrós sütemény</h3>
-      <p class="hu">Baked apple cottage cheese</p>
-      <p>35 min · 6 adag</p>
+      <h3 data-edit="recipe:baked-cottage-cheese:title">Túrós sütemény</h3>
+      <p class="hu" data-edit="recipe:baked-cottage-cheese:secondary">Baked apple cottage cheese</p>
+      <p data-edit="recipe:baked-cottage-cheese:details">35 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-carrot-muffins.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:apple-carrot-muffins:age">8 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:apple-carrot-muffins:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:apple-carrot-muffins:category">Nasi</span>
       </div>
-      <h3>Almás-répás zabmuffin</h3>
-      <p class="hu">Apple carrot oat muffins</p>
-      <p>25 min · 8 adag</p>
+      <h3 data-edit="recipe:apple-carrot-muffins:title">Almás-répás zabmuffin</h3>
+      <p class="hu" data-edit="recipe:apple-carrot-muffins:secondary">Apple carrot oat muffins</p>
+      <p data-edit="recipe:apple-carrot-muffins:details">25 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/free-from-muffins.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:free-from-muffins:age">8 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:free-from-muffins:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:free-from-muffins:category">Nasi</span>
       </div>
-      <h3>Tej- és tojásmentes muffin</h3>
-      <p class="hu">Banana pumpkin oat muffins</p>
-      <p>25 min · 8 adag</p>
+      <h3 data-edit="recipe:free-from-muffins:title">Tej- és tojásmentes muffin</h3>
+      <p class="hu" data-edit="recipe:free-from-muffins:secondary">Banana pumpkin oat muffins</p>
+      <p data-edit="recipe:free-from-muffins:details">25 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/pumpkin-bread.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:pumpkin-bread:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:pumpkin-bread:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:pumpkin-bread:category">Nasi</span>
       </div>
-      <h3>Sütőtökös kenyér</h3>
-      <p class="hu">Soft pumpkin banana loaf</p>
-      <p>45 min · 8 adag</p>
+      <h3 data-edit="recipe:pumpkin-bread:title">Sütőtökös kenyér</h3>
+      <p class="hu" data-edit="recipe:pumpkin-bread:secondary">Soft pumpkin banana loaf</p>
+      <p data-edit="recipe:pumpkin-bread:details">45 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/roasted-vegetable-fingers.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:roasted-vegetable-fingers:age">8 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:roasted-vegetable-fingers:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:roasted-vegetable-fingers:category">Nasi</span>
       </div>
-      <h3>Zöldséges sültek</h3>
-      <p class="hu">Soft roasted vegetable fingers</p>
-      <p>35 min · 4 adag</p>
+      <h3 data-edit="recipe:roasted-vegetable-fingers:title">Zöldséges sültek</h3>
+      <p class="hu" data-edit="recipe:roasted-vegetable-fingers:secondary">Soft roasted vegetable fingers</p>
+      <p data-edit="recipe:roasted-vegetable-fingers:details">35 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fruit-curd-bites.html">
       <div class="pills">
-        <span class="pill">12 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:fruit-curd-bites:age">12 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:fruit-curd-bites:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:fruit-curd-bites:category">Nasi</span>
       </div>
-      <h3>Túrós falatok</h3>
-      <p class="hu">Strawberry cottage cheese bites</p>
-      <p>60 min · 6 adag</p>
+      <h3 data-edit="recipe:fruit-curd-bites:title">Túrós falatok</h3>
+      <p class="hu" data-edit="recipe:fruit-curd-bites:secondary">Strawberry cottage cheese bites</p>
+      <p data-edit="recipe:fruit-curd-bites:details">60 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/baked-custard.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:baked-custard:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:baked-custard:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:baked-custard:category">Nasi</span>
       </div>
-      <h3>Sült tejbegríz</h3>
-      <p class="hu">Baked semolina custard</p>
-      <p>40 min · 4 adag</p>
+      <h3 data-edit="recipe:baked-custard:title">Sült tejbegríz</h3>
+      <p class="hu" data-edit="recipe:baked-custard:secondary">Baked semolina custard</p>
+      <p data-edit="recipe:baked-custard:details">40 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/soft-oat-squares.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:soft-oat-squares:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:soft-oat-squares:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:soft-oat-squares:category">Nasi</span>
       </div>
-      <h3>Zabos szelet</h3>
-      <p class="hu">Soft apple oat squares</p>
-      <p>25 min · 8 adag</p>
+      <h3 data-edit="recipe:soft-oat-squares:title">Zabos szelet</h3>
+      <p class="hu" data-edit="recipe:soft-oat-squares:secondary">Soft apple oat squares</p>
+      <p data-edit="recipe:soft-oat-squares:details">25 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/date-nut-spoon.html">
       <div class="pills">
-        <span class="pill">12 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:date-nut-spoon:age">12 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:date-nut-spoon:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:date-nut-spoon:category">Nasi</span>
       </div>
-      <h3>Gyümölcsös kanálkrém</h3>
-      <p class="hu">Date and peanut spoon</p>
-      <p>15 min · 4 adag</p>
+      <h3 data-edit="recipe:date-nut-spoon:title">Gyümölcsös kanálkrém</h3>
+      <p class="hu" data-edit="recipe:date-nut-spoon:secondary">Date and peanut spoon</p>
+      <p data-edit="recipe:date-nut-spoon:details">15 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/mango-strawberry-ice.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:mango-strawberry-ice:age">8 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:mango-strawberry-ice:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:mango-strawberry-ice:category">Nasi</span>
       </div>
-      <h3>Mangó-eper jég</h3>
-      <p class="hu">Mango strawberry soft ice</p>
-      <p>120 min · 4 adag</p>
+      <h3 data-edit="recipe:mango-strawberry-ice:title">Mangó-eper jég</h3>
+      <p class="hu" data-edit="recipe:mango-strawberry-ice:secondary">Mango strawberry soft ice</p>
+      <p data-edit="recipe:mango-strawberry-ice:details">120 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/banana-mango-ice.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:banana-mango-ice:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:banana-mango-ice:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:banana-mango-ice:category">Nasi</span>
       </div>
-      <h3>Banán-mangó fagyi</h3>
-      <p class="hu">Banana mango soft ice</p>
-      <p>120 min · 4 adag</p>
+      <h3 data-edit="recipe:banana-mango-ice:title">Banán-mangó fagyi</h3>
+      <p class="hu" data-edit="recipe:banana-mango-ice:secondary">Banana mango soft ice</p>
+      <p data-edit="recipe:banana-mango-ice:details">120 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/cherry-banana-ice.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:cherry-banana-ice:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:cherry-banana-ice:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:cherry-banana-ice:category">Nasi</span>
       </div>
-      <h3>Cseresznyés banánfagyi</h3>
-      <p class="hu">Cherry banana soft ice</p>
-      <p>120 min · 4 adag</p>
+      <h3 data-edit="recipe:cherry-banana-ice:title">Cseresznyés banánfagyi</h3>
+      <p class="hu" data-edit="recipe:cherry-banana-ice:secondary">Cherry banana soft ice</p>
+      <p data-edit="recipe:cherry-banana-ice:details">120 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/banana-avocado-ice.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Nasi</span>
+        <span class="pill" data-edit="recipe:banana-avocado-ice:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:banana-avocado-ice:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:banana-avocado-ice:category">Nasi</span>
       </div>
-      <h3>Banán-avokádó jég</h3>
-      <p class="hu">Banana avocado soft ice</p>
-      <p>120 min · 4 adag</p>
+      <h3 data-edit="recipe:banana-avocado-ice:title">Banán-avokádó jég</h3>
+      <p class="hu" data-edit="recipe:banana-avocado-ice:secondary">Banana avocado soft ice</p>
+      <p data-edit="recipe:banana-avocado-ice:details">120 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/walnut-party-cake.html">
       <div class="pills">
-        <span class="pill">12 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:walnut-party-cake:age">12 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:walnut-party-cake:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:walnut-party-cake:category">Ünnep</span>
       </div>
-      <h3>Diós torta</h3>
-      <p class="hu">Banana walnut layer cake</p>
-      <p>45 min · 8 adag</p>
+      <h3 data-edit="recipe:walnut-party-cake:title">Diós torta</h3>
+      <p class="hu" data-edit="recipe:walnut-party-cake:secondary">Banana walnut layer cake</p>
+      <p data-edit="recipe:walnut-party-cake:details">45 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/chestnut-cake.html">
       <div class="pills">
-        <span class="pill">12 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:chestnut-cake:age">12 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:chestnut-cake:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:chestnut-cake:category">Ünnep</span>
       </div>
-      <h3>Gesztenyetorta</h3>
-      <p class="hu">Chestnut and apple cake</p>
-      <p>50 min · 8 adag</p>
+      <h3 data-edit="recipe:chestnut-cake:title">Gesztenyetorta</h3>
+      <p class="hu" data-edit="recipe:chestnut-cake:secondary">Chestnut and apple cake</p>
+      <p data-edit="recipe:chestnut-cake:details">50 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/melon-plate.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:melon-plate:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:melon-plate:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:melon-plate:category">Ünnep</span>
       </div>
-      <h3>Dinnyetál</h3>
-      <p class="hu">Melon strip plate</p>
-      <p>10 min · 2 adag</p>
+      <h3 data-edit="recipe:melon-plate:title">Dinnyetál</h3>
+      <p class="hu" data-edit="recipe:melon-plate:secondary">Melon strip plate</p>
+      <p data-edit="recipe:melon-plate:details">10 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/soft-cocoa-free-cake.html">
       <div class="pills">
-        <span class="pill">12 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:soft-cocoa-free-cake:age">12 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:soft-cocoa-free-cake:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:soft-cocoa-free-cake:category">Ünnep</span>
       </div>
-      <h3>Puha torta</h3>
-      <p class="hu">Soft banana oat cake</p>
-      <p>40 min · 8 adag</p>
+      <h3 data-edit="recipe:soft-cocoa-free-cake:title">Puha torta</h3>
+      <p class="hu" data-edit="recipe:soft-cocoa-free-cake:secondary">Soft banana oat cake</p>
+      <p data-edit="recipe:soft-cocoa-free-cake:details">40 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/stuffed-eggs.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:stuffed-eggs:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:stuffed-eggs:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:stuffed-eggs:category">Ünnep</span>
       </div>
-      <h3>Töltött tojás</h3>
-      <p class="hu">Stuffed eggs</p>
-      <p>20 min · 4 adag</p>
+      <h3 data-edit="recipe:stuffed-eggs:title">Töltött tojás</h3>
+      <p class="hu" data-edit="recipe:stuffed-eggs:secondary">Stuffed eggs</p>
+      <p data-edit="recipe:stuffed-eggs:details">20 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/cheese-cup.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:cheese-cup:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:cheese-cup:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:cheese-cup:category">Ünnep</span>
       </div>
-      <h3>Pohárkrém</h3>
-      <p class="hu">Pear cheese cup</p>
-      <p>15 min · 2 adag</p>
+      <h3 data-edit="recipe:cheese-cup:title">Pohárkrém</h3>
+      <p class="hu" data-edit="recipe:cheese-cup:secondary">Pear cheese cup</p>
+      <p data-edit="recipe:cheese-cup:details">15 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-cake.html">
       <div class="pills">
-        <span class="pill">10 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:vegetable-cake:age">10 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:vegetable-cake:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-cake:category">Ünnep</span>
       </div>
-      <h3>Zöldséges torta</h3>
-      <p class="hu">Vegetable bar cake</p>
-      <p>50 min · 6 adag</p>
+      <h3 data-edit="recipe:vegetable-cake:title">Zöldséges torta</h3>
+      <p class="hu" data-edit="recipe:vegetable-cake:secondary">Vegetable bar cake</p>
+      <p data-edit="recipe:vegetable-cake:details">50 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/soft-spice-biscuits.html">
       <div class="pills">
-        <span class="pill">10 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:soft-spice-biscuits:age">10 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:soft-spice-biscuits:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:soft-spice-biscuits:category">Ünnep</span>
       </div>
-      <h3>Fűszeres puha keksz</h3>
-      <p class="hu">Soft spice oat biscuits</p>
-      <p>30 min · 10 adag</p>
+      <h3 data-edit="recipe:soft-spice-biscuits:title">Fűszeres puha keksz</h3>
+      <p class="hu" data-edit="recipe:soft-spice-biscuits:secondary">Soft spice oat biscuits</p>
+      <p data-edit="recipe:soft-spice-biscuits:details">30 min · 10 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/star-cheese-cake.html">
       <div class="pills">
-        <span class="pill">12 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:star-cheese-cake:age">12 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:star-cheese-cake:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:star-cheese-cake:category">Ünnep</span>
       </div>
-      <h3>Csillag túrótorta</h3>
-      <p class="hu">Star cottage cheesecake</p>
-      <p>55 min · 8 adag</p>
+      <h3 data-edit="recipe:star-cheese-cake:title">Csillag túrótorta</h3>
+      <p class="hu" data-edit="recipe:star-cheese-cake:secondary">Star cottage cheesecake</p>
+      <p data-edit="recipe:star-cheese-cake:details">55 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/soft-oat-clusters.html">
       <div class="pills">
-        <span class="pill">12 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Ünnep</span>
+        <span class="pill" data-edit="recipe:soft-oat-clusters:age">12 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:soft-oat-clusters:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:soft-oat-clusters:category">Ünnep</span>
       </div>
-      <h3>Zabos toboz</h3>
-      <p class="hu">Soft oat clusters</p>
-      <p>25 min · 8 adag</p>
+      <h3 data-edit="recipe:soft-oat-clusters:title">Zabos toboz</h3>
+      <p class="hu" data-edit="recipe:soft-oat-clusters:secondary">Soft oat clusters</p>
+      <p data-edit="recipe:soft-oat-clusters:details">25 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/unsalted-stock.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:unsalted-stock:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:unsalted-stock:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:unsalted-stock:category">Alapok</span>
       </div>
-      <h3>Sózatlan alaplé</h3>
-      <p class="hu">Unsalted stock</p>
-      <p>90 min · 10 adag</p>
+      <h3 data-edit="recipe:unsalted-stock:title">Sózatlan alaplé</h3>
+      <p class="hu" data-edit="recipe:unsalted-stock:secondary">Unsalted stock</p>
+      <p data-edit="recipe:unsalted-stock:details">90 min · 10 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/liver-dumplings.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:liver-dumplings:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:liver-dumplings:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:liver-dumplings:category">Alapok</span>
       </div>
-      <h3>Májgaluska</h3>
-      <p class="hu">Liver dumplings</p>
-      <p>25 min · 1 adag</p>
+      <h3 data-edit="recipe:liver-dumplings:title">Májgaluska</h3>
+      <p class="hu" data-edit="recipe:liver-dumplings:secondary">Liver dumplings</p>
+      <p data-edit="recipe:liver-dumplings:details">25 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fresh-pasta.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:fresh-pasta:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:fresh-pasta:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:fresh-pasta:category">Alapok</span>
       </div>
-      <h3>Házi tészta</h3>
-      <p class="hu">Fresh pasta</p>
-      <p>50 min · 4 adag</p>
+      <h3 data-edit="recipe:fresh-pasta:title">Házi tészta</h3>
+      <p class="hu" data-edit="recipe:fresh-pasta:secondary">Fresh pasta</p>
+      <p data-edit="recipe:fresh-pasta:details">50 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/oil-spoon.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:oil-spoon:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:oil-spoon:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:oil-spoon:category">Alapok</span>
       </div>
-      <h3>Olaj a végén</h3>
-      <p class="hu">Oil on the plate</p>
-      <p>5 min · 1 adag</p>
+      <h3 data-edit="recipe:oil-spoon:title">Olaj a végén</h3>
+      <p class="hu" data-edit="recipe:oil-spoon:secondary">Oil on the plate</p>
+      <p data-edit="recipe:oil-spoon:details">5 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/herb-cubes.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:herb-cubes:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:herb-cubes:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:herb-cubes:category">Alapok</span>
       </div>
-      <h3>Fűszerkockák</h3>
-      <p class="hu">Frozen herb cubes</p>
-      <p>15 min · 12 adag</p>
+      <h3 data-edit="recipe:herb-cubes:title">Fűszerkockák</h3>
+      <p class="hu" data-edit="recipe:herb-cubes:secondary">Frozen herb cubes</p>
+      <p data-edit="recipe:herb-cubes:details">15 min · 12 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fridge-fruit-sauce.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:fridge-fruit-sauce:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:fridge-fruit-sauce:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:fridge-fruit-sauce:category">Alapok</span>
       </div>
-      <h3>Gyümölcsszósz</h3>
-      <p class="hu">Fridge fruit sauce</p>
-      <p>20 min · 6 adag</p>
+      <h3 data-edit="recipe:fridge-fruit-sauce:title">Gyümölcsszósz</h3>
+      <p class="hu" data-edit="recipe:fridge-fruit-sauce:secondary">Fridge fruit sauce</p>
+      <p data-edit="recipe:fridge-fruit-sauce:details">20 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/apple-sauce.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:apple-sauce:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:apple-sauce:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:apple-sauce:category">Alapok</span>
       </div>
-      <h3>Almaszósz</h3>
-      <p class="hu">Apple sauce</p>
-      <p>20 min · 4 adag</p>
+      <h3 data-edit="recipe:apple-sauce:title">Almaszósz</h3>
+      <p class="hu" data-edit="recipe:apple-sauce:secondary">Apple sauce</p>
+      <p data-edit="recipe:apple-sauce:details">20 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/liver-spread.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:liver-spread:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:liver-spread:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:liver-spread:category">Alapok</span>
       </div>
-      <h3>Májkrém</h3>
-      <p class="hu">Liver spread</p>
-      <p>25 min · 1 adag</p>
+      <h3 data-edit="recipe:liver-spread:title">Májkrém</h3>
+      <p class="hu" data-edit="recipe:liver-spread:secondary">Liver spread</p>
+      <p data-edit="recipe:liver-spread:details">25 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/vegetable-tomato-sauce.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:vegetable-tomato-sauce:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:vegetable-tomato-sauce:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:vegetable-tomato-sauce:category">Alapok</span>
       </div>
-      <h3>Zöldséges paradicsomszósz</h3>
-      <p class="hu">Vegetable tomato sauce</p>
-      <p>35 min · 6 adag</p>
+      <h3 data-edit="recipe:vegetable-tomato-sauce:title">Zöldséges paradicsomszósz</h3>
+      <p class="hu" data-edit="recipe:vegetable-tomato-sauce:secondary">Vegetable tomato sauce</p>
+      <p data-edit="recipe:vegetable-tomato-sauce:details">35 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/sweet-potato-base.html">
       <div class="pills">
-        <span class="pill">7 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:sweet-potato-base:age">7 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:sweet-potato-base:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:sweet-potato-base:category">Alapok</span>
       </div>
-      <h3>Édesburgonyás lap</h3>
-      <p class="hu">Sweet potato base</p>
-      <p>45 min · 6 adag</p>
+      <h3 data-edit="recipe:sweet-potato-base:title">Édesburgonyás lap</h3>
+      <p class="hu" data-edit="recipe:sweet-potato-base:secondary">Sweet potato base</p>
+      <p data-edit="recipe:sweet-potato-base:details">45 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/avocado-fish-spread.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:avocado-fish-spread:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:avocado-fish-spread:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:avocado-fish-spread:category">Alapok</span>
       </div>
-      <h3>Avokádós hal</h3>
-      <p class="hu">Avocado and salmon spread</p>
-      <p>15 min · 2 adag</p>
+      <h3 data-edit="recipe:avocado-fish-spread:title">Avokádós hal</h3>
+      <p class="hu" data-edit="recipe:avocado-fish-spread:secondary">Avocado and salmon spread</p>
+      <p data-edit="recipe:avocado-fish-spread:details">15 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/beet-spread.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:beet-spread:age">8 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:beet-spread:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:beet-spread:category">Alapok</span>
       </div>
-      <h3>Céklakrém</h3>
-      <p class="hu">Beet spread</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:beet-spread:title">Céklakrém</h3>
+      <p class="hu" data-edit="recipe:beet-spread:secondary">Beet spread</p>
+      <p data-edit="recipe:beet-spread:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/egg-spread.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:egg-spread:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:egg-spread:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:egg-spread:category">Alapok</span>
       </div>
-      <h3>Tojáskrém</h3>
-      <p class="hu">Egg spread</p>
-      <p>15 min · 1 adag</p>
+      <h3 data-edit="recipe:egg-spread:title">Tojáskrém</h3>
+      <p class="hu" data-edit="recipe:egg-spread:secondary">Egg spread</p>
+      <p data-edit="recipe:egg-spread:details">15 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fish-spread.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:fish-spread:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:fish-spread:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:fish-spread:category">Alapok</span>
       </div>
-      <h3>Halpástétom</h3>
-      <p class="hu">White fish spread</p>
-      <p>25 min · 2 adag</p>
+      <h3 data-edit="recipe:fish-spread:title">Halpástétom</h3>
+      <p class="hu" data-edit="recipe:fish-spread:secondary">White fish spread</p>
+      <p data-edit="recipe:fish-spread:details">25 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/paprika-curd.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Lecserélt</span>
-        <span class="pill quiet">Alapok</span>
+        <span class="pill" data-edit="recipe:paprika-curd:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:paprika-curd:verdict">Lecserélt</span>
+        <span class="pill quiet" data-edit="recipe:paprika-curd:category">Alapok</span>
       </div>
-      <h3>Paprikás túró</h3>
-      <p class="hu">Paprika cottage cheese</p>
-      <p>15 min · 4 adag</p>
+      <h3 data-edit="recipe:paprika-curd:title">Paprikás túró</h3>
+      <p class="hu" data-edit="recipe:paprika-curd:secondary">Paprika cottage cheese</p>
+      <p data-edit="recipe:paprika-curd:details">15 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fruit-oat-wheat-biscuits.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:fruit-oat-wheat-biscuits:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:fruit-oat-wheat-biscuits:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:fruit-oat-wheat-biscuits:category">Allergén gyakorlat</span>
       </div>
-      <h3>Gyümölcsös keksz</h3>
-      <p class="hu">Fruit oat wheat biscuits</p>
-      <p>25 min · 8 adag</p>
+      <h3 data-edit="recipe:fruit-oat-wheat-biscuits:title">Gyümölcsös keksz</h3>
+      <p class="hu" data-edit="recipe:fruit-oat-wheat-biscuits:secondary">Fruit oat wheat biscuits</p>
+      <p data-edit="recipe:fruit-oat-wheat-biscuits:details">25 min · 8 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/crumb-zucchini.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:crumb-zucchini:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:crumb-zucchini:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:crumb-zucchini:category">Allergén gyakorlat</span>
       </div>
-      <h3>Morzsás cukkini</h3>
-      <p class="hu">Crumbed zucchini</p>
-      <p>30 min · 2 adag</p>
+      <h3 data-edit="recipe:crumb-zucchini:title">Morzsás cukkini</h3>
+      <p class="hu" data-edit="recipe:crumb-zucchini:secondary">Crumbed zucchini</p>
+      <p data-edit="recipe:crumb-zucchini:details">30 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/fish-and-shrimp-muffin.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:fish-and-shrimp-muffin:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:fish-and-shrimp-muffin:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:fish-and-shrimp-muffin:category">Allergén gyakorlat</span>
       </div>
-      <h3>Halas muffin</h3>
-      <p class="hu">Fish and shrimp muffins</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:fish-and-shrimp-muffin:title">Halas muffin</h3>
+      <p class="hu" data-edit="recipe:fish-and-shrimp-muffin:secondary">Fish and shrimp muffins</p>
+      <p data-edit="recipe:fish-and-shrimp-muffin:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/yogurt-semolina.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:yogurt-semolina:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:yogurt-semolina:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:yogurt-semolina:category">Allergén gyakorlat</span>
       </div>
-      <h3>Joghurtos búzadara</h3>
-      <p class="hu">Yogurt semolina</p>
-      <p>15 min · 1 adag</p>
+      <h3 data-edit="recipe:yogurt-semolina:title">Joghurtos búzadara</h3>
+      <p class="hu" data-edit="recipe:yogurt-semolina:secondary">Yogurt semolina</p>
+      <p data-edit="recipe:yogurt-semolina:details">15 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/tofu-strips.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:tofu-strips:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:tofu-strips:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:tofu-strips:category">Allergén gyakorlat</span>
       </div>
-      <h3>Sült tofu</h3>
-      <p class="hu">Tofu strips</p>
-      <p>10 min · 2 adag</p>
+      <h3 data-edit="recipe:tofu-strips:title">Sült tofu</h3>
+      <p class="hu" data-edit="recipe:tofu-strips:secondary">Tofu strips</p>
+      <p data-edit="recipe:tofu-strips:details">10 min · 2 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/nut-dumplings.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:nut-dumplings:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:nut-dumplings:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:nut-dumplings:category">Allergén gyakorlat</span>
       </div>
-      <h3>Magvas nudli</h3>
-      <p class="hu">Potato nut dumplings</p>
-      <p>30 min · 4 adag</p>
+      <h3 data-edit="recipe:nut-dumplings:title">Magvas nudli</h3>
+      <p class="hu" data-edit="recipe:nut-dumplings:secondary">Potato nut dumplings</p>
+      <p data-edit="recipe:nut-dumplings:details">30 min · 4 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/peanut-yogurt.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:peanut-yogurt:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:peanut-yogurt:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:peanut-yogurt:category">Allergén gyakorlat</span>
       </div>
-      <h3>Mogyoróvajas joghurt</h3>
-      <p class="hu">Peanut yogurt</p>
-      <p>5 min · 1 adag</p>
+      <h3 data-edit="recipe:peanut-yogurt:title">Mogyoróvajas joghurt</h3>
+      <p class="hu" data-edit="recipe:peanut-yogurt:secondary">Peanut yogurt</p>
+      <p data-edit="recipe:peanut-yogurt:details">5 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/peanut-oat-fingers.html">
       <div class="pills">
-        <span class="pill">8 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:peanut-oat-fingers:age">8 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:peanut-oat-fingers:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:peanut-oat-fingers:category">Allergén gyakorlat</span>
       </div>
-      <h3>Zabos mogyorórúd</h3>
-      <p class="hu">Peanut oat fingers</p>
-      <p>25 min · 6 adag</p>
+      <h3 data-edit="recipe:peanut-oat-fingers:title">Zabos mogyorórúd</h3>
+      <p class="hu" data-edit="recipe:peanut-oat-fingers:secondary">Peanut oat fingers</p>
+      <p data-edit="recipe:peanut-oat-fingers:details">25 min · 6 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/carrot-egg.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:carrot-egg:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:carrot-egg:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:carrot-egg:category">Allergén gyakorlat</span>
       </div>
-      <h3>Sárgarépás tojás</h3>
-      <p class="hu">Carrot egg</p>
-      <p>12 min · 1 adag</p>
+      <h3 data-edit="recipe:carrot-egg:title">Sárgarépás tojás</h3>
+      <p class="hu" data-edit="recipe:carrot-egg:secondary">Carrot egg</p>
+      <p data-edit="recipe:carrot-egg:details">12 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/egg-sweet-potato.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill sage">Jó ötlet</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:egg-sweet-potato:age">6 hónapos kortól</span>
+        <span class="pill sage" data-edit="recipe:egg-sweet-potato:verdict">Jó ötlet</span>
+        <span class="pill quiet" data-edit="recipe:egg-sweet-potato:category">Allergén gyakorlat</span>
       </div>
-      <h3>Tojás édesburgonyával</h3>
-      <p class="hu">Egg and sweet potato</p>
-      <p>20 min · 1 adag</p>
+      <h3 data-edit="recipe:egg-sweet-potato:title">Tojás édesburgonyával</h3>
+      <p class="hu" data-edit="recipe:egg-sweet-potato:secondary">Egg and sweet potato</p>
+      <p data-edit="recipe:egg-sweet-potato:details">20 min · 1 adag</p>
     </a><a class="recipe-card" href="/hu/recipes/sesame-chickpea.html">
       <div class="pills">
-        <span class="pill">6 hónapos kortól</span>
-        <span class="pill warn">Igazított</span>
-        <span class="pill quiet">Allergén gyakorlat</span>
+        <span class="pill" data-edit="recipe:sesame-chickpea:age">6 hónapos kortól</span>
+        <span class="pill warn" data-edit="recipe:sesame-chickpea:verdict">Igazított</span>
+        <span class="pill quiet" data-edit="recipe:sesame-chickpea:category">Allergén gyakorlat</span>
       </div>
-      <h3>Szezámos csicseriborsó</h3>
-      <p class="hu">Sesame chickpeas</p>
-      <p>20 min · 2 adag</p>
+      <h3 data-edit="recipe:sesame-chickpea:title">Szezámos csicseriborsó</h3>
+      <p class="hu" data-edit="recipe:sesame-chickpea:secondary">Sesame chickpeas</p>
+      <p data-edit="recipe:sesame-chickpea:details">20 min · 2 adag</p>
     </a>
       </div>
     </section>
@@ -1254,10 +1255,11 @@
     
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t73">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t74">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

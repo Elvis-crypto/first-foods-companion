@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Celebrations</p>
-              <h1>Soft oat clusters</h1>
-              <p class="hu">Zabos toboz</p>
+              <p class="kicker" data-edit="t7">Celebrations</p>
+              <h1 data-edit="t8">Soft oat clusters</h1>
+              <p class="hu" data-edit="t9">Zabos toboz</p>
               <div class="pills">
-                <span class="pill">12 months+</span>
-                <span class="pill warn">Replaced</span>
-                <span class="pill quiet">25 min</span>
-                <span class="pill quiet">8 portions</span>
+                <span class="pill" data-edit="t10">12 months+</span>
+                <span class="pill warn" data-edit="t11">Replaced</span>
+                <span class="pill quiet" data-edit="t12">25 min</span>
+                <span class="pill quiet" data-edit="t13">8 portions</span>
               </div>
-              <p>Occasional food from 12 months. If a cluster turns crisp, do not serve it. Offer wheat in ordinary pasta or bread through the week as well.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">Occasional food from 12 months. If a cluster turns crisp, do not serve it. Offer wheat in ordinary pasta or bread through the week as well.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/soft-oat-clusters.jpg" alt="A serving of Soft oat clusters">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>1</strong> ripe banana <span class="meta">(mashed; no sugar and no chocolate)</span></li><li><strong>80 g</strong> rolled oats <span class="meta">(soft clusters, not cornflakes or another hard cereal)</span></li><li><strong>1 tsp</strong> rapeseed or olive oil <span class="meta">(keeps the clusters from drying)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">gluten</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>1</strong> ripe banana <span class="meta">(mashed; no sugar and no chocolate)</span></li><li data-edit="t18"><strong>80 g</strong> rolled oats <span class="meta">(soft clusters, not cornflakes or another hard cereal)</span></li><li data-edit="t19"><strong>1 tsp</strong> rapeseed or olive oil <span class="meta">(keeps the clusters from drying)</span></li></ul>
+              <h2 data-edit="t20">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t21">gluten</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Mash the banana.</li><li>Stir in the oats and oil until soft clusters hold together.</li><li>Set small heaps on a tray.</li><li>Bake at 160 C until just set and still soft.</li><li>Cool them covered so they do not dry hard.</li><li>Offer one soft cluster, with no chocolate and no crisp cereal.</li></ol>
+              <h2 data-edit="t22">Method</h2>
+              <ol><li data-edit="t23">Mash the banana.</li><li data-edit="t24">Stir in the oats and oil until soft clusters hold together.</li><li data-edit="t25">Set small heaps on a tray.</li><li data-edit="t26">Bake at 160 C until just set and still soft.</li><li data-edit="t27">Cool them covered so they do not dry hard.</li><li data-edit="t28">Offer one soft cluster, with no chocolate and no crisp cereal.</li></ol>
             </section>
           </div>
           <section class="callout replace">
-            <h2>Replaced</h2>
-            <p>The usual pinecone biscuit is cornflakes and chocolate.</p>
-            <p>Make soft oat and banana clusters with no chocolate and no hard cereal. Keep them occasional.</p>
+            <h2 data-edit="t29">Replaced</h2>
+            <p data-edit="t30">The usual pinecone biscuit is cornflakes and chocolate.</p>
+            <p data-edit="t31">Make soft oat and banana clusters with no chocolate and no hard cereal. Keep them occasional.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/walnut-party-cake.html">Banana walnut layer cake</a><a href="/recipes/chestnut-cake.html">Chestnut and apple cake</a><a href="/recipes/melon-plate.html">Melon strip plate</a>
+            <strong data-edit="t32">More in this group</strong>
+            <a href="/recipes/walnut-party-cake.html" data-edit="t33">Banana walnut layer cake</a><a href="/recipes/chestnut-cake.html" data-edit="t34">Chestnut and apple cake</a><a href="/recipes/melon-plate.html" data-edit="t35">Melon strip plate</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t36">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t37">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

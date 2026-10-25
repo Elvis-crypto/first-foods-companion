@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Allergén gyakorlat</p>
-              <h1>Sült tofu</h1>
-              <p class="hu">Tofu strips</p>
+              <p class="kicker" data-edit="t7">Allergén gyakorlat</p>
+              <h1 data-edit="t8">Sült tofu</h1>
+              <p class="hu" data-edit="t9">Tofu strips</p>
               <div class="pills">
-                <span class="pill">6 hónapos kortól</span>
-                <span class="pill sage">Jó ötlet</span>
-                <span class="pill quiet">10 min</span>
-                <span class="pill quiet">2 adag</span>
+                <span class="pill" data-edit="t10">6 hónapos kortól</span>
+                <span class="pill sage" data-edit="t11">Jó ötlet</span>
+                <span class="pill quiet" data-edit="t12">10 min</span>
+                <span class="pill quiet" data-edit="t13">2 adag</span>
               </div>
-              <p>Első szójás étel 6 hónapos kortól. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a szóját már jól tűri, hetente néhány alkalommal továbbra is kínáld.</p>
-              <p class="meta">Frissen a legjobb.</p>
+              <p data-edit="t14">Első szójás étel 6 hónapos kortól. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a szóját már jól tűri, hetente néhány alkalommal továbbra is kínáld.</p>
+              <p class="meta" data-edit="t15">Frissen a legjobb.</p>
             </div>
             <img src="/assets/img/recipes/tofu-strips.jpg" alt="Egy adag: Sült tofu">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>60 g</strong> sótlan, kemény tofu <span class="meta">(első szójás étel; szójaszósz nélkül)</span></li><li><strong>1 teáskanál</strong> repce- vagy olívaolaj <span class="meta">(csak átmelegítésre, ne keményre sütéshez)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">szója</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>60 g</strong> sótlan, kemény tofu <span class="meta">(első szójás étel; szójaszósz nélkül)</span></li><li data-edit="t18"><strong>1 teáskanál</strong> repce- vagy olívaolaj <span class="meta">(csak átmelegítésre, ne keményre sütéshez)</span></li></ul>
+              <h2 data-edit="t19">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t20">szója</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>A tofut vágd puha, ujjnyi csíkokra, vagy morzsold össze.</li><li>A csíkokat az olajban melegítsd át, amíg forrók.</li><li>Vagy a morzsalékot keverd meleg pürébe.</li><li>Ellenőrizd, hogy egy csík könnyen szétnyomható a hüvelyk- és a mutatóujj között.</li><li>Szójaszósz nélkül add.</li></ol>
+              <h2 data-edit="t21">Elkészítés</h2>
+              <ol><li data-edit="t22">A tofut vágd puha, ujjnyi csíkokra, vagy morzsold össze.</li><li data-edit="t23">A csíkokat az olajban melegítsd át, amíg forrók.</li><li data-edit="t24">Vagy a morzsalékot keverd meleg pürébe.</li><li data-edit="t25">Ellenőrizd, hogy egy csík könnyen szétnyomható a hüvelyk- és a mutatóujj között.</li><li data-edit="t26">Szójaszósz nélkül add.</li></ol>
             </section>
           </div>
           <section class="callout sound">
-            <h2>Jó ötlet</h2>
-            <p>A szójaszósz sós ízesítő, nem első szójás étel.</p>
-            <p>A sótlan, kemény tofut egy kevés olajban melegítsd át puha csíkokként, vagy morzsold pürébe. Szójaszósz nélkül.</p>
+            <h2 data-edit="t27">Jó ötlet</h2>
+            <p data-edit="t28">A szójaszósz sós ízesítő, nem első szójás étel.</p>
+            <p data-edit="t29">A sótlan, kemény tofut egy kevés olajban melegítsd át puha csíkokként, vagy morzsold pürébe. Szójaszósz nélkül.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/fruit-oat-wheat-biscuits.html">Gyümölcsös keksz</a><a href="/hu/recipes/crumb-zucchini.html">Morzsás cukkini</a><a href="/hu/recipes/fish-and-shrimp-muffin.html">Halas muffin</a>
+            <strong data-edit="t30">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/fruit-oat-wheat-biscuits.html" data-edit="t31">Gyümölcsös keksz</a><a href="/hu/recipes/crumb-zucchini.html" data-edit="t32">Morzsás cukkini</a><a href="/hu/recipes/fish-and-shrimp-muffin.html" data-edit="t33">Halas muffin</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t34">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t35">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

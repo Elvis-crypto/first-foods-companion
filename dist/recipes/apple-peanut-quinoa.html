@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Toddler meals</p>
-              <h1>Apple peanut quinoa</h1>
-              <p class="hu">Almás mogyorós quinoa</p>
+              <p class="kicker" data-edit="t7">Toddler meals</p>
+              <h1 data-edit="t8">Apple peanut quinoa</h1>
+              <p class="hu" data-edit="t9">Almás mogyorós quinoa</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill warn">Replaced</span>
-                <span class="pill quiet">25 min</span>
-                <span class="pill quiet">2 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill warn" data-edit="t11">Replaced</span>
+                <span class="pill quiet" data-edit="t12">25 min</span>
+                <span class="pill quiet" data-edit="t13">2 portions</span>
               </div>
-              <p>Once tolerated, about two teaspoons of smooth peanut butter, thinned, three times a week. Never a spoonful of thick peanut butter.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">Once tolerated, about two teaspoons of smooth peanut butter, thinned, three times a week. Never a spoonful of thick peanut butter.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/apple-peanut-quinoa.jpg" alt="A serving of Apple peanut quinoa">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>50 g</strong> Quinoa <span class="meta">(Rinsed well)</span></li><li><strong>1 small</strong> Eating apple <span class="meta">(Peeled, cored, and grated)</span></li><li><strong>250 ml</strong> Water <span class="meta">(Enough to cook the grains fully soft)</span></li><li><strong>1 teaspoon</strong> Smooth peanut butter <span class="meta">(Thin it in yogurt before it goes in the bowl)</span></li><li><strong>30 g</strong> Plain full-fat yogurt <span class="meta">(Pasteurized; used to thin the peanut butter)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">peanut</span><span class="pill quiet">milk</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>50 g</strong> Quinoa <span class="meta">(Rinsed well)</span></li><li data-edit="t18"><strong>1 small</strong> Eating apple <span class="meta">(Peeled, cored, and grated)</span></li><li data-edit="t19"><strong>250 ml</strong> Water <span class="meta">(Enough to cook the grains fully soft)</span></li><li data-edit="t20"><strong>1 teaspoon</strong> Smooth peanut butter <span class="meta">(Thin it in yogurt before it goes in the bowl)</span></li><li data-edit="t21"><strong>30 g</strong> Plain full-fat yogurt <span class="meta">(Pasteurized; used to thin the peanut butter)</span></li></ul>
+              <h2 data-edit="t22">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t23">peanut</span><span class="pill quiet" data-edit="t24">milk</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Rinse the quinoa and simmer it in the water until every grain is soft.</li><li>Stir in the grated apple and cook until the apple is soft.</li><li>Stir the peanut butter into the yogurt until the mixture is thin.</li><li>Fold that thin mixture through the warm quinoa.</li><li>Mash so no dry grains remain, and cool to serving temperature.</li></ol>
+              <h2 data-edit="t25">Method</h2>
+              <ol><li data-edit="t26">Rinse the quinoa and simmer it in the water until every grain is soft.</li><li data-edit="t27">Stir in the grated apple and cook until the apple is soft.</li><li data-edit="t28">Stir the peanut butter into the yogurt until the mixture is thin.</li><li data-edit="t29">Fold that thin mixture through the warm quinoa.</li><li data-edit="t30">Mash so no dry grains remain, and cool to serving temperature.</li></ol>
             </section>
           </div>
           <section class="callout replace">
-            <h2>Replaced</h2>
-            <p>The usual dish waited until 11 or 12 months and used dry puffed quinoa, which is easy to inhale. A baby with severe eczema or an egg allergy needs medical advice before the first peanut taste.</p>
-            <p>Cook the quinoa until soft, or use oats and then add gluten to the allergens. Thin a teaspoon of smooth peanut butter with yogurt or the cooking liquid, then fold in grated cooked apple.</p>
+            <h2 data-edit="t31">Replaced</h2>
+            <p data-edit="t32">The usual dish waited until 11 or 12 months and used dry puffed quinoa, which is easy to inhale. A baby with severe eczema or an egg allergy needs medical advice before the first peanut taste.</p>
+            <p data-edit="t33">Cook the quinoa until soft, or use oats and then add gluten to the allergens. Thin a teaspoon of smooth peanut butter with yogurt or the cooking liquid, then fold in grated cooked apple.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/soft-cinnamon-oats.html">Soft cinnamon oat bake</a><a href="/recipes/apple-porridge.html">Apple porridge</a><a href="/recipes/yogurt-porridge.html">Yogurt porridge</a>
+            <strong data-edit="t34">More in this group</strong>
+            <a href="/recipes/soft-cinnamon-oats.html" data-edit="t35">Soft cinnamon oat bake</a><a href="/recipes/apple-porridge.html" data-edit="t36">Apple porridge</a><a href="/recipes/yogurt-porridge.html" data-edit="t37">Yogurt porridge</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t38">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t39">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

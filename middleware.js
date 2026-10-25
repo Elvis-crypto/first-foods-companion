@@ -24,7 +24,7 @@ function toEnglish(path) {
 export default function middleware(request) {
   const url = new URL(request.url);
   const path = url.pathname;
-  if (path.startsWith("/assets/") || STATIC.test(path)) return next();
+  if (path.startsWith("/assets/") || path.startsWith("/api/") || STATIC.test(path)) return next();
 
   const chosen = cookie(request, "lang");
   const country = request.headers.get("x-vercel-ip-country") || "";
@@ -37,5 +37,5 @@ export default function middleware(request) {
 }
 
 export const config = {
-  matcher: ["/((?!assets/).*)"],
+  matcher: ["/((?!assets/|api/).*)"],
 };

@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
+    <a class="brand" href="/" data-edit="t0">First foods</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/topics/">Guides</a>
-        <a href="/recipes/" aria-current="page">Recipes</a>
-        <a href="/about.html">About</a>
+        <a href="/topics/" data-edit="t1">Guides</a>
+        <a href="/recipes/" aria-current="page" data-edit="t2">Recipes</a>
+        <a href="/about.html" data-edit="t3">About</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-en">Language</label>
+        <label class="visually-hidden" for="lang-en" data-edit="t4">Language</label>
         <select id="lang-en" data-lang aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="hu">Magyar</option>
+          <option value="en" selected data-edit="t5">English</option>
+          <option value="hu" data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Sign in" data-label-edit="Edit text" data-done="Done" data-reset="Reset this page" data-confirm="Remove your edits on this page?" data-saved="Saved" data-error="Could not save that edit." data-hint="Your edits stay on your account. Other people still see the original."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Basics</p>
-              <h1>Fresh pasta</h1>
-              <p class="hu">Házi tészta</p>
+              <p class="kicker" data-edit="t7">Basics</p>
+              <h1 data-edit="t8">Fresh pasta</h1>
+              <p class="hu" data-edit="t9">Házi tészta</p>
               <div class="pills">
-                <span class="pill">6 months+</span>
-                <span class="pill warn">Adjusted</span>
-                <span class="pill quiet">50 min</span>
-                <span class="pill quiet">4 portions</span>
+                <span class="pill" data-edit="t10">6 months+</span>
+                <span class="pill warn" data-edit="t11">Adjusted</span>
+                <span class="pill quiet" data-edit="t12">50 min</span>
+                <span class="pill quiet" data-edit="t13">4 portions</span>
               </div>
-              <p>From 6 months only when the pieces are very soft and moist. Try a first egg or wheat taste in the morning on a well day, then keep offering wheat through the week.</p>
-              <p class="meta">Freezes well.</p>
+              <p data-edit="t14">From 6 months only when the pieces are very soft and moist. Try a first egg or wheat taste in the morning on a well day, then keep offering wheat through the week.</p>
+              <p class="meta" data-edit="t15">Freezes well.</p>
             </div>
             <img src="/assets/img/recipes/fresh-pasta.jpg" alt="A serving of Fresh pasta">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
-              <ul><li><strong>2</strong> eggs <span class="meta">(boiled in the dough until fully cooked)</span></li><li><strong>200 g</strong> plain wheat flour <span class="meta">(about this weight; no salt at all)</span></li><li><strong>a large pot</strong> water <span class="meta">(for boiling, not salted)</span></li></ul>
-              <h2>Allergens</h2>
-              <div class="pills"><span class="pill quiet">egg</span><span class="pill quiet">gluten</span></div>
+              <h2 data-edit="t16">Ingredients</h2>
+              <ul><li data-edit="t17"><strong>2</strong> eggs <span class="meta">(boiled in the dough until fully cooked)</span></li><li data-edit="t18"><strong>200 g</strong> plain wheat flour <span class="meta">(about this weight; no salt at all)</span></li><li data-edit="t19"><strong>a large pot</strong> water <span class="meta">(for boiling, not salted)</span></li></ul>
+              <h2 data-edit="t20">Allergens</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t21">egg</span><span class="pill quiet" data-edit="t22">gluten</span></div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
-              <ol><li>Mix the eggs into the flour with no salt.</li><li>Knead to a firm dough, adding a few drops of water only if it will not come together.</li><li>Cover and rest the dough for 30 minutes.</li><li>Roll it thin and cut small pieces.</li><li>Boil until the pasta is very soft, not merely tender.</li><li>Drain and serve it moist, chopped or mashed.</li></ol>
+              <h2 data-edit="t23">Method</h2>
+              <ol><li data-edit="t24">Mix the eggs into the flour with no salt.</li><li data-edit="t25">Knead to a firm dough, adding a few drops of water only if it will not come together.</li><li data-edit="t26">Cover and rest the dough for 30 minutes.</li><li data-edit="t27">Roll it thin and cut small pieces.</li><li data-edit="t28">Boil until the pasta is very soft, not merely tender.</li><li data-edit="t29">Drain and serve it moist, chopped or mashed.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Adjusted</h2>
-            <p>The usual dough allowed a little salt, and firm pasta is too hard at this age.</p>
-            <p>Make the dough from two eggs and about 200 g flour, with no salt at all. Rest it, cut it small, and boil it until very soft so it can be used from 6 months.</p>
+            <h2 data-edit="t30">Adjusted</h2>
+            <p data-edit="t31">The usual dough allowed a little salt, and firm pasta is too hard at this age.</p>
+            <p data-edit="t32">Make the dough from two eggs and about 200 g flour, with no salt at all. Rest it, cut it small, and boil it until very soft so it can be used from 6 months.</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            <a href="/recipes/unsalted-stock.html">Unsalted stock</a><a href="/recipes/liver-dumplings.html">Liver dumplings</a><a href="/recipes/oil-spoon.html">Oil on the plate</a>
+            <strong data-edit="t33">More in this group</strong>
+            <a href="/recipes/unsalted-stock.html" data-edit="t34">Unsalted stock</a><a href="/recipes/liver-dumplings.html" data-edit="t35">Liver dumplings</a><a href="/recipes/oil-spoon.html" data-edit="t36">Oil on the plate</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p data-edit="t37">Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
+    <p data-edit="t38">This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>

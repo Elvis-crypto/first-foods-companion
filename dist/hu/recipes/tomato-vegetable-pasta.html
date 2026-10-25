@@ -20,25 +20,26 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/hu/">Első ételek</a>
+    <a class="brand" href="/hu/" data-edit="t0">Első ételek</a>
     <div class="nav-end">
       <nav class="nav-links">
-        <a href="/hu/topics/">Útmutatók</a>
-        <a href="/hu/recipes/" aria-current="page">Receptek</a>
-        <a href="/hu/about.html">Az oldalról</a>
+        <a href="/hu/topics/" data-edit="t1">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page" data-edit="t2">Receptek</a>
+        <a href="/hu/about.html" data-edit="t3">Az oldalról</a>
       </nav>
       <div class="nav-tools">
-        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <label class="visually-hidden" for="lang-hu" data-edit="t4">Nyelv</label>
         <select id="lang-hu" data-lang aria-label="Nyelv">
-          <option value="en">English</option>
-          <option value="hu" selected>Magyar</option>
+          <option value="en" data-edit="t5">English</option>
+          <option value="hu" selected data-edit="t6">Magyar</option>
         </select>
         <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+        <div id="account-slot" data-no-edit hidden data-sign-in="Belépés" data-label-edit="Szöveg szerkesztése" data-done="Kész" data-reset="Oldal visszaállítása" data-confirm="Törlöd a saját módosításaidat ezen az oldalon?" data-saved="Mentve" data-error="A módosítást nem sikerült menteni." data-hint="A módosításaid a te fiókodhoz tartoznak. Mások az eredetit látják."></div>
       </div>
     </div>
   </header>
@@ -47,49 +48,50 @@
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">Vegyes pürék</p>
-              <h1>Paradicsomos zöldséges tészta</h1>
-              <p class="hu">Tomato vegetable pasta</p>
+              <p class="kicker" data-edit="t7">Vegyes pürék</p>
+              <h1 data-edit="t8">Paradicsomos zöldséges tészta</h1>
+              <p class="hu" data-edit="t9">Tomato vegetable pasta</p>
               <div class="pills">
-                <span class="pill">6 hónapos kortól</span>
-                <span class="pill warn">Igazított</span>
-                <span class="pill quiet">30 min</span>
-                <span class="pill quiet">4 adag</span>
+                <span class="pill" data-edit="t10">6 hónapos kortól</span>
+                <span class="pill warn" data-edit="t11">Igazított</span>
+                <span class="pill quiet" data-edit="t12">30 min</span>
+                <span class="pill quiet" data-edit="t13">4 adag</span>
               </div>
-              <p>A tésztát törd össze, hogy ne maradjon benne semmi kemény. Hat hónapos kortól add. Glutént tartalmaz.</p>
-              <p class="meta">Fagyasztható.</p>
+              <p data-edit="t14">A tésztát törd össze, hogy ne maradjon benne semmi kemény. Hat hónapos kortól add. Glutént tartalmaz.</p>
+              <p class="meta" data-edit="t15">Fagyasztható.</p>
             </div>
             <img src="/assets/img/recipes/tomato-vegetable-pasta.jpg" alt="Egy adag: Paradicsomos zöldséges tészta">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Hozzávalók</h2>
-              <ul><li><strong>40 g</strong> apró levesbetét <span class="meta">(száraz súly; búza, tehát glutén)</span></li><li><strong>200 g</strong> érett paradicsom <span class="meta">(friss, hámozva, nem sózott szósz)</span></li><li><strong>80 g</strong> répa <span class="meta">(hámozott súly)</span></li><li><strong>80 g</strong> cukkini <span class="meta">(hámozva)</span></li></ul>
-              <h2>Allergének</h2>
-              <div class="pills"><span class="pill quiet">glutén</span></div>
+              <h2 data-edit="t16">Hozzávalók</h2>
+              <ul><li data-edit="t17"><strong>40 g</strong> apró levesbetét <span class="meta">(száraz súly; búza, tehát glutén)</span></li><li data-edit="t18"><strong>200 g</strong> érett paradicsom <span class="meta">(friss, hámozva, nem sózott szósz)</span></li><li data-edit="t19"><strong>80 g</strong> répa <span class="meta">(hámozott súly)</span></li><li data-edit="t20"><strong>80 g</strong> cukkini <span class="meta">(hámozva)</span></li></ul>
+              <h2 data-edit="t21">Allergének</h2>
+              <div class="pills"><span class="pill quiet" data-edit="t22">glutén</span></div>
             </section>
             <section class="panel">
-              <h2>Elkészítés</h2>
-              <ol><li>Hámozd meg a répát, a cukkinit és a paradicsomot, és apróra vágd.</li><li>A zöldségeket egy kevés sózatlan vízben főzd nagyon puhára, aztán törd össze.</li><li>A tésztát sózatlan vízben a szokásos főzési időn jóval túl főzd, amíg nagyon puha.</li><li>Szűrd le a tésztát, és törd a szószba, hogy ne maradjon kemény darab.</li><li>Sót ne adj hozzá, és ne várj későbbi hónapra az adással.</li></ol>
+              <h2 data-edit="t23">Elkészítés</h2>
+              <ol><li data-edit="t24">Hámozd meg a répát, a cukkinit és a paradicsomot, és apróra vágd.</li><li data-edit="t25">A zöldségeket egy kevés sózatlan vízben főzd nagyon puhára, aztán törd össze.</li><li data-edit="t26">A tésztát sózatlan vízben a szokásos főzési időn jóval túl főzd, amíg nagyon puha.</li><li data-edit="t27">Szűrd le a tésztát, és törd a szószba, hogy ne maradjon kemény darab.</li><li data-edit="t28">Sót ne adj hozzá, és ne várj későbbi hónapra az adással.</li></ol>
             </section>
           </div>
           <section class="callout adjust">
-            <h2>Igazított</h2>
-            <p>A még kemény tészta 6 hónapos korban túl kemény. Erre az ételre néha későbbi hónapot írnak, jó ok nélkül.</p>
-            <p>Az apró tésztát főzd nagyon puhára, és törd só nélküli paradicsomos, répás, cukkinis szószba. Ne várj későbbi hónapra, mert a tészta csak egy nagyon puhán adott gluténes étel.</p>
+            <h2 data-edit="t29">Igazított</h2>
+            <p data-edit="t30">A még kemény tészta 6 hónapos korban túl kemény. Erre az ételre néha későbbi hónapot írnak, jó ok nélkül.</p>
+            <p data-edit="t31">Az apró tésztát főzd nagyon puhára, és törd só nélküli paradicsomos, répás, cukkinis szószba. Ne várj későbbi hónapra, mert a tészta csak egy nagyon puhán adott gluténes étel.</p>
           </section>
           <aside class="side">
-            <strong>Még ebből a csoportból</strong>
-            <a href="/hu/recipes/apple-peach-semolina.html">Almás-barackos búzadara joghurttal</a><a href="/hu/recipes/pear-banana-oat.html">Körtés banán zabbal</a><a href="/hu/recipes/plum-peach-yogurt.html">Szilvás barack joghurttal</a>
+            <strong data-edit="t32">Még ebből a csoportból</strong>
+            <a href="/hu/recipes/apple-peach-semolina.html" data-edit="t33">Almás-barackos búzadara joghurttal</a><a href="/hu/recipes/pear-banana-oat.html" data-edit="t34">Körtés banán zabbal</a><a href="/hu/recipes/plum-peach-yogurt.html" data-edit="t35">Szilvás barack joghurttal</a>
           </aside>
         </article>
         
   </main>
   <footer class="wrap footer">
-    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
-    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+    <p data-edit="t36">Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p data-edit="t37">Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
   </footer>
   
   <script src="/assets/site.js"></script>
+  <script src="/assets/editor.js"></script>
 </body>
 </html>
