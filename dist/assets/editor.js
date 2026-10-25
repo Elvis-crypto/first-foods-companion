@@ -6,6 +6,9 @@
   var editing = false;
   var signedIn = false;
   var ready = false;
+  var filtersReady = false;
+  var filterTimer = null;
+  var filterEpoch = 0;
 
   document.addEventListener("recipes:rendered", function () {
     applyEdits();
@@ -105,10 +108,10 @@
     });
   }
 
-  function api(method, payload) {
+  function api(method, payload, base) {
     return window.Clerk.session.getToken().then(function (token) {
       if (!token) throw new Error("auth");
-      var url = "/api/edits";
+      var url = base || "/api/edits";
       var options = {
         method: method,
         headers: {
@@ -117,8 +120,9 @@
           Accept: "application/json"
         }
       };
-      if (method === "GET") url += "?path=" + encodeURIComponent(pagePath());
-      else options.body = JSON.stringify(payload);
+      if (method === "GET") {
+        if (!base) url += "?path=" + encodeURIComponent(pagePath());
+      } else options.body = JSON.stringify(payload);
       return fetch(url, options).then(function (res) {
         if (!res.ok) throw new Error("http");
         return res.json();
@@ -198,6 +202,61 @@
     });
   }
 
+  function emptyFilters() {
+    return { q: "", age: "", category: "all", verdict: "all", include: [], exclude: [] };
+  }
+
+  function sameFilters(left, right) {
+    return JSON.stringify(left) === JSON.stringify(right);
+  }
+
+  function rememberFilters(state, immediate) {
+    clearTimeout(filterTimer);
+    filterTimer = null;
+    function send() {
+      filterTimer = null;
+      if (!signedIn || !filtersReady) return;
+      api("PUT", { filters: state }, "/api/filters").catch(function () {});
+    }
+    if (immediate) send();
+    else filterTimer = setTimeout(send, 400);
+  }
+
+  window.addEventListener("pagehide", function () {
+    if (!filterTimer || !window.RecipeFilters) return;
+    rememberFilters(window.RecipeFilters.current(), true);
+  });
+
+  function loadFilters() {
+    if (!window.RecipeFilters) {
+      filtersReady = true;
+      return Promise.resolve();
+    }
+    filtersReady = false;
+    var epoch = ++filterEpoch;
+    var before = window.RecipeFilters.current();
+    return api("GET", null, "/api/filters").then(function (data) {
+      if (!signedIn || epoch !== filterEpoch) return;
+      var now = window.RecipeFilters.current();
+      var saved = data && data.filters;
+      if (saved && sameFilters(now, before) && sameFilters(before, emptyFilters())) {
+        window.RecipeFilters.apply(saved);
+      } else if (!sameFilters(now, emptyFilters())) {
+        filtersReady = true;
+        rememberFilters(now);
+        return;
+      }
+      filtersReady = true;
+    });
+  }
+
+  if (window.RecipeFilters) {
+    window.RecipeFilters.subscribe(function (state) {
+      if (!signedIn || !filtersReady) return;
+      rememberFilters(state);
+    });
+  }
+
   function renderSignedIn() {
     slot.hidden = false;
     slot.innerHTML =
@@ -240,12 +299,19 @@
     }).catch(function () {
       setStatus(attr("data-error"));
     });
+    loadFilters().catch(function () {});
   }
 
   function syncSession() {
     var now = !!(window.Clerk && Clerk.isSignedIn);
     if (now === signedIn && slot.querySelector(now ? "[data-edit-toggle]" : "[data-sign-in-button]")) return;
-    if (signedIn && !now) clearPersonalText();
+    if (signedIn && !now) {
+      clearPersonalText();
+      filtersReady = false;
+      filterEpoch += 1;
+      clearTimeout(filterTimer);
+      filterTimer = null;
+    }
     signedIn = now;
     if (now) renderSignedIn();
     else renderSignedOut();

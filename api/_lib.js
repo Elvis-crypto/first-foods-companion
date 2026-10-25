@@ -49,6 +49,44 @@ export function normalizeBody(input) {
   return input;
 }
 
+const FILTER_AGES = new Set(["", "6", "7", "8", "9", "10", "12"]);
+const FILTER_CATEGORIES = new Set([
+  "all",
+  "simple-purees",
+  "mixed-purees",
+  "finger-foods",
+  "toddler-meals",
+  "snacks",
+  "celebrations",
+  "basics",
+  "allergens",
+]);
+const FILTER_VERDICTS = new Set(["all", "sound", "adjust", "replace"]);
+const FOOD_KEY = /^[a-z0-9-]{1,40}$/;
+
+function foodKeys(input) {
+  if (!Array.isArray(input)) return [];
+  const keys = [];
+  for (const item of input) {
+    if (typeof item !== "string" || !FOOD_KEY.test(item) || keys.includes(item)) continue;
+    keys.push(item);
+    if (keys.length >= 40) break;
+  }
+  keys.sort();
+  return keys;
+}
+
+export function normalizeFilters(input) {
+  if (!input || typeof input !== "object" || Array.isArray(input)) return null;
+  const q = typeof input.q === "string" ? input.q.replace(/\0/g, "").trim().slice(0, 120) : "";
+  const age = FILTER_AGES.has(String(input.age ?? "")) ? String(input.age ?? "") : "";
+  const category = FILTER_CATEGORIES.has(input.category) ? input.category : "all";
+  const verdict = FILTER_VERDICTS.has(input.verdict) ? input.verdict : "all";
+  const include = foodKeys(input.include);
+  const exclude = foodKeys(input.exclude).filter((key) => !include.includes(key));
+  return { q, age, category, verdict, include, exclude };
+}
+
 export function sqlClient() {
   const url = databaseUrl();
   if (!url) return null;
@@ -64,7 +102,11 @@ export async function ensureSchema(sql) {
       body text NOT NULL,
       updated_at timestamptz NOT NULL DEFAULT now(),
       PRIMARY KEY (user_id, page_path, edit_key)
-    )`.catch((error) => {
+    )`.then(() => sql`CREATE TABLE IF NOT EXISTS user_filters (
+      user_id text PRIMARY KEY,
+      body text NOT NULL,
+      updated_at timestamptz NOT NULL DEFAULT now()
+    )`).catch((error) => {
       schemaReady = null;
       throw error;
     });

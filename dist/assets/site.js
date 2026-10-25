@@ -53,6 +53,8 @@
   var verdict = "all";
   var include = Object.create(null);
   var exclude = Object.create(null);
+  var listeners = [];
+  var applying = false;
 
   function escapeText(value) {
     return String(value)
@@ -165,6 +167,38 @@
     });
   }
 
+  function selectedKeys(map) {
+    var keys = [];
+    for (var key in map) if (map[key]) keys.push(key);
+    keys.sort();
+    return keys;
+  }
+
+  function snapshot() {
+    return {
+      q: query ? String(query.value || "").trim().slice(0, 120) : "",
+      age: age && age.value ? String(age.value) : "",
+      category: category,
+      verdict: verdict,
+      include: selectedKeys(include),
+      exclude: selectedKeys(exclude)
+    };
+  }
+
+  function notify() {
+    if (applying) return;
+    var state = snapshot();
+    listeners.forEach(function (fn) { fn(state); });
+  }
+
+  function knownFoods() {
+    var known = Object.create(null);
+    foodButtons.forEach(function (button) {
+      known[button.getAttribute("data-food")] = true;
+    });
+    return known;
+  }
+
   var categoryButtons = Array.prototype.slice.call(document.querySelectorAll("[data-filter-cat]"));
   var verdictButtons = Array.prototype.slice.call(document.querySelectorAll("[data-filter-verdict]"));
   categoryButtons.forEach(function (button) {
@@ -172,6 +206,7 @@
       category = button.getAttribute("data-filter-cat");
       press(categoryButtons, "data-filter-cat", category);
       render();
+      notify();
     });
   });
   verdictButtons.forEach(function (button) {
@@ -179,10 +214,11 @@
       verdict = button.getAttribute("data-filter-verdict");
       press(verdictButtons, "data-filter-verdict", verdict);
       render();
+      notify();
     });
   });
-  if (query) query.addEventListener("input", render);
-  if (age) age.addEventListener("change", function () { render({ reveal: true }); });
+  if (query) query.addEventListener("input", function () { render(); notify(); });
+  if (age) age.addEventListener("change", function () { render({ reveal: true }); notify(); });
 
   var foodButtons = foodChips
     ? Array.prototype.slice.call(foodChips.querySelectorAll("[data-food]"))
@@ -228,6 +264,7 @@
       }
       syncFoodButtons();
       render();
+      notify();
     });
   });
   if (foodQuery) foodQuery.addEventListener("input", syncFoodButtons);
@@ -237,7 +274,52 @@
       exclude = Object.create(null);
       syncFoodButtons();
       render();
+      notify();
     });
   }
+
+  function applyState(state) {
+    if (!state || typeof state !== "object") return;
+    applying = true;
+    if (query) query.value = typeof state.q === "string" ? state.q.slice(0, 120) : "";
+    if (age) {
+      var nextAge = state.age == null ? "" : String(state.age);
+      var allowed = Array.prototype.some.call(age.options, function (option) { return option.value === nextAge; });
+      age.value = allowed ? nextAge : "";
+    }
+    if (typeof state.category === "string" && categoryButtons.some(function (button) { return button.getAttribute("data-filter-cat") === state.category; })) {
+      category = state.category;
+    } else {
+      category = "all";
+    }
+    press(categoryButtons, "data-filter-cat", category);
+    if (typeof state.verdict === "string" && verdictButtons.some(function (button) { return button.getAttribute("data-filter-verdict") === state.verdict; })) {
+      verdict = state.verdict;
+    } else {
+      verdict = "all";
+    }
+    press(verdictButtons, "data-filter-verdict", verdict);
+    include = Object.create(null);
+    exclude = Object.create(null);
+    var known = knownFoods();
+    var wanted = Array.isArray(state.include) ? state.include : [];
+    var rejected = Array.isArray(state.exclude) ? state.exclude : [];
+    wanted.forEach(function (key) { if (known[key]) include[key] = true; });
+    rejected.forEach(function (key) { if (known[key] && !include[key]) exclude[key] = true; });
+    syncFoodButtons();
+    render();
+    applying = false;
+  }
+
+  window.RecipeFilters = {
+    current: snapshot,
+    apply: applyState,
+    subscribe: function (fn) {
+      listeners.push(fn);
+      return function () {
+        listeners = listeners.filter(function (item) { return item !== fn; });
+      };
+    }
+  };
   syncFoodButtons();
 })();
