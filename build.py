@@ -67,10 +67,7 @@ TOPIC_GROUPS = [
     ("03-health.json", "Health and the short list"),
 ]
 IMAGES = {
-    "hero.jpg": "A bowl of smooth cooked food",
-    "plate-a.jpg": "A plate of soft cooked foods",
-    "plate-b.jpg": "A bowl of soft dairy food with fruit",
-    "plate-c.jpg": "Soft baked pieces of food",
+    "hero.jpg": "A bowl of smooth pumpkin purée",
 }
 
 
@@ -83,14 +80,19 @@ def load_json(path: Path):
         return json.load(handle)
 
 
-def recipe_image(category: str) -> str:
-    if category in {"simple-purees", "mixed-purees"}:
-        return "hero.jpg"
-    if category == "allergens":
-        return "plate-b.jpg"
-    if category in {"finger-foods", "snacks"}:
-        return "plate-c.jpg"
-    return "plate-a.jpg"
+def recipe_image(recipe_id: str) -> str:
+    return f"recipes/{recipe_id}.jpg"
+
+
+def recipe_alt(ui, recipe: dict) -> str:
+    name = recipe["title_hu"] if ui["code"] == "hu" else recipe["title"]
+    return ui["photo_alt"].format(name=name)
+
+
+def require_image(relative: str) -> None:
+    path = ASSETS / "img" / relative
+    if not path.is_file():
+        raise SystemExit(f"Missing image {relative}")
 
 
 def added_word(text: str, word: str) -> bool:
@@ -273,6 +275,7 @@ UI = {
         "more": "More in this group",
         "more_empty": "No other recipes in this group yet.",
         "doc_title": "First foods",
+        "photo_alt": "A serving of {name}",
         "img_alt": dict(IMAGES),
     },
     "hu": {
@@ -361,11 +364,9 @@ UI = {
         "more": "Még ebből a csoportból",
         "more_empty": "Ebben a csoportban még nincs másik recept.",
         "doc_title": "Első ételek",
+        "photo_alt": "Egy adag: {name}",
         "img_alt": {
-            "hero.jpg": "Egy tál sima főtt étel",
-            "plate-a.jpg": "Egy tányér puha főtt étel",
-            "plate-b.jpg": "Egy tál puha tejtermékes étel gyümölccsel",
-            "plate-c.jpg": "Puha sült falatok",
+            "hero.jpg": "Egy tál sima sütőtökpüré",
         },
     },
 }
@@ -718,6 +719,7 @@ def topic_pages(ui, groups) -> None:
             </li>"""
             )
         image = topic.get("image") or "plate-a.jpg"
+        require_image(image)
         alt = topic.get("image_alt") or IMAGES.get(image, "")
         bare = f"/topics/{topic['id']}.html"
         body = f"""
@@ -828,7 +830,8 @@ def recipe_pages(ui, recipes: list[dict]) -> None:
     for recipe in recipes:
         by_category.setdefault(recipe["category"], []).append(recipe)
     for recipe in recipes:
-        image = recipe_image(recipe["category"])
+        image = recipe_image(recipe["id"])
+        require_image(image)
         ingredients = "".join(
             f"<li><strong>{esc(item['amount'])}</strong> {esc(item['item'])}"
             + (f" <span class=\"meta\">({esc(item['note'])})</span>" if item.get("note") else "")
@@ -864,7 +867,7 @@ def recipe_pages(ui, recipes: list[dict]) -> None:
               <p>{esc(recipe['serve'])}</p>
               <p class="meta">{esc(freezer)}</p>
             </div>
-            <img src="/assets/img/{image}" alt="{esc(ui['img_alt'][image])}">
+            <img src="/assets/img/{image}" alt="{esc(recipe_alt(ui, recipe))}">
           </div>
           <div class="split">
             <section class="panel">
