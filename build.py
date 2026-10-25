@@ -69,6 +69,49 @@ TOPIC_GROUPS = [
 IMAGES = {
     "hero.jpg": "A bowl of smooth pumpkin purée",
 }
+# Ingredient filters. Patterns run against the English ingredient line.
+# Cheese is matched after cottage cheese so túró is not also listed as cheese.
+FOODS = [
+    ("apple", "Apple", "Alma", re.compile(r"(?<!pine)apple")),
+    ("pear", "Pear", "Körte", re.compile(r"pear")),
+    ("banana", "Banana", "Banán", re.compile(r"banana")),
+    ("peach", "Peach", "Barack", re.compile(r"peach|apricot")),
+    ("berries", "Berries", "Bogyós gyümölcs", re.compile(r"blueberr|strawberr|raspberr|blackberr|\bberr|\bcherr|\bplums?\b|pineapple|melon")),
+    ("mango", "Mango", "Mangó", re.compile(r"mango")),
+    ("avocado", "Avocado", "Avokádó", re.compile(r"avocado")),
+    ("pumpkin", "Pumpkin", "Sütőtök", re.compile(r"pumpkin")),
+    ("carrot", "Carrot", "Répa", re.compile(r"carrot")),
+    ("sweet-potato", "Sweet potato", "Édesburgonya", re.compile(r"sweet potato")),
+    ("potato", "Potato", "Burgonya", re.compile(r"(?<!sweet )potato")),
+    ("zucchini", "Zucchini", "Cukkini", re.compile(r"zucchini|courgette")),
+    ("broccoli", "Broccoli", "Brokkoli", re.compile(r"broccoli")),
+    ("cauliflower", "Cauliflower", "Karfiol", re.compile(r"cauliflower")),
+    ("spinach", "Spinach", "Spenót", re.compile(r"spinach")),
+    ("peas", "Peas", "Borsó", re.compile(r"\bpeas?\b|green bean")),
+    ("tomato", "Tomato", "Paradicsom", re.compile(r"tomato")),
+    ("onion", "Onion or garlic", "Hagyma vagy fokhagyma", re.compile(r"onion|leek|garlic")),
+    ("pepper", "Pepper", "Paprika", re.compile(r"\bpeppers?\b")),
+    ("dairy", "Dairy", "Tejtermék", re.compile(r"yogurt|yoghurt|cottage cheese|\bcurd\b|(?<!cottage )cheese|mozzarella|(?<!breast )(?<!coconut )milk(?! path)(?! allergen)(?!-free)")),
+    ("egg", "Egg", "Tojás", re.compile(r"\beggs?\b|egg yolk")),
+    ("yogurt", "Yogurt", "Joghurt", re.compile(r"yogurt|yoghurt")),
+    ("cottage", "Cottage cheese", "Túró", re.compile(r"cottage cheese|\bcurd\b")),
+    ("cheese", "Cheese", "Sajt", re.compile(r"(?<!cottage )cheese|mozzarella")),
+    ("milk", "Milk", "Tej", re.compile(r"(?<!breast )(?<!coconut )milk(?! path)(?! allergen)(?!-free)")),
+    ("oats", "Oats", "Zab", re.compile(r"\boats?\b")),
+    ("wheat", "Wheat", "Búza", re.compile(r"wheat|pasta|semolina|couscous|bulgur|breadcrumb|soft bread|(?<!chickpea )\bflour\b")),
+    ("rice", "Rice", "Rizs", re.compile(r"\brice\b")),
+    ("quinoa", "Quinoa", "Quinoa", re.compile(r"quinoa")),
+    ("corn", "Corn", "Kukorica", re.compile(r"\bcorn\b|cornmeal|sweetcorn")),
+    ("chicken", "Chicken", "Csirke", re.compile(r"chicken")),
+    ("liver", "Liver", "Máj", re.compile(r"liver")),
+    ("red-meat", "Beef, veal, or pork", "Marha, borjú vagy sertés", re.compile(r"beef|veal|pork")),
+    ("fish", "Fish", "Hal", re.compile(r"salmon|cod|hake|trout|tuna|\bfish\b")),
+    ("shrimp", "Shrimp", "Garnéla", re.compile(r"shrimp|prawn")),
+    ("peanut", "Peanut", "Földimogyoró", re.compile(r"peanut")),
+    ("tree-nut", "Tree nut", "Dióféle", re.compile(r"walnut|almond|chestnut")),
+    ("sesame", "Sesame", "Szezám", re.compile(r"tahini|sesame")),
+    ("legumes", "Beans, lentils, or tofu", "Bab, lencse vagy tofu", re.compile(r"lentil|chickpea|\bbeans?\b|tofu")),
+]
 
 
 def esc(value) -> str:
@@ -93,6 +136,29 @@ def require_image(relative: str) -> None:
     path = ASSETS / "img" / relative
     if not path.is_file():
         raise SystemExit(f"Missing image {relative}")
+
+
+def food_line(recipe: dict) -> str:
+    """Ingredient text with refusals removed, so 'not peanut' does not count as peanut."""
+    chunks = []
+    for item in recipe["ingredients"]:
+        chunks.append(f"{item.get('item', '')}. {item.get('note', '')}.")
+    text = " ".join(chunks).lower()
+    text = re.sub(r"\b[\w]+-free\b", " ", text)
+    text = re.sub(r"\b(not|no|without|never)\b[^.;]*", " ", text)
+    return text
+
+
+def food_keys(recipe: dict) -> list[str]:
+    text = food_line(recipe)
+    items = " ".join(item.get("item", "") for item in recipe["ingredients"]).lower()
+    found = []
+    for key, _en, _hu, pattern in FOODS:
+        # "The cheese" in a cottage-cheese note means the curd, not a second cheese.
+        source = items if key == "cheese" else text
+        if pattern.search(source):
+            found.append(key)
+    return found
 
 
 def added_word(text: str, word: str) -> bool:
@@ -259,8 +325,14 @@ UI = {
         "references": "References",
         "side_guides": "Guides",
         "cook_h1": "Cook these versions.",
-        "cook_lede": "Filter by the age of the child. A recipe appears when its minimum age is at or below the age you choose. Hungarian names are kept so you can find the dish you had in mind.",
-        "search_placeholder": "Search by name",
+        "cook_lede": "Filter by the age of the child, or mark ingredients to require or leave out. A recipe appears when its minimum age is at or below the age you choose. Hungarian names are kept so you can find the dish you had in mind.",
+        "ingredient_label": "Ingredients",
+        "ingredient_find": "Find an ingredient",
+        "ingredient_hint": "Click once to require it. Click again to leave it out. Click again to clear.",
+        "ingredient_clear": "Clear ingredients",
+        "food_required": ", required",
+        "food_excluded": ", excluded",
+        "search_placeholder": "Search by name or ingredient",
         "search_label": "Search recipes",
         "age_label": "Show recipes a child this age can start",
         "any_age": "Any minimum age",
@@ -348,8 +420,14 @@ UI = {
         "references": "Források",
         "side_guides": "Útmutatók",
         "cook_h1": "Ezeket a változatokat főzd.",
-        "cook_lede": "Szűrj a gyerek kora szerint. Egy recept akkor jelenik meg, ha a javasolt legkisebb kor nem nagyobb a választott kornál. A magyar nevek megmaradtak, hogy ráismerd az ételre.",
-        "search_placeholder": "Keresés név szerint",
+        "cook_lede": "Szűrj a gyerek kora szerint, vagy jelöld meg a hozzávalókat, amelyek kellenek, vagy amelyeket kihagynál. Egy recept akkor jelenik meg, ha a javasolt legkisebb kor nem nagyobb a választott kornál. A magyar nevek megmaradtak, hogy ráismerd az ételre.",
+        "ingredient_label": "Hozzávalók",
+        "ingredient_find": "Hozzávaló keresése",
+        "ingredient_hint": "Egy kattintás: csak ezzel. Még egy: e nélkül. Harmadik: törlés.",
+        "ingredient_clear": "Hozzávalók törlése",
+        "food_required": ", kötelező",
+        "food_excluded": ", kizárva",
+        "search_placeholder": "Keresés név vagy hozzávaló szerint",
         "search_label": "Receptek keresése",
         "age_label": "Ehhez a korhoz már adható receptek",
         "any_age": "Bármely alsó korhatár",
@@ -483,6 +561,8 @@ def load_content():
             raise SystemExit(f"{path.name} must be a JSON array")
         recipes.extend(normalize_recipe(recipe) for recipe in batch)
     validate(recipes, topics)
+    for recipe in recipes:
+        recipe["foods"] = food_keys(recipe)
     return groups, topics, recipes
 
 
@@ -792,7 +872,19 @@ def recipe_index(ui, recipes: list[dict]) -> None:
             "portions": portions_label(recipe["portions"], ui),
             "verdict": recipe["verdict"],
             "verdict_label": ui["verdicts"][recipe["verdict"]],
+            "foods": recipe.get("foods") or [],
+            "ingredient_text": " ".join(item["item"] for item in recipe["ingredients"]),
         })
+    used = {key for recipe in recipes for key in recipe.get("foods") or []}
+    food_buttons = []
+    for key, english, hungarian, _pattern in FOODS:
+        if key not in used:
+            continue
+        label = english if ui["code"] == "en" else hungarian
+        food_buttons.append(
+            f'<button type="button" data-food="{esc(key)}" data-label="{esc(label)}" '
+            f'data-state="off" aria-pressed="false">{esc(label)}</button>'
+        )
     payload = json.dumps(slim, ensure_ascii=False).replace("<", "\\u003c")
     cards = "".join(recipe_card(ui, recipe) for recipe in recipes)
     body = f"""
@@ -809,6 +901,13 @@ def recipe_index(ui, recipes: list[dict]) -> None:
         </select>
         <div class="chips" role="group" aria-label="{esc(ui['category_label'])}">{''.join(chips)}</div>
         <div class="chips" role="group" aria-label="{esc(ui['scrutiny_label'])}">{''.join(verdict_chips)}</div>
+        <div class="food-filters">
+          <label class="meta" for="food-{ui['code']}">{esc(ui['ingredient_label'])}</label>
+          <input id="food-{ui['code']}" type="search" data-filter-foods placeholder="{esc(ui['ingredient_find'])}" aria-label="{esc(ui['ingredient_find'])}" autocomplete="off">
+          <p class="meta">{esc(ui['ingredient_hint'])}</p>
+          <div class="chips" role="group" aria-label="{esc(ui['ingredient_label'])}" data-food-chips data-required-suffix="{esc(ui['food_required'])}" data-excluded-suffix="{esc(ui['food_excluded'])}">{''.join(food_buttons)}</div>
+          <button type="button" class="text-button" data-food-clear hidden>{esc(ui['ingredient_clear'])}</button>
+        </div>
         <p class="count" data-count>{len(recipes)} {esc(ui['many'])}</p>
       </div>
       <div class="recipe-list" data-recipe-list>

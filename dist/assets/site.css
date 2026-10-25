@@ -203,6 +203,21 @@ h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin: 0 0 0.6rem; }
   cursor: pointer;
 }
 .chips button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.chips button[data-state="include"] { background: var(--sage); color: var(--paper); border-color: var(--sage); }
+.chips button[data-state="exclude"] { background: var(--paprika); color: var(--paper); border-color: var(--paprika); }
+.chips button[data-state="include"]::before { content: "+ "; }
+.chips button[data-state="exclude"]::before { content: "− "; }
+.food-filters { display: flex; flex-direction: column; gap: 0.45rem; }
+.text-button {
+  font: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--paprika-dark);
+  cursor: pointer;
+  text-align: left;
+}
+.text-button:hover { text-decoration: underline; }
 .recipe-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem; }
 .count { color: var(--ink-soft); }
 

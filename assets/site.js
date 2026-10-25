@@ -45,8 +45,13 @@
   var query = document.querySelector("[data-filter-q]");
   var age = document.querySelector("[data-filter-age]");
   var count = document.querySelector("[data-count]");
+  var foodQuery = document.querySelector("[data-filter-foods]");
+  var foodChips = document.querySelector("[data-food-chips]");
+  var clearFoods = document.querySelector("[data-food-clear]");
   var category = "all";
   var verdict = "all";
+  var include = Object.create(null);
+  var exclude = Object.create(null);
 
   function escapeText(value) {
     return String(value)
@@ -80,8 +85,16 @@
       if (category !== "all" && recipe.category !== category) return false;
       if (verdict !== "all" && recipe.verdict !== verdict) return false;
       if (recipe.min_age_months > maxAge) return false;
+      var foods = recipe.foods || [];
+      var key;
+      for (key in include) {
+        if (include[key] && foods.indexOf(key) === -1) return false;
+      }
+      for (key in exclude) {
+        if (exclude[key] && foods.indexOf(key) !== -1) return false;
+      }
       if (!needle) return true;
-      var hay = [recipe.title, recipe.title_hu, recipe.primary, recipe.secondary, recipe.category_label].join(" ").toLowerCase();
+      var hay = [recipe.title, recipe.title_hu, recipe.primary, recipe.secondary, recipe.category_label, recipe.ingredient_text].join(" ").toLowerCase();
       return hay.indexOf(needle) !== -1;
     });
     list.innerHTML = shown.length ? shown.map(card).join("") : '<p class="meta">' + escapeText(empty) + "</p>";
@@ -112,4 +125,61 @@
   });
   query.addEventListener("input", render);
   age.addEventListener("change", render);
+
+  var foodButtons = foodChips
+    ? Array.prototype.slice.call(foodChips.querySelectorAll("[data-food]"))
+    : [];
+  var requiredSuffix = foodChips ? foodChips.getAttribute("data-required-suffix") || ", required" : ", required";
+  var excludedSuffix = foodChips ? foodChips.getAttribute("data-excluded-suffix") || ", excluded" : ", excluded";
+
+  function foodSelected() {
+    var key;
+    for (key in include) if (include[key]) return true;
+    for (key in exclude) if (exclude[key]) return true;
+    return false;
+  }
+
+  function syncFoodButtons() {
+    var needle = foodQuery ? (foodQuery.value || "").trim().toLowerCase() : "";
+    foodButtons.forEach(function (button) {
+      var key = button.getAttribute("data-food");
+      var state = include[key] ? "include" : exclude[key] ? "exclude" : "off";
+      var name = button.getAttribute("data-label") || button.textContent;
+      button.setAttribute("data-state", state);
+      button.setAttribute("aria-pressed", state === "off" ? "false" : "true");
+      button.setAttribute("aria-label", name + (state === "include" ? requiredSuffix : state === "exclude" ? excludedSuffix : ""));
+      var visible = !needle || name.toLowerCase().indexOf(needle) !== -1 || state !== "off";
+      button.hidden = !visible;
+    });
+    if (clearFoods) clearFoods.hidden = !foodSelected();
+  }
+
+  foodButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      var key = button.getAttribute("data-food");
+      var state = button.getAttribute("data-state");
+      if (state === "off") {
+        include[key] = true;
+        delete exclude[key];
+      } else if (state === "include") {
+        delete include[key];
+        exclude[key] = true;
+      } else {
+        delete include[key];
+        delete exclude[key];
+      }
+      syncFoodButtons();
+      render();
+    });
+  });
+  if (foodQuery) foodQuery.addEventListener("input", syncFoodButtons);
+  if (clearFoods) {
+    clearFoods.addEventListener("click", function () {
+      include = Object.create(null);
+      exclude = Object.create(null);
+      syncFoodButtons();
+      render();
+    });
+  }
+  syncFoodButtons();
 })();
