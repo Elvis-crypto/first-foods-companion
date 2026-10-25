@@ -83,14 +83,6 @@ def load_json(path: Path):
         return json.load(handle)
 
 
-def portions_label(value) -> str:
-    text = str(value).strip()
-    if text.isdigit():
-        count = int(text)
-        return "1 portion" if count == 1 else f"{count} portions"
-    return text
-
-
 def recipe_image(category: str) -> str:
     if category in {"simple-purees", "mixed-purees"}:
         return "hero.jpg"
@@ -200,6 +192,278 @@ def normalize_recipe(recipe: dict) -> dict:
     return recipe
 
 
+SITE = "https://first-foods-companion.vercel.app"
+AGES = (6, 7, 8, 9, 10, 12)
+
+UI = {
+    "en": {
+        "code": "en",
+        "prefix": "",
+        "brand": "First foods",
+        "guides": "Guides",
+        "recipes": "Recipes",
+        "about": "About",
+        "language": "Language",
+        "day": "Day",
+        "night": "Night",
+        "months": "months+",
+        "empty": "No recipes match those filters.",
+        "one": "recipe",
+        "many": "recipes",
+        "description": "Original evidence-checked notes and recipes for the first years of solid food. Inspired by a Hungarian weaning book. Not medical advice.",
+        "footer1": "Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.",
+        "footer2": "This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.",
+        "groups": {
+            "01-foundations.json": "Foundations",
+            "02-practice.json": "At the table",
+            "03-health.json": "Health and the short list",
+        },
+        "categories": dict(CATEGORIES),
+        "verdicts": dict(VERDICTS),
+        "allergens": {
+            "milk": "milk", "egg": "egg", "gluten": "gluten", "fish": "fish",
+            "crustacean": "crustacean", "peanut": "peanut", "tree-nut": "tree nut",
+            "sesame": "sesame", "soy": "soy", "mustard": "mustard", "celery": "celery",
+            "sulphite": "sulphite", "none": "none",
+        },
+        "portion_one": "1 portion",
+        "portion_many": "{n} portions",
+        "freezer_yes": "Freezes well.",
+        "freezer_no": "Best eaten fresh.",
+        "kicker": "Starting solids",
+        "h1": "Food for the first year, checked against the evidence.",
+        "lede": "Iron, allergens, salt, texture, and how a meal actually happens. Original recipes for the dishes families cook in a Hungarian kitchen, rewritten where the older versions added salt, sugar, honey, or a difficult texture.",
+        "read_guides": "Read the guides",
+        "browse": "Browse {n} recipes",
+        "card_guides_h": "Seventeen short topics",
+        "card_guides_p": "Each one opens with the findings, then the reasoning, then the papers and public pages those findings come from.",
+        "changed_h": "{n} were changed",
+        "changed_p": "{sound} ideas were already sound. The rest say, in plain language, what was wrong and what this version does instead.",
+        "limit_h": "Not a clinic",
+        "limit_p": "Severe eczema or an existing egg allergy needs a clinician before peanut. Breathing trouble after a food is an emergency.",
+        "start": "Start here",
+        "about_kicker": "About",
+        "about_h1": "An original companion, not a copy of the book.",
+        "about_lede": "The dish ideas and the questions families ask came from <em>Anya, kérek még!</em> by Ambrus Éva, published by BOOOK Kiadó. The sentences on this site were written for it. The book’s text and photographs are not reproduced.",
+        "about_sections": [
+            ("What was kept", "The shape of a Hungarian weaning kitchen: pumpkin, apple, cottage cheese, paprika without the heat, liver once in a while, fish without bones, egg, beans, and the small celebration cakes families actually want to bake. Where a dish was already a plain cooked fruit or vegetable, the recipe stays close to that idea."),
+            ("What was changed", "Added salt and sugar come out of food for children under one. Honey is not used at all here. Peanut, egg, milk, wheat, sesame, fish, soy, and ground nuts are offered around six months in a safe texture, instead of being delayed toward the first birthday. Fried crusts become oven bakes. Whole nuts, round hard pieces, carp, mustard in the early months, and salty ham are replaced. Each recipe page says whether the idea was sound, adjusted, or replaced."),
+            ("How the guides were written", "Claims about age, iron, protein, allergens, vitamin D, and choking are tied to a real source: ESPGHAN, WHO, EFSA, the LEAP and EAT trials, NHS, CDC, AAP, or a Hungarian public page. If a familiar local page still teaches an older fruit-then-meat ladder, the guide says so. This site does not invent a personal dose of medicine. Vitamin D for a breastfed baby is a prescribed product."),
+            ("What this site will not do", "It will not tell you that your child is well. It will not walk you through infant back blows as if reading them once were training. Take a first-aid course. If a baby is silent and cannot cough, call for emergency help."),
+        ],
+        "guides_h1": "What to know before the recipes.",
+        "guides_lede": "Short findings first. The longer explanation is on the same page, and the sources are linked.",
+        "findings": "Findings",
+        "references": "References",
+        "side_guides": "Guides",
+        "cook_h1": "Cook these versions.",
+        "cook_lede": "Filter by the age of the child. A recipe appears when its minimum age is at or below the age you choose. Hungarian names are kept so you can find the dish you had in mind.",
+        "search_placeholder": "Search by name",
+        "search_label": "Search recipes",
+        "age_label": "Show recipes a child this age can start",
+        "any_age": "Any minimum age",
+        "age_option": "{n} months",
+        "any_note": "Any note",
+        "all": "All",
+        "category_label": "Category",
+        "scrutiny_label": "Scrutiny",
+        "ingredients": "Ingredients",
+        "allergens_h": "Allergens",
+        "method": "Method",
+        "more": "More in this group",
+        "more_empty": "No other recipes in this group yet.",
+        "doc_title": "First foods",
+        "img_alt": dict(IMAGES),
+    },
+    "hu": {
+        "code": "hu",
+        "prefix": "/hu",
+        "brand": "Első ételek",
+        "guides": "Útmutatók",
+        "recipes": "Receptek",
+        "about": "Az oldalról",
+        "language": "Nyelv",
+        "day": "Nappal",
+        "night": "Éjszaka",
+        "months": "hónapos kortól",
+        "empty": "Nincs a szűrésnek megfelelő recept.",
+        "one": "recept",
+        "many": "recept",
+        "description": "Eredeti, bizonyítékokhoz kötött útmutató és receptek az első szilárd ételekhez. Egy magyar hozzátáplálós könyv ihlette. Nem orvosi tanács.",
+        "footer1": "Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.",
+        "footer2": "Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.",
+        "groups": {
+            "01-foundations.json": "Alapok",
+            "02-practice.json": "Az asztalnál",
+            "03-health.json": "Egészség és a rövid lista",
+        },
+        "categories": {
+            "simple-purees": "Egyszerű pürék",
+            "mixed-purees": "Vegyes pürék",
+            "finger-foods": "Puha falatok",
+            "toddler-meals": "Nagyobbacska ételek",
+            "snacks": "Nasi",
+            "celebrations": "Ünnep",
+            "basics": "Alapok",
+            "allergens": "Allergén gyakorlat",
+        },
+        "verdicts": {"sound": "Jó ötlet", "adjust": "Igazított", "replace": "Lecserélt"},
+        "allergens": {
+            "milk": "tej", "egg": "tojás", "gluten": "glutén", "fish": "hal",
+            "crustacean": "rákféle", "peanut": "földimogyoró", "tree-nut": "dióféle",
+            "sesame": "szezám", "soy": "szója", "mustard": "mustár", "celery": "zeller",
+            "sulphite": "szulfit", "none": "nincs",
+        },
+        "portion_one": "1 adag",
+        "portion_many": "{n} adag",
+        "freezer_yes": "Fagyasztható.",
+        "freezer_no": "Frissen a legjobb.",
+        "kicker": "Hozzátáplálás",
+        "h1": "Étel az első évre, a bizonyítékokhoz mérve.",
+        "lede": "Vas, allergének, só, állag, és az, hogy egy étkezés valójában hogyan történik. Eredeti receptek a magyar konyha első ételeihez, átírva ott, ahol a régi változat sót, cukrot, mézet vagy nehéz állagot kért.",
+        "read_guides": "Útmutatók",
+        "browse": "{n} recept",
+        "card_guides_h": "Tizenhét rövid téma",
+        "card_guides_p": "Mindegyik a megállapításokkal kezdődik, utána jön az indoklás, majd a cikkek és a közérthető oldalak, amelyekből a megállapítás származik.",
+        "changed_h": "{n} receptet átírtunk",
+        "changed_p": "{sound} ötlet eleve rendben volt. A többinél kimondjuk, mi volt a gond, és mit csinál helyette ez a változat.",
+        "limit_h": "Nem rendelő",
+        "limit_p": "Súlyos ekcéma vagy ismert tojásallergia esetén földimogyoró előtt orvos kell. Ha egy étel után a légzés romlik, az vészhelyzet.",
+        "start": "Itt kezdd",
+        "about_kicker": "Az oldalról",
+        "about_h1": "Eredeti társoldal, nem a könyv másolata.",
+        "about_lede": "Az ételötletek és a kérdések, amelyeket a családok feltesznek, az <em>Anya, kérek még!</em> című könyvből jöttek, Ambrus Éva írta, a BOOOK Kiadó adta ki. Az itteni mondatokat ehhez az oldalhoz írtuk. A könyv szövegét és fényképeit nem közöljük.",
+        "about_sections": [
+            ("Ami megmaradt", "Egy magyar hozzátáplálós konyha váza: sütőtök, alma, túró, csípősség nélküli paprika, néha máj, szálkamentes hal, tojás, bab, és a kis ünnepi sütemények, amelyeket a családok tényleg meg akarnak sütni. Ahol az étel eleve sima főtt gyümölcs vagy zöldség volt, a recept közel marad ahhoz."),
+            ("Ami megváltozott", "Egyéves kor alatt a hozzáadott só és cukor kikerül. Méz egyáltalán nincs ezekben a receptekben. Földimogyoró, tojás, tej, búza, szezám, hal, szója és darált dióféle már hat hónapos kor körül, biztonságos állagban kerül az étrendbe, nem az első születésnap felé halasztva. A sült panír sütőben készül, és puha marad. Az egész dió, a kemény kerek darab, a ponty, a korai mustár és a sós sonka kiesik. Minden receptoldal megmondja, hogy az ötlet jó volt, igazítottuk, vagy lecseréltük."),
+            ("Hogyan készültek az útmutatók", "A korra, a vasra, a fehérjére, az allergénekre, a D-vitaminra és a fulladásra vonatkozó állítások valódi forráshoz kötöttek: ESPGHAN, WHO, EFSA, a LEAP és az EAT vizsgálat, NHS, CDC, AAP, vagy magyar szakmai összefoglaló. Ha egy ismerős helyi oldal még a régi gyümölcs, aztán hús sorrendet tanítja, az útmutató ezt kimondja. Az oldal nem talál ki személyes gyógyszeradagot. Szoptatott csecsemőnek a D-vitamin felírt készítmény."),
+            ("Amit ez az oldal nem tesz meg", "Nem mondja meg, hogy a te gyereked jól van. Nem helyettesít egy csecsemő-elsősegély tanfolyamot. Végezz tanfolyamot. Ha a baba csendes, és nem tud köhögni, hívj segítséget."),
+        ],
+        "guides_h1": "Amit a receptek előtt érdemes tudni.",
+        "guides_lede": "Először a rövid megállapítások. A hosszabb magyarázat ugyanazon az oldalon van, a források pedig linkelve.",
+        "findings": "Megállapítások",
+        "references": "Források",
+        "side_guides": "Útmutatók",
+        "cook_h1": "Ezeket a változatokat főzd.",
+        "cook_lede": "Szűrj a gyerek kora szerint. Egy recept akkor jelenik meg, ha a javasolt legkisebb kor nem nagyobb a választott kornál. A magyar nevek megmaradtak, hogy ráismerd az ételre.",
+        "search_placeholder": "Keresés név szerint",
+        "search_label": "Receptek keresése",
+        "age_label": "Ehhez a korhoz már adható receptek",
+        "any_age": "Bármely alsó korhatár",
+        "age_option": "{n} hónapos",
+        "any_note": "Bármely megjegyzés",
+        "all": "Mind",
+        "category_label": "Csoport",
+        "scrutiny_label": "Megítélés",
+        "ingredients": "Hozzávalók",
+        "allergens_h": "Allergének",
+        "method": "Elkészítés",
+        "more": "Még ebből a csoportból",
+        "more_empty": "Ebben a csoportban még nincs másik recept.",
+        "doc_title": "Első ételek",
+        "img_alt": {
+            "hero.jpg": "Egy tál sima főtt étel",
+            "plate-a.jpg": "Egy tányér puha főtt étel",
+            "plate-b.jpg": "Egy tál puha tejtermékes étel gyümölccsel",
+            "plate-c.jpg": "Puha sült falatok",
+        },
+    },
+}
+
+
+def digits(value) -> list[str]:
+    return re.findall(r"\d+", str(value))
+
+
+def require_text(source: dict, key: str, label: str) -> str:
+    value = source.get(key)
+    if not isinstance(value, str) or not value.strip():
+        raise SystemExit(f"{label}: Hungarian field {key} is missing")
+    return value.strip()
+
+
+def guard_hungarian_recipe(recipe: dict) -> None:
+    label = recipe["id"]
+    listed = " ".join(
+        f"{item.get('amount', '')} {item.get('item', '')}" for item in recipe["ingredients"]
+    ).lower()
+    if re.search(r"\b(honey|méz|mézet)\b", listed):
+        raise SystemExit(f"{label}: honey in Hungarian ingredients")
+    if recipe["min_age_months"] < 12:
+        for word in ("só", "cukor", "cukrot", "sonka", "mustár", "szójaszósz", "leveskocka", "szalonna"):
+            if re.search(rf"\b{word}\b", listed):
+                raise SystemExit(f"{label}: {word} in Hungarian ingredients under 12 months")
+    prose = " ".join(
+        [recipe["issues"], recipe["changes"], recipe["serve"], *recipe["method"]]
+    ).lower()
+    if "peanut" in recipe["allergens"] and "ekcém" not in prose:
+        raise SystemExit(f"{label}: Hungarian peanut recipe lost the eczema warning")
+    for banned in ("ambrus", "kérek", "boook"):
+        if banned in prose:
+            raise SystemExit(f"{label}: Hungarian recipe names the book")
+
+
+def overlay_recipe(english: dict, hungarian: dict) -> dict:
+    merged = json.loads(json.dumps(english))
+    label = english["id"]
+    for key in ("issues", "changes", "serve"):
+        merged[key] = require_text(hungarian, key, label)
+    if not isinstance(hungarian.get("method"), list) or len(hungarian["method"]) != len(english["method"]):
+        raise SystemExit(f"{label}: Hungarian method length does not match")
+    merged["method"] = [str(step).strip() for step in hungarian["method"]]
+    if any(not step for step in merged["method"]):
+        raise SystemExit(f"{label}: empty Hungarian method step")
+    if merged["method"] == english["method"] and merged["issues"] == english["issues"]:
+        raise SystemExit(f"{label}: Hungarian text is still English")
+    ingredients = hungarian.get("ingredients")
+    if not isinstance(ingredients, list) or len(ingredients) != len(english["ingredients"]):
+        raise SystemExit(f"{label}: Hungarian ingredient count does not match")
+    merged_ingredients = []
+    for original, translated in zip(english["ingredients"], ingredients):
+        amount = str(translated.get("amount") or original["amount"])
+        if digits(amount) != digits(original["amount"]):
+            amount = original["amount"]
+        item = str(translated.get("item") or "").strip()
+        if not item:
+            raise SystemExit(f"{label}: Hungarian ingredient name is missing")
+        note = str(translated.get("note") or "").strip()
+        merged_ingredients.append({"amount": amount, "item": item, "note": note})
+    merged["ingredients"] = merged_ingredients
+    guard_hungarian_recipe(merged)
+    return merged
+
+
+def overlay_topic(english: dict, hungarian: dict) -> dict:
+    merged = json.loads(json.dumps(english))
+    label = english["id"]
+    for key in ("title", "byline", "image_alt"):
+        merged[key] = require_text(hungarian, key, label)
+    findings = {item["id"]: item for item in hungarian.get("findings", [])}
+    for finding in merged["findings"]:
+        source = findings.get(finding["id"])
+        if not source:
+            raise SystemExit(f"{label}: missing Hungarian finding {finding['id']}")
+        finding["lead"] = require_text(source, "lead", label)
+        finding["text"] = require_text(source, "text", label)
+    sections = {item["id"]: item for item in hungarian.get("sections", [])}
+    for section in merged["sections"]:
+        source = sections.get(section["id"])
+        if not source:
+            raise SystemExit(f"{label}: missing Hungarian section {section['id']}")
+        section["heading"] = require_text(source, "heading", label)
+        paragraphs = source.get("paragraphs")
+        if not isinstance(paragraphs, list) or len(paragraphs) != len(section["paragraphs"]):
+            raise SystemExit(f"{label}: Hungarian paragraph count for {section['id']}")
+        section["paragraphs"] = [str(paragraph).strip() for paragraph in paragraphs]
+    references = hungarian.get("references")
+    if not isinstance(references, list) or len(references) != len(merged["references"]):
+        raise SystemExit(f"{label}: Hungarian reference count does not match")
+    for original, translated in zip(merged["references"], references):
+        original["title"] = require_text(translated, "title", label)
+        original["source"] = require_text(translated, "source", label)
+    return merged
+
+
 def load_content():
     topics: list[dict] = []
     groups: list[tuple[str, list[dict]]] = []
@@ -221,18 +485,68 @@ def load_content():
     return groups, topics, recipes
 
 
-def chrome(title: str, body: str, current: str = "") -> str:
-    def link(href: str, label: str, key: str) -> str:
-        mark = ' aria-current="page"' if current == key else ""
-        return f'<a href="{href}"{mark}>{label}</a>'
+def page_path(ui, bare: str) -> str:
+    if bare in {"", "/"}:
+        relative = "index.html"
+    else:
+        relative = bare.lstrip("/")
+        if relative.endswith("/"):
+            relative += "index.html"
+    prefix = ui["prefix"].strip("/")
+    if prefix:
+        return prefix + "/" + relative
+    return relative
 
+
+def href(ui, bare: str) -> str:
+    if bare in {"", "/"}:
+        return ui["prefix"] + "/" if ui["prefix"] else "/"
+    return ui["prefix"] + bare
+
+
+def absolute(ui, bare: str) -> str:
+    return SITE + href(ui, bare)
+
+
+def portions_label(value, ui) -> str:
+    text = str(value).strip()
+    if text.isdigit():
+        count = int(text)
+        if count == 1:
+            return ui["portion_one"]
+        return ui["portion_many"].format(n=count)
+    return text
+
+
+def chrome(ui, title: str, body: str, current: str, bare: str, extra_script: str = "") -> str:
+    def link(path: str, label: str, key: str) -> str:
+        mark = ' aria-current="page"' if current == key else ""
+        return f'<a href="{href(ui, path)}"{mark}>{label}</a>'
+
+    selected_en = " selected" if ui["code"] == "en" else ""
+    selected_hu = " selected" if ui["code"] == "hu" else ""
+    en_href = absolute(UI["en"], bare)
+    hu_href = absolute(UI["hu"], bare)
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{ui['code']}" data-prefix="{esc(ui['prefix'])}" data-months="{esc(ui['months'])}" data-empty="{esc(ui['empty'])}" data-one="{esc(ui['one'])}" data-many="{esc(ui['many'])}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(title)}</title>
-  <meta name="description" content="Original evidence-checked notes and recipes for the first years of solid food. Inspired by a Hungarian weaning book. Not medical advice.">
+  <meta name="description" content="{esc(ui['description'])}">
+  <link rel="alternate" hreflang="en" href="{esc(en_href)}">
+  <link rel="alternate" hreflang="hu" href="{esc(hu_href)}">
+  <script>
+    (function () {{
+      try {{
+        var theme = localStorage.getItem("theme");
+        if (theme !== "day" && theme !== "night") {{
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day";
+        }}
+        document.documentElement.setAttribute("data-theme", theme);
+      }} catch (error) {{}}
+    }})();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -240,20 +554,32 @@ def chrome(title: str, body: str, current: str = "") -> str:
 </head>
 <body>
   <header class="wrap nav">
-    <a class="brand" href="/">First foods</a>
-    <nav class="nav-links">
-      {link("/topics/", "Guides", "topics")}
-      {link("/recipes/", "Recipes", "recipes")}
-      {link("/about.html", "About", "about")}
-    </nav>
+    <a class="brand" href="{href(ui, '/')}">{esc(ui['brand'])}</a>
+    <div class="nav-end">
+      <nav class="nav-links">
+        {link('/topics/', ui['guides'], 'topics')}
+        {link('/recipes/', ui['recipes'], 'recipes')}
+        {link('/about.html', ui['about'], 'about')}
+      </nav>
+      <div class="nav-tools">
+        <label class="visually-hidden" for="lang-{ui['code']}">{esc(ui['language'])}</label>
+        <select id="lang-{ui['code']}" data-lang aria-label="{esc(ui['language'])}">
+          <option value="en"{selected_en}>English</option>
+          <option value="hu"{selected_hu}>Magyar</option>
+        </select>
+        <button type="button" class="theme-toggle" data-theme-toggle data-day="{esc(ui['day'])}" data-night="{esc(ui['night'])}" aria-pressed="false">{esc(ui['night'])}</button>
+      </div>
+    </div>
   </header>
   <main class="wrap">
     {body}
   </main>
   <footer class="wrap footer">
-    <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
-    <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
+    <p>{ui['footer1']}</p>
+    <p>{esc(ui['footer2'])}</p>
   </footer>
+  {extra_script}
+  <script src="/assets/site.js"></script>
 </body>
 </html>
 """
@@ -265,12 +591,12 @@ def write_page(relative: str, document: str) -> None:
     path.write_text(document, encoding="utf-8", newline="\n")
 
 
-def home(groups, recipes) -> None:
+def home(ui, groups, recipes) -> None:
     cards = []
     for _label, batch in groups:
         for topic in batch[:2]:
             cards.append(
-                f"""<a class="card" href="/topics/{esc(topic['id'])}.html">
+                f"""<a class="card" href="{href(ui, '/topics/' + topic['id'] + '.html')}">
               <h2>{esc(topic['title'])}</h2>
               <p>{esc(topic['byline'])}</p>
             </a>"""
@@ -278,78 +604,77 @@ def home(groups, recipes) -> None:
     counts = {}
     for recipe in recipes:
         counts[recipe["verdict"]] = counts.get(recipe["verdict"], 0) + 1
+    changed = counts.get("adjust", 0) + counts.get("replace", 0)
+    image_key = "hero.jpg"
     body = f"""
     <section class="hero">
       <div>
-        <p class="kicker">Starting solids</p>
-        <h1>Food for the first year, checked against the evidence.</h1>
-        <p class="lede">Iron, allergens, salt, texture, and how a meal actually happens. Original recipes for the dishes families cook in a Hungarian kitchen, rewritten where the older versions added salt, sugar, honey, or a difficult texture.</p>
+        <p class="kicker">{esc(ui['kicker'])}</p>
+        <h1>{esc(ui['h1'])}</h1>
+        <p class="lede">{esc(ui['lede'])}</p>
         <div class="actions">
-          <a class="button" href="/topics/">Read the guides</a>
-          <a class="button-ghost" href="/recipes/">Browse {len(recipes)} recipes</a>
+          <a class="button" href="{href(ui, '/topics/')}">{esc(ui['read_guides'])}</a>
+          <a class="button-ghost" href="{href(ui, '/recipes/')}">{esc(ui['browse'].format(n=len(recipes)))}</a>
         </div>
       </div>
       <figure class="hero-photo">
-        <img src="/assets/img/hero.jpg" alt="{esc(IMAGES['hero.jpg'])}">
+        <img src="/assets/img/{image_key}" alt="{esc(ui['img_alt'][image_key])}">
       </figure>
     </section>
     <section class="section">
       <div class="grid-3">
         <article class="card">
-          <p class="kicker">Guides</p>
-          <h2>Seventeen short topics</h2>
-          <p>Each one opens with the findings, then the reasoning, then the papers and public pages those findings come from.</p>
+          <p class="kicker">{esc(ui['guides'])}</p>
+          <h2>{esc(ui['card_guides_h'])}</h2>
+          <p>{esc(ui['card_guides_p'])}</p>
         </article>
         <article class="card">
-          <p class="kicker">Recipes</p>
-          <h2>{counts.get('adjust', 0) + counts.get('replace', 0)} were changed</h2>
-          <p>{counts.get('sound', 0)} ideas were already sound. The rest say, in plain language, what was wrong and what this version does instead.</p>
+          <p class="kicker">{esc(ui['recipes'])}</p>
+          <h2>{esc(ui['changed_h'].format(n=changed))}</h2>
+          <p>{esc(ui['changed_p'].format(sound=counts.get('sound', 0)))}</p>
         </article>
         <article class="card">
-          <p class="kicker">Limit</p>
-          <h2>Not a clinic</h2>
-          <p>Severe eczema or an existing egg allergy needs a clinician before peanut. Breathing trouble after a food is an emergency.</p>
+          <p class="kicker">{esc(ui['about'])}</p>
+          <h2>{esc(ui['limit_h'])}</h2>
+          <p>{esc(ui['limit_p'])}</p>
         </article>
       </div>
     </section>
     <section class="section">
-      <h2>Start here</h2>
+      <h2>{esc(ui['start'])}</h2>
       <div class="grid-2">
         {''.join(cards)}
       </div>
     </section>
     """
-    write_page("index.html", chrome("First foods", body, "home"))
+    write_page(page_path(ui, "/"), chrome(ui, ui["doc_title"], body, "home", "/"))
 
 
-def about_page() -> None:
-    body = """
+def about_page(ui) -> None:
+    sections = "".join(
+        f"<h2>{esc(heading)}</h2><p>{esc(paragraph)}</p>"
+        for heading, paragraph in ui["about_sections"]
+    )
+    body = f"""
     <section class="section">
-      <p class="kicker">About</p>
-      <h1>An original companion, not a copy of the book.</h1>
-      <p class="lede">The dish ideas and the questions families ask came from <em>Anya, kérek még!</em> by Ambrus Éva, published by BOOOK Kiadó. The sentences on this site were written for it. The book’s text and photographs are not reproduced.</p>
+      <p class="kicker">{esc(ui['about_kicker'])}</p>
+      <h1>{esc(ui['about_h1'])}</h1>
+      <p class="lede">{ui['about_lede']}</p>
     </section>
     <section class="section prose">
-      <h2>What was kept</h2>
-      <p>The shape of a Hungarian weaning kitchen: pumpkin, apple, cottage cheese, paprika without the heat, liver once in a while, fish without bones, egg, beans, and the small celebration cakes families actually want to bake. Where a dish was already a plain cooked fruit or vegetable, the recipe stays close to that idea.</p>
-      <h2>What was changed</h2>
-      <p>Added salt and sugar come out of food for children under one. Honey is not used at all here. Peanut, egg, milk, wheat, sesame, fish, soy, and ground nuts are offered around six months in a safe texture, instead of being delayed toward the first birthday. Fried crusts become oven bakes. Whole nuts, round hard pieces, carp, mustard in the early months, and salty ham are replaced. Each recipe page says whether the idea was sound, adjusted, or replaced.</p>
-      <h2>How the guides were written</h2>
-      <p>Claims about age, iron, protein, allergens, vitamin D, and choking are tied to a real source: ESPGHAN, WHO, EFSA, the LEAP and EAT trials, NHS, CDC, AAP, or a Hungarian public page. If a familiar local page still teaches an older fruit-then-meat ladder, the guide says so. This site does not invent a personal dose of medicine. Vitamin D for a breastfed baby is a prescribed product.</p>
-      <h2>What this site will not do</h2>
-      <p>It will not tell you that your child is well. It will not walk you through infant back blows as if reading them once were training. Take a first-aid course. If a baby is silent and cannot cough, call for emergency help.</p>
+      {sections}
     </section>
     """
-    write_page("about.html", chrome("About · First foods", body, "about"))
+    write_page(page_path(ui, "/about.html"), chrome(ui, f"{ui['about']} · {ui['doc_title']}", body, "about", "/about.html"))
 
 
-def topic_index(groups) -> None:
+def topic_index(ui, groups) -> None:
     blocks = []
     for label, batch in groups:
         cards = []
         for topic in batch:
             cards.append(
-                f"""<a class="card" href="/topics/{esc(topic['id'])}.html">
+                f"""<a class="card" href="{href(ui, '/topics/' + topic['id'] + '.html')}">
               <h2>{esc(topic['title'])}</h2>
               <p>{esc(topic['byline'])}</p>
             </a>"""
@@ -357,22 +682,22 @@ def topic_index(groups) -> None:
         blocks.append(f"<section class=\"section\"><h2>{esc(label)}</h2><div class=\"grid-2\">{''.join(cards)}</div></section>")
     body = f"""
     <section class="section">
-      <p class="kicker">Guides</p>
-      <h1>What to know before the recipes.</h1>
-      <p class="lede">Short findings first. The longer explanation is on the same page, and the sources are linked.</p>
+      <p class="kicker">{esc(ui['guides'])}</p>
+      <h1>{esc(ui['guides_h1'])}</h1>
+      <p class="lede">{esc(ui['guides_lede'])}</p>
     </section>
     {''.join(blocks)}
     """
-    write_page("topics/index.html", chrome("Guides · First foods", body, "topics"))
+    write_page(page_path(ui, "/topics/"), chrome(ui, f"{ui['guides']} · {ui['doc_title']}", body, "topics", "/topics/"))
 
 
-def topic_pages(groups) -> None:
+def topic_pages(ui, groups) -> None:
     flat = [topic for _label, batch in groups for topic in batch]
     for topic in flat:
         side = []
         for other in flat:
             mark = ' aria-current="page"' if other["id"] == topic["id"] else ""
-            side.append(f'<a href="/topics/{esc(other["id"])}.html"{mark}>{esc(other["title"])}</a>')
+            side.append(f'<a href="{href(ui, "/topics/" + other["id"] + ".html")}"{mark}>{esc(other["title"])}</a>')
         findings = []
         for finding in topic["findings"]:
             findings.append(
@@ -382,7 +707,7 @@ def topic_pages(groups) -> None:
             )
         sections = []
         for section in topic["sections"]:
-            paragraphs = "".join(f"<p>{esc(p)}</p>" for p in section["paragraphs"])
+            paragraphs = "".join(f"<p>{esc(paragraph)}</p>" for paragraph in section["paragraphs"])
             sections.append(f"<h2 id=\"{esc(section['id'])}\">{esc(section['heading'])}</h2>{paragraphs}")
         refs = []
         for index, ref in enumerate(topic["references"], start=1):
@@ -393,104 +718,112 @@ def topic_pages(groups) -> None:
             </li>"""
             )
         image = topic.get("image") or "plate-a.jpg"
-        alt = topic.get("image_alt") or IMAGES.get(image, "A bowl of soft food")
+        alt = topic.get("image_alt") or IMAGES.get(image, "")
+        bare = f"/topics/{topic['id']}.html"
         body = f"""
         <div class="layout">
           <aside class="side">
-            <strong>Guides</strong>
+            <strong>{esc(ui['side_guides'])}</strong>
             {''.join(side)}
           </aside>
           <article class="prose">
-            <p class="kicker">Guide</p>
+            <p class="kicker">{esc(ui['guides'])}</p>
             <h1>{esc(topic['title'])}</h1>
             <p class="lede">{esc(topic['byline'])}</p>
             <figure class="hero-photo">
               <img src="/assets/img/{esc(image)}" alt="{esc(alt)}">
             </figure>
-            <h2>Findings</h2>
+            <h2>{esc(ui['findings'])}</h2>
             {''.join(findings)}
             {''.join(sections)}
-            <h2>References</h2>
+            <h2>{esc(ui['references'])}</h2>
             <ol class="refs">{''.join(refs)}</ol>
           </article>
         </div>
         """
-        write_page(f"topics/{topic['id']}.html", chrome(f"{topic['title']} · First foods", body, "topics"))
+        write_page(page_path(ui, bare), chrome(ui, f"{topic['title']} · {ui['doc_title']}", body, "topics", bare))
 
 
-def recipe_card(recipe: dict) -> str:
+def recipe_card(ui, recipe: dict) -> str:
     verdict = recipe["verdict"]
     pill = "sage" if verdict == "sound" else "warn"
-    return f"""<a class="recipe-card" href="/recipes/{esc(recipe['id'])}.html" data-recipe-card>
+    primary = recipe["title_hu"] if ui["code"] == "hu" else recipe["title"]
+    secondary = recipe["title"] if ui["code"] == "hu" else recipe["title_hu"]
+    return f"""<a class="recipe-card" href="{href(ui, '/recipes/' + recipe['id'] + '.html')}">
       <div class="pills">
-        <span class="pill">{esc(recipe['min_age_months'])} months+</span>
-        <span class="pill {pill}">{esc(VERDICTS[verdict])}</span>
-        <span class="pill quiet">{esc(CATEGORIES[recipe['category']])}</span>
+        <span class="pill">{esc(recipe['min_age_months'])} {esc(ui['months'])}</span>
+        <span class="pill {pill}">{esc(ui['verdicts'][verdict])}</span>
+        <span class="pill quiet">{esc(ui['categories'][recipe['category']])}</span>
       </div>
-      <h3>{esc(recipe['title'])}</h3>
-      <p class="hu">{esc(recipe['title_hu'])}</p>
-      <p>{esc(recipe['time_minutes'])} min · {esc(portions_label(recipe['portions']))}</p>
+      <h3>{esc(primary)}</h3>
+      <p class="hu">{esc(secondary)}</p>
+      <p>{esc(recipe['time_minutes'])} min · {esc(portions_label(recipe['portions'], ui))}</p>
     </a>"""
 
 
-def recipe_index(recipes: list[dict]) -> None:
-    chips = ['<button type="button" data-filter-cat="all" aria-pressed="true">All</button>']
-    for key, label in CATEGORIES.items():
+def recipe_index(ui, recipes: list[dict]) -> None:
+    chips = [f'<button type="button" data-filter-cat="all" aria-pressed="true">{esc(ui["all"])}</button>']
+    for key, label in ui["categories"].items():
         chips.append(f'<button type="button" data-filter-cat="{esc(key)}" aria-pressed="false">{esc(label)}</button>')
-    verdict_chips = ['<button type="button" data-filter-verdict="all" aria-pressed="true">Any note</button>']
-    for key, label in VERDICTS.items():
+    verdict_chips = [f'<button type="button" data-filter-verdict="all" aria-pressed="true">{esc(ui["any_note"])}</button>']
+    for key, label in ui["verdicts"].items():
         verdict_chips.append(
             f'<button type="button" data-filter-verdict="{esc(key)}" aria-pressed="false">{esc(label)}</button>'
         )
-    slim = [
-        {
+    ages = "".join(
+        f'<option value="{age}">{esc(ui["age_option"].format(n=age))}</option>' for age in AGES
+    )
+    slim = []
+    for recipe in recipes:
+        primary = recipe["title_hu"] if ui["code"] == "hu" else recipe["title"]
+        secondary = recipe["title"] if ui["code"] == "hu" else recipe["title_hu"]
+        slim.append({
             "id": recipe["id"],
             "title": recipe["title"],
             "title_hu": recipe["title_hu"],
+            "primary": primary,
+            "secondary": secondary,
             "category": recipe["category"],
-            "category_label": CATEGORIES[recipe["category"]],
+            "category_label": ui["categories"][recipe["category"]],
             "min_age_months": recipe["min_age_months"],
             "time_minutes": recipe["time_minutes"],
-            "portions": portions_label(recipe["portions"]),
+            "portions": portions_label(recipe["portions"], ui),
             "verdict": recipe["verdict"],
-            "verdict_label": VERDICTS[recipe["verdict"]],
-        }
-        for recipe in recipes
-    ]
+            "verdict_label": ui["verdicts"][recipe["verdict"]],
+        })
     payload = json.dumps(slim, ensure_ascii=False).replace("<", "\\u003c")
-    cards = "".join(recipe_card(recipe) for recipe in recipes)
+    cards = "".join(recipe_card(ui, recipe) for recipe in recipes)
     body = f"""
     <section class="section">
-      <p class="kicker">Recipes</p>
-      <h1>Cook these versions.</h1>
-      <p class="lede">Filter by the age of the child. A recipe appears when its minimum age is at or below the age you choose. Hungarian names are kept so you can find the dish you had in mind.</p>
+      <p class="kicker">{esc(ui['recipes'])}</p>
+      <h1>{esc(ui['cook_h1'])}</h1>
+      <p class="lede">{esc(ui['cook_lede'])}</p>
       <div class="filters">
-        <input type="search" data-filter-q placeholder="Search by name" aria-label="Search recipes">
-        <label class="meta" for="age">Show recipes a child this age can start</label>
-        <select id="age" data-filter-age>
-          <option value="">Any minimum age</option>
-          <option value="6">6 months</option>
-          <option value="7">7 months</option>
-          <option value="8">8 months</option>
-          <option value="9">9 months</option>
-          <option value="10">10 months</option>
-          <option value="12">12 months</option>
+        <input type="search" data-filter-q placeholder="{esc(ui['search_placeholder'])}" aria-label="{esc(ui['search_label'])}">
+        <label class="meta" for="age-{ui['code']}">{esc(ui['age_label'])}</label>
+        <select id="age-{ui['code']}" data-filter-age>
+          <option value="">{esc(ui['any_age'])}</option>
+          {ages}
         </select>
-        <div class="chips" role="group" aria-label="Category">{''.join(chips)}</div>
-        <div class="chips" role="group" aria-label="Scrutiny">{''.join(verdict_chips)}</div>
-        <p class="count" data-count>{len(recipes)} recipes</p>
+        <div class="chips" role="group" aria-label="{esc(ui['category_label'])}">{''.join(chips)}</div>
+        <div class="chips" role="group" aria-label="{esc(ui['scrutiny_label'])}">{''.join(verdict_chips)}</div>
+        <p class="count" data-count>{len(recipes)} {esc(ui['many'])}</p>
       </div>
       <div class="recipe-list" data-recipe-list>
         {cards}
       </div>
     </section>
     <script>window.RECIPES = {payload};</script>
-    <script src="/assets/site.js"></script>
     """
-    write_page("recipes/index.html", chrome("Recipes · First foods", body, "recipes"))
+    write_page(
+        page_path(ui, "/recipes/"),
+        chrome(ui, f"{ui['recipes']} · {ui['doc_title']}", body, "recipes", "/recipes/", extra_script=""),
+    )
+    # The recipe payload must sit before site.js. chrome already appends site.js after extra_script,
+    # and the payload is inside body, which is before that script. Good.
 
 
-def recipe_pages(recipes: list[dict]) -> None:
+def recipe_pages(ui, recipes: list[dict]) -> None:
     by_category: dict[str, list[dict]] = {}
     for recipe in recipes:
         by_category.setdefault(recipe["category"], []).append(recipe)
@@ -503,59 +836,94 @@ def recipe_pages(recipes: list[dict]) -> None:
             for item in recipe["ingredients"]
         )
         steps = "".join(f"<li>{esc(step)}</li>" for step in recipe["method"])
-        allergens = recipe["allergens"] or ["none"]
-        allergen_pills = "".join(f'<span class="pill quiet">{esc(name)}</span>' for name in allergens)
+        names = [ui["allergens"].get(name, name) for name in (recipe["allergens"] or ["none"])]
+        allergen_pills = "".join(f'<span class="pill quiet">{esc(name)}</span>' for name in names)
         related = [other for other in by_category[recipe["category"]] if other["id"] != recipe["id"]][:3]
         related_html = "".join(
-            f'<a href="/recipes/{esc(other["id"])}.html">{esc(other["title"])}</a>' for other in related
+            f'<a href="{href(ui, "/recipes/" + other["id"] + ".html")}">{esc(other["title_hu"] if ui["code"] == "hu" else other["title"])}</a>'
+            for other in related
         )
-        freezer = "Freezes well." if recipe["freezer"] else "Best eaten fresh."
+        freezer = ui["freezer_yes"] if recipe["freezer"] else ui["freezer_no"]
         verdict = recipe["verdict"]
+        primary = recipe["title_hu"] if ui["code"] == "hu" else recipe["title"]
+        secondary = recipe["title"] if ui["code"] == "hu" else recipe["title_hu"]
+        bare = f"/recipes/{recipe['id']}.html"
         body = f"""
         <article>
           <div class="recipe-hero">
             <div>
-              <p class="kicker">{esc(CATEGORIES[recipe['category']])}</p>
-              <h1>{esc(recipe['title'])}</h1>
-              <p class="hu">{esc(recipe['title_hu'])}</p>
+              <p class="kicker">{esc(ui['categories'][recipe['category']])}</p>
+              <h1>{esc(primary)}</h1>
+              <p class="hu">{esc(secondary)}</p>
               <div class="pills">
-                <span class="pill">{esc(recipe['min_age_months'])} months+</span>
-                <span class="pill {'sage' if verdict == 'sound' else 'warn'}">{esc(VERDICTS[verdict])}</span>
+                <span class="pill">{esc(recipe['min_age_months'])} {esc(ui['months'])}</span>
+                <span class="pill {'sage' if verdict == 'sound' else 'warn'}">{esc(ui['verdicts'][verdict])}</span>
                 <span class="pill quiet">{esc(recipe['time_minutes'])} min</span>
-                <span class="pill quiet">{esc(portions_label(recipe['portions']))}</span>
+                <span class="pill quiet">{esc(portions_label(recipe['portions'], ui))}</span>
               </div>
               <p>{esc(recipe['serve'])}</p>
-              <p class="meta">{freezer}</p>
+              <p class="meta">{esc(freezer)}</p>
             </div>
-            <img src="/assets/img/{image}" alt="{esc(IMAGES[image])}">
+            <img src="/assets/img/{image}" alt="{esc(ui['img_alt'][image])}">
           </div>
           <div class="split">
             <section class="panel">
-              <h2>Ingredients</h2>
+              <h2>{esc(ui['ingredients'])}</h2>
               <ul>{ingredients}</ul>
-              <h2>Allergens</h2>
+              <h2>{esc(ui['allergens_h'])}</h2>
               <div class="pills">{allergen_pills}</div>
             </section>
             <section class="panel">
-              <h2>Method</h2>
+              <h2>{esc(ui['method'])}</h2>
               <ol>{steps}</ol>
             </section>
           </div>
           <section class="callout {esc(verdict)}">
-            <h2>{esc(VERDICTS[verdict])}</h2>
+            <h2>{esc(ui['verdicts'][verdict])}</h2>
             <p>{esc(recipe['issues'])}</p>
             <p>{esc(recipe['changes'])}</p>
           </section>
           <aside class="side">
-            <strong>More in this group</strong>
-            {related_html or '<p class="meta">No other recipes in this group yet.</p>'}
+            <strong>{esc(ui['more'])}</strong>
+            {related_html or '<p class="meta">' + esc(ui['more_empty']) + '</p>'}
           </aside>
         </article>
         """
-        write_page(
-            f"recipes/{recipe['id']}.html",
-            chrome(f"{recipe['title']} · First foods", body, "recipes"),
-        )
+        write_page(page_path(ui, bare), chrome(ui, f"{primary} · {ui['doc_title']}", body, "recipes", bare))
+
+
+def with_language(groups, recipes, lang: str):
+    ui = UI[lang]
+    labeled = []
+    if lang == "en":
+        for (filename, _label), batch in zip(TOPIC_GROUPS, [group[1] for group in groups]):
+            labeled.append((ui["groups"][filename], batch))
+        return ui, labeled, recipes
+    hu_topics = {}
+    for filename, _label in TOPIC_GROUPS:
+        path = CONTENT / "hu" / "topics" / filename
+        if not path.exists():
+            raise SystemExit(f"Missing {path}")
+        for topic in load_json(path):
+            hu_topics[topic["id"]] = topic
+    missing_topics = [
+        topic["id"] for _label, batch in groups for topic in batch if topic["id"] not in hu_topics
+    ]
+    if missing_topics:
+        raise SystemExit("Missing Hungarian topics: " + ", ".join(missing_topics))
+    labeled = []
+    for (filename, _label), batch in zip(TOPIC_GROUPS, [group[1] for group in groups]):
+        labeled.append((ui["groups"][filename], [overlay_topic(topic, hu_topics[topic["id"]]) for topic in batch]))
+    hu_recipes = {}
+    for path in sorted((CONTENT / "hu" / "recipes").glob("*.json")):
+        for recipe in load_json(path):
+            recipe = normalize_recipe(recipe)
+            hu_recipes[recipe["id"]] = recipe
+    missing = [recipe["id"] for recipe in recipes if recipe["id"] not in hu_recipes]
+    if missing:
+        raise SystemExit("Missing Hungarian recipes: " + ", ".join(missing[:12]))
+    translated = [overlay_recipe(recipe, hu_recipes[recipe["id"]]) for recipe in recipes]
+    return ui, labeled, translated
 
 
 def copy_assets() -> None:
@@ -565,19 +933,25 @@ def copy_assets() -> None:
     shutil.copytree(ASSETS, target)
 
 
+def render(lang: str, groups, recipes) -> None:
+    ui, localized_groups, localized_recipes = with_language(groups, recipes, lang)
+    home(ui, localized_groups, localized_recipes)
+    about_page(ui)
+    topic_index(ui, localized_groups)
+    topic_pages(ui, localized_groups)
+    recipe_index(ui, localized_recipes)
+    recipe_pages(ui, localized_recipes)
+
+
 def main() -> None:
     if DIST.exists():
         shutil.rmtree(DIST)
     DIST.mkdir()
     groups, _topics, recipes = load_content()
     copy_assets()
-    home(groups, recipes)
-    about_page()
-    topic_index(groups)
-    topic_pages(groups)
-    recipe_index(recipes)
-    recipe_pages(recipes)
-    print(f"Wrote {DIST} ({len(recipes)} recipes)")
+    render("en", groups, recipes)
+    render("hu", groups, recipes)
+    print(f"Wrote {DIST} ({len(recipes)} recipes, two languages)")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "pumpkin-puree",
+    "title": "Pumpkin purée",
+    "title_hu": "Sütőtökpüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "sütőtök", "amount": "320 g", "note": "előkészített súly, hámozva és magozva"},
+      {"item": "anyatej, tápszer vagy víz", "amount": "4 evőkanál", "note": "éppen annyi, hogy simára turmixolható legyen"}
+    ],
+    "method": [
+      "Hámozd meg a sütőtököt, kapard ki a magokat, és a húsát vágd darabokra.",
+      "Gőzöld kb. 15 percig, vagy süsd 200 °C-on kb. 25 percig, amíg nagyon puha nem lesz.",
+      "Egy kanál anyatejjel, tápszerrel vagy vízzel turmixold simára.",
+      "Hűtsd éppen langyosra.",
+      "Sót és cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A sütőtökbe néha sót vagy cukrot kevernek, pedig egy hat hónaposnak egyikre sincs szüksége."
+    ],
+    "changes": [
+      "Nincs más teendő, mint hogy a só és a cukor kimaradjon.",
+      "A sütőtököt süsd vagy gőzöld, és anyatejjel, tápszerrel vagy vízzel lazítsd fel."
+    ],
+    "serve": "Kanállal adj belőle néhány teáskanálnyit, és hígítsd, ha túl sűrű.",
+    "freezer": true
+  },
+  {
+    "id": "peach-puree",
+    "title": "Peach purée",
+    "title_hu": "Barackpüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "érett őszibarack vagy sárgabarack", "amount": "320 g", "note": "előkészített súly, hámozva és kimagozva"},
+      {"item": "víz", "amount": "2 evőkanál", "note": "csak ha a püré túl sűrű"}
+    ],
+    "method": [
+      "A gyümölcs húsát vágd le a magról, és a mag minden darabját dobd ki.",
+      "Hámozd meg a gyümölcsöt, és a nyomódott részeket vágd le.",
+      "Gőzöld kb. 8 percig, amíg puha nem lesz.",
+      "Turmixold simára; vizet csak akkor adj hozzá egy kanállal, ha szükséged van rá.",
+      "Nézd át újra a pürét, nincs-e benne magtöredék.",
+      "Cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A gyümölcsben maradt magdarab fulladásveszélyes.",
+      "Az éretlen gyümölcsből nem lesz sima első püré."
+    ],
+    "changes": [
+      "Érett őszibarackot vagy sárgabarackot használj, hámozd meg, és a magot teljesen szedd ki.",
+      "Gőzöld, és turmixold simára, cukor nélkül."
+    ],
+    "serve": "Langyosan vagy hidegen, kanállal add, miután még egyszer megnézted, nincs-e benne magtöredék.",
+    "freezer": true
+  },
+  {
+    "id": "potato-puree",
+    "title": "Potato purée",
+    "title_hu": "Burgonyapüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "lisztes burgonya", "amount": "300 g", "note": "hámozott súly"},
+      {"item": "főzővíz, anyatej vagy tápszer", "amount": "80 ml", "note": "vagy ugyanennyi pasztőrözött teljes zsírtartalmú tehéntej, ami tejallergén"}
+    ],
+    "method": [
+      "Hámozd meg a burgonyát, és vágd egyforma darabokra.",
+      "Vízben főzd, amíg a kés könnyen átszalad rajta; a lábosba sót ne tegyél.",
+      "Szűrd le, és tarts meg egy keveset a főzővízből.",
+      "Főzővízzel, anyatejjel vagy tápszerrel törd simára.",
+      "Pasztőrözött teljes zsírtartalmú tehéntejet csak akkor használj, ha a tejallergént elfogadod.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A burgonya kevés vasat tartalmaz, ezért egy tál belőle önmagában gyenge étel.",
+      "A tehéntej tejallergént visz bele, és gyakran sót is törnek a pürébe."
+    ],
+    "changes": [
+      "Főzővízzel, anyatejjel vagy tápszerrel törd össze, és pasztőrözött teljes zsírtartalmú tehéntejet csak akkor használj, ha ez az allergén már a terv része.",
+      "Sót ne adj hozzá, és a pürét hússal, lencsével vagy teljesen átsült tojással add."
+    ],
+    "serve": "Add hússal, lencsével vagy teljesen átsült tojással, hogy a tányéron legyen vas. Főzővízzel, anyatejjel vagy tápszerrel a tehéntej kimarad.",
+    "freezer": true
+  },
+  {
+    "id": "apple-puree",
+    "title": "Apple purée",
+    "title_hu": "Almapüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "alma", "amount": "320 g", "note": "előkészített súly, hámozva és magház nélkül"},
+      {"item": "víz", "amount": "3 evőkanál", "note": "a lábasba, és még egy kanál, ha a püré sűrű"}
+    ],
+    "method": [
+      "Hámozd meg az almákat, vágd ki a magházat, és a húsát szeleteld fel.",
+      "Egy kevés vízben főzd teljesen puhára, kb. 10 percig.",
+      "Turmixold simára.",
+      "Hűtsd éppen langyosra.",
+      "Cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A nyers reszelt alma rossz első állag.",
+      "Gyakran cukrot adnak hozzá, pedig az almának nincs rá szüksége."
+    ],
+    "changes": [
+      "Az almát főzd puhára, és turmixold simára, cukor nélkül.",
+      "A nyers reszelt almát akkorra tartogasd, amikor a baba már jól rág."
+    ],
+    "serve": "A főtt pürét kanállal add. A nyers reszelt alma addig vár, amíg a rágás megbízható.",
+    "freezer": true
+  },
+  {
+    "id": "pear-puree",
+    "title": "Pear purée",
+    "title_hu": "Körtepüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "érett körte", "amount": "320 g", "note": "előkészített súly, hámozva és magház nélkül"},
+      {"item": "víz", "amount": "2 evőkanál", "note": "a lábasba"}
+    ],
+    "method": [
+      "Hámozd meg a körtét, és vedd ki a magházát.",
+      "Egy kevés vízben főzd puhára, kb. 8 percig.",
+      "Turmixold simára.",
+      "Hűtsd éppen langyosra.",
+      "Cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A héjnak és a magháznak nincs helye az első pürében, a cukor pedig felesleges."
+    ],
+    "changes": [
+      "Az érett körtét hámozd meg, vedd ki a magházát, főzd meg, és turmixold.",
+      "Más változtatásra nincs szükség, ha a só és a cukor kimarad."
+    ],
+    "serve": "Langyosan vagy hidegen add, olyan simán, hogy kanállal ehető legyen.",
+    "freezer": true
+  },
+  {
+    "id": "sweet-potato-puree",
+    "title": "Sweet potato purée",
+    "title_hu": "Édesburgonyapüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 45,
+    "ingredients": [
+      {"item": "édesburgonya", "amount": "400 g", "note": "egész súly sütés előtt"},
+      {"item": "víz vagy anyatej", "amount": "4 evőkanál", "note": "csak a lazításhoz"}
+    ],
+    "method": [
+      "Melegítsd elő a sütőt 200 °C-ra.",
+      "Szurkáld meg az édesburgonyát, és süsd, amíg a belseje nagyon puha, kb. 40 percig.",
+      "Hűtsd addig, hogy megfoghasd, aztán a húsát kapard ki a héjából.",
+      "Törd össze vagy turmixold simára; ha kemény, egy kanál vízzel vagy anyatejjel.",
+      "Sót és cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Ez erős első étel, és a szokásos hiba az, hogy ízesítik."
+    ],
+    "changes": [
+      "Süsd meg, kapard ki, és lazítsd fel a húsát.",
+      "A só és a cukor maradjon ki, mást nem kell változtatni."
+    ],
+    "serve": "Néhány teáskanál már teljes első kóstoló. Az íze eleve édes.",
+    "freezer": true
+  },
+  {
+    "id": "mango-puree",
+    "title": "Mango purée",
+    "title_hu": "Mangópüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 10,
+    "ingredients": [
+      {"item": "érett mangó", "amount": "180 g", "note": "csak a hús, hámozva, a magról levágva"}
+    ],
+    "method": [
+      "Válassz érett mangót, amely nyomásra kissé enged.",
+      "Hámozd meg, és a húst vágd le a magról.",
+      "A szálas rostokat vágd le.",
+      "Turmixold simára.",
+      "Ne főzd meg, és cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A mangópüré csúszós, a vastagabb darabok lecsúsznak a kanálról.",
+      "Az érett mangót felesleges megfőzni."
+    ],
+    "changes": [
+      "Az érett mangót turmixold össze, és kanállal add.",
+      "Az érett mangónak nincs szüksége főzésre és cukorra."
+    ],
+    "serve": "Kanállal add, hogy ne csússzon le. Első kóstolóra néhány teáskanál elég.",
+    "freezer": true
+  },
+  {
+    "id": "banana-mash",
+    "title": "Banana mash",
+    "title_hu": "Banánpüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 5,
+    "ingredients": [
+      {"item": "érett banán", "amount": "1", "note": "sárga, barna foltokkal, hámozva"}
+    ],
+    "method": [
+      "Hámozz meg egy érett banánt.",
+      "Villával törd teljesen simára.",
+      "A felét most add, a másik felét lefedve tedd el a nap következő étkezésére.",
+      "Cukrot ne adj hozzá, és ne ezt add minden nap ételként."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A banán kevés vasat tartalmaz, ezért rossz mindennapi alapétel.",
+      "A sok banán lelassíthatja a székletet."
+    ],
+    "changes": [
+      "Érett banánt törj össze, és időnként adj belőle kis adagot, ne minden nap főételként.",
+      "A többi étkezésben legyen hús, lencse vagy tojás, hogy a vas ne maradjon ki."
+    ],
+    "serve": "Kis adag pépet adj, ne minden étkezésre banánt. Ugyanazon a napon kerüljön az asztalra vasban gazdag étel.",
+    "freezer": false
+  },
+  {
+    "id": "apple-chestnut-puree",
+    "title": "Apple and chestnut purée",
+    "title_hu": "Almás gesztenyepüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "főtt, hámozott gesztenye", "amount": "80 g", "note": "sima, cukor és só nélkül, nem édesített krém"},
+      {"item": "alma", "amount": "200 g", "note": "előkészített súly, hámozva, magház nélkül, puhára főzve"}
+    ],
+    "method": [
+      "Sima, teljesen hámozott főtt gesztenyét használj, vagy a hámozott gesztenyét főzd puhára.",
+      "A hámozott, magház nélküli almát főzd puhára.",
+      "A gesztenyét és az almát együtt turmixold, amíg nem marad benne darab.",
+      "Főzővízből csak akkor adj egy kanállal, ha a penge megakad.",
+      "Cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A gesztenyedarabok fulladást okozhatnak, ha a püré nem teljesen sima.",
+      "Gesztenyeallergia létezik, és a gesztenye nem ugyanaz az étel, mint a földimogyoró vagy a dió."
+    ],
+    "changes": [
+      "A főtt, hámozott gesztenyét főtt almával turmixold teljesen simára, és az első kis adagot olyan napon add, amikor a baba jól van.",
+      "Ezt ne számítsd a diófélék bevezetésének, és ne használj édesített gesztenyekrémet."
+    ],
+    "serve": "Teljesen sima legyen. Kis adaggal kezdd, olyan napon, amikor a baba jól van.",
+    "freezer": true
+  },
+  {
+    "id": "blueberry-apple-puree",
+    "title": "Blueberry and apple purée",
+    "title_hu": "Áfonyás almapüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "alma", "amount": "250 g", "note": "előkészített súly, hámozva és magház nélkül"},
+      {"item": "áfonya", "amount": "80 g", "note": "friss vagy fagyasztott, hozzáadott cukor nélkül"}
+    ],
+    "method": [
+      "Hámozd meg az almát, vedd ki a magházát, és szeleteld fel.",
+      "Az almát az áfonyával és egy kevés vízzel főzd, amíg az alma puha.",
+      "A bogyókat nyomd szét, hogy a héjuk kipattanjon.",
+      "Turmixold simára.",
+      "Cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Az egész áfonyahéj rossz állag az első pürében."
+    ],
+    "changes": [
+      "Főzd meg az almát, és az áfonyát nyomd szét, hogy a héja kipattanjon, aztán turmixold simára.",
+      "Cukorra nincs szükség."
+    ],
+    "serve": "Kanállal add. A színe megfoghat, ez ártalmatlan.",
+    "freezer": true
+  },
+  {
+    "id": "avocado-banana",
+    "title": "Avocado and banana purée",
+    "title_hu": "Avokádó-banán püré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 5,
+    "ingredients": [
+      {"item": "érett avokádó", "amount": "1", "note": "mag és héj nélkül"},
+      {"item": "érett banán", "amount": "1/2", "note": "hámozva és összetörve"}
+    ],
+    "method": [
+      "Az avokádót vágd ketté, és emeld ki a magját.",
+      "A húsát kapard ki, és villával törd össze.",
+      "Törj hozzá fél érett banánt, amíg sima nem lesz.",
+      "Azonnal add, mielőtt a teteje megbarnul.",
+      "Sót és cukrot ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Az avokádó hamar megbarnul, és a legjobb azonnal megenni."
+    ],
+    "changes": [
+      "Érett avokádót törj össze egy kevés banánnal, és azonnal add.",
+      "A benne lévő zsír hasznos, sóra nincs szükség."
+    ],
+    "serve": "Azonnal add. Néhány teáskanál hasznos zsírt ad, nagy banánadag nélkül.",
+    "freezer": false
+  },
+  {
+    "id": "first-puree-mixes",
+    "title": "More purée mixes",
+    "title_hu": "További pürévariációk",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "első, már ismert étel", "amount": "80 g", "note": "főtt súly, hámozva és kimagozva, ahol kell"},
+      {"item": "második, már ismert étel", "amount": "40 g", "note": "főtt súly; ha harmadik ételt is teszel hozzá, az maradjon a legkisebb rész"},
+      {"item": "víz", "amount": "1–2 evőkanál", "note": "főzővíz, csak a lazításhoz"},
+      {"item": "natúr pasztőrözött teljes zsírtartalmú joghurt", "amount": "2 evőkanál", "note": "csak a körte és joghurt pároshoz; ez tejallergén"}
+    ],
+    "method": [
+      "Válassz két ételt, amit a baba már eszik, vagy legfeljebb hármat.",
+      "Főzd őket puhára, hámozd és magozd, ahol kell, és egy kanál főzővízzel turmixold simára.",
+      "Ilyen párok jók: sütőtök és alma, brokkoli és burgonya, valamint borsó és édesburgonya.",
+      "Más jó párok: cukkini és répa, körte és natúr joghurt, valamint csirke és sütőtök.",
+      "A csirkét főzd át úgy, hogy ne legyen benne rózsaszín, a zöldséget pedig addig, amíg könnyen törhető.",
+      "A hétköznapi zöldségek között nem kell hónapokat várni, és a joghurtos páros az, amelyik tejallergént tartalmaz."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A családok néha hónapokat várnak a hétköznapi zöldségek között, táplálkozási ok nélkül.",
+      "A joghurt, ha azt a párost használod, tejallergén."
+    ],
+    "changes": [
+      "Két már ismert ételt főzz össze és keverj, legfeljebb hármat, miután mindegyiket már ették önmagában.",
+      "A hétköznapi zöldségek közé nem kell hónapokat tenni, és csak a körte és joghurt páros tartalmaz tejet."
+    ],
+    "serve": "Egy keverék elég egy olyan napon, amikor a baba jól van. A zöldséges és a húsos keverékeket fagyaszd le; a joghurtos párost aznap edd meg.",
+    "freezer": true
+  },
+  {
+    "id": "apple-peach-semolina",
+    "title": "Apple and peach semolina with yogurt",
+    "title_hu": "Almás-barackos búzadara joghurttal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "finom búzadara", "amount": "25 g", "note": "glutén"},
+      {"item": "víz", "amount": "200 ml", "note": "a búzadara főzéséhez"},
+      {"item": "natúr pasztőrözött teljes zsírtartalmú joghurt", "amount": "80 g", "note": "tejallergén"},
+      {"item": "főtt alma", "amount": "60 g", "note": "hámozva, magház nélkül, megfőzve"},
+      {"item": "főtt őszibarack", "amount": "60 g", "note": "hámozva, kimagozva és megfőzve"},
+      {"item": "ceyloni fahéj", "amount": "egy csipet", "note": "elhagyható"},
+      {"item": "főtt csirke vagy főtt lencse", "amount": "50 g", "note": "mellé; a lencse teljesen puhára főzve"}
+    ],
+    "method": [
+      "A búzadarát keverd forrásban lévő vízbe, és kevergetve főzd puhára és sűrűre.",
+      "A hámozott almát és a kimagozott, hámozott őszibarackot főzd puhára, és turmixold simára.",
+      "A búzadarát hűtsd langyosra, aztán keverd bele a joghurtot, a gyümölcsöt, és ha kéred, egy csipet ceyloni fahéjat.",
+      "Kekszmorzsát és cukrot ne adj hozzá.",
+      "Add mellé teljesen átsült, szétfosztott csirkét, vagy teljesen puhára főzött lencsét."
+    ],
+    "allergens": ["milk", "gluten"],
+    "verdict": "adjust",
+    "issues": [
+      "A búzadara kevés vasat tartalmaz, ezért ne ez legyen az egész étkezés.",
+      "A kekszmorzsa kevés hasznosat ad, glutént viszont igen."
+    ],
+    "changes": [
+      "A búzadarát vízben főzd meg, aztán keverj bele natúr teljes zsírtartalmú joghurtot és főtt almát meg őszibarackot, és ha kéred, egy csipet ceyloni fahéjat.",
+      "Tegyél mellé szétfosztott csirkét vagy jól megfőtt lencsét, a kekszmorzsát hagyd ki."
+    ],
+    "serve": "Langyosan add, csirkével vagy lencsével, hogy a tál ne csak búzadara legyen. Tejet és glutént tartalmaz.",
+    "freezer": false
+  },
+  {
+    "id": "pear-banana-oat",
+    "title": "Pear and banana with oats",
+    "title_hu": "Körtés banán zabbal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "finomra őrölt zabpehely", "amount": "20 g", "note": "gluténnek számít"},
+      {"item": "víz", "amount": "180 ml", "note": ""},
+      {"item": "érett körte", "amount": "120 g", "note": "előkészített súly, hámozva és magház nélkül"},
+      {"item": "érett banán", "amount": "1/2", "note": "hámozva"}
+    ],
+    "method": [
+      "Hámozd meg a körtét, vedd ki a magházát, és egy kevés vízben főzd puhára.",
+      "A zabpelyhet keverd a vízbe, és főzd puhára és simára, kb. 5 percig.",
+      "A banánt törd össze, és a körtével együtt keverd a langyos zabba.",
+      "Turmixold simára.",
+      "Kekszmorzsát és cukrot ne adj hozzá."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "adjust",
+    "issues": [
+      "A szokásos ráadás egy édes bolti keksz, amire ebben a tálban nincs szükség.",
+      "A zab itt gluténnek számít."
+    ],
+    "changes": [
+      "Finom zabpelyhet főzz puhára körtével és banánnal, kekszmorzsa helyett.",
+      "Az édes morzsás ráadást hagyd ki."
+    ],
+    "serve": "Langyosan és simán add. Ez a keksz nélküli változat, és glutént tartalmaz.",
+    "freezer": false
+  },
+  {
+    "id": "plum-peach-yogurt",
+    "title": "Plum and peach with yogurt",
+    "title_hu": "Szilvás barack joghurttal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "érett szilva", "amount": "2", "note": "kimagozva és hámozva"},
+      {"item": "érett őszibarack", "amount": "1", "note": "kimagozva és hámozva"},
+      {"item": "natúr pasztőrözött teljes zsírtartalmú joghurt", "amount": "120 g", "note": "tejallergén"}
+    ],
+    "method": [
+      "A szilva és az őszibarack húsát vágd le a magról, és a magokat dobd ki.",
+      "Hámozd meg a gyümölcsöt.",
+      "Gőzöld puhára, kb. 8 percig, aztán turmixold simára.",
+      "Hűtsd langyosra, és keverd a joghurtba.",
+      "Kanalazz át rajta, hogy egy magdarab se maradjon benne.",
+      "Cukrot ne adj hozzá."
+    ],
+    "allergens": ["milk"],
+    "verdict": "sound",
+    "issues": [
+      "A veszélyt a magok jelentik.",
+      "Az ízesített joghurt gyakran hozzáadott cukrot tartalmaz."
+    ],
+    "changes": [
+      "A szilvát és az őszibarackot magozd és hámozd meg, főzd és turmixold meg, majd keverd natúr pasztőrözött teljes zsírtartalmú joghurtba.",
+      "Más változtatásra nincs szükség."
+    ],
+    "serve": "Keverd össze, és aznap add. Tejet tartalmaz.",
+    "freezer": false
+  },
+  {
+    "id": "apple-blueberry-curd",
+    "title": "Green apple and blueberry with curd",
+    "title_hu": "Zöldalmás áfonya túrókrémmel",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "zöldalma", "amount": "120 g", "note": "előkészített súly, hámozva és magház nélkül"},
+      {"item": "áfonya", "amount": "40 g", "note": "friss vagy fagyasztott, hozzáadott cukor nélkül"},
+      {"item": "pasztőrözött teljes zsírtartalmú túró vagy cottage cheese", "amount": "100 g", "note": "hozzáadott só nélkül, ha találsz ilyet; tejallergén"},
+      {"item": "natúr pasztőrözött teljes zsírtartalmú joghurt", "amount": "40 g", "note": "a túró lazításához"}
+    ],
+    "method": [
+      "Hámozd meg az almát, vedd ki a magházát, és az áfonyával együtt főzd puhára.",
+      "A bogyókat nyomd szét, hogy a héjuk kipattanjon, aztán a gyümölcsöt turmixold simára.",
+      "A joghurtot keverd a túróba, amíg fel nem lazul.",
+      "A langyos gyümölcsöt forgassd a túróba.",
+      "Kekszmorzsát és cukrot ne adj hozzá."
+    ],
+    "allergens": ["milk"],
+    "verdict": "adjust",
+    "issues": [
+      "Ezt gyakran 9 vagy 10 hónapos korig halasztják, táplálkozási ok nélkül.",
+      "Gyakran tesznek bele kekszmorzsát, pedig nincs rá szükség."
+    ],
+    "changes": [
+      "6 hónapos kortól add: főtt almát és áfonyát keverj joghurttal felazított pasztőrözött túróba.",
+      "A kekszet hagyd ki."
+    ],
+    "serve": "Hat hónapos kortól add, aznap. Tejet tartalmaz.",
+    "freezer": false
+  },
+  {
+    "id": "pineapple-curd",
+    "title": "Pineapple with curd",
+    "title_hu": "Túrós ananász",
+    "category": "mixed-purees",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 10,
+    "ingredients": [
+      {"item": "nagyon érett ananász", "amount": "30 g", "note": "friss hús, torzsa nélkül, nem szirupos konzerv"},
+      {"item": "pasztőrözött teljes zsírtartalmú túró vagy cottage cheese", "amount": "100 g", "note": "hozzáadott só nélkül, ha találsz ilyet; tejallergén"},
+      {"item": "natúr pasztőrözött teljes zsírtartalmú joghurt", "amount": "40 g", "note": "a túró lazításához"}
+    ],
+    "method": [
+      "Egy nagyon érett ananászról vágd le a torzsát és a héját, és vegyél egy kis darab húst.",
+      "Azt a húst nagyon apróra vágd, rostos szálak nélkül.",
+      "A joghurtot keverd a túróba.",
+      "Az ananászt forgassd át a túrón.",
+      "Cukrot ne adj hozzá, és ne ezt add első pürének."
+    ],
+    "allergens": ["milk"],
+    "verdict": "adjust",
+    "issues": [
+      "Az ananász csípheti a baba száját, ezért ez nem első püré.",
+      "Gyakran 11 hónapos korig halasztják, jó ok nélkül."
+    ],
+    "changes": [
+      "Csak kevés, nagyon érett, nagyon apróra vágott ananászt használj, túróba és joghurtba forgatva.",
+      "A 8 hónapos kor elég, ne várj 11 hónapos korig."
+    ],
+    "serve": "Kis tál nyolc hónapos kortól. Ha csíp, hagyd abba, és egy másik héten próbálj belőle kevesebbet. Tejet tartalmaz.",
+    "freezer": false
+  },
+  {
+    "id": "apple-yogurt-porridge",
+    "title": "Apple and yogurt oat porridge",
+    "title_hu": "Joghurtos alma zabkása",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "finomra őrölt zabpehely", "amount": "20 g", "note": "gluténnek számít"},
+      {"item": "víz", "amount": "180 ml", "note": ""},
+      {"item": "főtt alma", "amount": "80 g", "note": "hámozva, magház nélkül, megfőzve, cukor nélkül"},
+      {"item": "natúr pasztőrözött teljes zsírtartalmú joghurt", "amount": "80 g", "note": "tejallergén"}
+    ],
+    "method": [
+      "Hámozd meg az almát, vedd ki a magházát, főzd puhára, aztán törd simára.",
+      "A zabpelyhet keverd a vízbe, és főzd puhára, kb. 5 percig.",
+      "A kását hűtsd langyosra.",
+      "Keverd bele a joghurtot és az almát.",
+      "Cukrot ne adj hozzá."
+    ],
+    "allergens": ["milk", "gluten"],
+    "verdict": "replace",
+    "issues": [
+      "Ennek az ételnek a régebbi változata rebarbarát használt, ami csípős, és magas az oxaláttartalma.",
+      "A rebarbarához általában cukor kell, aminek ebben a tálban nincs helye."
+    ],
+    "changes": [
+      "A rebarbarát hagyd el, és helyette natúr joghurtot keverj a langyos zabkásába és a főtt almába.",
+      "A tál így is tejet és glutént tartalmaz, a joghurttól és a zabtól."
+    ],
+    "serve": "A kását langyosan add, belekevert joghurttal. Rebarbarát ne tegyél ebbe a tálba.",
+    "freezer": false
+  },
+  {
+    "id": "spinach-potato",
+    "title": "Spinach and potato",
+    "title_hu": "Spenótos burgonya",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "burgonya", "amount": "300 g", "note": "hámozott súly"},
+      {"item": "spenót", "amount": "60 g", "note": "mosott levelek, a tálnak csak kis része"},
+      {"item": "főtt körte vagy borsó", "amount": "60 g", "note": "hámozott, magház nélküli körte, vagy borsó, a C-vitamin miatt"},
+      {"item": "csapvíz", "amount": "amennyi a főzéshez kell", "note": "nem saját kútból származó víz"}
+    ],
+    "method": [
+      "Hámozd meg a burgonyát, és csapvízben főzd puhára.",
+      "Az utolsó 2 percre add hozzá a spenótot, amíg össze nem esik.",
+      "Keverj bele főtt körtét vagy borsót.",
+      "Szűrd le, tarts meg egy kanál csapvízből főtt levet, és turmixold simára.",
+      "Ne főzd saját kútból származó vízben, és sót ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "replace",
+    "issues": [
+      "A szokásos zöld főzelék sóskára épült, vagy arra, hogy a spenót legyen az egész étel.",
+      "A sóska rossz mindennapi zöldség csecsemőnek, mert magas az oxaláttartalma."
+    ],
+    "changes": [
+      "Készíts burgonya- és spenótpépet főtt körtével vagy borsóval a C-vitamin miatt, és a spenót legyen az étel egyik része, ne az egyetlen zöldség.",
+      "Ne főzd saját kútból származó vízben, mert az magas nitráttartalmú lehet, és sóskát ne használj."
+    ],
+    "serve": "Vegyes tálként add, ne egy csak spenótból álló tányérként. Csapvizet használj, ne saját kútból származó vizet.",
+    "freezer": true
+  },
+  {
+    "id": "white-bean-puree",
+    "title": "White bean purée",
+    "title_hu": "Babpüré",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 75,
+    "ingredients": [
+      {"item": "száraz fehérbab", "amount": "120 g szárazon", "note": "vagy 240 g sózatlan konzervbab, leöblítve"},
+      {"item": "répa", "amount": "120 g", "note": "hámozott súly"},
+      {"item": "olívaolaj", "amount": "2 teáskanál", "note": "a végén belekeverve"},
+      {"item": "víz", "amount": "amennyi a forraláshoz kell", "note": "só nélkül"}
+    ],
+    "method": [
+      "Ha szárazbabot használsz, áztasd be, szűrd le, és friss vízben, lobogó forrásban főzd teljesen puhára, gyakran 45–90 percig, hogy ne maradjon kemény közepe.",
+      "Ha konzervbabot használsz, sózatlanat válassz, öblítsd le, és melegítsd teljesen át.",
+      "Hámozd meg a répát, és főzd puhára.",
+      "A babot és a répát egy kevés főzővízzel turmixold simára.",
+      "Keverd bele az olívaolajat.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A nem eléggé megfőtt szárazbabtól a gyerek rosszul lehet.",
+      "A konzervbab gyakran sózott."
+    ],
+    "changes": [
+      "A szárazbabot erősen főzd teljesen puhára, vagy a sózatlan konzervbabot öblítsd le és melegítsd át.",
+      "Főtt répával és olívaolajjal turmixold, és sót ne adj hozzá."
+    ],
+    "serve": "Turmixold simára. Egyetlen babban se maradjon kemény közepe.",
+    "freezer": true
+  },
+  {
+    "id": "asparagus-potato-cheese",
+    "title": "Asparagus and potato with cheese",
+    "title_hu": "Spárgás burgonya sajttal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "újburgonya", "amount": "280 g", "note": "hámozott súly"},
+      {"item": "spárga", "amount": "120 g", "note": "csak a zsenge rész, a fás vége letörve"},
+      {"item": "pasztőrözött enyhe teljes zsírtartalmú sajt", "amount": "30 g", "note": "egy kis marék reszelve, mind a 4 adagra elosztva; tejallergén"}
+    ],
+    "method": [
+      "Hámozd meg a burgonyát, és vágd darabokra.",
+      "A spárga fás végét törd le, és a zsenge részét használd.",
+      "A burgonyát és a spárgát sózatlan vízben főzd, amíg a szárak könnyen szétnyomhatók.",
+      "Szűrd le, és tarts meg egy kanál főzővizet.",
+      "Add hozzá a reszelt sajtot, és turmixold simára.",
+      "Több sajtot ne adj hozzá, és sót se."
+    ],
+    "allergens": ["milk"],
+    "verdict": "adjust",
+    "issues": [
+      "A spárga rostos marad, ha nincs nagyon puhára főzve.",
+      "A sajt sós, ezért a nagy mennyiség ebben a korban túl sok nátrium."
+    ],
+    "changes": [
+      "Az újburgonyát és a spárgát addig főzd, amíg a szárak könnyen szétnyomhatók, aztán turmixold.",
+      "Csak egy kis marék pasztőrözött enyhe sajtot reszelj el a 4 adagra."
+    ],
+    "serve": "Mind a 4 adag együtt osztozik 30 g sajton. Langyosan add. Tejet tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "zucchini-potato",
+    "title": "Zucchini and potato purée",
+    "title_hu": "Cukkinis burgonyapüré",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "cukkini", "amount": "200 g", "note": "hámozva, a végei levágva"},
+      {"item": "burgonya", "amount": "220 g", "note": "hámozott súly"},
+      {"item": "póréhagyma", "amount": "40 g", "note": "csak a fehér és a halványzöld rész, gyökér és külső réteg nélkül"},
+      {"item": "olívaolaj", "amount": "2 teáskanál", "note": "a végén belekeverve"}
+    ],
+    "method": [
+      "Hámozd meg a cukkinit és a burgonyát, és a megmosott póréhagymát szeleteld fel.",
+      "Mind a hármat kevés sózatlan vízben főzd nagyon puhára.",
+      "Egy kanál főzővízzel turmixold simára.",
+      "Keverd bele az olívaolajat.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Ezt gyakran 9 hónapos korig tartják vissza, jó ok nélkül.",
+      "A póréhagymához és a burgonyához néha sót adnak."
+    ],
+    "changes": [
+      "A turmixolt cukkinit, burgonyát és póréhagymát 6 hónapos kortól add.",
+      "A végén olívaolajat keverj bele, és a sót hagyd ki."
+    ],
+    "serve": "Hat hónapos kortól add, simán, só nélkül.",
+    "freezer": true
+  },
+  {
+    "id": "carrot-jerusalem-artichoke",
+    "title": "Carrot and Jerusalem artichoke",
+    "title_hu": "Csicsókás répa",
+    "category": "mixed-purees",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "répa", "amount": "300 g", "note": "hámozott súly, ez a fő zöldség"},
+      {"item": "csicsóka", "amount": "40 g", "note": "csak egy kis darab, hámozva, mert a több puffadást okozhat"},
+      {"item": "olívaolaj", "amount": "2 teáskanál", "note": "a végén belekeverve"}
+    ],
+    "method": [
+      "Hámozd meg a répát és a csicsóka kis darabját.",
+      "Vágd darabokra, és sózatlan vízben főzd nagyon puhára.",
+      "Turmixold simára; ha kell, egy kanál főzővízzel.",
+      "A végén keverd bele az olívaolajat.",
+      "Leveskockát és sót ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A csicsóka fájdalmas puffadást okozhat, ha nagy az adag.",
+      "A leveskocka sós, és nincs helye a lábosban."
+    ],
+    "changes": [
+      "Leginkább répát használj, és csak egy kis darab csicsókát.",
+      "A végén keverj bele olívaolajat, 8 hónapos korban kezdd, és leveskockát ne használj."
+    ],
+    "serve": "Nyolc hónapos korban kezdd, kis adaggal. A csicsóka csak kis része a tálnak.",
+    "freezer": true
+  },
+  {
+    "id": "broccoli-cauliflower-cheese",
+    "title": "Cauliflower and broccoli with cheese",
+    "title_hu": "Karfiol és brokkoli sajttal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "brokkoli", "amount": "180 g", "note": "rózsák; a kemény szárat, ha használod, hámozd meg"},
+      {"item": "karfiol", "amount": "180 g", "note": "rózsák"},
+      {"item": "pasztőrözött enyhe teljes zsírtartalmú sajt", "amount": "30 g", "note": "szerény mennyiség; a tejmentes változathoz hagyd ki"},
+      {"item": "olívaolaj", "amount": "2 teáskanál", "note": "ezt használd sajt helyett, ha tejmentes ételt szeretnél"}
+    ],
+    "method": [
+      "A brokkolit és a karfiolt vágd kis rózsákra.",
+      "Gőzöld, vagy sózatlan vízben főzd nagyon puhára.",
+      "Egy kanál főzővízzel turmixold simára.",
+      "A reszelt sajtot akkor keverd bele, amikor a püré még langyos, és turmixold újra.",
+      "Tejmentes tálhoz a sajtot hagyd ki, és helyette az olívaolajat keverd bele.",
+      "Sót ne adj hozzá, és a sajtot ne növeld."
+    ],
+    "allergens": ["milk"],
+    "verdict": "sound",
+    "issues": [
+      "A sajt sós, ha a mennyiség több a szerénynél.",
+      "Akinek tejmentes tányér kell, az a sajtos változatot nem eheti."
+    ],
+    "changes": [
+      "A brokkolit és a karfiolt turmixold egy kevés pasztőrözött sajttal, vagy olívaolajjal, ha tejmentesen kéred.",
+      "A sajt maradjon szerény mennyiségű, mást nem kell változtatni."
+    ],
+    "serve": "A sajtos változat tejet tartalmaz. Az olívaolajos nem. A sajt maradjon 30 g, a 4 adagra elosztva.",
+    "freezer": true
+  },
+  {
+    "id": "fish-celeriac-sweet-potato",
+    "title": "Fish with sweet potato and celeriac",
+    "title_hu": "Halas édesburgonya zellerrel",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "bőr nélküli, szálkamentes tőkehal vagy hekk", "amount": "120 g", "note": "friss vagy natúr fagyasztott, nem füstölt; nem ponty"},
+      {"item": "édesburgonya", "amount": "200 g", "note": "hámozott súly"},
+      {"item": "zellergumó", "amount": "80 g", "note": "hámozott súly; zellerallergén"},
+      {"item": "szárított kakukkfű", "amount": "egy csipet", "note": "vagy néhány friss levél, a szár nélkül"}
+    ],
+    "method": [
+      "Hámozd meg az édesburgonyát és a zellergumót, és sózatlan vízben főzd puhára.",
+      "Add hozzá a halat és a kakukkfüvet, és párold, amíg a hal átlátszatlan és foszlik, kb. 5 percig.",
+      "Vedd le a lábast a tűzről, tiszta ujjal nézd át a halat, és minden szálkát szedj ki.",
+      "Turmixold simára.",
+      "Sót ne adj hozzá, és pontyot ne használj."
+    ],
+    "allergens": ["fish", "celery"],
+    "verdict": "adjust",
+    "issues": [
+      "A zellergumó zellerallergén.",
+      "A ponty a szálkái miatt rossz választás."
+    ],
+    "changes": [
+      "Szálkamentes lazacot, pisztrángot, tőkehalat vagy hekket használj, teljesen átsütve, és nézd át, nincs-e benne szálka.",
+      "Édesburgonyával, zellergumóval és kakukkfűvel turmixold, és pontyot ne használj."
+    ],
+    "serve": "A tányéron még egyszer ellenőrizd a szálkákat. Halat és zellert tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "spring-vegetables-cauliflower",
+    "title": "Spring vegetables with cauliflower",
+    "title_hu": "Tavaszi zöldség karfiollal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "burgonya", "amount": "140 g", "note": "hámozott súly"},
+      {"item": "borsó", "amount": "60 g", "note": "friss vagy fagyasztott"},
+      {"item": "cukkini", "amount": "80 g", "note": "hámozva"},
+      {"item": "spárga", "amount": "50 g", "note": "csak a zsenge rész, nagyon puhára főzve"},
+      {"item": "karfiol", "amount": "80 g", "note": "apróra vágva"}
+    ],
+    "method": [
+      "Hámozd meg a burgonyát és a cukkinit, a spárga fás végét törd le, és a karfiolt apróra vágd.",
+      "A burgonyát, a cukkinit, a spárgát és a karfiolt sózatlan vízben főzd nagyon puhára.",
+      "Add hozzá a borsót, és főzd, amíg könnyen szétnyomható.",
+      "Turmixold simára.",
+      "Leveskockát és sót ne adj hozzá.",
+      "A sajtot hagyd ki; egy teáskanálnyi is tejallergént vinne a tálba, az alapban pedig nincs tej."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Gyakran sós alaplevet használnak, pedig nincs rá szükség.",
+      "Ugyanezt a tányért néha 10 hónapos korig halasztják, jó ok nélkül."
+    ],
+    "changes": [
+      "Főzz burgonyát, borsót, cukkinit és nagyon puha spárgát, apróra vágott karfiollal, alaplé nélkül.",
+      "6 hónapos kortól add, és sajtot csak lehetőségként tegyél hozzá, mert egy teáskanálnyi olyan tejallergént hozna, ami az alapban nincs."
+    ],
+    "serve": "Hat hónapos kortól add, alaplé nélkül. Sajtot csak akkor adj, ha a tejet már elfogadtátok; akkor viszont tejallergén lesz.",
+    "freezer": true
+  },
+  {
+    "id": "chestnut-apple-chicken",
+    "title": "Chestnut, apple, and chicken",
+    "title_hu": "Gesztenyés alma csirkével",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "főtt, hámozott gesztenye", "amount": "80 g", "note": "sima, cukor és só nélkül"},
+      {"item": "alma", "amount": "100 g", "note": "előkészített súly, hámozva, magház nélkül, megfőzve"},
+      {"item": "bőr nélküli csirkecomb", "amount": "120 g", "note": "nyers súly"}
+    ],
+    "method": [
+      "A csirkét sózatlan vízben főzd, amíg a közepében nincs rózsaszín.",
+      "A hámozott, magház nélküli almát főzd puhára.",
+      "Sima, főtt, hámozott gesztenyét használj, ne édesített krémet.",
+      "A csirkét, az almát és a gesztenyét turmixold teljesen simára; ha kell, egy kanál főzővízzel.",
+      "Ellenőrizd, hogy nem maradt gesztenyedarab.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A gesztenyének simának kell lennie, mert a darabok fulladást okozhatnak.",
+      "Ha csak gyümölcs lenne, kimaradna a vas, amit a csirke ad."
+    ],
+    "changes": [
+      "A főtt gesztenyét, a főtt almát és a teljesen átsült csirkét turmixold simára.",
+      "Ez jobb tányér, mint a gyümölcs önmagában, és só nem kerül bele."
+    ],
+    "serve": "Sima kanálnyit adj. A csirke a vas miatt van benne, és a gesztenyében nem maradhat darab.",
+    "freezer": true
+  },
+  {
+    "id": "tomato-vegetable-pasta",
+    "title": "Tomato vegetable pasta",
+    "title_hu": "Paradicsomos zöldséges tészta",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "apró levesbetét", "amount": "40 g", "note": "száraz súly; búza, tehát glutén"},
+      {"item": "érett paradicsom", "amount": "200 g", "note": "friss, hámozva, nem sózott szósz"},
+      {"item": "répa", "amount": "80 g", "note": "hámozott súly"},
+      {"item": "cukkini", "amount": "80 g", "note": "hámozva"}
+    ],
+    "method": [
+      "Hámozd meg a répát, a cukkinit és a paradicsomot, és apróra vágd.",
+      "A zöldségeket egy kevés sózatlan vízben főzd nagyon puhára, aztán törd össze.",
+      "A tésztát sózatlan vízben a szokásos főzési időn jóval túl főzd, amíg nagyon puha.",
+      "Szűrd le a tésztát, és törd a szószba, hogy ne maradjon kemény darab.",
+      "Sót ne adj hozzá, és ne várj későbbi hónapra az adással."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "adjust",
+    "issues": [
+      "A még kemény tészta 6 hónapos korban túl kemény.",
+      "Erre az ételre néha későbbi hónapot írnak, jó ok nélkül."
+    ],
+    "changes": [
+      "Az apró tésztát főzd nagyon puhára, és törd só nélküli paradicsomos, répás, cukkinis szószba.",
+      "Ne várj későbbi hónapra, mert a tészta csak egy nagyon puhán adott gluténes étel."
+    ],
+    "serve": "A tésztát törd össze, hogy ne maradjon benne semmi kemény. Hat hónapos kortól add. Glutént tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "zucchini-pea-salmon-couscous",
+    "title": "Zucchini, pea, salmon, and couscous",
+    "title_hu": "Cukkini, borsó, lazac, kuszkusz",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "finom szemű kuszkusz", "amount": "40 g", "note": "búza, tehát glutén"},
+      {"item": "forró víz", "amount": "80 ml", "note": "sózatlan"},
+      {"item": "cukkini", "amount": "80 g", "note": "hámozva és puhára főzve"},
+      {"item": "borsó", "amount": "60 g", "note": "szét kell nyomni"},
+      {"item": "bőr nélküli, szálkamentes lazac", "amount": "100 g", "note": "friss vagy natúr fagyasztott, nem füstölt"}
+    ],
+    "method": [
+      "Hámozd meg és főzd meg a cukkinit, a borsót pedig addig, amíg könnyen szétnyomható.",
+      "A lazacot főzd, amíg átlátszatlan és foszlik, aztán hűtsd annyira, hogy megfoghasd.",
+      "A lazacot szedd szét, és minden szálkát szedj ki.",
+      "A kuszkuszt keverd a forró vízbe, fedd le 5 percre, aztán egy kevés plusz vízzel törd össze, hogy ne maradjon száraz szem.",
+      "A borsót nyomd szét, és a lazacot, a cukkinit meg a kuszkuszt együtt törd addig, amíg kanállal adható.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": ["gluten", "fish"],
+    "verdict": "adjust",
+    "issues": [
+      "A kuszkusz búza, ezért ez glutént tartalmaz.",
+      "Az egész borsó és a bennmaradt halszálka az állag két veszélye."
+    ],
+    "changes": [
+      "A borsót nyomd szét, és a szálkamentes lazacot csak akkor szedd szét, ha a szálkákat már megnézted.",
+      "Keverd őket puha kuszkuszba, főtt cukkinivel."
+    ],
+    "serve": "Nézd át a lazacot, nincs-e benne szálka, és minden borsószemet nyomj szét. Glutént és halat tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "yellow-fish-puree",
+    "title": "Yellow fish purée",
+    "title_hu": "Halacskás sárgapüré",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "bőr nélküli, szálkamentes pisztráng vagy tőkehal", "amount": "120 g", "note": "friss vagy natúr fagyasztott, nem füstölt"},
+      {"item": "édesburgonya", "amount": "200 g", "note": "hámozott súly"},
+      {"item": "répa", "amount": "80 g", "note": "hámozott súly"}
+    ],
+    "method": [
+      "Hámozd meg az édesburgonyát és a répát, és sózatlan vízben főzd puhára.",
+      "Add hozzá a halat, és főzd, amíg átlátszatlan és foszlik.",
+      "Nézd át a halat, és minden szálkát szedj ki.",
+      "A halat és a zöldségeket turmixold simára.",
+      "Sót és szerecsendiót ne adj hozzá."
+    ],
+    "allergens": ["fish"],
+    "verdict": "adjust",
+    "issues": [
+      "A szokásos változatban a halat megsózták, és szerecsendiót tettek hozzá.",
+      "A pürében hagyott szálka veszélyes."
+    ],
+    "changes": [
+      "A szálkamentes halat édesburgonyával és répával főzd meg, nézd át, nincs-e benne szálka, és turmixold simára.",
+      "Sót ne adj hozzá, és a szerecsendiót hagyd ki."
+    ],
+    "serve": "Se só, se szerecsendió. Turmixolás előtt nézd át a halat, nincs-e benne szálka. Halat tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "pea-sweet-potato-fish",
+    "title": "Pea, sweet potato, and fish",
+    "title_hu": "Zöldborsós édesburgonyás hal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "borsó", "amount": "80 g", "note": "friss vagy fagyasztott, szét kell nyomni"},
+      {"item": "édesburgonya", "amount": "200 g", "note": "hámozott súly"},
+      {"item": "bőr nélküli, szálkamentes tőkehal vagy hekk", "amount": "120 g", "note": "friss vagy natúr fagyasztott, nem füstölt"}
+    ],
+    "method": [
+      "Hámozd meg az édesburgonyát, és sózatlan vízben főzd puhára.",
+      "Add hozzá a borsót, és főzd, amíg könnyen szétnyomható.",
+      "Add hozzá a halat, és főzd, amíg átlátszatlan és foszlik.",
+      "Minden szálkát szedj ki.",
+      "A borsót nyomd szét, és mindent turmixolj simára.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": ["fish"],
+    "verdict": "sound",
+    "issues": [
+      "Az egész borsószem rossz állag az első pürében.",
+      "A 7 vagy 8 hónapos korjelölés későbbi, mint amit ez az étel megkíván."
+    ],
+    "changes": [
+      "A borsót nyomd szét, és édesburgonyával meg szálkamentes fehér hallal turmixold, miután a szálkákat ellenőrizted.",
+      "6 hónapos kortól add, ne 7 vagy 8 hónapos kortól."
+    ],
+    "serve": "Hat hónapos kortól add. A borsót nyomd szét, és a halat nézd át, nincs-e benne szálka. Halat tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "aubergine-chicken",
+    "title": "Aubergine and chicken",
+    "title_hu": "Padlizsános csirke",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "padlizsán", "amount": "180 g", "note": "hámozott súly"},
+      {"item": "burgonya", "amount": "180 g", "note": "hámozott súly"},
+      {"item": "bőr nélküli csirkecomb", "amount": "120 g", "note": "nyers súly"}
+    ],
+    "method": [
+      "Hámozd meg a padlizsánt és a burgonyát, és vágd darabokra.",
+      "Tedd őket lábasba a csirkével és annyi sózatlan vízzel, amennyi ellepi.",
+      "Főzd, amíg a csirke közepében nincs rózsaszín, a padlizsán pedig puha és enyhe.",
+      "Turmixold simára; ha kell, egy kanál főzővízzel.",
+      "A padlizsánt előtte ne sózd le."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A padlizsán keserű lehet, ha a héja rajta marad, vagy ha nincs eléggé megfőzve.",
+      "A padlizsán lesózása gyakori lépés, és olyan nátriumot visz bele, amire a babának nincs szüksége."
+    ],
+    "changes": [
+      "Hámozd meg a padlizsánt, és burgonyával meg csirkével főzd nagyon puhára, aztán turmixold.",
+      "A padlizsánt ne sózd le."
+    ],
+    "serve": "Hámozd meg, és főzd puhára és enyhére. Előtte ne sózd le.",
+    "freezer": true
+  },
+  {
+    "id": "chicken-apple-couscous",
+    "title": "Chicken and apple with couscous",
+    "title_hu": "Csirkés alma kuszkusszal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "bőr nélküli csirkecomb", "amount": "120 g", "note": "nyers súly"},
+      {"item": "alma", "amount": "60 g", "note": "előkészített súly, hámozva, magház nélkül, megfőzve; csak íz, nem a tömeg"},
+      {"item": "finom szemű kuszkusz", "amount": "40 g", "note": "búza, tehát glutén"},
+      {"item": "forró víz", "amount": "80 ml", "note": "sózatlan, nem alaplé"}
+    ],
+    "method": [
+      "A csirkét sózatlan vízben főzd, amíg a közepében nincs rózsaszín, aztán nagyon apróra tépd szét.",
+      "Hámozd meg az almát, vedd ki a magházát, főzd puhára, aztán törd össze.",
+      "A kuszkuszt forró vízbe keverd, ne alaplébe, és fedd le 5 percre.",
+      "A kuszkuszt egy kanál vízzel törd össze, hogy ne maradjon száraz szem.",
+      "Keverd össze a csirkét, az almát és a kuszkuszt, és törd addig, amíg kanállal adható.",
+      "Cseresznyét és sót ne adj hozzá."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "adjust",
+    "issues": [
+      "Az egész cseresznye fulladásveszélyes, és ebbe az ételbe nem való.",
+      "A kuszkuszt gyakran sós alaplében készítik."
+    ],
+    "changes": [
+      "A főtt almát csak ízként használd, és a csirke maradjon a vasban gazdag rész.",
+      "A kuszkuszt vízben készítsd, ne alaplében, és a búza gluténjével számolj."
+    ],
+    "serve": "Az alma csak íz, a csirke adja a vasat. Se cseresznye, se alaplé. Glutént tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "broccoli-sweet-potato-chicken",
+    "title": "Broccoli, sweet potato, and chicken",
+    "title_hu": "Brokkoli, édesburgonya, csirke",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "brokkoli", "amount": "120 g", "note": "rózsák"},
+      {"item": "édesburgonya", "amount": "220 g", "note": "hámozott súly"},
+      {"item": "bőr nélküli csirkecomb", "amount": "120 g", "note": "nyers súly"},
+      {"item": "repceolaj vagy olívaolaj", "amount": "4 teáskanál", "note": "adagonként kb. 1 teáskanál, a végén belekeverve"}
+    ],
+    "method": [
+      "Hámozd meg az édesburgonyát, és vágd darabokra.",
+      "A csirkével együtt sózatlan vízben főzd, amíg a csirkében nincs rózsaszín, az édesburgonya pedig puha.",
+      "Add hozzá a brokkolit, és főzd nagyon puhára.",
+      "Turmixold simára.",
+      "Keverd bele az olajat.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Ez jó első étel, és a szokásos hiány az, hogy a zsír kimarad."
+    ],
+    "changes": [
+      "A brokkolit, az édesburgonyát és a teljesen átsült csirkét turmixold össze, aztán minden adagba keverj egy teáskanál repce- vagy olívaolajat.",
+      "Sót ne adj hozzá, és mást nem kell változtatni."
+    ],
+    "serve": "Ez jó első étel. Minden adagra kb. egy teáskanál olaj jut.",
+    "freezer": true
+  },
+  {
+    "id": "white-vegetable-pasta",
+    "title": "White vegetable pasta",
+    "title_hu": "Fehérzöldséges tészta",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "apró levesbetét", "amount": "40 g", "note": "száraz súly; búza, tehát glutén"},
+      {"item": "burgonya", "amount": "140 g", "note": "hámozott súly"},
+      {"item": "karfiol", "amount": "140 g", "note": "rózsák"},
+      {"item": "petrezselyem", "amount": "néhány levél", "note": "mosva, a szárak nélkül"}
+    ],
+    "method": [
+      "Hámozd meg a burgonyát, és a karfiollal együtt sózatlan vízben főzd nagyon puhára.",
+      "Keverd bele a petrezselymet, és a zöldségeket törd simára.",
+      "A tésztát sózatlan vízben főzd nagyon puhára, a kemény állapon jóval túl.",
+      "Szűrd le, és a tésztát törd a zöldségpépbe.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "sound",
+    "issues": [
+      "A halvány tésztás ételbe könnyen kerül só, pedig nincs rá szükség.",
+      "A kemény tészta ebben a korban nem jó állag."
+    ],
+    "changes": [
+      "A tésztát főzd nagyon puhára, és keverd burgonya, karfiol és petrezselyem pépjébe.",
+      "A sót hagyd ki, és mást nem kell változtatni."
+    ],
+    "serve": "Nagyon puha tésztát adj a halvány pépben, só nélkül. Glutént tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "veal-vegetables",
+    "title": "Veal with vegetables",
+    "title_hu": "Zöldséges borjú",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 40,
+    "ingredients": [
+      {"item": "párolnivaló marha- vagy borjúhús", "amount": "120 g", "note": "sovány, nyers súly; bármelyik hús jó választás"},
+      {"item": "répa", "amount": "100 g", "note": "hámozott súly"},
+      {"item": "érett paradicsom", "amount": "120 g", "note": "hámozva, friss"},
+      {"item": "hagyma", "amount": "40 g", "note": "hámozva"}
+    ],
+    "method": [
+      "A húst, a hámozott répát, a hámozott paradicsomot és a hagymát vágd kis darabokra.",
+      "Öntsd fel sózatlan vízzel, és főzd, amíg a hús teljesen meg nem fő, a zöldségek pedig puhák.",
+      "Nézd meg, hogy a hús közepében nincs rózsaszín.",
+      "Turmixold simára; ha kell, egy kevés főzővízzel.",
+      "Sót ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A borjút néha különleges ételnek veszik, pedig táplálkozásban nem jobb a marhánál.",
+      "A húsos szószba gyakran sót tesznek."
+    ],
+    "changes": [
+      "Használj marhát vagy borjút, mert a kettő egyenrangú választás.",
+      "A húst répával, paradicsommal és hagymával főzd teljesen készre, aztán turmixold, és sót ne adj hozzá."
+    ],
+    "serve": "A marha ugyanúgy megfelel, mint a borjú. Teljesen átsütve add, só nélkül. Az étel lényege a vas.",
+    "freezer": true
+  },
+  {
+    "id": "liver-potato",
+    "title": "Liver and potato with vegetables",
+    "title_hu": "Zöldséges máj burgonyával",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "csirkemáj", "amount": "80 g", "note": "nyers súly, így minden adagban kb. 15 g megfőtt máj van"},
+      {"item": "burgonya", "amount": "240 g", "note": "hámozott súly"},
+      {"item": "érett paradicsom", "amount": "80 g", "note": "hámozva"},
+      {"item": "sütőtök", "amount": "60 g", "note": "hámozva és magozva"}
+    ],
+    "method": [
+      "Hámozd meg a burgonyát és a sütőtököt, és hámozd meg a paradicsomot is.",
+      "Sózatlan vízben főzd őket puhára.",
+      "Add hozzá a májat, és főzd, amíg mindenütt barna, rózsaszín nélkül.",
+      "Turmixold simára.",
+      "Oszd szét úgy, hogy a gyerek adagjában csak kb. 15 g megfőtt máj legyen.",
+      "Sót ne adj hozzá, és ugyanazon a héten ne adj második adagot."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A máj nagyon sok A-vitamint tartalmaz, ezért a nagy adag, vagy az ugyanazon a héten való ismétlés, túl sok.",
+      "Az A-vitamin-készítmény a máj mellett összeadja az adagot."
+    ],
+    "changes": [
+      "A csirkemájat teljesen főzd át, a gyerek adagjába csak kb. 15 g megfőtt májat tegyél, és májat hetente legfeljebb egyszer adj.",
+      "Ezt az ételt ne add A-vitamin-készítménnyel együtt."
+    ],
+    "serve": "Egy adag a hét mája: abban a tálban kb. 15 g megfőtt máj van. A többit fagyaszd le a későbbi hetekre, és A-vitamin-készítményt se adj mellé.",
+    "freezer": true
+  },
+  {
+    "id": "cornmeal-fruit-cup",
+    "title": "Cornmeal and fruit cup",
+    "title_hu": "Gyümölcsös kukoricakása",
+    "category": "mixed-purees",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "finom kukoricadara", "amount": "50 g", "note": "nem egész kukoricaszem, és nem búzadara"},
+      {"item": "víz", "amount": "300 ml", "note": ""},
+      {"item": "főtt alma", "amount": "100 g", "note": "hámozva, magház nélkül, megfőzve, cukor nélkül"}
+    ],
+    "method": [
+      "Hámozd meg az almát, vedd ki a magházát, főzd puhára, aztán törd össze.",
+      "A kukoricadarát csomómentesen keverd a vízbe.",
+      "Kevergetve főzd, amíg puha és kanállal adható, kb. 10 percig.",
+      "Keverd bele az almát, és hűtsd langyosra.",
+      "Cukrot ne adj hozzá, és egész szemet ne használj.",
+      "Vasban gazdag étel mellett add, ne egyedüli fogásként."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "A kukoricakása kevés vasat tartalmaz, ezért nem lehet belőle az egész étkezés.",
+      "Az egész kukoricaszem rossz állag, és néha cukrot is tesznek hozzá."
+    ],
+    "changes": [
+      "A finom kukoricadarát főzd puha kásává főtt almával, és egész szemet meg cukrot ne használj.",
+      "Köretként add 8 hónapos kortól, amikor a sűrűbb állag már helyénvaló."
+    ],
+    "serve": "Köret nyolc hónapos kortól, hús, lencse vagy tojás mellett, nem önmagában az étkezés.",
+    "freezer": true
+  },
+  {
+    "id": "more-mixed-plates",
+    "title": "More mixed plates",
+    "title_hu": "További vegyes tányérok",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "vasban gazdag étel", "amount": "30 g", "note": "főtt csirke, marha, lencse vagy fehérbab; a hüvelyeseket teljesen puhára főzd"},
+      {"item": "zöldség", "amount": "40 g", "note": "főtt brokkoli, répa, borsó vagy sütőtök"},
+      {"item": "már ismert gyümölcs vagy keményítős étel", "amount": "40 g", "note": "főtt édesburgonya, burgonya, alma vagy körte"},
+      {"item": "repceolaj vagy olívaolaj", "amount": "1 teáskanál", "note": "a végén belekeverve"}
+    ],
+    "method": [
+      "Tegyél a tálba egy vasban gazdag ételt, egy zöldséget és egy már ismert gyümölcsöt vagy keményítős ételt.",
+      "Már puhára főtt ételeket használj: a hús teljesen kész legyen, a babot vagy a lencsét pedig addig főzd, hogy ne legyen kemény közepe.",
+      "Adj hozzá egy teáskanál repce- vagy olívaolajat, és turmixold simára.",
+      "Az egyik tányér csirke, brokkoli és édesburgonya.",
+      "A másik lencse, répa és burgonya, a harmadik marha, borsó és főtt alma.",
+      "Az utolsó a fehérbab, a sütőtök és a körte; sót és leveskockát ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A csak gyümölcsből vagy keményítőből álló tányérról hiányzik a vas.",
+      "Az olajat gyakran elfelejtik, és helyette gyakran sós alaplevet használnak."
+    ],
+    "changes": [
+      "Minden tányért egy vasban gazdag ételből, egy zöldségből, egy már ismert gyümölcsből vagy keményítős ételből és egy teáskanál olajból állítsd össze.",
+      "A módszerben lévő négy példa tányért használd, és sót meg alaplevet ne adj hozzá."
+    ],
+    "serve": "Egy tányért így állíts össze. A vasban gazdag étel nem maradhat ki, az olaj pedig a végén kerül rá.",
+    "freezer": true
+  }
+]

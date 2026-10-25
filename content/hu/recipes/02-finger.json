@@ -1,0 +1,1279 @@
+[
+  {
+    "id": "vegetable-bulgur",
+    "title": "Vegetable bulgur",
+    "title_hu": "Zöldséges bulgur",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "finom bulgur",
+        "amount": "80 g",
+        "note": "búza"
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 közepes",
+        "note": "kb. 80 g, apróra kockázva"
+      },
+      {
+        "item": "petrezselyemgyökér vagy paszternák",
+        "amount": "1 kicsi",
+        "note": "kb. 60 g, apróra kockázva"
+      },
+      {
+        "item": "érett paradicsom",
+        "amount": "1 közepes",
+        "note": "felaprítva"
+      },
+      {
+        "item": "zöldborsó",
+        "amount": "60 g",
+        "note": "fagyasztott, össze kell törni"
+      },
+      {
+        "item": "víz",
+        "amount": "300 ml",
+        "note": "sima, alaplevet ne használj"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "a végén belekeverve"
+      }
+    ],
+    "method": [
+      "A sárgarépát és a petrezselyemgyökeret vagy a paszternákot kockázd fel, a paradicsomot pedig aprítsd fel.",
+      "A zöldségeket a vízben, lassú tűzön főzd nagyon puhára, kb. 15 percig.",
+      "Keverd bele a bulgurt és a borsót, és főzd, amíg a bulgur megpuhul és a lé elfogy.",
+      "A borsót törd össze, majd keverd bele az olívaolajat.",
+      "Ha a baba még nem rág, az adagot pépesítsd, és ellenőrizd, hogy minden darab szétnyomható."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "Ezt a gabonás ételt gyakran csak 9 vagy 10 hónapos kortól adják, és néha sós alaplében főzik. Az ép borsószem is nehéz, ha a baba csak most kezd rágni.",
+    "changes": "A bulgurt és a zöldségeket sima vízben főzd, amíg könnyen szétnyomhatók, a borsót pedig törd össze. Alaplevet ne használj. 8 hónapos kortól kínáld, és ha a baba még nem rág, az adagot pépesítsd.",
+    "serve": "Melegen és könnyen szétnyomható puhaságban kínáld. Ha a baba még nem rág, pépesítsd.",
+    "freezer": true
+  },
+  {
+    "id": "green-pasta-cheese",
+    "title": "Green pasta with cheese",
+    "title_hu": "Zöld tészta sajttal",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "apró tészta",
+        "amount": "100 g",
+        "note": "száraz súly, nagyon puhára főzve"
+      },
+      {
+        "item": "spenót",
+        "amount": "60 g",
+        "note": "megmosva, a kemény szár nélkül"
+      },
+      {
+        "item": "brokkoli",
+        "amount": "100 g",
+        "note": "kis rózsák"
+      },
+      {
+        "item": "fokhagyma",
+        "amount": "1 kis gerezd",
+        "note": "apróra vágva"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "a fokhagymához és a zöldségekhez"
+      },
+      {
+        "item": "natúr joghurt",
+        "amount": "1 evőkanál",
+        "note": "pasztőrözött, cukrozatlan"
+      },
+      {
+        "item": "enyhe kemény sajt",
+        "amount": "10 g",
+        "note": "pasztőrözött, finomra reszelve"
+      }
+    ],
+    "method": [
+      "A tésztát sótlan vízben főzd nagyon puhára, majd szűrd le.",
+      "A fokhagymát az olívaolajon kevesebb mint egy percig párold, és erősen ne barnítsd meg.",
+      "Add hozzá a brokkolit és a spenótot egy kevés vízzel, és főzd, amíg könnyen pépesíthetők.",
+      "A zöldségeket aprítsd fel vagy pépesítsd, és keverd a tésztába.",
+      "A tűzről levéve keverd bele a joghurtot és a sajtot. Sót ne adj hozzá."
+    ],
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "A megszokott tányér sózott volt, és egy csésze tejszínnel nagyon gazdag; gyakran 11 hónapos kor körül adták. A babának sem egy csipet só, sem ennyi tejszín nem kell.",
+    "changes": "Puha tésztát használj spenóttal, brokkolival és kevés, olívaolajon párolt fokhagymával. Keverj bele egy evőkanál natúr joghurtot és egy kevés pasztőrözött sajtot. Sót ne adj hozzá.",
+    "serve": "Ami nem nyomható szét, azt vágd fel vagy pépesítsd, és forrón ne, csak melegen add. A joghurtot közvetlenül evés előtt keverd bele.",
+    "freezer": false
+  },
+  {
+    "id": "tomato-chicken-pasta",
+    "title": "Tomato chicken pasta",
+    "title_hu": "Paradicsomos csirkés tészta",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "csont és bőr nélküli csirke",
+        "amount": "150 g",
+        "note": "mell vagy comb, apróra kockázva"
+      },
+      {
+        "item": "fokhagyma",
+        "amount": "1 kis gerezd",
+        "note": "apróra vágva"
+      },
+      {
+        "item": "érett paradicsom",
+        "amount": "2 közepes",
+        "note": "kb. 200 g, felaprítva"
+      },
+      {
+        "item": "apró tészta",
+        "amount": "100 g",
+        "note": "száraz súly"
+      },
+      {
+        "item": "bazsalikom vagy petrezselyem",
+        "amount": "1 kis marék",
+        "note": "felaprítva"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": ""
+      },
+      {
+        "item": "víz",
+        "amount": "4 evőkanál",
+        "note": "sima, a szósz fellazításához"
+      }
+    ],
+    "method": [
+      "A csirkét és a fokhagymát az olajon süsd, amíg a hús mindenhol átsül, és sehol nem marad nyers.",
+      "Add hozzá a paradicsomot és a vizet, és lassú tűzön főzd, amíg a csirke nagyon puha és a szósz besűrűsödik.",
+      "A tésztát sótlan vízben főzd puhára, majd szűrd le.",
+      "Keverd bele a bazsalikomot vagy a petrezselymet. Sót és fekete borsot ne adj hozzá.",
+      "A csirkét és a tésztát olyan állagúra vágd vagy pépesítsd, amit a baba meg tud enni."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "A megszokott paradicsomos csirkés tészta sózott és fekete borssal fűszerezett volt, gyakran 9 vagy 10 hónapos korban. A bors itt túl erős, a tésztának és a csirkének pedig elég puhának kell lennie ahhoz, hogy szétnyomható legyen.",
+    "changes": "A sót és a fekete borsot hagyd ki, helyettük bazsalikomot vagy petrezselymet használj. A csirkét és a tésztát tartsd nagyon puhán, az adagot pedig vágd fel vagy pépesítsd.",
+    "serve": "Puha, felaprított darabokban vagy pépesen kínáld. Tálalás előtt nézd meg, nincs-e a csirkében porcogó.",
+    "freezer": true
+  },
+  {
+    "id": "baby-bolognese",
+    "title": "Baby bolognese",
+    "title_hu": "Bababolognai",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 6,
+    "time_minutes": 40,
+    "ingredients": [
+      {
+        "item": "sovány darált marhahús",
+        "amount": "200 g",
+        "note": ""
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 közepes",
+        "note": "lereszelve"
+      },
+      {
+        "item": "cukkini",
+        "amount": "1 kicsi",
+        "note": "lereszelve"
+      },
+      {
+        "item": "érett paradicsom",
+        "amount": "200 g",
+        "note": "felaprítva"
+      },
+      {
+        "item": "hagyma",
+        "amount": "1 kicsi",
+        "note": "apróra vágva"
+      },
+      {
+        "item": "bazsalikom",
+        "amount": "4 levél",
+        "note": "felaprítva"
+      },
+      {
+        "item": "apró tészta",
+        "amount": "100 g",
+        "note": "száraz súly, nagyon puhára főzve"
+      },
+      {
+        "item": "víz",
+        "amount": "100 ml",
+        "note": "sima, leveskockát ne használj"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": ""
+      }
+    ],
+    "method": [
+      "A hagymát az olajon párold puhára, majd add hozzá a darált húst, és süsd, amíg sehol nem marad rózsaszín.",
+      "Keverd bele a sárgarépát, a cukkinit, a paradicsomot és a vizet. Leveskockát ne adj hozzá.",
+      "Lassú tűzön főzd kb. 20 percig, amíg a zöldségek megpuhulnak és a szósz besűrűsödik.",
+      "A tésztát sótlan vízben főzd nagyon puhára, majd szűrd le.",
+      "A szószt a tésztával aprítsd fel vagy pépesítsd, a többi adagot pedig gyorsan hűtsd le."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "Ha a só kimarad, ez jó ötlet, de a megszokott szószt sós leveskockával készítik. A só a gond, nem a marhahús, a zöldség vagy a puha tészta.",
+    "changes": "A darált húst és a zöldségeket sótlan paradicsommal és vízzel, lassú tűzön főzd. Leveskockát ne használj. A tésztát és a szószt a babának pépesítsd vagy vágd fel, a maradékot pedig fagyaszd le.",
+    "serve": "Kis tálban, pépesen vagy finomra vágva add. A maradék szószt kis edényekben fagyaszd le, és a hűtőben olvaszd ki.",
+    "freezer": true
+  },
+  {
+    "id": "vegetable-shepherd-pie",
+    "title": "Vegetable shepherd's pie",
+    "title_hu": "Zöldséges pásztorpite",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 6,
+    "time_minutes": 55,
+    "ingredients": [
+      {
+        "item": "hagyma",
+        "amount": "1 kicsi",
+        "note": "apróra vágva"
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 közepes",
+        "note": "apróra kockázva"
+      },
+      {
+        "item": "zöldborsó",
+        "amount": "60 g",
+        "note": "össze kell törni"
+      },
+      {
+        "item": "karfiol",
+        "amount": "200 g",
+        "note": "fele a töltelékbe, fele a pürébe"
+      },
+      {
+        "item": "zöldbab",
+        "amount": "80 g",
+        "note": "a vége levágva, puhára főzve"
+      },
+      {
+        "item": "burgonya",
+        "amount": "300 g",
+        "note": "meghámozva, felkockázva"
+      },
+      {
+        "item": "teljes tej",
+        "amount": "60 ml",
+        "note": "pasztőrözött"
+      },
+      {
+        "item": "tojássárgája",
+        "amount": "1",
+        "note": "a sütőben teljesen átsütve"
+      },
+      {
+        "item": "enyhe kemény sajt",
+        "amount": "10 g",
+        "note": "1 evőkanál, pasztőrözött, lereszelve"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": ""
+      },
+      {
+        "item": "víz",
+        "amount": "100 ml",
+        "note": "sima"
+      }
+    ],
+    "method": [
+      "A hagymát az olajon párold puhára, majd add hozzá a sárgarépát, a zöldbabot, a karfiol felét, a borsót és a vizet.",
+      "Főzd, amíg a zöldbab és a karfiol teljesen megpuhul, aztán a borsót törd össze. Sót ne adj hozzá.",
+      "A burgonyát és a maradék karfiolt főzd puhára, majd a tejjel törd pürévé.",
+      "A pürébe keverd bele a tojássárgáját és az egy evőkanál sajtot. Szerecsendiót ne adj hozzá.",
+      "A pürét terítsd a ragura, és 190 °C-on süsd kb. 20 percig, amíg a teteje forró és a sárgája teljesen átsül.",
+      "Kicsit hűtsd le, és puha kanálkákban kínáld. Ha a baba még nem rág, pépesítsd."
+    ],
+    "allergens": [
+      "milk",
+      "egg"
+    ],
+    "verdict": "adjust",
+    "issues": "A megszokott pite sózott volt, a burgonyás tetőre pedig gyakran tettek szerecsendiót. A zöldbab rostos marad, ha nem fő meg eléggé.",
+    "changes": "Sótlan zöldségragut süss burgonya- és karfiolpüré alatt, amit kevés tej és egy tojássárgája köt. Szerecsendiót ne használj. A zöldbabot főzd puhára, sajtból pedig csak egy evőkanálnyit tegyél bele.",
+    "serve": "Szedj ki egy puha adagot, és ha a baba még nem rág jól, pépesítsd. A zöldbabnak szét kell nyomnia, nem maradhat kemény.",
+    "freezer": true
+  },
+  {
+    "id": "mild-paprika-stew",
+    "title": "Mild paprika stew",
+    "title_hu": "Babavadas",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 40,
+    "ingredients": [
+      {
+        "item": "hagyma",
+        "amount": "1 kicsi",
+        "note": "apróra vágva"
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 közepes",
+        "note": "apróra kockázva"
+      },
+      {
+        "item": "paszternák",
+        "amount": "1 kicsi",
+        "note": "apróra kockázva"
+      },
+      {
+        "item": "édesburgonya",
+        "amount": "150 g",
+        "note": "meghámozva, felkockázva"
+      },
+      {
+        "item": "csont nélküli csirke vagy nyúl",
+        "amount": "150 g",
+        "note": "apróra kockázva"
+      },
+      {
+        "item": "édes fűszerpaprika",
+        "amount": "1 teáskanál",
+        "note": "nem csípős"
+      },
+      {
+        "item": "natúr joghurt",
+        "amount": "2 evőkanál",
+        "note": "pasztőrözött, a tűzről levéve belekeverve"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": ""
+      },
+      {
+        "item": "víz",
+        "amount": "200 ml",
+        "note": "sima"
+      }
+    ],
+    "method": [
+      "A hagymát az olajon párold puhára, majd keverd bele a fűszerpaprikát.",
+      "Add hozzá a csirkét vagy a nyulat, a sárgarépát, a paszternákot és az édesburgonyát.",
+      "Öntsd fel a vízzel, és lassú tűzön főzd, amíg a hús és a zöldség nagyon puha. Mustárt, ecetet és babérlevelet ne tegyél bele.",
+      "A húst szedd szét, és nézd át, nincs-e benne csont vagy porcogó.",
+      "Vedd le az edényt a tűzről, keverd bele a joghurtot, majd a ragut pépesítsd vagy vágd fel."
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "verdict": "replace",
+    "issues": "A megszokott ragu mustárral, ecettel és tejföllel készült. A mustár ebben a korban csípős és sós, az ecet pedig túl savanyú.",
+    "changes": "A mustár kimarad. Ez a változat enyhe paprikás ragu sárgarépából, paszternákból, édesburgonyából, hagymából és csirkéből vagy nyúlból. A babérlevél kimarad, mustárt és ecetet ne használj, a natúr joghurtot a végén keverd bele.",
+    "serve": "A ragut pépesítsd, vagy puha darabokban kínáld. Joghurt nélkül fagyaszd le, majd újramelegítés és lehűtés után keverd bele a joghurtot.",
+    "freezer": true
+  },
+  {
+    "id": "fish-broccoli-kohlrabi-pasta",
+    "title": "Fish with broccoli and kohlrabi",
+    "title_hu": "Hal brokkolival és karalábéval",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "csont nélküli tőkehal vagy hekk",
+        "amount": "140 g",
+        "note": "filé, a csontok ellenőrizve"
+      },
+      {
+        "item": "brokkoli",
+        "amount": "100 g",
+        "note": "kis rózsák"
+      },
+      {
+        "item": "karalábé",
+        "amount": "80 g",
+        "note": "meghámozva, nagyon apróra kockázva"
+      },
+      {
+        "item": "apró tészta",
+        "amount": "60 g",
+        "note": "száraz súly"
+      },
+      {
+        "item": "enyhe kemény sajt",
+        "amount": "10 g",
+        "note": "pasztőrözött, finomra reszelve"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": ""
+      },
+      {
+        "item": "víz",
+        "amount": "300 ml",
+        "note": "a zöldségek főzéséhez"
+      }
+    ],
+    "method": [
+      "A karalábét hámozd meg, vágd nagyon apróra, majd a vízben főzd, amíg egy darab könnyen szétnyomható.",
+      "Add hozzá a brokkolit, és főzd puhára.",
+      "Tedd a halat a serpenyőbe, és főzd, amíg rostjaira esik. Minden rostot nézz át, és a csontot szedd ki.",
+      "A tésztát sótlan vízben főzd nagyon puhára, majd szűrd le.",
+      "Keverd össze a halat, a zöldségeket, a tésztát, a sajtot és az olajat. Ami nem nyomható szét, azt pépesítsd."
+    ],
+    "allergens": [
+      "fish",
+      "gluten",
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "A karalábé rostos, ha nincs eléggé megfőzve, és egy bennmaradt csonttól a hal nem biztonságos. A sok sajt is túl sós lenne.",
+    "changes": "A csont nélküli halat, a brokkolit és a karalábét főzd nagyon puhára, és a rostokat nézd át csont után. Apró tésztához csak kevés pasztőrözött sajtot használj, és pépesíts mindent, amit a baba nem tud megrágni.",
+    "serve": "A halat szedd rostjaira, a keményebb darabot pedig pépesítsd. A karalábé tálalás előtt teljesen nyomódjon szét.",
+    "freezer": true
+  },
+  {
+    "id": "green-salmon-rice",
+    "title": "Green salmon with rice",
+    "title_hu": "Zöld lazac rizzsel",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 3,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "csont nélküli lazacfilé",
+        "amount": "100 g",
+        "note": "a csontok ellenőrizve"
+      },
+      {
+        "item": "spenót",
+        "amount": "60 g",
+        "note": "megmosva"
+      },
+      {
+        "item": "brokkoli",
+        "amount": "80 g",
+        "note": "kis rózsák"
+      },
+      {
+        "item": "rizs",
+        "amount": "60 g",
+        "note": "száraz súly, átöblítve"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "a végén belekeverve"
+      },
+      {
+        "item": "víz",
+        "amount": "amennyi kell",
+        "note": "a rizs és a zöldségek főzéséhez"
+      }
+    ],
+    "method": [
+      "A rizst bő, sótlan vízben főzd puhára, szűrd le, és terítsd szét, hogy gyorsan lehűljön.",
+      "A brokkolit lassú tűzön főzd, amíg pépesíthető, és ugyanabban az edényben fonnyaszd meg a spenótot.",
+      "A lazacot főzd, amíg rostjaira esik, majd a rostokat nézd át, és a csontot szedd ki.",
+      "Keverd össze a rizst, a zöldségeket és a lazacot, és minden keményebb darabot törj szét.",
+      "Keverd bele az olívaolajat."
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "verdict": "sound",
+    "issues": "Ez a tányér 8 hónapos korban már megfelel, ha a lazac csont nélküli, a rizs és a zöldség pedig puha. A bennmaradt csont és a langyosan állni hagyott rizs a veszély, amit kezelned kell.",
+    "changes": "Az összetételen nem kell változtatni. Nézd át a lazacot, nincs-e benne csont, a végén keverj bele 1 teáskanál olívaolajat, és a rizst gyorsan hűtsd le.",
+    "serve": "Az utolsó csontellenőrzés után puhán és melegen kínáld. A rizst tedd hűtőbe, és egy napon belül edd meg.",
+    "freezer": false
+  },
+  {
+    "id": "fish-in-paper",
+    "title": "Fish baked in paper",
+    "title_hu": "Hal sütőpapírban",
+    "category": "finger-foods",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "csont nélküli lazac, pisztráng, tőkehal vagy hekk",
+        "amount": "100 g",
+        "note": "filé, ne ponty legyen"
+      },
+      {
+        "item": "póréhagyma",
+        "amount": "1 kicsi",
+        "note": "csak a fehér része, alaposan megmosva, felszeletelve"
+      },
+      {
+        "item": "érett paradicsom",
+        "amount": "1 közepes",
+        "note": "friss, ne szárított paradicsom legyen"
+      },
+      {
+        "item": "cukkini",
+        "amount": "1 kicsi",
+        "note": "felkockázva"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": ""
+      }
+    ],
+    "method": [
+      "A filét a póréhagymával, a friss paradicsommal és a cukkinivel együtt tedd sütőpapírra.",
+      "Csepegtesd meg az olajjal, hajtsd csomagba, és 180 °C-on süsd kb. 20 percig, amíg a hal rostjaira esik és a zöldségek megpuhulnak.",
+      "Nyisd ki a csomagot, szedd rostjaira a halat, és minden rostot nézz át, nincs-e benne csont.",
+      "A halat a zöldségekkel együtt pépesítsd addig, amíg 6 hónapos kornak elég sima."
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "verdict": "adjust",
+    "issues": "A megszokott csomag gyakran ponty volt, néha sós szárított paradicsommal, a kelbimbó pedig itt nem fő meg annyira, hogy pépesíteni lehessen. 6 hónapos korban a halat nem szabad nagy rostokban hagyni.",
+    "changes": "Csont nélküli lazac-, pisztráng-, tőkehal- vagy hekkfilét süss póréhagymával, friss paradicsommal és cukkinivel. Pontyot és szárított paradicsomot ne használj. Szedd rostjaira, nézd át csont után, és a zöldségekkel pépesítsd.",
+    "serve": "6 hónapos kornak elég simára pépesítsd. Csont és kemény zöldségdarab ne maradjon benne. Melegen, egy kis kanálnyit adj.",
+    "freezer": true
+  },
+  {
+    "id": "oven-fish-fingers",
+    "title": "Oven fish fingers",
+    "title_hu": "Házi halrudak",
+    "category": "finger-foods",
+    "min_age_months": 9,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "csont nélküli tőkehal vagy hekk",
+        "amount": "200 g",
+        "note": "a csontok ellenőrizve"
+      },
+      {
+        "item": "sima búzaliszt",
+        "amount": "2 evőkanál",
+        "note": ""
+      },
+      {
+        "item": "tojás",
+        "amount": "1",
+        "note": "felverve, a sütőben teljesen átsütve"
+      },
+      {
+        "item": "finom zsemlemorzsa",
+        "amount": "40 g",
+        "note": "ne durva legyen"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "a papírra kenve"
+      }
+    ],
+    "method": [
+      "A sütőt melegítsd elő 200 °C-ra, és olajozz meg egy lap sütőpapírt.",
+      "A halat zömök csíkokra vágd, ne érme alakú korongokra, és nézd át, nincs-e benne csont.",
+      "Minden csíkot előbb a lisztbe, aztán a tojásba, majd a zsemlemorzsába forgasd.",
+      "Süsd, amíg a hal teljesen átsül, a panír pedig halvány és puha marad. Ne legyen kemény, és ne süsd ki.",
+      "Hűtsd langyosra, és ellenőrizd, hogy a csík szétnyomható, a tojás pedig teljesen átsült."
+    ],
+    "allergens": [
+      "fish",
+      "gluten",
+      "egg"
+    ],
+    "verdict": "adjust",
+    "issues": "A kisütött halrudak kérge megkeményedik, az érme alakú darabokat pedig nehéz megfogni. A kérget 9 hónapos kor előtt nehezebb kezelni.",
+    "changes": "A csont nélküli tőkehalat vagy hekket lisztbe, tojásba és finom zsemlemorzsába forgasd, majd sütőpapíron süsd, amíg a panír puha marad. Ne süsd ki. Zömök csíkokra vágd, ne érme alakú korongokra.",
+    "serve": "A zömök csíkokat akkor add oda, ha a panír már eléggé lehűlt ahhoz, hogy meg lehessen fogni. A külseje engedjen, ne pattanjon meg.",
+    "freezer": true
+  },
+  {
+    "id": "beef-meatballs",
+    "title": "Beef meatballs",
+    "title_hu": "Húsgolyó",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "darált marha- vagy sertéshús",
+        "amount": "200 g",
+        "note": ""
+      },
+      {
+        "item": "cukkini vagy sárgarépa",
+        "amount": "1 kicsi",
+        "note": "lereszelve, kinyomkodva"
+      },
+      {
+        "item": "tojás",
+        "amount": "1",
+        "note": "teljesen átsütve"
+      },
+      {
+        "item": "zabpehely vagy finom zsemlemorzsa",
+        "amount": "30 g",
+        "note": ""
+      },
+      {
+        "item": "petrezselyem",
+        "amount": "1 evőkanál",
+        "note": "felaprítva"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "a tepsire"
+      }
+    ],
+    "method": [
+      "A sütőt melegítsd elő 190 °C-ra.",
+      "A reszelt cukkinit vagy sárgarépát nyomkodd szárazra, és keverd össze a darált hússal, a tojással, a zabpehellyel vagy a zsemlemorzsával és a petrezselyemmel.",
+      "Sót és szerecsendiót ne adj hozzá. Formálj kb. 2 cm átmérőjű kis golyókat.",
+      "Enyhén olajozott tepsiben süsd kb. 18 percig, amíg a közepük is átsül, de puha marad. Ne süsd ki őket.",
+      "Egyet hűts le, és nyomd szét: elég puhának kell lennie ahhoz, hogy az íny szétnyomja."
+    ],
+    "allergens": [
+      "egg",
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "A húsgolyókat gyakran keményre sütik, és sóval meg szerecsendióval fűszerezik. A barnára sült kéreg túl kemény, a nagy golyókat pedig nehéz az ínnyel szétnyomni.",
+    "changes": "A darált marha- vagy sertéshúst kinyomkodott, reszelt cukkinivel vagy sárgarépával, tojással, zabpehellyel vagy zsemlemorzsával és petrezselyemmel keverd össze. A kis golyókat süsd végig puhára. Sót és szerecsendiót ne adj hozzá.",
+    "serve": "Kis puha golyókat adj, vagy vágj egyet ketté, hogy látszódjon: átsült. Ha a baba még csak most tanul rágni, egy darabot nyomj szét.",
+    "freezer": true
+  },
+  {
+    "id": "chicken-nuggets",
+    "title": "Chicken nuggets",
+    "title_hu": "Csirkés nuggets",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "darált csirkehús",
+        "amount": "200 g",
+        "note": ""
+      },
+      {
+        "item": "zellergumó",
+        "amount": "60 g",
+        "note": "meghámozva, finomra reszelve"
+      },
+      {
+        "item": "petrezselyem",
+        "amount": "1 evőkanál",
+        "note": "vagy más enyhe friss fűszernövény"
+      },
+      {
+        "item": "tojás",
+        "amount": "1",
+        "note": "teljesen átsütve"
+      },
+      {
+        "item": "finom zsemlemorzsa",
+        "amount": "30 g",
+        "note": ""
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "a tepsire"
+      }
+    ],
+    "method": [
+      "A sütőt melegítsd elő 190 °C-ra.",
+      "Keverd össze a csirkét, a zellergumót, a petrezselymet, a tojást és a zsemlemorzsát. Sót ne adj hozzá.",
+      "Formálj kis lapos nuggetseket egy enyhén olajozott tepsire.",
+      "Süsd kb. 18 percig, amíg a belsejük fehér és puha. Bő olajban ne süsd ki őket.",
+      "Hűtsd le, és ami keménynek érződik, azt nyomd szét."
+    ],
+    "allergens": [
+      "celery",
+      "egg",
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "A szokásos nuggetset addig sütik ki bő olajban, amíg a külsejük kemény. A zellergumó, amit itt az íz miatt használunk, zellerallergén.",
+    "changes": "A darált csirkét reszelt zellergumóval, fűszernövényekkel, tojással és zsemlemorzsával süsd, amíg a belseje puha. Bő olajban ne süsd ki, és sót ne adj hozzá.",
+    "serve": "Meleg, könnyen szétnyomható nuggetseket kínálj. A zellergumó miatt ez az étel zellert tartalmaz.",
+    "freezer": true
+  },
+  {
+    "id": "lentil-carrot-bites",
+    "title": "Lentil and carrot bites",
+    "title_hu": "Répás vöröslencsés falatok",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 40,
+    "ingredients": [
+      {
+        "item": "vöröslencse",
+        "amount": "80 g",
+        "note": "átöblítve"
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 közepes",
+        "note": "lereszelve"
+      },
+      {
+        "item": "édesburgonya",
+        "amount": "120 g",
+        "note": "meghámozva, felkockázva"
+      },
+      {
+        "item": "víz",
+        "amount": "300 ml",
+        "note": "sima"
+      },
+      {
+        "item": "tojás",
+        "amount": "1",
+        "note": "a sütőben teljesen átsütve"
+      },
+      {
+        "item": "enyhe kemény sajt",
+        "amount": "10 g",
+        "note": "pasztőrözött, finomra reszelve, ne cheddar legyen"
+      },
+      {
+        "item": "koriander",
+        "amount": "1 teáskanál",
+        "note": "felaprítva, elhagyható"
+      }
+    ],
+    "method": [
+      "A lencsét, a sárgarépát és az édesburgonyát a vízben lassú tűzön főzd nagyon puhára, amíg a lencse szétfő.",
+      "A felesleges levet öntsd le, és törd majdnem simára.",
+      "Keverd bele a tojást, az enyhe sajtot, és ha szeretnéd, a koriandert. Cheddart ne használj.",
+      "Formálj kis lapos falatokat, és 190 °C-on süsd, amíg a tojás megköt, a külseje pedig puha marad.",
+      "Ne süsd ki őket. Ezután hűts le egyet, és nyomd szét, hogy lásd az állagot."
+    ],
+    "allergens": [
+      "egg",
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "A cheddar ebben a korban nagyon sós, a kisütéstől pedig kemény kéreg kerülne erre a vasban gazdag falatra. A lencsének és a zöldségnek formázás előtt teljesen puhának kell lennie.",
+    "changes": "A vöröslencsét, a sárgarépát és az édesburgonyát főzd puhára, majd tojással és kevés enyhe, pasztőrözött sajttal kösd össze, vagy a sajtot hagyd el. Cheddart ne használj. A falatokat süsd meg, ne süsd ki, és koriandert csak akkor tegyél bele, ha szeretnéd.",
+    "serve": "Hasznos, vasban gazdag étel. A puha falatokat melegen kínáld.",
+    "freezer": true
+  },
+  {
+    "id": "vegetable-nuggets",
+    "title": "Vegetable nuggets",
+    "title_hu": "Zöldséges nuggets",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "brokkoli",
+        "amount": "100 g",
+        "note": "puhára főzve"
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 közepes",
+        "note": "puhára főzve"
+      },
+      {
+        "item": "fehérbab",
+        "amount": "120 g",
+        "note": "főtt súly, teljesen kifőzve, vagy sótlan konzerv, leöblítve"
+      },
+      {
+        "item": "tojás",
+        "amount": "1",
+        "note": "teljesen átsütve"
+      },
+      {
+        "item": "zabpehely",
+        "amount": "30 g",
+        "note": ""
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "a papírra"
+      }
+    ],
+    "method": [
+      "A brokkolit és a sárgarépát főzd nagyon puhára, és olyan fehérbabot használj, amelyet teljesen puhára főztél.",
+      "A zöldségeket és a babot úgy törd össze, hogy ép babszem ne maradjon.",
+      "Keverd bele a tojást és a zabpelyhet. Sót ne adj hozzá.",
+      "Formálj kis nuggetseket, és olajozott sütőpapíron, 190 °C-on süsd éppen megkötésig. A külseje puha legyen, ne kemény kéreg.",
+      "Hűtsd le, és ellenőrizd, hogy a nuggets könnyen szétnyomható."
+    ],
+    "allergens": [
+      "egg",
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "Ezeket a nuggetseket gyakran sózzák, és addig sütik, amíg a zabos bevonat megkeményedik. A fehérbab csak akkor biztonságos a babának, ha teljesen ki van főzve.",
+    "changes": "A brokkolit, a sárgarépát és a teljesen kifőzött fehérbabot tojással és zabpehellyel törd össze, és csak éppen megkötésig süsd. A külsejét tartsd puhán, és sót ne adj hozzá.",
+    "serve": "Olyan puha nuggetseket adj, amelyek az ujjaid között szétnyomhatók. Ép babot ne tálalj.",
+    "freezer": true
+  },
+  {
+    "id": "vegetable-patties",
+    "title": "Vegetable patties",
+    "title_hu": "Zöldséges fasírt",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "brokkoli",
+        "amount": "80 g",
+        "note": "puhára főzve"
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 kicsi",
+        "note": "puhára főzve"
+      },
+      {
+        "item": "zöldborsó",
+        "amount": "40 g",
+        "note": "megfőzve, összetörve"
+      },
+      {
+        "item": "darált csirke vagy nyúl",
+        "amount": "150 g",
+        "note": ""
+      },
+      {
+        "item": "enyhe kemény sajt",
+        "amount": "10 g",
+        "note": "pasztőrözött, finomra reszelve"
+      },
+      {
+        "item": "fokhagyma",
+        "amount": "1 kis gerezd",
+        "note": "apróra vágva"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "ha serpenyőben készül"
+      }
+    ],
+    "method": [
+      "A brokkolit, a sárgarépát és a borsót főzd nagyon puhára, majd aprítsd fel, és a borsót törd össze.",
+      "Keverd hozzá a darált húst, a sajtot és a fokhagymát. Sót és fekete borsot ne adj hozzá.",
+      "Formálj kis lapos fasírtokat. Tojás nem kell hozzá.",
+      "Süsd 190 °C-on, vagy közepes lángon, vékony olajrétegen, amíg a hús átsül és a külseje puha marad.",
+      "Erősen ne barnítsd meg őket. Kicsit hűtsd le, majd puha csíkokra vágd, vagy pépesítsd."
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "A megszokott fasírtokat sózták és borsozták, majd addig barnították, amíg a külsejük kemény lett. Az a kéreg keményebb, mint amilyenre egy 8 hónaposnak szüksége van.",
+    "changes": "A brokkolit, a sárgarépát, a borsót és a darált csirkét vagy nyulat kevés sajttal és fokhagymával keverd össze. Sót és fekete borsot ne adj hozzá. A fasírtokat süsd meg, vagy közepes lángon, vékony olajrétegen készítsd el, hogy puhák maradjanak, ne barnuljanak keményre.",
+    "serve": "Puha csíkokban vagy pépes kanálnyiként kínáld. A borsót törd össze; ne maradjon ép, kemény szem.",
+    "freezer": true
+  },
+  {
+    "id": "chickpea-patties",
+    "title": "Chickpea patties",
+    "title_hu": "Csicseriborsófasírt",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 40,
+    "ingredients": [
+      {
+        "item": "főtt csicseriborsó",
+        "amount": "200 g",
+        "note": "a száraz csicseriborsó puhára főzve, vagy sótlan konzerv, leöblítve"
+      },
+      {
+        "item": "hagyma",
+        "amount": "1 kicsi",
+        "note": "apróra vágva, puhára főzve"
+      },
+      {
+        "item": "fokhagyma",
+        "amount": "1 kis gerezd",
+        "note": "apróra vágva"
+      },
+      {
+        "item": "petrezselyem",
+        "amount": "1 evőkanál",
+        "note": "felaprítva"
+      },
+      {
+        "item": "tojás",
+        "amount": "1",
+        "note": "teljesen átsütve"
+      },
+      {
+        "item": "zabpehely",
+        "amount": "30 g",
+        "note": ""
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "a tepsire"
+      }
+    ],
+    "method": [
+      "Teljesen puhára főzött csicseriborsóval kezdj, vagy használj leöblített, sótlan konzerv csicseriborsót.",
+      "A megfőtt hagymával, a fokhagymával és a petrezselyemmel törd össze, csak néhány puha darabka maradjon.",
+      "Keverd bele a tojást és a zabpelyhet. Sót ne adj hozzá.",
+      "Formálj kis fasírtokat, és olajozott tepsiben, 190 °C-on süsd, amíg a tojás megköt és a fasírtok puhák maradnak.",
+      "Hűtsd le, és tálalás előtt egyet nyomj szét."
+    ],
+    "allergens": [
+      "egg",
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "A száraz csicseriborsó kemény marad, és nehezen törhető, ha nincs teljesen kifőzve, a megszokott fasírtokat pedig sózzák. A sötétre kisütött kéreg 8 hónapos korban túl kemény is.",
+    "changes": "Puhára főzött csicseriborsót használj, vagy leöblített, sótlan konzervet. Hagymával, fokhagymával, fűszernövényekkel, tojással és zabpehellyel kösd össze, majd só nélkül süsd meg.",
+    "serve": "Puha fasírtot adj, ha kell, széttörve. Minden csicseriborsó-darabnak szét kell nyomódnia, kemény közepe nem maradhat.",
+    "freezer": true
+  },
+  {
+    "id": "chickpea-pancakes",
+    "title": "Chickpea pancakes",
+    "title_hu": "Csicseriborsós palacsinta",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "csicseriborsóliszt",
+        "amount": "80 g",
+        "note": "nem földimogyoró"
+      },
+      {
+        "item": "víz",
+        "amount": "160 ml",
+        "note": ""
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 kicsi",
+        "note": "lereszelve"
+      },
+      {
+        "item": "hagyma",
+        "amount": "1 kicsi",
+        "note": "apróra vágva, megfőzve"
+      },
+      {
+        "item": "kaliforniai paprika",
+        "amount": "40 g",
+        "note": "apróra vágva, puhára főzve"
+      },
+      {
+        "item": "kurkuma",
+        "amount": "1/4 teáskanál",
+        "note": "currypor helyett"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "vékony réteg a serpenyőben"
+      }
+    ],
+    "method": [
+      "A hagymát és a kaliforniai paprikát főzd puhára.",
+      "Keverd össze a csicseriborsólisztet, a vizet és a kurkumát, majd keverd bele a sárgarépát, a hagymát és a kaliforniai paprikát.",
+      "Sót és curryport ne adj hozzá.",
+      "A serpenyőt enyhén olajozd ki, és közepes lángon süss kis palacsintákat, amíg az aljuk megköt, aztán fordítsd meg.",
+      "Süsd, amíg a közepük is teljesen megköt, majd hűtsd le, és puha csíkokra vágd."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "A megszokott fűszerezés sós currypor, a nem eléggé átsült palacsinta közepe pedig nedves marad. A csicseriborsó nem földimogyoró, ezért nincs földimogyoró-allergénként feltüntetve.",
+    "changes": "Csicseriborsólisztből süss palacsintát reszelt sárgarépával, megfőtt hagymával és kaliforniai paprikával, és currypor helyett kurkumával fűszerezd. A tésztát süsd át, és sót ne adj hozzá.",
+    "serve": "Puha csíkokra vágd. Minden palacsinta közepe száraz és teljesen átsült legyen.",
+    "freezer": true
+  },
+  {
+    "id": "vegetable-fritters",
+    "title": "Vegetable fritters",
+    "title_hu": "Zöldséges lepény",
+    "category": "finger-foods",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "tojás",
+        "amount": "2",
+        "note": "teljesen átsütve"
+      },
+      {
+        "item": "főtt bulgur vagy főtt rizs",
+        "amount": "80 g",
+        "note": "gluténmentes lepényhez rizst használj"
+      },
+      {
+        "item": "sárgarépa",
+        "amount": "1 közepes",
+        "note": "lereszelve"
+      },
+      {
+        "item": "kukorica",
+        "amount": "60 g",
+        "note": "pépesítve, ép szem ne maradjon"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "vékony réteg a serpenyőben"
+      }
+    ],
+    "method": [
+      "A kukoricát törd pépesre, hogy egyetlen ép szem se maradjon.",
+      "A tojást keverd össze a reszelt sárgarépával, a pépes kukoricával és a főtt bulgurral.",
+      "Ha a lepénynek gluténmentesnek kell lennie, ebben a lépésben a bulgur helyett puha, főtt rizst használj.",
+      "Hevíts vékony olajréteget, süss rajta kis lepényeket közepes lángon, majd fordítsd meg őket.",
+      "Addig süsd, amíg a tojás teljesen megköt, a lepény pedig puha, nem ropogós. Sót ne adj hozzá."
+    ],
+    "allergens": [
+      "egg",
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "Az ép kukoricaszemek félrenyelési veszélyt jelentenek, és a megszokott megjegyzés a kisebb babáknál már figyelmeztetett is erre. Ebben a tojásos tésztában a só is felesleges.",
+    "changes": "A kukoricát még a tésztába keverés előtt pépesítsd, ép szem ne kerüljön bele. Serpenyőben, vékony olajrétegen süsd meg a tojást reszelt sárgarépával és főtt bulgurral, vagy ha gluténmentes lepény kell, ebben a lépésben főtt rizst használj. Sót ne adj hozzá.",
+    "serve": "Puha darabokat adj. Laza kukoricaszemet soha ne tálalj. Ha az ételnek gluténmentesnek kell lennie, a rizses változatot használd.",
+    "freezer": true
+  },
+  {
+    "id": "soft-flatbread-pizza",
+    "title": "Soft vegetable flatbread",
+    "title_hu": "Mini zöldséges pizza",
+    "category": "finger-foods",
+    "min_age_months": 12,
+    "portions": 4,
+    "time_minutes": 75,
+    "ingredients": [
+      {
+        "item": "sima búzaliszt",
+        "amount": "150 g",
+        "note": "a tésztához"
+      },
+      {
+        "item": "instant élesztő",
+        "amount": "2 g",
+        "note": "kb. 1/2 teáskanál"
+      },
+      {
+        "item": "víz",
+        "amount": "95 ml",
+        "note": "langyos"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "2 teáskanál",
+        "note": "1 teáskanál a tésztába, 1 teáskanál a zöldségekre"
+      },
+      {
+        "item": "érett paradicsom",
+        "amount": "150 g",
+        "note": "só nélkül sűrű szósszá főzve"
+      },
+      {
+        "item": "cukkini",
+        "amount": "50 g",
+        "note": "apróra kockázva, puhára sütve"
+      },
+      {
+        "item": "kaliforniai paprika",
+        "amount": "40 g",
+        "note": "apróra kockázva, puhára sütve"
+      },
+      {
+        "item": "hagyma",
+        "amount": "40 g",
+        "note": "apróra kockázva, puhára sütve"
+      },
+      {
+        "item": "mozzarella",
+        "amount": "20 g",
+        "note": "pasztőrözött, apróra tépve"
+      }
+    ],
+    "method": [
+      "A lisztet, az élesztőt, a vizet és 1 teáskanál olajat keverd puha tésztává. Cukrot és sót ne adj hozzá.",
+      "Röviden gyúrd össze, takard le, és hagyd megkelni, kb. 45 percig.",
+      "Amíg a tészta kel, a cukkinit, a kaliforniai paprikát és a hagymát süsd puhára, a paradicsomot pedig sűrű szósszá főzd.",
+      "A tésztát nyomkodd vékonyra egy kis tepsiben, majd kend rá a paradicsomot, a zöldségeket és a mozzarellát.",
+      "200 °C-on süsd kb. 12 percig, amíg az alja átsül, de puha marad, a sajt pedig megolvad. Sonkát ne tegyél rá.",
+      "Hűtsd le, és négyzetekre vágd."
+    ],
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "verdict": "replace",
+    "issues": "A megszokott mini pizzához sonkát, nádcukrot és sót használtak, és 9 vagy 10 hónapos korra szánták. A sonka sós, pácolt hús, abban a korban pedig a kenyér túl rágós.",
+    "changes": "A sonka és a cukor volt a gond, a kenyér állaga miatt pedig csak 12 hónapos kortól kerüljön az asztalra. Süss puha, élesztős lepényt cukor és só nélkül, sonka nélkül. A tetejére paradicsom, sült zöldség és egy kevés mozzarella kerüljön, és vágd négyzetekre.",
+    "serve": "Négyzetekre vágva, meleg, puha darabokban kínáld. Az alja hajoljon meg, ne törjön szét.",
+    "freezer": true
+  },
+  {
+    "id": "banana-pancakes",
+    "title": "Banana pancakes",
+    "title_hu": "Banános babacsinta",
+    "category": "finger-foods",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {
+        "item": "érett banán",
+        "amount": "1 közepes",
+        "note": "simára törve"
+      },
+      {
+        "item": "tojás",
+        "amount": "1",
+        "note": "teljesen átsütve"
+      },
+      {
+        "item": "sima búzaliszt",
+        "amount": "1 evőkanál",
+        "note": "kb. 10 g"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "vékony réteg a serpenyőben"
+      }
+    ],
+    "method": [
+      "A banánt törd simára.",
+      "Verd bele a tojást és a lisztet. Cukrot ne adj hozzá.",
+      "Alacsony lángon hevíts a serpenyőben vékony olajréteget.",
+      "Süss kis palacsintákat, amíg az aljuk megköt, aztán fordítsd meg őket.",
+      "Addig süsd, amíg a tojás a közepén is teljesen megköt, majd a babának pépesítsd vagy törd szét."
+    ],
+    "allergens": [
+      "egg",
+      "gluten"
+    ],
+    "verdict": "sound",
+    "issues": "Az érett banán, a tojás és egy kevés liszt már magában egyszerű tészta, cukor nem kell hozzá. Csak akkor gond a palacsinta, ha a közepe nyers marad, vagy a korong túl vastag a pépesítéshez.",
+    "changes": "Az összetevőket nem kell megváltoztatni. Kis palacsintákat süss vékony olajrétegen, alacsony lángon, amíg a tojás teljesen megköt. Cukrot ne adj hozzá.",
+    "serve": "Törd szétnyomható darabokra, vagy 6 hónapos babának az adagot pépesítsd. Maradjanak cukrozatlanok.",
+    "freezer": true
+  },
+  {
+    "id": "apple-curd-pancakes",
+    "title": "Apple and curd pancakes",
+    "title_hu": "Túrós-almás csinta",
+    "category": "finger-foods",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {
+        "item": "alma",
+        "amount": "1 kicsi",
+        "note": "lereszelve, puhára főzve"
+      },
+      {
+        "item": "tojás",
+        "amount": "1",
+        "note": "teljesen átsütve"
+      },
+      {
+        "item": "túró",
+        "amount": "60 g",
+        "note": "pasztőrözött, lehetőleg hozzáadott só nélkül"
+      },
+      {
+        "item": "zabpehely",
+        "amount": "2 evőkanál",
+        "note": "kb. 20 g"
+      },
+      {
+        "item": "sima búzaliszt",
+        "amount": "1 evőkanál",
+        "note": "kb. 10 g"
+      },
+      {
+        "item": "olívaolaj",
+        "amount": "1 teáskanál",
+        "note": "vékony réteg a serpenyőben"
+      }
+    ],
+    "method": [
+      "Az almát reszeld le, egy kevés vízzel főzd puhára, majd törd össze.",
+      "Keverd bele a tojást, a túrót, a zabpelyhet és a lisztet. Cukrot és sót ne adj hozzá.",
+      "Alacsony lángon, vékony olajrétegen süss kis palacsintákat.",
+      "Fordítsd meg, és süsd, amíg a tojás teljesen megköt, a közepe pedig nem nedves.",
+      "Hűtsd le, és 6 hónapos babának pépesítsd vagy törd szét."
+    ],
+    "allergens": [
+      "egg",
+      "milk",
+      "gluten"
+    ],
+    "verdict": "sound",
+    "issues": "A megfőtt alma, a tojás, a pasztőrözött túró, a zabpehely és egy kanál liszt 6 hónapos korban már megfelelő, ha a palacsinta puha és teljesen átsült. Az almát reszelni és főzni kell, hogy pépesíthető legyen, a túrónak pedig pasztőrözöttnek kell lennie.",
+    "changes": "Só és cukor nem kerül bele. A palacsintákat süsd át, majd annak a babának, aki az ételt még az ínyével nyomja szét, pépesítsd vagy törd el.",
+    "serve": "Nagyon puha darabokra pépesítsd vagy törd. Csak pasztőrözött túrót használj.",
+    "freezer": true
+  }
+]

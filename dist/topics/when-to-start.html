@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-prefix="" data-months="months+" data-empty="No recipes match those filters." data-one="recipe" data-many="recipes">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>When to start · First foods</title>
   <meta name="description" content="Original evidence-checked notes and recipes for the first years of solid food. Inspired by a Hungarian weaning book. Not medical advice.">
+  <link rel="alternate" hreflang="en" href="https://first-foods-companion.vercel.app/topics/when-to-start.html">
+  <link rel="alternate" hreflang="hu" href="https://first-foods-companion.vercel.app/hu/topics/when-to-start.html">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem("theme");
+        if (theme !== "day" && theme !== "night") {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (error) {}
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,11 +26,21 @@
 <body>
   <header class="wrap nav">
     <a class="brand" href="/">First foods</a>
-    <nav class="nav-links">
-      <a href="/topics/" aria-current="page">Guides</a>
-      <a href="/recipes/">Recipes</a>
-      <a href="/about.html">About</a>
-    </nav>
+    <div class="nav-end">
+      <nav class="nav-links">
+        <a href="/topics/" aria-current="page">Guides</a>
+        <a href="/recipes/">Recipes</a>
+        <a href="/about.html">About</a>
+      </nav>
+      <div class="nav-tools">
+        <label class="visually-hidden" for="lang-en">Language</label>
+        <select id="lang-en" data-lang aria-label="Language">
+          <option value="en" selected>English</option>
+          <option value="hu">Magyar</option>
+        </select>
+        <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+      </div>
+    </div>
   </header>
   <main class="wrap">
     
@@ -27,7 +50,7 @@
             <a href="/topics/why-first-foods-matter.html">What the first foods are actually for</a><a href="/topics/when-to-start.html" aria-current="page">When to start</a><a href="/topics/ways-of-feeding.html">Spoon, fingers, or both</a><a href="/topics/choosing-ingredients.html">Choosing ingredients</a><a href="/topics/cooking-and-seasoning.html">Cooking and seasoning</a><a href="/topics/tools-and-hygiene.html">Tools, hygiene, and the freezer</a><a href="/topics/what-to-introduce.html">What to introduce, and when</a><a href="/topics/allergens.html">Introducing allergens</a><a href="/topics/portions-and-milk.html">Portions, texture, and milk</a><a href="/topics/a-week-of-meals.html">A week, in outline</a><a href="/topics/how-meals-happen.html">How the meal happens</a><a href="/topics/gagging-and-choking.html">Gagging and choking</a><a href="/topics/picky-eating.html">Picky eating</a><a href="/topics/illness.html">When a child is ill</a><a href="/topics/teething.html">Teething</a><a href="/topics/vitamins-and-minerals.html">Vitamins and minerals</a><a href="/topics/pocket-guide.html">A pocket guide</a>
           </aside>
           <article class="prose">
-            <p class="kicker">Guide</p>
+            <p class="kicker">Guides</p>
             <h1>When to start</h1>
             <p class="lede">The useful window is after four months and by about six. Readiness is a set of skills, and age still has a floor.</p>
             <figure class="hero-photo">
@@ -64,5 +87,7 @@
     <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
     <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
+  
+  <script src="/assets/site.js"></script>
 </body>
 </html>

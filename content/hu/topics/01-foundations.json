@@ -1,0 +1,138 @@
+[
+  {
+    "id": "why-first-foods-matter",
+    "title": "Mire valók valójában az első ételek",
+    "byline": "Az étel feladata az első év második felében a vas, az energia és az evés megtanulása. Nem az, hogy a fehérje százalékát célként tűzzük ki.",
+    "image": "plate-a.jpg",
+    "image_alt": "Egy tányér puhára főzött étel",
+    "findings": [
+      {"id": "iron", "lead": "A vas az a tápanyag, amelyik először fogy el.", "text": "Az egészséges, időre született babák olyan vasraktárral születnek, amely körülbelül az első hat hónapot fedezi. Utána a tej önmagában már nem tart lépést."},
+      {"id": "protein", "lead": "A csecsemőknek nincs szükségük a felnőttek fehérjearányának kétszeresére.", "text": "A csecsemőkori étrend magasabb fehérjearánya gyorsabb súlygyarapodással jár együtt, nem jobb fejlődéssel."},
+      {"id": "fat", "lead": "A zsír a tányéron marad.", "text": "Kétéves kor alatt a teljes zsírtartalmú tejtermék és egy kanál olaj a megfelelő. A zsírszegény termékek az ennél idősebbeknek valók."},
+      {"id": "variety", "lead": "A gyümölcspüré önmagában nem táplálási terv.", "text": "A tányérra vasat adó étel, zöldség és elég energia kell. A gyümölcs szívesen látott, és nem ő az étkezés."}
+    ],
+    "sections": [
+      {"id": "iron", "heading": "Vas", "paragraphs": ["Körülbelül hat hónapos korra a születés előtt felépült raktárak csökkennek, a növekedés pedig gyors. Az anyatej továbbra is értékes, és gyenge vasforrás. Ezért a hús, a lencse, a bab, a tofu és a vassal dúsított gabonapehely a szilárd ételek első heteibe való, nem egy hosszú gyümölcs-zöldség előjáték után.", "Az ugyanabban az étkezésben megevett gyümölcs vagy zöldség C-vitaminja segíti, hogy a szervezet felvegye a növényekből származó vasat. Az étkezéshez ivott tea az ellenkezőjét teszi. Az a baba, aki megfelelő mennyiségű csecsemőtápszert iszik, a vasat már a tápszerből megkapja; az étel az evési készség miatt és az első év utáni étrend miatt ettől még számít."]},
+      {"id": "protein", "heading": "A fehérjéről szóló állítás", "paragraphs": ["A felnőtt étrendről gyakran azt mondják, hogy a fehérje az energia körülbelül 12–15 százaléka. Ha ezt egy gyereknél megduplázzuk, az nagyjából azt jelentené, hogy az összes kalória negyede fehérjéből származik. Ez nem a csecsemőkori cél. Az érett anyatej közelebb van ahhoz, hogy a fehérje az energia 5–8 százaléka legyen, a csecsemőtápszert pedig szándékosan szerény tartományban tartják.", "Egy randomizált tápszeres vizsgálat azt találta, hogy a magasabb fehérjetartalom kétéves korig gyorsabb súlygyarapodást eredményezett. A szakmai útmutatás ebben a mintázatban okot lát arra, hogy ne hajszoljuk a fehérjét. A hús és a hüvelyesek a vas, a cink és az állag miatt kapnak helyet, és azért, mert a gyerekek megtanulják ezeket az ízeket. Nem azért, mert feljebb tolják a fehérje százalékát."]},
+      {"id": "fat", "heading": "Zsír és energia", "paragraphs": ["Az agy még épül, az étkezések pedig kicsik. Egy teáskanál repce- vagy olívaolaj a pürén, vagy szerény mennyiségű teljes zsírtartalmú joghurt és pasztőrözött sajt só hozzáadása nélkül ad energiát. A zsírszegény tejjel és a zsírszegény joghurttal ráérünk a második születésnap után.", "A lenmagolaj megavasodik, és hőre nem való. Egy nagy üvegbe töltött különleges keverék felesleges. Egy közönséges olaj, főzés után hozzáadva, elég."]},
+      {"id": "variety", "heading": "Mit tartalmaz egy hasznos tányér", "paragraphs": ["Egy használható minta: egy vasat adó étel, egy zöldség, egy ismerős keményítős étel vagy gyümölcs, és egy kevés zsír. A sütőtök, az alma, a körte és a banán kellemes, és vasban szegény. Állhatnak a vasat adó étel mellett. Hetekig ne lépjenek a helyébe.", "A növényi fehérjék egy változatos hét alatt elég teljesek. A csecsemő étrendjében nem kell minden étkezésnek húst tartalmaznia ahhoz, hogy az esszenciális aminosavak meglegyenek."]}
+    ],
+    "references": [
+      {"title": "Hozzátáplálás: állásfoglalás", "source": "ESPGHAN Táplálkozási Bizottság, Journal of Pediatric Gastroenterology and Nutrition", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "A csecsemőtápszer alacsonyabb fehérjetartalma kétéves korig alacsonyabb súllyal függ össze", "source": "Koletzko és munkatársai, American Journal of Clinical Nutrition", "year": "2009", "url": "https://doi.org/10.3945/ajcn.2008.27091"},
+      {"title": "WHO-iránymutatás a 6–23 hónapos csecsemők és kisgyermekek hozzátáplálásáról", "source": "Egészségügyi Világszervezet (WHO)", "year": "2023", "url": "https://www.who.int/publications/i/item/9789240081864"},
+      {"title": "Tudományos vélemény a fehérje étrendi referenciaértékeiről", "source": "EFSA, a Dietetikai Termékek, Táplálkozás és Allergiák Panelje", "year": "2012", "url": "https://doi.org/10.2903/j.efsa.2012.2557"}
+    ]
+  },
+  {
+    "id": "when-to-start",
+    "title": "Mikor kezdjük",
+    "byline": "A használható ablak négy hónapos kor után nyílik, és nagyjából hat hónapos korig tart. A készenlét készségek együttese, a kornak pedig ettől még van alsó határa.",
+    "image": "hero.jpg",
+    "image_alt": "Egy tál sima zöldségpüré",
+    "findings": [
+      {"id": "window", "lead": "17 hetes kor előtt nem, és nem hagyjuk jóval a hat hónapos kor utánra.", "text": "Az európai gasztroenterológiai útmutatás ezt az alsó határt szabja meg, és arra kéri a családokat, hogy körülbelül 26 hétnél ne halasszanak tovább."},
+      {"id": "signs", "lead": "Az ülés, a stabil fej és a kéz szájhoz vitele számít.", "text": "Az étel iránti érdeklődés és a nyelvkilökő reflex csillapodása ugyanennek a képnek a része. Az életkor önmagában nem indítójel, és a 17 hetes kor előtti készség sem az."},
+      {"id": "hungary", "lead": "A magyar és az európai tanács közel áll egymáshoz, nem azonos.", "text": "A helyi gyakorlat gyakran azt mondja, várjunk hat hónapos korig. Az európai közlemény megengedi a kezdést 17 hetes kortól, ha a baba kész, és ettől még azt akarja, hogy a szilárd ételek hat hónapos korra folyamatban legyenek."}
+    ],
+    "sections": [
+      {"id": "window", "heading": "Az időablak", "paragraphs": ["A körülbelül hat hónapig tartó kizárólagos szoptatás olyan cél, amelyet az Egészségügyi Világszervezet (WHO) támogat, és ez a helyes alap egy egészséges, időre született, jól gyarapodó babánál. Az ESPGHAN 2017-es állásfoglalása egy kicsit tágabb: ne kezdjünk négy hónapos (17 hetes) kor előtt, és ne várjunk hat hónapos (26 hetes) koron túl, mert a vas- és az energiaszükséglet nő, és mert az allergén ételek halasztásának nincs haszna.", "Az EFSA 2019-es áttekintése nem talált ártalmat, az Európában élő egészséges, időre született csecsemőknél, abból, ha a kezdés ugyanebben az ablakban bárhol történik. Ez nem érv amellett, hogy a négy hónapos kezdést tervvé tegyük. Érv a félelem ellen, ha egy kész baba néhány héttel a féléves kora előtt kezd."]},
+      {"id": "signs", "heading": "Jelek, amelyeket érdemes figyelni", "paragraphs": ["Olyan babát keress, aki támasztással ül és a fejét stabilan tartja, aki az étel után nyúl és a szájához juttatja, és aki nem löki ki automatikusan minden kanálnyit. Ezek a készségek védik a légutat, és lehetővé teszik az evést.", "Az éjszakai ébredés, az, hogy nézi, ahogy eszel, vagy az ököl rágása hétköznapi csecsemőviselkedés. Gyenge okok a kezdésre. Ugyanilyen gyenge ok az a kívánság, hogy segítsünk a babának aludni. Az első ételek nem alvásmódszer."]},
+      {"id": "hungary", "heading": "Amit Magyarországon hallani fogsz", "paragraphs": ["A 2019-es magyar szakmai irányelv az egészséges csecsemő táplálásáról (azonosító: 001038) azt mondja, a szilárd ételek az ötödik hónap kezdetétől indulhatnak, és nagyjából hat hónapos korra már folyamatban kellene lenniük. A hat hónapos korig tartó kizárólagos szoptatás belefér ebbe a tanácsba, és sok védőnő így fogalmaz.", "Néhány megszokott táblázat még mindig lassú létrát használ: először gyümölcs és zöldség, később a gabona, azután a hús. A vasra és az allergiára vonatkozó bizonyíték nem támasztja alá ezt a létrát. Akkor kezdj, amikor a baba kész, nagyjából hat hónapos korban, és az elejétől legyen benne vas és a gyakori allergének."]}
+    ],
+    "references": [
+      {"title": "Hozzátáplálás: állásfoglalás", "source": "Fewtrell és munkatársai az ESPGHAN számára, JPGN", "year": "2017", "url": "https://pubmed.ncbi.nlm.nih.gov/28027215/"},
+      {"title": "Megfelelő életkori tartomány a hozzátáplálás bevezetéséhez a csecsemő étrendjében", "source": "EFSA, a Táplálkozás, Új Élelmiszerek és Élelmiszer-allergének Panelje, EFSA Journal", "year": "2019", "url": "https://pubmed.ncbi.nlm.nih.gov/32626427/"},
+      {"title": "A csecsemők és kisgyermekek táplálása", "source": "Egészségügyi Világszervezet (WHO), tájékoztató", "year": "2023", "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding"},
+      {"title": "Egységesen, válasz készen a hozzátáplálásról", "source": "Magyar Dietetikusok Országos Szövetsége, Táplálkozási Akadémia", "year": "2025", "url": "https://mdosz.hu/hun/wp-content/uploads/2025/03/mdosz-taplalkozasi-akademia-hirlevel-egysegesen-valaszkeszen-a-hozzataplalasrol-2025-februar.pdf"}
+    ]
+  },
+  {
+    "id": "ways-of-feeding",
+    "title": "Kanál, ujjak vagy mindkettő",
+    "byline": "A pürék, az ujjal ehető ételek és a kettő keveréke mind jól táplálhatnak egy babát. A vita arról, hogy melyik módszerhez tartozol, hangosabb, mint a bizonyíték.",
+    "image": "plate-c.jpg",
+    "image_alt": "Puha, sütött zöldségdarabok",
+    "findings": [
+      {"id": "methods", "lead": "A módszer kevésbé fontos, mint a vas, az állag és a baba jelzéseire figyelő etetés.", "text": "A babát lehet kanállal etetni, ehet maga puha darabokat, vagy ugyanazon a héten teheti mindkettőt."},
+      {"id": "bliss", "lead": "Az ujjal ehető ételek nem növelték a fulladást egy olyan vizsgálatban, amely a biztonságos formákat tanította.", "text": "Az öklendezés gyakori volt. A fulladás nem nőtt, amikor a családoknak megmutatták, mely formákat kerüljék."},
+      {"id": "progress", "lead": "A sima ételnek van lejárata.", "text": "Nyolc- vagy kilenc hónapos korra a babának a tört étel és a puha darabok felé kellene lépnie. A híg pürén maradás az elkerülhető kockázat."}
+    ],
+    "sections": [
+      {"id": "methods", "heading": "Három használható út", "paragraphs": ["A kanálos etetéssel vasban gazdag húsokat és lencsét adhatsz sima formában, amíg a rágás még új. Az ujjal ehető ételekkel a baba a fogást gyakorolja, és a tempót ő szabja. A legtöbb család végül keveri a kettőt, és ez jogos módszer, nem kompromisszum.", "A baby-led weaning mint szlogen néha vagy kihagyja a vasat, vagy annyira egyszerűen hagyja az étkezéseket, hogy a baba gyümölccsel lakik jól. Azok a vizsgálatok, amelyek a baba vezette etetést biztonságosnak találták, olyan vizsgálatok voltak, amelyekben a családoknak azt mondták, tegyenek bele vasat adó ételt, és kerüljék a kerek, a kemény és az érme alakú darabokat."]},
+      {"id": "bliss", "heading": "Amit a BLISS vizsgálat mutatott", "paragraphs": ["Az új-zélandi Baby-Led Introduction to Solids vizsgálat egy támogatással kísért, baba vezette megközelítést hasonlított össze a szokásos kanálos etetéssel. Nem volt bizonyíték arra, hogy több lett volna a fulladás. Az öklendezés, amely hangos és védő, a normális tanulás része volt.", "Ez az eredmény nem azt jelenti, hogy minden kemény, forgalmazott keksz biztonságos. Azt jelenti, hogy a puha csíkok, a hal foszlányai és a jól megfőzött zöldségek, úgy kínálva, hogy a baba egyenesen ült, kockázatban a kanálos etetéshez voltak hasonlíthatók."]},
+      {"id": "progress", "heading": "Haladjunk az állaggal", "paragraphs": ["Kezdetben az étel lehet sima vagy eleve puha. Körülbelül nyolc hónapos korra jöhet a puha darabos tört étel, és olyan étel, amelyet az ököl meg tud fogni. Körülbelül egyéves korra a gyereknek a családi állagokat kellene ennie, úgy, hogy a só továbbra sem kerül az ő adagjára.", "A turmixgép nem kötelező. Banánhoz, avokádóhoz és sült étel puha belsejéhez elég egy villa. A turmixgépek levegőt vernek az ételbe; ha a baba utána hasas, keverd meg a pürét, és tálalás előtt hagyd állni."]}
+    ],
+    "references": [
+      {"title": "Baba vezette megközelítés a szilárd ételek evésében, és a fulladás kockázata", "source": "Taylor és munkatársai, Pediatrics", "year": "2016", "url": "https://doi.org/10.1542/peds.2016-0772"},
+      {"title": "A baba vezette hozzátáplálás hatása a csecsemő növekedésére és túlsúlyára", "source": "Taylor és munkatársai a BLISS vizsgálathoz, JAMA Pediatrics", "year": "2017", "url": "https://doi.org/10.1001/jamapediatrics.2017.1284"},
+      {"title": "Hozzátáplálás: állásfoglalás", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"}
+    ]
+  },
+  {
+    "id": "choosing-ingredients",
+    "title": "Alapanyagok választása",
+    "byline": "A változatosság, benne a keserű zöldekkel, többet számít, mint egy biojelölés. Egy rövid lista ételei valóban nem alkalmasak.",
+    "image": "plate-b.jpg",
+    "image_alt": "Joghurt gyümölccsel és egy puha krémmel",
+    "findings": [
+      {"id": "variety", "lead": "A keserű és az ízes, nem édes ízeket kínáld korán.", "text": "Azok a babák, akik a szilárd ételek első heteiben találkoznak a zöld zöldségekkel, később hajlandóbbak megenni őket."},
+      {"id": "iron-foods", "lead": "Kerüljön vasat adó étel a korai bevásárlólistára.", "text": "A hús, a lencse, a bab, a tofu és a dúsított csecsemőgabona a gyakorlati források."},
+      {"id": "avoid", "lead": "Egy rövid kerülőlista elég.", "text": "A méz, a hozzáadott só, a hozzáadott cukor, a rizsitalok, az egész diófélék, a pasztőrözetlen tejtermék és néhány hal azok a tételek, amelyek mögött valódi ok áll."}
+    ],
+    "sections": [
+      {"id": "variety", "heading": "Változatosság, a nehezebb ízekkel együtt", "paragraphs": ["Az ESPGHAN ízek és állagok sorát kéri, a keserű zöldeket is beleértve. Egy hónapon át csak édes körte és banán szűk ízlést tanít. A brokkoli, a keverékben adott spenót, a bab és a hal megjelenhet az első két hétben.", "A biotermésről nem mutatták ki, hogy csecsemőknél változtatná az allergia vagy a növekedés kimenetelét. Mosd meg. Hámozd meg, ha a héja kemény vagy erősen szennyezett. A szezonalitás öröm és a költségvetés eszköze, nem biztonsági szabály."]},
+      {"id": "iron-foods", "heading": "A vas köré építsd", "paragraphs": ["Egy hasznos konyhában van kéznél egy vasat adó étel: megfőzött darált hús a fagyasztóban, vöröslencse a szekrényben, sózatlan bab, tojás, vagy olyan dúsított gabonapehely, amelynek az ízét te is elviseled. A növényi vas mellé, a C-vitamin miatt, tegyél gyümölcsöt vagy étkezési paprikát.", "A rizspehely nem kötelező. Nem kell az alváshoz, sem az első kanálhoz, a rizsital pedig teljesen más termék. Öt év alatti gyerekek ne igyanak rizsitalt, az arzén miatt."]},
+      {"id": "avoid", "heading": "Ételek, amelyeket konkrét okból kihagyunk vagy megváltoztatunk", "paragraphs": ["A méz, megsütve is, tartalmazhat olyan spórákat, amelyek csecsemőkori botulizmust okoznak. Csak az első születésnap után jöhet, és akkor is cukor. A só is vár: a csecsemő napi felső határa sóból 1 gramm alatt van, és ezt a közönséges ételek már elérik, ezért nem adunk hozzá, a leveskocka, a sonka és a szójaszósz pedig kimarad. Cukorra és gyümölcslére nincs szükség; a gyümölcs maga a megfelelő forma.", "Az egész diófélék, az egész szőlőszemek, a pattogatott kukorica és a kemény aszalt gyümölcs fulladásveszélyt jelentenek. A cápa, a kardhal és a marlin túl sok higanyt tartalmaz. A pasztőrözetlen tej és a penésszel érlelt sajtok Listeriát hordozhatnak. Az alulfőzött vesebab és más szárított bab gyorsan kialakuló betegséget okozhat; forrald őket, amíg teljesen megpuhulnak. A máj tápláló, és A-vitaminban olyan magas, hogy a felső határ a heti egy kis adag."]}
+    ],
+    "references": [
+      {"title": "Ételek, amelyeket ne adjunk babáknak és kisgyermekeknek", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"},
+      {"title": "Hozzátáplálás: állásfoglalás", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "Gyümölcslé csecsemőknél, gyermekeknél és serdülőknél: jelenlegi ajánlások", "source": "Heyman és Abrams, Pediatrics", "year": "2017", "url": "https://doi.org/10.1542/peds.2017-0967"},
+      {"title": "A botulizmusról", "source": "Az Egyesült Államok Járványügyi és Betegségmegelőzési Központjai", "year": "2024", "url": "https://www.cdc.gov/botulism/about/index.html"}
+    ]
+  },
+  {
+    "id": "cooking-and-seasoning",
+    "title": "Főzés és ízesítés",
+    "byline": "A fűszernövény, egy enyhe fűszer és egy kanál olaj többet tesz a baba ételéért, mint amennyit a só vagy a cukor valaha fog.",
+    "image": "hero.jpg",
+    "image_alt": "Egy tál sima zöldségpüré",
+    "findings": [
+      {"id": "salt", "lead": "Egyéves kor előtt nem adunk hozzá sót.", "text": "Ez a főzővizet, az alaplevet és a tésztaszószra szórt „csipetet” is jelenti."},
+      {"id": "sugar", "lead": "Az édesség jöhet a gyümölcsből.", "text": "A hozzáadott cukor kétéves kor előtt szükségtelen, a méz pedig egyéves kor előtt nem biztonságos."},
+      {"id": "share", "lead": "Főzd meg a családi ételt, aztán ízesítsd a felnőtt tányérokat.", "text": "A baba adagját vedd ki, mielőtt só, csili vagy sós szósz kerül bele."}
+    ],
+    "sections": [
+      {"id": "salt", "heading": "Só", "paragraphs": ["A csecsemő veséje a nátriumot rosszul kezeli, a sózott étrend pedig olyan preferenciát tanít, amelyet nehéz visszafordítani. A gyakorlati szabály: egyéves kor alatti gyerek ételébe főzéskor nem kerül só. A sajt, a kenyér és a konzervek már tartalmaznak valamennyi sót; a mennyiségük maradjon szerény.", "A leveskocka, a szaft, a sonka, a bacon, a szójaszósz és a legtöbb „babaízesítő”, amelynek az összetevői között só szerepel, felnőtt rövidítés. A saját készítésű, lefagyasztott, sózatlan alaplékocka más dolog."]},
+      {"id": "sugar", "heading": "Cukor, méz és fűszer", "paragraphs": ["A hozzáadott cukor kiszorítja a vasban gazdag ételt, és amint kibújnak a fogak, táplálja a szuvasodást. A gyümölcs, a sült sütőtök és az érett banán elég édes a kekszhez és a kásához. A méz egyéves kor alatt nem természetesebb választás: a botulizmus spórái a szokásos sütést túlélik.", "Az édes fűszerpaprika, a kurkuma, a római kömény, az oregánó, a bazsalikom és egy csipet fahéj ésszerű. Az erős csili és a sok fekete bors nem. A fahéj fűszer, nem kanálnyi adag; a cassia fahéj kumarint tartalmaz, ezért egy csipet a helyes adag."]},
+      {"id": "share", "heading": "Egy fazék mindenkinek", "paragraphs": ["A raguk, a szószok és a sültek lehetnek a háztartás ételei, ha a baba adagját előbb kiemeljük. Az övét összetörjük, vagy olyan állagra vágjuk, amellyel boldogul. A tiédet utána meg lehet sózni.", "Az ételben megfőtt fokhagyma és hagyma rendben vannak. Az olajban, üvegben tárolt fokhagyma vagy fűszernövény nem: ez ismert botulizmusos elrendezés. A friss fűszernövényt és az olajat a főzés végén add hozzá."]}
+    ],
+    "references": [
+      {"title": "Ételek, amelyeket ne adjunk babáknak és kisgyermekeknek", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"},
+      {"title": "Irányelv: a cukrok bevitele felnőtteknél és gyermekeknél", "source": "Egészségügyi Világszervezet (WHO)", "year": "2015", "url": "https://www.who.int/publications/i/item/9789241549028"},
+      {"title": "A botulizmusról", "source": "Az Egyesült Államok Járványügyi és Betegségmegelőzési Központjai", "year": "2024", "url": "https://www.cdc.gov/botulism/about/index.html"}
+    ]
+  },
+  {
+    "id": "tools-and-hygiene",
+    "title": "Eszközök, higiénia és a fagyasztó",
+    "byline": "Egy kés, egy fazék és fegyelem a hűtőnél többet számít, mint egy fióknyi babakütyü.",
+    "image": "plate-c.jpg",
+    "image_alt": "Puha, sütött ételek egy tányéron",
+    "findings": [
+      {"id": "tools", "lead": "A legtöbb különleges babaeszköz nem kötelező.", "text": "A karcos tapadásmentes serpenyőt cseréld le. A nyers húsnak legyen külön deszkája. Az első ételeket egy villa is szétnyomja."},
+      {"id": "leftovers", "lead": "Gyorsan hűtsd, két napig tartsd meg, egyszer melegítsd újra.", "text": "A rizs szigorúbb: egy órán belül hűtsd le, és a hűtőben tartott rizst egy napon belül edd meg."},
+      {"id": "freeze", "lead": "Adagokban fagyaszd le, és ne fagyaszd újra.", "text": "Egy jégkockatartónyi sózatlan szósz hasznosabb, mint egy hétig tartott nyers fűszerkrém."}
+    ],
+    "sections": [
+      {"id": "tools", "heading": "Egy rövid készlet", "paragraphs": ["Ezen az oldalon minden recept megfőzhető egy késsel, egy vágódeszkával, egy lábassal, egy ép felületű serpenyővel, és turmixgéppel vagy villával. A gőzölőbetét kellemes. Az almareszelő olyan babának, aki most tanul enni, nem biztonságosabb, mint a megfőtt alma; a nyers reszelék egyenetlen, és könnyen belélegezhető.", "A sérült tapadásmentes bevonat ok arra, hogy a serpenyőt lecseréljük, nem olyan felület, amelyet tovább használunk. A nyers húsnak saját deszka kell, utána forró vízzel elmosva. A műanyag doboz megfelel, ha sértetlen, és ételhez használják."]},
+      {"id": "leftovers", "heading": "A kisgyerekekre szabott higiénia", "paragraphs": ["Az ételt egy-két órán belül, lapos edényben hűtsd le, és tedd a hűtőbe. A hűtött ételt két napon belül edd meg. Újramelegítéskor gőzöljön át egészen, keverd meg, hogy a hideg pontok eltűnjenek, aztán hűtsd olyanra, hogy a falat biztonságos legyen. Csak egyszer melegítsd újra. A gyerek tányérján maradt ételnek vége; nem kerül vissza a fazékba.", "A rizsben és más gabonában elszaporodik a Bacillus cereus, ha melegen állnak. Egy órán belül hűtsd le őket, és a hűtött rizst 24 órán belül használd fel. A szárított babot erősen forraljuk. A csecsemőknek adott tojást addig főzzük, amíg a fehérje és a sárgája is megköt. Csak pasztőrözött tejtermék."]},
+      {"id": "freeze", "heading": "Előrefőzés", "paragraphs": ["A plusz szószt, darált húst és pürét kis kockákban fagyaszd le azon a napon, amikor megfőzöd. Írd rá a dátumot. A hűtőben olvaszd ki, és 24 órán belül használd fel, vagy a mikrohullámú sütőben olvaszd ki, és azonnal tálald. Ha egyszer kiolvadt, ne fagyaszd vissza.", "A nyers zöldség- és fűszerkrém, egy hétig a hűtőben tartva, rossz tartósítás. Ugyanez a keverék, azonnal lefagyasztva, jó tartósítás. A só nem olyan tartósítószer, amelyet itt használhatsz."]}
+    ],
+    "references": [
+      {"title": "A gyermekek étele: biztonság és higiénia", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/childrens-food-safety-and-hygiene/"},
+      {"title": "Öt kulcs a biztonságosabb élelmiszerhez", "source": "Egészségügyi Világszervezet (WHO)", "year": "2006", "url": "https://www.who.int/publications/i/item/9789241594639"}
+    ]
+  }
+]

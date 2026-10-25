@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu" data-prefix="/hu" data-months="hónapos kortól" data-empty="Nincs a szűrésnek megfelelő recept." data-one="recept" data-many="recept">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halpástétom · Első ételek</title>
+  <meta name="description" content="Eredeti, bizonyítékokhoz kötött útmutató és receptek az első szilárd ételekhez. Egy magyar hozzátáplálós könyv ihlette. Nem orvosi tanács.">
+  <link rel="alternate" hreflang="en" href="https://first-foods-companion.vercel.app/recipes/fish-spread.html">
+  <link rel="alternate" hreflang="hu" href="https://first-foods-companion.vercel.app/hu/recipes/fish-spread.html">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem("theme");
+        if (theme !== "day" && theme !== "night") {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="/hu/">Első ételek</a>
+    <div class="nav-end">
+      <nav class="nav-links">
+        <a href="/hu/topics/">Útmutatók</a>
+        <a href="/hu/recipes/" aria-current="page">Receptek</a>
+        <a href="/hu/about.html">Az oldalról</a>
+      </nav>
+      <div class="nav-tools">
+        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <select id="lang-hu" data-lang aria-label="Nyelv">
+          <option value="en">English</option>
+          <option value="hu" selected>Magyar</option>
+        </select>
+        <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    
+        <article>
+          <div class="recipe-hero">
+            <div>
+              <p class="kicker">Alapok</p>
+              <h1>Halpástétom</h1>
+              <p class="hu">White fish spread</p>
+              <div class="pills">
+                <span class="pill">6 hónapos kortól</span>
+                <span class="pill sage">Jó ötlet</span>
+                <span class="pill quiet">25 min</span>
+                <span class="pill quiet">2 adag</span>
+              </div>
+              <p>6 hónapos kortól. Ha a hal új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van, és ha már jól tűri, a halat hetente néhány alkalommal továbbra is kínáld.</p>
+              <p class="meta">Fagyasztható.</p>
+            </div>
+            <img src="/assets/img/plate-a.jpg" alt="Egy tányér puha főtt étel">
+          </div>
+          <div class="split">
+            <section class="panel">
+              <h2>Hozzávalók</h2>
+              <ul><li><strong>60 g</strong> kicsontozott fehér hal <span class="meta">(pollock, tőkehal vagy foltos tőkehal; nem cápa, nem kardhal, nem marlin, nem ponty és nem füstölt hal)</span></li><li><strong>80 g</strong> burgonya <span class="meta">(meghámozva, puhára főzve)</span></li><li><strong>1 teáskanál</strong> repce- vagy olívaolaj <span class="meta">(a végén belekeverve)</span></li></ul>
+              <h2>Allergének</h2>
+              <div class="pills"><span class="pill quiet">hal</span></div>
+            </section>
+            <section class="panel">
+              <h2>Elkészítés</h2>
+              <ol><li>Nézd át a filét, és szedd ki minden szálkáját.</li><li>Párold vagy gőzöld, amíg szétválik, és mindenütt átlátszatlan.</li><li>Törd össze a megfőtt burgonyával és az olajjal.</li><li>Ha kell, egy kevés főzővízzel hígítsd.</li><li>Gyorsan hűtsd le.</li><li>Azonnal add, vagy fagyaszd kis edényben, és füstölt halat ne használj.</li></ol>
+            </section>
+          </div>
+          <section class="callout sound">
+            <h2>Jó ötlet</h2>
+            <p>A füstölt hal sós, és nem ugyanaz, mint a frissen megfőtt filé.</p>
+            <p>A megfőtt, kicsontozott fehér halat burgonyával és olajjal turmixold össze. Hagyd ki a füstölt halat, a cápát, a kardhalat, a marlint és a pontyot.</p>
+          </section>
+          <aside class="side">
+            <strong>Még ebből a csoportból</strong>
+            <a href="/hu/recipes/unsalted-stock.html">Sózatlan alaplé</a><a href="/hu/recipes/liver-dumplings.html">Májgaluska</a><a href="/hu/recipes/fresh-pasta.html">Házi tészta</a>
+          </aside>
+        </article>
+        
+  </main>
+  <footer class="wrap footer">
+    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+  </footer>
+  
+  <script src="/assets/site.js"></script>
+</body>
+</html>

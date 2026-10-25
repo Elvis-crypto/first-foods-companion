@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "walnut-party-cake",
+    "title": "Banana walnut layer cake",
+    "title_hu": "Diós torta",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 45,
+    "ingredients": [
+      {"item": "nagyon érett banán", "amount": "2", "note": "pépesítve; ez az egyetlen édesítés"},
+      {"item": "tojás", "amount": "2", "note": "sütve, amíg teljesen meg nem szilárdul"},
+      {"item": "finomra darált dió", "amount": "80 g", "note": "csak akkor, ha a diót már jól tűri; egyféle dió, nem keverék"},
+      {"item": "sima búzaliszt", "amount": "80 g", "note": "a tésztában nincs só"},
+      {"item": "repce- vagy olívaolaj", "amount": "2 evőkanál", "note": "hogy a bél puhább legyen"},
+      {"item": "natúr pasztőrözött joghurt", "amount": "120 g", "note": "cukrozatlan töltelék; tejet is tartalmaz"}
+    ],
+    "method": [
+      "A banánt törd sima péppé, majd keverd bele az olajat és a tojást.",
+      "Forgasd bele a lisztet és a finomra darált diót.",
+      "Oszd a tésztát két kis formába.",
+      "Süsd 180 °C-on, amíg a közepe teljesen átsül, és a tűpróba tiszta.",
+      "Hagyd teljesen kihűlni, majd kend a joghurtot a lapok közé.",
+      "Vágj egy kis szeletet, és cukormáz nélkül, egész dió nélkül add."
+    ],
+    "allergens": ["milk", "egg", "gluten", "tree-nut"],
+    "verdict": "replace",
+    "issues": "A cukormáz és az egész dió volt a gond. Játékot ne tegyél a tortába, és csak ritkán add.",
+    "changes": "Kis, kétlapos torta tojásból, darált dióból és lisztből. Csak a tésztába tört, nagyon érett banán édesíti, a töltelék natúr joghurt. Cukormáz, egész dió és apró játék nélkül.",
+    "serve": "Darált diót csak akkor használj, ha a diót már jól tűri, és egyszerre csak egyféle diót. Ez alkalmi ünnepi étel, nem heti torta. A joghurtos töltelék tejet tartalmaz. A sima lapokat lefagyaszthatod, a joghurtot kiolvasztás után kend rá.",
+    "freezer": true
+  },
+  {
+    "id": "chestnut-cake",
+    "title": "Chestnut and apple cake",
+    "title_hu": "Gesztenyetorta",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 50,
+    "ingredients": [
+      {"item": "hámozott gesztenye", "amount": "200 g", "note": "teljesen puhára főzve; ez nem dió és nem földimogyoró"},
+      {"item": "étkezési alma", "amount": "1 nagy", "note": "meghámozva, puhára főzve"},
+      {"item": "sima búzaliszt", "amount": "50 g", "note": "éppen annyi, hogy egyetlen puha tortát összetartson"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 evőkanál", "note": "csokoládé és cukor nélkül"}
+    ],
+    "method": [
+      "A hámozott gesztenyét főzd addig, amíg kemény darab nélkül pépesíthető, majd szűrd le.",
+      "A meghámozott, feldarabolt almát egy kevés vízben főzd, amíg szétfő.",
+      "A gesztenyét és az almát az olajjal törd pépesre.",
+      "Keverd bele a lisztet, és egy kis formában kend el a puha tésztát.",
+      "Süsd 180 °C-on, amíg a közepe megszilárdul, de még puha marad.",
+      "Hűtsd ki, majd vágj belőle egy kis darabot."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "replace",
+    "issues": "A csokoládés gesztenyetorta édesség.",
+    "changes": "Ez az ehető változat: főtt, hámozott gesztenye és alma, kevés olajjal és liszttel egyetlen puha tortává sütve, csokoládé és cukor nélkül. A gesztenye nem ugyanaz, mint a dió vagy a földimogyoró bevezetése.",
+    "serve": "12 hónapos kortól, ritkán kínáld. A gesztenye nem helyettesíti a diót vagy a földimogyorót, ezért ezeket külön ételekben gyakorold, ha már mindegyiket jól tűri.",
+    "freezer": true
+  },
+  {
+    "id": "melon-plate",
+    "title": "Melon strip plate",
+    "title_hu": "Dinnyetál",
+    "category": "celebrations",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 10,
+    "ingredients": [
+      {"item": "érett dinnye", "amount": "150 g", "note": "héj és mag nélkül; hosszú csíkokra vágva, nem golyókra"},
+      {"item": "puha bogyós gyümölcs", "amount": "40 g", "note": "málna vagy érett eper; szőlő nélkül"}
+    ],
+    "method": [
+      "Válassz érett dinnyét, vágd le a héját, és szedd ki a magját.",
+      "A húsát hosszú csíkokra szeleteld, ne kerek golyókra.",
+      "A bogyókat törd össze, vagy vágd negyedekre, hogy ne maradjon belőlük egész, kerek darab.",
+      "A csíkokat és a bogyókat rendezd egy tányérra.",
+      "Azonnal add, cukor és nyárs nélkül."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "Egy kerek, csúszós darab elzárhatja a légutat.",
+    "changes": "Az érett dinnyét hosszú csíkokra vágd, ne kerek golyókra, és puha bogyós gyümölccsel add. Cukor és nyárs nélkül; a tányér akár tortának is tűnhet, ha szeretnéd.",
+    "serve": "8 hónapos kortól alkalmas. Maradj a gyerek mellett, és pépesíts minden darabot, ami még kerek vagy csúszós.",
+    "freezer": false
+  },
+  {
+    "id": "soft-cocoa-free-cake",
+    "title": "Soft banana oat cake",
+    "title_hu": "Puha torta",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 40,
+    "ingredients": [
+      {"item": "nagyon érett banán", "amount": "2", "note": "pépesítve; cukor nélkül"},
+      {"item": "zabpehely", "amount": "150 g", "note": "összetartja a tortát; gluténként van feltüntetve"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 evőkanál", "note": "puhán tartja a bélt"},
+      {"item": "puha gyümölcs", "amount": "50 g", "note": "csak díszítés; semmi kemény és semmi bolti édesség"}
+    ],
+    "method": [
+      "Melegítsd elő a sütőt 170 °C-ra.",
+      "A banánt az olajjal törd pépesre.",
+      "Keverd bele a zabpelyhet, hogy puha tészta legyen.",
+      "Kis formában kend el, és süsd, amíg megszilárdul, de a közepe még puha.",
+      "Hűtsd ki, majd formázd vagy vágd, ahogy szeretnéd.",
+      "Csak puha gyümölccsel díszítsd, édesség és kemény darab nélkül."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "replace",
+    "issues": "A szokásos teknőstorta kekszből és csokoládés édességből áll.",
+    "changes": "Süss puha banános-zabos tortát, formázd, ahogy szeretnéd, és gyümölccsel díszítsd, ne édességgel. Kemény díszítés nélkül.",
+    "serve": "12 hónapos kortól, alkalmi puha tortaként. A tetején minden gyümölcsdarabnak könnyen szét kell nyomnia az ujjaid között.",
+    "freezer": true
+  },
+  {
+    "id": "stuffed-eggs",
+    "title": "Stuffed eggs",
+    "title_hu": "Töltött tojás",
+    "category": "celebrations",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "tojás", "amount": "2", "note": "keményre főzve, amíg a sárgája szilárd"},
+      {"item": "natúr pasztőrözött joghurt", "amount": "2 evőkanál", "note": "cukrozatlan; a nyers majonéz helyett"},
+      {"item": "édes fűszerpaprika", "amount": "1/4 teáskanál", "note": "enyhe; nem csípős paprika és nem só"}
+    ],
+    "method": [
+      "A tojást 10 percig főzd, hogy a sárgája szilárd legyen, majd hideg vízben hűtsd.",
+      "Hámozd meg, felezd el, és emeld ki a sárgáját.",
+      "A sárgáját joghurttal és édes fűszerpaprikával törd össze, só nélkül.",
+      "Kanalazd vissza a sárgáját a fehérjébe.",
+      "Vágd a gyereknek elég kis darabokra."
+    ],
+    "allergens": ["milk", "egg"],
+    "verdict": "adjust",
+    "issues": "A szokásos töltelék nyers majonéz és só, és egy egész fél tojás nagy egy gyereknek.",
+    "changes": "A kemény tojást felezd el, a sárgáját natúr joghurttal és édes fűszerpaprikával törd össze, nyers majonéz és só nélkül. Vágd a gyereknek elég kis darabokra.",
+    "serve": "8 hónapos kortól, kis darabokban, ülő gyereknek. Ha a tojás vagy a tej új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van.",
+    "freezer": false
+  },
+  {
+    "id": "cheese-cup",
+    "title": "Pear cheese cup",
+    "title_hu": "Pohárkrém",
+    "category": "celebrations",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "pasztőrözött túró", "amount": "80 g", "note": "sótlan és cukrozatlan"},
+      {"item": "natúr pasztőrözött joghurt", "amount": "40 g", "note": "lazábbá teszi a krémet"},
+      {"item": "érett körte", "amount": "40 g", "note": "meghámozva, puhára főzve"}
+    ],
+    "method": [
+      "A körtét hámozd meg, magozd ki, és egy kanál vízben főzd puhára.",
+      "A körtét törd pépesre, és hagyd kihűlni.",
+      "A túrót és a joghurtot keverd össze, amíg laza nem lesz.",
+      "Forgasd bele a körtét.",
+      "Kanalazd pohárba, és a tetejére ne tegyél semmit."
+    ],
+    "allergens": ["milk"],
+    "verdict": "adjust",
+    "issues": "A cukor és a tetejére szórt édesség a szokásos extra, pedig nincs rá szükség.",
+    "changes": "Pasztőrözött túrót, joghurtot és egy kevés főtt körtét tegyél pohárba. Cukor és édesség a tetején nélkül.",
+    "serve": "8 hónapos kortól. Csak pasztőrözött tejterméket használj. Ha a tej új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van; ha már jól tűri, a tejes ételeket hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": false
+  },
+  {
+    "id": "vegetable-cake",
+    "title": "Vegetable bar cake",
+    "title_hu": "Zöldséges torta",
+    "category": "celebrations",
+    "min_age_months": 10,
+    "portions": 6,
+    "time_minutes": 50,
+    "ingredients": [
+      {"item": "burgonya", "amount": "2 közepes", "note": "puhára sütve"},
+      {"item": "sárgarépa", "amount": "1 nagy", "note": "sütőben puhára sütve"},
+      {"item": "spenót", "amount": "60 g", "note": "összefonnyasztva; egy réteg, nem hatalmas napi adag"},
+      {"item": "enyhe, pasztőrözött sajt", "amount": "20 g", "note": "nem feta, nem halloumi, nem kéksajt és nem kemény, sós sajt"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 teáskanál", "note": "hogy a zöldség ne ragadjon le"}
+    ],
+    "method": [
+      "A burgonyát és a sárgarépát süsd puhára, a spenótot fonnyaszd össze.",
+      "A burgonyát és a sárgarépát szeleteld fel.",
+      "Egy kis tálat olajozz ki, és rétegezd a burgonyát, a sárgarépát és a spenótot.",
+      "Szórd a tetejére az enyhe sajtot.",
+      "Süsd, amíg a zöldség forró, a sajt pedig éppen megpuhul.",
+      "Kicsit hűtsd, és vágd rudakra."
+    ],
+    "allergens": ["milk"],
+    "verdict": "sound",
+    "issues": "A sós sajt tenné alkalmatlanná ezt a tányért.",
+    "changes": "Rétegezz sült burgonyát, sült sárgarépát és spenótot egy kevés enyhe sajttal, majd vágd rudakra a sütést. Sós sajt nélkül.",
+    "serve": "Nem édes, zöldséges ünnepi tányér 10 hónapos kortól. Olyan rudakra vágd, amit a gyerek meg tud fogni, és hagyd ki a sós ízű sajtot.",
+    "freezer": true
+  },
+  {
+    "id": "soft-spice-biscuits",
+    "title": "Soft spice oat biscuits",
+    "title_hu": "Fűszeres puha keksz",
+    "category": "celebrations",
+    "min_age_months": 10,
+    "portions": 10,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "zabpehely", "amount": "100 g", "note": "finomra darálva, ha simább kekszet szeretnél"},
+      {"item": "cukrozatlan almapüré", "amount": "80 g", "note": "ez az egyetlen édesítés"},
+      {"item": "őrölt fahéj", "amount": "1/4 teáskanál", "note": "enyhe fűszer, nem édes bevonat"},
+      {"item": "narancshéj", "amount": "negyed narancsból", "note": "megmosott narancs; csak a színes héj, a fehér rész nélkül"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 evőkanál", "note": "segít, hogy a keksz puha maradjon"}
+    ],
+    "method": [
+      "Melegítsd elő a sütőt 160 °C-ra.",
+      "Keverd össze a zabpelyhet, az almapürét, a fahéjat és a narancshéjat.",
+      "Keverd bele az olajat, hogy puha tészta legyen.",
+      "Kis, vastag halmokat tegyél tepsire, és kissé lapítsd le őket.",
+      "Csak addig süsd, amíg megszilárdul, ne addig, amíg megbarnul és ropogós lesz.",
+      "Fedett dobozban hűtsd, és nézd meg, hogy minden keksz inkább hajlik, mint törik."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "replace",
+    "issues": "A szokásos mézes-fűszeres keksz 10 hónapos korban rossz édesítő, és gyakran túl kemény. A méz 12 hónapos kor előtt sütve is veszélyes, és utána is csak cukor.",
+    "changes": "Fahéjas, narancshéjas zabkekszet süss almapürével édesítve. Méz nélkül, és a keksz maradjon puha.",
+    "serve": "10 hónapos kortól, és csak amíg puha marad. Ha egy keksz keményre szárad, ne add. A hétköznapi búzát a héten tésztában vagy kenyérben is add.",
+    "freezer": true
+  },
+  {
+    "id": "star-cheese-cake",
+    "title": "Star cottage cheesecake",
+    "title_hu": "Csillag túrótorta",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 55,
+    "ingredients": [
+      {"item": "zabpehely", "amount": "80 g", "note": "darált; puha alap, gluténként van feltüntetve"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 evőkanál", "note": "cukor nélkül tartja össze az alapot"},
+      {"item": "natúr pasztőrözött joghurt", "amount": "90 g", "note": "1 evőkanál az alapba, a többi a krémbe"},
+      {"item": "pasztőrözött túró", "amount": "200 g", "note": "sótlan és cukrozatlan"},
+      {"item": "tojás", "amount": "1", "note": "sütve, amíg teljesen meg nem szilárdul"},
+      {"item": "puha gyümölcs", "amount": "néhány darab", "note": "a tetejére, máz helyett"}
+    ],
+    "method": [
+      "A darált zabpelyhet keverd össze az olajjal és egy kanál joghurttal, majd nyomj belőle vékony alapot egy kis formába.",
+      "Az alapot süsd 180 °C-on kb. 8 percig.",
+      "A túrót, a tojást és a maradék joghurtot keverd simára.",
+      "Öntsd a krémet az alapra, és süsd, amíg a tojás teljesen átsül, a közepe pedig még puha.",
+      "Hűtsd ki, vágj belőle puha csillagokat, és a száraz szélét tedd félre.",
+      "A tetejére puha gyümölcs kerüljön, ne cukormáz."
+    ],
+    "allergens": ["milk", "egg", "gluten"],
+    "verdict": "adjust",
+    "issues": "A cukormáz édességgé teszi, és ez csak alkalmi torta.",
+    "changes": "Cukor nélküli túrótortát süss túróból, tojásból és joghurtból, puha zabalapon, és vágd csillagokra. A tetejére gyümölcs kerüljön, ne cukormáz.",
+    "serve": "Alkalmanként, 12 hónapos kortól. A mindennapi tejet, tojást és glutént, ha már mindegyiket jól tűri, hetente néhány alkalommal más ételekben is add. Új allergént ne ebben az egész tortában kóstoltass először, hanem reggel, olyan napon, amikor a gyerek jól van.",
+    "freezer": true
+  },
+  {
+    "id": "soft-oat-clusters",
+    "title": "Soft oat clusters",
+    "title_hu": "Zabos toboz",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "érett banán", "amount": "1", "note": "pépesítve; cukor és csokoládé nélkül"},
+      {"item": "zabpehely", "amount": "80 g", "note": "puha gombóc, nem kukoricapehely és nem más kemény gabonapehely"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 teáskanál", "note": "hogy a gombóc ne száradjon ki"}
+    ],
+    "method": [
+      "A banánt törd pépesre.",
+      "Keverd bele a zabpelyhet és az olajat, amíg puha gombócok összeállnak.",
+      "Kis halmokat tegyél tepsire.",
+      "Süsd 160 °C-on, amíg éppen megszilárdul, de még puha.",
+      "Fedve hűtsd, hogy ne száradjanak keményre.",
+      "Egy puha gombócot adj, csokoládé és ropogós gabonapehely nélkül."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "replace",
+    "issues": "A szokásos tobozkeksz kukoricapehelyből és csokoládéból áll.",
+    "changes": "Puha zabos-banános gombócokat készíts, csokoládé és kemény gabonapehely nélkül. Maradjon alkalmi.",
+    "serve": "Alkalmi étel 12 hónapos kortól. Ha egy gombóc ropogósra sül, ne add. A búzát a héten közönséges tésztában vagy kenyérben is kínáld.",
+    "freezer": true
+  },
+  {
+    "id": "unsalted-stock",
+    "title": "Unsalted stock",
+    "title_hu": "Sózatlan alaplé",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 10,
+    "time_minutes": 90,
+    "ingredients": [
+      {"item": "csirkeszárny vagy egy kis csontváz", "amount": "kb. 300 g", "note": "elhagyható; zöldségalapléhez hagyd ki"},
+      {"item": "sárgarépa", "amount": "1", "note": "lekefélve, felaprítva"},
+      {"item": "vöröshagyma", "amount": "1", "note": "meghámozva, félbevágva"},
+      {"item": "petrezselyemszár", "amount": "néhány", "note": "zeller nélkül"},
+      {"item": "víz", "amount": "1 liter", "note": "só és leveskocka nélkül"}
+    ],
+    "method": [
+      "A csirkét tedd fazékba, vagy csak a zöldséget használd, ha húsmentes alaplevet szeretnél.",
+      "Add hozzá a sárgarépát, a hagymát, a petrezselymet és a vizet.",
+      "Só nélkül főzd lassan, amíg a lé enyhén zamatos, és a csirke, ha van benne, teljesen megfőtt.",
+      "Szűrd ki a csontokat és a kifőtt zöldséget.",
+      "Gyorsan hűtsd le, és a levet jégkockatartóban fagyaszd le.",
+      "Egy fagyasztott adagot főzéshez használj, ne önmagában, tál levesként."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "A leveskocka só.",
+    "changes": "Csirkét vagy zöldséget főzz só nélkül, szűrd le a levet, és kis adagokban fagyaszd le. Hozzávalóként használd, ne önálló ételként.",
+    "serve": "6 hónapos kortól, csak egy másik, odaillő ételbe téve. A bolti leveskocka ezt nem pótolja, mert a kocka só.",
+    "freezer": true
+  },
+  {
+    "id": "liver-dumplings",
+    "title": "Liver dumplings",
+    "title_hu": "Májgaluska",
+    "category": "basics",
+    "min_age_months": 8,
+    "portions": 1,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "csirkemáj", "amount": "20 g nyers", "note": "főve kb. 15 g; ez a gyerek teljes adagja"},
+      {"item": "tojás", "amount": "1 evőkanál felvert", "note": "addig főzve, amíg teljesen meg nem szilárdul"},
+      {"item": "sima zsemlemorzsa", "amount": "1 evőkanál", "note": "búza, sós fűszerkeverék nélkül"},
+      {"item": "petrezselyem", "amount": "1 teáskanál aprított", "note": "friss"},
+      {"item": "sótlan alaplé", "amount": "250 ml", "note": "a házi alaplé, nem kocka"}
+    ],
+    "method": [
+      "A májat a sótlan alaplében főzd, amíg teljesen megfő, és nem marad benne rózsaszín.",
+      "Vedd ki, és ellenőrizd, hogy a gyerek adagja főve kb. 15 g.",
+      "Ezt a májat turmixold össze a tojással, a zsemlemorzsával és a petrezselyemmel.",
+      "Formázz belőle néhány kis galuskát.",
+      "Tedd vissza a gyöngyöző alaplébe, és főzd, amíg a tojás megszilárdul, a belseje pedig forró.",
+      "A galuskát egy kanál alaplében add."
+    ],
+    "allergens": ["egg", "gluten"],
+    "verdict": "adjust",
+    "issues": "A máj nagyon gazdag A-vitaminban, ezért a gyerek adagja levesben is kicsi maradjon.",
+    "changes": "Néhány kis galuskát főzz csirkemájból, tojásból, zsemlemorzsából és petrezselyemből sótlan alaplében, amíg teljesen meg nem fő. A gyerek kb. 15 g főtt májat kapjon, hetente legfeljebb egyszer, és ne A-vitamin-készítmény mellett.",
+    "serve": "8 hónapos kortól. Ez az adag a hét májos étele, ezért ne adj mellé májkrémet, és ne adj A-vitamin-készítményt sem. Ha egy galuska még nagy, aprítsd fel.",
+    "freezer": true
+  },
+  {
+    "id": "fresh-pasta",
+    "title": "Fresh pasta",
+    "title_hu": "Házi tészta",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 50,
+    "ingredients": [
+      {"item": "tojás", "amount": "2", "note": "a tésztában kifőzve, teljesen megfőve"},
+      {"item": "sima búzaliszt", "amount": "200 g", "note": "kb. ennyi súly; semennyi só"},
+      {"item": "víz", "amount": "egy nagy fazék", "note": "a kifőzéshez, só nélkül"}
+    ],
+    "method": [
+      "A tojást keverd a lisztbe, só nélkül.",
+      "Gyúrd kemény tésztává; csak néhány csepp vizet adj hozzá, ha magától nem áll össze.",
+      "Takard le, és pihentesd 30 percig.",
+      "Nyújtsd vékonyra, és vágd kis darabokra.",
+      "Főzd, amíg a tészta nagyon puha, ne csak éppen harapható.",
+      "Szűrd le, és nedvesen add, felaprítva vagy összetörve."
+    ],
+    "allergens": ["egg", "gluten"],
+    "verdict": "adjust",
+    "issues": "A szokásos tésztába egy kevés só is belekerülhetett, és a kemény tészta ebben a korban túl kemény.",
+    "changes": "A tészta két tojásból és kb. 200 g lisztből készül, semennyi sóval. Pihentesd, vágd kicsire, és nagyon puhára főzd, hogy 6 hónapos kortól használható legyen.",
+    "serve": "6 hónapos kortól csak akkor, ha a darabok nagyon puhák és nedvesek. Az első tojás- vagy búzakóstolót reggel add, olyan napon, amikor a gyerek jól van, utána a búzát a héten továbbra is kínáld.",
+    "freezer": true
+  },
+  {
+    "id": "oil-spoon",
+    "title": "Oil on the plate",
+    "title_hu": "Olaj a végén",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 5,
+    "ingredients": [
+      {"item": "repce- vagy olívaolaj", "amount": "1 teáskanál", "note": "a kész tányérba keverve"},
+      {"item": "lenmagolaj", "amount": "1 teáskanál, választható", "note": "csak kis üvegből, a hűtőből, két héten belül elhasználva; soha ne melegítsd"}
+    ],
+    "method": [
+      "Az ételt különleges kevert bébiolaj nélkül főzd meg.",
+      "Egy teáskanál repce- vagy olívaolajat keverj a megfőtt tányérba.",
+      "Ha lenmagolajat használsz, csak kis üveget tarts a hűtőben, és két héten belül használd el.",
+      "A lenmagolajat főzés után add hozzá, és soha ne melegítsd.",
+      "Fokhagymát vagy fűszernövényt ne áztass olajba, és olajban ne is tárold."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "Különleges bébiolaj-keverékre nincs szükség, az ízesített olaj pedig botulizmusveszély.",
+    "changes": "Hagyd ki a szekrényben álló, 500 ml-es kevert olajos üveget, és egy teáskanál repce- vagy olívaolajat keverj a megfőtt tányérba. Ha lenmagolajat használsz, kis üveget tarts a hűtőben, két héten belül használd el, és soha ne melegítsd. Fokhagymát vagy fűszernövényt ne áztass olajba, és olajban ne tárold.",
+    "serve": "6 hónapos kortól, egy teáskanálnyi olyan ételen, amit a gyerek már eszik. Ez nem ital, és nem olajban tartott fokhagyma.",
+    "freezer": false
+  },
+  {
+    "id": "herb-cubes",
+    "title": "Frozen herb cubes",
+    "title_hu": "Fűszerkockák",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 12,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "friss petrezselyem és kapor", "amount": "20 g", "note": "megmosva; fűszernövény, nem sós keverék"},
+      {"item": "érett paradicsom", "amount": "1", "note": "felaprítva"},
+      {"item": "édes étkezési paprika", "amount": "1 kicsi", "note": "kimagozva"},
+      {"item": "víz", "amount": "egy kevés", "note": "csak a turmixoláshoz; só nélkül"}
+    ],
+    "method": [
+      "Mosd meg a petrezselymet, a kaprot, a paradicsomot és az édes paprikát.",
+      "Turmixold össze egy kevés vízzel simára, só nélkül.",
+      "Azonnal öntsd jégkockatartóba.",
+      "Még aznap fagyaszd le, ne tarts nyers pépet a hűtőben.",
+      "Egy kockát a hűtőben olvassz ki, és két napon belül használd fel, vagy fagyos állapotból keverd forró ételbe."
+    ],
+    "allergens": [],
+    "verdict": "replace",
+    "issues": "A szokásos ízesítőpép nyers zöldség volt, egy hétig a hűtőben, és nagyobb gyerekeknek sót is javasoltak.",
+    "changes": "Fűszernövényt, paradicsomot és édes paprikát turmixolj össze, és azonnal fagyaszd jégkockába, só nélkül. A kiolvasztott kockát legfeljebb két napig tartsd a hűtőben.",
+    "serve": "6 hónapos kortól, forró ételbe keverve. A turmixolt pépet ne tartsd egy hétig, és nagyobb gyereknek se adj hozzá sót.",
+    "freezer": true
+  },
+  {
+    "id": "fridge-fruit-sauce",
+    "title": "Fridge fruit sauce",
+    "title_hu": "Gyümölcsszósz",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 6,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "étkezési alma", "amount": "2", "note": "meghámozva, kimagozva"},
+      {"item": "friss vagy fagyasztott bogyós gyümölcs", "amount": "100 g", "note": "szőlő nélkül, és szulfittal tartósított aszalt gyümölcs nélkül"},
+      {"item": "víz", "amount": "3 evőkanál", "note": "éppen annyi, hogy ne ragadjon le"}
+    ],
+    "method": [
+      "Az almát aprítsd fel, és add hozzá a bogyókat.",
+      "A vízzel kb. 10 percig főzd, amíg megpuhul.",
+      "Törd vagy turmixold szósszá.",
+      "Gyorsan hűtsd le.",
+      "Legfeljebb három napig tarthatod a hűtőben, vagy fagyassz le kis adagokat.",
+      "Méz és cukor nélkül add."
+    ],
+    "allergens": [],
+    "verdict": "replace",
+    "issues": "A szokásos lekvárt órákig főzték, és egyéves kor után mézzel is le lehetett zárni.",
+    "changes": "Az almát és a bogyókat rövid főzéssel készítsd szósszá, méz nélkül. Kihűlés után legfeljebb három napig tarthatod a hűtőben, vagy fagyaszd le.",
+    "serve": "6 hónapos kortól, kására vagy kanállal. Minden életkorban maradjon édesítetlen.",
+    "freezer": true
+  },
+  {
+    "id": "apple-sauce",
+    "title": "Apple sauce",
+    "title_hu": "Almaszósz",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "étkezési alma", "amount": "3", "note": "meghámozva, kimagozva"},
+      {"item": "víz", "amount": "3 evőkanál", "note": "cukor nélkül"}
+    ],
+    "method": [
+      "Az almát hámozd meg, magozd ki, és aprítsd fel.",
+      "A vízben főzd, amíg szétfő.",
+      "Törd simára, vagy nagyobb babának hagyj benne puha darabot.",
+      "Hűtsd le, és használd fel, vagy fagyaszd kis adagokban.",
+      "Semmi édeset ne adj hozzá."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "Az almaszószba gyakran kerül cukor, pedig nincs rá szükség.",
+    "changes": "Főzd meg az almát, és hagyd édesítetlenül kásához, húshoz vagy önmagában, kanállal.",
+    "serve": "6 hónapos kortól, édesítetlenül, kása vagy hús mellé, vagy önmagában.",
+    "freezer": true
+  },
+  {
+    "id": "liver-spread",
+    "title": "Liver spread",
+    "title_hu": "Májkrém",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "csirkemáj", "amount": "20 g nyers", "note": "kb. 15 g főtt; a héten csak egyszer"},
+      {"item": "étkezési alma", "amount": "40 g", "note": "meghámozva, puhára főzve"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 teáskanál", "note": "vékony krémet ad"}
+    ],
+    "method": [
+      "A májat vízben főzd, amíg teljesen megfő, és nem marad benne rózsaszín.",
+      "Ellenőrizd, hogy a gyerek főtt mája kb. 15 g.",
+      "Az almát főzd puhára.",
+      "A májat, az almát és az olajat turmixold, amíg a krém vékony lesz.",
+      "Gyorsan hűtsd le.",
+      "Vékony rétegben kend puha zöldségre."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "A sós májkrém sós kekszre kenve figyelmen kívül hagyja az A-vitamin-korlátot, és sót is ad.",
+    "changes": "A teljesen átsült csirkemájat almával és egy kevés olajjal turmixold vékony krémmé, só nélkül. A gyerek adagja kb. 15 g főtt máj, hetente legfeljebb egyszer, és nem A-vitamin-készítmény mellett.",
+    "serve": "6 hónapos kortól, puha zöldségre kenve, nem sós kekszre. Ugyanazon a héten ne adj májgaluskát vagy más májat, és ne párosítsd A-vitamin-készítménnyel.",
+    "freezer": true
+  },
+  {
+    "id": "vegetable-tomato-sauce",
+    "title": "Vegetable tomato sauce",
+    "title_hu": "Zöldséges paradicsomszósz",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 6,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "sárgarépa", "amount": "1", "note": "felaprítva"},
+      {"item": "vöröshagyma", "amount": "1 kicsi", "note": "felaprítva, puhára főzve"},
+      {"item": "paradicsom", "amount": "2", "note": "friss, vagy hozzáadott só nélküli konzervparadicsom"},
+      {"item": "édes étkezési paprika", "amount": "1 kicsi", "note": "kimagozva"},
+      {"item": "víz", "amount": "100 ml", "note": "só nélkül"}
+    ],
+    "method": [
+      "Aprítsd fel a sárgarépát, a hagymát, a paradicsomot és az édes paprikát.",
+      "A vízben főzd, amíg a sárgarépa teljesen megpuhul.",
+      "Turmixold simára, só nélkül.",
+      "Ha a szósz túl sűrű, egy kevés vízzel hígítsd.",
+      "Hűtsd le, és adagokban fagyaszd le tésztához vagy babhoz."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "A só a szokásos hozzáadás, és ennek a szósznak nincs rá szüksége.",
+    "changes": "Főzd meg a sárgarépát, a hagymát, a paradicsomot és az édes paprikát, majd turmixold össze só nélkül. Fagyassz le adagokat tészta és bab alapjához.",
+    "serve": "6 hónapos kortól, nagyon puha tésztára vagy jól megfőtt babra. Jól fagyasztható.",
+    "freezer": true
+  },
+  {
+    "id": "sweet-potato-base",
+    "title": "Sweet potato base",
+    "title_hu": "Édesburgonyás lap",
+    "category": "basics",
+    "min_age_months": 7,
+    "portions": 6,
+    "time_minutes": 45,
+    "ingredients": [
+      {"item": "édesburgonya", "amount": "1 közepes", "note": "puhára sütve"},
+      {"item": "darált zabpehely", "amount": "40 g", "note": "gluténként van feltüntetve"},
+      {"item": "tojás", "amount": "1", "note": "sütve, amíg teljesen meg nem szilárdul"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 evőkanál", "note": "puhán tartja a lapot"}
+    ],
+    "method": [
+      "Az édesburgonyát süsd puhára, majd kapard ki a belsejét.",
+      "Törd össze a darált zabpehellyel, a tojással és az olajjal.",
+      "A keveréket vékonyan nyomd kibélelt tepsire.",
+      "Süsd 180 °C-on, amíg a tojás teljesen átsül, a közepe pedig puha marad.",
+      "Hűtsd ki, és vágj belőle darabokat krémek alá.",
+      "Ha a széle ropogósra sül, csak a puha közepét add."
+    ],
+    "allergens": ["egg", "gluten"],
+    "verdict": "sound",
+    "issues": "A nem teljesen átsült tojás vagy a kemény, ropogós alap elrontana egy hasznos ötletet.",
+    "changes": "A sült édesburgonyát, a darált zabpelyhet, a tojást és az olajat nyomd vékony lappá, és süsd, amíg a tojás teljesen megfő, a közepe pedig puha marad. A lapot krémek alapjaként használd.",
+    "serve": "7 hónapos kortól, olyan krém alatt, amit a gyerek már jól tűr. Az első tojáshoz előbb sima, megfőtt tojást adj önmagában, mielőtt a tojást ebbe a sütésbe rejtenéd.",
+    "freezer": true
+  },
+  {
+    "id": "avocado-fish-spread",
+    "title": "Avocado and salmon spread",
+    "title_hu": "Avokádós hal",
+    "category": "basics",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "érett avokádó", "amount": "1/2", "note": "azon a napon pépesítve, amikor elfogy"},
+      {"item": "kicsontozott, megfőtt lazac", "amount": "20 g", "note": "ez legyen a szokásos hal; bőr és szálka nélkül; teljesen megfőzve"},
+      {"item": "vízben konzervelt tonhal", "amount": "15 g, választható", "note": "hozzáadott só nélkül; csak ritkán, lazac helyett"}
+    ],
+    "method": [
+      "Egy kis, kicsontozott lazacdarabot főzz meg, amíg szétválik, és nem marad benne áttetsző rész.",
+      "Ellenőrizd újra, és távolíts el minden szálkát vagy bőrt.",
+      "Az avokádót törd sima péppé.",
+      "Keverj bele egy kevés lazacot, vagy ritkán vízben konzervelt, hozzáadott só nélküli tonhalat.",
+      "Ha a pép túl sűrű, néhány csepp vízzel hígítsd.",
+      "Még aznap add, majonéz nélkül."
+    ],
+    "allergens": ["fish"],
+    "verdict": "adjust",
+    "issues": "A tonhal sósabb és több higanyt tartalmaz, mint a lazac, és majonéznek nincs helye a pépben.",
+    "changes": "Az érett avokádót törd össze kevés, kicsontozott, megfőtt lazaccal. Vízben konzervelt, hozzáadott só nélküli tonhalat csak néha használj. Még aznap add.",
+    "serve": "8 hónapos kortól, azon a napon, amikor készül. A lazac az alap. Ha a hal új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van; ha már jól tűri, a halat hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": false
+  },
+  {
+    "id": "beet-spread",
+    "title": "Beet spread",
+    "title_hu": "Céklakrém",
+    "category": "basics",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "cékla", "amount": "50 g főtt", "note": "puhára főzve vagy sütve, aztán meghámozva"},
+      {"item": "burgonya", "amount": "80 g főtt", "note": "meghámozva"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 teáskanál", "note": "só nélkül"}
+    ],
+    "method": [
+      "A céklát és a burgonyát főzd vagy süsd, amíg mindkettő puha.",
+      "Hámozd meg, és aprítsd fel.",
+      "Az olajjal és egy kevés főzővízzel turmixold össze.",
+      "Akkor állj meg, amikor a krém még puha, és kanállal adható.",
+      "Kis adagot adj, só nélkül."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "A cékla nitrátban gazdag, ezért krémet adj belőle, ne hatalmas napi adagot. Ez korlát, nem tiltás.",
+    "changes": "A főtt céklát és burgonyát olajjal turmixold össze, só nélkül.",
+    "serve": "8 hónapos kortól, kis krémként, ne minden nap nagy tálként. A cékla ezen a korláton belül maradhat az étlapon.",
+    "freezer": true
+  },
+  {
+    "id": "egg-spread",
+    "title": "Egg spread",
+    "title_hu": "Tojáskrém",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "tojás", "amount": "1", "note": "10 percig keményre főzve"},
+      {"item": "natúr pasztőrözött joghurt", "amount": "2 evőkanál", "note": "cukrozatlan"}
+    ],
+    "method": [
+      "A tojást 10 percig főzd, hogy a sárgája szilárd legyen.",
+      "Hideg vízben hűtsd, és hámozd meg.",
+      "Az egész tojást a joghurttal törd össze.",
+      "Hígítsd, amíg könnyen kanállal adható.",
+      "Frissen add, nyers sárgája és majonéz nélkül."
+    ],
+    "allergens": ["milk", "egg"],
+    "verdict": "sound",
+    "issues": "A nyers sárgájából készült majonéz nem teljesen átsült tojás sós szószban.",
+    "changes": "Kemény tojást törj össze joghurttal, és hagyd ki a nyers tojást.",
+    "serve": "6 hónapos kortól. Ha a tojás vagy a tej új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha már jól tűri, a tojást és a tejet hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": false
+  },
+  {
+    "id": "fish-spread",
+    "title": "White fish spread",
+    "title_hu": "Halpástétom",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "kicsontozott fehér hal", "amount": "60 g", "note": "pollock, tőkehal vagy foltos tőkehal; nem cápa, nem kardhal, nem marlin, nem ponty és nem füstölt hal"},
+      {"item": "burgonya", "amount": "80 g", "note": "meghámozva, puhára főzve"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 teáskanál", "note": "a végén belekeverve"}
+    ],
+    "method": [
+      "Nézd át a filét, és szedd ki minden szálkáját.",
+      "Párold vagy gőzöld, amíg szétválik, és mindenütt átlátszatlan.",
+      "Törd össze a megfőtt burgonyával és az olajjal.",
+      "Ha kell, egy kevés főzővízzel hígítsd.",
+      "Gyorsan hűtsd le.",
+      "Azonnal add, vagy fagyaszd kis edényben, és füstölt halat ne használj."
+    ],
+    "allergens": ["fish"],
+    "verdict": "sound",
+    "issues": "A füstölt hal sós, és nem ugyanaz, mint a frissen megfőtt filé.",
+    "changes": "A megfőtt, kicsontozott fehér halat burgonyával és olajjal turmixold össze. Hagyd ki a füstölt halat, a cápát, a kardhalat, a marlint és a pontyot.",
+    "serve": "6 hónapos kortól. Ha a hal új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van, és ha már jól tűri, a halat hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": true
+  },
+  {
+    "id": "paprika-curd",
+    "title": "Paprika cottage cheese",
+    "title_hu": "Paprikás túró",
+    "category": "basics",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "pasztőrözött túró", "amount": "100 g", "note": "sótlan"},
+      {"item": "édes fűszerpaprika", "amount": "1 teáskanál", "note": "enyhe, nem csípős"},
+      {"item": "vöröshagyma", "amount": "1 evőkanál főtt", "note": "puhára főzve, majd lehűtve; nem nyersen"},
+      {"item": "natúr pasztőrözött joghurt", "amount": "1 evőkanál", "note": "csak ha a túró túl kemény"}
+    ],
+    "method": [
+      "Az aprított hagymát vízben főzd puhára, majd szűrd le, és hűtsd ki.",
+      "A túrót törd simára.",
+      "Keverd bele a hagymát és az édes fűszerpaprikát.",
+      "Ha a keverék kemény, adj hozzá joghurtot.",
+      "Só nélkül add."
+    ],
+    "allergens": ["milk"],
+    "verdict": "replace",
+    "issues": "A szokásos fűszeres sajtkrém sós, és a hagymától túl erős.",
+    "changes": "A pasztőrözött túrót keverd össze édes fűszerpaprikával és egy kevés főtt hagymával, só nélkül.",
+    "serve": "8 hónapos kortól, egy kis kanállal olyan puha zöldségre vagy kenyérre, amit a gyerek már jól kezel. Ha a tej új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van.",
+    "freezer": false
+  },
+  {
+    "id": "fruit-oat-wheat-biscuits",
+    "title": "Fruit oat wheat biscuits",
+    "title_hu": "Gyümölcsös keksz",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "cukrozatlan gyümölcspüré", "amount": "80 g", "note": "alma vagy körte; cukor nélkül"},
+      {"item": "zabpehely", "amount": "60 g", "note": "puha kekszalap"},
+      {"item": "sima búzaliszt", "amount": "1 evőkanál", "note": "valódi gluténadag, nem csak nyomokban"}
+    ],
+    "method": [
+      "Melegítsd elő a sütőt 160 °C-ra.",
+      "A gyümölcspürét, a zabpelyhet és a búzalisztet keverd puha tésztává.",
+      "Kis, vastag kekszeket tegyél tepsire.",
+      "Süsd, amíg megszilárdul, de még puha, nem száraz.",
+      "Hűtsd ki, és nyomj meg egyet, hogy lássd, szétnyomható-e, mielőtt adnád."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "sound",
+    "issues": "A kemény, édes keksz elvétené a puha gluténkóstoltatás lényegét.",
+    "changes": "Gyümölcspüréből, zabpehelyből és egy kanál búzalisztből süss puha kekszet, hogy a gluténadag valódi legyen. Cukor nélkül.",
+    "serve": "Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. A búzát a héten tésztában vagy kenyérben is kínáld. Ha a glutént már jól tűri, hetente néhány alkalommal továbbra is add.",
+    "freezer": true
+  },
+  {
+    "id": "crumb-zucchini",
+    "title": "Crumbed zucchini",
+    "title_hu": "Morzsás cukkini",
+    "category": "allergens",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "cukkini", "amount": "1 kicsi", "note": "rudakra vágva, éppen puhára gőzölve"},
+      {"item": "tojás", "amount": "1", "note": "sütve, amíg teljesen meg nem szilárdul"},
+      {"item": "sima zsemlemorzsa", "amount": "2 evőkanál", "note": "önmagában csak gyenge gluténadag; sótlan"}
+    ],
+    "method": [
+      "A cukkinit vágd rudakra, és gőzöld, amíg éppen megpuhul.",
+      "Verd fel a tojást.",
+      "Forgasd a rudakat tojásba, majd zsemlemorzsába.",
+      "Süsd 180 °C-on, amíg a tojás megszilárdul, a morzsa pedig puha, nem ropogós.",
+      "Hűtsd ki, és a nehezen megfogható rudat rövidítsd meg."
+    ],
+    "allergens": ["egg", "gluten"],
+    "verdict": "adjust",
+    "issues": "A ropogós kéreg túl kemény, a zsemlemorzsa önmagában pedig csak gyenge gluténkóstoltatás.",
+    "changes": "A cukkinirudakat forgass tojásba és zsemlemorzsába, és süsd, amíg a morzsa puha.",
+    "serve": "Ez önmagában csak gyenge gluténkóstoló, ezért a tésztát vagy a kenyeret is kínáld. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a tojást és a glutént már jól tűri, hetente néhány alkalommal továbbra is add.",
+    "freezer": true
+  },
+  {
+    "id": "fish-and-shrimp-muffin",
+    "title": "Fish and shrimp muffins",
+    "title_hu": "Halas muffin",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "tojás", "amount": "2", "note": "sütve, amíg teljesen meg nem szilárdul"},
+      {"item": "kicsontozott, megfőtt fehér hal", "amount": "30 g", "note": "pollock, tőkehal vagy foltos tőkehal; nem cápa, nem kardhal, nem marlin és nem ponty"},
+      {"item": "teljesen megfőtt garnélarák", "amount": "15 g", "note": "csak későbbi adagban, ha a halat már jól tűri; finomra aprítva"}
+    ],
+    "method": [
+      "Melegítsd elő a sütőt 170 °C-ra, és verd fel a tojást.",
+      "Keverj bele már teljesen megfőtt, rostjaira szedett, kicsontozott fehér halat, garnéla még nélkül.",
+      "Kanalazd kis formákba, és süsd, amíg a tojás a közepén is megszilárdul.",
+      "Először ezeket a csak halas muffinokat add.",
+      "Egy későbbi napon, ha a halat már jól tűri, forgass ugyanebbe a tésztába finomra aprított, teljesen megfőtt garnélarákot.",
+      "Süsd újra, amíg megszilárdul, és aprítsd tovább azt a garnéladarabot, ami még nagyobb falat."
+    ],
+    "allergens": ["egg", "fish", "crustacean"],
+    "verdict": "adjust",
+    "issues": "A rákfélét külön kell bevezetni, nem az első halas muffinnal együtt.",
+    "changes": "Először a csak halas tojásmuffinokat készítsd el. Finomra aprított, teljesen megfőtt garnélarákot csak később tegyél bele, ha a halat már jól tűri, mert a garnéla más allergén.",
+    "serve": "A csak halas muffin tojást és halat tartalmaz. Garnélát csak akkor kóstoltass, ha a halat már jól tűri, teljesen megfőzve, finomra aprítva, reggel, olyan napon, amikor a gyerek jól van. Minden első kóstolót reggel adj, olyan napon, amikor a gyerek jól van, és ha egy allergént már jól tűr, hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": true
+  },
+  {
+    "id": "yogurt-semolina",
+    "title": "Yogurt semolina",
+    "title_hu": "Joghurtos búzadara",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "búzadara", "amount": "20 g", "note": "valódi gluténadag"},
+      {"item": "víz", "amount": "120 ml", "note": "a darát vízben főzd, ne édesített tejben"},
+      {"item": "natúr pasztőrözött joghurt", "amount": "3 evőkanál", "note": "a tűzről levéve belekeverve; cukor nélkül"}
+    ],
+    "method": [
+      "Forrald fel a vizet, és habverővel keverd bele a búzadarát.",
+      "Folyamatos keverés mellett főzd, amíg besűrűsödik, és a dara megpuhul.",
+      "Hűtsd éppen langyosra.",
+      "Keverd bele a natúr joghurtot.",
+      "Gyümölcs és vasban gazdag étel mellé add, ne egyedüli fogásként."
+    ],
+    "allergens": ["milk", "gluten"],
+    "verdict": "sound",
+    "issues": "A joghurttal kevert búzadara vasban szegény, ezért nem lehet belőle az egész étkezés.",
+    "changes": "A búzadarát vízben főzd, és keverj bele natúr joghurtot, cukor nélkül. Tej és glutén gyakorlására való ételként add, gyümölcs és vasban gazdag étel mellé.",
+    "serve": "Ez a tej és a glutén gyakorlására való étel. Tegyél mellé gyümölcsöt és vasban gazdag ételt, például húst, lencsét vagy dúsított bébi gabonapelyhet. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van, és ha már jól tűri, a tejet és a glutént hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": false
+  },
+  {
+    "id": "tofu-strips",
+    "title": "Tofu strips",
+    "title_hu": "Sült tofu",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 10,
+    "ingredients": [
+      {"item": "sótlan, kemény tofu", "amount": "60 g", "note": "első szójás étel; szójaszósz nélkül"},
+      {"item": "repce- vagy olívaolaj", "amount": "1 teáskanál", "note": "csak átmelegítésre, ne keményre sütéshez"}
+    ],
+    "method": [
+      "A tofut vágd puha, ujjnyi csíkokra, vagy morzsold össze.",
+      "A csíkokat az olajban melegítsd át, amíg forrók.",
+      "Vagy a morzsalékot keverd meleg pürébe.",
+      "Ellenőrizd, hogy egy csík könnyen szétnyomható a hüvelyk- és a mutatóujj között.",
+      "Szójaszósz nélkül add."
+    ],
+    "allergens": ["soy"],
+    "verdict": "sound",
+    "issues": "A szójaszósz sós ízesítő, nem első szójás étel.",
+    "changes": "A sótlan, kemény tofut egy kevés olajban melegítsd át puha csíkokként, vagy morzsold pürébe. Szójaszósz nélkül.",
+    "serve": "Első szójás étel 6 hónapos kortól. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a szóját már jól tűri, hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": false
+  },
+  {
+    "id": "nut-dumplings",
+    "title": "Potato nut dumplings",
+    "title_hu": "Magvas nudli",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "burgonya", "amount": "150 g", "note": "megfőzve, pépesítve; búzaliszt és tojás nélkül"},
+      {"item": "sima mandulavaj vagy sima dióvaj", "amount": "1 teáskanál", "note": "csak egyféle dióféle, a tésztába keverve; nem földimogyoró, és nem külön kanál a tányér mellé"}
+    ],
+    "method": [
+      "A burgonyát nagyon puhára főzd, majd törd pépesre, só és liszt nélkül.",
+      "Keverj bele egy teáskanál egyféle sima dióvajat: vagy mandulavajat, vagy dióvajat, a kettőt ne együtt.",
+      "Nedves kézzel formázz kis, puha galuskákat.",
+      "Főzd, amíg mindenütt forrók és puhák.",
+      "A galuskát add, ne száraz dióbevonatot, és ne egy kanál dióvajat."
+    ],
+    "allergens": ["tree-nut"],
+    "verdict": "adjust",
+    "issues": "A száraz dióbevonat és az egész dió volt a veszély. Ez nem helyettesíti a földimogyorót.",
+    "changes": "Egyféle sima dióvajat keverj puha burgonyagaluskába, mandulát vagy diót, egyszerre csak egyet, és főzd meg. Ne forgass száraz darált dióba, és sűrű dióvajat kanálról ne adj.",
+    "serve": "Egyszerre csak egy diófélét kóstoltass, az első ízét reggel, olyan napon, amikor a gyerek jól van. Ha azt már jól tűri, hetente néhány alkalommal továbbra is kínáld. A földimogyorónak továbbra is saját étele kell.",
+    "freezer": true
+  },
+  {
+    "id": "peanut-yogurt",
+    "title": "Peanut yogurt",
+    "title_hu": "Mogyoróvajas joghurt",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 5,
+    "ingredients": [
+      {"item": "sima földimogyoróvaj", "amount": "1 teáskanál", "note": "darabok nélkül; sűrűn, kanálról soha ne add"},
+      {"item": "natúr pasztőrözött joghurt", "amount": "3 evőkanál", "note": "tejes változat; cukrozatlan"},
+      {"item": "gyümölcspüré", "amount": "3 evőkanál", "note": "tejmentes változat; ezt használd a joghurt helyett, ne egy sűrű dióvajkanál mellé"}
+    ],
+    "method": [
+      "Válassz vagy joghurtot, vagy gyümölcspürét.",
+      "Egy teáskanál sima földimogyoróvajat keverj három evőkanálnyi választott alapba.",
+      "Keverd addig, amíg nem marad sűrű földimogyoróvaj-csomó.",
+      "Ha a keverék még csúcsot tart, hígítsd tovább.",
+      "Kis kóstolót adj kanálról, a földimogyoróvajat soha önmagában, és sűrűn kanálról se."
+    ],
+    "allergens": ["milk", "peanut"],
+    "verdict": "adjust",
+    "issues": "Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Sűrű földimogyoróvajat kanálról soha ne adj.",
+    "changes": "Egy teáskanál sima földimogyoróvajat keverj három evőkanál joghurtba vagy gyümölcspürébe, amíg laza nem lesz. A joghurtos változat tejet tartalmaz, a gyümölcsös változat tejmentes.",
+    "serve": "Ha a tejet még nem tűri, a gyümölcspürés utat használd, és akkor az egyetlen allergén a földimogyoró. Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a földimogyorót már jól tűri, kb. két teáskanálnyit adj ételbe hígítva, hetente háromszor.",
+    "freezer": false
+  },
+  {
+    "id": "peanut-oat-fingers",
+    "title": "Peanut oat fingers",
+    "title_hu": "Zabos mogyorórúd",
+    "category": "allergens",
+    "min_age_months": 8,
+    "portions": 6,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "zabpehely", "amount": "40 g", "note": "gluténként van feltüntetve; puha rúd, nem kemény rúd"},
+      {"item": "érett banán", "amount": "1 kicsi", "note": "pépesítve; cukor nélkül"},
+      {"item": "sima földimogyoróvaj", "amount": "1 teáskanál", "note": "a tésztába elkeverve; sűrű kanálnyit önmagában soha"}
+    ],
+    "method": [
+      "A banánt törd pépesre.",
+      "Keverd bele a zabpelyhet és a földimogyoróvajat, amíg a massza egyenletes.",
+      "Nedves kézzel formázz rövid, vastag rudakat.",
+      "Süsd 160 °C-on, amíg megszilárdul, de még puha.",
+      "Hűtsd ki, és nyomj meg egyet: inkább nyomódjon szét, mint törjön.",
+      "Puha rudat adj, ne kanálnyi földimogyoróvajat."
+    ],
+    "allergens": ["gluten", "peanut"],
+    "verdict": "adjust",
+    "issues": "Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Sűrű földimogyoróvajat önmagában soha ne adj, és kemény rudat se kínálj.",
+    "changes": "Zabpehelyből, banánból és a tésztába kevert egy teáskanál sima földimogyoróvajból süss puha rudakat.",
+    "serve": "Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a földimogyorót már jól tűri, kb. két teáskanál sima földimogyoróvajat keverj ételbe hígítva, hetente háromszor. Ha egy rúd keményre sül, dobd ki.",
+    "freezer": true
+  },
+  {
+    "id": "carrot-egg",
+    "title": "Carrot egg",
+    "title_hu": "Sárgarépás tojás",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 12,
+    "ingredients": [
+      {"item": "tojás", "amount": "1", "note": "teljesen átsütve; egyértelmű első tojás"},
+      {"item": "sárgarépa", "amount": "1 evőkanál reszelt", "note": "puhára főzve, mielőtt a tojásba kerül"}
+    ],
+    "method": [
+      "A reszelt sárgarépát egy kevés vízben főzd puhára.",
+      "Verd fel a tojást, és keverd bele a sárgarépát.",
+      "Meleg serpenyőbe öntsd vékony csíkként, vagy süsd rántottának.",
+      "Süsd, amíg a tojás teljesen megszilárdul, folyékony sárgája vagy fehérje nélkül.",
+      "Kicsit hűtsd, és vágj belőle puha darabot."
+    ],
+    "allergens": ["egg"],
+    "verdict": "sound",
+    "issues": "A sütésbe rejtett tojásnyom nem egyértelmű első kóstoló.",
+    "changes": "Egy tojást verj fel egy kevés reszelt sárgarépával, és süsd puha csíkként vagy rántottának, amíg teljesen meg nem szilárdul.",
+    "serve": "Valódi első tojás 6 hónapos kortól, nem a sütésbe rejtett nyomnyi mennyiség. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a tojást már jól tűri, hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": false
+  },
+  {
+    "id": "egg-sweet-potato",
+    "title": "Egg and sweet potato",
+    "title_hu": "Tojás édesburgonyával",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "tojás", "amount": "1", "note": "keményre főzve, amíg a sárgája szilárd"},
+      {"item": "édesburgonya", "amount": "100 g", "note": "megfőzve, pépesítve"}
+    ],
+    "method": [
+      "A tojást 10 percig főzd, és hideg vízben hűtsd.",
+      "Az édesburgonyát főzd puhára, majd a belsejét törd pépesre.",
+      "Hámozd meg a tojást, és törd bele az édesburgonyába.",
+      "Ha a püré kemény, egy kevés vízzel hígítsd.",
+      "Tálalás előtt törd szét a tojásfehérje minden csomóját."
+    ],
+    "allergens": ["egg"],
+    "verdict": "sound",
+    "issues": "A lágy sárgája nincs teljesen megfőzve.",
+    "changes": "Kemény tojást törj édesburgonya-pürébe.",
+    "serve": "6 hónapos kortól, teljesen megfőtt tojással. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a tojást már jól tűri, hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": false
+  },
+  {
+    "id": "sesame-chickpea",
+    "title": "Sesame chickpeas",
+    "title_hu": "Szezámos csicseriborsó",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "főtt csicseriborsó", "amount": "100 g", "note": "szárított csicseriborsó teljesen puhára főzve; nem sós léből vett, még kemény szem"},
+      {"item": "tahini", "amount": "1 teáskanál", "note": "sima szezámpaszta; egész szezámmagot ne adj hozzá"},
+      {"item": "citromlé", "amount": "néhány csepp", "note": "friss citrom"}
+    ],
+    "method": [
+      "Teljesen puhára főtt csicseriborsóból indulj, majd szűrd le.",
+      "Turmixold össze a tahinival és néhány csepp citrommal.",
+      "Főzővizet adj hozzá, amíg a keverék laza, és lefolyik a kanálról.",
+      "Kanálról add, vagy hígítsd tovább.",
+      "A tetejére ne szórj egész szezámmagot."
+    ],
+    "allergens": ["sesame"],
+    "verdict": "adjust",
+    "issues": "Az egész szezámmag elzárhatja a légutat, és az adag is gyenge lenne.",
+    "changes": "A főtt csicseriborsót egy teáskanál tahinival és néhány csepp citrommal turmixold lazára. A bevezetés a tahini, nem a rászort mag.",
+    "serve": "Kanálról add, vagy hígítsd tovább. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a szezámot már jól tűri, hetente néhány alkalommal továbbra is kínáld.",
+    "freezer": true
+  }
+]

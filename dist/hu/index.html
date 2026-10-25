@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu" data-prefix="/hu" data-months="hónapos kortól" data-empty="Nincs a szűrésnek megfelelő recept." data-one="recept" data-many="recept">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Első ételek</title>
+  <meta name="description" content="Eredeti, bizonyítékokhoz kötött útmutató és receptek az első szilárd ételekhez. Egy magyar hozzátáplálós könyv ihlette. Nem orvosi tanács.">
+  <link rel="alternate" hreflang="en" href="https://first-foods-companion.vercel.app/">
+  <link rel="alternate" hreflang="hu" href="https://first-foods-companion.vercel.app/hu/">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem("theme");
+        if (theme !== "day" && theme !== "night") {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="/hu/">Első ételek</a>
+    <div class="nav-end">
+      <nav class="nav-links">
+        <a href="/hu/topics/">Útmutatók</a>
+        <a href="/hu/recipes/">Receptek</a>
+        <a href="/hu/about.html">Az oldalról</a>
+      </nav>
+      <div class="nav-tools">
+        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <select id="lang-hu" data-lang aria-label="Nyelv">
+          <option value="en">English</option>
+          <option value="hu" selected>Magyar</option>
+        </select>
+        <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    
+    <section class="hero">
+      <div>
+        <p class="kicker">Hozzátáplálás</p>
+        <h1>Étel az első évre, a bizonyítékokhoz mérve.</h1>
+        <p class="lede">Vas, allergének, só, állag, és az, hogy egy étkezés valójában hogyan történik. Eredeti receptek a magyar konyha első ételeihez, átírva ott, ahol a régi változat sót, cukrot, mézet vagy nehéz állagot kért.</p>
+        <div class="actions">
+          <a class="button" href="/hu/topics/">Útmutatók</a>
+          <a class="button-ghost" href="/hu/recipes/">131 recept</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="/assets/img/hero.jpg" alt="Egy tál sima főtt étel">
+      </figure>
+    </section>
+    <section class="section">
+      <div class="grid-3">
+        <article class="card">
+          <p class="kicker">Útmutatók</p>
+          <h2>Tizenhét rövid téma</h2>
+          <p>Mindegyik a megállapításokkal kezdődik, utána jön az indoklás, majd a cikkek és a közérthető oldalak, amelyekből a megállapítás származik.</p>
+        </article>
+        <article class="card">
+          <p class="kicker">Receptek</p>
+          <h2>88 receptet átírtunk</h2>
+          <p>43 ötlet eleve rendben volt. A többinél kimondjuk, mi volt a gond, és mit csinál helyette ez a változat.</p>
+        </article>
+        <article class="card">
+          <p class="kicker">Az oldalról</p>
+          <h2>Nem rendelő</h2>
+          <p>Súlyos ekcéma vagy ismert tojásallergia esetén földimogyoró előtt orvos kell. Ha egy étel után a légzés romlik, az vészhelyzet.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Itt kezdd</h2>
+      <div class="grid-2">
+        <a class="card" href="/hu/topics/why-first-foods-matter.html">
+              <h2>Mire valók valójában az első ételek</h2>
+              <p>Az étel feladata az első év második felében a vas, az energia és az evés megtanulása. Nem az, hogy a fehérje százalékát célként tűzzük ki.</p>
+            </a><a class="card" href="/hu/topics/when-to-start.html">
+              <h2>Mikor kezdjük</h2>
+              <p>A használható ablak négy hónapos kor után nyílik, és nagyjából hat hónapos korig tart. A készenlét készségek együttese, a kornak pedig ettől még van alsó határa.</p>
+            </a><a class="card" href="/hu/topics/what-to-introduce.html">
+              <h2>Mit vezess be, és mikor</h2>
+              <p>Nincs kötelező naptár az egyes zöldségekre. Van ok arra, hogy az allergének korán bekerüljenek, és az étrendben is maradjanak.</p>
+            </a><a class="card" href="/hu/topics/allergens.html">
+              <h2>Az allergének bevezetése</h2>
+              <p>A földimogyoró, a tojás és a tej halogatása nem véd az allergiától. A legtöbb babánál az a biztonságosabb, ha biztonságos állagban elkezded, és utána is adod.</p>
+            </a><a class="card" href="/hu/topics/picky-eating.html">
+              <h2>Válogatós evés</h2>
+              <p>Az új ételtől való gyanakvás a totyogókor természetes szakasza. Nem a napi tányér, hanem a növekedés mondja meg, mikor kérj segítséget.</p>
+            </a><a class="card" href="/hu/topics/illness.html">
+              <h2>Amikor a gyermek beteg</h2>
+              <p>Ismerős étel, elég folyadék, és a megszokott tejtáplálás. Beteg napon rossz allergiát kimondani, és rossz új ételt bevezetni.</p>
+            </a>
+      </div>
+    </section>
+    
+  </main>
+  <footer class="wrap footer">
+    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+  </footer>
+  
+  <script src="/assets/site.js"></script>
+</body>
+</html>

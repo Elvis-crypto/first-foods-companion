@@ -1,0 +1,112 @@
+[
+  {
+    "id": "picky-eating",
+    "title": "Válogatós evés",
+    "byline": "Az új ételtől való gyanakvás a totyogókor természetes szakasza. Nem a napi tányér, hanem a növekedés mondja meg, mikor kérj segítséget.",
+    "image": "plate-a.jpg",
+    "image_alt": "Egy tányér puhára főtt étel",
+    "findings": [
+      {"id": "normal", "lead": "Az ételneofóbia az első születésnap után tetőzik.", "text": "A gyermek, aki babaként sokfélét evett, totyogóként pedig leszűkül, gyakori utat jár, nem egy elrontottat."},
+      {"id": "response", "lead": "Tartsd meg a keretet, és hagyd el az alkudozást.", "text": "Egy családi étkezés, egy ismerős étel a tányéron, pótvacsora nincs."},
+      {"id": "help", "lead": "Akkor kérj segítséget, ha a növekedés a gond, nem az illem.", "text": "A növekedési görbéről való lecsúszás, a fájdalomnak látszó félelem, vagy ha hónapokig csak egy maroknyi ételből áll az étrend, orvosi kérdés."}
+    ],
+    "sections": [
+      {"id": "normal", "heading": "Ami szokásos", "paragraphs": ["Az ételneofóbia a második életévben erősödik, aztán lassan enyhül. Valószínűleg túlélési értéke volt akkor, amikor a gyermekek már elkóborolhattak a növények felé. Személyesnek érződik, pedig többnyire a fejlődés része. Vannak napok, amikor a gyermek szinte semmit sem eszik, és napok, amikor nagyon sokat, gyakran inkább a növekedési ugrásokat követve, mint a te menüdet.", "Néhány megbízható étel, ezeket elfogadott ételeknek is hívják, érték. A tányért egy ilyenre építsd, mellé a családi étel. Ne küldj örökre nyugdíjba egy ételt csak azért, mert kétszer visszautasították."]},
+      {"id": "response", "heading": "Ami segít", "paragraphs": ["Legyen kiszámítható az étkezés. Hadd lássa a gyermek az ételt anélkül, hogy szerepelnie kellene. Edd te is ugyanazt. A visszautasított ételt kínáld más vágásban, vagy egy kedvelt mártogatós mellett, továbbra is szó nélkül. Tizenöt csendes kínálás többet ér, mint egy látványos kóstoltatás.", "Az első születésnap után a tej ne váljon magává az étkezéssé. Ha a totyogó egész délután tejet iszik, vacsorára tele érkezik. Étkezések között víz, a tej egy étkezés vagy egy kisétkezés mellett, mérsékelt napi mennyiségben."]},
+      {"id": "help", "heading": "Amikor több, mint válogatás", "paragraphs": ["Beszélj a védőnővel vagy a gyermekorvossal, ha a súly vagy a testhossz elakad, ha fáj az evés, ha a gyermek bizonyos állagokra köhög vagy hány, vagy ha az elfogadott lista néhány konkrét márkájú ételre szűkült, és tovább szűkül. Ezeken a mintákon a nagyobb nyomás nem segít.", "A gyermek, aki növekszik, játszik, és vacsoránál az őrületbe kerget, általában a szokásos csoportban van. A feladat az, hogy unalmas és elérhető maradj."]}
+    ],
+    "references": [
+      {"title": "A Satter-féle étkezési dinamika modellje és a felelősség megosztása", "source": "Ellyn Satter Intézet", "year": "2024", "url": "https://www.ellynsatterinstitute.org/satter-feeding-dynamics-model/"},
+      {"title": "Hozzátáplálás: állásfoglalás", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"}
+    ]
+  },
+  {
+    "id": "illness",
+    "title": "Amikor a gyermek beteg",
+    "byline": "Ismerős étel, elég folyadék, és a megszokott tejtáplálás. Beteg napon rossz allergiát kimondani, és rossz új ételt bevezetni.",
+    "image": "hero.jpg",
+    "image_alt": "Egy egyszerű tál puha étel",
+    "findings": [
+      {"id": "fluids", "lead": "A folyadék és a tejtáplálás előbbre való, mint a tökéletes menü.", "text": "A kis, ismerős étkezések elegendők. Fiatal gyermeket ne koplaltass."},
+      {"id": "new", "lead": "Betegség alatt ne vezess be új allergént.", "text": "Az aznapi kiütést vagy hányást nem lehet értelmezni."},
+      {"id": "call", "lead": "Ismerd a jeleket, amelyekhez még aznap orvos kell.", "text": "A kevés vizelet, a besüppedt kutacs, a vér a székletben, a szokatlan aluszékonyság vagy az erőlködő légzés nem olyan megfigyelés, amin otthon ülni lehet."}
+    ],
+    "sections": [
+      {"id": "fluids", "heading": "Etess betegség idején, finoman", "paragraphs": ["Az étvágy lázra és fájó szájra csökken. Az anyatej vagy a tápszer marad. Kínálj kisebb adagot abból, amit a gyermek már szeret. Elég a joghurt, a gyümölcs, egy sima kása, vagy egy leves, amit nem sóztál. Ha egy hányingeres gyermekre ráerőlteted a kiegyensúlyozott tányért, ételundort szerzel.", "Hányásnál vagy hasmenésnél, ha a tej egymagában már nem tart lépést a veszteséggel, az orális rehidrációs oldat a megfelelő eszköz. A védőnő végigvezet rajta. A cukros gyümölcslé rossz helyettesítő, és súlyosbíthatja a hasmenést."]},
+      {"id": "new", "heading": "A kísérletet hagyd egy egészséges hétre", "paragraphs": ["A betegség megváltoztatja a bőrt és a székletet. Egy új étel ugyanazon a napon hamis allergiatörténetet csinál, és egy ételt, amelyet a család aztán évekre kerül. Várd meg, míg a gyermek jól van, és csak utána térj vissza a bevezetés tervéhez.", "A fogzást és a betegséget gyakran egymás számlájára írják. A kis hőemelkedésnél nagyobb láz, vagy a kifejezetten rosszul lévő gyermek nem magyarázható egy foggal. Nézesd meg."]},
+      {"id": "call", "heading": "Mikor telefonálj", "paragraphs": ["Még aznap telefonálj, ha a gyermek három hónaposnál fiatalabb és láza van, ha szokatlanul petyhüdt vagy alig ébreszthető, ha erőlködve lélegzik, ha vér van a hányadékában vagy a székletében, vagy ha nem ürít vizeletet. Ilyenkor az étkezési tanács nem számít.", "Antibiotikum után az étrendnek nincs szüksége különleges tisztítókúrára. A megszokott étel megfelel, joghurttal együtt, ha szereti. A probiotikus készítmények választhatók, a gyógyulásnak nem kötelező részei."]}
+    ],
+    "references": [
+      {"title": "Hasmenés és hányás", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/"},
+      {"title": "A csecsemők és kisgyermekek táplálása", "source": "Egészségügyi Világszervezet (WHO), ténylap", "year": "2023", "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding"}
+    ]
+  },
+  {
+    "id": "teething",
+    "title": "Fogzás",
+    "byline": "Elég a hideg étel és valami szilárd, amit rághat. A borostyán nyaklánc és a benzokainos gél nem.",
+    "image": "plate-c.jpg",
+    "image_alt": "Puha étel, amit a gyermek meg tud fogni",
+    "findings": [
+      {"id": "comfort", "lead": "A hideg hasznos, a kőkeményre fagyott nem.", "text": "Egy hűtött uborkarúd, egy hideg kanál vagy egy puhára fagyasztott gyümölcspüré segíthet, ha az az állag ennél a babánál már biztonságos."},
+      {"id": "products", "lead": "A benzokainos és a lidokainos fogzási gélt hagyd ki.", "text": "A hatóságok csecsemőknél óvnak tőlük, mert befolyásolhatják a vér oxigénszállítását, és mert elzsibbasztják az öklendezési reflexet."},
+      {"id": "amber", "lead": "A borostyán nyaklánc fojtás- és fulladásveszélyes tárgy.", "text": "Nincs jó bizonyíték arra, hogy csökkentené a fájdalmat, és vannak kárról szóló esetleírások."}
+    ],
+    "sections": [
+      {"id": "comfort", "heading": "Ami ésszerű az asztalnál", "paragraphs": ["A fogzás néhány napig fájóssá teheti az ínyt, és kisebbé az étkezéseket. Kínáld tovább a szokásos ételeket. Tegyél mellé valami hideget, amit a baba már elboldogul: joghurtot a hűtőből, hámozott uborkarudat, ha a puha csíkokat már rágja, vagy gyümölcspürét, amit csak addig fagyasztottál, hogy kanállal adható, nem kőkemény. A kemény jégdarab külön fulladás- és fogsérülésveszély.", "A sok nyál és a savas gyümölcs gyakran kipirosítja az állat. Egy sima védőkenőcs és a kíméletes mosás többet ér, mint ha allergiának bélyegeznéd. Töröld, ne dörzsöld."]},
+      {"id": "products", "heading": "Gélek és tabletták", "paragraphs": ["Az Egyesült Államok Élelmiszer- és Gyógyszerügyi Hivatala (FDA) a kétévesnél fiatalabb gyermekeknél ellenzi a benzokainos fogzási készítményeket, methemoglobinémia miatt, és ugyanerre a célra a viszkózus lidokaint is. A száj elzsibbasztása a fulladást is valószínűbbé teszi. Európában a csecsemők fogzására szánt készítményeket ugyanezekből az okokból korlátozták.", "Tiszta ujjal megdörzsölni az ínyt unalmas és hatásos. Paracetamol vagy ibuprofen csak csecsemőknek való készítményben, és csak abban az adagban, amelyet az orvos már jóváhagyott: ez a gyógyszeres megbeszélés, nem étkezési döntés, és nem minden nyafogásra való."]},
+      {"id": "amber", "heading": "Nyakláncok és más tárgyak", "paragraphs": ["A borostyángyöngyös nyakláncot természetes fájdalomcsillapítóként árulják. A feltételezett hatásmechanizmus nem hihető abban a mennyiségben, amennyit egy gyöngy a bőrre leadhat, a tárgy pedig a légúton ül. A FDA a fulladás és a fojtás veszélyére figyelmeztetett. Jobb, ha nem használod. Alváskor mindenképp vedd le.", "A kőkemény vagy jórészt cukorból álló fogzási keksz a fulladás és a tápérték próbáján is elbukik. Egy darab kenyérhéj, amit a baba már elboldogul, egyszerűbb rágni való."]}
+    ],
+    "references": [
+      {"title": "A fogzási fájdalom biztonságos enyhítése csecsemőknél és gyermekeknél", "source": "Egyesült Államok Élelmiszer- és Gyógyszerügyi Hivatala (FDA)", "year": "2018", "url": "https://www.fda.gov/consumers/consumer-updates/safely-soothing-teething-pain-infants-and-children"},
+      {"title": "Súlyosan beteg a babád vagy a totyogód?", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/health/is-your-baby-or-toddler-seriously-ill/"}
+    ]
+  },
+  {
+    "id": "vitamins-and-minerals",
+    "title": "Vitaminok és ásványi anyagok",
+    "byline": "A D-vitamin az első napoktól kiegészítés kérdése. A vas hat hónapos kortól étel kérdése. A többi az étrendet követi.",
+    "image": "plate-a.jpg",
+    "image_alt": "Vasat és zöldséget adó ételek",
+    "findings": [
+      {"id": "d", "lead": "Az anyatejes csecsemőnek D-vitamin-kiegészítőre van szüksége.", "text": "Az étel nem fedezi. A magyar gyakorlatban a szokásos megelőző adagot a gyermekorvos vagy a védőnő írja fel, gyakran napi 400 IU-t, azaz 400 NE-t."},
+      {"id": "iron-min", "lead": "A vas hat hónapos kor után az ételből jön, nem egy szokásos vasas erősítőből.", "text": "A hús, a hüvelyesek és a dúsított gabonapehely a forrás. Kiegészítő kimutatott hiányra vagy meghatározott kockázatra való, nem alapból jár."},
+      {"id": "b12", "lead": "A vegán csecsemőétrendhez terv kell, nem bizakodás.", "text": "A B12-vitamin, a jód, a vas, a cink, a kalcium és a DHA nem kerül bele magától a csak növényi étrendbe."},
+      {"id": "a", "lead": "A máj egy adag A-vitamin.", "text": "Hetente egyszer, kis adagban, bőven elég. Ne tegyél mellé A-vitamin-kiegészítőt."}
+    ],
+    "sections": [
+      {"id": "d", "heading": "D-vitamin", "paragraphs": ["Közép-Európában a csecsemők az év nagy részében nem képeznek elég D-vitamint a napból, az anyatej pedig keveset tartalmaz. Az NHS anyatejes babáknak születéstől egyéves korig napi 8,5–10 mikrogramm (340–400 IU, tehát 340–400 NE) D-vitamint javasol. A magyar gyermekorvosi gyakorlat ehhez közeli napi D-vitamin-cseppet szokott felírni, néha magasabb megelőző adagban is. Azt a készítményt és azt az adagot használd, amit felírtak. Második készítményt ne tegyél rá „a biztonság kedvéért”.", "A csecsemőtápszer már tartalmaz D-vitamint. Ha a baba napi 500 ml körül vagy annál többet iszik, lehet, hogy nincs szüksége külön cseppre. Ez a felíró orvos kérdése, mert a helyes válasz a tápszertől és a mennyiségtől függ."]},
+      {"id": "iron-min", "heading": "Vas, cink és jód", "paragraphs": ["A vas étrendi szükséglete a második félévben a testmérethez képest magas, az egyesült államokbeli referenciaértékek szerint körülbelül napi 11 mg, és ezt az étkezések gyakorisága fedezi, nem egyetlen hősies adag. A legtöbb napon legyen vasban gazdag étel. A cink a hússal és a babfélékkel jár együtt. A növények önmagukban soványabb cinkforrást adnak.", "A jód a pajzsmirigynek és a fejlődésnek fontos. A tejtermék, a tojás és a hal hozza. A jódozott só a lakosság eszköze, és egyéves kor alatt rossz eszköz, mert maga a só is korlátozott. A szoptató anya jódbevitele számít; ez az ő kiegészítőjének a kérdése, nem ok arra, hogy a babát sózd."]},
+      {"id": "b12", "heading": "Vegetáriánus és vegán tányérok", "paragraphs": ["A lakto-ovo vegetáriánus csecsemőétrend működhet, ha a tojást és a tejterméket valóban megeszi, és a vas tervezett. Vegán étrendet össze lehet állítani, és könnyű elrontani. Az ESPGHAN azt kéri, hogy a vegán csecsemő orvosi és dietetikusi felügyeletet és megbízható B12-vitamin-forrást kapjon. A jódnak, az algaolajból származó DHA-nak, a vasnak, a cinknek és a kalciumnak megnevezett ételek kellenek, nem egy remény, hogy a változatosság majd fedezi őket.", "A növényi ital nem csecsemőtápszer. A rizsital öt év alatt nem alkalmas. Más növényi ital az első évben nem lehet a fő ital, hacsak az orvos nem egy meghatározott készítményt választott."]},
+      {"id": "a", "heading": "Az A-vitamin és a máj szabálya", "paragraphs": ["A máj vasban gazdag, és előformált A-vitaminban annyira gazdag, hogy egy nagy vagy gyakori adag túlviheti a biztonságos mennyiséget. Kis adag, a gyermek adagjában körülbelül 15 gramm főtt máj, legfeljebb hetente egyszer: ennyi ennek a ténynek az óvatos olvasata. Azon a héten, amikor A-vitamint tartalmazó kiegészítőt használtok, a májat teljesen hagyd ki.", "A szokásos zöldségek karotinoidokat adnak, ezeket a szervezet szabályozott módon alakítja át. A répára nincs hasonló felső határ. A répától narancssárga bőr ártalmatlan, és elmúlik."]}
+    ],
+    "references": [
+      {"title": "Vitaminok gyermekeknek", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/vitamins-for-children/"},
+      {"title": "Hozzátáplálás: állásfoglalás, a vasról és a vegán étrendekről", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "A vas étrendi referencia-bevitelei", "source": "National Academies / NIH Étrend-kiegészítők Hivatala, egészségügyi szakembereknek szóló vas-ténylap", "year": "2023", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"},
+      {"title": "Kerülendő ételek csecsemőknek és kisgyermekeknek: a máj és az A-vitamin", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"}
+    ]
+  },
+  {
+    "id": "pocket-guide",
+    "title": "Zsebkalauz",
+    "byline": "A döntések, amelyek számítanak, egy oldalon, hivatkozással a hosszabb magyarázatra.",
+    "image": "hero.jpg",
+    "image_alt": "Egy egyszerű tál első étel",
+    "findings": [
+      {"id": "do", "lead": "Kezdd körülbelül hat hónapos korban, vassal és a fő allergénekkel.", "text": "Maradjon a tejtáplálás. Lépj tovább az állaggal. Egyetek együtt. A visszautasított ételt nyugodtan kínáld újra."},
+      {"id": "dont", "lead": "Maradjon ki a méz, a hozzáadott só, a hozzáadott cukor és az egész dióféle.", "text": "Maradjon ki a gyümölcslé, a rizsital, a sonka, a leveskocka és a kemény, kerek étel."},
+      {"id": "ask", "lead": "Földimogyoró előtt kérdezd az orvost, ha az ekcéma súlyos, vagy a tojásallergia már ismert.", "text": "Még aznap kérdezd, ha étel után megváltozik a légzés, a bőrszín vagy a reagálás."}
+    ],
+    "sections": [
+      {"id": "do", "heading": "Tedd", "paragraphs": ["Várd meg, amíg a babánál alakulnak az evés készségei, és kezdd el nagyjából hat hónapos korára, négy hónapos kora előtt viszont ne. Kínálj korán húst, lencsét, babot, tojást vagy dúsított gabonapelyhet. A földimogyorót, a tojást, a tejet, a búzát, a szezámmagot, a halat és a szóját biztonságos állagban kínáld, és ha tűrte, hetente maradjon az étrendben. Ültesd a babát egyenesen. Az ételbe tegyél egy kevés olajat. Használj zöldfűszert. A sótlan fölösleget fagyaszd le.", "Ha a lista helyett az indoklást akarod, olvasd el az időzítésről, az allergénekről és az étkezések menetéről szóló oldalakat."]},
+      {"id": "dont", "heading": "Ne tedd", "paragraphs": ["Ne adj hozzá sót vagy cukrot. Egyéves kor előtt ne adj mézet. Ne adj egész diófélét, egész szőlőszemet, pattogatott kukoricát vagy sűrű magvajat. Öt év alatti gyermeknek ne adj rizsitalt. Egyéves kor előtt a tehéntej ne legyen a fő ital. Májat ne adj hetente egynél többször. Nyers zöldfűszerpépet ne tarts meg egy hétig, és fokhagymát ne tárolj olajban. Ne etess képernyő előtt, és ne alkudozz desszerttel.", "Az ünnepi torták, a csokoládészeletek és a ropogós granola idősebb totyogóknak alkalmi ételek, és több ismerős változatuk a babának rossz állag vagy rossz édesítőszer. A receptoldalak megmondják, mi változott, és miért."]},
+      {"id": "ask", "heading": "Kérdezz meg valakit", "paragraphs": ["A földimogyoró első kóstolása előtt, ha a babának súlyos ekcémája vagy tojásallergiája van. Ha a növekedés elakad. Ha vegán étrendet adsz. Ha egy étel kiterjedt csalánkiütést, duzzanatot, nehézlégzést vagy elernyedést okozott: ez az utolsó csoport sürgősségi ellátás, nem jövő heti időpont.", "Ez az oldal egy bizonyítékokkal ellenőrzött kísérő, egy magyar hozzátáplálási könyv ihlette. Nem az a könyv, és nem személyes orvosi vélemény a te gyermekedről."]}
+    ],
+    "references": [
+      {"title": "Hozzátáplálás: állásfoglalás", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "Kerülendő ételek csecsemőknek és kisgyermekeknek", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"},
+      {"title": "Kiegészítő irányelvek a földimogyoró-allergia megelőzésére", "source": "NIAID szakértői testület", "year": "2017", "url": "https://doi.org/10.1186/s40413-016-0137-9"}
+    ]
+  }
+]

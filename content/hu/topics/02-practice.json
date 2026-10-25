@@ -1,0 +1,136 @@
+[
+  {
+    "id": "what-to-introduce",
+    "title": "Mit vezess be, és mikor",
+    "byline": "Nincs kötelező naptár az egyes zöldségekre. Van ok arra, hogy az allergének korán bekerüljenek, és az étrendben is maradjanak.",
+    "image": "plate-b.jpg",
+    "image_alt": "Joghurt, sima magvajjal elkeverve",
+    "findings": [
+      {"id": "calendar", "lead": "Az egyesével, egy étellel haladó létra szokás, nem szabály.", "text": "Az új allergének egyesével érkezve könnyebben értelmezhetők. A hétköznapi zöldségnél nincs szükség a háromnapos elkülönítésre."},
+      {"id": "gluten", "lead": "A glutén jöhet már az első szilárd ételekkel.", "text": "A halogatása nem előzi meg a cöliákiát. Az első hetek nagyon nagy adagját érdemes kerülni."},
+      {"id": "milk-drink", "lead": "A teljes tehéntej egyéves kor előtt nem a fő ital.", "text": "Kis mennyiség mártásban, kásában vagy joghurtban a szilárd ételek kezdetétől rendben van."}
+    ],
+    "sections": [
+      {"id": "calendar", "heading": "Engedd el a hosszú létrát", "paragraphs": ["A régebbi hozzátáplálási táblázatok néhány naponta egy új zöldséget adtak, a húst, a búzát, a tojást és a halat pedig az első év vége feléig visszatartották. A napló ettől rendezett lett, a vasbevitel viszont szegényes. Kimaradt az az időszak is, amelyben az allergének korai bevezetése védőnek látszik.", "Egy új, gyakori allergént olyan reggel vezess be, amikor a baba jól van, kis mennyiségben, és figyeld. Másnap megismételheted. Más új étel, például egy másik zöldség, lehet ugyanazon a tányéron. Ha nincs reakció, az allergén hetente többször maradjon az étrendben. Egyetlen kóstolás nem tartja fenn a toleranciát."]},
+      {"id": "gluten", "heading": "Glutén, tojás, hal és a többi", "paragraphs": ["Az ESPGHAN szerint a glutén 4 és 12 hónapos kor között bevezethető, és a nagy mennyiséget kerülni kell a bevezetés utáni első hetekben, valamint a csecsemőkor folyamán. Egy adag tészta vagy kenyér helyénvaló. Egy halom keksz nem.", "A tojás teljesen átsült legyen. A hal szálkamentes és teljesen átsült legyen. A földimogyoró és a többi dióféle sima vajként, hígítva kerüljön az ételbe: soha ne egészben, és soha ne sűrű kanálnyi gombócként. A szezám tahini, nem egész szemek hintése. A részletek és a magas kockázatú földimogyoró menete az allergének oldalán vannak."]},
+      {"id": "milk-drink", "heading": "A tej mint ital, és a tej mint étel", "paragraphs": ["Az anyatej vagy a csecsemőtápszer 12 hónapos korig a fő ital marad. Ha a teljes tehéntej tölti be ezt az ital szerepét, nő a kockázata a kevés vasbevitelnek, és a tehéntej nem helyettesíti a tápszert. Az első születésnap után a teljes tehéntej lehet az ital, nagyjából napi 350–400 ml, hogy ne szorítsa ki az étkezéseket.", "A joghurt, a kis mennyiségű pasztőrözött sajt és a főtt mártásba tett tej ételek, nem italok. Hat hónapos kortól rendben vannak. A pasztőrözetlen tej, valamint a nemespenésszel érlelt és a kékpenészes sajtok az első években kimaradnak."]}
+    ],
+    "references": [
+      {"title": "Hozzátáplálás: állásfoglalás", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "Ételek, amelyeket csecsemőnek és kisgyereknek nem szabad adni", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"}
+    ]
+  },
+  {
+    "id": "allergens",
+    "title": "Az allergének bevezetése",
+    "byline": "A földimogyoró, a tojás és a tej halogatása nem véd az allergiától. A legtöbb babánál az a biztonságosabb, ha biztonságos állagban elkezded, és utána is adod.",
+    "image": "plate-b.jpg",
+    "image_alt": "Joghurt, sima magvajjal elkeverve",
+    "findings": [
+      {"id": "early", "lead": "A gyakori allergéneket akkor kezdd, amikor a szilárd étel kezdődik.", "text": "A legtöbb babánál ez hat hónapos kor körül van, és négy hónapos kor előtt nem."},
+      {"id": "leap", "lead": "A csecsemőkortól rendszeresen evett földimogyoró a magas kockázatú gyerekeknél élesen csökkentette a földimogyoró-allergiát.", "text": "A LEAP vizsgálat a súlyos ekcémás vagy tojásallergiás gyerekeknél ötéves korra mintegy 80 százalékos relatív csökkenést talált."},
+      {"id": "high-risk", "lead": "Van baba, aki csak az orvos beleegyezése után találkozzon földimogyoróval.", "text": "A csoport a súlyos ekcéma, a már meglévő tojásallergia, vagy mindkettő. Ne kísérletezz egy aggódó orvos ellenében."},
+      {"id": "reaction", "lead": "A száj körüli érintkezéses kiütés nem ugyanaz, mint az anafilaxia.", "text": "A légzési nehezítettség, a petyhüdtség, a testszerte megjelenő csalánkiütés vagy az étel után ismétlődő hányás vészhelyzet."}
+    ],
+    "sections": [
+      {"id": "early", "heading": "Mi változott a bizonyítékokban", "paragraphs": ["Éveken át azt mondták a családoknak, hogy a földimogyorót, a tojást és a halat halasszák. A tanács együtt járt az emelkedő allergiaszámokkal, és nem érte el, hogy azok csökkenjenek. Az ESPGHAN ma azt mondja: az allergén ételek a hozzátáplálás kezdetekor bevezethetők, négy hónapos kor után bármikor. Egészséges babánál a gyakorlati kor az, amikor a szilárd étel kezdődik, hat hónapos kor körül.", "Ezeket érdemes terv szerint bevezetni: földimogyoró, tojás, tehéntej, búza, szezám, hal, szója és a dióféle. A rákfélék és a puhatestűek akkor kerülhetnek a sorba, amikor már teljesen átsütve és finomra aprítva tudod adni. Ehető formában vezesd be őket, ne rejtett nyomként, és utána is kínáld."]},
+      {"id": "leap", "heading": "A LEAP, az EAT, és ami utána jött", "paragraphs": ["A LEAP olyan csecsemőket vont be, akik súlyos ekcéma, tojásallergia vagy mindkettő miatt voltak magas kockázatúak. Akik ötéves korig rendszeresen ettek földimogyorót, sokkal ritkábban lettek földimogyoró-allergiásak, mint akik kerülték. Az EAT vizsgálat három hónapos kortól hat allergént kínált szoptatott csecsemőknek, az átlagos népességből. A védelem azoknál volt a legvilágosabb, akik tényleg elég gyakran ették az ételeket. Ezt sok család nehéznek találta.", "Az amerikai kiegészítő irányelv a LEAP eredményét gyakorlattá tette: a magas kockázatú csecsemőknél a földimogyorót négy és hat hónapos kor között mérlegelik, miután más szilárd ételek már megmutatták, hogy a baba készen áll, gyakran előzetes vizsgálattal. Enyhe vagy közepes ekcémánál a földimogyorót hat hónapos kor körül kínálják. Ha nincs ekcéma, a többi étellel együtt jöhet. Az európai útmutatás ugyanebbe az irányba mutat."]},
+      {"id": "high-risk", "heading": "Az első kóstolások", "paragraphs": ["Olyan reggelt válassz, amikor a gyerek jól van: ne oltás napján, és ne lázasan. Egy új allergénből adj keveset, és maradj a közelben. A joghurtba vagy gyümölcsbe hígított sima földimogyoróvaj a jó földimogyoró-állag. Egy kanál sűrű földimogyoróvaj elzárhatja a légutat. A sült tojás és a keménytojás is számít; a sárgája és a fehérje is legyen szilárd. Mártogatósba hígított tahini a jó szezámállag.", "Ha az első kóstolást tűri, ismételd meg, aztán a héten is kapja. Ha egy sikeres kóstolás után hónapokra abbahagyod, a tervezett bevezetés csendben kerüléssé válik. Súlyos ekcéma vagy ismert tojásallergia esetén a földimogyoró előtt orvos vizsgálja meg a babát. Ez az orvos dolga, és bőrpróba vagy felügyelt etetés is lehet."]},
+      {"id": "reaction", "heading": "Kiütés, betegség, vészhelyzet", "paragraphs": ["A nyál és egy új, savas gyümölcs gyakran kipirosítja az állat. Ez az érintkezéses irritáció elmúlik, és önmagában nem ok allergiakivizsgálásra. A terjedő csalánkiütés, az ajak vagy a nyelv duzzanata, a hányás, a rekedt sírás, a sípoló légzés, vagy a sápadt és petyhüdt baba sürgősségi ellátást igényel. Az antihisztamin nem a légzési nehezítettség kezelése.", "Ne egy betegség heteiből, egyetlen étkezésből mondj ki allergiát, és ne azon a napon kezdj vadonatúj allergént, amikor a gyerek eleve rosszul van. Valódi allergiás reakció után az étel kimarad, amíg a szakorvosnak nincs terve. Az otthoni terheléses próba rossz ötlet."]}
+    ],
+    "references": [
+      {"title": "Véletlen besorolásos vizsgálat a földimogyoró fogyasztásáról a földimogyoró-allergia kockázatának kitett csecsemőknél (LEAP)", "source": "Du Toit és mtsai., New England Journal of Medicine", "year": "2015", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1414850"},
+      {"title": "Véletlen besorolásos vizsgálat allergén ételek bevezetéséről szoptatott csecsemőknél (EAT)", "source": "Perkin és mtsai., New England Journal of Medicine", "year": "2016", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1514210"},
+      {"title": "Kiegészítő irányelvek a földimogyoró-allergia megelőzésére az Egyesült Államokban", "source": "Togias és mtsai. a NIAID számára, World Allergy Organization Journal", "year": "2017", "url": "https://doi.org/10.1186/s40413-016-0137-9"},
+      {"title": "Hozzátáplálás: állásfoglalás, az allergén ételekről szóló rész", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"}
+    ]
+  },
+  {
+    "id": "portions-and-milk",
+    "title": "Adagok, állag és tej",
+    "byline": "Az étvágy jobb mérce, mint a kanalak száma. A tej az első születésnapig a fő ital.",
+    "image": "hero.jpg",
+    "image_alt": "Egy tál sima zöldségpüré",
+    "findings": [
+      {"id": "amounts", "lead": "Teáskanálnyival kezdj, aztán a babát kövesd.", "text": "Az egyik nap néhány kanál, a másikon egy egész tál: mindkettő lehet normális."},
+      {"id": "milk", "lead": "A tej 12 hónapos korig az étrend legnagyobb része.", "text": "Az étel vasat és készséget tanít. Nem váltja fel a tejétkezéseket egy általad kitalált rendben."},
+      {"id": "texture", "lead": "Az állagnak nyolc-kilenc hónapos korra már haladnia kell.", "text": "A víz nyitott pohárból az étkezésekkel kezdődhet. A gyümölcslé nem."}
+    ],
+    "sections": [
+      {"id": "amounts", "heading": "Mennyi étel", "paragraphs": ["Az első étkezések legalább annyira gyakorlat, mint táplálás: egy–három teáskanál, naponta egyszer, aztán két, majd három étkezés felé. Az első év végére sok gyerek három étkezést és két kisétkezést eszik, az adagok viszont gyerekenként és naponként még mindig nagyon szórnak.", "Ha az utolsó kanalakat is rátukmálod, a gyerek azt tanulja, hogy ne hallgasson a teltségérzésre. Ugyanez történik, ha az étel jutalom, vagy minden megszomorodás vigasza. A felelősség megosztása az étkezésekről szóló oldalon van: te döntöd el, mit kínálsz, a gyerek dönti el, mennyit eszik."]},
+      {"id": "milk", "heading": "Hová illik a tej", "paragraphs": ["Az anyatej vagy a tápszer igény szerint maradjon az étkezések mellett. Nem kell egy tejétkezést elhagyni azon a napon, amikor a szilárd étel elkezdődik. Az első születésnap felé az étel adja a vas nagyobb részét, a tejétkezések pedig gyakran reggelre, estére és talán még egyre állnak be.", "12 hónapos kor után a napi 400 ml-t jóval meghaladó tejivás gyakori oka annak, hogy a tipegő nem eszik. Az étkezéshez vizet kínálj. A cumisüveg, ha folyton csak kortyolgat belőle, a fogakon is megültheti a tejet."]},
+      {"id": "texture", "heading": "Állag és pohár", "paragraphs": ["Sima étel hat hónaposan, tört étel és puha csíkok nyolc-kilenc hónaposan, apróra vágott családi étel tizenkét hónaposan: ez reális ív. Van, aki gyorsabban halad, és van, aki lassabban. A kockázat az a gyerek, aki egyéves korára még mindig híg pürén van, és utána a darabosat nem fogadja el.", "Kínálj korty vizet nyitott vagy szabadon folyó pohárból az étkezésekhez, hogy az ivás gyakorlás legyen. A gyümölcslé, a hígított is, nem babaital. Az American Academy of Pediatrics 12 hónapos kor előtt nem javasol gyümölcslevet."]}
+    ],
+    "references": [
+      {"title": "WHO-irányelv a 6–23 hónapos csecsemők és kisgyerekek hozzátáplálásáról", "source": "World Health Organization", "year": "2023", "url": "https://www.who.int/publications/i/item/9789240081864"},
+      {"title": "Gyümölcslé csecsemőknél, gyermekeknél és serdülőknél", "source": "AAP, Pediatrics", "year": "2017", "url": "https://doi.org/10.1542/peds.2017-0967"},
+      {"title": "A baba első szilárd ételei", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"}
+    ]
+  },
+  {
+    "id": "a-week-of-meals",
+    "title": "Egy hét, vázlatosan",
+    "byline": "Ezek minták, nem előírások. Tedd bele azt a vasforrást és azt az allergént, amelyet éppen gyakoroltok.",
+    "image": "plate-a.jpg",
+    "image_alt": "Egy tányér puha, megfőtt étel",
+    "findings": [
+      {"id": "six", "lead": "Hat hónaposan a tányér kicsi, a tejétkezések maradnak.", "text": "Egy vagy két étkezés, mindegyikben vasforrással, elég a kezdéshez."},
+      {"id": "nine", "lead": "Kilenc hónaposan az állag a munka, és az, hogy az allergén szokás legyen.", "text": "Három étkezés, puha darabok, és a hét több napján földimogyoró vagy tojás."},
+      {"id": "twelve", "lead": "Tizenkét hónaposan a gyerek a család ételét eszi, a saját tányérján só nélkül.", "text": "A tej pohárból ivott ital lesz, mérsékelt mennyiségben."}
+    ],
+    "sections": [
+      {"id": "six", "heading": "Hat hónapos kor körül", "paragraphs": ["A reggeli lehet zabkása főtt almával, és ha a földimogyorót már kóstolta, egy teáskanál sima földimogyoróvaj belekeverve. Az ebéd lehet csirke, édesburgonya és brokkoli, összetörve. A második étkezés, ha a baba kéri, lehet vöröslencse-leves, vagy tojás zöldségbe törve.", "A héten szándékosan ismételd a tojást, a földimogyorót, a búzát és egy tejterméket. Az anyatej vagy a tápszer maradjon a fő ital. Vizet kínálj, ne erőltess."]},
+      {"id": "nine", "heading": "Kilenc hónapos kor körül", "paragraphs": ["Reggelire kása vagy tojás gyümölccsel. Ebédre puha tészta paradicsommal és darált hússal, vagy hal rizzsel és zöldséggel. Délután egy falat: joghurt vagy puha zöldséglepény. Vacsorára jöhet a család raguja, sózás előtt összetörve.", "A kanál mellé puha falatok kerülnek: egy csík puha, főtt étkezési paprika, egy darab érett körte, egy lazacfoszlány. Ez az a kor, amikor a híg pürét elengeded, ha eddig nem tetted."]},
+      {"id": "twelve", "heading": "Tizenkét hónapos kor körül", "paragraphs": ["Az étkezések olyanok, mint a ház étkezései. Reggelire kenyér és gyümölcs, ebédre babragu vagy tészta, este sült tojás vagy maradék hús. Kisétkezésre gyümölcs, joghurt vagy puha zabfalat jár, nem pedig édes keksz megszokásból.", "A méz a botulizmus szempontjából innentől a szabályok szerint is biztonságosabb, mindennapi édesítőszernek viszont továbbra sem jó. Az egész szőlőszemet továbbra is hosszában vágd ketté. Az egész dió és minden más egész mag még évekre van. A só kis mennyiségben bekerülhet a családi ételbe; a gyerek ételének nincs szüksége a felnőtt mennyiségre."]}
+    ],
+    "references": [
+      {"title": "WHO-irányelv a 6–23 hónapos csecsemők és kisgyerekek hozzátáplálásáról", "source": "World Health Organization", "year": "2023", "url": "https://www.who.int/publications/i/item/9789240081864"},
+      {"title": "A baba első szilárd ételei", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"}
+    ]
+  },
+  {
+    "id": "how-meals-happen",
+    "title": "Hogyan történik az étkezés",
+    "byline": "Azt, hogy mit teszel oda, te döntöd el. Azt, hogy megeszi-e, és mennyit, a gyerek. A nyomás rossz tanár.",
+    "image": "plate-c.jpg",
+    "image_alt": "Puha ételek, amelyeket a gyerek kézbe vehet",
+    "findings": [
+      {"id": "dor", "lead": "Oszd meg a felelősséget.", "text": "A felnőtt választja az ételt, az időt és a helyet. A gyerek választja, hogy eszik-e, és mennyit."},
+      {"id": "exposure", "lead": "A visszautasított ételnek többnyire több nyugodt találkozás kell, nem egy másik étkezés helyette.", "text": "Nyolc–tizenöt kóstolás nyomás nélkül rendes ív egy új íznél."},
+      {"id": "tricks", "lead": "A képernyő, a repülős kanál és az édességért kötött alku visszaüt.", "text": "Azt tanítják, hogy a gyerek ne hallgasson az éhségére, és hogy az édes étel a jutalom."}
+    ],
+    "sections": [
+      {"id": "dor", "heading": "Ki miről dönt", "paragraphs": ["Ellyn Satter felelősségmegosztása a válaszkész etetés legtisztább mondata. Olyan étkezést kínálsz, amelynek rendje van: van benne valami, amit a gyerek általában elfogad, és valami, amit még tanul. Leülsz. Nem könyörögsz, nem kergeted kanállal, és nem főzöl második ebédet, ha az elsőt visszautasítja.", "Ha a baba elfordul, összeszorítja a száját, vagy játszani kezd, végzett. Ha akkor lezárod az étkezést, az siker. Így tanulja meg, hogy a saját teltsége számít."]},
+      {"id": "exposure", "heading": "Ismételt találkozás", "paragraphs": ["Az ételneofóbia, vagyis az új ételek miatti gyanakvás, a tipegőkorban erősödik, és teljesen hétköznapi. A bizonyítékokon alapuló válasz az ismételt, semleges találkozás: az étel megjelenik, nem esik róla sok szó, és a jövő héten újra ott van. Az evésért járó dicséret és a visszautasítás miatti csalódás egyaránt nyomás.", "Ha a visszautasításra mindig egy kedvenc étel készül helyette, a visszautasítást tanítod be. Tálalj egy étkezést. Legyen benne valami, amit a gyerek már elfogad, hogy ne éhesen álljon fel. Az új ételt hagyhatja figyelmen kívül."]},
+      {"id": "tricks", "heading": "Trükkök, amelyek nem érik meg", "paragraphs": ["Ha etetés közben képernyő köti le a babát, a gyomor megtelik, a lecke kimarad. Az alku („ezt edd meg, és jöhet valami édes”) a sós ételt kötelességgé teszi. Ha minden zöldséget úgy elrejtesz, hogy a gyerek soha nem látja, az is kihagyja a leckét. Egy látható darab akkor is dolgozik, ha a tányéron marad.", "Egyetek együtt, amikor csak lehet. A gyerek az asztalnál ülőket megbízhatóbban utánozza, mint hogy egy beszédet követne az egészséges ételekről."]}
+    ],
+    "references": [
+      {"title": "A Satter-féle etetési modell és a felelősség megosztása", "source": "Ellyn Satter Institute", "year": "2024", "url": "https://www.ellynsatterinstitute.org/satter-feeding-dynamics-model/"},
+      {"title": "Válaszkész etetés és a gyermekek alultápláltsága", "source": "Black és Aboud, The Journal of Nutrition (a válaszkész etetés fogalmának áttekintése)", "year": "2011", "url": "https://doi.org/10.3945/jn.110.130005"},
+      {"title": "Hozzátáplálás: állásfoglalás, a válaszkész etetésről", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"}
+    ]
+  },
+  {
+    "id": "gagging-and-choking",
+    "title": "Öklendezés és fulladás",
+    "byline": "Az öklendezés hangos, és hasznos. A fulladás csendes, és vészhelyzet. A kézzel végzett ellátást tanuld meg, mielőtt szükség lenne rá.",
+    "image": "plate-c.jpg",
+    "image_alt": "Puha étel, kezelhető darabokra vágva",
+    "findings": [
+      {"id": "difference", "lead": "A zaj megnyugtató. A csend nem.", "text": "Az öklendező baba köhög, prüszköl és elvörösödik. A fulladó baba nem tud sírni, és nem tud hatékonyan köhögni."},
+      {"id": "shapes", "lead": "Az alak többet számít, mint az alapanyag.", "text": "A kerek, kemény, ragadós és érme alakú darabok állnak a csecsemőkori fulladások többsége mögött."},
+      {"id": "learn", "lead": "Olvass el egy oldalt, aztán képzett oktatóval gyakorolj.", "text": "A csecsemőkori háti ütések és mellkasi lökések mozgásos készség. Egy weboldal nem a gyakorlás."}
+    ],
+    "sections": [
+      {"id": "difference", "heading": "Különítsd el a kettőt", "paragraphs": ["A fiatal babánál az öklendezési reflex elöl van, és a tanulással hátrébb kerül. Ha az étel túl messzire jut, hangos öklendezés jön, és a darab előre csúszik. Ijesztő, és többnyire pontosan ezt kell történnie. Maradj közel, maradj nyugodt, és hagyd, hogy a baba rendezze. Ne fordítsd fejjel lefelé, és ne nyúlj vakon a szájába, amíg még jól köhög.", "A fulladás elzárt légút. A baba csendes, vagy csak gyenge hangot ad, nem tud köhögni, és elkékülhet. Ez vészhelyzet. Csecsemőnél a szokásos ellátás a váltakozó háti ütések és mellkasi lökések, aztán a mentők. Végezz csecsemő-elsősegély tanfolyamot a Magyar Vöröskeresztnél (Hungarian Red Cross) vagy egyenértékű helyen, és tarts elmentve egy megbízható, ábrás útmutatót. A pillanatban ne erre a bekezdésre hagyatkozz."]},
+      {"id": "shapes", "heading": "Alakok, amelyeken változtass", "paragraphs": ["A szőlőszemet, a koktélparadicsomot és a kolbász kerek szeleteit hosszában vágd el. Az almát főzd puhára, ne nyers, kemény darabban add. A pattogatott kukorica, az egész dió, a kemény cukorka, a ragadós pillecukor és a chips maradjon ki. A magvajat ételbe hígítsd, soha ne hagyd gombócként a kanálon. A hús legyen puha, ne kocka, amelyet a babának rágcsálnia kell.", "Minden étkezéshez ültesd a babát egyenesen, etetőszékbe. Autósülésben, menet közben vagy hátradőlve enni rosszabb helyzet a tisztító köhögéshez. Maradj a szobában."]},
+      {"id": "learn", "heading": "Hol tanuld meg az ellátást", "paragraphs": ["Az NHS és a British Red Cross is lépésről lépésre útmutatót közöl a csecsemőkori fulladásról, a Magyar Vöröskereszt (Hungarian Red Cross) pedig személyesen tanítja az elsősegélyt. Útmutatóból a sorrendet értsd meg. Tanfolyamon a kezed jegyezze meg.", "A BLISS vizsgálat az oka annak, hogy a puha falatok nincsenek tiltva. Arra nem ok, hogy a tanfolyamot kihagyd. A vizsgálat családjait megtanították, mely ételeket kerüljék."]}
+    ],
+    "references": [
+      {"title": "Hogyan állítsd meg, ha a gyerek fullad", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/first-aid-and-safety/first-aid/how-to-stop-a-child-from-choking/"},
+      {"title": "Elsősegély fulladó babánál", "source": "British Red Cross", "year": "2024", "url": "https://www.redcross.org.uk/first-aid/learn-first-aid-for-babies-and-children/choking-baby"},
+      {"title": "Magyar Vöröskereszt, elsősegély oktatás", "source": "Hungarian Red Cross", "year": "2024", "url": "https://voroskereszt.hu/"},
+      {"title": "A szilárd ételek babavezérelt megközelítése és a fulladás kockázata", "source": "Taylor és mtsai., Pediatrics", "year": "2016", "url": "https://doi.org/10.1542/peds.2016-0772"}
+    ]
+  }
+]

@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-prefix="" data-months="months+" data-empty="No recipes match those filters." data-one="recipe" data-many="recipes">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Star cottage cheesecake · First foods</title>
   <meta name="description" content="Original evidence-checked notes and recipes for the first years of solid food. Inspired by a Hungarian weaning book. Not medical advice.">
+  <link rel="alternate" hreflang="en" href="https://first-foods-companion.vercel.app/recipes/star-cheese-cake.html">
+  <link rel="alternate" hreflang="hu" href="https://first-foods-companion.vercel.app/hu/recipes/star-cheese-cake.html">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem("theme");
+        if (theme !== "day" && theme !== "night") {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (error) {}
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,11 +26,21 @@
 <body>
   <header class="wrap nav">
     <a class="brand" href="/">First foods</a>
-    <nav class="nav-links">
-      <a href="/topics/">Guides</a>
-      <a href="/recipes/" aria-current="page">Recipes</a>
-      <a href="/about.html">About</a>
-    </nav>
+    <div class="nav-end">
+      <nav class="nav-links">
+        <a href="/topics/">Guides</a>
+        <a href="/recipes/" aria-current="page">Recipes</a>
+        <a href="/about.html">About</a>
+      </nav>
+      <div class="nav-tools">
+        <label class="visually-hidden" for="lang-en">Language</label>
+        <select id="lang-en" data-lang aria-label="Language">
+          <option value="en" selected>English</option>
+          <option value="hu">Magyar</option>
+        </select>
+        <button type="button" class="theme-toggle" data-theme-toggle data-day="Day" data-night="Night" aria-pressed="false">Night</button>
+      </div>
+    </div>
   </header>
   <main class="wrap">
     
@@ -66,5 +89,7 @@
     <p>Inspired by <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó). The words, recipes, and photographs on this site are original. This is not that book.</p>
     <p>This is general information, not personal medical advice. A health visitor or paediatrician knows your child. For a choking baby, use training from a first-aid course. In an emergency, call your local emergency number.</p>
   </footer>
+  
+  <script src="/assets/site.js"></script>
 </body>
 </html>

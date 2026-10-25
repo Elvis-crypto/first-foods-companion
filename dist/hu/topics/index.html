@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu" data-prefix="/hu" data-months="hónapos kortól" data-empty="Nincs a szűrésnek megfelelő recept." data-one="recept" data-many="recept">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Útmutatók · Első ételek</title>
+  <meta name="description" content="Eredeti, bizonyítékokhoz kötött útmutató és receptek az első szilárd ételekhez. Egy magyar hozzátáplálós könyv ihlette. Nem orvosi tanács.">
+  <link rel="alternate" hreflang="en" href="https://first-foods-companion.vercel.app/topics/">
+  <link rel="alternate" hreflang="hu" href="https://first-foods-companion.vercel.app/hu/topics/">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem("theme");
+        if (theme !== "day" && theme !== "night") {
+          theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="/hu/">Első ételek</a>
+    <div class="nav-end">
+      <nav class="nav-links">
+        <a href="/hu/topics/" aria-current="page">Útmutatók</a>
+        <a href="/hu/recipes/">Receptek</a>
+        <a href="/hu/about.html">Az oldalról</a>
+      </nav>
+      <div class="nav-tools">
+        <label class="visually-hidden" for="lang-hu">Nyelv</label>
+        <select id="lang-hu" data-lang aria-label="Nyelv">
+          <option value="en">English</option>
+          <option value="hu" selected>Magyar</option>
+        </select>
+        <button type="button" class="theme-toggle" data-theme-toggle data-day="Nappal" data-night="Éjszaka" aria-pressed="false">Éjszaka</button>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    
+    <section class="section">
+      <p class="kicker">Útmutatók</p>
+      <h1>Amit a receptek előtt érdemes tudni.</h1>
+      <p class="lede">Először a rövid megállapítások. A hosszabb magyarázat ugyanazon az oldalon van, a források pedig linkelve.</p>
+    </section>
+    <section class="section"><h2>Alapok</h2><div class="grid-2"><a class="card" href="/hu/topics/why-first-foods-matter.html">
+              <h2>Mire valók valójában az első ételek</h2>
+              <p>Az étel feladata az első év második felében a vas, az energia és az evés megtanulása. Nem az, hogy a fehérje százalékát célként tűzzük ki.</p>
+            </a><a class="card" href="/hu/topics/when-to-start.html">
+              <h2>Mikor kezdjük</h2>
+              <p>A használható ablak négy hónapos kor után nyílik, és nagyjából hat hónapos korig tart. A készenlét készségek együttese, a kornak pedig ettől még van alsó határa.</p>
+            </a><a class="card" href="/hu/topics/ways-of-feeding.html">
+              <h2>Kanál, ujjak vagy mindkettő</h2>
+              <p>A pürék, az ujjal ehető ételek és a kettő keveréke mind jól táplálhatnak egy babát. A vita arról, hogy melyik módszerhez tartozol, hangosabb, mint a bizonyíték.</p>
+            </a><a class="card" href="/hu/topics/choosing-ingredients.html">
+              <h2>Alapanyagok választása</h2>
+              <p>A változatosság, benne a keserű zöldekkel, többet számít, mint egy biojelölés. Egy rövid lista ételei valóban nem alkalmasak.</p>
+            </a><a class="card" href="/hu/topics/cooking-and-seasoning.html">
+              <h2>Főzés és ízesítés</h2>
+              <p>A fűszernövény, egy enyhe fűszer és egy kanál olaj többet tesz a baba ételéért, mint amennyit a só vagy a cukor valaha fog.</p>
+            </a><a class="card" href="/hu/topics/tools-and-hygiene.html">
+              <h2>Eszközök, higiénia és a fagyasztó</h2>
+              <p>Egy kés, egy fazék és fegyelem a hűtőnél többet számít, mint egy fióknyi babakütyü.</p>
+            </a></div></section><section class="section"><h2>Az asztalnál</h2><div class="grid-2"><a class="card" href="/hu/topics/what-to-introduce.html">
+              <h2>Mit vezess be, és mikor</h2>
+              <p>Nincs kötelező naptár az egyes zöldségekre. Van ok arra, hogy az allergének korán bekerüljenek, és az étrendben is maradjanak.</p>
+            </a><a class="card" href="/hu/topics/allergens.html">
+              <h2>Az allergének bevezetése</h2>
+              <p>A földimogyoró, a tojás és a tej halogatása nem véd az allergiától. A legtöbb babánál az a biztonságosabb, ha biztonságos állagban elkezded, és utána is adod.</p>
+            </a><a class="card" href="/hu/topics/portions-and-milk.html">
+              <h2>Adagok, állag és tej</h2>
+              <p>Az étvágy jobb mérce, mint a kanalak száma. A tej az első születésnapig a fő ital.</p>
+            </a><a class="card" href="/hu/topics/a-week-of-meals.html">
+              <h2>Egy hét, vázlatosan</h2>
+              <p>Ezek minták, nem előírások. Tedd bele azt a vasforrást és azt az allergént, amelyet éppen gyakoroltok.</p>
+            </a><a class="card" href="/hu/topics/how-meals-happen.html">
+              <h2>Hogyan történik az étkezés</h2>
+              <p>Azt, hogy mit teszel oda, te döntöd el. Azt, hogy megeszi-e, és mennyit, a gyerek. A nyomás rossz tanár.</p>
+            </a><a class="card" href="/hu/topics/gagging-and-choking.html">
+              <h2>Öklendezés és fulladás</h2>
+              <p>Az öklendezés hangos, és hasznos. A fulladás csendes, és vészhelyzet. A kézzel végzett ellátást tanuld meg, mielőtt szükség lenne rá.</p>
+            </a></div></section><section class="section"><h2>Egészség és a rövid lista</h2><div class="grid-2"><a class="card" href="/hu/topics/picky-eating.html">
+              <h2>Válogatós evés</h2>
+              <p>Az új ételtől való gyanakvás a totyogókor természetes szakasza. Nem a napi tányér, hanem a növekedés mondja meg, mikor kérj segítséget.</p>
+            </a><a class="card" href="/hu/topics/illness.html">
+              <h2>Amikor a gyermek beteg</h2>
+              <p>Ismerős étel, elég folyadék, és a megszokott tejtáplálás. Beteg napon rossz allergiát kimondani, és rossz új ételt bevezetni.</p>
+            </a><a class="card" href="/hu/topics/teething.html">
+              <h2>Fogzás</h2>
+              <p>Elég a hideg étel és valami szilárd, amit rághat. A borostyán nyaklánc és a benzokainos gél nem.</p>
+            </a><a class="card" href="/hu/topics/vitamins-and-minerals.html">
+              <h2>Vitaminok és ásványi anyagok</h2>
+              <p>A D-vitamin az első napoktól kiegészítés kérdése. A vas hat hónapos kortól étel kérdése. A többi az étrendet követi.</p>
+            </a><a class="card" href="/hu/topics/pocket-guide.html">
+              <h2>Zsebkalauz</h2>
+              <p>A döntések, amelyek számítanak, egy oldalon, hivatkozással a hosszabb magyarázatra.</p>
+            </a></div></section>
+    
+  </main>
+  <footer class="wrap footer">
+    <p>Az <em>Anya, kérek még!</em> (Ambrus Éva, BOOOK Kiadó) ihlette. A szövegek, a receptek és a fényképek ezen az oldalon eredetiek. Ez nem az a könyv.</p>
+    <p>Ez általános tájékoztatás, nem személyre szóló orvosi tanács. A védőnő vagy a gyermekorvos ismeri a gyereket. Fulladó csecsemőnél a tanfolyamon tanult elsősegélyt használd. Vészhelyzetben hívd a helyi segélyhívót.</p>
+  </footer>
+  
+  <script src="/assets/site.js"></script>
+</body>
+</html>
