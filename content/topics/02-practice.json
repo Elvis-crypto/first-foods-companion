@@ -1,0 +1,136 @@
+[
+  {
+    "id": "what-to-introduce",
+    "title": "What to introduce, and when",
+    "byline": "There is no mandatory calendar of single vegetables. There is a reason to bring allergens in early and to keep them in the diet.",
+    "image": "plate-b.jpg",
+    "image_alt": "Yogurt with a smooth nut butter stirred in",
+    "findings": [
+      {"id": "calendar", "lead": "A one-food-at-a-time ladder is a habit, not a rule.", "text": "New allergens are easier to read if they arrive one at a time. Ordinary vegetables do not need three days of isolation."},
+      {"id": "gluten", "lead": "Gluten can come in with the first solids.", "text": "Delaying it does not prevent coeliac disease. Very large amounts in the first weeks are worth avoiding."},
+      {"id": "milk-drink", "lead": "Whole cow’s milk is not the main drink before one year.", "text": "Small amounts in a sauce, a porridge, or a yogurt are fine from the start of solids."}
+    ],
+    "sections": [
+      {"id": "calendar", "heading": "Drop the long ladder", "paragraphs": ["Older weaning charts offered one new vegetable every few days and held meat, wheat, egg, and fish until late in the first year. That pattern made diaries tidy and iron intake poor. It also missed the window in which early allergen introduction appears to protect.", "Introduce one new common allergen on a morning when the baby is well, in a small amount, and watch. The next day you can repeat it. Other new foods, such as a different vegetable, can share the plate. If there is no reaction, keep the allergen in the diet several times a week. A single taste does not maintain tolerance."]},
+      {"id": "gluten", "heading": "Gluten, egg, fish, and the rest", "paragraphs": ["ESPGHAN says gluten may be introduced between 4 and 12 months, and that large quantities should be avoided in the first weeks after introduction and through infancy. A portion of pasta or bread is appropriate. A stack of biscuits is not.", "Egg should be fully cooked. Fish should be boneless and fully cooked. Peanut and other nuts should be smooth butter, thinned, never whole and never a dense spoonful. Sesame is tahini, not a sprinkle of whole seeds. Details and the high-risk peanut pathway are on the allergen page."]},
+      {"id": "milk-drink", "heading": "Milk as a drink and milk as a food", "paragraphs": ["Breast milk or infant formula remains the main drink until 12 months. Whole cow’s milk as that drink raises the risk of a poor iron intake and is not a formula substitute. After the first birthday, whole cow’s milk can become the drink, at roughly 350 to 400 ml a day so it does not crowd out meals.", "Yogurt, pasteurised cheese in small amounts, and milk in a cooked sauce are foods, not drinks. They are reasonable from six months. Unpasteurised milk and mould-ripened or blue cheeses stay out of the first years."]}
+    ],
+    "references": [
+      {"title": "Complementary Feeding: A Position Paper", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "Foods to avoid giving babies and young children", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"}
+    ]
+  },
+  {
+    "id": "allergens",
+    "title": "Introducing allergens",
+    "byline": "Delaying peanut, egg, and milk does not prevent allergy. For most babies the safer plan is to start them, in a safe texture, and keep them coming.",
+    "image": "plate-b.jpg",
+    "image_alt": "Yogurt with a smooth nut butter stirred in",
+    "findings": [
+      {"id": "early", "lead": "Start the common allergens when solids start.", "text": "That means around six months for most babies, and not before four months."},
+      {"id": "leap", "lead": "Regular peanut from infancy cut peanut allergy sharply in high-risk children.", "text": "The LEAP trial found about an 80 percent relative reduction by age five in children with severe eczema or egg allergy."},
+      {"id": "high-risk", "lead": "Some babies should meet peanut only after a clinician agrees.", "text": "Severe eczema, an existing egg allergy, or both is the group. Do not experiment past a worried doctor."},
+      {"id": "reaction", "lead": "A contact rash around the mouth is not the same as anaphylaxis.", "text": "Breathing trouble, floppiness, widespread hives, or repeated vomiting after a food is an emergency."}
+    ],
+    "sections": [
+      {"id": "early", "heading": "What changed in the evidence", "paragraphs": ["For years families were told to delay peanut, egg, and fish. That advice matched rising allergy rates and did not cause them to fall. ESPGHAN now says allergenic foods may be introduced when complementary feeding begins, any time after four months. The practical age for a healthy baby is when solids start, around six months.", "The foods that deserve a plan are peanut, egg, cow’s milk, wheat, sesame, fish, soy, and tree nuts. Shellfish can join that list once you are ready to offer it fully cooked and finely chopped. Introduce them in an edible form, not as a hidden trace, and keep serving them."]},
+      {"id": "leap", "heading": "LEAP, EAT, and the guidelines that followed", "paragraphs": ["LEAP enrolled infants at high risk because of severe eczema, egg allergy, or both. Those who ate peanut regularly until age five were far less likely to have peanut allergy than those who avoided it. The EAT trial offered six allergens from three months to breastfed infants from the general population. Protection was clearest in the children who actually ate the foods often enough, which many families found hard.", "The US addendum guideline turned LEAP into practice: high-risk infants are considered for peanut between four and six months after other solids have shown the baby is ready, often with testing first. Infants with mild or moderate eczema are offered peanut around six months. Infants with no eczema can have it with the rest of the diet. European guidance is in the same direction."]},
+      {"id": "high-risk", "heading": "How to do the first tastes", "paragraphs": ["Pick a morning when the child is well, not the day of a vaccine or a fever. Offer a small amount of one new allergen, and stay nearby. Smooth peanut butter thinned into yogurt or fruit is the right peanut texture. A spoon of thick peanut butter can block the airway. Baked egg and hard-boiled egg both count; the yolk and white should be set. Tahini thinned into a dip is the right sesame texture.", "If the first taste is tolerated, repeat it, and then keep it in the week. Stopping for months after one successful taste is how a planned introduction quietly becomes avoidance. A baby with severe eczema or a known egg allergy should be assessed before peanut. That assessment is a clinician’s job, and it may include a skin test or a supervised feed."]},
+      {"id": "reaction", "heading": "Rashes, illness, and emergencies", "paragraphs": ["Drool plus a new acid fruit often reddens the chin. That contact irritation fades and is not an allergy work-up by itself. Hives that spread, swelling of the lips or tongue, vomiting, a hoarse cry, wheeze, or a baby who becomes pale and floppy needs emergency care. Antihistamine is not the treatment for breathing difficulty.", "Do not use the weeks of an illness to diagnose an allergy from one meal, and do not start a brand-new allergen on a day the child is already unwell. After a true allergic reaction, the food stays out until a specialist has a plan. Home challenge tests are a bad idea."]}
+    ],
+    "references": [
+      {"title": "Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy (LEAP)", "source": "Du Toit et al., New England Journal of Medicine", "year": "2015", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1414850"},
+      {"title": "Randomized Trial of Introduction of Allergenic Foods in Breast-Fed Infants (EAT)", "source": "Perkin et al., New England Journal of Medicine", "year": "2016", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1514210"},
+      {"title": "Addendum Guidelines for the Prevention of Peanut Allergy in the United States", "source": "Togias et al. for NIAID, World Allergy Organization Journal", "year": "2017", "url": "https://doi.org/10.1186/s40413-016-0137-9"},
+      {"title": "Complementary Feeding: A Position Paper, section on allergenic foods", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"}
+    ]
+  },
+  {
+    "id": "portions-and-milk",
+    "title": "Portions, texture, and milk",
+    "byline": "Appetite is a better measure than a spoon count. Milk remains the main drink until the first birthday.",
+    "image": "hero.jpg",
+    "image_alt": "A bowl of smooth vegetable purée",
+    "findings": [
+      {"id": "amounts", "lead": "Start with teaspoons, then follow the baby.", "text": "A few spoons one day and a whole bowl the next can both be normal."},
+      {"id": "milk", "lead": "Milk is still the largest part of the diet until 12 months.", "text": "Food teaches iron and skill. It does not replace feeds on a schedule you invent."},
+      {"id": "texture", "lead": "Texture should be moving by eight or nine months.", "text": "Water from an open cup can start with meals. Juice does not."}
+    ],
+    "sections": [
+      {"id": "amounts", "heading": "How much food", "paragraphs": ["The first meals are practice as much as nutrition: one to three teaspoons, once a day, building toward two and then three meals. By the end of the first year many children are on three meals and two snacks, with portions that still vary wildly between children and between days.", "Forcing the last spoons teaches a child to ignore fullness. So does offering food as a reward or as comfort for every upset. The division of responsibility is on the meals page: you decide what is offered, the child decides how much."]},
+      {"id": "milk", "heading": "Where milk fits", "paragraphs": ["Keep breast milk or formula on demand alongside meals. There is no need to drop a milk feed the day solids start. Toward the first birthday, food carries more of the iron and the milk feeds often settle into a morning, an evening, and perhaps one more.", "After 12 months, drinks of milk at a volume much above 400 ml a day are a common reason a toddler will not eat. Offer water with meals. A bottle used as a constant sip can also pool milk on teeth."]},
+      {"id": "texture", "heading": "Texture and cups", "paragraphs": ["Smooth food at six months, mash and soft strips by eight or nine, and chopped family food by twelve is a fair arc. Individual babies move faster or slower. The risk is a child who reaches a year still on thin purée and then refuses lumps.", "Offer sips of water in an open or free-flow cup with meals so drinking is practised. Juice, including diluted juice, is not a baby drink. The American Academy of Pediatrics advises no juice before 12 months."]}
+    ],
+    "references": [
+      {"title": "WHO Guideline for complementary feeding of infants and young children 6–23 months", "source": "World Health Organization", "year": "2023", "url": "https://www.who.int/publications/i/item/9789240081864"},
+      {"title": "Fruit Juice in Infants, Children, and Adolescents", "source": "AAP, Pediatrics", "year": "2017", "url": "https://doi.org/10.1542/peds.2017-0967"},
+      {"title": "Your baby’s first solid foods", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"}
+    ]
+  },
+  {
+    "id": "a-week-of-meals",
+    "title": "A week, in outline",
+    "byline": "These are patterns, not prescriptions. Swap in whatever iron food and whatever allergen you are practising.",
+    "image": "plate-a.jpg",
+    "image_alt": "A plate of soft cooked foods",
+    "findings": [
+      {"id": "six", "lead": "At six months the plate is small and the milk feeds stay.", "text": "One or two meals, each with an iron food, are enough to begin."},
+      {"id": "nine", "lead": "At nine months texture and the allergen habit are the work.", "text": "Three meals, soft pieces, and peanut or egg on several days."},
+      {"id": "twelve", "lead": "At twelve months the child eats family food, unsalted on their plate.", "text": "Milk becomes a drink in a cup, in a moderate amount."}
+    ],
+    "sections": [
+      {"id": "six", "heading": "Around six months", "paragraphs": ["Breakfast can be oat porridge with cooked apple, and a teaspoon of smooth peanut butter stirred in once peanut has been tried. Lunch can be chicken, sweet potato, and broccoli, mashed. A second meal, if the baby wants it, can be red lentil soup or egg mashed into vegetables.", "Across the week, repeat egg, peanut, wheat, and a dairy food on purpose. Keep breast milk or formula as the main drinks. Water is offered, not pushed."]},
+      {"id": "nine", "heading": "Around nine months", "paragraphs": ["Breakfast is porridge or egg with fruit. Lunch is a soft pasta with tomato and minced meat, or fish with rice and greens. An afternoon bite is yogurt or a soft vegetable fritter. Supper can be the family’s stew, mashed, before salt is added.", "Finger foods sit beside the spoon: a strip of soft cooked pepper, a piece of ripe pear, a flake of salmon. This is the age to leave thin purée behind if you have not already."]},
+      {"id": "twelve", "heading": "Around twelve months", "paragraphs": ["Meals look like the household’s meals. Bread and fruit at breakfast, a bean stew or a pasta at lunch, a baked egg or leftover meat in the evening. Snacks are fruit, yogurt, or a soft oat bite, not a sweet biscuit as a habit.", "Honey is now legally safer regarding botulism and still a poor everyday sweetener. Whole grapes are still halved lengthways. Whole nuts are still years away. Salt can enter family food in small amounts; the child’s food does not need the adult quantity."]}
+    ],
+    "references": [
+      {"title": "WHO Guideline for complementary feeding of infants and young children 6–23 months", "source": "World Health Organization", "year": "2023", "url": "https://www.who.int/publications/i/item/9789240081864"},
+      {"title": "Your baby’s first solid foods", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/"}
+    ]
+  },
+  {
+    "id": "how-meals-happen",
+    "title": "How the meal happens",
+    "byline": "What you serve is your decision. Whether it is eaten, and how much, is the child’s. Pressure is a poor teacher.",
+    "image": "plate-c.jpg",
+    "image_alt": "Soft foods served for a child to handle",
+    "findings": [
+      {"id": "dor", "lead": "Use a division of responsibility.", "text": "The adult chooses the food, the time, and the place. The child chooses whether to eat and how much."},
+      {"id": "exposure", "lead": "A refused food usually needs more calm exposures, not a replacement meal.", "text": "Eight to fifteen tastings, without pressure, is a normal arc for a new flavour."},
+      {"id": "tricks", "lead": "Screens, aeroplane spoons, and dessert bargains backfire.", "text": "They teach a child to ignore hunger and to treat sweet food as the prize."}
+    ],
+    "sections": [
+      {"id": "dor", "heading": "Who decides what", "paragraphs": ["Ellyn Satter’s division of responsibility is the cleanest statement of responsive feeding. You offer a structured meal that includes something the child usually accepts and something they are learning. You sit down. You do not plead, chase, or make a second lunch when the first is refused.", "A baby who turns away, clamps the mouth, or plays is done. Ending the meal then is a success. It is how they learn that their own fullness counts."]},
+      {"id": "exposure", "heading": "Repeated exposure", "paragraphs": ["Food neophobia, a suspicion of new foods, rises in the toddler years and is ordinary. The evidence-based response is repeated neutral exposure: the food appears, nobody comments much, and it comes back next week. Praise for eating, and disappointment for refusing, both add pressure.", "Short-order cooking, in which a refusal produces a favourite alternative, trains the refusal. Serve one meal. Include a safe food so the child will not leave hungry. Let the new food be ignorable."]},
+      {"id": "tricks", "heading": "Tricks that are not worth it", "paragraphs": ["Feeding while a screen distracts the baby fills the stomach and skips the lesson. Bribes (‘finish this and you may have something sweet’) make the savoury food the chore. Hiding every vegetable so thoroughly that a child never sees it also skips the lesson. A visible piece, even if it is left, is doing work.", "Eat together when you can. Children copy the people at the table more reliably than they follow a speech about healthy food."]}
+    ],
+    "references": [
+      {"title": "The Satter Feeding Dynamics Model and the division of responsibility", "source": "Ellyn Satter Institute", "year": "2024", "url": "https://www.ellynsatterinstitute.org/satter-feeding-dynamics-model/"},
+      {"title": "Responsive feeding and child undernutrition", "source": "Black and Aboud, The Journal of Nutrition (review of the responsive-feeding concept)", "year": "2011", "url": "https://doi.org/10.3945/jn.110.130005"},
+      {"title": "Complementary Feeding: A Position Paper, on responsive feeding", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"}
+    ]
+  },
+  {
+    "id": "gagging-and-choking",
+    "title": "Gagging and choking",
+    "byline": "Gagging is loud and useful. Choking is quiet and is an emergency. Learn the hands-on response before you need it.",
+    "image": "plate-c.jpg",
+    "image_alt": "Soft food cut into manageable pieces",
+    "findings": [
+      {"id": "difference", "lead": "Noise is reassuring. Silence is not.", "text": "A gagging baby coughs, splutters, and goes red. A choking baby cannot cry or cough effectively."},
+      {"id": "shapes", "lead": "Shape matters more than the ingredient.", "text": "Round, hard, sticky, and coin-shaped pieces are the pattern behind most infant choking events."},
+      {"id": "learn", "lead": "Read a page, then practise with a qualified instructor.", "text": "Infant back blows and chest thrusts are a motor skill. A website is not the practice."}
+    ],
+    "sections": [
+      {"id": "difference", "heading": "Tell them apart", "paragraphs": ["The gag reflex sits forward in a young baby and moves back as they learn. Food that goes too far triggers a noisy retch and the piece comes forward. That is frightening and usually correct. Hover, stay calm, and let the baby sort it out. Do not tip them upside down or fish blindly in the mouth while they are still coughing well.", "Choking is a blocked airway. The baby is silent or makes a weak sound, cannot cough, and may go blue. That is an emergency. The standard infant response is alternating back blows and chest thrusts, then emergency services. Take a course from the Hungarian Red Cross or an equivalent, and keep a trusted illustrated guide saved. Do not rely on this paragraph in the moment."]},
+      {"id": "shapes", "heading": "Shapes to change", "paragraphs": ["Cut grapes, cherry tomatoes, and round slices of sausage lengthwise. Cook apple until it is soft rather than offering raw hard pieces. Skip popcorn, whole nuts, hard sweets, sticky marshmallows, and crisps. Nut butter is thinned into food, never left as a lump on a spoon. Meat is tender, not a cube a baby must gnaw.", "Sit the baby upright, in a high chair, for every meal. Eating in a car seat, on the move, or lying back is a worse position for a clearing cough. Stay in the room."]},
+      {"id": "learn", "heading": "Where to learn the response", "paragraphs": ["The NHS and the British Red Cross both publish a step-by-step infant choking guide, and the Hungarian Red Cross teaches first aid in person. Use a guide to understand the sequence, and use a class to make your hands remember it.", "The BLISS trial is the reason finger foods are not forbidden. It is not a reason to skip the class. Families in that trial were taught which foods to avoid."]}
+    ],
+    "references": [
+      {"title": "How to stop a child from choking", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/first-aid-and-safety/first-aid/how-to-stop-a-child-from-choking/"},
+      {"title": "First aid for a baby who is choking", "source": "British Red Cross", "year": "2024", "url": "https://www.redcross.org.uk/first-aid/learn-first-aid-for-babies-and-children/choking-baby"},
+      {"title": "Magyar Vöröskereszt, elsősegély oktatás", "source": "Hungarian Red Cross", "year": "2024", "url": "https://voroskereszt.hu/"},
+      {"title": "A Baby-Led Approach to Eating Solids and Risk of Choking", "source": "Taylor et al., Pediatrics", "year": "2016", "url": "https://doi.org/10.1542/peds.2016-0772"}
+    ]
+  }
+]

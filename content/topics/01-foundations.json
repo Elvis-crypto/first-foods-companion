@@ -1,0 +1,138 @@
+[
+  {
+    "id": "why-first-foods-matter",
+    "title": "What the first foods are actually for",
+    "byline": "The job of food in the second half of the first year is iron, energy, and learning to eat. It is not a target for protein percentages.",
+    "image": "plate-a.jpg",
+    "image_alt": "A plate of soft cooked foods",
+    "findings": [
+      {"id": "iron", "lead": "Iron is the nutrient that runs out first.", "text": "Healthy term babies are born with iron stores that cover about the first six months. After that, milk alone does not keep up."},
+      {"id": "protein", "lead": "Infants do not need twice an adult’s share of protein.", "text": "A higher protein share of the diet in infancy is linked with faster weight gain, not with better development."},
+      {"id": "fat", "lead": "Fat stays on the plate.", "text": "Under two years, full-fat dairy and a spoon of oil are appropriate. Low-fat products are for older people."},
+      {"id": "variety", "lead": "Fruit purée alone is not a feeding plan.", "text": "A plate needs an iron food, a vegetable, and enough energy. Fruit is welcome and is not the meal."}
+    ],
+    "sections": [
+      {"id": "iron", "heading": "Iron", "paragraphs": ["By about six months, stores built before birth are falling and growth is fast. Breast milk remains valuable, and it is a poor source of iron. That is why meat, lentils, beans, tofu, and iron-fortified cereal belong in the first weeks of solids, not after a long fruit-and-vegetable prologue.", "Vitamin C from fruit or vegetables eaten at the same meal helps the body take up iron from plants. Tea with meals does the opposite. A baby drinking a proper amount of infant formula is already getting iron from the formula; the food still matters for skill and for the diet after the first year."]},
+      {"id": "protein", "heading": "The protein claim", "paragraphs": ["Adult diets are often described as about 12 to 15 percent protein by energy. Doubling that for a child would mean roughly a quarter of all calories from protein. That is not the infant target. Mature breast milk is closer to 5 to 8 percent protein by energy, and formula is deliberately kept in a modest range.", "A randomised trial of formula found that a higher protein content produced faster weight gain up to the age of two. Professional guidance treats that pattern as a reason not to chase protein. Meat and pulses earn their place because of iron, zinc, and texture, and because children learn those flavours. They do not earn it by pushing the protein percentage up."]},
+      {"id": "fat", "heading": "Fat and energy", "paragraphs": ["The brain is still building, and meals are small. A teaspoon of rapeseed or olive oil on a purée, or full-fat yogurt and pasteurised cheese in modest amounts, adds energy without salt. Low-fat milk and low-fat yogurt can wait until after the second birthday.", "Flaxseed oil goes rancid and should not be heated. A special blend bottled in a large jar is unnecessary. One ordinary oil, added after cooking, is enough."]},
+      {"id": "variety", "heading": "What a useful plate contains", "paragraphs": ["A workable pattern is one iron food, one vegetable, one familiar starch or fruit, and a little fat. Pumpkin, apple, pear, and banana are pleasant and poor in iron. They can sit beside the iron food. They should not replace it for weeks.", "Plant proteins are complete enough across a varied week. An infant diet does not need every meal to contain meat in order to cover essential amino acids."]}
+    ],
+    "references": [
+      {"title": "Complementary Feeding: A Position Paper", "source": "ESPGHAN Committee on Nutrition, Journal of Pediatric Gastroenterology and Nutrition", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "Lower protein in infant formula is associated with lower weight up to age 2 y", "source": "Koletzko et al., American Journal of Clinical Nutrition", "year": "2009", "url": "https://doi.org/10.3945/ajcn.2008.27091"},
+      {"title": "WHO Guideline for complementary feeding of infants and young children 6–23 months of age", "source": "World Health Organization", "year": "2023", "url": "https://www.who.int/publications/i/item/9789240081864"},
+      {"title": "Scientific Opinion on Dietary Reference Values for protein", "source": "EFSA Panel on Dietetic Products, Nutrition and Allergies", "year": "2012", "url": "https://doi.org/10.2903/j.efsa.2012.2557"}
+    ]
+  },
+  {
+    "id": "when-to-start",
+    "title": "When to start",
+    "byline": "The useful window is after four months and by about six. Readiness is a set of skills, and age still has a floor.",
+    "image": "hero.jpg",
+    "image_alt": "A bowl of smooth vegetable purée",
+    "findings": [
+      {"id": "window", "lead": "Not before 17 weeks, and not left until well past six months.", "text": "European gastroenterology guidance sets that floor and asks families not to delay past about 26 weeks."},
+      {"id": "signs", "lead": "Sitting, a steady head, and bringing hands to the mouth matter.", "text": "Interest in food and the fading of the tongue push are part of the same picture. Age alone is not a start signal, and skill before 17 weeks is not one either."},
+      {"id": "hungary", "lead": "Hungarian advice and European advice are close, not identical.", "text": "Local practice often says to wait until six months. The European paper allows a start from 17 weeks when a baby is ready, and still wants solids under way by six months."}
+    ],
+    "sections": [
+      {"id": "window", "heading": "The window", "paragraphs": ["Exclusive breastfeeding for about six months is a goal the World Health Organization supports, and it is the right default for a healthy term baby who is growing well. ESPGHAN’s 2017 position is a little wider: do not start before four months (17 weeks), and do not wait beyond six months (26 weeks), because iron and energy needs rise and because delaying allergenic foods has no benefit.", "EFSA’s 2019 review did not find harm, for healthy term infants in Europe, from a start anywhere in that same window. It is not an argument for starting at four months as a project. It is an argument against fear if a ready baby starts a few weeks before the half-birthday."]},
+      {"id": "signs", "heading": "Signs that are worth watching", "paragraphs": ["Look for a baby who can sit with support and hold the head steady, who reaches for food and gets it to the mouth, and who does not automatically push every spoonful back out. Those skills protect the airway and make eating possible.", "Waking at night, watching you eat, or chewing fists are ordinary infant behaviours. They are weak reasons to start. So is a wish to help the baby sleep. First foods are not a sleep method."]},
+      {"id": "hungary", "heading": "What you will hear in Hungary", "paragraphs": ["The 2019 Hungarian professional guideline on feeding a healthy infant (identifier 001038) says solids may start from the beginning of the fifth month and should be under way by about six months. Exclusive breastfeeding until six months still fits that advice, and many health visitors put it that way.", "Some familiar charts still use a slow ladder: fruit and vegetables first, grains later, meat after that. The iron and allergy evidence does not support that ladder. Start when the baby is ready, around six months, and include iron and the common allergens from the beginning."]}
+    ],
+    "references": [
+      {"title": "Complementary Feeding: A Position Paper", "source": "Fewtrell et al. for ESPGHAN, JPGN", "year": "2017", "url": "https://pubmed.ncbi.nlm.nih.gov/28027215/"},
+      {"title": "Appropriate age range for introduction of complementary feeding into an infant's diet", "source": "EFSA Panel on Nutrition, Novel Foods and Food Allergens, EFSA Journal", "year": "2019", "url": "https://pubmed.ncbi.nlm.nih.gov/32626427/"},
+      {"title": "Infant and young child feeding", "source": "World Health Organization fact sheet", "year": "2023", "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding"},
+      {"title": "Egységesen, válasz készen a hozzátáplálásról", "source": "Magyar Dietetikusok Országos Szövetsége, Táplálkozási Akadémia", "year": "2025", "url": "https://mdosz.hu/hun/wp-content/uploads/2025/03/mdosz-taplalkozasi-akademia-hirlevel-egysegesen-valaszkeszen-a-hozzataplalasrol-2025-februar.pdf"}
+    ]
+  },
+  {
+    "id": "ways-of-feeding",
+    "title": "Spoon, fingers, or both",
+    "byline": "Purées, finger foods, and a mixture of the two can all feed a baby well. The arguments about identity are louder than the evidence.",
+    "image": "plate-c.jpg",
+    "image_alt": "Soft baked vegetable pieces",
+    "findings": [
+      {"id": "methods", "lead": "The method is less important than iron, texture, and responsive feeding.", "text": "A baby can be spoon-fed, can self-feed soft pieces, or can do both in the same week."},
+      {"id": "bliss", "lead": "Finger foods did not raise choking in a trial that taught safe shapes.", "text": "Gagging was common. Choking was not increased when families were shown which shapes to avoid."},
+      {"id": "progress", "lead": "Smooth food has an expiry date.", "text": "By eight or nine months a baby should be moving to mash and soft pieces. Staying on thin purée is the avoidable risk."}
+    ],
+    "sections": [
+      {"id": "methods", "heading": "Three workable approaches", "paragraphs": ["Spoon feeding lets you offer iron-rich meats and lentils in a smooth form while chewing is still new. Finger foods let a baby practise grip and control the pace. Most families end up mixing them, and that is a legitimate method rather than a compromise.", "Baby-led weaning, as a slogan, sometimes leaves out iron or keeps meals so plain that a baby fills up on fruit. The studies that found baby-led feeding safe were studies in which families were told to include iron foods and to avoid round, hard, and coin-shaped pieces."]},
+      {"id": "bliss", "heading": "What the BLISS trial showed", "paragraphs": ["The Baby-Led Introduction to Solids trial in New Zealand compared a supported baby-led approach with usual spoon feeding. There was no evidence of more choking. Gagging, which is noisy and protective, was part of normal learning.", "That result does not mean every hard marketed biscuit is safe. It means soft strips, flakes of fish, and well-cooked vegetables, offered sitting upright, were comparable in risk to spoon feeding."]},
+      {"id": "progress", "heading": "Move the texture on", "paragraphs": ["At the start, food can be smooth or naturally soft. By about eight months, mash with soft lumps and foods the fist can hold. By about a year, the child should be eating family textures, with the salt still kept off their portion.", "A blender is optional. A fork is enough for banana, avocado, and baked flesh. Blenders whip in air; if a baby is windy afterwards, stir the purée and let it stand before serving."]}
+    ],
+    "references": [
+      {"title": "A Baby-Led Approach to Eating Solids and Risk of Choking", "source": "Taylor et al., Pediatrics", "year": "2016", "url": "https://doi.org/10.1542/peds.2016-0772"},
+      {"title": "Effect of a Baby-Led Approach to Complementary Feeding on Infant Growth and Overweight", "source": "Taylor et al. for the BLISS trial, JAMA Pediatrics", "year": "2017", "url": "https://doi.org/10.1001/jamapediatrics.2017.1284"},
+      {"title": "Complementary Feeding: A Position Paper", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"}
+    ]
+  },
+  {
+    "id": "choosing-ingredients",
+    "title": "Choosing ingredients",
+    "byline": "Variety, including bitter greens, matters more than an organic label. A short list of foods is genuinely unsuitable.",
+    "image": "plate-b.jpg",
+    "image_alt": "Yogurt with fruit and a soft spread",
+    "findings": [
+      {"id": "variety", "lead": "Offer bitter and savoury flavours early.", "text": "Babies who meet green vegetables in the first weeks of solids are more willing to eat them later."},
+      {"id": "iron-foods", "lead": "Put an iron food on the early shopping list.", "text": "Meat, lentils, beans, tofu, and fortified infant cereal are the practical sources."},
+      {"id": "avoid", "lead": "A short avoid-list is enough.", "text": "Honey, added salt, added sugar, rice drinks, whole nuts, unpasteurised dairy, and a few fish are the items with a real reason behind them."}
+    ],
+    "sections": [
+      {"id": "variety", "heading": "Variety, including the awkward tastes", "paragraphs": ["ESPGHAN asks for a range of flavours and textures, bitter greens included. A month of only sweet pear and banana teaches a narrow palate. Broccoli, spinach in a mixture, bean, and fish can appear in the first fortnight.", "Organic produce has not been shown to change allergy or growth outcomes for infants. Wash it. Peel when the skin is tough or heavily soiled. Seasonality is a pleasure and a budget tool, not a safety rule."]},
+      {"id": "iron-foods", "heading": "Build around iron", "paragraphs": ["A useful kitchen keeps one iron food ready: cooked mince in the freezer, red lentils in the cupboard, unsalted beans, eggs, or a fortified cereal you actually tolerate the taste of. Pair plant iron with fruit or pepper for vitamin C.", "Rice cereal is optional. It is not required for sleep or for a first spoon, and rice drinks are a different product entirely. Children under five should not drink rice drinks, because of arsenic."]},
+      {"id": "avoid", "heading": "Foods with a specific reason to skip or change", "paragraphs": ["Honey, even baked, can contain spores that produce infant botulism. It waits until after the first birthday, and it is still sugar then. Salt waits too: an infant’s daily ceiling is under 1 gram, which is already reached by ordinary foods, so none is added and stock cubes, ham, and soy sauce stay out. Sugar and fruit juice are not needed; whole fruit is the right form.", "Whole nuts, whole grapes, popcorn, and hard dried fruit are choking hazards. Shark, swordfish, and marlin are too high in mercury. Unpasteurised milk and mould-ripened cheeses can carry listeria. Undercooked kidney beans and other dried beans can cause rapid illness; boil them until they are completely soft. Liver is nutritious and so high in vitamin A that once a week, in a small portion, is the ceiling."]}
+    ],
+    "references": [
+      {"title": "Foods to avoid giving babies and young children", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"},
+      {"title": "Complementary Feeding: A Position Paper", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "Fruit Juice in Infants, Children, and Adolescents: Current Recommendations", "source": "Heyman and Abrams, Pediatrics", "year": "2017", "url": "https://doi.org/10.1542/peds.2017-0967"},
+      {"title": "About botulism", "source": "US Centers for Disease Control and Prevention", "year": "2024", "url": "https://www.cdc.gov/botulism/about/index.html"}
+    ]
+  },
+  {
+    "id": "cooking-and-seasoning",
+    "title": "Cooking and seasoning",
+    "byline": "Herbs, a mild spice, and a spoon of oil do more for a baby’s food than salt or sugar ever will.",
+    "image": "hero.jpg",
+    "image_alt": "A bowl of smooth vegetable purée",
+    "findings": [
+      {"id": "salt", "lead": "No salt is added before one year.", "text": "That includes the cooking water, the stock, and the ‘pinch’ on a pasta sauce."},
+      {"id": "sugar", "lead": "Sweetness can come from fruit.", "text": "Added sugar is unnecessary before two years, and honey is unsafe before one."},
+      {"id": "share", "lead": "Cook the family meal, then season the adult plates.", "text": "Take the baby’s portion out before salt, chilli, or a salty sauce goes in."}
+    ],
+    "sections": [
+      {"id": "salt", "heading": "Salt", "paragraphs": ["Infant kidneys handle sodium poorly, and a salted diet teaches a preference that is hard to walk back. The practical rule is no salt in cooking for a child under one. Cheese, bread, and tinned foods already contain some; amounts of those stay modest.", "Stock cubes, gravy, ham, bacon, soy sauce, and most ‘baby seasonings’ that list salt are adult shortcuts. A frozen unsalted stock cube you made yourself is a different object."]},
+      {"id": "sugar", "heading": "Sugar, honey, and spice", "paragraphs": ["Added sugar crowds out iron-rich food and feeds decay as soon as teeth are through. Fruit, roasted pumpkin, and ripe banana are sweet enough for biscuits and porridges. Honey is not a more natural option under one year: botulism spores survive ordinary baking.", "Sweet paprika, turmeric, cumin, oregano, basil, and a pinch of cinnamon are reasonable. Hot chilli and heavy black pepper are not. Cinnamon is a spice, not a spoonful; cassia cinnamon contains coumarin, so a pinch is the right dose."]},
+      {"id": "share", "heading": "One pot for everyone", "paragraphs": ["Stews, sauces, and roasts can be the household meal if the baby’s share is lifted out first. Theirs is mashed or cut to the texture they can manage. Yours can then be salted.", "Garlic and onion cooked in the dish are fine. Garlic or herbs stored in a bottle of oil are not: that is a known botulism setup. Add fresh herbs and the oil at the end of cooking."]}
+    ],
+    "references": [
+      {"title": "Foods to avoid giving babies and young children", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"},
+      {"title": "Guideline: sugars intake for adults and children", "source": "World Health Organization", "year": "2015", "url": "https://www.who.int/publications/i/item/9789241549028"},
+      {"title": "About botulism", "source": "US Centers for Disease Control and Prevention", "year": "2024", "url": "https://www.cdc.gov/botulism/about/index.html"}
+    ]
+  },
+  {
+    "id": "tools-and-hygiene",
+    "title": "Tools, hygiene, and the freezer",
+    "byline": "A knife, a pot, and a fridge discipline matter more than a drawer of baby gadgets.",
+    "image": "plate-c.jpg",
+    "image_alt": "Soft baked foods on a plate",
+    "findings": [
+      {"id": "tools", "lead": "Most special baby tools are optional.", "text": "Replace a scratched non-stick pan. Keep a separate board for raw meat. A fork mashes the first foods."},
+      {"id": "leftovers", "lead": "Cool fast, keep two days, reheat once.", "text": "Rice is stricter: cool it within an hour and eat refrigerated rice within a day."},
+      {"id": "freeze", "lead": "Freeze in portions, and do not refreeze.", "text": "An ice-cube tray of unsalted sauce is more useful than a raw herb paste kept for a week."}
+    ],
+    "sections": [
+      {"id": "tools", "heading": "A short kit", "paragraphs": ["You can cook every recipe on this site with a knife, a cutting board, a saucepan, a frying pan with an intact surface, and either a blender or a fork. A steamer basket is pleasant. An apple grater is not safer than a cooked apple for a new eater; raw gratings are uneven and easy to inhale.", "Damaged non-stick coatings are a reason to replace the pan, not a surface to keep using. Raw meat needs its own board, washed with hot water afterwards. Plastic boxes are fine if they are undamaged and used for food."]},
+      {"id": "leftovers", "heading": "Hygiene that is specific to small children", "paragraphs": ["Cool food within one to two hours, in shallow containers, and put it in the fridge. Eat refrigerated meals within two days. Reheat until steaming all the way through, stir to kill cold spots, then cool to a safe bite. Reheat only once. Food left on the child’s plate is finished; it does not go back in the pot.", "Rice and other grains grow Bacillus cereus if they sit warm. Cool them within an hour and use refrigerated rice within 24 hours. Dried beans are boiled hard. Eggs for infants are cooked until the white and yolk are set. Pasteurized dairy only."]},
+      {"id": "freeze", "heading": "Batch cooking", "paragraphs": ["Freeze extra sauce, mince, and purée in small cubes the day you cook it. Label the date. Thaw in the fridge and use within 24 hours, or thaw in the microwave and serve at once. Do not refreeze once it has been thawed.", "A raw vegetable-and-herb paste held in the fridge for a week is a poor preserve. The same mixture frozen at once is a good one. Salt is not a preservative you are allowed to use here."]}
+    ],
+    "references": [
+      {"title": "Children’s food: safety and hygiene", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/childrens-food-safety-and-hygiene/"},
+      {"title": "Five keys to safer food", "source": "World Health Organization", "year": "2006", "url": "https://www.who.int/publications/i/item/9789241594639"}
+    ]
+  }
+]

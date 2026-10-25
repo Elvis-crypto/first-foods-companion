@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "pumpkin-puree",
+    "title": "Pumpkin purée",
+    "title_hu": "Sütőtökpüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "pumpkin", "amount": "320 g", "note": "prepared weight, peeled and seeded"},
+      {"item": "breast milk, formula, or water", "amount": "4 tbsp", "note": "just enough to blend smooth"}
+    ],
+    "method": [
+      "Peel the pumpkin, scrape out the seeds, and cut the flesh into chunks.",
+      "Steam for about 15 minutes, or bake at 200°C for about 25 minutes, until very soft.",
+      "Blend with a spoon of breast milk, formula, or water until smooth.",
+      "Cool until just warm.",
+      "Do not add salt or sugar."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Salt or sugar is sometimes stirred into pumpkin, and a six-month-old does not need either."
+    ],
+    "changes": [
+      "No change is needed beyond keeping salt and sugar out.",
+      "Bake or steam the pumpkin and loosen it with breast milk, formula, or water."
+    ],
+    "serve": "Offer a few teaspoons on a spoon, and thin it if it sits too thick.",
+    "freezer": true
+  },
+  {
+    "id": "peach-puree",
+    "title": "Peach purée",
+    "title_hu": "Barackpüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "ripe peaches or apricots", "amount": "320 g", "note": "prepared weight, peeled and pitted"},
+      {"item": "water", "amount": "2 tbsp", "note": "only if the blend is too thick"}
+    ],
+    "method": [
+      "Cut the fruit off the stone and discard every piece of stone.",
+      "Peel the fruit and cut away any bruised parts.",
+      "Steam for about 8 minutes, until soft.",
+      "Blend until smooth, with a spoon of water only if you need it.",
+      "Look through the purée again for any stone fragment.",
+      "Do not add sugar."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A piece of stone left in the fruit is a choking hazard.",
+      "Unripe fruit will not blend to a smooth first purée."
+    ],
+    "changes": [
+      "Use ripe peach or apricot, peel it, and take the stone out completely.",
+      "Steam and blend until smooth, with no sugar."
+    ],
+    "serve": "Serve warm or cool on a spoon, after one more look for stone fragments.",
+    "freezer": true
+  },
+  {
+    "id": "potato-puree",
+    "title": "Potato purée",
+    "title_hu": "Burgonyapüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "floury potatoes", "amount": "300 g", "note": "peeled weight"},
+      {"item": "cooking water, breast milk, or formula", "amount": "80 ml", "note": "or the same amount of pasteurised full-fat cow's milk, which is a milk allergen"}
+    ],
+    "method": [
+      "Peel the potatoes and cut them into even chunks.",
+      "Boil in water until a knife slides through, with no salt in the pot.",
+      "Drain, and keep some of the cooking water.",
+      "Mash with cooking water, breast milk, or formula until smooth.",
+      "Use pasteurised full-fat cow's milk only if you accept the milk allergen.",
+      "Do not add salt."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Potato is low in iron, so a bowl of it is a poor meal on its own.",
+      "Cow's milk adds a milk allergen, and salt is often mashed in."
+    ],
+    "changes": [
+      "Mash with cooking water, breast milk, or formula, and use pasteurised full-fat cow's milk only if that allergen is already the plan.",
+      "Do not add salt, and serve the purée with meat, lentils, or a fully cooked egg."
+    ],
+    "serve": "Pair it with meat, lentils, or a fully cooked egg so the plate supplies iron. Cooking water, breast milk, or formula keeps cow's milk out.",
+    "freezer": true
+  },
+  {
+    "id": "apple-puree",
+    "title": "Apple purée",
+    "title_hu": "Almapüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "apples", "amount": "320 g", "note": "prepared weight, peeled and cored"},
+      {"item": "water", "amount": "3 tbsp", "note": "for the pan, plus a spoon more if the blend is thick"}
+    ],
+    "method": [
+      "Peel the apples, cut out the cores, and slice the flesh.",
+      "Cook in a small splash of water until completely soft, about 10 minutes.",
+      "Blend until smooth.",
+      "Cool until just warm.",
+      "Do not add sugar."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Raw grated apple is a poor first texture.",
+      "Sugar is often added, and the apple does not need it."
+    ],
+    "changes": [
+      "Cook the apple until soft and blend it smooth, with no sugar.",
+      "Save raw grated apple until the baby is chewing well."
+    ],
+    "serve": "Serve the cooked purée on a spoon. Raw grated apple waits until chewing is reliable.",
+    "freezer": true
+  },
+  {
+    "id": "pear-puree",
+    "title": "Pear purée",
+    "title_hu": "Körtepüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "ripe pears", "amount": "320 g", "note": "prepared weight, peeled and cored"},
+      {"item": "water", "amount": "2 tbsp", "note": "for the pan"}
+    ],
+    "method": [
+      "Peel the pears and remove the cores.",
+      "Cook in a small splash of water until soft, about 8 minutes.",
+      "Blend until smooth.",
+      "Cool until just warm.",
+      "Do not add sugar."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "The skin and core do not belong in a first purée, and sugar is unnecessary."
+    ],
+    "changes": [
+      "Peel the ripe pear, remove the core, cook, and blend.",
+      "No other change is needed if salt and sugar stay out."
+    ],
+    "serve": "Serve warm or cool, smooth enough for a spoon.",
+    "freezer": true
+  },
+  {
+    "id": "sweet-potato-puree",
+    "title": "Sweet potato purée",
+    "title_hu": "Édesburgonyapüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 45,
+    "ingredients": [
+      {"item": "sweet potatoes", "amount": "400 g", "note": "whole weight before baking"},
+      {"item": "water or breast milk", "amount": "4 tbsp", "note": "only to loosen"}
+    ],
+    "method": [
+      "Heat the oven to 200°C.",
+      "Prick the sweet potatoes and bake until the flesh is very soft, about 40 minutes.",
+      "Cool enough to handle, then scoop the flesh out of the skins.",
+      "Mash or blend until smooth, with a spoon of water or breast milk if it is stiff.",
+      "Do not add salt or sugar."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "This is a strong first food, and the usual mistake is seasoning it."
+    ],
+    "changes": [
+      "Bake, scoop, and loosen the flesh.",
+      "Keep salt and sugar out, and nothing else needs to change."
+    ],
+    "serve": "A few teaspoons is a full first taste. The flavour is already sweet.",
+    "freezer": true
+  },
+  {
+    "id": "mango-puree",
+    "title": "Mango purée",
+    "title_hu": "Mangópüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 10,
+    "ingredients": [
+      {"item": "ripe mango", "amount": "180 g", "note": "flesh only, peeled and cut off the stone"}
+    ],
+    "method": [
+      "Choose a ripe mango that gives slightly when pressed.",
+      "Peel it and cut the flesh off the stone.",
+      "Trim away stringy fibre.",
+      "Blend until smooth.",
+      "Do not cook it, and do not add sugar."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Mango purée is slippery, and thick pieces slide off a spoon.",
+      "Cooking a ripe mango is unnecessary."
+    ],
+    "changes": [
+      "Blend ripe mango and serve it on a spoon.",
+      "A ripe mango needs no cooking and no sugar."
+    ],
+    "serve": "Serve on a spoon so it does not slide. A few teaspoons is enough for a first taste.",
+    "freezer": true
+  },
+  {
+    "id": "banana-mash",
+    "title": "Banana mash",
+    "title_hu": "Banánpüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 5,
+    "ingredients": [
+      {"item": "ripe banana", "amount": "1", "note": "yellow with brown spots, peeled"}
+    ],
+    "method": [
+      "Peel a ripe banana.",
+      "Mash it with a fork until completely smooth.",
+      "Serve half now and keep the other half covered for the next meal the same day.",
+      "Do not add sugar, and do not offer this as the meal every day."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Banana is low in iron, so it is a poor everyday staple.",
+      "A lot of banana can slow the bowels."
+    ],
+    "changes": [
+      "Mash a ripe banana and offer a small portion now and then, not as the main food each day.",
+      "Keep meat, lentils, or egg in other meals so iron is not missed."
+    ],
+    "serve": "Offer a small mash, not a banana at every meal. Put an iron-rich food on the table the same day.",
+    "freezer": false
+  },
+  {
+    "id": "apple-chestnut-puree",
+    "title": "Apple and chestnut purée",
+    "title_hu": "Almás gesztenyepüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "cooked peeled chestnuts", "amount": "80 g", "note": "plain, with no sugar and no salt, not a sweetened spread"},
+      {"item": "apple", "amount": "200 g", "note": "prepared weight, peeled, cored, and cooked until soft"}
+    ],
+    "method": [
+      "Use plain cooked chestnuts that are fully peeled, or boil peeled chestnuts until soft.",
+      "Cook the peeled, cored apple until soft.",
+      "Blend chestnut and apple together until there are no pieces left.",
+      "Add a spoon of cooking water only if the blade stalls.",
+      "Do not add sugar."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Chestnut pieces can choke if the purée is not fully smooth.",
+      "Chestnut allergy exists, and chestnut is not the same food as peanut or walnut."
+    ],
+    "changes": [
+      "Blend cooked peeled chestnut with cooked apple until completely smooth, and give a small first portion on a day when the baby is well.",
+      "Do not count this as the tree-nut introduction, and do not use a sweetened chestnut spread."
+    ],
+    "serve": "Keep it completely smooth. Start with a small portion on a well day.",
+    "freezer": true
+  },
+  {
+    "id": "blueberry-apple-puree",
+    "title": "Blueberry and apple purée",
+    "title_hu": "Áfonyás almapüré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "apple", "amount": "250 g", "note": "prepared weight, peeled and cored"},
+      {"item": "blueberries", "amount": "80 g", "note": "fresh or frozen, with no added sugar"}
+    ],
+    "method": [
+      "Peel and core the apple and cut it into slices.",
+      "Cook the apple with the blueberries and a splash of water until the apple is soft.",
+      "Squash the berries so the skins burst.",
+      "Blend until smooth.",
+      "Do not add sugar."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Whole blueberry skins are a poor texture in a first purée."
+    ],
+    "changes": [
+      "Cook the apple and squash the blueberries so the skins burst, then blend smooth.",
+      "No sugar is needed."
+    ],
+    "serve": "Serve on a spoon. The colour will stain, which is harmless.",
+    "freezer": true
+  },
+  {
+    "id": "avocado-banana",
+    "title": "Avocado and banana purée",
+    "title_hu": "Avokádó-banán püré",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 5,
+    "ingredients": [
+      {"item": "ripe avocado", "amount": "1", "note": "stone and peel removed"},
+      {"item": "ripe banana", "amount": "1/2", "note": "peeled and mashed"}
+    ],
+    "method": [
+      "Halve the avocado and lift out the stone.",
+      "Scoop the flesh and mash it with a fork.",
+      "Mash in half a ripe banana until smooth.",
+      "Serve straight away, before the surface browns.",
+      "Do not add salt or sugar."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Avocado browns quickly and is best eaten at once."
+    ],
+    "changes": [
+      "Mash ripe avocado with a little banana and serve it straight away.",
+      "The fats are useful, and no salt is needed."
+    ],
+    "serve": "Serve straight away. A few teaspoons gives useful fat without a large banana portion.",
+    "freezer": false
+  },
+  {
+    "id": "first-puree-mixes",
+    "title": "More purée mixes",
+    "title_hu": "További pürévariációk",
+    "category": "simple-purees",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "first familiar food", "amount": "80 g", "note": "cooked weight, peeled and pitted where needed"},
+      {"item": "second familiar food", "amount": "40 g", "note": "cooked weight; a third food, if you add one, stays the smallest part"},
+      {"item": "water", "amount": "1 to 2 tbsp", "note": "cooking water, only to loosen"},
+      {"item": "plain pasteurised full-fat yogurt", "amount": "2 tbsp", "note": "only for the pear and yogurt pair; this is a milk allergen"}
+    ],
+    "method": [
+      "Choose two foods the baby already eats, or three at most.",
+      "Cook them until soft, peel and pit as needed, and blend with a spoon of cooking water until smooth.",
+      "Use pairs such as pumpkin and apple, broccoli and potato, and pea and sweet potato.",
+      "Other sound pairs are zucchini and carrot, pear and plain yogurt, and chicken and pumpkin.",
+      "Cook chicken through with no pink, and cook any vegetable until it mashes easily.",
+      "There is no need to wait months between ordinary vegetables, and the yogurt pair is the one with a milk allergen."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Families sometimes wait months between ordinary vegetables for no nutritional reason.",
+      "Yogurt, if you use that pair, is a milk allergen."
+    ],
+    "changes": [
+      "Cook and mix two familiar foods, three at most, once each has been eaten on its own.",
+      "Ordinary vegetables do not need months between them, and only the pear and yogurt pair contains milk."
+    ],
+    "serve": "One mix on a well day is enough. Freeze the vegetable and meat mixes; eat the yogurt pair the same day.",
+    "freezer": true
+  },
+  {
+    "id": "apple-peach-semolina",
+    "title": "Apple and peach semolina with yogurt",
+    "title_hu": "Almás-barackos búzadara joghurttal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "fine wheat semolina", "amount": "25 g", "note": "gluten"},
+      {"item": "water", "amount": "200 ml", "note": "for cooking the semolina"},
+      {"item": "plain pasteurised full-fat yogurt", "amount": "80 g", "note": "milk allergen"},
+      {"item": "cooked apple", "amount": "60 g", "note": "peeled, cored, and cooked"},
+      {"item": "cooked peach", "amount": "60 g", "note": "peeled, pitted, and cooked"},
+      {"item": "Ceylon cinnamon", "amount": "a pinch", "note": "optional"},
+      {"item": "cooked chicken or cooked lentils", "amount": "50 g", "note": "alongside; lentils boiled until completely soft"}
+    ],
+    "method": [
+      "Stir the semolina into boiling water and cook, stirring, until soft and thick.",
+      "Cook peeled apple and pitted peeled peach until soft, and blend them smooth.",
+      "Cool the semolina until warm, then stir in the yogurt, fruit, and a pinch of Ceylon cinnamon if you want it.",
+      "Do not add biscuit crumbs or sugar.",
+      "Serve with shredded chicken cooked through, or with lentils boiled until completely soft."
+    ],
+    "allergens": ["milk", "gluten"],
+    "verdict": "adjust",
+    "issues": [
+      "Semolina is low in iron, so it should not be the whole meal.",
+      "Biscuit crumbs add little of use and more gluten."
+    ],
+    "changes": [
+      "Cook the semolina in water, then stir in plain full-fat yogurt and cooked apple and peach, with a pinch of Ceylon cinnamon if you want it.",
+      "Add shredded chicken or well-cooked lentils alongside, and leave biscuit crumbs out."
+    ],
+    "serve": "Serve warm, with chicken or lentils so the bowl is not only semolina. This contains milk and gluten.",
+    "freezer": false
+  },
+  {
+    "id": "pear-banana-oat",
+    "title": "Pear and banana with oats",
+    "title_hu": "Körtés banán zabbal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "fine porridge oats", "amount": "20 g", "note": "treat as gluten"},
+      {"item": "water", "amount": "180 ml", "note": ""},
+      {"item": "ripe pear", "amount": "120 g", "note": "prepared weight, peeled and cored"},
+      {"item": "ripe banana", "amount": "1/2", "note": "peeled"}
+    ],
+    "method": [
+      "Peel and core the pear and cook it in a splash of water until soft.",
+      "Stir the oats into the water and cook until soft and smooth, about 5 minutes.",
+      "Mash the banana and stir it into the warm oats with the pear.",
+      "Blend until smooth.",
+      "Do not add biscuit crumbs or sugar."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "adjust",
+    "issues": [
+      "The usual topping is a sweet shop biscuit, which this bowl does not need.",
+      "Oats count as gluten here."
+    ],
+    "changes": [
+      "Use fine oats cooked soft with pear and banana, instead of biscuit crumbs.",
+      "Leave the sweet crumb topping out."
+    ],
+    "serve": "Serve warm and smooth. This is the biscuit-free version, and it contains gluten.",
+    "freezer": false
+  },
+  {
+    "id": "plum-peach-yogurt",
+    "title": "Plum and peach with yogurt",
+    "title_hu": "Szilvás barack joghurttal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "ripe plums", "amount": "2", "note": "pitted and peeled"},
+      {"item": "ripe peach", "amount": "1", "note": "pitted and peeled"},
+      {"item": "plain pasteurised full-fat yogurt", "amount": "120 g", "note": "milk allergen"}
+    ],
+    "method": [
+      "Cut the plum and peach flesh off the stones and throw the stones away.",
+      "Peel the fruit.",
+      "Steam until soft, about 8 minutes, then blend smooth.",
+      "Cool until warm and stir into the yogurt.",
+      "Run a spoon through to catch any bit of stone.",
+      "Do not add sugar."
+    ],
+    "allergens": ["milk"],
+    "verdict": "sound",
+    "issues": [
+      "The stones are the hazard.",
+      "Flavoured yogurt often contains added sugar."
+    ],
+    "changes": [
+      "Pit and peel the plum and peach, cook and blend them, and stir them into plain pasteurised full-fat yogurt.",
+      "No other change is needed."
+    ],
+    "serve": "Stir and serve the same day. This contains milk.",
+    "freezer": false
+  },
+  {
+    "id": "apple-blueberry-curd",
+    "title": "Green apple and blueberry with curd",
+    "title_hu": "Zöldalmás áfonya túrókrémmel",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "green apple", "amount": "120 g", "note": "prepared weight, peeled and cored"},
+      {"item": "blueberries", "amount": "40 g", "note": "fresh or frozen, no added sugar"},
+      {"item": "pasteurised full-fat curd or cottage cheese", "amount": "100 g", "note": "no added salt if you can find it; milk allergen"},
+      {"item": "plain pasteurised full-fat yogurt", "amount": "40 g", "note": "to loosen the curd"}
+    ],
+    "method": [
+      "Peel, core, and cook the apple with the blueberries until soft.",
+      "Squash the berries so the skins burst, then blend the fruit smooth.",
+      "Stir the yogurt into the curd until it loosens.",
+      "Fold the warm fruit into the curd.",
+      "Do not add biscuit crumbs or sugar."
+    ],
+    "allergens": ["milk"],
+    "verdict": "adjust",
+    "issues": [
+      "This is often held back until 9 or 10 months for no nutritional reason.",
+      "Biscuit crumbs are commonly added and are not needed."
+    ],
+    "changes": [
+      "Serve it from 6 months, with cooked apple and blueberry stirred into pasteurised curd loosened with yogurt.",
+      "Leave the biscuit out."
+    ],
+    "serve": "Serve from six months, the same day. This contains milk.",
+    "freezer": false
+  },
+  {
+    "id": "pineapple-curd",
+    "title": "Pineapple with curd",
+    "title_hu": "Túrós ananász",
+    "category": "mixed-purees",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 10,
+    "ingredients": [
+      {"item": "very ripe pineapple", "amount": "30 g", "note": "fresh flesh, core removed, not canned in syrup"},
+      {"item": "pasteurised full-fat curd or cottage cheese", "amount": "100 g", "note": "no added salt if you can find it; milk allergen"},
+      {"item": "plain pasteurised full-fat yogurt", "amount": "40 g", "note": "to loosen the curd"}
+    ],
+    "method": [
+      "Cut the core and skin off a very ripe pineapple and take a small piece of flesh.",
+      "Chop that flesh very fine, with no fibrous threads.",
+      "Stir the yogurt into the curd.",
+      "Fold the pineapple through the curd.",
+      "Do not add sugar, and do not offer this as a first purée."
+    ],
+    "allergens": ["milk"],
+    "verdict": "adjust",
+    "issues": [
+      "Pineapple can sting a baby's mouth, so this is not a first purée.",
+      "It is often delayed until 11 months without a good reason."
+    ],
+    "changes": [
+      "Use only a small amount of very ripe pineapple, chopped very fine, folded into curd and yogurt.",
+      "Age 8 is enough, so do not wait until 11 months."
+    ],
+    "serve": "A small bowl from eight months. Stop if it stings, and try less another week. This contains milk.",
+    "freezer": false
+  },
+  {
+    "id": "apple-yogurt-porridge",
+    "title": "Apple and yogurt oat porridge",
+    "title_hu": "Joghurtos alma zabkása",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "fine porridge oats", "amount": "20 g", "note": "treat as gluten"},
+      {"item": "water", "amount": "180 ml", "note": ""},
+      {"item": "cooked apple", "amount": "80 g", "note": "peeled, cored, and cooked, with no sugar"},
+      {"item": "plain pasteurised full-fat yogurt", "amount": "80 g", "note": "milk allergen"}
+    ],
+    "method": [
+      "Peel, core, and cook the apple until soft, then mash it smooth.",
+      "Stir the oats into the water and cook until soft, about 5 minutes.",
+      "Cool the porridge until warm.",
+      "Stir in the yogurt and the apple.",
+      "Do not add sugar."
+    ],
+    "allergens": ["milk", "gluten"],
+    "verdict": "replace",
+    "issues": [
+      "The older version of this dish used rhubarb, which is harsh and high in oxalate.",
+      "Rhubarb usually needs sugar, which does not belong in this bowl."
+    ],
+    "changes": [
+      "Drop the rhubarb, and stir plain yogurt into warm oat porridge and cooked apple instead.",
+      "The bowl still contains milk and gluten from the yogurt and the oats."
+    ],
+    "serve": "Serve the porridge warm with the yogurt stirred in. Do not put rhubarb in this bowl.",
+    "freezer": false
+  },
+  {
+    "id": "spinach-potato",
+    "title": "Spinach and potato",
+    "title_hu": "Spenótos burgonya",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "potatoes", "amount": "300 g", "note": "peeled weight"},
+      {"item": "spinach", "amount": "60 g", "note": "washed leaves, a small share of the bowl"},
+      {"item": "cooked pear or peas", "amount": "60 g", "note": "peeled cored pear, or peas, for vitamin C"},
+      {"item": "tap water", "amount": "as needed to cook", "note": "not water from a private well"}
+    ],
+    "method": [
+      "Peel the potatoes and boil them in tap water until soft.",
+      "Add the spinach for the last 2 minutes, until wilted.",
+      "Stir in cooked pear or peas.",
+      "Drain, keeping a spoon of the tap cooking water, and blend until smooth.",
+      "Do not cook this in water from a private well, and do not add salt."
+    ],
+    "allergens": [],
+    "verdict": "replace",
+    "issues": [
+      "The usual green stew relied on sorrel, or on spinach as the whole dish.",
+      "Sorrel is a poor everyday green for infants because it is high in oxalate."
+    ],
+    "changes": [
+      "Make a potato and spinach mash with cooked pear or peas for vitamin C, and keep spinach as one part of the meal rather than the only vegetable.",
+      "Do not cook it in water from a private well, which can be high in nitrate, and do not use sorrel."
+    ],
+    "serve": "Serve as a mixed bowl, not a plate of spinach alone. Use tap water, not water from a private well.",
+    "freezer": true
+  },
+  {
+    "id": "white-bean-puree",
+    "title": "White bean purée",
+    "title_hu": "Babpüré",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 75,
+    "ingredients": [
+      {"item": "dried white beans", "amount": "120 g dry", "note": "or 240 g unsalted canned beans, rinsed"},
+      {"item": "carrot", "amount": "120 g", "note": "peeled weight"},
+      {"item": "olive oil", "amount": "2 tsp", "note": "stirred in at the end"},
+      {"item": "water", "amount": "as needed to boil", "note": "no salt"}
+    ],
+    "method": [
+      "If using dried beans, soak them, drain them, and boil in fresh water at a rolling boil until completely soft, often 45 to 90 minutes, with no firm centre.",
+      "If using canned beans, choose unsalted ones, rinse them, and heat them through.",
+      "Peel the carrot and cook it until soft.",
+      "Blend beans and carrot with a little cooking water until smooth.",
+      "Stir in the olive oil.",
+      "Do not add salt."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Undercooked dried beans can make a child ill.",
+      "Canned beans are often salted."
+    ],
+    "changes": [
+      "Boil dried beans hard until they are completely soft, or rinse unsalted canned beans and heat them.",
+      "Blend with cooked carrot and olive oil, and do not add salt."
+    ],
+    "serve": "Blend until smooth. There should be no firm core in a bean.",
+    "freezer": true
+  },
+  {
+    "id": "asparagus-potato-cheese",
+    "title": "Asparagus and potato with cheese",
+    "title_hu": "Spárgás burgonya sajttal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "new potatoes", "amount": "280 g", "note": "peeled weight"},
+      {"item": "asparagus", "amount": "120 g", "note": "tender part only, woody ends snapped off"},
+      {"item": "pasteurised mild full-fat cheese", "amount": "30 g", "note": "a small handful grated, shared across all 4 portions; milk allergen"}
+    ],
+    "method": [
+      "Peel the potatoes and cut them into chunks.",
+      "Snap the woody ends off the asparagus and use the tender part.",
+      "Boil potatoes and asparagus in unsalted water until the stalks squash easily.",
+      "Drain, keeping a spoon of cooking water.",
+      "Add the grated cheese and blend until smooth.",
+      "Do not add more cheese, and do not add salt."
+    ],
+    "allergens": ["milk"],
+    "verdict": "adjust",
+    "issues": [
+      "Asparagus stays fibrous if it is not cooked very soft.",
+      "Cheese is salty, so a large amount is too much sodium at this age."
+    ],
+    "changes": [
+      "Cook new potato and asparagus until the stalks squash easily, then blend.",
+      "Use only a small handful of pasteurised mild cheese grated across 4 portions."
+    ],
+    "serve": "All 4 portions share 30 g of cheese. Serve warm. This contains milk.",
+    "freezer": true
+  },
+  {
+    "id": "zucchini-potato",
+    "title": "Zucchini and potato purée",
+    "title_hu": "Cukkinis burgonyapüré",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "zucchini", "amount": "200 g", "note": "peeled, ends trimmed"},
+      {"item": "potato", "amount": "220 g", "note": "peeled weight"},
+      {"item": "leek", "amount": "40 g", "note": "white and pale green only, root and outer layer removed"},
+      {"item": "olive oil", "amount": "2 tsp", "note": "stirred in at the end"}
+    ],
+    "method": [
+      "Peel the zucchini and the potato, and slice the washed leek.",
+      "Cook all three in a little unsalted water until very soft.",
+      "Blend with a spoon of cooking water until smooth.",
+      "Stir in the olive oil.",
+      "Do not add salt."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "This is often held to 9 months for no good reason.",
+      "Salt is sometimes added to the leek and potato."
+    ],
+    "changes": [
+      "Offer the blended zucchini, potato, and leek from 6 months.",
+      "Finish with olive oil and leave the salt out."
+    ],
+    "serve": "Serve from six months, smooth, with no salt.",
+    "freezer": true
+  },
+  {
+    "id": "carrot-jerusalem-artichoke",
+    "title": "Carrot and Jerusalem artichoke",
+    "title_hu": "Csicsókás répa",
+    "category": "mixed-purees",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "carrots", "amount": "300 g", "note": "peeled weight, the main vegetable"},
+      {"item": "Jerusalem artichoke", "amount": "40 g", "note": "a small piece only, peeled, because more can cause gas"},
+      {"item": "olive oil", "amount": "2 tsp", "note": "stirred in at the end"}
+    ],
+    "method": [
+      "Peel the carrots and the small piece of Jerusalem artichoke.",
+      "Cut them into chunks and boil in unsalted water until very soft.",
+      "Blend until smooth, with a spoon of cooking water if needed.",
+      "Stir in the olive oil at the end.",
+      "Do not add a stock cube or salt."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Jerusalem artichoke can cause painful gas if the portion is large.",
+      "A stock cube is salty and does not belong in the pot."
+    ],
+    "changes": [
+      "Use mostly carrot and only a small piece of Jerusalem artichoke.",
+      "Stir in olive oil at the end, start at 8 months, and do not use a stock cube."
+    ],
+    "serve": "Start at eight months with a small serving. The artichoke is only a small part of the bowl.",
+    "freezer": true
+  },
+  {
+    "id": "broccoli-cauliflower-cheese",
+    "title": "Cauliflower and broccoli with cheese",
+    "title_hu": "Karfiol és brokkoli sajttal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "broccoli", "amount": "180 g", "note": "florets, tough stalk peeled if you use it"},
+      {"item": "cauliflower", "amount": "180 g", "note": "florets"},
+      {"item": "pasteurised mild full-fat cheese", "amount": "30 g", "note": "modest amount; skip it for the milk-free path"},
+      {"item": "olive oil", "amount": "2 tsp", "note": "use this instead of cheese if you want the dish milk-free"}
+    ],
+    "method": [
+      "Cut the broccoli and cauliflower into small florets.",
+      "Steam or boil in unsalted water until very soft.",
+      "Blend with a spoon of cooking water until smooth.",
+      "Stir in the grated cheese while the purée is warm, and blend again.",
+      "For a milk-free bowl, skip the cheese and stir in the olive oil instead.",
+      "Do not add salt, and do not increase the cheese."
+    ],
+    "allergens": ["milk"],
+    "verdict": "sound",
+    "issues": [
+      "Cheese is salty if the amount is more than modest.",
+      "A baby who needs a milk-free plate cannot eat the cheese version."
+    ],
+    "changes": [
+      "Blend broccoli and cauliflower with a little pasteurised cheese, or with olive oil if you want it milk-free.",
+      "Keep the cheese modest, and no other change is needed."
+    ],
+    "serve": "The cheese version contains milk. The olive oil version does not. Keep the cheese to 30 g across 4 portions.",
+    "freezer": true
+  },
+  {
+    "id": "fish-celeriac-sweet-potato",
+    "title": "Fish with sweet potato and celeriac",
+    "title_hu": "Halas édesburgonya zellerrel",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "skinless boneless cod or hake", "amount": "120 g", "note": "fresh or plain frozen, not smoked; not carp"},
+      {"item": "sweet potato", "amount": "200 g", "note": "peeled weight"},
+      {"item": "celeriac", "amount": "80 g", "note": "peeled weight; celery allergen"},
+      {"item": "dried thyme", "amount": "a pinch", "note": "or a few fresh leaves, stem removed"}
+    ],
+    "method": [
+      "Peel the sweet potato and celeriac and cook them in unsalted water until soft.",
+      "Add the fish and thyme and simmer until the fish is opaque and flakes, about 5 minutes.",
+      "Take the pan off the heat and check the fish with clean fingers, removing every bone.",
+      "Blend until smooth.",
+      "Do not add salt, and do not use carp."
+    ],
+    "allergens": ["fish", "celery"],
+    "verdict": "adjust",
+    "issues": [
+      "Celeriac is a celery allergen.",
+      "Carp is a poor choice because of the bones."
+    ],
+    "changes": [
+      "Use boneless salmon, trout, cod, or hake, cooked through, and check for bones.",
+      "Blend it with sweet potato, celeriac, and thyme, and do not use carp."
+    ],
+    "serve": "Check for bones again on the plate. This contains fish and celery.",
+    "freezer": true
+  },
+  {
+    "id": "spring-vegetables-cauliflower",
+    "title": "Spring vegetables with cauliflower",
+    "title_hu": "Tavaszi zöldség karfiollal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "potato", "amount": "140 g", "note": "peeled weight"},
+      {"item": "peas", "amount": "60 g", "note": "fresh or frozen"},
+      {"item": "zucchini", "amount": "80 g", "note": "peeled"},
+      {"item": "asparagus", "amount": "50 g", "note": "tender part only, cooked very soft"},
+      {"item": "cauliflower", "amount": "80 g", "note": "chopped fine"}
+    ],
+    "method": [
+      "Peel the potato and zucchini, snap woody ends off the asparagus, and chop the cauliflower fine.",
+      "Cook potato, zucchini, asparagus, and cauliflower in unsalted water until very soft.",
+      "Add the peas and cook until they squash easily.",
+      "Blend until smooth.",
+      "Do not add a stock cube or salt.",
+      "Leave cheese out; a teaspoon of it would add a milk allergen, and the base has none."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Salty stock is often used and is not needed.",
+      "The same plate is sometimes delayed until 10 months for no good reason."
+    ],
+    "changes": [
+      "Cook potato, pea, zucchini, and very soft asparagus, with cauliflower chopped fine, and use no stock.",
+      "Serve from 6 months, and add cheese only as an option because a teaspoon would bring in a milk allergen the base does not have."
+    ],
+    "serve": "Serve from six months with no stock. Add cheese only if milk is already accepted, and then it becomes a milk allergen.",
+    "freezer": true
+  },
+  {
+    "id": "chestnut-apple-chicken",
+    "title": "Chestnut, apple, and chicken",
+    "title_hu": "Gesztenyés alma csirkével",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "cooked peeled chestnuts", "amount": "80 g", "note": "plain, no sugar and no salt"},
+      {"item": "apple", "amount": "100 g", "note": "prepared weight, peeled, cored, and cooked"},
+      {"item": "skinless chicken thigh", "amount": "120 g", "note": "raw weight"}
+    ],
+    "method": [
+      "Cook the chicken in unsalted water until there is no pink in the middle.",
+      "Cook the peeled, cored apple until soft.",
+      "Use plain cooked peeled chestnuts, not a sweetened spread.",
+      "Blend chicken, apple, and chestnut until completely smooth, with a spoon of cooking water if needed.",
+      "Check that no chestnut piece remains.",
+      "Do not add salt."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Chestnut must be smooth, because pieces can choke.",
+      "Fruit alone would miss the iron that the chicken supplies."
+    ],
+    "changes": [
+      "Blend cooked chestnut, cooked apple, and fully cooked chicken until smooth.",
+      "This is a better plate than fruit alone, and no salt is added."
+    ],
+    "serve": "Serve a smooth spoonful. The chicken is there for iron, and the chestnut must have no pieces.",
+    "freezer": true
+  },
+  {
+    "id": "tomato-vegetable-pasta",
+    "title": "Tomato vegetable pasta",
+    "title_hu": "Paradicsomos zöldséges tészta",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "small soup pasta", "amount": "40 g", "note": "dry weight; wheat, so gluten"},
+      {"item": "ripe tomatoes", "amount": "200 g", "note": "fresh, peeled, not a salted sauce"},
+      {"item": "carrot", "amount": "80 g", "note": "peeled weight"},
+      {"item": "zucchini", "amount": "80 g", "note": "peeled"}
+    ],
+    "method": [
+      "Peel the carrot, zucchini, and tomatoes and chop them small.",
+      "Cook the vegetables in a splash of unsalted water until very soft, then mash them.",
+      "Boil the pasta in unsalted water well past the usual timing, until it is very soft.",
+      "Drain the pasta and mash it into the sauce so no firm piece remains.",
+      "Do not add salt, and do not wait for an older month to serve it."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "adjust",
+    "issues": [
+      "Pasta that is still firm is too hard at 6 months.",
+      "An older month is sometimes printed on this dish for no good reason."
+    ],
+    "changes": [
+      "Cook small pasta until very soft and mash it into a no-salt tomato, carrot, and zucchini sauce.",
+      "Do not wait for a later month, since the pasta is only a gluten food served very soft."
+    ],
+    "serve": "Mash the pasta so nothing firm is left. Serve from six months. This contains gluten.",
+    "freezer": true
+  },
+  {
+    "id": "zucchini-pea-salmon-couscous",
+    "title": "Zucchini, pea, salmon, and couscous",
+    "title_hu": "Cukkini, borsó, lazac, kuszkusz",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "fine couscous", "amount": "40 g", "note": "wheat, so gluten"},
+      {"item": "hot water", "amount": "80 ml", "note": "unsalted"},
+      {"item": "zucchini", "amount": "80 g", "note": "peeled and cooked soft"},
+      {"item": "peas", "amount": "60 g", "note": "to be smashed"},
+      {"item": "skinless boneless salmon", "amount": "100 g", "note": "fresh or plain frozen, not smoked"}
+    ],
+    "method": [
+      "Peel and cook the zucchini, and cook the peas until they squash easily.",
+      "Cook the salmon until it is opaque and flakes, then cool it enough to handle.",
+      "Flake the salmon and remove every bone.",
+      "Stir the couscous into the hot water, cover for 5 minutes, then mash it with a little extra water so no dry grains remain.",
+      "Smash the peas and mash salmon, zucchini, and couscous together until spoonable.",
+      "Do not add salt."
+    ],
+    "allergens": ["gluten", "fish"],
+    "verdict": "adjust",
+    "issues": [
+      "Couscous is wheat, so this contains gluten.",
+      "Whole peas and a leftover fish bone are the texture hazards."
+    ],
+    "changes": [
+      "Smash the peas, and flake boneless salmon only after the bones are checked.",
+      "Stir them into soft couscous with cooked zucchini."
+    ],
+    "serve": "Look through the salmon for bones, and smash every pea. This contains gluten and fish.",
+    "freezer": true
+  },
+  {
+    "id": "yellow-fish-puree",
+    "title": "Yellow fish purée",
+    "title_hu": "Halacskás sárgapüré",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "skinless boneless trout or cod", "amount": "120 g", "note": "fresh or plain frozen, not smoked"},
+      {"item": "sweet potato", "amount": "200 g", "note": "peeled weight"},
+      {"item": "carrot", "amount": "80 g", "note": "peeled weight"}
+    ],
+    "method": [
+      "Peel the sweet potato and carrot and cook them in unsalted water until soft.",
+      "Add the fish and cook until it is opaque and flakes.",
+      "Check the fish and remove every bone.",
+      "Blend fish and vegetables until smooth.",
+      "Do not add salt or nutmeg."
+    ],
+    "allergens": ["fish"],
+    "verdict": "adjust",
+    "issues": [
+      "The usual version salted the fish and added nutmeg.",
+      "A bone left in the purée is dangerous."
+    ],
+    "changes": [
+      "Cook boneless fish with sweet potato and carrot, check for bones, and blend it smooth.",
+      "Do not add salt, and skip the nutmeg."
+    ],
+    "serve": "No salt and no nutmeg. Check the fish for bones before you blend. This contains fish.",
+    "freezer": true
+  },
+  {
+    "id": "pea-sweet-potato-fish",
+    "title": "Pea, sweet potato, and fish",
+    "title_hu": "Zöldborsós édesburgonyás hal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "peas", "amount": "80 g", "note": "fresh or frozen, to be smashed"},
+      {"item": "sweet potato", "amount": "200 g", "note": "peeled weight"},
+      {"item": "skinless boneless cod or hake", "amount": "120 g", "note": "fresh or plain frozen, not smoked"}
+    ],
+    "method": [
+      "Peel the sweet potato and cook it in unsalted water until soft.",
+      "Add the peas and cook until they squash easily.",
+      "Add the fish and cook until it is opaque and flakes.",
+      "Remove every bone.",
+      "Smash the peas and blend everything until smooth.",
+      "Do not add salt."
+    ],
+    "allergens": ["fish"],
+    "verdict": "sound",
+    "issues": [
+      "Whole peas are a poor texture in a first purée.",
+      "A label of 7 or 8 months is later than this dish needs."
+    ],
+    "changes": [
+      "Smash the peas and blend them with sweet potato and boneless white fish, after the bones are checked.",
+      "Serve it from 6 months rather than from 7 or 8 months."
+    ],
+    "serve": "Serve from six months. Smash the peas and check the fish for bones. This contains fish.",
+    "freezer": true
+  },
+  {
+    "id": "aubergine-chicken",
+    "title": "Aubergine and chicken",
+    "title_hu": "Padlizsános csirke",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "aubergine", "amount": "180 g", "note": "peeled weight"},
+      {"item": "potato", "amount": "180 g", "note": "peeled weight"},
+      {"item": "skinless chicken thigh", "amount": "120 g", "note": "raw weight"}
+    ],
+    "method": [
+      "Peel the aubergine and the potato and cut them into chunks.",
+      "Put them in a pan with the chicken and enough unsalted water to cover.",
+      "Cook until the chicken has no pink in the middle and the aubergine is soft and mild.",
+      "Blend until smooth, with a spoon of cooking water if needed.",
+      "Do not salt the aubergine first."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Aubergine can taste bitter if the skin is left on and it is undercooked.",
+      "Salting the aubergine is a common step and adds sodium a baby does not need."
+    ],
+    "changes": [
+      "Peel the aubergine and cook it with potato and chicken until very soft, then blend.",
+      "Do not salt the aubergine."
+    ],
+    "serve": "Peel it and cook it until soft and mild. Do not salt it first.",
+    "freezer": true
+  },
+  {
+    "id": "chicken-apple-couscous",
+    "title": "Chicken and apple with couscous",
+    "title_hu": "Csirkés alma kuszkusszal",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "skinless chicken thigh", "amount": "120 g", "note": "raw weight"},
+      {"item": "apple", "amount": "60 g", "note": "prepared weight, peeled, cored, and cooked; a flavour, not the bulk"},
+      {"item": "fine couscous", "amount": "40 g", "note": "wheat, so gluten"},
+      {"item": "hot water", "amount": "80 ml", "note": "unsalted, not stock"}
+    ],
+    "method": [
+      "Cook the chicken in unsalted water until there is no pink in the middle, then shred it very fine.",
+      "Peel, core, and cook the apple until soft, then mash it.",
+      "Stir the couscous into hot water, not stock, and cover for 5 minutes.",
+      "Mash the couscous with a spoon of water so no dry grains remain.",
+      "Mix chicken, apple, and couscous and mash until spoonable.",
+      "Do not add cherries or salt."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "adjust",
+    "issues": [
+      "Whole cherries are a choking hazard and do not belong in this dish.",
+      "Salty stock is often used to cook the couscous."
+    ],
+    "changes": [
+      "Use cooked apple only as a flavour, and keep the chicken as the iron-rich part.",
+      "Cook the couscous in water rather than stock, and count the gluten from the wheat."
+    ],
+    "serve": "The apple is only a flavour and the chicken is the iron. No cherries and no stock. This contains gluten.",
+    "freezer": true
+  },
+  {
+    "id": "broccoli-sweet-potato-chicken",
+    "title": "Broccoli, sweet potato, and chicken",
+    "title_hu": "Brokkoli, édesburgonya, csirke",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "broccoli", "amount": "120 g", "note": "florets"},
+      {"item": "sweet potato", "amount": "220 g", "note": "peeled weight"},
+      {"item": "skinless chicken thigh", "amount": "120 g", "note": "raw weight"},
+      {"item": "rapeseed or olive oil", "amount": "4 tsp", "note": "about 1 tsp in each portion, stirred in at the end"}
+    ],
+    "method": [
+      "Peel the sweet potato and cut it into chunks.",
+      "Cook it with the chicken in unsalted water until the chicken has no pink and the sweet potato is soft.",
+      "Add the broccoli and cook until very soft.",
+      "Blend until smooth.",
+      "Stir in the oil.",
+      "Do not add salt."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "This is a sound first meal, and the usual gap is leaving the fat out."
+    ],
+    "changes": [
+      "Blend broccoli, sweet potato, and fully cooked chicken, then stir in a teaspoon of rapeseed or olive oil on each portion.",
+      "Do not add salt, and nothing else needs to change."
+    ],
+    "serve": "This is a sound first meal. Each portion gets about a teaspoon of oil.",
+    "freezer": true
+  },
+  {
+    "id": "white-vegetable-pasta",
+    "title": "White vegetable pasta",
+    "title_hu": "Fehérzöldséges tészta",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "small soup pasta", "amount": "40 g", "note": "dry weight; wheat, so gluten"},
+      {"item": "potato", "amount": "140 g", "note": "peeled weight"},
+      {"item": "cauliflower", "amount": "140 g", "note": "florets"},
+      {"item": "parsley", "amount": "a few leaves", "note": "washed, stems removed"}
+    ],
+    "method": [
+      "Peel the potato and cook it with the cauliflower in unsalted water until very soft.",
+      "Stir in the parsley and mash the vegetables smooth.",
+      "Boil the pasta in unsalted water until it is very soft, well past firm.",
+      "Drain and mash the pasta into the vegetable mash.",
+      "Do not add salt."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "sound",
+    "issues": [
+      "Salt is easy to add to a pale pasta dish and is not needed.",
+      "Firm pasta is the wrong texture at this age."
+    ],
+    "changes": [
+      "Cook the pasta until very soft and mix it with a mash of potato, cauliflower, and parsley.",
+      "Leave the salt out, and no other change is needed."
+    ],
+    "serve": "Serve very soft pasta in the pale mash, with no salt. This contains gluten.",
+    "freezer": true
+  },
+  {
+    "id": "veal-vegetables",
+    "title": "Veal with vegetables",
+    "title_hu": "Zöldséges borjú",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 40,
+    "ingredients": [
+      {"item": "beef or veal stewing meat", "amount": "120 g", "note": "lean, raw weight; either meat is a sound choice"},
+      {"item": "carrot", "amount": "100 g", "note": "peeled weight"},
+      {"item": "ripe tomato", "amount": "120 g", "note": "peeled, fresh"},
+      {"item": "onion", "amount": "40 g", "note": "peeled"}
+    ],
+    "method": [
+      "Cut the meat, peeled carrot, peeled tomato, and onion into small pieces.",
+      "Cover with unsalted water and cook until the meat is fully done and the vegetables are soft.",
+      "Check there is no pink in the middle of the meat.",
+      "Blend until smooth, with a little cooking water if needed.",
+      "Do not add salt."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "Veal is sometimes treated as a special food, but it is not nutritionally better than beef.",
+      "Salt is often added to a meat sauce."
+    ],
+    "changes": [
+      "Use beef or veal, since both are equal choices.",
+      "Cook the meat with carrot, tomato, and onion until fully done, then blend, and do not add salt."
+    ],
+    "serve": "Beef works the same way as veal. Serve it fully cooked, with no salt. The point of the dish is the iron.",
+    "freezer": true
+  },
+  {
+    "id": "liver-potato",
+    "title": "Liver and potato with vegetables",
+    "title_hu": "Zöldséges máj burgonyával",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "chicken liver", "amount": "80 g", "note": "raw weight, so each portion has about 15 g of cooked liver"},
+      {"item": "potato", "amount": "240 g", "note": "peeled weight"},
+      {"item": "ripe tomato", "amount": "80 g", "note": "peeled"},
+      {"item": "pumpkin", "amount": "60 g", "note": "peeled and seeded"}
+    ],
+    "method": [
+      "Peel the potato and pumpkin, and peel the tomato.",
+      "Cook them in unsalted water until soft.",
+      "Add the liver and cook until it is brown all through, with no pink.",
+      "Blend until smooth.",
+      "Divide so each child's portion contains only about 15 g of the cooked liver.",
+      "Do not add salt, and do not serve a second portion in the same week."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Liver is very high in vitamin A, so a large portion or a repeat in the same week is too much.",
+      "A vitamin A supplement on top of the liver stacks the dose."
+    ],
+    "changes": [
+      "Fully cook the chicken liver, put only about 15 g of cooked liver in the child's portion, and serve liver at most once a week.",
+      "Do not pair this meal with a vitamin A supplement."
+    ],
+    "serve": "One portion is the week's liver, about 15 g of cooked liver in that bowl. Freeze the rest for later weeks, and do not also give a vitamin A supplement.",
+    "freezer": true
+  },
+  {
+    "id": "cornmeal-fruit-cup",
+    "title": "Cornmeal and fruit cup",
+    "title_hu": "Gyümölcsös kukoricakása",
+    "category": "mixed-purees",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "fine cornmeal", "amount": "50 g", "note": "not whole corn kernels, and not wheat semolina"},
+      {"item": "water", "amount": "300 ml", "note": ""},
+      {"item": "cooked apple", "amount": "100 g", "note": "peeled, cored, and cooked, with no sugar"}
+    ],
+    "method": [
+      "Peel, core, and cook the apple until soft, then mash it.",
+      "Whisk the cornmeal into the water.",
+      "Cook, stirring, until it is soft and spoonable, about 10 minutes.",
+      "Stir in the apple and cool until warm.",
+      "Do not add sugar, and do not use whole kernels.",
+      "Serve it beside an iron food, not as the only dish."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": [
+      "Cornmeal porridge is low in iron, so it cannot be the whole meal.",
+      "Whole corn kernels are the wrong texture, and sugar is sometimes added."
+    ],
+    "changes": [
+      "Cook fine cornmeal into a soft porridge with cooked apple, and do not use whole kernels or sugar.",
+      "Serve it as a side from 8 months, when a thicker texture is reasonable."
+    ],
+    "serve": "A side from eight months, next to meat, lentils, or egg, not the meal by itself.",
+    "freezer": true
+  },
+  {
+    "id": "more-mixed-plates",
+    "title": "More mixed plates",
+    "title_hu": "További vegyes tányérok",
+    "category": "mixed-purees",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "iron food", "amount": "30 g", "note": "cooked chicken, beef, lentils, or white beans; boil pulses until completely soft"},
+      {"item": "vegetable", "amount": "40 g", "note": "cooked broccoli, carrot, peas, or pumpkin"},
+      {"item": "familiar fruit or starch", "amount": "40 g", "note": "cooked sweet potato, potato, apple, or pear"},
+      {"item": "rapeseed or olive oil", "amount": "1 tsp", "note": "stirred in at the end"}
+    ],
+    "method": [
+      "Put one iron food, one vegetable, and one familiar fruit or starch in the bowl.",
+      "Use foods already cooked soft, with meat fully done and any beans or lentils boiled until they have no firm core.",
+      "Add a teaspoon of rapeseed or olive oil and blend until smooth.",
+      "One plate is chicken, broccoli, and sweet potato.",
+      "Another is lentils, carrot, and potato, and a third is beef, peas, and cooked apple.",
+      "Finish with white beans, pumpkin, and pear, and do not add salt or a stock cube."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": [
+      "A plate of fruit or starch alone misses iron.",
+      "Oil is often forgotten, and salty stock is often used instead."
+    ],
+    "changes": [
+      "Build each plate from one iron food, one vegetable, one familiar fruit or starch, and a teaspoon of oil.",
+      "Use the four example plates in the method, and do not add salt or stock."
+    ],
+    "serve": "Build one plate this way. The iron food is not optional, and the oil goes on at the end.",
+    "freezer": true
+  }
+]

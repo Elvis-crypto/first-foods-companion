@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "walnut-party-cake",
+    "title": "Banana walnut layer cake",
+    "title_hu": "Diós torta",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 45,
+    "ingredients": [
+      {"item": "very ripe bananas", "amount": "2", "note": "mashed; the only sweetener"},
+      {"item": "eggs", "amount": "2", "note": "baked until fully set"},
+      {"item": "finely ground walnut", "amount": "80 g", "note": "only after walnut is already tolerated; one nut, not a mix"},
+      {"item": "plain wheat flour", "amount": "80 g", "note": "no salt in the batter"},
+      {"item": "rapeseed or olive oil", "amount": "2 tbsp", "note": "for a softer crumb"},
+      {"item": "plain pasteurized yogurt", "amount": "120 g", "note": "unsweetened filling; adds milk"}
+    ],
+    "method": [
+      "Mash the bananas until smooth, then stir in the oil and the eggs.",
+      "Fold in the flour and the finely ground walnut.",
+      "Divide the batter between two small tins.",
+      "Bake at 180 C until the centre is fully set and a skewer comes out clean.",
+      "Cool completely, then spread yogurt between the layers.",
+      "Cut a small slice and serve it with no icing and no whole nuts."
+    ],
+    "allergens": ["milk", "egg", "gluten", "tree-nut"],
+    "verdict": "replace",
+    "issues": "Sugar icing and whole nuts were the problem. Keep toys out of the cake, and serve it only occasionally.",
+    "changes": "Make a small two-layer cake of egg, ground walnut, and flour, sweetened only with very ripe banana mashed into the batter and filled with plain yogurt. Leave out sugar icing, whole walnuts, and tiny toys.",
+    "serve": "Use ground walnut only after walnut is already tolerated, one nut at a time. This is occasional party food, not a weekly cake. The yogurt filling contains milk. Freeze the plain layers and add yogurt after thawing.",
+    "freezer": true
+  },
+  {
+    "id": "chestnut-cake",
+    "title": "Chestnut and apple cake",
+    "title_hu": "Gesztenyetorta",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 50,
+    "ingredients": [
+      {"item": "peeled chestnuts", "amount": "200 g", "note": "boiled until completely soft; not a walnut or peanut"},
+      {"item": "eating apple", "amount": "1 large", "note": "peeled and cooked soft"},
+      {"item": "plain wheat flour", "amount": "50 g", "note": "just enough to hold a single soft cake"},
+      {"item": "rapeseed or olive oil", "amount": "1 tbsp", "note": "no chocolate and no sugar"}
+    ],
+    "method": [
+      "Boil the peeled chestnuts until they mash with no firm bits, then drain them.",
+      "Cook the peeled, chopped apple in a splash of water until it collapses.",
+      "Mash the chestnuts and apple with the oil.",
+      "Stir in the flour and spread the soft batter in one small tin.",
+      "Bake at 180 C until the middle is set and still soft.",
+      "Cool, then cut a small piece."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "replace",
+    "issues": "Chocolate chestnut cakes are a sweet.",
+    "changes": "This is the edible version: cooked peeled chestnut and apple baked with a little oil and flour into a single soft cake, with no chocolate and no sugar. Chestnut is not the same as introducing walnut or peanut.",
+    "serve": "Offer it occasionally from 12 months. Chestnut does not stand in for walnut or peanut, so practise those nuts in their own foods once each is tolerated.",
+    "freezer": true
+  },
+  {
+    "id": "melon-plate",
+    "title": "Melon strip plate",
+    "title_hu": "Dinnyetál",
+    "category": "celebrations",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 10,
+    "ingredients": [
+      {"item": "ripe melon", "amount": "150 g", "note": "rind and seeds removed; cut in long strips, not balls"},
+      {"item": "soft berries", "amount": "40 g", "note": "raspberries or ripe strawberries; no grapes"}
+    ],
+    "method": [
+      "Choose a ripe melon and cut away the rind and seeds.",
+      "Slice the flesh into long strips, not round balls.",
+      "Crush or quarter the berries so no round piece stays whole.",
+      "Arrange the strips and berries on a plate.",
+      "Serve at once with no sugar and no skewers."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "A round slippery piece can block the airway.",
+    "changes": "Cut ripe melon into long strips, not round balls, and serve it with soft berries. Use no sugar and no skewers, and let the plate look like a cake if you like.",
+    "serve": "Suitable from 8 months. Stay beside the child, and mash any piece that is still round or slippery.",
+    "freezer": false
+  },
+  {
+    "id": "soft-cocoa-free-cake",
+    "title": "Soft banana oat cake",
+    "title_hu": "Puha torta",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 40,
+    "ingredients": [
+      {"item": "very ripe bananas", "amount": "2", "note": "mashed; no sugar"},
+      {"item": "rolled oats", "amount": "150 g", "note": "binds the cake; listed as gluten"},
+      {"item": "rapeseed or olive oil", "amount": "1 tbsp", "note": "keeps the crumb soft"},
+      {"item": "soft fruit", "amount": "50 g", "note": "decoration only; nothing hard or sweet-shop"}
+    ],
+    "method": [
+      "Heat the oven to 170 C.",
+      "Mash the bananas with the oil.",
+      "Stir in the oats to make a soft batter.",
+      "Spread it in a small tin and bake until set but still soft in the middle.",
+      "Cool, then shape or cut it however you like.",
+      "Decorate with soft fruit only, with no sweets and no hard pieces."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "replace",
+    "issues": "The usual turtle cake is biscuits and chocolate sweets.",
+    "changes": "Bake a soft banana and oat cake, shaped however you like, and decorate it with fruit, not sweets. Add no hard decorations.",
+    "serve": "From 12 months, as an occasional soft cake. Every piece of fruit on top should squash easily between your fingers.",
+    "freezer": true
+  },
+  {
+    "id": "stuffed-eggs",
+    "title": "Stuffed eggs",
+    "title_hu": "Töltött tojás",
+    "category": "celebrations",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "eggs", "amount": "2", "note": "hard-boiled until the yolk is firm"},
+      {"item": "plain pasteurized yogurt", "amount": "2 tbsp", "note": "unsweetened; replaces raw mayonnaise"},
+      {"item": "sweet paprika", "amount": "1/4 tsp", "note": "mild; not hot paprika and not salt"}
+    ],
+    "method": [
+      "Boil the eggs for 10 minutes so the yolks are firm, then cool them in cold water.",
+      "Peel the eggs, halve them, and lift out the yolks.",
+      "Mash the yolks with yogurt and sweet paprika, adding no salt.",
+      "Spoon the yolk back into the whites.",
+      "Cut pieces small enough for the child."
+    ],
+    "allergens": ["milk", "egg"],
+    "verdict": "adjust",
+    "issues": "Raw mayonnaise and salt are the usual filling, and a whole half-egg is large for a child.",
+    "changes": "Halve hard-boiled eggs and mash the yolks with plain yogurt and sweet paprika, with no raw mayonnaise and no salt. Cut pieces small enough for the child.",
+    "serve": "From 8 months, in small pieces, with the child seated. If egg or milk is new, try the first taste in the morning on a well day.",
+    "freezer": false
+  },
+  {
+    "id": "cheese-cup",
+    "title": "Pear cheese cup",
+    "title_hu": "Pohárkrém",
+    "category": "celebrations",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "pasteurized cottage cheese", "amount": "80 g", "note": "unsalted and unsweetened"},
+      {"item": "plain pasteurized yogurt", "amount": "40 g", "note": "loosens the cup"},
+      {"item": "ripe pear", "amount": "40 g", "note": "peeled and cooked until soft"}
+    ],
+    "method": [
+      "Peel and core the pear and cook it in a spoon of water until soft.",
+      "Mash the pear and let it cool.",
+      "Stir the cottage cheese and yogurt together until loose.",
+      "Fold in the pear.",
+      "Spoon into a cup and serve with nothing on top."
+    ],
+    "allergens": ["milk"],
+    "verdict": "adjust",
+    "issues": "Sugar and sweets on top are the usual extra, and they are not needed.",
+    "changes": "Serve pasteurized cottage cheese, yogurt, and a little cooked pear in a cup. Add no sugar and no sweets on top.",
+    "serve": "From 8 months. Use pasteurized dairy only. If milk is new, try the first taste in the morning on a well day, then keep offering milk foods a few times a week once tolerated.",
+    "freezer": false
+  },
+  {
+    "id": "vegetable-cake",
+    "title": "Vegetable bar cake",
+    "title_hu": "Zöldséges torta",
+    "category": "celebrations",
+    "min_age_months": 10,
+    "portions": 6,
+    "time_minutes": 50,
+    "ingredients": [
+      {"item": "potato", "amount": "2 medium", "note": "baked until soft"},
+      {"item": "carrot", "amount": "1 large", "note": "roasted or baked until soft"},
+      {"item": "spinach", "amount": "60 g", "note": "wilted; a layer, not a huge daily bowl"},
+      {"item": "mild pasteurized cheese", "amount": "20 g", "note": "not feta, halloumi, blue, or a hard salty cheese"},
+      {"item": "rapeseed or olive oil", "amount": "1 tsp", "note": "to stop the vegetables sticking"}
+    ],
+    "method": [
+      "Bake the potato and carrot until soft, and wilt the spinach.",
+      "Slice the potato and carrot.",
+      "Oil a small dish and layer potato, carrot, and spinach.",
+      "Scatter the mild cheese over the top.",
+      "Bake until the vegetables are hot and the cheese is just soft.",
+      "Cool slightly and cut into bars."
+    ],
+    "allergens": ["milk"],
+    "verdict": "sound",
+    "issues": "Salty cheese is the thing that would make this plate unsuitable.",
+    "changes": "Layer baked potato, roasted carrot, and spinach with a little mild cheese, then cut the bake into bars. Use no salty cheese.",
+    "serve": "A savoury celebration plate from 10 months. Cut bars the child can hold, and skip any cheese that tastes salty.",
+    "freezer": true
+  },
+  {
+    "id": "soft-spice-biscuits",
+    "title": "Soft spice oat biscuits",
+    "title_hu": "Fűszeres puha keksz",
+    "category": "celebrations",
+    "min_age_months": 10,
+    "portions": 10,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "rolled oats", "amount": "100 g", "note": "finely ground if you want a smoother biscuit"},
+      {"item": "unsweetened apple purée", "amount": "80 g", "note": "the only sweetener"},
+      {"item": "ground cinnamon", "amount": "1/4 tsp", "note": "a mild spice, not a sweet coating"},
+      {"item": "orange zest", "amount": "from a quarter orange", "note": "washed orange; zest only, no pith"},
+      {"item": "rapeseed or olive oil", "amount": "1 tbsp", "note": "helps the biscuit stay soft"}
+    ],
+    "method": [
+      "Heat the oven to 160 C.",
+      "Mix the oats, apple purée, cinnamon, and orange zest.",
+      "Stir in the oil to make a soft dough.",
+      "Drop small thick mounds on a tray and flatten them slightly.",
+      "Bake only until set, not until brown and crisp.",
+      "Cool in a covered tin and check that each biscuit bends rather than snaps."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "replace",
+    "issues": "The usual honey-spice biscuit at 10 months is the wrong sweetener and often too hard. Honey is unsafe before 12 months even when baked, and it is still sugar after that.",
+    "changes": "Bake soft cinnamon and orange-zest oat biscuits sweetened with apple purée. Use no honey, and keep the biscuits soft.",
+    "serve": "From 10 months, and only while they stay soft. If a biscuit dries hard, do not serve it. Everyday wheat still belongs in pasta or bread through the week.",
+    "freezer": true
+  },
+  {
+    "id": "star-cheese-cake",
+    "title": "Star cottage cheesecake",
+    "title_hu": "Csillag túrótorta",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 55,
+    "ingredients": [
+      {"item": "rolled oats", "amount": "80 g", "note": "ground; soft base, listed as gluten"},
+      {"item": "rapeseed or olive oil", "amount": "1 tbsp", "note": "binds the base without sugar"},
+      {"item": "plain pasteurized yogurt", "amount": "90 g", "note": "1 tbsp in the base and the rest in the filling"},
+      {"item": "pasteurized cottage cheese", "amount": "200 g", "note": "unsalted and unsweetened"},
+      {"item": "egg", "amount": "1", "note": "baked until fully set"},
+      {"item": "soft fruit", "amount": "a few pieces", "note": "on top instead of glaze"}
+    ],
+    "method": [
+      "Stir the ground oats with the oil and a spoon of yogurt, then press a thin base into a small tin.",
+      "Bake the base at 180 C for about 8 minutes.",
+      "Beat the cottage cheese, egg, and remaining yogurt until smooth.",
+      "Pour the cheese over the base and bake until the egg is fully set and the middle is still soft.",
+      "Cool, cut soft stars, and leave any dry edge aside.",
+      "Top with soft fruit, not a sugar glaze."
+    ],
+    "allergens": ["milk", "egg", "gluten"],
+    "verdict": "adjust",
+    "issues": "A sugar glaze turns this into a sweet, and it is only an occasional cake.",
+    "changes": "Bake a no-sugar cheesecake of cottage cheese, egg, and yogurt on a soft oat base, and cut it into stars. Put fruit on top, not a sugar glaze.",
+    "serve": "Occasional, from 12 months. Keep everyday milk, egg, and gluten in other meals a few times a week once each is tolerated. Try a first new allergen in the morning on a well day, not in this whole cake.",
+    "freezer": true
+  },
+  {
+    "id": "soft-oat-clusters",
+    "title": "Soft oat clusters",
+    "title_hu": "Zabos toboz",
+    "category": "celebrations",
+    "min_age_months": 12,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "ripe banana", "amount": "1", "note": "mashed; no sugar and no chocolate"},
+      {"item": "rolled oats", "amount": "80 g", "note": "soft clusters, not cornflakes or another hard cereal"},
+      {"item": "rapeseed or olive oil", "amount": "1 tsp", "note": "keeps the clusters from drying"}
+    ],
+    "method": [
+      "Mash the banana.",
+      "Stir in the oats and oil until soft clusters hold together.",
+      "Set small heaps on a tray.",
+      "Bake at 160 C until just set and still soft.",
+      "Cool them covered so they do not dry hard.",
+      "Offer one soft cluster, with no chocolate and no crisp cereal."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "replace",
+    "issues": "The usual pinecone biscuit is cornflakes and chocolate.",
+    "changes": "Make soft oat and banana clusters with no chocolate and no hard cereal. Keep them occasional.",
+    "serve": "Occasional food from 12 months. If a cluster turns crisp, do not serve it. Offer wheat in ordinary pasta or bread through the week as well.",
+    "freezer": true
+  },
+  {
+    "id": "unsalted-stock",
+    "title": "Unsalted stock",
+    "title_hu": "Sózatlan alaplé",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 10,
+    "time_minutes": 90,
+    "ingredients": [
+      {"item": "chicken wings or a small carcass", "amount": "about 300 g", "note": "optional; leave out for a vegetable stock"},
+      {"item": "carrot", "amount": "1", "note": "scrubbed and chopped"},
+      {"item": "onion", "amount": "1", "note": "peeled and halved"},
+      {"item": "parsley stems", "amount": "a few", "note": "no celery"},
+      {"item": "water", "amount": "1 litre", "note": "no salt and no stock cube"}
+    ],
+    "method": [
+      "Put chicken in a pot, or use only the vegetables for a meat-free stock.",
+      "Add the carrot, onion, parsley, and water.",
+      "Simmer with no salt until the liquid tastes mildly savoury and any chicken is cooked through.",
+      "Strain out the bones and the spent vegetables.",
+      "Cool quickly and freeze the liquid in an ice tray.",
+      "Use a frozen portion in cooking, not as a bowl of soup on its own."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "Stock cubes are salt.",
+    "changes": "Simmer chicken or vegetables with no salt, strain the liquid, and freeze it in small portions. Use it as an ingredient, not as a meal.",
+    "serve": "From 6 months, only inside another suitable dish. A bought stock cube does not replace this, because those cubes are salt.",
+    "freezer": true
+  },
+  {
+    "id": "liver-dumplings",
+    "title": "Liver dumplings",
+    "title_hu": "Májgaluska",
+    "category": "basics",
+    "min_age_months": 8,
+    "portions": 1,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "chicken liver", "amount": "20 g raw", "note": "about 15 g once cooked; the child's whole share"},
+      {"item": "egg", "amount": "1 tbsp beaten", "note": "cooked until fully set"},
+      {"item": "plain breadcrumbs", "amount": "1 tbsp", "note": "wheat, with no salted seasoning"},
+      {"item": "parsley", "amount": "1 tsp chopped", "note": "fresh"},
+      {"item": "unsalted stock", "amount": "250 ml", "note": "the homemade stock, not a cube"}
+    ],
+    "method": [
+      "Simmer the liver in the unsalted stock until it is cooked through and no pink remains.",
+      "Lift it out and check the cooked weight is about 15 g for the child.",
+      "Blend that liver with the egg, breadcrumbs, and parsley.",
+      "Shape a few small dumplings.",
+      "Return them to the simmering stock and cook until the egg is set and the centres are hot.",
+      "Serve the dumplings in a spoon of stock."
+    ],
+    "allergens": ["egg", "gluten"],
+    "verdict": "adjust",
+    "issues": "Liver is very rich in vitamin A, so the child's share must stay small even in a soup.",
+    "changes": "Cook a few small dumplings of chicken liver, egg, breadcrumbs, and parsley in unsalted stock until fully done. Give the child about 15 g cooked liver, at most once a week, and not alongside a vitamin A supplement.",
+    "serve": "From 8 months. This portion is the liver meal for the week, so do not also serve liver spread or give a vitamin A supplement. Chop any dumpling that is still large.",
+    "freezer": true
+  },
+  {
+    "id": "fresh-pasta",
+    "title": "Fresh pasta",
+    "title_hu": "Házi tészta",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 50,
+    "ingredients": [
+      {"item": "eggs", "amount": "2", "note": "boiled in the dough until fully cooked"},
+      {"item": "plain wheat flour", "amount": "200 g", "note": "about this weight; no salt at all"},
+      {"item": "water", "amount": "a large pot", "note": "for boiling, not salted"}
+    ],
+    "method": [
+      "Mix the eggs into the flour with no salt.",
+      "Knead to a firm dough, adding a few drops of water only if it will not come together.",
+      "Cover and rest the dough for 30 minutes.",
+      "Roll it thin and cut small pieces.",
+      "Boil until the pasta is very soft, not merely tender.",
+      "Drain and serve it moist, chopped or mashed."
+    ],
+    "allergens": ["egg", "gluten"],
+    "verdict": "adjust",
+    "issues": "The usual dough allowed a little salt, and firm pasta is too hard at this age.",
+    "changes": "Make the dough from two eggs and about 200 g flour, with no salt at all. Rest it, cut it small, and boil it until very soft so it can be used from 6 months.",
+    "serve": "From 6 months only when the pieces are very soft and moist. Try a first egg or wheat taste in the morning on a well day, then keep offering wheat through the week.",
+    "freezer": true
+  },
+  {
+    "id": "oil-spoon",
+    "title": "Oil on the plate",
+    "title_hu": "Olaj a végén",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 5,
+    "ingredients": [
+      {"item": "rapeseed or olive oil", "amount": "1 tsp", "note": "stirred into the finished plate"},
+      {"item": "flaxseed oil", "amount": "1 tsp optional", "note": "only from a small fridge jar used within two weeks; never heated"}
+    ],
+    "method": [
+      "Cook the meal without a special blended baby oil.",
+      "Stir one teaspoon of rapeseed or olive oil into the cooked plate.",
+      "If you use flaxseed oil, keep only a small jar in the fridge and finish it within two weeks.",
+      "Add flaxseed oil after cooking and never heat it.",
+      "Do not steep garlic or herbs in oil."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "A special baby oil blend is unnecessary, and infused oil is a botulism risk.",
+    "changes": "Skip the 500 ml bottle of mixed oils in the cupboard and stir a teaspoon of rapeseed or olive oil into the cooked plate. If you use flaxseed oil, keep a small jar in the fridge, finish it within two weeks, and never heat it. Do not steep garlic or herbs in oil.",
+    "serve": "From 6 months, as a teaspoon on food the child is already eating. This is not a drink, and it is not a jar of garlic oil.",
+    "freezer": false
+  },
+  {
+    "id": "herb-cubes",
+    "title": "Frozen herb cubes",
+    "title_hu": "Fűszerkockák",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 12,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "fresh parsley and dill", "amount": "20 g", "note": "washed; herbs, not a salty mix"},
+      {"item": "ripe tomato", "amount": "1", "note": "chopped"},
+      {"item": "sweet pepper", "amount": "1 small", "note": "seeds removed"},
+      {"item": "water", "amount": "a splash", "note": "only to blend; no salt"}
+    ],
+    "method": [
+      "Wash the herbs, tomato, and sweet pepper.",
+      "Blend them with a splash of water until smooth, adding no salt.",
+      "Pour into an ice tray at once.",
+      "Freeze the same day rather than keeping a raw paste in the fridge.",
+      "Thaw a cube in the fridge and use it within two days, or stir it into hot food from frozen."
+    ],
+    "allergens": [],
+    "verdict": "replace",
+    "issues": "The usual seasoning paste was raw vegetables kept for a week in the fridge, and salt was suggested for older children.",
+    "changes": "Blend herbs, tomato, and sweet pepper and freeze them at once in ice cubes, with no salt. Keep a thawed cube for two days in the fridge at most.",
+    "serve": "From 6 months, stirred into a hot meal. Do not keep the blended paste for a week, and do not add salt for an older child either.",
+    "freezer": true
+  },
+  {
+    "id": "fridge-fruit-sauce",
+    "title": "Fridge fruit sauce",
+    "title_hu": "Gyümölcsszósz",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 6,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "eating apples", "amount": "2", "note": "peeled and cored"},
+      {"item": "fresh or frozen berries", "amount": "100 g", "note": "no grapes and no sulphite-preserved dried fruit"},
+      {"item": "water", "amount": "3 tbsp", "note": "just enough to stop sticking"}
+    ],
+    "method": [
+      "Chop the apples and add the berries.",
+      "Cook with the water for about 10 minutes, until soft.",
+      "Mash or blend to a sauce.",
+      "Cool it quickly.",
+      "Keep it for up to three days in the fridge, or freeze small portions.",
+      "Serve with no honey and no sugar."
+    ],
+    "allergens": [],
+    "verdict": "replace",
+    "issues": "The usual jam was boiled for hours and could be finished with honey after one year.",
+    "changes": "Short-cook apple and berries into a sauce with no honey. Once cool, keep it for three days in the fridge or freeze it.",
+    "serve": "From 6 months, on porridge or as a spoon. Leave it unsweetened at every age.",
+    "freezer": true
+  },
+  {
+    "id": "apple-sauce",
+    "title": "Apple sauce",
+    "title_hu": "Almaszósz",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "eating apples", "amount": "3", "note": "peeled and cored"},
+      {"item": "water", "amount": "3 tbsp", "note": "no sugar"}
+    ],
+    "method": [
+      "Peel, core, and chop the apples.",
+      "Cook them in the water until they collapse.",
+      "Mash until smooth, or leave a soft lump for an older baby.",
+      "Cool and use, or freeze in small portions.",
+      "Add nothing sweet."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "Sugar is often added to apple sauce and it is not needed.",
+    "changes": "Cook the apple and leave it unsweetened for porridge, meat, or a spoon.",
+    "serve": "From 6 months, unsweetened, beside porridge or meat or eaten on its own.",
+    "freezer": true
+  },
+  {
+    "id": "liver-spread",
+    "title": "Liver spread",
+    "title_hu": "Májkrém",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "chicken liver", "amount": "20 g raw", "note": "about 15 g cooked; once in the week only"},
+      {"item": "eating apple", "amount": "40 g", "note": "peeled and cooked soft"},
+      {"item": "rapeseed or olive oil", "amount": "1 tsp", "note": "makes a thin spread"}
+    ],
+    "method": [
+      "Simmer the liver in water until fully cooked and no pink remains.",
+      "Check the cooked liver for the child is about 15 g.",
+      "Cook the apple until soft.",
+      "Blend the liver, apple, and oil until the spread is thin.",
+      "Cool quickly.",
+      "Spread a thin layer on soft vegetables."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "A salty liver spread on crackers ignores the vitamin A limit and adds salt.",
+    "changes": "Blend fully cooked chicken liver with apple and a little oil into a thin spread, with no salt. The child's share is about 15 g liver, at most once a week, and not alongside a vitamin A supplement.",
+    "serve": "From 6 months, on soft vegetables, not on salty crackers. Do not serve liver dumplings or any other liver in the same week, and do not pair it with a vitamin A supplement.",
+    "freezer": true
+  },
+  {
+    "id": "vegetable-tomato-sauce",
+    "title": "Vegetable tomato sauce",
+    "title_hu": "Zöldséges paradicsomszósz",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 6,
+    "time_minutes": 35,
+    "ingredients": [
+      {"item": "carrot", "amount": "1", "note": "chopped"},
+      {"item": "onion", "amount": "1 small", "note": "chopped and cooked soft"},
+      {"item": "tomato", "amount": "2", "note": "fresh, or canned tomato with no added salt"},
+      {"item": "sweet pepper", "amount": "1 small", "note": "seeds removed"},
+      {"item": "water", "amount": "100 ml", "note": "no salt"}
+    ],
+    "method": [
+      "Chop the carrot, onion, tomato, and sweet pepper.",
+      "Cook them in the water until the carrot is completely soft.",
+      "Blend until smooth, adding no salt.",
+      "Thin with a little water if the sauce is stiff.",
+      "Cool and freeze in portions for pasta or beans."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "Salt is the usual addition and this sauce does not need it.",
+    "changes": "Cook carrot, onion, tomato, and sweet pepper, then blend them with no salt. Freeze portions to use as a base for pasta and beans.",
+    "serve": "From 6 months, on very soft pasta or well-cooked beans. It freezes well.",
+    "freezer": true
+  },
+  {
+    "id": "sweet-potato-base",
+    "title": "Sweet potato base",
+    "title_hu": "Édesburgonyás lap",
+    "category": "basics",
+    "min_age_months": 7,
+    "portions": 6,
+    "time_minutes": 45,
+    "ingredients": [
+      {"item": "sweet potato", "amount": "1 medium", "note": "baked until soft"},
+      {"item": "ground oats", "amount": "40 g", "note": "listed as gluten"},
+      {"item": "egg", "amount": "1", "note": "baked until fully set"},
+      {"item": "rapeseed or olive oil", "amount": "1 tbsp", "note": "keeps the sheet soft"}
+    ],
+    "method": [
+      "Bake the sweet potato until soft, then scoop out the flesh.",
+      "Mash it with the ground oats, egg, and oil.",
+      "Press the mix thinly on a lined tray.",
+      "Bake at 180 C until the egg is fully set and the centre stays soft.",
+      "Cool and cut pieces to use under spreads.",
+      "If the edges turn crisp, offer the soft middle only."
+    ],
+    "allergens": ["egg", "gluten"],
+    "verdict": "sound",
+    "issues": "An undercooked egg or a hard crisp base would undo a useful idea.",
+    "changes": "Press baked sweet potato, ground oats, egg, and oil into a thin sheet and bake it until the egg is fully cooked and the centre stays soft. Use the sheet as a base for spreads.",
+    "serve": "From 7 months, under a spread the child already tolerates. For a first egg, use a plain cooked egg on its own before hiding egg in this bake.",
+    "freezer": true
+  },
+  {
+    "id": "avocado-fish-spread",
+    "title": "Avocado and salmon spread",
+    "title_hu": "Avokádós hal",
+    "category": "basics",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "ripe avocado", "amount": "1/2", "note": "mashed the day it is eaten"},
+      {"item": "boneless cooked salmon", "amount": "20 g", "note": "the usual fish; skin and bones removed; fully cooked"},
+      {"item": "tuna canned in water", "amount": "15 g optional", "note": "no salt added; occasional only, instead of salmon"}
+    ],
+    "method": [
+      "Cook a small piece of boneless salmon until it flakes and no translucent part remains.",
+      "Check again and remove any bone or skin.",
+      "Mash the avocado until smooth.",
+      "Stir in a little salmon, or occasionally tuna canned in water with no salt added.",
+      "Thin with a few drops of water if the mash is stiff.",
+      "Serve the same day, with no mayonnaise."
+    ],
+    "allergens": ["fish"],
+    "verdict": "adjust",
+    "issues": "Tuna is saltier and higher in mercury than salmon, and mayonnaise does not belong in the mash.",
+    "changes": "Mash ripe avocado with a small amount of boneless cooked salmon, using tuna canned in water with no salt added only now and then. Serve it the same day.",
+    "serve": "From 8 months, the same day it is made. Salmon is the default. If fish is new, try the first taste in the morning on a well day, then keep offering fish a few times a week once it is tolerated.",
+    "freezer": false
+  },
+  {
+    "id": "beet-spread",
+    "title": "Beet spread",
+    "title_hu": "Céklakrém",
+    "category": "basics",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "beet", "amount": "50 g cooked", "note": "boiled or baked until soft, then peeled"},
+      {"item": "potato", "amount": "80 g cooked", "note": "peeled"},
+      {"item": "rapeseed or olive oil", "amount": "1 tsp", "note": "no salt"}
+    ],
+    "method": [
+      "Boil or bake the beet and potato until both are soft.",
+      "Peel and chop them.",
+      "Blend with the oil and a splash of cooking water.",
+      "Stop while the spread is soft enough to spoon.",
+      "Serve a small amount and add no salt."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "Beet is rich in nitrate, so offer a spread rather than a huge daily portion. This is a limit, not a ban.",
+    "changes": "Blend cooked beet and potato with oil and no salt.",
+    "serve": "From 8 months, as a small spread rather than a large bowl every day. Beet can stay on the menu within that limit.",
+    "freezer": true
+  },
+  {
+    "id": "egg-spread",
+    "title": "Egg spread",
+    "title_hu": "Tojáskrém",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "egg", "amount": "1", "note": "hard-boiled for 10 minutes"},
+      {"item": "plain pasteurized yogurt", "amount": "2 tbsp", "note": "unsweetened"}
+    ],
+    "method": [
+      "Boil the egg for 10 minutes so the yolk is firm.",
+      "Cool it in cold water and peel it.",
+      "Mash the whole egg with the yogurt.",
+      "Thin until it spoons easily.",
+      "Serve fresh, with no raw yolk and no mayonnaise."
+    ],
+    "allergens": ["milk", "egg"],
+    "verdict": "sound",
+    "issues": "Raw yolk mayonnaise is undercooked egg in a salty sauce.",
+    "changes": "Mash a hard-boiled egg with yogurt and skip any raw egg.",
+    "serve": "From 6 months. If egg or milk is new, try the first taste in the morning on a well day. Once tolerated, keep offering egg and milk a few times a week.",
+    "freezer": false
+  },
+  {
+    "id": "fish-spread",
+    "title": "White fish spread",
+    "title_hu": "Halpástétom",
+    "category": "basics",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "boneless white fish", "amount": "60 g", "note": "pollock, cod, or haddock; not shark, swordfish, marlin, carp, or smoked fish"},
+      {"item": "potato", "amount": "80 g", "note": "peeled and cooked soft"},
+      {"item": "rapeseed or olive oil", "amount": "1 tsp", "note": "stirred in at the end"}
+    ],
+    "method": [
+      "Check the fillet and remove every bone.",
+      "Poach or steam it until it flakes and is opaque all through.",
+      "Mash it with the cooked potato and the oil.",
+      "Thin with a little cooking water if needed.",
+      "Cool quickly.",
+      "Serve, or freeze in a small pot, and do not use smoked fish."
+    ],
+    "allergens": ["fish"],
+    "verdict": "sound",
+    "issues": "Smoked fish is salty and is not the same as a fresh cooked fillet.",
+    "changes": "Blend cooked boneless white fish with potato and oil. Leave out smoked fish, shark, swordfish, marlin, and carp.",
+    "serve": "From 6 months. If fish is new, try the first taste in the morning on a well day, and once it is tolerated keep offering fish a few times a week.",
+    "freezer": true
+  },
+  {
+    "id": "paprika-curd",
+    "title": "Paprika cottage cheese",
+    "title_hu": "Paprikás túró",
+    "category": "basics",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "pasteurized cottage cheese", "amount": "100 g", "note": "unsalted"},
+      {"item": "sweet paprika", "amount": "1 tsp", "note": "mild, not hot"},
+      {"item": "onion", "amount": "1 tbsp cooked", "note": "boiled until soft, then cooled; not raw"},
+      {"item": "plain pasteurized yogurt", "amount": "1 tbsp", "note": "only if the cheese is stiff"}
+    ],
+    "method": [
+      "Cook the chopped onion in water until soft, then drain and cool it.",
+      "Mash the cottage cheese until smooth.",
+      "Stir in the onion and sweet paprika.",
+      "Add yogurt if the mix is stiff.",
+      "Serve with no salt."
+    ],
+    "allergens": ["milk"],
+    "verdict": "replace",
+    "issues": "The usual spiced cheese spread is salty and sharp with onion.",
+    "changes": "Stir pasteurized cottage cheese with sweet paprika and a little cooked onion, and add no salt.",
+    "serve": "From 8 months, a small spoon on soft vegetables or bread the child already manages. If milk is new, try the first taste in the morning on a well day.",
+    "freezer": false
+  },
+  {
+    "id": "fruit-oat-wheat-biscuits",
+    "title": "Fruit oat wheat biscuits",
+    "title_hu": "Gyümölcsös keksz",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "unsweetened fruit purée", "amount": "80 g", "note": "apple or pear; no sugar"},
+      {"item": "rolled oats", "amount": "60 g", "note": "soft biscuit base"},
+      {"item": "plain wheat flour", "amount": "1 tbsp", "note": "a real gluten dose, not a trace"}
+    ],
+    "method": [
+      "Heat the oven to 160 C.",
+      "Mix the fruit purée, oats, and wheat flour into a soft dough.",
+      "Drop small thick biscuits on a tray.",
+      "Bake until set but still soft, not dry.",
+      "Cool and press one to check it squashes before you offer it."
+    ],
+    "allergens": ["gluten"],
+    "verdict": "sound",
+    "issues": "A hard sweet biscuit would miss the point of a soft gluten exposure.",
+    "changes": "Bake soft biscuits from fruit purée, oats, and a spoon of wheat flour so the gluten dose is real. Add no sugar.",
+    "serve": "Try the first taste in the morning on a well day. Offer wheat in pasta or bread as well through the week. Once gluten is tolerated, keep offering it a few times a week.",
+    "freezer": true
+  },
+  {
+    "id": "crumb-zucchini",
+    "title": "Crumbed zucchini",
+    "title_hu": "Morzsás cukkini",
+    "category": "allergens",
+    "min_age_months": 8,
+    "portions": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "zucchini", "amount": "1 small", "note": "cut into sticks and steamed until just soft"},
+      {"item": "egg", "amount": "1", "note": "baked until fully set"},
+      {"item": "plain breadcrumbs", "amount": "2 tbsp", "note": "a weak gluten dose on their own; unsalted"}
+    ],
+    "method": [
+      "Cut the zucchini into sticks and steam them until just soft.",
+      "Beat the egg.",
+      "Turn the sticks in egg, then in breadcrumbs.",
+      "Bake at 180 C until the egg is set and the crumb is soft, not crisp.",
+      "Cool, and shorten any stick that is awkward to hold."
+    ],
+    "allergens": ["egg", "gluten"],
+    "verdict": "adjust",
+    "issues": "A crisp crust is too hard, and breadcrumbs alone are only a weak gluten exposure.",
+    "changes": "Coat zucchini sticks in egg and breadcrumbs and bake them until the crumb is soft.",
+    "serve": "This is a weak gluten exposure on its own, so keep offering pasta or bread too. Try the first taste in the morning on a well day. Once egg and gluten are tolerated, keep offering them a few times a week.",
+    "freezer": true
+  },
+  {
+    "id": "fish-and-shrimp-muffin",
+    "title": "Fish and shrimp muffins",
+    "title_hu": "Halas muffin",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "eggs", "amount": "2", "note": "baked until fully set"},
+      {"item": "boneless cooked white fish", "amount": "30 g", "note": "pollock, cod, or haddock; not shark, swordfish, marlin, or carp"},
+      {"item": "fully cooked shrimp", "amount": "15 g", "note": "later batch only, after fish is tolerated; chopped fine"}
+    ],
+    "method": [
+      "Heat the oven to 170 C and beat the eggs.",
+      "Stir in flaked boneless white fish that is already fully cooked, with no shrimp yet.",
+      "Spoon into small tins and bake until the egg is set in the centre.",
+      "Offer these fish-only muffins first.",
+      "On a later day, after fish is tolerated, fold finely chopped fully cooked shrimp into the same batter.",
+      "Bake until set again, and chop any shrimp piece that is still a chunk."
+    ],
+    "allergens": ["egg", "fish", "crustacean"],
+    "verdict": "adjust",
+    "issues": "Shellfish needs its own introduction, separate from the first fish muffins.",
+    "changes": "Make the fish-only egg muffins first. Add finely chopped fully cooked shrimp only later, after fish has been tolerated, because shrimp is a different allergen.",
+    "serve": "The fish-only muffins contain egg and fish. Try shrimp only after fish has been tolerated, on a well morning, chopped fine. Try any first taste in the morning on a well day, and once an allergen is tolerated keep offering it a few times a week.",
+    "freezer": true
+  },
+  {
+    "id": "yogurt-semolina",
+    "title": "Yogurt semolina",
+    "title_hu": "Joghurtos búzadara",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 15,
+    "ingredients": [
+      {"item": "wheat semolina", "amount": "20 g", "note": "a real gluten portion"},
+      {"item": "water", "amount": "120 ml", "note": "cook the grain in water, not in sweetened milk"},
+      {"item": "plain pasteurized yogurt", "amount": "3 tbsp", "note": "stirred in off the boil; no sugar"}
+    ],
+    "method": [
+      "Boil the water and whisk in the semolina.",
+      "Cook, stirring, until thick and the grain is soft.",
+      "Cool until just warm.",
+      "Stir in the plain yogurt.",
+      "Serve beside fruit and an iron-rich food, not as the only dish."
+    ],
+    "allergens": ["milk", "gluten"],
+    "verdict": "sound",
+    "issues": "Semolina stirred with yogurt is low in iron, so it cannot be the whole meal.",
+    "changes": "Cook semolina in water and stir in plain yogurt, with no sugar. Serve it as a milk and gluten practice food beside fruit and an iron food.",
+    "serve": "This is a milk and gluten practice food. Put fruit and an iron food, such as meat, lentils, or fortified infant cereal, beside it. Try the first taste in the morning on a well day, and once tolerated keep offering milk and gluten a few times a week.",
+    "freezer": false
+  },
+  {
+    "id": "tofu-strips",
+    "title": "Tofu strips",
+    "title_hu": "Sült tofu",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 10,
+    "ingredients": [
+      {"item": "unsalted firm tofu", "amount": "60 g", "note": "a first soy food; no soy sauce"},
+      {"item": "rapeseed or olive oil", "amount": "1 tsp", "note": "to warm the tofu, not to fry it hard"}
+    ],
+    "method": [
+      "Cut the tofu into soft finger strips, or crumble it.",
+      "Warm the strips in the oil until hot.",
+      "Or stir the crumble into a warm purée.",
+      "Check that a strip squashes easily between finger and thumb.",
+      "Serve with no soy sauce."
+    ],
+    "allergens": ["soy"],
+    "verdict": "sound",
+    "issues": "Soy sauce is a salty condiment, not a first soy food.",
+    "changes": "Warm unsalted firm tofu in a little oil as soft strips, or crumble it into a purée. Use no soy sauce.",
+    "serve": "A first soy food from 6 months. Try the first taste in the morning on a well day. Once soy is tolerated, keep offering it a few times a week.",
+    "freezer": false
+  },
+  {
+    "id": "nut-dumplings",
+    "title": "Potato nut dumplings",
+    "title_hu": "Magvas nudli",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {"item": "potato", "amount": "150 g", "note": "boiled and mashed; no wheat flour and no egg"},
+      {"item": "smooth almond butter or smooth walnut butter", "amount": "1 tsp", "note": "one nut only, mixed into the dough; not peanut and not a spoonful on the side"}
+    ],
+    "method": [
+      "Boil the potato until very soft, then mash it with no salt and no flour.",
+      "Stir in one teaspoon of one smooth nut butter, either almond or walnut, not both.",
+      "Shape small soft dumplings with wet hands.",
+      "Boil them until they are hot and soft all through.",
+      "Serve the dumpling, not a dry nut coating and not a spoon of nut butter."
+    ],
+    "allergens": ["tree-nut"],
+    "verdict": "adjust",
+    "issues": "Dry nut coatings and whole nuts were the hazard. This does not replace peanut.",
+    "changes": "Mix one smooth nut butter into soft potato dumplings, almond or walnut, one nut at a time, and boil them. Do not roll them in dry ground nuts or serve thick nut butter on a spoon.",
+    "serve": "Try one tree nut at a time, the first taste in the morning on a well day. Once that nut is tolerated, keep offering it a few times a week. Peanut still needs its own foods.",
+    "freezer": true
+  },
+  {
+    "id": "peanut-yogurt",
+    "title": "Peanut yogurt",
+    "title_hu": "Mogyoróvajas joghurt",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 5,
+    "ingredients": [
+      {"item": "smooth peanut butter", "amount": "1 tsp", "note": "no bits; never served thick on a spoon"},
+      {"item": "plain pasteurized yogurt", "amount": "3 tbsp", "note": "milk path; unsweetened"},
+      {"item": "fruit purée", "amount": "3 tbsp", "note": "milk-free path; use this instead of yogurt, not as well as a thick nut spoon"}
+    ],
+    "method": [
+      "Choose either yogurt or fruit purée.",
+      "Stir one teaspoon of smooth peanut butter into three tablespoons of the chosen base.",
+      "Keep stirring until no thick pocket of peanut butter remains.",
+      "Thin further if the mix still holds a peak.",
+      "Offer a small taste from a spoon, never the peanut butter alone."
+    ],
+    "allergens": ["milk", "peanut"],
+    "verdict": "adjust",
+    "issues": "A baby with severe eczema or egg allergy should be assessed before the first peanut taste. Never give a spoon of thick peanut butter.",
+    "changes": "Stir one teaspoon of smooth peanut butter into three tablespoons of yogurt, or into fruit purée, until it is loose. The yogurt path contains milk and the fruit path is milk-free.",
+    "serve": "Use the fruit purée path if milk is not yet tolerated, and then the only allergen is peanut. Try the first taste in the morning on a well day. After peanut is tolerated, offer about two teaspoons thinned, three times a week.",
+    "freezer": false
+  },
+  {
+    "id": "peanut-oat-fingers",
+    "title": "Peanut oat fingers",
+    "title_hu": "Zabos mogyorórúd",
+    "category": "allergens",
+    "min_age_months": 8,
+    "portions": 6,
+    "time_minutes": 25,
+    "ingredients": [
+      {"item": "rolled oats", "amount": "40 g", "note": "listed as gluten; soft fingers, not a hard rod"},
+      {"item": "ripe banana", "amount": "1 small", "note": "mashed; no sugar"},
+      {"item": "smooth peanut butter", "amount": "1 tsp", "note": "mixed through the dough; never a thick spoonful alone"}
+    ],
+    "method": [
+      "Mash the banana.",
+      "Stir in the oats and the peanut butter until the paste is even.",
+      "Shape short thick fingers with wet hands.",
+      "Bake at 160 C until set but still soft.",
+      "Cool and press one to check it squishes rather than snaps.",
+      "Serve a soft finger, not peanut butter on a spoon."
+    ],
+    "allergens": ["gluten", "peanut"],
+    "verdict": "adjust",
+    "issues": "A baby with severe eczema or egg allergy should be assessed before the first peanut taste. Never give thick peanut butter alone, and do not offer a hard rod.",
+    "changes": "Bake soft fingers from oats, banana, and a teaspoon of smooth peanut butter mixed through the dough.",
+    "serve": "Try the first taste in the morning on a well day. After peanut is tolerated, offer about two teaspoons of smooth peanut butter thinned into food, three times a week. If a finger bakes hard, discard it.",
+    "freezer": true
+  },
+  {
+    "id": "carrot-egg",
+    "title": "Carrot egg",
+    "title_hu": "Sárgarépás tojás",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 12,
+    "ingredients": [
+      {"item": "egg", "amount": "1", "note": "cooked until fully set; a clear first egg"},
+      {"item": "carrot", "amount": "1 tbsp grated", "note": "cooked soft before it goes into the egg"}
+    ],
+    "method": [
+      "Cook the grated carrot in a splash of water until soft.",
+      "Beat the egg and stir in the carrot.",
+      "Pour it into a warm pan as a thin strip, or scramble it.",
+      "Cook until the egg is fully set, with no liquid yolk or white.",
+      "Cool slightly and cut a soft piece."
+    ],
+    "allergens": ["egg"],
+    "verdict": "sound",
+    "issues": "A trace of egg hidden in a bake is not a clear first taste.",
+    "changes": "Beat an egg with a little grated carrot and cook it as a soft strip or scramble until fully set.",
+    "serve": "A proper first egg from 6 months, not a trace hidden in a bake. Try the first taste in the morning on a well day. Once egg is tolerated, keep offering it a few times a week.",
+    "freezer": false
+  },
+  {
+    "id": "egg-sweet-potato",
+    "title": "Egg and sweet potato",
+    "title_hu": "Tojás édesburgonyával",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 1,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "egg", "amount": "1", "note": "hard-boiled until the yolk is firm"},
+      {"item": "sweet potato", "amount": "100 g", "note": "cooked and mashed"}
+    ],
+    "method": [
+      "Boil the egg for 10 minutes and cool it in cold water.",
+      "Cook the sweet potato until soft, then mash the flesh.",
+      "Peel the egg and mash it into the sweet potato.",
+      "Thin with a little water if the purée is stiff.",
+      "Mash out any lump of egg white before serving."
+    ],
+    "allergens": ["egg"],
+    "verdict": "sound",
+    "issues": "A soft yolk is not fully cooked.",
+    "changes": "Mash a hard-boiled egg into sweet-potato purée.",
+    "serve": "From 6 months, with the egg fully cooked. Try the first taste in the morning on a well day. Once egg is tolerated, keep offering it a few times a week.",
+    "freezer": false
+  },
+  {
+    "id": "sesame-chickpea",
+    "title": "Sesame chickpeas",
+    "title_hu": "Szezámos csicseriborsó",
+    "category": "allergens",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 20,
+    "ingredients": [
+      {"item": "cooked chickpeas", "amount": "100 g", "note": "dried chickpeas boiled until completely soft; not firm beans from salted brine"},
+      {"item": "tahini", "amount": "1 tsp", "note": "smooth sesame paste; do not add whole sesame seeds"},
+      {"item": "lemon juice", "amount": "a few drops", "note": "fresh lemon"}
+    ],
+    "method": [
+      "Start with chickpeas boiled until they are completely soft, then drain them.",
+      "Blend them with the tahini and a few drops of lemon.",
+      "Add cooking water until the mix is loose and falls from the spoon.",
+      "Serve on a spoon, or thin it further.",
+      "Do not sprinkle whole sesame seeds on top."
+    ],
+    "allergens": ["sesame"],
+    "verdict": "adjust",
+    "issues": "Whole sesame seeds are a choking hazard and a weak dose.",
+    "changes": "Blend cooked chickpeas with a teaspoon of tahini and a few drops of lemon until loose. Tahini is the introduction, not scattered seeds.",
+    "serve": "Serve on a spoon or thinned further. Try the first taste in the morning on a well day. Once sesame is tolerated, keep offering it a few times a week.",
+    "freezer": true
+  }
+]

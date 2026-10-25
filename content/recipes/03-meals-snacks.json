@@ -1,0 +1,1603 @@
+[
+  {
+    "id": "soft-cinnamon-oats",
+    "title": "Soft cinnamon oat bake",
+    "title_hu": "Fahéjas zab",
+    "category": "toddler-meals",
+    "min_age_months": 8,
+    "portions": 6,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "Rolled oats",
+        "amount": "90 g",
+        "note": "Fine or ordinary oats"
+      },
+      {
+        "item": "Ripe banana",
+        "amount": "1 large",
+        "note": "Mashed smooth"
+      },
+      {
+        "item": "Full-fat milk",
+        "amount": "180 ml",
+        "note": "Pasteurized"
+      },
+      {
+        "item": "Ground cinnamon",
+        "amount": "a pinch",
+        "note": "Less than 1/8 teaspoon"
+      },
+      {
+        "item": "Plain full-fat yogurt",
+        "amount": "120 g",
+        "note": "Pasteurized; for soaking or crumbling at the table"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mash the banana and stir in the oats, milk, and cinnamon.",
+      "Spread the mixture in a small tin.",
+      "Bake until just set and still soft, about 18 minutes.",
+      "Cool until warm, then soak a piece in yogurt or crumble it in.",
+      "Offer small soft spoonfuls."
+    ],
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "verdict": "replace",
+    "issues": "Crisp granola and chopped nuts were the problem. A dry cluster can break into hard pieces that a young child can choke on.",
+    "changes": "This is a soft baked oat porridge made with banana, oats, a pinch of cinnamon, and milk. If you stir in a teaspoon of smooth almond or peanut butter that is already tolerated, thin it into the yogurt and add tree-nut or peanut to the allergens. A baby with severe eczema or a known egg allergy needs a clinician before the first peanut taste.",
+    "serve": "Serve warm, soaked or crumbled into plain yogurt. Freeze slices of the bake without the yogurt, and add yogurt after thawing.",
+    "freezer": true
+  },
+  {
+    "id": "apple-peanut-quinoa",
+    "title": "Apple peanut quinoa",
+    "title_hu": "Almás mogyorós quinoa",
+    "category": "toddler-meals",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "Quinoa",
+        "amount": "50 g",
+        "note": "Rinsed well"
+      },
+      {
+        "item": "Eating apple",
+        "amount": "1 small",
+        "note": "Peeled, cored, and grated"
+      },
+      {
+        "item": "Water",
+        "amount": "250 ml",
+        "note": "Enough to cook the grains fully soft"
+      },
+      {
+        "item": "Smooth peanut butter",
+        "amount": "1 teaspoon",
+        "note": "Thin it in yogurt before it goes in the bowl"
+      },
+      {
+        "item": "Plain full-fat yogurt",
+        "amount": "30 g",
+        "note": "Pasteurized; used to thin the peanut butter"
+      }
+    ],
+    "method": [
+      "Rinse the quinoa and simmer it in the water until every grain is soft.",
+      "Stir in the grated apple and cook until the apple is soft.",
+      "Stir the peanut butter into the yogurt until the mixture is thin.",
+      "Fold that thin mixture through the warm quinoa.",
+      "Mash so no dry grains remain, and cool to serving temperature."
+    ],
+    "allergens": [
+      "peanut",
+      "milk"
+    ],
+    "verdict": "replace",
+    "issues": "The usual dish waited until 11 or 12 months and used dry puffed quinoa, which is easy to inhale. A baby with severe eczema or an egg allergy needs medical advice before the first peanut taste.",
+    "changes": "Cook the quinoa until soft, or use oats and then add gluten to the allergens. Thin a teaspoon of smooth peanut butter with yogurt or the cooking liquid, then fold in grated cooked apple.",
+    "serve": "Once tolerated, about two teaspoons of smooth peanut butter, thinned, three times a week. Never a spoonful of thick peanut butter.",
+    "freezer": true
+  },
+  {
+    "id": "apple-porridge",
+    "title": "Apple porridge",
+    "title_hu": "Almás zabkása",
+    "category": "toddler-meals",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {
+        "item": "Rolled oats",
+        "amount": "40 g",
+        "note": "Ordinary or fine"
+      },
+      {
+        "item": "Eating apple",
+        "amount": "1 small",
+        "note": "Peeled, cored, and grated"
+      },
+      {
+        "item": "Full-fat milk",
+        "amount": "200 ml",
+        "note": "Pasteurized; use the same amount of water for a milk-free pot"
+      }
+    ],
+    "method": [
+      "Put the oats, grated apple, and milk or water in a small pan.",
+      "Bring to a simmer and stir.",
+      "Cook until the oats and apple are soft, adding a splash of water if it thickens too much.",
+      "Cool to serving temperature and mash any firmer bits.",
+      "Serve as a bowl, not a drink."
+    ],
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "verdict": "sound",
+    "issues": "Added sugar is unnecessary because the apple is already sweet. A milk-free eater still needs a water-only pot.",
+    "changes": "Cook the oats in water or full-fat milk with grated apple, and add no sugar. Offer the water-only pot as the milk-free step.",
+    "serve": "Cow's milk in the porridge is fine; it is not a drink. Use water only when you need a milk-free bowl.",
+    "freezer": true
+  },
+  {
+    "id": "yogurt-porridge",
+    "title": "Yogurt porridge",
+    "title_hu": "Joghurtos zabkása",
+    "category": "toddler-meals",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {
+        "item": "Rolled oats",
+        "amount": "40 g",
+        "note": "Cooked until soft"
+      },
+      {
+        "item": "Water",
+        "amount": "200 ml",
+        "note": "For cooking the oats"
+      },
+      {
+        "item": "Plain full-fat yogurt",
+        "amount": "60 g",
+        "note": "Pasteurized; stirred in off the heat"
+      }
+    ],
+    "method": [
+      "Simmer the oats in the water until soft.",
+      "Take the pan off the heat.",
+      "Cool the porridge a little, until it is warm rather than hot.",
+      "Stir in the plain yogurt.",
+      "Serve straight away."
+    ],
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "verdict": "sound",
+    "issues": "Sweetened yogurt would add sugar this bowl does not need. The oats should be cooked in water, not stirred in raw.",
+    "changes": "Cook the oats in water, cool them a little, and stir in plain full-fat yogurt.",
+    "serve": "Serve warm in a bowl. The yogurt goes in after cooking, so make it fresh rather than freezing it.",
+    "freezer": false
+  },
+  {
+    "id": "coconut-porridge",
+    "title": "Coconut porridge",
+    "title_hu": "Kókuszos zabkása",
+    "category": "toddler-meals",
+    "min_age_months": 6,
+    "portions": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {
+        "item": "Rolled oats",
+        "amount": "40 g",
+        "note": "Ordinary or fine"
+      },
+      {
+        "item": "Unsweetened coconut milk",
+        "amount": "100 ml",
+        "note": "Plain coconut milk from a carton or can"
+      },
+      {
+        "item": "Water",
+        "amount": "100 ml",
+        "note": "To dilute the coconut milk"
+      },
+      {
+        "item": "Ripe banana or mango",
+        "amount": "80 g",
+        "note": "Mashed"
+      }
+    ],
+    "method": [
+      "Stir the coconut milk and water together in a small pan.",
+      "Add the oats and simmer until soft.",
+      "Stir in the mashed banana or mango.",
+      "Cool to serving temperature.",
+      "Serve in a bowl."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "sound",
+    "issues": "This is a bowl of porridge, not a coconut drink in a bottle. Sweetened coconut milk would add sugar.",
+    "changes": "Cook the oats in unsweetened coconut milk diluted with water, then stir in ripe banana or mango.",
+    "serve": "Offer it from a bowl with a spoon. Do not put coconut milk in a bottle.",
+    "freezer": true
+  },
+  {
+    "id": "red-lentil-soup",
+    "title": "Red lentil soup",
+    "title_hu": "Vöröslencse krémleves",
+    "category": "toddler-meals",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "Red lentils",
+        "amount": "120 g",
+        "note": "Rinsed"
+      },
+      {
+        "item": "Carrot",
+        "amount": "1 medium",
+        "note": "Peeled and chopped"
+      },
+      {
+        "item": "Tomato",
+        "amount": "1 medium",
+        "note": "Chopped"
+      },
+      {
+        "item": "Onion",
+        "amount": "1 small",
+        "note": "Peeled and chopped"
+      },
+      {
+        "item": "Water",
+        "amount": "600 ml",
+        "note": "Enough to cover the lentils"
+      },
+      {
+        "item": "Plain full-fat yogurt",
+        "amount": "40 g",
+        "note": "Pasteurized; optional spoon on top"
+      }
+    ],
+    "method": [
+      "Put the lentils, carrot, tomato, onion, and water in a pan.",
+      "Simmer until the lentils have collapsed and the vegetables are very soft.",
+      "Blend until smooth, adding a little water if it is too thick.",
+      "Leave the yogurt off for a dairy-free bowl, or spoon it on after cooking.",
+      "Cool to serving temperature and check there are no firm bits."
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "verdict": "sound",
+    "issues": "Salt is left out so the soup stays suitable from six months. The yogurt on top is optional and is the only source of the milk allergen.",
+    "changes": "Blend red lentils with carrot, tomato, and onion into a smooth soup. Leave the yogurt off for a dairy-free finish, or add one spoon of plain yogurt at the table. It is excellent iron and a proper meal.",
+    "serve": "Serve warm in a bowl. Freeze without the yogurt, and add that spoon after thawing if you use it.",
+    "freezer": true
+  },
+  {
+    "id": "tomato-vegetable-soup",
+    "title": "Tomato vegetable soup",
+    "title_hu": "Zöldséges paradicsomkrémleves",
+    "category": "toddler-meals",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "Tomatoes",
+        "amount": "3 medium",
+        "note": "Chopped"
+      },
+      {
+        "item": "Carrot",
+        "amount": "1 medium",
+        "note": "Peeled and chopped"
+      },
+      {
+        "item": "Potato",
+        "amount": "1 medium",
+        "note": "Peeled and chopped"
+      },
+      {
+        "item": "Red pepper",
+        "amount": "1 small",
+        "note": "Seeds removed and chopped"
+      },
+      {
+        "item": "Water",
+        "amount": "400 ml",
+        "note": "Enough to simmer the vegetables"
+      },
+      {
+        "item": "Olive oil",
+        "amount": "1 tablespoon",
+        "note": "Stirred in after blending"
+      }
+    ],
+    "method": [
+      "Put the tomatoes, carrot, potato, red pepper, and water in a pan.",
+      "Simmer until the potato and carrot are very soft.",
+      "Blend until completely smooth.",
+      "Stir in the olive oil off the heat.",
+      "Cool to serving temperature."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "Salt and cream are not required. The vegetables should be blended smooth for the early months.",
+    "changes": "Cook tomato, carrot, potato, and red pepper, blend them, and stir olive oil in at the end.",
+    "serve": "Serve warm in a bowl. It is a complete soft meal without cream.",
+    "freezer": true
+  },
+  {
+    "id": "sweet-potato-curd-dumplings",
+    "title": "Sweet potato curd dumplings",
+    "title_hu": "Édesburgonyás túrógombóc",
+    "category": "toddler-meals",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 55,
+    "ingredients": [
+      {
+        "item": "Sweet potato",
+        "amount": "250 g",
+        "note": "Baked until very soft, then mashed"
+      },
+      {
+        "item": "Cottage cheese",
+        "amount": "150 g",
+        "note": "Pasteurized; drain off extra whey"
+      },
+      {
+        "item": "Egg",
+        "amount": "1",
+        "note": "Mixed through and cooked until set"
+      },
+      {
+        "item": "Plain wheat flour",
+        "amount": "50 g",
+        "note": "Just enough to hold a soft shape"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C and bake the sweet potato until it collapses.",
+      "Mash the flesh with the cottage cheese and egg.",
+      "Work in the flour until the mix holds a soft mound.",
+      "Set small mounds on a lined tray and do not coat them.",
+      "Bake until the egg is set and the centres stay soft, about 18 minutes.",
+      "Cool slightly and serve in tender pieces."
+    ],
+    "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "Crisp crumbs and a sugary coating are the wrong finish. The egg must be fully set and the dumplings must stay soft.",
+    "changes": "Use pasteurized cottage cheese, baked sweet potato, a little flour, and egg, and boil or bake only until set. Do not roll them in crumbs and do not sweeten them.",
+    "serve": "Serve warm and soft, in small pieces. They should yield to a finger, not crunch.",
+    "freezer": true
+  },
+  {
+    "id": "quinoa-curd-bake",
+    "title": "Quinoa cottage cheese bake",
+    "title_hu": "Túrós quinoa",
+    "category": "toddler-meals",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 40,
+    "ingredients": [
+      {
+        "item": "Quinoa",
+        "amount": "80 g",
+        "note": "Rinsed"
+      },
+      {
+        "item": "Water",
+        "amount": "200 ml",
+        "note": "For cooking the quinoa"
+      },
+      {
+        "item": "Cottage cheese",
+        "amount": "200 g",
+        "note": "Pasteurized"
+      },
+      {
+        "item": "Egg",
+        "amount": "1",
+        "note": "Baked until fully set"
+      }
+    ],
+    "method": [
+      "Simmer the quinoa in the water until soft and the water is absorbed.",
+      "Heat the oven to 180°C.",
+      "Stir the cottage cheese and egg through the cooked quinoa.",
+      "Spread in a small dish.",
+      "Bake until the egg is set and the middle is no longer liquid, about 20 minutes.",
+      "Cool slightly and spoon out soft servings."
+    ],
+    "allergens": [
+      "milk",
+      "egg"
+    ],
+    "verdict": "adjust",
+    "issues": "The usual version was described as needing no cooking, which would leave the egg unset and the quinoa firm. Raw egg is not served.",
+    "changes": "Cook the quinoa, then bind it with pasteurized cottage cheese and egg and bake until the egg is set. Add no sugar.",
+    "serve": "Serve warm. The grains should be soft, not separate and dry.",
+    "freezer": true
+  },
+  {
+    "id": "egg-muffins",
+    "title": "Egg muffins",
+    "title_hu": "Tojásmuffin",
+    "category": "toddler-meals",
+    "min_age_months": 6,
+    "portions": 6,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "Eggs",
+        "amount": "3",
+        "note": "Beaten"
+      },
+      {
+        "item": "Full-fat milk",
+        "amount": "60 ml",
+        "note": "Pasteurized"
+      },
+      {
+        "item": "Carrot",
+        "amount": "1 small",
+        "note": "Finely grated"
+      },
+      {
+        "item": "Zucchini",
+        "amount": "1 small",
+        "note": "Finely grated and squeezed dry"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Beat the eggs with the milk.",
+      "Stir in the carrot and zucchini.",
+      "Divide between six small tins.",
+      "Bake until fully set and no liquid egg remains, about 15 minutes.",
+      "Cool until warm and cut into soft pieces."
+    ],
+    "allergens": [
+      "egg",
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "Ham is salty and cured, so it is left out, and no salt is added. Waiting past six months is not necessary for egg.",
+    "changes": "Bake egg and milk with grated carrot and zucchini until fully set. These are a good early egg food; do not wait.",
+    "serve": "Offer a soft piece from six months, as an early egg food. Check the centre is set before you serve it.",
+    "freezer": true
+  },
+  {
+    "id": "baked-chicken-loaf",
+    "title": "Baked chicken and carrot loaf",
+    "title_hu": "Sült csirkemell zöldséggel",
+    "category": "toddler-meals",
+    "min_age_months": 8,
+    "portions": 6,
+    "time_minutes": 45,
+    "ingredients": [
+      {
+        "item": "Minced chicken",
+        "amount": "400 g",
+        "note": "Raw thigh or breast, not cured meat"
+      },
+      {
+        "item": "Carrot",
+        "amount": "1 medium",
+        "note": "Finely grated"
+      },
+      {
+        "item": "Fresh parsley",
+        "amount": "a small handful",
+        "note": "Finely chopped"
+      },
+      {
+        "item": "Olive oil",
+        "amount": "1 teaspoon",
+        "note": "To grease the tin"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mix the minced chicken, carrot, and parsley.",
+      "Press the mix into a small greased tin.",
+      "Bake until the centre is opaque and the juices run clear, about 30 minutes.",
+      "Rest for five minutes, then slice soft."
+    ],
+    "allergens": [],
+    "verdict": "replace",
+    "issues": "The usual name is a chicken ham. Shop ham is salty and cured.",
+    "changes": "Bake an unsalted loaf of minced chicken, grated carrot, and herbs, and slice it soft. No nitrite salt is used.",
+    "serve": "Slice it soft and offer small pieces. There is no cured meat in the loaf.",
+    "freezer": true
+  },
+  {
+    "id": "vegetable-frittata",
+    "title": "Vegetable and cheese frittata",
+    "title_hu": "Sajtos zöldséges frittata",
+    "category": "toddler-meals",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "Eggs",
+        "amount": "4",
+        "note": "Beaten"
+      },
+      {
+        "item": "Potato",
+        "amount": "1 medium",
+        "note": "Peeled and sliced thin"
+      },
+      {
+        "item": "Broccoli",
+        "amount": "100 g",
+        "note": "Small florets"
+      },
+      {
+        "item": "Mild cheese",
+        "amount": "30 g",
+        "note": "Pasteurized, grated; a modest amount"
+      }
+    ],
+    "method": [
+      "Simmer the potato and broccoli in water until just soft, then drain.",
+      "Heat the oven to 180°C.",
+      "Lay the vegetables in a small dish and pour the eggs over them.",
+      "Scatter on the cheese.",
+      "Bake until the egg is set all the way through, about 18 minutes.",
+      "Cool slightly and cut into soft squares."
+    ],
+    "allergens": [
+      "egg",
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "A thick layer of salty cheese is too much for this dish. The egg has to be baked until set, with no liquid centre.",
+    "changes": "Bake egg with a little mild cheese, broccoli, and potato. Keep the cheese modest and add no salt.",
+    "serve": "Serve warm in soft squares. A little mild pasteurized cheese is enough.",
+    "freezer": true
+  },
+  {
+    "id": "potato-bake",
+    "title": "Potato and zucchini bake",
+    "title_hu": "Rakott burgonya",
+    "category": "toddler-meals",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 50,
+    "ingredients": [
+      {
+        "item": "Potatoes",
+        "amount": "400 g",
+        "note": "Peeled and sliced thin"
+      },
+      {
+        "item": "Zucchini",
+        "amount": "1 medium",
+        "note": "Sliced thin"
+      },
+      {
+        "item": "Tomatoes",
+        "amount": "2 medium",
+        "note": "Sliced"
+      },
+      {
+        "item": "Full-fat milk",
+        "amount": "200 ml",
+        "note": "Pasteurized"
+      },
+      {
+        "item": "Mild cheese",
+        "amount": "30 g",
+        "note": "Pasteurized, grated"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Layer the potato, zucchini, and tomato in a small dish.",
+      "Pour the milk over the vegetables.",
+      "Scatter the cheese on top.",
+      "Bake until the potato is soft and the milk has thickened, about 40 minutes.",
+      "Rest for a few minutes and serve in soft spoonfuls."
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "Cream and salt are the usual extras this tray does not need. Milk and a little cheese are enough to bring it together.",
+    "changes": "Bake potato, zucchini, and tomato in milk with a little cheese. Add no salt and no cream.",
+    "serve": "Serve warm. The potato should mash easily with a fork.",
+    "freezer": true
+  },
+  {
+    "id": "mild-bean-stew",
+    "title": "Mild white bean stew",
+    "title_hu": "Babos zöldség",
+    "category": "toddler-meals",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "Cooked white beans",
+        "amount": "250 g",
+        "note": "Already cooked in plain water until very soft"
+      },
+      {
+        "item": "Tomato",
+        "amount": "200 g",
+        "note": "Chopped"
+      },
+      {
+        "item": "Sweet pepper",
+        "amount": "1 medium",
+        "note": "Seeds removed and chopped"
+      },
+      {
+        "item": "Sweet paprika",
+        "amount": "1 teaspoon",
+        "note": "Mild, not hot"
+      },
+      {
+        "item": "Sweetcorn",
+        "amount": "80 g",
+        "note": "Mash the kernels; do not leave them whole"
+      },
+      {
+        "item": "Water",
+        "amount": "150 ml",
+        "note": "To keep the stew loose"
+      }
+    ],
+    "method": [
+      "Put the beans, tomato, pepper, paprika, and water in a pan.",
+      "Simmer until the beans crush with no firm core.",
+      "Add the sweetcorn and cook for a few minutes more.",
+      "Mash the stew so the corn and beans are soft, not whole.",
+      "Cool to serving temperature."
+    ],
+    "allergens": [],
+    "verdict": "replace",
+    "issues": "The usual name was a chili. Hot chili and salt are left out, and whole corn is harder to manage than a mash.",
+    "changes": "Simmer white beans with tomato, sweet pepper, and sweet paprika until the beans are fully soft, and mash the corn into the stew. Use no hot chili and no salt.",
+    "serve": "Mash any piece that is still whole before you serve it. The beans should crush easily.",
+    "freezer": true
+  },
+  {
+    "id": "vegetable-egg-bake",
+    "title": "Crustless spinach egg bake",
+    "title_hu": "Zöldséges tojásos tál",
+    "category": "toddler-meals",
+    "min_age_months": 10,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "Eggs",
+        "amount": "4",
+        "note": "Beaten"
+      },
+      {
+        "item": "Full-fat milk",
+        "amount": "100 ml",
+        "note": "Pasteurized"
+      },
+      {
+        "item": "Spinach",
+        "amount": "80 g",
+        "note": "Washed, wilted, and chopped"
+      },
+      {
+        "item": "Mild cheese",
+        "amount": "30 g",
+        "note": "Pasteurized, grated"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Wilt the spinach, squeeze it, and chop it.",
+      "Beat the eggs with the milk, then stir in the spinach and cheese.",
+      "Pour into a small dish with no pastry crust.",
+      "Bake until the egg is set and the centre is firm, about 22 minutes.",
+      "Cool slightly and cut into soft pieces."
+    ],
+    "allergens": [
+      "egg",
+      "milk"
+    ],
+    "verdict": "replace",
+    "issues": "The pastry quiche was the problem. Pastry, cream, and salty cheese are not the meal to serve.",
+    "changes": "Bake a crustless mix of egg, milk, spinach, and a little mild cheese until the egg is set. Offer it from ten months.",
+    "serve": "Serve warm from ten months, in soft pieces. There is no pastry case.",
+    "freezer": true
+  },
+  {
+    "id": "soft-burger",
+    "title": "Soft beef patties",
+    "title_hu": "Házi húspogácsa",
+    "category": "toddler-meals",
+    "min_age_months": 10,
+    "portions": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "item": "Minced beef",
+        "amount": "300 g",
+        "note": "Plain mince, not cured or seasoned"
+      },
+      {
+        "item": "Onion",
+        "amount": "1 small",
+        "note": "Finely grated"
+      },
+      {
+        "item": "Soft bread",
+        "amount": "2 slices",
+        "note": "For serving; the patty itself has no wheat"
+      },
+      {
+        "item": "Tomato",
+        "amount": "1 medium",
+        "note": "Peeled and chopped soft"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mix the beef with the grated onion and shape four soft patties.",
+      "Bake until the centre is cooked through and no longer pink, about 18 minutes.",
+      "Rest, then cut the meat into squat pieces.",
+      "Serve with small pieces of soft bread and the tomato."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "A salty bun and ketchup are left off, and no salt goes into the meat. Ten months is the age because of the bread, not because the patty must wait that long on its own.",
+    "changes": "Bake a soft beef and grated-onion patty and serve it in pieces with soft bread and tomato. The patty alone is gluten-free; gluten comes from the bread. Cut the meat into squat pieces.",
+    "serve": "Cut the meat into squat pieces and serve with soft bread and tomato. Skip a salty bun and skip ketchup. The patty alone is gluten-free.",
+    "freezer": true
+  },
+  {
+    "id": "soft-rolls",
+    "title": "Soft milk rolls",
+    "title_hu": "Házi kifli",
+    "category": "toddler-meals",
+    "min_age_months": 10,
+    "portions": 8,
+    "time_minutes": 120,
+    "ingredients": [
+      {
+        "item": "Plain wheat flour",
+        "amount": "250 g",
+        "note": "Ordinary bread flour or plain flour"
+      },
+      {
+        "item": "Full-fat milk",
+        "amount": "150 ml",
+        "note": "Pasteurized and lukewarm"
+      },
+      {
+        "item": "Dried yeast",
+        "amount": "1 teaspoon",
+        "note": "About 3 g"
+      },
+      {
+        "item": "Mashed ripe apple",
+        "amount": "1 teaspoon",
+        "note": "Feeds the yeast"
+      },
+      {
+        "item": "Mild oil",
+        "amount": "1 tablespoon",
+        "note": "Rapeseed or sunflower"
+      }
+    ],
+    "method": [
+      "Stir the yeast and mashed apple into the lukewarm milk.",
+      "Mix in the flour and oil to make a soft dough.",
+      "Knead briefly, then cover and leave until puffy, which can take over an hour.",
+      "Shape eight small rolls and set them close together.",
+      "Bake at 180°C until just cooked and still pale, about 15 minutes.",
+      "Cool under a cloth so the crust stays soft."
+    ],
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "A pinch of sugar is not allowed, and a hard crust is a choking risk. The crust must stay soft.",
+    "changes": "Use a teaspoon of mashed apple to feed the yeast instead of sugar, and add no salt. The apple replaces the sugar. Bake the rolls only until cooked and still soft.",
+    "serve": "From ten months, break into small pieces with a soft crust. Do not let the rolls dry hard.",
+    "freezer": true
+  },
+  {
+    "id": "quick-soft-rolls",
+    "title": "Quick yogurt rolls",
+    "title_hu": "Gyors kifli kelesztés nélkül",
+    "category": "toddler-meals",
+    "min_age_months": 10,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "Plain wheat flour",
+        "amount": "200 g",
+        "note": "Ordinary plain flour"
+      },
+      {
+        "item": "Plain full-fat yogurt",
+        "amount": "180 g",
+        "note": "Pasteurized"
+      },
+      {
+        "item": "Baking powder",
+        "amount": "2 teaspoons",
+        "note": "To lift the dough without yeast"
+      },
+      {
+        "item": "Mild oil",
+        "amount": "1 tablespoon",
+        "note": "Rapeseed or sunflower"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Stir the flour, baking powder, yogurt, and oil into a soft dough.",
+      "Shape eight small rolls and set them close together.",
+      "Bake until just cooked and still pale, about 12 minutes.",
+      "Cool under a cloth so the crust does not turn crisp.",
+      "Break into small pieces."
+    ],
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "verdict": "adjust",
+    "issues": "A crisp crust is a choking risk on these rolls as well. Sugar and salt are left out.",
+    "changes": "Make yogurt and baking-powder rolls with no salt and no sugar. Bake them until soft, not crisp, and serve small pieces.",
+    "serve": "Keep the crust soft and offer small pieces from ten months. Take them out while they are still pale.",
+    "freezer": true
+  },
+  {
+    "id": "free-from-biscuits",
+    "title": "Banana oat oil biscuits",
+    "title_hu": "Tej- és tojásmentes keksz",
+    "category": "snacks",
+    "min_age_months": 7,
+    "portions": 10,
+    "time_minutes": 20,
+    "ingredients": [
+      {
+        "item": "Ripe banana",
+        "amount": "1 large",
+        "note": "Mashed smooth"
+      },
+      {
+        "item": "Rolled oats",
+        "amount": "100 g",
+        "note": "Fine oats give a softer bake"
+      },
+      {
+        "item": "Mild oil",
+        "amount": "1 tablespoon",
+        "note": "Rapeseed or sunflower"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mash the banana and stir in the oats and oil.",
+      "Press small thick rounds onto a lined tray.",
+      "Bake until just set and still soft, about 12 minutes.",
+      "Cool on the tray and keep them covered so they do not dry hard."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "Shop baby biscuits are unnecessary and often sweet. These biscuits are a texture, not an iron food.",
+    "changes": "Bake soft biscuits from banana, oats, and oil. Use no sugar and no honey.",
+    "serve": "Offer one soft piece as a texture to practise on, alongside an iron-rich meal. They should bend, not snap.",
+    "freezer": true
+  },
+  {
+    "id": "banana-biscuits",
+    "title": "Banana oat biscuits",
+    "title_hu": "Banános keksz",
+    "category": "snacks",
+    "min_age_months": 6,
+    "portions": 8,
+    "time_minutes": 18,
+    "ingredients": [
+      {
+        "item": "Ripe banana",
+        "amount": "1 medium",
+        "note": "Mashed smooth"
+      },
+      {
+        "item": "Rolled oats",
+        "amount": "80 g",
+        "note": "Fine or ordinary"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mash the banana and stir in the oats.",
+      "Press the mix flat in small rounds.",
+      "Bake until set but still soft, about 10 minutes.",
+      "Cool and serve before they dry out."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "sound",
+    "issues": "A biscuit baked until hard can snap into difficult pieces. Sugar is not needed with a ripe banana.",
+    "changes": "Mash banana with oats, press the mix flat, and bake it soft.",
+    "serve": "Serve a soft piece that squashes between finger and thumb. Do not bake them crisp.",
+    "freezer": true
+  },
+  {
+    "id": "pumpkin-biscuits",
+    "title": "Pumpkin oat biscuits",
+    "title_hu": "Sütőtökös keksz",
+    "category": "snacks",
+    "min_age_months": 7,
+    "portions": 10,
+    "time_minutes": 22,
+    "ingredients": [
+      {
+        "item": "Pumpkin puree",
+        "amount": "150 g",
+        "note": "Cooked and unsweetened"
+      },
+      {
+        "item": "Rolled oats",
+        "amount": "100 g",
+        "note": "Fine oats stay softer"
+      },
+      {
+        "item": "Mild oil",
+        "amount": "1 tablespoon",
+        "note": "Keeps the rounds tender"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mix the pumpkin, oats, and oil.",
+      "Press thick small rounds onto a lined tray.",
+      "Bake until just set and still soft, about 14 minutes.",
+      "Cool under a cloth so they do not harden."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "Honey sometimes sweetens this kind of bake, and honey is not used. A dry, hard biscuit is not the aim.",
+    "changes": "Bake pumpkin and oats into soft biscuits with no honey and no sugar.",
+    "serve": "Serve soft, thick pieces. Leave them out of the oven before the edges dry.",
+    "freezer": true
+  },
+  {
+    "id": "apple-oat-rounds",
+    "title": "Soft apple oat rounds",
+    "title_hu": "Almás korong",
+    "category": "snacks",
+    "min_age_months": 7,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "Eating apple",
+        "amount": "1 large",
+        "note": "Peeled, cored, and grated"
+      },
+      {
+        "item": "Water",
+        "amount": "2 tablespoons",
+        "note": "To cook the apple soft"
+      },
+      {
+        "item": "Rolled oats",
+        "amount": "90 g",
+        "note": "Stirred in after the apple is soft"
+      }
+    ],
+    "method": [
+      "Cook the grated apple with the water until soft.",
+      "Heat the oven to 180°C.",
+      "Stir in the oats and press thick rounds onto a lined tray.",
+      "Bake only until set, about 12 minutes.",
+      "Cool and serve while the rounds still give under a finger."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "adjust",
+    "issues": "Hard dried apple is a choking food. These are soft rounds, not dried apple rings.",
+    "changes": "Mix soft cooked apple with oats and bake rounds that stay tender. Do not dry them until they turn hard.",
+    "serve": "Serve soft rounds the same day if you can. Do not dry them into hard apple rings.",
+    "freezer": true
+  },
+  {
+    "id": "baked-cottage-cheese",
+    "title": "Baked apple cottage cheese",
+    "title_hu": "Túrós sütemény",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 6,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "Cottage cheese",
+        "amount": "250 g",
+        "note": "Pasteurized"
+      },
+      {
+        "item": "Egg",
+        "amount": "1",
+        "note": "Baked until set"
+      },
+      {
+        "item": "Fine semolina",
+        "amount": "30 g",
+        "note": "Wheat"
+      },
+      {
+        "item": "Eating apple",
+        "amount": "1 small",
+        "note": "Peeled and grated"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mash the cottage cheese with the egg and semolina.",
+      "Stir in the grated apple.",
+      "Spread in a small dish.",
+      "Bake until the egg is set and the top is still soft, about 25 minutes.",
+      "Cool slightly and spoon into bowls."
+    ],
+    "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+    ],
+    "verdict": "replace",
+    "issues": "The usual sweet cheese bake is full of sugar. That sweetness is left out.",
+    "changes": "Bake pasteurized cottage cheese with egg, a little semolina, and grated apple. Add no sugar.",
+    "serve": "Serve warm in soft spoonfuls. The apple is the only sweetness.",
+    "freezer": true
+  },
+  {
+    "id": "apple-carrot-muffins",
+    "title": "Apple carrot oat muffins",
+    "title_hu": "Almás-répás zabmuffin",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "Eating apple",
+        "amount": "1 medium",
+        "note": "Peeled and grated"
+      },
+      {
+        "item": "Carrot",
+        "amount": "1 medium",
+        "note": "Finely grated"
+      },
+      {
+        "item": "Egg",
+        "amount": "1",
+        "note": "Baked until set"
+      },
+      {
+        "item": "Rolled oats",
+        "amount": "120 g",
+        "note": "Fine or ordinary"
+      },
+      {
+        "item": "Mild oil",
+        "amount": "2 tablespoons",
+        "note": "Rapeseed or sunflower"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mix the apple, carrot, egg, oats, and oil.",
+      "Spoon into eight small cases.",
+      "Bake until soft and the egg is fully set, about 18 minutes.",
+      "Cool until warm and serve the same day or freeze."
+    ],
+    "allergens": [
+      "egg",
+      "gluten"
+    ],
+    "verdict": "sound",
+    "issues": "Honey and sugar are sometimes added to fruit muffins, and neither is used. The egg must be fully cooked.",
+    "changes": "Bake apple, carrot, egg, oats, and a little oil until the muffins are soft and the egg is set.",
+    "serve": "Serve a soft muffin, broken up if the piece is large. There is no honey and no sugar in the mix.",
+    "freezer": true
+  },
+  {
+    "id": "free-from-muffins",
+    "title": "Banana pumpkin oat muffins",
+    "title_hu": "Tej- és tojásmentes muffin",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "Ripe banana",
+        "amount": "1 large",
+        "note": "Mashed"
+      },
+      {
+        "item": "Pumpkin puree",
+        "amount": "120 g",
+        "note": "Cooked and unsweetened"
+      },
+      {
+        "item": "Rolled oats",
+        "amount": "140 g",
+        "note": "Fine or ordinary"
+      },
+      {
+        "item": "Mild oil",
+        "amount": "2 tablespoons",
+        "note": "Rapeseed or sunflower"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mash the banana and stir in the pumpkin, oats, and oil.",
+      "Spoon into eight small cases.",
+      "Bake until just set and still soft, about 18 minutes.",
+      "Cool before serving."
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "verdict": "sound",
+    "issues": "These are free of milk and egg, but they are not a sweetened treat. Sugar is left out.",
+    "changes": "Bake banana, pumpkin, oats, and oil into soft muffins. Use no egg, no milk, and no sugar.",
+    "serve": "Serve soft. They suit a child who is avoiding milk and egg.",
+    "freezer": true
+  },
+  {
+    "id": "pumpkin-bread",
+    "title": "Soft pumpkin banana loaf",
+    "title_hu": "Sütőtökös kenyér",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 8,
+    "time_minutes": 45,
+    "ingredients": [
+      {
+        "item": "Pumpkin puree",
+        "amount": "200 g",
+        "note": "Cooked and unsweetened"
+      },
+      {
+        "item": "Ripe banana",
+        "amount": "1 large",
+        "note": "Mashed"
+      },
+      {
+        "item": "Egg",
+        "amount": "1",
+        "note": "Used to bind the loaf"
+      },
+      {
+        "item": "Plain wheat flour",
+        "amount": "150 g",
+        "note": "Ordinary plain flour"
+      },
+      {
+        "item": "Baking powder",
+        "amount": "1 teaspoon",
+        "note": "For a soft rise"
+      },
+      {
+        "item": "Mild oil",
+        "amount": "2 tablespoons",
+        "note": "Rapeseed or sunflower"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mash the banana with the pumpkin, egg, and oil.",
+      "Stir in the flour and baking powder.",
+      "Pour into a small tin.",
+      "Bake until just set and still tender, about 30 minutes.",
+      "Cool, then slice and keep the crust soft under a cloth."
+    ],
+    "allergens": [
+      "gluten",
+      "egg"
+    ],
+    "verdict": "adjust",
+    "issues": "Honey was the risk in this kind of loaf. A hard crust is not the texture to aim for.",
+    "changes": "Bake a soft pumpkin and banana loaf bound with one egg, and use no honey. Slice it and serve it soft.",
+    "serve": "Slice and serve soft pieces. Cover the loaf so the crust does not dry.",
+    "freezer": true
+  },
+  {
+    "id": "roasted-vegetable-fingers",
+    "title": "Soft roasted vegetable fingers",
+    "title_hu": "Zöldséges sültek",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 35,
+    "ingredients": [
+      {
+        "item": "Carrots",
+        "amount": "2 medium",
+        "note": "Cut into thick fingers"
+      },
+      {
+        "item": "Parsnip",
+        "amount": "1 medium",
+        "note": "Peeled and cut into thick fingers"
+      },
+      {
+        "item": "Zucchini",
+        "amount": "1 medium",
+        "note": "Cut into thick fingers"
+      },
+      {
+        "item": "Olive oil",
+        "amount": "1 tablespoon",
+        "note": "Tossed through before roasting"
+      }
+    ],
+    "method": [
+      "Heat the oven to 190°C.",
+      "Toss the vegetable fingers in the oil.",
+      "Spread them in one layer.",
+      "Roast until they bend easily, about 25 minutes.",
+      "Take them out before the edges turn crisp, and cool slightly."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "These are soft roasted fingers, not crisps. Hard browned edges are a choking texture.",
+    "changes": "Roast carrot, parsnip, and zucchini in olive oil until soft, with no salt. Take them out while they still bend.",
+    "serve": "Serve fingers that bend and mash. They are not crisps.",
+    "freezer": true
+  },
+  {
+    "id": "fruit-curd-bites",
+    "title": "Strawberry cottage cheese bites",
+    "title_hu": "Túrós falatok",
+    "category": "snacks",
+    "min_age_months": 12,
+    "portions": 6,
+    "time_minutes": 60,
+    "ingredients": [
+      {
+        "item": "Cottage cheese",
+        "amount": "200 g",
+        "note": "Pasteurized; drained if watery"
+      },
+      {
+        "item": "Strawberries",
+        "amount": "80 g",
+        "note": "Hulled and mashed"
+      }
+    ],
+    "method": [
+      "Mash the strawberries.",
+      "Stir them through the cottage cheese.",
+      "Spoon small mounds onto a plate.",
+      "Chill until they hold a soft shape, about 45 minutes.",
+      "Serve with a spoon or as a soft bite, with nothing coated on the outside."
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "verdict": "replace",
+    "issues": "The chocolate bar was the problem. Chocolate and a sugar shell do not belong here.",
+    "changes": "Mix soft pasteurized cottage cheese with strawberry and serve it with no chocolate and no coating. Offer it from twelve months as an occasional food.",
+    "serve": "Offer from twelve months, now and then, not every day. There is no chocolate and no coating.",
+    "freezer": true
+  },
+  {
+    "id": "baked-custard",
+    "title": "Baked semolina custard",
+    "title_hu": "Sült tejbegríz",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 40,
+    "ingredients": [
+      {
+        "item": "Full-fat milk",
+        "amount": "400 ml",
+        "note": "Pasteurized"
+      },
+      {
+        "item": "Eggs",
+        "amount": "2",
+        "note": "Beaten and baked until set"
+      },
+      {
+        "item": "Fine semolina",
+        "amount": "20 g",
+        "note": "Wheat"
+      },
+      {
+        "item": "Eating apple or pear",
+        "amount": "1",
+        "note": "Peeled and cooked soft, served on the side"
+      }
+    ],
+    "method": [
+      "Heat the oven to 160°C.",
+      "Warm the milk, whisk in the semolina, and cook for a minute.",
+      "Cool slightly, then beat in the eggs.",
+      "Pour into small dishes and bake until just set and no liquid egg remains, about 25 minutes.",
+      "Meanwhile cook the peeled fruit in a little water until soft.",
+      "Serve the custard with the fruit beside it."
+    ],
+    "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+    ],
+    "verdict": "replace",
+    "issues": "The usual custard slice is puff pastry and sugar. Pastry and a sweet set custard are not used.",
+    "changes": "Bake an unsweetened custard of milk, egg, and a little fine semolina, and serve cooked fruit on the side.",
+    "serve": "Serve warm or cool, with soft cooked fruit on the side. There is no pastry lid.",
+    "freezer": true
+  },
+  {
+    "id": "soft-oat-squares",
+    "title": "Soft apple oat squares",
+    "title_hu": "Zabos szelet",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 8,
+    "time_minutes": 25,
+    "ingredients": [
+      {
+        "item": "Rolled oats",
+        "amount": "120 g",
+        "note": "Fine or ordinary"
+      },
+      {
+        "item": "Eating apple",
+        "amount": "1 large",
+        "note": "Peeled and grated"
+      },
+      {
+        "item": "Full-fat milk",
+        "amount": "100 ml",
+        "note": "Pasteurized"
+      }
+    ],
+    "method": [
+      "Heat the oven to 180°C.",
+      "Mix the oats, grated apple, and milk.",
+      "Press the mix firmly into a small tin.",
+      "Bake until just set, about 15 minutes.",
+      "Cool in the tin and cut into soft squares that press in, not chewy-hard bars."
+    ],
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "verdict": "replace",
+    "issues": "The usual muesli bar uses honey and chopped nuts. Whole nuts are a choking food, and honey is not used.",
+    "changes": "Press oats, grated apple, and milk into squares and bake until just set, not chewy-hard. Add no honey and no whole nuts.",
+    "serve": "Cut soft squares and serve them the day they are baked if you can. They should not chew like a dried bar.",
+    "freezer": true
+  },
+  {
+    "id": "date-nut-spoon",
+    "title": "Date and peanut spoon",
+    "title_hu": "Gyümölcsös kanálkrém",
+    "category": "snacks",
+    "min_age_months": 12,
+    "portions": 4,
+    "time_minutes": 15,
+    "ingredients": [
+      {
+        "item": "Dates",
+        "amount": "4",
+        "note": "Pitted, unsulphured, soaked until soft"
+      },
+      {
+        "item": "Smooth peanut butter",
+        "amount": "2 teaspoons",
+        "note": "Stirred into the mash, never served thick on a spoon"
+      },
+      {
+        "item": "Fine oats",
+        "amount": "30 g",
+        "note": "Softened in the mash"
+      },
+      {
+        "item": "Soaking water",
+        "amount": "4 tablespoons",
+        "note": "Keeps the mix loose enough to spoon"
+      }
+    ],
+    "method": [
+      "Soak the pitted dates in warm water until soft.",
+      "Drain them and keep four tablespoons of the soaking water.",
+      "Mash the dates with the oats, peanut butter, and soaking water until smooth and loose.",
+      "Check the mash falls from a spoon rather than holding a stiff ball.",
+      "Serve with a spoon."
+    ],
+    "allergens": [
+      "peanut",
+      "gluten"
+    ],
+    "verdict": "replace",
+    "issues": "Energy balls are sticky, sweet, and a choking risk, and they often contain honey. This is not a daily food, because dates are free sugar.",
+    "changes": "Mash soaked dates with smooth peanut butter and oats into a spoonable mix, and serve it with a spoon rather than rolling hard balls. Keep it occasional from twelve months, and use no honey. A baby with severe eczema or a known egg allergy needs a clinician before the first peanut taste.",
+    "serve": "Not a daily food. Offer a few spoonfuls from twelve months, and only if peanut is already tolerated. Never a thick spoon of peanut butter on its own.",
+    "freezer": true
+  },
+  {
+    "id": "mango-strawberry-ice",
+    "title": "Mango strawberry soft ice",
+    "title_hu": "Mangó-eper jég",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 120,
+    "ingredients": [
+      {
+        "item": "Ripe mango",
+        "amount": "200 g",
+        "note": "Peeled and chopped"
+      },
+      {
+        "item": "Strawberries",
+        "amount": "150 g",
+        "note": "Hulled"
+      }
+    ],
+    "method": [
+      "Blend the mango and strawberries until smooth.",
+      "Pour into a shallow tub.",
+      "Freeze for about two hours, stirring once, until it is a soft scoop.",
+      "Stop before it becomes a hard lump.",
+      "Mash it if it firms up, and serve at once."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "Hard ice is a choking and tooth risk. A solid frozen lump should not be handed over.",
+    "changes": "Blend mango and strawberry with no sugar and freeze only to a soft scoop. Serve on a spoon or in a feeder.",
+    "serve": "Serve on a spoon or in a feeder while it is still a soft scoop. If it freezes hard, soften and mash it before offering.",
+    "freezer": true
+  },
+  {
+    "id": "banana-mango-ice",
+    "title": "Banana mango soft ice",
+    "title_hu": "Banán-mangó fagyi",
+    "category": "snacks",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 120,
+    "ingredients": [
+      {
+        "item": "Ripe banana",
+        "amount": "1 large",
+        "note": "Peeled and chopped"
+      },
+      {
+        "item": "Ripe mango",
+        "amount": "150 g",
+        "note": "Peeled and chopped"
+      }
+    ],
+    "method": [
+      "Blend the banana and mango until smooth.",
+      "Spread in a shallow tub.",
+      "Freeze until just spoonable, about two hours.",
+      "Stir once so it does not set into a block.",
+      "Mash any firmer edge before serving."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "A hard frozen block is difficult for a baby and harsh on teeth. Sugar is not added.",
+    "changes": "Blend banana and mango and freeze until soft, not solid.",
+    "serve": "Serve a soft spoonful. Mash it again if it starts to freeze hard.",
+    "freezer": true
+  },
+  {
+    "id": "cherry-banana-ice",
+    "title": "Cherry banana soft ice",
+    "title_hu": "Cseresznyés banánfagyi",
+    "category": "snacks",
+    "min_age_months": 8,
+    "portions": 4,
+    "time_minutes": 120,
+    "ingredients": [
+      {
+        "item": "Cherries",
+        "amount": "150 g",
+        "note": "Every pit removed; check twice"
+      },
+      {
+        "item": "Ripe banana",
+        "amount": "1 large",
+        "note": "Peeled and chopped"
+      }
+    ],
+    "method": [
+      "Pit every cherry and look through the fruit again for pits.",
+      "Blend the cherries with the banana until smooth.",
+      "Freeze in a shallow tub, stirring once, for about two hours.",
+      "Stop at a soft scoop, not a hard block.",
+      "Mash before serving and glance once more for any pit fragment."
+    ],
+    "allergens": [],
+    "verdict": "adjust",
+    "issues": "Whole cherries and pits are the hazard. A pit or a whole cherry can block the airway.",
+    "changes": "Pit the cherries, blend them with banana, and soft-freeze the mix with no sugar. Check again that every pit is gone.",
+    "serve": "Serve a soft spoonful only after you have checked for pits. Do not offer whole cherries.",
+    "freezer": true
+  },
+  {
+    "id": "banana-avocado-ice",
+    "title": "Banana avocado soft ice",
+    "title_hu": "Banán-avokádó jég",
+    "category": "snacks",
+    "min_age_months": 6,
+    "portions": 4,
+    "time_minutes": 120,
+    "ingredients": [
+      {
+        "item": "Ripe banana",
+        "amount": "1 large",
+        "note": "Peeled and chopped"
+      },
+      {
+        "item": "Ripe avocado",
+        "amount": "1/2",
+        "note": "Peeled and stone removed"
+      }
+    ],
+    "method": [
+      "Blend the banana and avocado until smooth.",
+      "Spread in a shallow tub.",
+      "Freeze only until just firm enough to scoop, about two hours.",
+      "Mash it if any part turns solid.",
+      "Serve straight away with a spoon."
+    ],
+    "allergens": [],
+    "verdict": "sound",
+    "issues": "Hard ice is a poor texture for sore gums. This should stay soft enough to mash with a spoon.",
+    "changes": "Blend banana and avocado and soft-freeze it, for sore gums as much as for a snack. Add no sugar.",
+    "serve": "Offer a soft spoonful for sore gums or as a snack. Mash it if it firms up.",
+    "freezer": true
+  }
+]

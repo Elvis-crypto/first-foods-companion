@@ -1,0 +1,112 @@
+[
+  {
+    "id": "picky-eating",
+    "title": "Picky eating",
+    "byline": "Suspicion of new food is a normal toddler stage. Growth, not the day’s plate, tells you when to ask for help.",
+    "image": "plate-a.jpg",
+    "image_alt": "A plate of soft cooked foods",
+    "findings": [
+      {"id": "normal", "lead": "Neophobia peaks after the first birthday.", "text": "A child who ate broadly as a baby and narrows as a toddler is following a common path, not failing one."},
+      {"id": "response", "lead": "Keep the structure and drop the negotiations.", "text": "One family meal, a familiar food on the plate, no substitute dinner."},
+      {"id": "help", "lead": "Ask for help when growth, not manners, is the worry.", "text": "Falling off a growth curve, fear that looks like pain, or a diet of only a handful of foods for months is a clinical question."}
+    ],
+    "sections": [
+      {"id": "normal", "heading": "What is ordinary", "paragraphs": ["Food neophobia rises in the second year and then slowly falls. It probably had a survival value once children could wander toward plants. It feels personal and is mostly developmental. Children also have days of eating almost nothing and days of eating a great deal, often tracking growth spurts rather than your menu.", "A few reliable foods, sometimes called accepted foods, are an asset. Build the plate around one of them plus the family food. Do not retire a food forever because it was refused twice."]},
+      {"id": "response", "heading": "What helps", "paragraphs": ["Keep meals predictable. Let the child see the food without being asked to perform. Eat the same food yourself. Offer rejected foods in a different cut or next to a dip they like, still without commentary. Fifteen quiet exposures beat one dramatic tasting session.", "Milk after the first birthday should not become the meal. If a toddler drinks milk all afternoon they will arrive at supper full. Water between meals, milk with a meal or a snack, in a moderate daily amount."]},
+      {"id": "help", "heading": "When it is more than picky", "paragraphs": ["Talk to the health visitor or paediatrician if weight or length is faltering, if eating hurts, if the child coughs or vomits with specific textures, or if the accepted list has shrunk to a few brand-specific foods and is still shrinking. Those patterns are not solved by more pressure.", "A child who is growing, playing, and driving you mad at dinner is usually in the ordinary group. The work is to stay boring and available."]}
+    ],
+    "references": [
+      {"title": "The Satter Feeding Dynamics Model and the division of responsibility", "source": "Ellyn Satter Institute", "year": "2024", "url": "https://www.ellynsatterinstitute.org/satter-feeding-dynamics-model/"},
+      {"title": "Complementary Feeding: A Position Paper", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"}
+    ]
+  },
+  {
+    "id": "illness",
+    "title": "When a child is ill",
+    "byline": "Familiar food, enough fluid, and the usual milk. A sick day is a bad day to diagnose an allergy or to start a new one.",
+    "image": "hero.jpg",
+    "image_alt": "A simple bowl of soft food",
+    "findings": [
+      {"id": "fluids", "lead": "Fluids and milk come before a perfect menu.", "text": "Small, familiar meals are enough. Do not fast a young child."},
+      {"id": "new", "lead": "Do not introduce a new allergen during an illness.", "text": "A rash or a vomit on that day is impossible to interpret."},
+      {"id": "call", "lead": "Know the signs that need a clinician the same day.", "text": "Poor urine output, a sunken fontanelle, blood in the stool, unusual sleepiness, or hard breathing are not home observations to sit on."}
+    ],
+    "sections": [
+      {"id": "fluids", "heading": "Feed the illness, gently", "paragraphs": ["Appetite falls with fever and with a sore mouth. Breast milk or formula continues. Offer smaller amounts of foods the child already likes. Yogurt, fruit, a plain porridge, or a broth you have not salted are enough. Forcing a balanced plate onto a nauseated child earns a food aversion.", "Oral rehydration solution is the right tool for vomiting or diarrhoea when milk alone is not keeping up. A health visitor can walk you through it. Sugary juice is a poor substitute and can worsen diarrhoea."]},
+      {"id": "new", "heading": "Leave experiments for a well week", "paragraphs": ["Illness changes skin and stools. A new food on the same day creates a false allergy story and a food the family then avoids for years. Wait until the child is well, then return to the introduction plan.", "Teething and illness get blamed for each other. A fever that is more than a small rise, or a child who is distinctly unwell, is not explained by a tooth. Have them seen."]},
+      {"id": "call", "heading": "When to call", "paragraphs": ["Call the same day if the child is under three months with a fever, is unusually floppy or hard to wake, is breathing with effort, has blood in vomit or stool, or is not passing urine. Those are the situations where food advice is irrelevant.", "After antibiotics, the diet does not need a special cleanse. Ordinary food, including yogurt if they like it, is fine. Probiotic products are optional and are not a required part of recovery."]}
+    ],
+    "references": [
+      {"title": "Diarrhoea and vomiting", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/"},
+      {"title": "Infant and young child feeding", "source": "World Health Organization fact sheet", "year": "2023", "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding"}
+    ]
+  },
+  {
+    "id": "teething",
+    "title": "Teething",
+    "byline": "Cold food and something firm to chew are enough. Amber necklaces and benzocaine gels are not.",
+    "image": "plate-c.jpg",
+    "image_alt": "Soft food a child can hold",
+    "findings": [
+      {"id": "comfort", "lead": "Cold, not frozen solid, feels useful.", "text": "A chilled cucumber stick, a cold spoon, or a soft-frozen fruit purée can help if the texture is already safe for that baby."},
+      {"id": "products", "lead": "Skip benzocaine and lidocaine teething gels.", "text": "Regulators warn against them in infants because they can affect the blood’s oxygen carrying and because they numb the gag."},
+      {"id": "amber", "lead": "Amber necklaces are a strangling and choking object.", "text": "There is no good evidence that they reduce pain, and there are case reports of harm."}
+    ],
+    "sections": [
+      {"id": "comfort", "heading": "What is reasonable at the table", "paragraphs": ["Teething can make gums sore and meals smaller for a few days. Keep offering the usual foods. Add something cold the baby can already manage: yogurt from the fridge, a peeled cucumber stick if they are chewing soft strips, or a fruit purée frozen until it is spoonable rather than rock hard. A hard lump of ice is its own choking and tooth injury.", "Extra drool plus acidic fruit often reddens the chin. A plain barrier ointment and gentle washing do more than an allergy label. Wipe, do not scrub."]},
+      {"id": "products", "heading": "Gels and tablets", "paragraphs": ["The US Food and Drug Administration advises against benzocaine teething products in children under two, because of methemoglobinaemia, and against viscous lidocaine for the same job. Numbing the mouth also makes choking more likely. In Europe, products aimed at infant teething have been restricted for the same reasons.", "A clean finger rubbed on the gum is dull and effective. A dose of paracetamol or ibuprofen, in the infant formulation and at the dose your clinician has already approved, is the medicine conversation to have. It is not a food decision, and it is not for every grizzle."]},
+      {"id": "amber", "heading": "Necklaces and other objects", "paragraphs": ["Amber bead necklaces are marketed as a natural analgesic. The proposed mechanism is not credible at the dose a bead could release onto skin, and the object sits on the airway. The FDA has warned about choking and strangulation. Take them off for sleep and, better, do not use them.", "Teething biscuits that are rock hard, or that are mostly sugar, fail both the choking test and the nutrition test. A piece of bread crust the baby already manages is a simpler chew."]}
+    ],
+    "references": [
+      {"title": "Safely Soothing Teething Pain in Infants and Children", "source": "US Food and Drug Administration", "year": "2018", "url": "https://www.fda.gov/consumers/consumer-updates/safely-soothing-teething-pain-infants-and-children"},
+      {"title": "Is your baby or toddler seriously ill?", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/health/is-your-baby-or-toddler-seriously-ill/"}
+    ]
+  },
+  {
+    "id": "vitamins-and-minerals",
+    "title": "Vitamins and minerals",
+    "byline": "Vitamin D is a supplement decision from the first days. Iron is a food decision from six months. The rest follows the diet.",
+    "image": "plate-a.jpg",
+    "image_alt": "Foods that carry iron and vegetables",
+    "findings": [
+      {"id": "d", "lead": "Breastfed infants need a vitamin D supplement.", "text": "Food will not cover it. In Hungarian practice the usual prevention dose is prescribed by the paediatrician or health visitor, often 400 IU a day."},
+      {"id": "iron-min", "lead": "Iron comes from food after six months, not from a routine tonic.", "text": "Meat, legumes, and fortified cereal are the sources. A supplement is for a diagnosed deficiency or a specific risk, not a default."},
+      {"id": "b12", "lead": "A vegan infant diet needs a plan, not optimism.", "text": "Vitamin B12, iodine, iron, zinc, calcium, and DHA do not appear by accident in a plant-only diet."},
+      {"id": "a", "lead": "Liver is a vitamin A dose.", "text": "Once a week, in a small portion, is plenty. Do not add a vitamin A supplement on top."}
+    ],
+    "sections": [
+      {"id": "d", "heading": "Vitamin D", "paragraphs": ["Infants in Central Europe do not make enough vitamin D from sun for most of the year, and breast milk contains little. The NHS recommends 8.5 to 10 micrograms (340 to 400 IU) a day for breastfed babies from birth to one year. Hungarian paediatric practice commonly prescribes a daily vitamin D drop in that neighbourhood, sometimes up to a higher prevention dose. Use the product and the dose you were given. Do not stack a second product ‘to be safe’.", "Infant formula already contains vitamin D. A baby drinking around 500 ml or more a day may not need an extra drop; this is a question for the prescriber, because the right answer depends on the formula and the volume."]},
+      {"id": "iron-min", "heading": "Iron, zinc, and iodine", "paragraphs": ["The dietary iron need in the second six months is high relative to body size, about 11 mg a day in US reference values, and it is met by food frequency rather than by one heroic portion. Serve an iron food most days. Zinc travels with meat and with beans. Plants alone are a thinner zinc source.", "Iodine matters for the thyroid and for development. Dairy, eggs, and fish carry it. Iodised salt is the population tool and is the wrong tool under one year, because salt itself is restricted. A breastfeeding mother’s iodine intake matters; that is her supplement conversation, not a reason to salt the baby."]},
+      {"id": "b12", "heading": "Vegetarian and vegan plates", "paragraphs": ["A lacto-ovo vegetarian infant diet can work if eggs and dairy are actually eaten and iron is planned. A vegan diet can be constructed and is easy to get wrong. ESPGHAN asks that vegan infants receive medical and dietetic supervision and a reliable vitamin B12 source. Iodine, DHA from an algal oil, iron, zinc, and calcium need named foods, not a hope that variety will cover them.", "Plant drinks are not infant formula. Rice drinks are unsuitable under five. Other plant drinks are not a main drink in the first year unless a clinician has chosen a specific product."]},
+      {"id": "a", "heading": "Vitamin A and the liver rule", "paragraphs": ["Liver is rich in iron and so rich in preformed vitamin A that a large or frequent portion can overshoot. A small serving, about 15 grams of cooked liver in the child’s share, at most once a week, is the cautious reading of that fact. Skip liver entirely in a week when a vitamin A containing supplement is being used.", "Ordinary vegetables supply carotenoids, which the body converts in a regulated way. There is no matching limit on carrots. Orange skin from carrots is harmless and fades."]}
+    ],
+    "references": [
+      {"title": "Vitamins for children", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/vitamins-for-children/"},
+      {"title": "Complementary Feeding: A Position Paper, on iron and on vegan diets", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "Dietary Reference Intakes for iron", "source": "National Academies / NIH Office of Dietary Supplements, Iron fact sheet for health professionals", "year": "2023", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"},
+      {"title": "Foods to avoid giving babies and young children, liver and vitamin A", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"}
+    ]
+  },
+  {
+    "id": "pocket-guide",
+    "title": "A pocket guide",
+    "byline": "The decisions that matter, on one page, with a link to the longer explanation.",
+    "image": "hero.jpg",
+    "image_alt": "A simple bowl of first food",
+    "findings": [
+      {"id": "do", "lead": "Start around six months, with iron and the main allergens.", "text": "Keep milk feeds. Move texture on. Eat together. Repeat refused foods calmly."},
+      {"id": "dont", "lead": "Leave out honey, added salt, added sugar, and whole nuts.", "text": "Leave out juice, rice drinks, ham, stock cubes, and hard round foods."},
+      {"id": "ask", "lead": "Ask a clinician before peanut if eczema is severe or egg allergy is already known.", "text": "Ask the same day if breathing, colour, or responsiveness change after a food."}
+    ],
+    "sections": [
+      {"id": "do", "heading": "Do", "paragraphs": ["Wait until the baby is developing the skills to eat, and start by about six months, not before four. Offer meat, lentils, beans, egg, or fortified cereal early. Offer peanut, egg, milk, wheat, sesame, fish, and soy in safe textures and keep them in the week once tolerated. Sit the baby upright. Add a little oil. Use herbs. Freeze unsalted extras.", "Read the pages on timing, allergens, and how meals happen if you want the reasoning rather than the list."]},
+      {"id": "dont", "heading": "Do not", "paragraphs": ["Do not add salt or sugar. Do not give honey before one year. Do not give whole nuts, whole grapes, popcorn, or thick nut butter. Do not give rice drinks to a child under five. Do not use cow’s milk as the main drink before one. Do not serve liver more than once a week. Do not keep a raw herb paste for a week or store garlic in oil. Do not feed from a screen or bargain with dessert.", "Party cakes, chocolate bars, and crisp granola are occasional foods for older toddlers, and several familiar versions are the wrong texture or the wrong sweetener for a baby. The recipe pages say what was changed and why."]},
+      {"id": "ask", "heading": "Ask someone", "paragraphs": ["Before the first peanut taste if the baby has severe eczema or an egg allergy. If growth is faltering. If you are feeding a vegan diet. If a food caused widespread hives, swelling, breathing difficulty, or floppiness: that last group is an emergency service, not a next-week appointment.", "This site is an evidence-checked companion inspired by a Hungarian weaning book. It is not that book, and it is not a personal medical opinion on your child."]}
+    ],
+    "references": [
+      {"title": "Complementary Feeding: A Position Paper", "source": "ESPGHAN, JPGN", "year": "2017", "url": "https://doi.org/10.1097/MPG.0000000000001454"},
+      {"title": "Foods to avoid giving babies and young children", "source": "NHS", "year": "2024", "url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"},
+      {"title": "Addendum Guidelines for the Prevention of Peanut Allergy", "source": "NIAID expert panel", "year": "2017", "url": "https://doi.org/10.1186/s40413-016-0137-9"}
+    ]
+  }
+]
