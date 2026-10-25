@@ -325,7 +325,7 @@ UI = {
         "references": "References",
         "side_guides": "Guides",
         "cook_h1": "Cook these versions.",
-        "cook_lede": "Filter by the age of the child, or mark ingredients to require or leave out. A recipe appears when its minimum age is at or below the age you choose. Hungarian names are kept so you can find the dish you had in mind.",
+        "cook_lede": "Filter by the age of the child, or mark ingredients to require or leave out. Recipes that start at the age you choose are listed first. Earlier ones stay, because a younger recipe is still fine. Hungarian names are kept so you can find the dish you had in mind.",
         "ingredient_label": "Ingredients",
         "ingredient_find": "Find an ingredient",
         "ingredient_hint": "Click once to require it. Click again to leave it out. Click again to clear.",
@@ -337,6 +337,11 @@ UI = {
         "age_label": "Show recipes a child this age can start",
         "any_age": "Any minimum age",
         "age_option": "{n} months",
+        "age_starts": "Starts at {n} months",
+        "age_earlier": "Also fine from earlier",
+        "age_note": "Starting at {n} months: {start}. Still fine from earlier: {earlier}.",
+        "age_note_only": "Starting at {n} months: {start}.",
+        "age_note_earlier": "Nothing starts at {n} months. Still fine from earlier: {earlier}.",
         "any_note": "Any note",
         "all": "All",
         "category_label": "Category",
@@ -420,7 +425,7 @@ UI = {
         "references": "Források",
         "side_guides": "Útmutatók",
         "cook_h1": "Ezeket a változatokat főzd.",
-        "cook_lede": "Szűrj a gyerek kora szerint, vagy jelöld meg a hozzávalókat, amelyek kellenek, vagy amelyeket kihagynál. Egy recept akkor jelenik meg, ha a javasolt legkisebb kor nem nagyobb a választott kornál. A magyar nevek megmaradtak, hogy ráismerd az ételre.",
+        "cook_lede": "Szűrj a gyerek kora szerint, vagy jelöld meg a hozzávalókat, amelyek kellenek, vagy amelyeket kihagynál. A választott kortól induló receptek kerülnek előre. A korábbiak is a listán maradnak, mert azok továbbra is jók. A magyar nevek megmaradtak, hogy ráismerd az ételre.",
         "ingredient_label": "Hozzávalók",
         "ingredient_find": "Hozzávaló keresése",
         "ingredient_hint": "Egy kattintás: csak ezzel. Még egy: e nélkül. Harmadik: törlés.",
@@ -432,6 +437,11 @@ UI = {
         "age_label": "Ehhez a korhoz már adható receptek",
         "any_age": "Bármely alsó korhatár",
         "age_option": "{n} hónapos",
+        "age_starts": "{n} hónapos kortól",
+        "age_earlier": "Korábban is adható",
+        "age_note": "{n} hónapos kortól: {start}. Korábbról, és még mindig jó: {earlier}.",
+        "age_note_only": "{n} hónapos kortól: {start}.",
+        "age_note_earlier": "{n} hónapos kortól egy sem indul. Korábbról: {earlier}.",
         "any_note": "Bármely megjegyzés",
         "all": "Mind",
         "category_label": "Csoport",
@@ -899,6 +909,7 @@ def recipe_index(ui, recipes: list[dict]) -> None:
           <option value="">{esc(ui['any_age'])}</option>
           {ages}
         </select>
+        <p class="meta age-note" data-age-note hidden aria-live="polite" data-starts="{esc(ui['age_starts'])}" data-earlier="{esc(ui['age_earlier'])}" data-note="{esc(ui['age_note'])}" data-note-only="{esc(ui['age_note_only'])}" data-note-earlier="{esc(ui['age_note_earlier'])}"></p>
         <div class="chips" role="group" aria-label="{esc(ui['category_label'])}">{''.join(chips)}</div>
         <div class="chips" role="group" aria-label="{esc(ui['scrutiny_label'])}">{''.join(verdict_chips)}</div>
         <div class="food-filters">

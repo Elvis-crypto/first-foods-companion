@@ -44,6 +44,7 @@
   var many = root.getAttribute("data-many") || "recipes";
   var query = document.querySelector("[data-filter-q]");
   var age = document.querySelector("[data-filter-age]");
+  var ageNote = document.querySelector("[data-age-note]");
   var count = document.querySelector("[data-count]");
   var foodQuery = document.querySelector("[data-filter-foods]");
   var foodChips = document.querySelector("[data-food-chips]");
@@ -78,13 +79,21 @@
     );
   }
 
-  function render() {
-    var needle = (query.value || "").trim().toLowerCase();
-    var maxAge = age.value ? Number(age.value) : Infinity;
+  function fillAge(template, values) {
+    return String(template)
+      .replace(/\{n\}/g, values.n)
+      .replace(/\{start\}/g, values.start)
+      .replace(/\{earlier\}/g, values.earlier);
+  }
+
+  function render(options) {
+    var needle = query ? String(query.value || "").trim().toLowerCase() : "";
+    var maxAge = age && age.value ? Number(age.value) : Infinity;
+    if (!isFinite(maxAge)) maxAge = Infinity;
     var shown = data.filter(function (recipe) {
       if (category !== "all" && recipe.category !== category) return false;
       if (verdict !== "all" && recipe.verdict !== verdict) return false;
-      if (recipe.min_age_months > maxAge) return false;
+      if (Number(recipe.min_age_months) > maxAge) return false;
       var foods = recipe.foods || [];
       var key;
       for (key in include) {
@@ -97,8 +106,52 @@
       var hay = [recipe.title, recipe.title_hu, recipe.primary, recipe.secondary, recipe.category_label, recipe.ingredient_text].join(" ").toLowerCase();
       return hay.indexOf(needle) !== -1;
     });
-    list.innerHTML = shown.length ? shown.map(card).join("") : '<p class="meta">' + escapeText(empty) + "</p>";
+    var exact = [];
+    var earlier = [];
+    if (maxAge !== Infinity) {
+      shown.forEach(function (recipe) {
+        if (Number(recipe.min_age_months) === maxAge) exact.push(recipe);
+        else earlier.push(recipe);
+      });
+    }
+    var html = "";
+    if (!shown.length) {
+      html = '<p class="meta">' + escapeText(empty) + "</p>";
+    } else if (maxAge === Infinity) {
+      html = shown.map(card).join("");
+    } else {
+      var startsLabel = ageNote ? ageNote.getAttribute("data-starts") || "Starts at {n} months" : "Starts at {n} months";
+      var earlierLabel = ageNote ? ageNote.getAttribute("data-earlier") || "Also fine from earlier" : "Also fine from earlier";
+      var values = { n: String(maxAge), start: String(exact.length), earlier: String(earlier.length) };
+      if (exact.length) {
+        html += '<h2 class="age-group">' + escapeText(fillAge(startsLabel, values)) + "</h2>" + exact.map(card).join("");
+      }
+      if (earlier.length) {
+        html += '<h2 class="age-group">' + escapeText(fillAge(earlierLabel, values)) + "</h2>" + earlier.map(card).join("");
+      }
+    }
+    list.innerHTML = html;
     if (count) count.textContent = shown.length + " " + (shown.length === 1 ? one : many);
+    if (ageNote) {
+      if (maxAge === Infinity || !shown.length) {
+        ageNote.hidden = true;
+        ageNote.textContent = "";
+      } else {
+        var noteValues = { n: String(maxAge), start: String(exact.length), earlier: String(earlier.length) };
+        var noteKey = exact.length && earlier.length ? "data-note" : exact.length ? "data-note-only" : "data-note-earlier";
+        var noteFallback = exact.length && earlier.length
+          ? "Starting at {n} months: {start}. Still fine from earlier: {earlier}."
+          : exact.length
+            ? "Starting at {n} months: {start}."
+            : "Nothing starts at {n} months. Still fine from earlier: {earlier}.";
+        ageNote.hidden = false;
+        ageNote.textContent = fillAge(ageNote.getAttribute(noteKey) || noteFallback, noteValues);
+      }
+    }
+    if (options && options.reveal) {
+      var top = list.getBoundingClientRect().top;
+      if (top > window.innerHeight - 120) list.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
   function press(buttons, attr, value) {
@@ -123,8 +176,8 @@
       render();
     });
   });
-  query.addEventListener("input", render);
-  age.addEventListener("change", render);
+  if (query) query.addEventListener("input", render);
+  if (age) age.addEventListener("change", function () { render({ reveal: true }); });
 
   var foodButtons = foodChips
     ? Array.prototype.slice.call(foodChips.querySelectorAll("[data-food]"))

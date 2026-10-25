@@ -47,7 +47,7 @@
     <section class="section">
       <p class="kicker">Receptek</p>
       <h1>Ezeket a változatokat főzd.</h1>
-      <p class="lede">Szűrj a gyerek kora szerint, vagy jelöld meg a hozzávalókat, amelyek kellenek, vagy amelyeket kihagynál. Egy recept akkor jelenik meg, ha a javasolt legkisebb kor nem nagyobb a választott kornál. A magyar nevek megmaradtak, hogy ráismerd az ételre.</p>
+      <p class="lede">Szűrj a gyerek kora szerint, vagy jelöld meg a hozzávalókat, amelyek kellenek, vagy amelyeket kihagynál. A választott kortól induló receptek kerülnek előre. A korábbiak is a listán maradnak, mert azok továbbra is jók. A magyar nevek megmaradtak, hogy ráismerd az ételre.</p>
       <div class="filters">
         <input type="search" data-filter-q placeholder="Keresés név vagy hozzávaló szerint" aria-label="Receptek keresése">
         <label class="meta" for="age-hu">Ehhez a korhoz már adható receptek</label>
@@ -55,6 +55,7 @@
           <option value="">Bármely alsó korhatár</option>
           <option value="6">6 hónapos</option><option value="7">7 hónapos</option><option value="8">8 hónapos</option><option value="9">9 hónapos</option><option value="10">10 hónapos</option><option value="12">12 hónapos</option>
         </select>
+        <p class="meta age-note" data-age-note hidden aria-live="polite" data-starts="{n} hónapos kortól" data-earlier="Korábban is adható" data-note="{n} hónapos kortól: {start}. Korábbról, és még mindig jó: {earlier}." data-note-only="{n} hónapos kortól: {start}." data-note-earlier="{n} hónapos kortól egy sem indul. Korábbról: {earlier}."></p>
         <div class="chips" role="group" aria-label="Csoport"><button type="button" data-filter-cat="all" aria-pressed="true">Mind</button><button type="button" data-filter-cat="simple-purees" aria-pressed="false">Egyszerű pürék</button><button type="button" data-filter-cat="mixed-purees" aria-pressed="false">Vegyes pürék</button><button type="button" data-filter-cat="finger-foods" aria-pressed="false">Puha falatok</button><button type="button" data-filter-cat="toddler-meals" aria-pressed="false">Nagyobbacska ételek</button><button type="button" data-filter-cat="snacks" aria-pressed="false">Nasi</button><button type="button" data-filter-cat="celebrations" aria-pressed="false">Ünnep</button><button type="button" data-filter-cat="basics" aria-pressed="false">Alapok</button><button type="button" data-filter-cat="allergens" aria-pressed="false">Allergén gyakorlat</button></div>
         <div class="chips" role="group" aria-label="Megítélés"><button type="button" data-filter-verdict="all" aria-pressed="true">Bármely megjegyzés</button><button type="button" data-filter-verdict="sound" aria-pressed="false">Jó ötlet</button><button type="button" data-filter-verdict="adjust" aria-pressed="false">Igazított</button><button type="button" data-filter-verdict="replace" aria-pressed="false">Lecserélt</button></div>
         <div class="food-filters">

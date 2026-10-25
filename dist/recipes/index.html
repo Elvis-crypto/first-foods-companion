@@ -47,7 +47,7 @@
     <section class="section">
       <p class="kicker">Recipes</p>
       <h1>Cook these versions.</h1>
-      <p class="lede">Filter by the age of the child, or mark ingredients to require or leave out. A recipe appears when its minimum age is at or below the age you choose. Hungarian names are kept so you can find the dish you had in mind.</p>
+      <p class="lede">Filter by the age of the child, or mark ingredients to require or leave out. Recipes that start at the age you choose are listed first. Earlier ones stay, because a younger recipe is still fine. Hungarian names are kept so you can find the dish you had in mind.</p>
       <div class="filters">
         <input type="search" data-filter-q placeholder="Search by name or ingredient" aria-label="Search recipes">
         <label class="meta" for="age-en">Show recipes a child this age can start</label>
@@ -55,6 +55,7 @@
           <option value="">Any minimum age</option>
           <option value="6">6 months</option><option value="7">7 months</option><option value="8">8 months</option><option value="9">9 months</option><option value="10">10 months</option><option value="12">12 months</option>
         </select>
+        <p class="meta age-note" data-age-note hidden aria-live="polite" data-starts="Starts at {n} months" data-earlier="Also fine from earlier" data-note="Starting at {n} months: {start}. Still fine from earlier: {earlier}." data-note-only="Starting at {n} months: {start}." data-note-earlier="Nothing starts at {n} months. Still fine from earlier: {earlier}."></p>
         <div class="chips" role="group" aria-label="Category"><button type="button" data-filter-cat="all" aria-pressed="true">All</button><button type="button" data-filter-cat="simple-purees" aria-pressed="false">Simple purées</button><button type="button" data-filter-cat="mixed-purees" aria-pressed="false">Mixed purées</button><button type="button" data-filter-cat="finger-foods" aria-pressed="false">Soft pieces</button><button type="button" data-filter-cat="toddler-meals" aria-pressed="false">Toddler meals</button><button type="button" data-filter-cat="snacks" aria-pressed="false">Snacks</button><button type="button" data-filter-cat="celebrations" aria-pressed="false">Celebrations</button><button type="button" data-filter-cat="basics" aria-pressed="false">Basics</button><button type="button" data-filter-cat="allergens" aria-pressed="false">Allergen practice</button></div>
         <div class="chips" role="group" aria-label="Scrutiny"><button type="button" data-filter-verdict="all" aria-pressed="true">Any note</button><button type="button" data-filter-verdict="sound" aria-pressed="false">Sound idea</button><button type="button" data-filter-verdict="adjust" aria-pressed="false">Adjusted</button><button type="button" data-filter-verdict="replace" aria-pressed="false">Replaced</button></div>
         <div class="food-filters">

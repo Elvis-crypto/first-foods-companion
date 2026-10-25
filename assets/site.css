@@ -218,7 +218,10 @@ h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin: 0 0 0.6rem; }
   text-align: left;
 }
 .text-button:hover { text-decoration: underline; }
-.recipe-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem; }
+.recipe-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem; scroll-margin-top: 0.75rem; }
+.recipe-list > .age-group, .recipe-list > .meta { grid-column: 1 / -1; }
+.age-group { margin: 0.35rem 0 0; font-size: 1.45rem; }
+.age-note { margin: -0.15rem 0 0.15rem; }
 .count { color: var(--ink-soft); }
 
 .recipe-hero { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 1.2rem; align-items: start; }
