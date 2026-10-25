@@ -655,6 +655,10 @@ def chrome(ui, title: str, body: str, current: str, bare: str, extra_script: str
       }} catch (error) {{}}
     }})();
   </script>
+  <script>
+    window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -839,7 +843,9 @@ def write_page(relative: str, document: str) -> None:
         pass
     path = DIST / relative
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(document, encoding="utf-8", newline="\n")
+    # Python 3.9 doesn't support newline parameter in write_text
+    with path.open("w", encoding="utf-8", newline="\n") as f:
+        f.write(document)
 
 
 def home(ui, groups, recipes) -> None:
