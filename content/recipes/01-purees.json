@@ -27,7 +27,7 @@
       "No change is needed beyond keeping salt and sugar out.",
       "Bake or steam the pumpkin and loosen it with breast milk, formula, or water."
     ],
-    "serve": "Offer a few teaspoons on a spoon, and thin it if it sits too thick.",
+    "serve": "Offer a few teaspoons on a spoon, and thin it if it’s too thick.",
     "freezer": true
   },
   {
@@ -125,7 +125,7 @@
       "Cook the apple until soft and blend it smooth, with no sugar.",
       "Save raw grated apple until the baby is chewing well."
     ],
-    "serve": "Serve the cooked purée on a spoon. Raw grated apple waits until chewing is reliable.",
+    "serve": "Serve the cooked purée on a spoon. Save raw grated apple for when your baby chews well.",
     "freezer": true
   },
   {
@@ -187,7 +187,7 @@
       "Bake, scoop, and loosen the flesh.",
       "Keep salt and sugar out, and nothing else needs to change."
     ],
-    "serve": "A few teaspoons is a full first taste. The flavour is already sweet.",
+    "serve": "A few teaspoons is plenty for a first taste. It’s naturally sweet already.",
     "freezer": true
   },
   {
@@ -248,7 +248,7 @@
       "Mash a ripe banana and offer a small portion now and then, not as the main food each day.",
       "Keep meat, lentils, or egg in other meals so iron is not missed."
     ],
-    "serve": "Offer a small mash, not a banana at every meal. Put an iron-rich food on the table the same day.",
+    "serve": "Offer a little mashed banana, not banana at every meal. Put an iron-rich food on the table the same day.",
     "freezer": false
   },
   {
@@ -280,7 +280,7 @@
       "Blend cooked peeled chestnut with cooked apple until completely smooth, and give a small first portion on a day when the baby is well.",
       "Do not count this as the tree-nut introduction, and do not use a sweetened chestnut spread."
     ],
-    "serve": "Keep it completely smooth. Start with a small portion on a well day.",
+    "serve": "Keep it completely smooth. Start with a small portion on a day your child is well.",
     "freezer": true
   },
   {
@@ -377,7 +377,7 @@
       "Cook and mix two familiar foods, three at most, once each has been eaten on its own.",
       "Ordinary vegetables do not need months between them, and only the pear and yogurt pair contains milk."
     ],
-    "serve": "One mix on a well day is enough. Freeze the vegetable and meat mixes; eat the yogurt pair the same day.",
+    "serve": "One mix on a day your child is well is enough. Freeze the vegetable and meat mixes; eat the yogurt pair the same day.",
     "freezer": true
   },
   {
@@ -652,7 +652,7 @@
       "Boil dried beans hard until they are completely soft, or rinse unsalted canned beans and heat them.",
       "Blend with cooked carrot and olive oil, and do not add salt."
     ],
-    "serve": "Blend until smooth. There should be no firm core in a bean.",
+    "serve": "Blend until smooth. No bean should have a firm centre.",
     "freezer": true
   },
   {
@@ -1097,7 +1097,7 @@
       "Use cooked apple only as a flavour, and keep the chicken as the iron-rich part.",
       "Cook the couscous in water rather than stock, and count the gluten from the wheat."
     ],
-    "serve": "The apple is only a flavour and the chicken is the iron. No cherries and no stock. This contains gluten.",
+    "serve": "The apple is just for flavour; the chicken brings the iron. No cherries and no stock. This contains gluten.",
     "freezer": true
   },
   {
@@ -1131,7 +1131,7 @@
       "Blend broccoli, sweet potato, and fully cooked chicken, then stir in a teaspoon of rapeseed or olive oil on each portion.",
       "Do not add salt, and nothing else needs to change."
     ],
-    "serve": "This is a sound first meal. Each portion gets about a teaspoon of oil.",
+    "serve": "This makes a great first meal. Each portion gets about a teaspoon of oil.",
     "freezer": true
   },
   {
@@ -1173,7 +1173,7 @@
     "title": "Veal with vegetables",
     "title_hu": "Zöldséges borjú",
     "category": "mixed-purees",
-    "min_age_months": 6,
+    "min_age_months": 8,
     "portions": 4,
     "time_minutes": 40,
     "ingredients": [
@@ -1199,7 +1199,7 @@
       "Use beef or veal, since both are equal choices.",
       "Cook the meat with carrot, tomato, and onion until fully done, then blend, and do not add salt."
     ],
-    "serve": "Beef works the same way as veal. Serve it fully cooked, with no salt. The point of the dish is the iron.",
+    "serve": "Beef works just as well as veal. Serve it fully cooked, with no salt. This dish is all about the iron.",
     "freezer": true
   },
   {
@@ -1207,7 +1207,7 @@
     "title": "Liver and potato with vegetables",
     "title_hu": "Zöldséges máj burgonyával",
     "category": "mixed-purees",
-    "min_age_months": 6,
+    "min_age_months": 9,
     "portions": 4,
     "time_minutes": 35,
     "ingredients": [
@@ -1234,7 +1234,7 @@
       "Fully cook the chicken liver, put only about 15 g of cooked liver in the child's portion, and serve liver at most once a week.",
       "Do not pair this meal with a vitamin A supplement."
     ],
-    "serve": "One portion is the week's liver, about 15 g of cooked liver in that bowl. Freeze the rest for later weeks, and do not also give a vitamin A supplement.",
+    "serve": "From 9–10 months. One portion covers the week’s liver: about 15 g of cooked liver in that bowl. Freeze the rest for later weeks, and don’t give a vitamin A supplement as well.",
     "freezer": true
   },
   {
@@ -1268,7 +1268,7 @@
       "Cook fine cornmeal into a soft porridge with cooked apple, and do not use whole kernels or sugar.",
       "Serve it as a side from 8 months, when a thicker texture is reasonable."
     ],
-    "serve": "A side from eight months, next to meat, lentils, or egg, not the meal by itself.",
+    "serve": "A side dish from eight months, next to meat, lentils, or egg, not a meal on its own.",
     "freezer": true
   },
   {
@@ -1303,7 +1303,7 @@
       "Build each plate from one iron food, one vegetable, one familiar fruit or starch, and a teaspoon of oil.",
       "Use the four example plates in the method, and do not add salt or stock."
     ],
-    "serve": "Build one plate this way. The iron food is not optional, and the oil goes on at the end.",
+    "serve": "Build one plate this way. Don’t skip the iron-rich food, and add the oil at the end.",
     "freezer": true
   }
 ]
