@@ -15,7 +15,7 @@
       "Hámozd meg a sütőtököt, kapard ki a magokat, és a húsát vágd darabokra.",
       "Gőzöld kb. 15 percig, vagy süsd 200 °C-on kb. 25 percig, amíg nagyon puha nem lesz.",
       "Egy kanál anyatejjel, tápszerrel vagy vízzel turmixold simára.",
-      "Hűtsd éppen langyosra.",
+      "Hagyd langyosra hűlni.",
       "Sót és cukrot ne adj hozzá."
     ],
     "allergens": [],
@@ -25,9 +25,9 @@
     ],
     "changes": [
       "Nincs más teendő, mint hogy a só és a cukor kimaradjon.",
-      "A sütőtököt süsd vagy gőzöld, és anyatejjel, tápszerrel vagy vízzel lazítsd fel."
+      "A sütőtököt süsd vagy gőzöld, és hígítsd anyatejjel, tápszerrel vagy vízzel."
     ],
-    "serve": "Kanállal adj belőle néhány teáskanálnyit, és hígítsd, ha túl sűrű.",
+    "serve": "Kanálról adj belőle néhány teáskanálnyit, és ha túl sűrű, hígítsd.",
     "freezer": true
   },
   {
@@ -60,7 +60,7 @@
       "Érett őszibarackot vagy sárgabarackot használj, hámozd meg, és a magot teljesen szedd ki.",
       "Gőzöld, és turmixold simára, cukor nélkül."
     ],
-    "serve": "Langyosan vagy hidegen, kanállal add, miután még egyszer megnézted, nincs-e benne magtöredék.",
+    "serve": "Langyosan vagy hűvösen, kanálról add, de előtte még egyszer nézd meg, nem maradt-e benne magdarab.",
     "freezer": true
   },
   {
@@ -86,14 +86,14 @@
     "allergens": [],
     "verdict": "adjust",
     "issues": [
-      "A burgonya kevés vasat tartalmaz, ezért egy tál belőle önmagában gyenge étel.",
+      "A burgonyában kevés a vas, ezért egy tál krumplipüré önmagában nem elég tápláló étkezés.",
       "A tehéntej tejallergént visz bele, és gyakran sót is törnek a pürébe."
     ],
     "changes": [
       "Főzővízzel, anyatejjel vagy tápszerrel törd össze, és pasztőrözött teljes zsírtartalmú tehéntejet csak akkor használj, ha ez az allergén már a terv része.",
       "Sót ne adj hozzá, és a pürét hússal, lencsével vagy teljesen átsült tojással add."
     ],
-    "serve": "Add hússal, lencsével vagy teljesen átsült tojással, hogy a tányéron legyen vas. Főzővízzel, anyatejjel vagy tápszerrel a tehéntej kimarad.",
+    "serve": "Hússal, lencsével vagy teljesen átsütött tojással add, hogy vas is kerüljön a tányérra. Ha főzővízzel, anyatejjel vagy tápszerrel készíted, a tehéntej kimarad.",
     "freezer": true
   },
   {
@@ -112,20 +112,20 @@
       "Hámozd meg az almákat, vágd ki a magházat, és a húsát szeleteld fel.",
       "Egy kevés vízben főzd teljesen puhára, kb. 10 percig.",
       "Turmixold simára.",
-      "Hűtsd éppen langyosra.",
+      "Hagyd langyosra hűlni.",
       "Cukrot ne adj hozzá."
     ],
     "allergens": [],
     "verdict": "adjust",
     "issues": [
-      "A nyers reszelt alma rossz első állag.",
+      "A nyers reszelt alma túl nehéz első állag.",
       "Gyakran cukrot adnak hozzá, pedig az almának nincs rá szüksége."
     ],
     "changes": [
       "Az almát főzd puhára, és turmixold simára, cukor nélkül.",
       "A nyers reszelt almát akkorra tartogasd, amikor a baba már jól rág."
     ],
-    "serve": "A főtt pürét kanállal add. A nyers reszelt alma addig vár, amíg a rágás megbízható.",
+    "serve": "A főtt pürét kanálról add. A nyers reszelt almával várj, amíg a baba már biztosan rág.",
     "freezer": true
   },
   {
@@ -144,7 +144,7 @@
       "Hámozd meg a körtét, és vedd ki a magházát.",
       "Egy kevés vízben főzd puhára, kb. 8 percig.",
       "Turmixold simára.",
-      "Hűtsd éppen langyosra.",
+      "Hagyd langyosra hűlni.",
       "Cukrot ne adj hozzá."
     ],
     "allergens": [],
@@ -156,7 +156,7 @@
       "Az érett körtét hámozd meg, vedd ki a magházát, főzd meg, és turmixold.",
       "Más változtatásra nincs szükség, ha a só és a cukor kimarad."
     ],
-    "serve": "Langyosan vagy hidegen add, olyan simán, hogy kanállal ehető legyen.",
+    "serve": "Langyosan vagy hűvösen add, kanálhoz elég simára turmixolva.",
     "freezer": true
   },
   {
@@ -174,20 +174,20 @@
     "method": [
       "Melegítsd elő a sütőt 200 °C-ra.",
       "Szurkáld meg az édesburgonyát, és süsd, amíg a belseje nagyon puha, kb. 40 percig.",
-      "Hűtsd addig, hogy megfoghasd, aztán a húsát kapard ki a héjából.",
+      "Hagyd annyira kihűlni, hogy meg tudd fogni, aztán a húsát kapard ki a héjából.",
       "Törd össze vagy turmixold simára; ha kemény, egy kanál vízzel vagy anyatejjel.",
       "Sót és cukrot ne adj hozzá."
     ],
     "allergens": [],
     "verdict": "sound",
     "issues": [
-      "Ez erős első étel, és a szokásos hiba az, hogy ízesítik."
+      "Remek első étel, a gyakori hiba csak az, hogy ízesítik."
     ],
     "changes": [
-      "Süsd meg, kapard ki, és lazítsd fel a húsát.",
+      "Süsd meg, kapard ki a húsát, és hígítsd fel.",
       "A só és a cukor maradjon ki, mást nem kell változtatni."
     ],
-    "serve": "Néhány teáskanál már teljes első kóstoló. Az íze eleve édes.",
+    "serve": "Első kóstolónak néhány teáskanál bőven elég. Magától is édes.",
     "freezer": true
   },
   {
@@ -218,7 +218,7 @@
       "Az érett mangót turmixold össze, és kanállal add.",
       "Az érett mangónak nincs szüksége főzésre és cukorra."
     ],
-    "serve": "Kanállal add, hogy ne csússzon le. Első kóstolóra néhány teáskanál elég.",
+    "serve": "Kanálról add, hogy ne csússzon le. Első kóstolónak néhány teáskanál elég.",
     "freezer": true
   },
   {
@@ -241,14 +241,14 @@
     "allergens": [],
     "verdict": "adjust",
     "issues": [
-      "A banán kevés vasat tartalmaz, ezért rossz mindennapi alapétel.",
+      "A banánban kevés a vas, ezért nem jó mindennapi alapétel.",
       "A sok banán lelassíthatja a székletet."
     ],
     "changes": [
       "Érett banánt törj össze, és időnként adj belőle kis adagot, ne minden nap főételként.",
       "A többi étkezésben legyen hús, lencse vagy tojás, hogy a vas ne maradjon ki."
     ],
-    "serve": "Kis adag pépet adj, ne minden étkezésre banánt. Ugyanazon a napon kerüljön az asztalra vasban gazdag étel.",
+    "serve": "Csak kis adagot adj, és ne minden étkezéshez banánt. Aznap kerüljön az asztalra vasban gazdag étel is.",
     "freezer": false
   },
   {
@@ -277,10 +277,10 @@
       "Gesztenyeallergia létezik, és a gesztenye nem ugyanaz az étel, mint a földimogyoró vagy a dió."
     ],
     "changes": [
-      "A főtt, hámozott gesztenyét főtt almával turmixold teljesen simára, és az első kis adagot olyan napon add, amikor a baba jól van.",
+      "A főtt, hámozott gesztenyét főtt almával turmixold teljesen simára, és az első kis adagot egy olyan napon add, amikor a baba egészséges.",
       "Ezt ne számítsd a diófélék bevezetésének, és ne használj édesített gesztenyekrémet."
     ],
-    "serve": "Teljesen sima legyen. Kis adaggal kezdd, olyan napon, amikor a baba jól van.",
+    "serve": "Teljesen sima legyen. Kis adaggal kezdd, egy olyan napon, amikor a baba egészséges.",
     "freezer": true
   },
   {
@@ -305,13 +305,13 @@
     "allergens": [],
     "verdict": "sound",
     "issues": [
-      "Az egész áfonyahéj rossz állag az első pürében."
+      "Az áfonya héja egészben nem való az első pürébe."
     ],
     "changes": [
       "Főzd meg az almát, és az áfonyát nyomd szét, hogy a héja kipattanjon, aztán turmixold simára.",
       "Cukorra nincs szükség."
     ],
-    "serve": "Kanállal add. A színe megfoghat, ez ártalmatlan.",
+    "serve": "Kanálról add. A színe foltot hagyhat, de ártalmatlan.",
     "freezer": true
   },
   {
@@ -342,7 +342,7 @@
       "Érett avokádót törj össze egy kevés banánnal, és azonnal add.",
       "A benne lévő zsír hasznos, sóra nincs szükség."
     ],
-    "serve": "Azonnal add. Néhány teáskanál hasznos zsírt ad, nagy banánadag nélkül.",
+    "serve": "Rögtön add. Néhány teáskanál értékes zsírt ad, anélkül hogy sok banán kellene hozzá.",
     "freezer": false
   },
   {
@@ -370,14 +370,14 @@
     "allergens": [],
     "verdict": "sound",
     "issues": [
-      "A családok néha hónapokat várnak a hétköznapi zöldségek között, táplálkozási ok nélkül.",
+      "A családok néha hónapokat várnak két hétköznapi zöldség között, pedig ennek nincs táplálkozási oka.",
       "A joghurt, ha azt a párost használod, tejallergén."
     ],
     "changes": [
       "Két már ismert ételt főzz össze és keverj, legfeljebb hármat, miután mindegyiket már ették önmagában.",
-      "A hétköznapi zöldségek közé nem kell hónapokat tenni, és csak a körte és joghurt páros tartalmaz tejet."
+      "A hétköznapi zöldségek között nem kell hónapokat várni, és tejet csak a körte–joghurt páros tartalmaz."
     ],
-    "serve": "Egy keverék elég egy olyan napon, amikor a baba jól van. A zöldséges és a húsos keverékeket fagyaszd le; a joghurtos párost aznap edd meg.",
+    "serve": "Egy napra egy keverék elég, egy olyan napon, amikor a baba egészséges. A zöldséges és a húsos keverékeket lefagyaszthatod, a joghurtosat még aznap fel kell használni.",
     "freezer": true
   },
   {
@@ -414,7 +414,7 @@
       "A búzadarát vízben főzd meg, aztán keverj bele natúr teljes zsírtartalmú joghurtot és főtt almát meg őszibarackot, és ha kéred, egy csipet ceyloni fahéjat.",
       "Tegyél mellé szétfosztott csirkét vagy jól megfőtt lencsét, a kekszmorzsát hagyd ki."
     ],
-    "serve": "Langyosan add, csirkével vagy lencsével, hogy a tál ne csak búzadara legyen. Tejet és glutént tartalmaz.",
+    "serve": "Langyosan add, csirkével vagy lencsével, hogy ne csak búzadarából álljon a tál. Tejet és glutént tartalmaz.",
     "freezer": false
   },
   {
@@ -441,14 +441,14 @@
     "allergens": ["gluten"],
     "verdict": "adjust",
     "issues": [
-      "A szokásos ráadás egy édes bolti keksz, amire ebben a tálban nincs szükség.",
+      "A szokásos ráadás egy édes bolti keksz, de erre ebben a tálban nincs szükség.",
       "A zab itt gluténnek számít."
     ],
     "changes": [
       "Finom zabpelyhet főzz puhára körtével és banánnal, kekszmorzsa helyett.",
       "Az édes morzsás ráadást hagyd ki."
     ],
-    "serve": "Langyosan és simán add. Ez a keksz nélküli változat, és glutént tartalmaz.",
+    "serve": "Langyosan, simára turmixolva add. Ez a keksz nélküli változat; glutént tartalmaz.",
     "freezer": false
   },
   {
@@ -468,21 +468,21 @@
       "A szilva és az őszibarack húsát vágd le a magról, és a magokat dobd ki.",
       "Hámozd meg a gyümölcsöt.",
       "Gőzöld puhára, kb. 8 percig, aztán turmixold simára.",
-      "Hűtsd langyosra, és keverd a joghurtba.",
+      "Hagyd langyosra hűlni, és keverd a joghurtba.",
       "Kanalazz át rajta, hogy egy magdarab se maradjon benne.",
       "Cukrot ne adj hozzá."
     ],
     "allergens": ["milk"],
     "verdict": "sound",
     "issues": [
-      "A veszélyt a magok jelentik.",
+      "A fő veszélyt a magok jelentik.",
       "Az ízesített joghurt gyakran hozzáadott cukrot tartalmaz."
     ],
     "changes": [
       "A szilvát és az őszibarackot magozd és hámozd meg, főzd és turmixold meg, majd keverd natúr pasztőrözött teljes zsírtartalmú joghurtba.",
       "Más változtatásra nincs szükség."
     ],
-    "serve": "Keverd össze, és aznap add. Tejet tartalmaz.",
+    "serve": "Keverd össze, és még aznap add. Tejet tartalmaz.",
     "freezer": false
   },
   {
@@ -516,7 +516,7 @@
       "6 hónapos kortól add: főtt almát és áfonyát keverj joghurttal felazított pasztőrözött túróba.",
       "A kekszet hagyd ki."
     ],
-    "serve": "Hat hónapos kortól add, aznap. Tejet tartalmaz.",
+    "serve": "Hat hónapos kortól adhatod, még aznap. Tejet tartalmaz.",
     "freezer": false
   },
   {
@@ -549,7 +549,7 @@
       "Csak kevés, nagyon érett, nagyon apróra vágott ananászt használj, túróba és joghurtba forgatva.",
       "A 8 hónapos kor elég, ne várj 11 hónapos korig."
     ],
-    "serve": "Kis tál nyolc hónapos kortól. Ha csíp, hagyd abba, és egy másik héten próbálj belőle kevesebbet. Tejet tartalmaz.",
+    "serve": "Nyolc hónapos kortól egy kis tálnyit. Ha csípi a száját, hagyd abba, és egy másik héten próbáld kevesebbel. Tejet tartalmaz.",
     "freezer": false
   },
   {
@@ -583,7 +583,7 @@
       "A rebarbarát hagyd el, és helyette natúr joghurtot keverj a langyos zabkásába és a főtt almába.",
       "A tál így is tejet és glutént tartalmaz, a joghurttól és a zabtól."
     ],
-    "serve": "A kását langyosan add, belekevert joghurttal. Rebarbarát ne tegyél ebbe a tálba.",
+    "serve": "A kását langyosan, joghurttal elkeverve add. Rebarbara ebbe a tálba ne kerüljön.",
     "freezer": false
   },
   {
@@ -610,14 +610,14 @@
     "allergens": [],
     "verdict": "replace",
     "issues": [
-      "A szokásos zöld főzelék sóskára épült, vagy arra, hogy a spenót legyen az egész étel.",
+      "A hagyományos zöld főzelék sóskára épült, vagy csak spenótból állt.",
       "A sóska rossz mindennapi zöldség csecsemőnek, mert magas az oxaláttartalma."
     ],
     "changes": [
       "Készíts burgonya- és spenótpépet főtt körtével vagy borsóval a C-vitamin miatt, és a spenót legyen az étel egyik része, ne az egyetlen zöldség.",
       "Ne főzd saját kútból származó vízben, mert az magas nitráttartalmú lehet, és sóskát ne használj."
     ],
-    "serve": "Vegyes tálként add, ne egy csak spenótból álló tányérként. Csapvizet használj, ne saját kútból származó vizet.",
+    "serve": "Vegyes ételként add, ne csak spenótot tegyél a tányérra. Csapvizet használj, ne saját kút vizét.",
     "freezer": true
   },
   {
@@ -649,10 +649,10 @@
       "A konzervbab gyakran sózott."
     ],
     "changes": [
-      "A szárazbabot erősen főzd teljesen puhára, vagy a sózatlan konzervbabot öblítsd le és melegítsd át.",
+      "A szárazbabot alaposan, erős forrásban főzd teljesen puhára, a sózatlan konzervbabot pedig öblítsd le, és melegítsd át.",
       "Főtt répával és olívaolajjal turmixold, és sót ne adj hozzá."
     ],
-    "serve": "Turmixold simára. Egyetlen babban se maradjon kemény közepe.",
+    "serve": "Turmixold simára. Egyetlen babszemnek se maradjon kemény a közepe.",
     "freezer": true
   },
   {
@@ -686,7 +686,7 @@
       "Az újburgonyát és a spárgát addig főzd, amíg a szárak könnyen szétnyomhatók, aztán turmixold.",
       "Csak egy kis marék pasztőrözött enyhe sajtot reszelj el a 4 adagra."
     ],
-    "serve": "Mind a 4 adag együtt osztozik 30 g sajton. Langyosan add. Tejet tartalmaz.",
+    "serve": "A 30 g sajt összesen a 4 adagra jut. Langyosan add. Tejet tartalmaz.",
     "freezer": true
   },
   {
@@ -720,7 +720,7 @@
       "A turmixolt cukkinit, burgonyát és póréhagymát 6 hónapos kortól add.",
       "A végén olívaolajat keverj bele, és a sót hagyd ki."
     ],
-    "serve": "Hat hónapos kortól add, simán, só nélkül.",
+    "serve": "Hat hónapos kortól, simára turmixolva, só nélkül add.",
     "freezer": true
   },
   {
@@ -753,7 +753,7 @@
       "Leginkább répát használj, és csak egy kis darab csicsókát.",
       "A végén keverj bele olívaolajat, 8 hónapos korban kezdd, és leveskockát ne használj."
     ],
-    "serve": "Nyolc hónapos korban kezdd, kis adaggal. A csicsóka csak kis része a tálnak.",
+    "serve": "Nyolc hónapos kortól, kis adaggal kezdd. A csicsókából csak kevés kerüljön a tálba.",
     "freezer": true
   },
   {
@@ -781,14 +781,14 @@
     "allergens": ["milk"],
     "verdict": "sound",
     "issues": [
-      "A sajt sós, ha a mennyiség több a szerénynél.",
-      "Akinek tejmentes tányér kell, az a sajtos változatot nem eheti."
+      "A sajt sós, ha a szerénynél több kerül bele.",
+      "Ha tejmentes étel kell, a sajtos változat nem jöhet szóba."
     ],
     "changes": [
       "A brokkolit és a karfiolt turmixold egy kevés pasztőrözött sajttal, vagy olívaolajjal, ha tejmentesen kéred.",
       "A sajt maradjon szerény mennyiségű, mást nem kell változtatni."
     ],
-    "serve": "A sajtos változat tejet tartalmaz. Az olívaolajos nem. A sajt maradjon 30 g, a 4 adagra elosztva.",
+    "serve": "A sajtos változat tejet tartalmaz, az olívaolajos nem. A sajtból összesen 30 g jusson a 4 adagra.",
     "freezer": true
   },
   {
@@ -822,7 +822,7 @@
       "Szálkamentes lazacot, pisztrángot, tőkehalat vagy hekket használj, teljesen átsütve, és nézd át, nincs-e benne szálka.",
       "Édesburgonyával, zellergumóval és kakukkfűvel turmixold, és pontyot ne használj."
     ],
-    "serve": "A tányéron még egyszer ellenőrizd a szálkákat. Halat és zellert tartalmaz.",
+    "serve": "A tányéron is nézd át még egyszer, nincs-e benne szálka. Halat és zellert tartalmaz.",
     "freezer": true
   },
   {
@@ -858,7 +858,7 @@
       "Főzz burgonyát, borsót, cukkinit és nagyon puha spárgát, apróra vágott karfiollal, alaplé nélkül.",
       "6 hónapos kortól add, és sajtot csak lehetőségként tegyél hozzá, mert egy teáskanálnyi olyan tejallergént hozna, ami az alapban nincs."
     ],
-    "serve": "Hat hónapos kortól add, alaplé nélkül. Sajtot csak akkor adj, ha a tejet már elfogadtátok; akkor viszont tejallergén lesz.",
+    "serve": "Hat hónapos kortól, alaplé nélkül add. Sajtot csak akkor tegyél bele, ha a tejet már jól tűri – így viszont tejallergént is tartalmaz.",
     "freezer": true
   },
   {
@@ -892,7 +892,7 @@
       "A főtt gesztenyét, a főtt almát és a teljesen átsült csirkét turmixold simára.",
       "Ez jobb tányér, mint a gyümölcs önmagában, és só nem kerül bele."
     ],
-    "serve": "Sima kanálnyit adj. A csirke a vas miatt van benne, és a gesztenyében nem maradhat darab.",
+    "serve": "Simára turmixolva, kanálról add. A csirke a vas miatt kerül bele, a gesztenyében pedig nem maradhat darab.",
     "freezer": true
   },
   {
@@ -926,7 +926,7 @@
       "Az apró tésztát főzd nagyon puhára, és törd só nélküli paradicsomos, répás, cukkinis szószba.",
       "Ne várj későbbi hónapra, mert a tészta csak egy nagyon puhán adott gluténes étel."
     ],
-    "serve": "A tésztát törd össze, hogy ne maradjon benne semmi kemény. Hat hónapos kortól add. Glutént tartalmaz.",
+    "serve": "A tésztát nyomkodd szét, hogy semmi kemény ne maradjon. Hat hónapos kortól adhatod. Glutént tartalmaz.",
     "freezer": true
   },
   {
@@ -1062,7 +1062,7 @@
       "Hámozd meg a padlizsánt, és burgonyával meg csirkével főzd nagyon puhára, aztán turmixold.",
       "A padlizsánt ne sózd le."
     ],
-    "serve": "Hámozd meg, és főzd puhára és enyhére. Előtte ne sózd le.",
+    "serve": "Hámozd meg, és főzd puhára, enyhe ízűre. Előtte ne sózd be.",
     "freezer": true
   },
   {
@@ -1097,7 +1097,7 @@
       "A főtt almát csak ízként használd, és a csirke maradjon a vasban gazdag rész.",
       "A kuszkuszt vízben készítsd, ne alaplében, és a búza gluténjével számolj."
     ],
-    "serve": "Az alma csak íz, a csirke adja a vasat. Se cseresznye, se alaplé. Glutént tartalmaz.",
+    "serve": "Az alma csak ízt ad, a vasat a csirke hozza. Ne tegyél bele cseresznyét és alaplevet. Glutént tartalmaz.",
     "freezer": true
   },
   {
@@ -1131,7 +1131,7 @@
       "A brokkolit, az édesburgonyát és a teljesen átsült csirkét turmixold össze, aztán minden adagba keverj egy teáskanál repce- vagy olívaolajat.",
       "Sót ne adj hozzá, és mást nem kell változtatni."
     ],
-    "serve": "Ez jó első étel. Minden adagra kb. egy teáskanál olaj jut.",
+    "serve": "Remek első étel. Adagonként kb. egy teáskanál olaj jut bele.",
     "freezer": true
   },
   {
@@ -1165,7 +1165,7 @@
       "A tésztát főzd nagyon puhára, és keverd burgonya, karfiol és petrezselyem pépjébe.",
       "A sót hagyd ki, és mást nem kell változtatni."
     ],
-    "serve": "Nagyon puha tésztát adj a halvány pépben, só nélkül. Glutént tartalmaz.",
+    "serve": "A nagyon puhára főtt tésztát a világos zöldségpépbe keverve, só nélkül add. Glutént tartalmaz.",
     "freezer": true
   },
   {
@@ -1199,7 +1199,7 @@
       "Használj marhát vagy borjút, mert a kettő egyenrangú választás.",
       "A húst répával, paradicsommal és hagymával főzd teljesen készre, aztán turmixold, és sót ne adj hozzá."
     ],
-    "serve": "A marha ugyanúgy megfelel, mint a borjú. Teljesen átsütve add, só nélkül. Az étel lényege a vas.",
+    "serve": "Borjú helyett marhahús is ugyanúgy jó. Teljesen átsütve, só nélkül add. Az étel lényege a vas.",
     "freezer": true
   },
   {
@@ -1234,7 +1234,7 @@
       "A csirkemájat teljesen főzd át, a gyerek adagjába csak kb. 15 g megfőtt májat tegyél, és májat hetente legfeljebb egyszer adj.",
       "Ezt az ételt ne add A-vitamin-készítménnyel együtt."
     ],
-    "serve": "Egy adag a hét mája: abban a tálban kb. 15 g megfőtt máj van. A többit fagyaszd le a későbbi hetekre, és A-vitamin-készítményt se adj mellé.",
+    "serve": "Egy adag fedezi a heti májat: ebben a tálban kb. 15 g főtt máj van. A többit fagyaszd le a következő hetekre, és mellette ne adj A-vitamin-készítményt.",
     "freezer": true
   },
   {
@@ -1268,7 +1268,7 @@
       "A finom kukoricadarát főzd puha kásává főtt almával, és egész szemet meg cukrot ne használj.",
       "Köretként add 8 hónapos kortól, amikor a sűrűbb állag már helyénvaló."
     ],
-    "serve": "Köret nyolc hónapos kortól, hús, lencse vagy tojás mellett, nem önmagában az étkezés.",
+    "serve": "Nyolc hónapos kortól köretként add hús, lencse vagy tojás mellé, ne önálló étkezésként.",
     "freezer": true
   },
   {
@@ -1303,7 +1303,7 @@
       "Minden tányért egy vasban gazdag ételből, egy zöldségből, egy már ismert gyümölcsből vagy keményítős ételből és egy teáskanál olajból állítsd össze.",
       "A módszerben lévő négy példa tányért használd, és sót meg alaplevet ne adj hozzá."
     ],
-    "serve": "Egy tányért így állíts össze. A vasban gazdag étel nem maradhat ki, az olaj pedig a végén kerül rá.",
+    "serve": "Így állíts össze egy tányért. A vasban gazdag étel nem maradhat ki, az olajat pedig a végén csorgasd rá.",
     "freezer": true
   }
 ]

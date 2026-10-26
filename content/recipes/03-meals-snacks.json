@@ -143,7 +143,7 @@
     "verdict": "sound",
     "issues": "Added sugar is unnecessary because the apple is already sweet. A milk-free eater still needs a water-only pot.",
     "changes": "Cook the oats in water or full-fat milk with grated apple, and add no sugar. Offer the water-only pot as the milk-free step.",
-    "serve": "Cow's milk in the porridge is fine; it is not a drink. Use water only when you need a milk-free bowl.",
+    "serve": "Cow’s milk is fine cooked into porridge; it isn’t being given as a drink. Use water only when you need a milk-free bowl.",
     "freezer": true
   },
   {
@@ -769,7 +769,7 @@
       "Heat the oven to 180°C.",
       "Mix the beef with the grated onion and shape four soft patties.",
       "Bake until the centre is cooked through and no longer pink, about 18 minutes.",
-      "Rest, then cut the meat into squat pieces.",
+      "Rest, then cut the meat into short, thick pieces.",
       "Serve with small pieces of soft bread and the tomato."
     ],
     "allergens": [
@@ -777,8 +777,8 @@
     ],
     "verdict": "adjust",
     "issues": "A salty bun and ketchup are left off, and no salt goes into the meat. Ten months is the age because of the bread, not because the patty must wait that long on its own.",
-    "changes": "Bake a soft beef and grated-onion patty and serve it in pieces with soft bread and tomato. The patty alone is gluten-free; gluten comes from the bread. Cut the meat into squat pieces.",
-    "serve": "Cut the meat into squat pieces and serve with soft bread and tomato. Skip a salty bun and skip ketchup. The patty alone is gluten-free.",
+    "changes": "Bake a soft beef and grated-onion patty and serve it in pieces with soft bread and tomato. The patty alone is gluten-free; gluten comes from the bread. Cut the meat into short, thick pieces.",
+    "serve": "Cut the meat into short, thick pieces and serve with soft bread and tomato. Skip a salty bun and skip ketchup. The patty alone is gluten-free.",
     "freezer": true
   },
   {
@@ -1414,7 +1414,7 @@
     "verdict": "replace",
     "issues": "The usual muesli bar uses honey and chopped nuts. Whole nuts are a choking food, and honey is not used.",
     "changes": "Press oats, grated apple, and milk into squares and bake until just set, not chewy-hard. Add no honey and no whole nuts.",
-    "serve": "Cut soft squares and serve them the day they are baked if you can. They should not chew like a dried bar.",
+    "serve": "Cut soft squares and serve them the day they are baked if you can. They shouldn’t be as chewy as a dried cereal bar.",
     "freezer": true
   },
   {

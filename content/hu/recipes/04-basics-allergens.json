@@ -27,7 +27,7 @@
     "verdict": "replace",
     "issues": "A cukormáz és az egész dió volt a gond. Játékot ne tegyél a tortába, és csak ritkán add.",
     "changes": "Kis, kétlapos torta tojásból, darált dióból és lisztből. Csak a tésztába tört, nagyon érett banán édesíti, a töltelék natúr joghurt. Cukormáz, egész dió és apró játék nélkül.",
-    "serve": "Darált diót csak akkor használj, ha a diót már jól tűri, és egyszerre csak egyféle diót. Ez alkalmi ünnepi étel, nem heti torta. A joghurtos töltelék tejet tartalmaz. A sima lapokat lefagyaszthatod, a joghurtot kiolvasztás után kend rá.",
+    "serve": "Darált diót csak akkor használj, ha a diót már jól tűri, és egyszerre mindig csak egyféle diófélét vezess be. Ez alkalmi, ünnepi sütemény, nem heti torta. A joghurtos krém tejet tartalmaz. A sima lapokat lefagyaszthatod, a joghurtot kiolvasztás után kend rá.",
     "freezer": true
   },
   {
@@ -56,7 +56,7 @@
     "verdict": "replace",
     "issues": "A csokoládés gesztenyetorta édesség.",
     "changes": "Ez az ehető változat: főtt, hámozott gesztenye és alma, kevés olajjal és liszttel egyetlen puha tortává sütve, csokoládé és cukor nélkül. A gesztenye nem ugyanaz, mint a dió vagy a földimogyoró bevezetése.",
-    "serve": "12 hónapos kortól, ritkán kínáld. A gesztenye nem helyettesíti a diót vagy a földimogyorót, ezért ezeket külön ételekben gyakorold, ha már mindegyiket jól tűri.",
+    "serve": "12 hónapos kortól, alkalmanként. A gesztenye nem helyettesíti a diót vagy a földimogyorót, ezeket külön ételekben kínáld, ha már mindegyiket jól tűri.",
     "freezer": true
   },
   {
@@ -82,7 +82,7 @@
     "verdict": "adjust",
     "issues": "Egy kerek, csúszós darab elzárhatja a légutat.",
     "changes": "Az érett dinnyét hosszú csíkokra vágd, ne kerek golyókra, és puha bogyós gyümölccsel add. Cukor és nyárs nélkül; a tányér akár tortának is tűnhet, ha szeretnéd.",
-    "serve": "8 hónapos kortól alkalmas. Maradj a gyerek mellett, és pépesíts minden darabot, ami még kerek vagy csúszós.",
+    "serve": "8 hónapos kortól. Maradj a gyerek mellett, és nyomj szét minden darabot, ami még kerek vagy csúszós.",
     "freezer": false
   },
   {
@@ -111,7 +111,7 @@
     "verdict": "replace",
     "issues": "A szokásos teknőstorta kekszből és csokoládés édességből áll.",
     "changes": "Süss puha banános-zabos tortát, formázd, ahogy szeretnéd, és gyümölccsel díszítsd, ne édességgel. Kemény díszítés nélkül.",
-    "serve": "12 hónapos kortól, alkalmi puha tortaként. A tetején minden gyümölcsdarabnak könnyen szét kell nyomnia az ujjaid között.",
+    "serve": "12 hónapos kortól, alkalmi puha tortaként. A tetején minden gyümölcsdarab legyen könnyen szétnyomható az ujjaid között.",
     "freezer": true
   },
   {
@@ -138,7 +138,7 @@
     "verdict": "adjust",
     "issues": "A szokásos töltelék nyers majonéz és só, és egy egész fél tojás nagy egy gyereknek.",
     "changes": "A kemény tojást felezd el, a sárgáját natúr joghurttal és édes fűszerpaprikával törd össze, nyers majonéz és só nélkül. Vágd a gyereknek elég kis darabokra.",
-    "serve": "8 hónapos kortól, kis darabokban, ülő gyereknek. Ha a tojás vagy a tej új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van.",
+    "serve": "8 hónapos kortól, kis darabokban, ülve. Ha a tojás vagy a tej még új, az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges.",
     "freezer": false
   },
   {
@@ -165,7 +165,7 @@
     "verdict": "adjust",
     "issues": "A cukor és a tetejére szórt édesség a szokásos extra, pedig nincs rá szükség.",
     "changes": "Pasztőrözött túrót, joghurtot és egy kevés főtt körtét tegyél pohárba. Cukor és édesség a tetején nélkül.",
-    "serve": "8 hónapos kortól. Csak pasztőrözött tejterméket használj. Ha a tej új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van; ha már jól tűri, a tejes ételeket hetente néhány alkalommal továbbra is kínáld.",
+    "serve": "8 hónapos kortól. Csak pasztőrözött tejterméket használj. Ha a tej még új, az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges; ha már jól tűri, továbbra is adj tejes ételt hetente néhányszor.",
     "freezer": false
   },
   {
@@ -195,7 +195,7 @@
     "verdict": "sound",
     "issues": "A sós sajt tenné alkalmatlanná ezt a tányért.",
     "changes": "Rétegezz sült burgonyát, sült sárgarépát és spenótot egy kevés enyhe sajttal, majd vágd rudakra a sütést. Sós sajt nélkül.",
-    "serve": "Nem édes, zöldséges ünnepi tányér 10 hónapos kortól. Olyan rudakra vágd, amit a gyerek meg tud fogni, és hagyd ki a sós ízű sajtot.",
+    "serve": "Zöldséges, nem édes ünnepi falatok 10 hónapos kortól. Olyan rudakra vágd, amit a gyerek meg tud fogni, és ha a sajt sós ízű, hagyd ki.",
     "freezer": true
   },
   {
@@ -225,7 +225,7 @@
     "verdict": "replace",
     "issues": "A szokásos mézes-fűszeres keksz 10 hónapos korban rossz édesítő, és gyakran túl kemény. A méz 12 hónapos kor előtt sütve is veszélyes, és utána is csak cukor.",
     "changes": "Fahéjas, narancshéjas zabkekszet süss almapürével édesítve. Méz nélkül, és a keksz maradjon puha.",
-    "serve": "10 hónapos kortól, és csak amíg puha marad. Ha egy keksz keményre szárad, ne add. A hétköznapi búzát a héten tésztában vagy kenyérben is add.",
+    "serve": "10 hónapos kortól, de csak amíg puha. Ha egy keksz keményre szárad, ne add oda. A búza a hét többi napján tésztában vagy kenyérben is kerüljön az asztalra.",
     "freezer": true
   },
   {
@@ -256,7 +256,7 @@
     "verdict": "adjust",
     "issues": "A cukormáz édességgé teszi, és ez csak alkalmi torta.",
     "changes": "Cukor nélküli túrótortát süss túróból, tojásból és joghurtból, puha zabalapon, és vágd csillagokra. A tetejére gyümölcs kerüljön, ne cukormáz.",
-    "serve": "Alkalmanként, 12 hónapos kortól. A mindennapi tejet, tojást és glutént, ha már mindegyiket jól tűri, hetente néhány alkalommal más ételekben is add. Új allergént ne ebben az egész tortában kóstoltass először, hanem reggel, olyan napon, amikor a gyerek jól van.",
+    "serve": "Alkalmanként, 12 hónapos kortól. Ha a tejet, a tojást és a glutént már jól tűri, ezeket hetente néhányszor más ételekben is add. Egy új allergént ne ebben a tortában kóstoltass először, hanem délelőtt, egy olyan napon, amikor a gyerek egészséges.",
     "freezer": true
   },
   {
@@ -284,7 +284,7 @@
     "verdict": "replace",
     "issues": "A szokásos tobozkeksz kukoricapehelyből és csokoládéból áll.",
     "changes": "Puha zabos-banános gombócokat készíts, csokoládé és kemény gabonapehely nélkül. Maradjon alkalmi.",
-    "serve": "Alkalmi étel 12 hónapos kortól. Ha egy gombóc ropogósra sül, ne add. A búzát a héten közönséges tésztában vagy kenyérben is kínáld.",
+    "serve": "Alkalmi csemege 12 hónapos kortól. Ha egy falat ropogósra sül, ne add oda. A búzát a hét során sima tésztában vagy kenyérben is kínáld.",
     "freezer": true
   },
   {
@@ -314,7 +314,7 @@
     "verdict": "adjust",
     "issues": "A leveskocka só.",
     "changes": "Csirkét vagy zöldséget főzz só nélkül, szűrd le a levet, és kis adagokban fagyaszd le. Hozzávalóként használd, ne önálló ételként.",
-    "serve": "6 hónapos kortól, csak egy másik, odaillő ételbe téve. A bolti leveskocka ezt nem pótolja, mert a kocka só.",
+    "serve": "6 hónapos kortól, csak más, korának megfelelő ételbe keverve. A bolti leveskocka nem helyettesíti, mert az lényegében só.",
     "freezer": true
   },
   {
@@ -344,7 +344,7 @@
     "verdict": "adjust",
     "issues": "A máj nagyon gazdag A-vitaminban, ezért a gyerek adagja levesben is kicsi maradjon.",
     "changes": "Néhány kis galuskát főzz csirkemájból, tojásból, zsemlemorzsából és petrezselyemből sótlan alaplében, amíg teljesen meg nem fő. A gyerek kb. 15 g főtt májat kapjon, hetente legfeljebb egyszer, és ne A-vitamin-készítmény mellett.",
-    "serve": "8 hónapos kortól. Ez az adag a hét májos étele, ezért ne adj mellé májkrémet, és ne adj A-vitamin-készítményt sem. Ha egy galuska még nagy, aprítsd fel.",
+    "serve": "8 hónapos kortól. Ez az adag a heti májas étel, ezért mellé ne adj májkrémet, se A-vitamin-készítményt. A nagyobb galuskákat vágd kisebbre.",
     "freezer": true
   },
   {
@@ -372,7 +372,7 @@
     "verdict": "adjust",
     "issues": "A szokásos tésztába egy kevés só is belekerülhetett, és a kemény tészta ebben a korban túl kemény.",
     "changes": "A tészta két tojásból és kb. 200 g lisztből készül, semennyi sóval. Pihentesd, vágd kicsire, és nagyon puhára főzd, hogy 6 hónapos kortól használható legyen.",
-    "serve": "6 hónapos kortól csak akkor, ha a darabok nagyon puhák és nedvesek. Az első tojás- vagy búzakóstolót reggel add, olyan napon, amikor a gyerek jól van, utána a búzát a héten továbbra is kínáld.",
+    "serve": "6 hónapos kortól, de csak nagyon puha, szaftos darabokban. Az első tojás- vagy búzakóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges, utána a búzát a héten is kínáld rendszeresen.",
     "freezer": true
   },
   {
@@ -398,7 +398,7 @@
     "verdict": "adjust",
     "issues": "Különleges bébiolaj-keverékre nincs szükség, az ízesített olaj pedig botulizmusveszély.",
     "changes": "Hagyd ki a szekrényben álló, 500 ml-es kevert olajos üveget, és egy teáskanál repce- vagy olívaolajat keverj a megfőtt tányérba. Ha lenmagolajat használsz, kis üveget tarts a hűtőben, két héten belül használd el, és soha ne melegítsd. Fokhagymát vagy fűszernövényt ne áztass olajba, és olajban ne tárold.",
-    "serve": "6 hónapos kortól, egy teáskanálnyi olyan ételen, amit a gyerek már eszik. Ez nem ital, és nem olajban tartott fokhagyma.",
+    "serve": "6 hónapos kortól, egy teáskanálnyit olyan ételre csorgatva, amit a gyerek már eszik. Nem itatni való, és nem olajba tett fokhagyma.",
     "freezer": false
   },
   {
@@ -426,7 +426,7 @@
     "verdict": "replace",
     "issues": "A szokásos ízesítőpép nyers zöldség volt, egy hétig a hűtőben, és nagyobb gyerekeknek sót is javasoltak.",
     "changes": "Fűszernövényt, paradicsomot és édes paprikát turmixolj össze, és azonnal fagyaszd jégkockába, só nélkül. A kiolvasztott kockát legfeljebb két napig tartsd a hűtőben.",
-    "serve": "6 hónapos kortól, forró ételbe keverve. A turmixolt pépet ne tartsd egy hétig, és nagyobb gyereknek se adj hozzá sót.",
+    "serve": "6 hónapos kortól, forró ételbe keverve. A turmixolt pépet ne tárold egy hétig, és nagyobb gyereknek se sózd meg.",
     "freezer": true
   },
   {
@@ -454,7 +454,7 @@
     "verdict": "replace",
     "issues": "A szokásos lekvárt órákig főzték, és egyéves kor után mézzel is le lehetett zárni.",
     "changes": "Az almát és a bogyókat rövid főzéssel készítsd szósszá, méz nélkül. Kihűlés után legfeljebb három napig tarthatod a hűtőben, vagy fagyaszd le.",
-    "serve": "6 hónapos kortól, kására vagy kanállal. Minden életkorban maradjon édesítetlen.",
+    "serve": "6 hónapos kortól, kására vagy kanálról. Semmilyen életkorban ne édesítsd.",
     "freezer": true
   },
   {
@@ -480,7 +480,7 @@
     "verdict": "sound",
     "issues": "Az almaszószba gyakran kerül cukor, pedig nincs rá szükség.",
     "changes": "Főzd meg az almát, és hagyd édesítetlenül kásához, húshoz vagy önmagában, kanállal.",
-    "serve": "6 hónapos kortól, édesítetlenül, kása vagy hús mellé, vagy önmagában.",
+    "serve": "6 hónapos kortól, édesítés nélkül, kása vagy hús mellé, vagy magában.",
     "freezer": true
   },
   {
@@ -508,7 +508,7 @@
     "verdict": "adjust",
     "issues": "A sós májkrém sós kekszre kenve figyelmen kívül hagyja az A-vitamin-korlátot, és sót is ad.",
     "changes": "A teljesen átsült csirkemájat almával és egy kevés olajjal turmixold vékony krémmé, só nélkül. A gyerek adagja kb. 15 g főtt máj, hetente legfeljebb egyszer, és nem A-vitamin-készítmény mellett.",
-    "serve": "6 hónapos kortól, puha zöldségre kenve, nem sós kekszre. Ugyanazon a héten ne adj májgaluskát vagy más májat, és ne párosítsd A-vitamin-készítménnyel.",
+    "serve": "6 hónapos kortól, puha zöldségre kenve, nem sós kekszre. Ugyanazon a héten ne adj májgaluskát vagy más májat, és A-vitamin-készítményt se mellé.",
     "freezer": true
   },
   {
@@ -566,7 +566,7 @@
     "verdict": "sound",
     "issues": "A nem teljesen átsült tojás vagy a kemény, ropogós alap elrontana egy hasznos ötletet.",
     "changes": "A sült édesburgonyát, a darált zabpelyhet, a tojást és az olajat nyomd vékony lappá, és süsd, amíg a tojás teljesen megfő, a közepe pedig puha marad. A lapot krémek alapjaként használd.",
-    "serve": "7 hónapos kortól, olyan krém alatt, amit a gyerek már jól tűr. Az első tojáshoz előbb sima, megfőtt tojást adj önmagában, mielőtt a tojást ebbe a sütésbe rejtenéd.",
+    "serve": "7 hónapos kortól, olyan krémmel megkenve, amit a gyerek már jól tűr. Az első tojás legyen sima, főtt tojás magában, mielőtt ebbe a sütésbe rejtenéd.",
     "freezer": true
   },
   {
@@ -579,11 +579,11 @@
     "time_minutes": 15,
     "ingredients": [
       {"item": "érett avokádó", "amount": "1/2", "note": "azon a napon pépesítve, amikor elfogy"},
-      {"item": "kicsontozott, megfőtt lazac", "amount": "20 g", "note": "ez legyen a szokásos hal; bőr és szálka nélkül; teljesen megfőzve"},
+      {"item": "szálkátlanított, megfőtt lazac", "amount": "20 g", "note": "ez legyen a szokásos hal; bőr és szálka nélkül; teljesen megfőzve"},
       {"item": "vízben konzervelt tonhal", "amount": "15 g, választható", "note": "hozzáadott só nélkül; csak ritkán, lazac helyett"}
     ],
     "method": [
-      "Egy kis, kicsontozott lazacdarabot főzz meg, amíg szétválik, és nem marad benne áttetsző rész.",
+      "Egy kis, szálkátlanított lazacdarabot főzz meg, amíg szétválik, és nem marad benne áttetsző rész.",
       "Ellenőrizd újra, és távolíts el minden szálkát vagy bőrt.",
       "Az avokádót törd sima péppé.",
       "Keverj bele egy kevés lazacot, vagy ritkán vízben konzervelt, hozzáadott só nélküli tonhalat.",
@@ -593,8 +593,8 @@
     "allergens": ["fish"],
     "verdict": "adjust",
     "issues": "A tonhal sósabb és több higanyt tartalmaz, mint a lazac, és majonéznek nincs helye a pépben.",
-    "changes": "Az érett avokádót törd össze kevés, kicsontozott, megfőtt lazaccal. Vízben konzervelt, hozzáadott só nélküli tonhalat csak néha használj. Még aznap add.",
-    "serve": "8 hónapos kortól, azon a napon, amikor készül. A lazac az alap. Ha a hal új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van; ha már jól tűri, a halat hetente néhány alkalommal továbbra is kínáld.",
+    "changes": "Az érett avokádót törd össze kevés, szálkátlanított, megfőtt lazaccal. Vízben konzervelt, hozzáadott só nélküli tonhalat csak néha használj. Még aznap add.",
+    "serve": "8 hónapos kortól, még az elkészítés napján. Alapból lazaccal készül. Ha a hal még új, az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges; ha már jól tűri, a halat továbbra is kínáld hetente néhányszor.",
     "freezer": false
   },
   {
@@ -621,7 +621,7 @@
     "verdict": "sound",
     "issues": "A cékla nitrátban gazdag, ezért krémet adj belőle, ne hatalmas napi adagot. Ez korlát, nem tiltás.",
     "changes": "A főtt céklát és burgonyát olajjal turmixold össze, só nélkül.",
-    "serve": "8 hónapos kortól, kis krémként, ne minden nap nagy tálként. A cékla ezen a korláton belül maradhat az étlapon.",
+    "serve": "8 hónapos kortól, kis adag krémként, ne nagy tálnyi mennyiségben mindennap. Ilyen mértékben a cékla nyugodtan maradhat az étrendben.",
     "freezer": true
   },
   {
@@ -647,7 +647,7 @@
     "verdict": "sound",
     "issues": "A nyers sárgájából készült majonéz nem teljesen átsült tojás sós szószban.",
     "changes": "Kemény tojást törj össze joghurttal, és hagyd ki a nyers tojást.",
-    "serve": "6 hónapos kortól. Ha a tojás vagy a tej új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha már jól tűri, a tojást és a tejet hetente néhány alkalommal továbbra is kínáld.",
+    "serve": "6 hónapos kortól. Ha a tojás vagy a tej új, az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha már jól tűri, a tojást és a tejet továbbra is kínáld hetente néhányszor.",
     "freezer": false
   },
   {
@@ -659,7 +659,7 @@
     "portions": 2,
     "time_minutes": 25,
     "ingredients": [
-      {"item": "kicsontozott fehér hal", "amount": "60 g", "note": "pollock, tőkehal vagy foltos tőkehal; nem cápa, nem kardhal, nem marlin, nem ponty és nem füstölt hal"},
+      {"item": "szálkátlanított fehér hal", "amount": "60 g", "note": "pollock, tőkehal vagy foltos tőkehal; nem cápa, nem kardhal, nem marlin, nem ponty és nem füstölt hal"},
       {"item": "burgonya", "amount": "80 g", "note": "meghámozva, puhára főzve"},
       {"item": "repce- vagy olívaolaj", "amount": "1 teáskanál", "note": "a végén belekeverve"}
     ],
@@ -674,8 +674,8 @@
     "allergens": ["fish"],
     "verdict": "sound",
     "issues": "A füstölt hal sós, és nem ugyanaz, mint a frissen megfőtt filé.",
-    "changes": "A megfőtt, kicsontozott fehér halat burgonyával és olajjal turmixold össze. Hagyd ki a füstölt halat, a cápát, a kardhalat, a marlint és a pontyot.",
-    "serve": "6 hónapos kortól. Ha a hal új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van, és ha már jól tűri, a halat hetente néhány alkalommal továbbra is kínáld.",
+    "changes": "A megfőtt, szálkátlanított fehér halat burgonyával és olajjal turmixold össze. Hagyd ki a füstölt halat, a cápát, a kardhalat, a marlint és a pontyot.",
+    "serve": "6 hónapos kortól. Ha a hal új, az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges, és ha már jól tűri, a halat továbbra is kínáld hetente néhányszor.",
     "freezer": true
   },
   {
@@ -703,7 +703,7 @@
     "verdict": "replace",
     "issues": "A szokásos fűszeres sajtkrém sós, és a hagymától túl erős.",
     "changes": "A pasztőrözött túrót keverd össze édes fűszerpaprikával és egy kevés főtt hagymával, só nélkül.",
-    "serve": "8 hónapos kortól, egy kis kanállal olyan puha zöldségre vagy kenyérre, amit a gyerek már jól kezel. Ha a tej új, az első kóstolót reggel add, olyan napon, amikor a gyerek jól van.",
+    "serve": "8 hónapos kortól, egy kis kanálnyit olyan puha zöldségre vagy kenyérre kenve, amivel a gyerek már boldogul. Ha a tej még új, az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges.",
     "freezer": false
   },
   {
@@ -730,7 +730,7 @@
     "verdict": "sound",
     "issues": "A kemény, édes keksz elvétené a puha gluténkóstoltatás lényegét.",
     "changes": "Gyümölcspüréből, zabpehelyből és egy kanál búzalisztből süss puha kekszet, hogy a gluténadag valódi legyen. Cukor nélkül.",
-    "serve": "Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. A búzát a héten tésztában vagy kenyérben is kínáld. Ha a glutént már jól tűri, hetente néhány alkalommal továbbra is add.",
+    "serve": "Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. A búzát a héten tésztában vagy kenyérben is kínáld. Ha a glutént már jól tűri, továbbra is add hetente néhányszor.",
     "freezer": true
   },
   {
@@ -744,7 +744,7 @@
     "ingredients": [
       {"item": "cukkini", "amount": "1 kicsi", "note": "rudakra vágva, éppen puhára gőzölve"},
       {"item": "tojás", "amount": "1", "note": "sütve, amíg teljesen meg nem szilárdul"},
-      {"item": "sima zsemlemorzsa", "amount": "2 evőkanál", "note": "önmagában csak gyenge gluténadag; sótlan"}
+      {"item": "sima zsemlemorzsa", "amount": "2 evőkanál", "note": "önmagában kevés glutént ad; sótlan"}
     ],
     "method": [
       "A cukkinit vágd rudakra, és gőzöld, amíg éppen megpuhul.",
@@ -755,9 +755,9 @@
     ],
     "allergens": ["egg", "gluten"],
     "verdict": "adjust",
-    "issues": "A ropogós kéreg túl kemény, a zsemlemorzsa önmagában pedig csak gyenge gluténkóstoltatás.",
+    "issues": "A ropogós kéreg túl kemény, a zsemlemorzsa önmagában pedig kevés glutént ad.",
     "changes": "A cukkinirudakat forgass tojásba és zsemlemorzsába, és süsd, amíg a morzsa puha.",
-    "serve": "Ez önmagában csak gyenge gluténkóstoló, ezért a tésztát vagy a kenyeret is kínáld. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a tojást és a glutént már jól tűri, hetente néhány alkalommal továbbra is add.",
+    "serve": "Önmagában kevés glutént ad, ezért a tésztát vagy a kenyeret is kínáld. Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha a tojást és a glutént már jól tűri, továbbra is add hetente néhányszor.",
     "freezer": true
   },
   {
@@ -770,12 +770,12 @@
     "time_minutes": 30,
     "ingredients": [
       {"item": "tojás", "amount": "2", "note": "sütve, amíg teljesen meg nem szilárdul"},
-      {"item": "kicsontozott, megfőtt fehér hal", "amount": "30 g", "note": "pollock, tőkehal vagy foltos tőkehal; nem cápa, nem kardhal, nem marlin és nem ponty"},
+      {"item": "szálkátlanított, megfőtt fehér hal", "amount": "30 g", "note": "pollock, tőkehal vagy foltos tőkehal; nem cápa, nem kardhal, nem marlin és nem ponty"},
       {"item": "teljesen megfőtt garnélarák", "amount": "15 g", "note": "csak későbbi adagban, ha a halat már jól tűri; finomra aprítva"}
     ],
     "method": [
       "Melegítsd elő a sütőt 170 °C-ra, és verd fel a tojást.",
-      "Keverj bele már teljesen megfőtt, rostjaira szedett, kicsontozott fehér halat, garnéla még nélkül.",
+      "Keverj bele már teljesen megfőtt, rostjaira szedett, szálkátlanított fehér halat, garnéla még nélkül.",
       "Kanalazd kis formákba, és süsd, amíg a tojás a közepén is megszilárdul.",
       "Először ezeket a csak halas muffinokat add.",
       "Egy későbbi napon, ha a halat már jól tűri, forgass ugyanebbe a tésztába finomra aprított, teljesen megfőtt garnélarákot.",
@@ -785,7 +785,7 @@
     "verdict": "adjust",
     "issues": "A rákfélét külön kell bevezetni, nem az első halas muffinnal együtt.",
     "changes": "Először a csak halas tojásmuffinokat készítsd el. Finomra aprított, teljesen megfőtt garnélarákot csak később tegyél bele, ha a halat már jól tűri, mert a garnéla más allergén.",
-    "serve": "A csak halas muffin tojást és halat tartalmaz. Garnélát csak akkor kóstoltass, ha a halat már jól tűri, teljesen megfőzve, finomra aprítva, reggel, olyan napon, amikor a gyerek jól van. Minden első kóstolót reggel adj, olyan napon, amikor a gyerek jól van, és ha egy allergént már jól tűr, hetente néhány alkalommal továbbra is kínáld.",
+    "serve": "A csak halas muffin tojást és halat tartalmaz. Garnélát csak akkor kóstoltass, ha a halat már jól tűri, teljesen megfőzve, finomra aprítva, délelőtt, egy olyan napon, amikor a gyerek egészséges. Minden első kóstolót délelőtt adj, egy olyan napon, amikor a gyerek egészséges, és ha egy allergént már jól tűr, továbbra is kínáld hetente néhányszor.",
     "freezer": true
   },
   {
@@ -804,15 +804,15 @@
     "method": [
       "Forrald fel a vizet, és habverővel keverd bele a búzadarát.",
       "Folyamatos keverés mellett főzd, amíg besűrűsödik, és a dara megpuhul.",
-      "Hűtsd éppen langyosra.",
+      "Hagyd langyosra hűlni.",
       "Keverd bele a natúr joghurtot.",
       "Gyümölcs és vasban gazdag étel mellé add, ne egyedüli fogásként."
     ],
     "allergens": ["milk", "gluten"],
     "verdict": "sound",
     "issues": "A joghurttal kevert búzadara vasban szegény, ezért nem lehet belőle az egész étkezés.",
-    "changes": "A búzadarát vízben főzd, és keverj bele natúr joghurtot, cukor nélkül. Tej és glutén gyakorlására való ételként add, gyümölcs és vasban gazdag étel mellé.",
-    "serve": "Ez a tej és a glutén gyakorlására való étel. Tegyél mellé gyümölcsöt és vasban gazdag ételt, például húst, lencsét vagy dúsított bébi gabonapelyhet. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van, és ha már jól tűri, a tejet és a glutént hetente néhány alkalommal továbbra is kínáld.",
+    "changes": "A búzadarát vízben főzd, és keverj bele natúr joghurtot, cukor nélkül. Tejet és glutént adó ételként kínáld, gyümölcs és vasban gazdag étel mellé.",
+    "serve": "Ezzel az étellel a tejet és a glutént rendszeresen kínálhatod. Tegyél mellé gyümölcsöt és vasban gazdag ételt, például húst, lencsét vagy dúsított bébi gabonapelyhet. Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges, és ha már jól tűri, a tejet és a glutént továbbra is kínáld hetente néhányszor.",
     "freezer": false
   },
   {
@@ -838,7 +838,7 @@
     "verdict": "sound",
     "issues": "A szójaszósz sós ízesítő, nem első szójás étel.",
     "changes": "A sótlan, kemény tofut egy kevés olajban melegítsd át puha csíkokként, vagy morzsold pürébe. Szójaszósz nélkül.",
-    "serve": "Első szójás étel 6 hónapos kortól. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a szóját már jól tűri, hetente néhány alkalommal továbbra is kínáld.",
+    "serve": "Első szójás étel 6 hónapos kortól. Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha a szóját már jól tűri, továbbra is kínáld hetente néhányszor.",
     "freezer": false
   },
   {
@@ -864,7 +864,7 @@
     "verdict": "adjust",
     "issues": "A száraz dióbevonat és az egész dió volt a veszély. Ez nem helyettesíti a földimogyorót.",
     "changes": "Egyféle sima dióvajat keverj puha burgonyagaluskába, mandulát vagy diót, egyszerre csak egyet, és főzd meg. Ne forgass száraz darált dióba, és sűrű dióvajat kanálról ne adj.",
-    "serve": "Egyszerre csak egy diófélét kóstoltass, az első ízét reggel, olyan napon, amikor a gyerek jól van. Ha azt már jól tűri, hetente néhány alkalommal továbbra is kínáld. A földimogyorónak továbbra is saját étele kell.",
+    "serve": "Egyszerre csak egyféle diófélét vezess be, az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha azt már jól tűri, továbbra is kínáld hetente néhányszor. A földimogyorót külön ételekben kell bevezetni.",
     "freezer": true
   },
   {
@@ -891,7 +891,7 @@
     "verdict": "adjust",
     "issues": "Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Sűrű földimogyoróvajat kanálról soha ne adj.",
     "changes": "Egy teáskanál sima földimogyoróvajat keverj három evőkanál joghurtba vagy gyümölcspürébe, amíg laza nem lesz. A joghurtos változat tejet tartalmaz, a gyümölcsös változat tejmentes.",
-    "serve": "Ha a tejet még nem tűri, a gyümölcspürés utat használd, és akkor az egyetlen allergén a földimogyoró. Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a földimogyorót már jól tűri, kb. két teáskanálnyit adj ételbe hígítva, hetente háromszor.",
+    "serve": "Ha a tejet még nem tűri, a gyümölcspürés változatot használd, és akkor az egyetlen allergén a földimogyoró. Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha a földimogyorót már jól tűri, kb. két teáskanálnyit adj ételbe hígítva, hetente háromszor.",
     "freezer": false
   },
   {
@@ -919,7 +919,7 @@
     "verdict": "adjust",
     "issues": "Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Sűrű földimogyoróvajat önmagában soha ne adj, és kemény rudat se kínálj.",
     "changes": "Zabpehelyből, banánból és a tésztába kevert egy teáskanál sima földimogyoróvajból süss puha rudakat.",
-    "serve": "Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a földimogyorót már jól tűri, kb. két teáskanál sima földimogyoróvajat keverj ételbe hígítva, hetente háromszor. Ha egy rúd keményre sül, dobd ki.",
+    "serve": "Ha a gyereknek súlyos ekcémája van, vagy ismert tojásallergiája, az első földimogyoró-kóstolás előtt a kezelőorvossal kell egyeztetni. Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha a földimogyorót már jól tűri, kb. két teáskanál sima földimogyoróvajat keverj ételbe hígítva, hetente háromszor. Ha egy rúd keményre sül, dobd ki.",
     "freezer": true
   },
   {
@@ -945,7 +945,7 @@
     "verdict": "sound",
     "issues": "A sütésbe rejtett tojásnyom nem egyértelmű első kóstoló.",
     "changes": "Egy tojást verj fel egy kevés reszelt sárgarépával, és süsd puha csíkként vagy rántottának, amíg teljesen meg nem szilárdul.",
-    "serve": "Valódi első tojás 6 hónapos kortól, nem a sütésbe rejtett nyomnyi mennyiség. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a tojást már jól tűri, hetente néhány alkalommal továbbra is kínáld.",
+    "serve": "Valódi első tojásétel 6 hónapos kortól, nem egy sütibe rejtett nyomnyi mennyiség. Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha a tojást már jól tűri, továbbra is kínáld hetente néhányszor.",
     "freezer": false
   },
   {
@@ -971,7 +971,7 @@
     "verdict": "sound",
     "issues": "A lágy sárgája nincs teljesen megfőzve.",
     "changes": "Kemény tojást törj édesburgonya-pürébe.",
-    "serve": "6 hónapos kortól, teljesen megfőtt tojással. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a tojást már jól tűri, hetente néhány alkalommal továbbra is kínáld.",
+    "serve": "6 hónapos kortól, teljesen megfőtt tojással. Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha a tojást már jól tűri, továbbra is kínáld hetente néhányszor.",
     "freezer": false
   },
   {
@@ -996,9 +996,9 @@
     ],
     "allergens": ["sesame"],
     "verdict": "adjust",
-    "issues": "Az egész szezámmag elzárhatja a légutat, és az adag is gyenge lenne.",
+    "issues": "Az egész szezámmag elzárhatja a légutat, és túl keveset is adna belőle.",
     "changes": "A főtt csicseriborsót egy teáskanál tahinival és néhány csepp citrommal turmixold lazára. A bevezetés a tahini, nem a rászort mag.",
-    "serve": "Kanálról add, vagy hígítsd tovább. Az első kóstolót reggel add, olyan napon, amikor a gyerek jól van. Ha a szezámot már jól tűri, hetente néhány alkalommal továbbra is kínáld.",
+    "serve": "Kanálról add, vagy hígítsd tovább. Az első kóstolót délelőtt add, egy olyan napon, amikor a gyerek egészséges. Ha a szezámot már jól tűri, továbbra is kínáld hetente néhányszor.",
     "freezer": true
   }
 ]

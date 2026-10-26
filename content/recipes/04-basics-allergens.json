@@ -138,7 +138,7 @@
     "verdict": "adjust",
     "issues": "Raw mayonnaise and salt are the usual filling, and a whole half-egg is large for a child.",
     "changes": "Halve hard-boiled eggs and mash the yolks with plain yogurt and sweet paprika, with no raw mayonnaise and no salt. Cut pieces small enough for the child.",
-    "serve": "From 8 months, in small pieces, with the child seated. If egg or milk is new, try the first taste in the morning on a well day.",
+    "serve": "From 8 months, in small pieces, with the child seated. If egg or milk is new, try the first taste in the morning, on a day your child is well.",
     "freezer": false
   },
   {
@@ -165,7 +165,7 @@
     "verdict": "adjust",
     "issues": "Sugar and sweets on top are the usual extra, and they are not needed.",
     "changes": "Serve pasteurized cottage cheese, yogurt, and a little cooked pear in a cup. Add no sugar and no sweets on top.",
-    "serve": "From 8 months. Use pasteurized dairy only. If milk is new, try the first taste in the morning on a well day, then keep offering milk foods a few times a week once tolerated.",
+    "serve": "From 8 months. Use pasteurized dairy only. If milk is new, try the first taste in the morning, on a day your child is well, then keep offering milk foods a few times a week once tolerated.",
     "freezer": false
   },
   {
@@ -256,7 +256,7 @@
     "verdict": "adjust",
     "issues": "A sugar glaze turns this into a sweet, and it is only an occasional cake.",
     "changes": "Bake a no-sugar cheesecake of cottage cheese, egg, and yogurt on a soft oat base, and cut it into stars. Put fruit on top, not a sugar glaze.",
-    "serve": "Occasional, from 12 months. Keep everyday milk, egg, and gluten in other meals a few times a week once each is tolerated. Try a first new allergen in the morning on a well day, not in this whole cake.",
+    "serve": "Occasional, from 12 months. Keep everyday milk, egg, and gluten in other meals a few times a week once each is tolerated. Try a first new allergen in the morning, on a day your child is well, not in this whole cake.",
     "freezer": true
   },
   {
@@ -314,7 +314,7 @@
     "verdict": "adjust",
     "issues": "Stock cubes are salt.",
     "changes": "Simmer chicken or vegetables with no salt, strain the liquid, and freeze it in small portions. Use it as an ingredient, not as a meal.",
-    "serve": "From 6 months, only inside another suitable dish. A bought stock cube does not replace this, because those cubes are salt.",
+    "serve": "From 6 months, only inside another suitable dish. A shop-bought stock cube is no substitute, because those cubes are mostly salt.",
     "freezer": true
   },
   {
@@ -372,7 +372,7 @@
     "verdict": "adjust",
     "issues": "The usual dough allowed a little salt, and firm pasta is too hard at this age.",
     "changes": "Make the dough from two eggs and about 200 g flour, with no salt at all. Rest it, cut it small, and boil it until very soft so it can be used from 6 months.",
-    "serve": "From 6 months only when the pieces are very soft and moist. Try a first egg or wheat taste in the morning on a well day, then keep offering wheat through the week.",
+    "serve": "From 6 months only when the pieces are very soft and moist. Try a first egg or wheat taste in the morning, on a day your child is well, then keep offering wheat through the week.",
     "freezer": true
   },
   {
@@ -594,7 +594,7 @@
     "verdict": "adjust",
     "issues": "Tuna is saltier and higher in mercury than salmon, and mayonnaise does not belong in the mash.",
     "changes": "Mash ripe avocado with a small amount of boneless cooked salmon, using tuna canned in water with no salt added only now and then. Serve it the same day.",
-    "serve": "From 8 months, the same day it is made. Salmon is the default. If fish is new, try the first taste in the morning on a well day, then keep offering fish a few times a week once it is tolerated.",
+    "serve": "From 8 months, the same day it is made. Salmon is the default. If fish is new, try the first taste in the morning, on a day your child is well, then keep offering fish a few times a week once it is tolerated.",
     "freezer": false
   },
   {
@@ -647,7 +647,7 @@
     "verdict": "sound",
     "issues": "Raw yolk mayonnaise is undercooked egg in a salty sauce.",
     "changes": "Mash a hard-boiled egg with yogurt and skip any raw egg.",
-    "serve": "From 6 months. If egg or milk is new, try the first taste in the morning on a well day. Once tolerated, keep offering egg and milk a few times a week.",
+    "serve": "From 6 months. If egg or milk is new, try the first taste in the morning, on a day your child is well. Once tolerated, keep offering egg and milk a few times a week.",
     "freezer": false
   },
   {
@@ -675,7 +675,7 @@
     "verdict": "sound",
     "issues": "Smoked fish is salty and is not the same as a fresh cooked fillet.",
     "changes": "Blend cooked boneless white fish with potato and oil. Leave out smoked fish, shark, swordfish, marlin, and carp.",
-    "serve": "From 6 months. If fish is new, try the first taste in the morning on a well day, and once it is tolerated keep offering fish a few times a week.",
+    "serve": "From 6 months. If fish is new, try the first taste in the morning, on a day your child is well, and once it is tolerated keep offering fish a few times a week.",
     "freezer": true
   },
   {
@@ -703,7 +703,7 @@
     "verdict": "replace",
     "issues": "The usual spiced cheese spread is salty and sharp with onion.",
     "changes": "Stir pasteurized cottage cheese with sweet paprika and a little cooked onion, and add no salt.",
-    "serve": "From 8 months, a small spoon on soft vegetables or bread the child already manages. If milk is new, try the first taste in the morning on a well day.",
+    "serve": "From 8 months, a small spoon on soft vegetables or bread the child already manages. If milk is new, try the first taste in the morning, on a day your child is well.",
     "freezer": false
   },
   {
@@ -730,7 +730,7 @@
     "verdict": "sound",
     "issues": "A hard sweet biscuit would miss the point of a soft gluten exposure.",
     "changes": "Bake soft biscuits from fruit purée, oats, and a spoon of wheat flour so the gluten dose is real. Add no sugar.",
-    "serve": "Try the first taste in the morning on a well day. Offer wheat in pasta or bread as well through the week. Once gluten is tolerated, keep offering it a few times a week.",
+    "serve": "Try the first taste in the morning, on a day your child is well. Offer wheat in pasta or bread as well through the week. Once gluten is tolerated, keep offering it a few times a week.",
     "freezer": true
   },
   {
@@ -755,9 +755,9 @@
     ],
     "allergens": ["egg", "gluten"],
     "verdict": "adjust",
-    "issues": "A crisp crust is too hard, and breadcrumbs alone are only a weak gluten exposure.",
+    "issues": "A crisp crust is too hard, and breadcrumbs alone give only a little gluten.",
     "changes": "Coat zucchini sticks in egg and breadcrumbs and bake them until the crumb is soft.",
-    "serve": "This is a weak gluten exposure on its own, so keep offering pasta or bread too. Try the first taste in the morning on a well day. Once egg and gluten are tolerated, keep offering them a few times a week.",
+    "serve": "On its own this gives only a little gluten, so keep offering pasta or bread too. Try the first taste in the morning, on a day your child is well. Once egg and gluten are tolerated, keep offering them a few times a week.",
     "freezer": true
   },
   {
@@ -785,7 +785,7 @@
     "verdict": "adjust",
     "issues": "Shellfish needs its own introduction, separate from the first fish muffins.",
     "changes": "Make the fish-only egg muffins first. Add finely chopped fully cooked shrimp only later, after fish has been tolerated, because shrimp is a different allergen.",
-    "serve": "The fish-only muffins contain egg and fish. Try shrimp only after fish has been tolerated, on a well morning, chopped fine. Try any first taste in the morning on a well day, and once an allergen is tolerated keep offering it a few times a week.",
+    "serve": "The fish-only muffins contain egg and fish. Try shrimp only after fish has been tolerated, on a morning when your child is well, chopped fine. Try any first taste in the morning, on a day your child is well, and once an allergen is tolerated keep offering it a few times a week.",
     "freezer": true
   },
   {
@@ -811,8 +811,8 @@
     "allergens": ["milk", "gluten"],
     "verdict": "sound",
     "issues": "Semolina stirred with yogurt is low in iron, so it cannot be the whole meal.",
-    "changes": "Cook semolina in water and stir in plain yogurt, with no sugar. Serve it as a milk and gluten practice food beside fruit and an iron food.",
-    "serve": "This is a milk and gluten practice food. Put fruit and an iron food, such as meat, lentils, or fortified infant cereal, beside it. Try the first taste in the morning on a well day, and once tolerated keep offering milk and gluten a few times a week.",
+    "changes": "Cook semolina in water and stir in plain yogurt, with no sugar. Serve it as a regular source of milk and gluten, beside fruit and an iron food.",
+    "serve": "This is an easy way to keep milk and gluten in the diet. Put fruit and an iron food, such as meat, lentils, or fortified infant cereal, beside it. Try the first taste in the morning, on a day your child is well, and once tolerated keep offering milk and gluten a few times a week.",
     "freezer": false
   },
   {
@@ -838,7 +838,7 @@
     "verdict": "sound",
     "issues": "Soy sauce is a salty condiment, not a first soy food.",
     "changes": "Warm unsalted firm tofu in a little oil as soft strips, or crumble it into a purée. Use no soy sauce.",
-    "serve": "A first soy food from 6 months. Try the first taste in the morning on a well day. Once soy is tolerated, keep offering it a few times a week.",
+    "serve": "A first soy food from 6 months. Try the first taste in the morning, on a day your child is well. Once soy is tolerated, keep offering it a few times a week.",
     "freezer": false
   },
   {
@@ -864,7 +864,7 @@
     "verdict": "adjust",
     "issues": "Dry nut coatings and whole nuts were the hazard. This does not replace peanut.",
     "changes": "Mix one smooth nut butter into soft potato dumplings, almond or walnut, one nut at a time, and boil them. Do not roll them in dry ground nuts or serve thick nut butter on a spoon.",
-    "serve": "Try one tree nut at a time, the first taste in the morning on a well day. Once that nut is tolerated, keep offering it a few times a week. Peanut still needs its own foods.",
+    "serve": "Try one tree nut at a time, the first taste in the morning, on a day your child is well. Once that nut is tolerated, keep offering it a few times a week. Peanut still needs its own foods.",
     "freezer": true
   },
   {
@@ -890,8 +890,8 @@
     "allergens": ["milk", "peanut"],
     "verdict": "adjust",
     "issues": "A baby with severe eczema or egg allergy should be assessed before the first peanut taste. Never give a spoon of thick peanut butter.",
-    "changes": "Stir one teaspoon of smooth peanut butter into three tablespoons of yogurt, or into fruit purée, until it is loose. The yogurt path contains milk and the fruit path is milk-free.",
-    "serve": "Use the fruit purée path if milk is not yet tolerated, and then the only allergen is peanut. Try the first taste in the morning on a well day. After peanut is tolerated, offer about two teaspoons thinned, three times a week.",
+    "changes": "Stir one teaspoon of smooth peanut butter into three tablespoons of yogurt, or into fruit purée, until it is loose. The yogurt version contains milk and the fruit version is milk-free.",
+    "serve": "Use the fruit purée version if milk is not yet tolerated, and then the only allergen is peanut. Try the first taste in the morning, on a day your child is well. After peanut is tolerated, offer about two teaspoons thinned, three times a week.",
     "freezer": false
   },
   {
@@ -919,7 +919,7 @@
     "verdict": "adjust",
     "issues": "A baby with severe eczema or egg allergy should be assessed before the first peanut taste. Never give thick peanut butter alone, and do not offer a hard rod.",
     "changes": "Bake soft fingers from oats, banana, and a teaspoon of smooth peanut butter mixed through the dough.",
-    "serve": "Try the first taste in the morning on a well day. After peanut is tolerated, offer about two teaspoons of smooth peanut butter thinned into food, three times a week. If a finger bakes hard, discard it.",
+    "serve": "Try the first taste in the morning, on a day your child is well. After peanut is tolerated, offer about two teaspoons of smooth peanut butter thinned into food, three times a week. If a finger bakes hard, discard it.",
     "freezer": true
   },
   {
@@ -945,7 +945,7 @@
     "verdict": "sound",
     "issues": "A trace of egg hidden in a bake is not a clear first taste.",
     "changes": "Beat an egg with a little grated carrot and cook it as a soft strip or scramble until fully set.",
-    "serve": "A proper first egg from 6 months, not a trace hidden in a bake. Try the first taste in the morning on a well day. Once egg is tolerated, keep offering it a few times a week.",
+    "serve": "A proper first egg from 6 months, not a trace hidden in a bake. Try the first taste in the morning, on a day your child is well. Once egg is tolerated, keep offering it a few times a week.",
     "freezer": false
   },
   {
@@ -971,7 +971,7 @@
     "verdict": "sound",
     "issues": "A soft yolk is not fully cooked.",
     "changes": "Mash a hard-boiled egg into sweet-potato purée.",
-    "serve": "From 6 months, with the egg fully cooked. Try the first taste in the morning on a well day. Once egg is tolerated, keep offering it a few times a week.",
+    "serve": "From 6 months, with the egg fully cooked. Try the first taste in the morning, on a day your child is well. Once egg is tolerated, keep offering it a few times a week.",
     "freezer": false
   },
   {
@@ -996,9 +996,9 @@
     ],
     "allergens": ["sesame"],
     "verdict": "adjust",
-    "issues": "Whole sesame seeds are a choking hazard and a weak dose.",
+    "issues": "Whole sesame seeds are a choking hazard and give only a tiny amount.",
     "changes": "Blend cooked chickpeas with a teaspoon of tahini and a few drops of lemon until loose. Tahini is the introduction, not scattered seeds.",
-    "serve": "Serve on a spoon or thinned further. Try the first taste in the morning on a well day. Once sesame is tolerated, keep offering it a few times a week.",
+    "serve": "Serve on a spoon or thinned further. Try the first taste in the morning, on a day your child is well. Once sesame is tolerated, keep offering it a few times a week.",
     "freezer": true
   }
 ]

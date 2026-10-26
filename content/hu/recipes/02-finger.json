@@ -57,7 +57,7 @@
     "verdict": "adjust",
     "issues": "Ezt a gabonás ételt gyakran csak 9 vagy 10 hónapos kortól adják, és néha sós alaplében főzik. Az ép borsószem is nehéz, ha a baba csak most kezd rágni.",
     "changes": "A bulgurt és a zöldségeket sima vízben főzd, amíg könnyen szétnyomhatók, a borsót pedig törd össze. Alaplevet ne használj. 8 hónapos kortól kínáld, és ha a baba még nem rág, az adagot pépesítsd.",
-    "serve": "Melegen és könnyen szétnyomható puhaságban kínáld. Ha a baba még nem rág, pépesítsd.",
+    "serve": "Melegen add, annyira puhán, hogy könnyen szétnyomható legyen. Ha a baba még nem rág, pépesítsd.",
     "freezer": true
   },
   {
@@ -119,7 +119,7 @@
     "verdict": "adjust",
     "issues": "A megszokott tányér sózott volt, és egy csésze tejszínnel nagyon gazdag; gyakran 11 hónapos kor körül adták. A babának sem egy csipet só, sem ennyi tejszín nem kell.",
     "changes": "Puha tésztát használj spenóttal, brokkolival és kevés, olívaolajon párolt fokhagymával. Keverj bele egy evőkanál natúr joghurtot és egy kevés pasztőrözött sajtot. Sót ne adj hozzá.",
-    "serve": "Ami nem nyomható szét, azt vágd fel vagy pépesítsd, és forrón ne, csak melegen add. A joghurtot közvetlenül evés előtt keverd bele.",
+    "serve": "Ami nem nyomható szét, azt vágd fel vagy pépesítsd, és ne forrón, hanem melegen add. A joghurtot közvetlenül evés előtt keverd bele.",
     "freezer": false
   },
   {
@@ -251,7 +251,7 @@
     "verdict": "adjust",
     "issues": "Ha a só kimarad, ez jó ötlet, de a megszokott szószt sós leveskockával készítik. A só a gond, nem a marhahús, a zöldség vagy a puha tészta.",
     "changes": "A darált húst és a zöldségeket sótlan paradicsommal és vízzel, lassú tűzön főzd. Leveskockát ne használj. A tésztát és a szószt a babának pépesítsd vagy vágd fel, a maradékot pedig fagyaszd le.",
-    "serve": "Kis tálban, pépesen vagy finomra vágva add. A maradék szószt kis edényekben fagyaszd le, és a hűtőben olvaszd ki.",
+    "serve": "Egy kis tálnyit adj, pépesítve vagy finomra vágva. A maradék szószt kis adagokban fagyaszd le, és a hűtőben olvaszd ki.",
     "freezer": true
   },
   {
@@ -334,7 +334,7 @@
     "verdict": "adjust",
     "issues": "A megszokott pite sózott volt, a burgonyás tetőre pedig gyakran tettek szerecsendiót. A zöldbab rostos marad, ha nem fő meg eléggé.",
     "changes": "Sótlan zöldségragut süss burgonya- és karfiolpüré alatt, amit kevés tej és egy tojássárgája köt. Szerecsendiót ne használj. A zöldbabot főzd puhára, sajtból pedig csak egy evőkanálnyit tegyél bele.",
-    "serve": "Szedj ki egy puha adagot, és ha a baba még nem rág jól, pépesítsd. A zöldbabnak szét kell nyomnia, nem maradhat kemény.",
+    "serve": "Szedj ki egy puha adagot, és ha a baba még nem rág jól, pépesítsd. A zöldbabnak szétnyomhatónak kell lennie, nem maradhat kemény.",
     "freezer": true
   },
   {
@@ -418,9 +418,9 @@
     "time_minutes": 30,
     "ingredients": [
       {
-        "item": "csont nélküli tőkehal vagy hekk",
+        "item": "szálkátlan tőkehal vagy hekk",
         "amount": "140 g",
-        "note": "filé, a csontok ellenőrizve"
+        "note": "filé, a szálkák ellenőrizve"
       },
       {
         "item": "brokkoli",
@@ -456,7 +456,7 @@
     "method": [
       "A karalábét hámozd meg, vágd nagyon apróra, majd a vízben főzd, amíg egy darab könnyen szétnyomható.",
       "Add hozzá a brokkolit, és főzd puhára.",
-      "Tedd a halat a serpenyőbe, és főzd, amíg rostjaira esik. Minden rostot nézz át, és a csontot szedd ki.",
+      "Tedd a halat a serpenyőbe, és főzd, amíg rostjaira esik. Minden rostot nézz át, és a szálkát szedd ki.",
       "A tésztát sótlan vízben főzd nagyon puhára, majd szűrd le.",
       "Keverd össze a halat, a zöldségeket, a tésztát, a sajtot és az olajat. Ami nem nyomható szét, azt pépesítsd."
     ],
@@ -466,9 +466,9 @@
       "milk"
     ],
     "verdict": "adjust",
-    "issues": "A karalábé rostos, ha nincs eléggé megfőzve, és egy bennmaradt csonttól a hal nem biztonságos. A sok sajt is túl sós lenne.",
-    "changes": "A csont nélküli halat, a brokkolit és a karalábét főzd nagyon puhára, és a rostokat nézd át csont után. Apró tésztához csak kevés pasztőrözött sajtot használj, és pépesíts mindent, amit a baba nem tud megrágni.",
-    "serve": "A halat szedd rostjaira, a keményebb darabot pedig pépesítsd. A karalábé tálalás előtt teljesen nyomódjon szét.",
+    "issues": "A karalábé rostos, ha nincs eléggé megfőzve, és egy bennmaradt szálkától a hal nem biztonságos. A sok sajt is túl sós lenne.",
+    "changes": "A szálkátlan halat, a brokkolit és a karalábét főzd nagyon puhára, és a rostokat nézd át szálka után. Apró tésztához csak kevés pasztőrözött sajtot használj, és pépesíts mindent, amit a baba nem tud megrágni.",
+    "serve": "A halat szedd szét, a keményebb darabokat pedig nyomd szét. Tálalás előtt a karalábénak teljesen szét kell nyomódnia.",
     "freezer": true
   },
   {
@@ -481,9 +481,9 @@
     "time_minutes": 30,
     "ingredients": [
       {
-        "item": "csont nélküli lazacfilé",
+        "item": "szálkátlan lazacfilé",
         "amount": "100 g",
-        "note": "a csontok ellenőrizve"
+        "note": "a szálkák ellenőrizve"
       },
       {
         "item": "spenót",
@@ -514,7 +514,7 @@
     "method": [
       "A rizst bő, sótlan vízben főzd puhára, szűrd le, és terítsd szét, hogy gyorsan lehűljön.",
       "A brokkolit lassú tűzön főzd, amíg pépesíthető, és ugyanabban az edényben fonnyaszd meg a spenótot.",
-      "A lazacot főzd, amíg rostjaira esik, majd a rostokat nézd át, és a csontot szedd ki.",
+      "A lazacot főzd, amíg rostjaira esik, majd a rostokat nézd át, és a szálkát szedd ki.",
       "Keverd össze a rizst, a zöldségeket és a lazacot, és minden keményebb darabot törj szét.",
       "Keverd bele az olívaolajat."
     ],
@@ -522,9 +522,9 @@
       "fish"
     ],
     "verdict": "sound",
-    "issues": "Ez a tányér 8 hónapos korban már megfelel, ha a lazac csont nélküli, a rizs és a zöldség pedig puha. A bennmaradt csont és a langyosan állni hagyott rizs a veszély, amit kezelned kell.",
-    "changes": "Az összetételen nem kell változtatni. Nézd át a lazacot, nincs-e benne csont, a végén keverj bele 1 teáskanál olívaolajat, és a rizst gyorsan hűtsd le.",
-    "serve": "Az utolsó csontellenőrzés után puhán és melegen kínáld. A rizst tedd hűtőbe, és egy napon belül edd meg.",
+    "issues": "Ez a tányér 8 hónapos korban már megfelel, ha a lazac szálkátlan, a rizs és a zöldség pedig puha. A bennmaradt szálka és a langyosan állni hagyott rizs a veszély, amit kezelned kell.",
+    "changes": "Az összetételen nem kell változtatni. Nézd át a lazacot, nincs-e benne szálka, a végén keverj bele 1 teáskanál olívaolajat, és a rizst gyorsan hűtsd le.",
+    "serve": "Puhán, melegen add, de előtte még egyszer nézd át, nincs-e benne szálka. A rizst tedd hűtőbe, és egy napon belül használd fel.",
     "freezer": false
   },
   {
@@ -537,7 +537,7 @@
     "time_minutes": 30,
     "ingredients": [
       {
-        "item": "csont nélküli lazac, pisztráng, tőkehal vagy hekk",
+        "item": "szálkátlan lazac, pisztráng, tőkehal vagy hekk",
         "amount": "100 g",
         "note": "filé, ne ponty legyen"
       },
@@ -565,7 +565,7 @@
     "method": [
       "A filét a póréhagymával, a friss paradicsommal és a cukkinivel együtt tedd sütőpapírra.",
       "Csepegtesd meg az olajjal, hajtsd csomagba, és 180 °C-on süsd kb. 20 percig, amíg a hal rostjaira esik és a zöldségek megpuhulnak.",
-      "Nyisd ki a csomagot, szedd rostjaira a halat, és minden rostot nézz át, nincs-e benne csont.",
+      "Nyisd ki a csomagot, szedd rostjaira a halat, és minden rostot nézz át, nincs-e benne szálka.",
       "A halat a zöldségekkel együtt pépesítsd addig, amíg 6 hónapos kornak elég sima."
     ],
     "allergens": [
@@ -573,8 +573,8 @@
     ],
     "verdict": "adjust",
     "issues": "A megszokott csomag gyakran ponty volt, néha sós szárított paradicsommal, a kelbimbó pedig itt nem fő meg annyira, hogy pépesíteni lehessen. 6 hónapos korban a halat nem szabad nagy rostokban hagyni.",
-    "changes": "Csont nélküli lazac-, pisztráng-, tőkehal- vagy hekkfilét süss póréhagymával, friss paradicsommal és cukkinivel. Pontyot és szárított paradicsomot ne használj. Szedd rostjaira, nézd át csont után, és a zöldségekkel pépesítsd.",
-    "serve": "6 hónapos kornak elég simára pépesítsd. Csont és kemény zöldségdarab ne maradjon benne. Melegen, egy kis kanálnyit adj.",
+    "changes": "Szálkátlan lazac-, pisztráng-, tőkehal- vagy hekkfilét süss póréhagymával, friss paradicsommal és cukkinivel. Pontyot és szárított paradicsomot ne használj. Szedd rostjaira, nézd át szálka után, és a zöldségekkel pépesítsd.",
+    "serve": "Pépesítsd annyira simára, hogy 6 hónapos babának is jó legyen: ne maradjon benne szálka vagy kemény zöldségdarab. Melegen, egy kis kanálnyit adj.",
     "freezer": true
   },
   {
@@ -587,9 +587,9 @@
     "time_minutes": 30,
     "ingredients": [
       {
-        "item": "csont nélküli tőkehal vagy hekk",
+        "item": "szálkátlan tőkehal vagy hekk",
         "amount": "200 g",
-        "note": "a csontok ellenőrizve"
+        "note": "a szálkák ellenőrizve"
       },
       {
         "item": "sima búzaliszt",
@@ -614,10 +614,10 @@
     ],
     "method": [
       "A sütőt melegítsd elő 200 °C-ra, és olajozz meg egy lap sütőpapírt.",
-      "A halat zömök csíkokra vágd, ne érme alakú korongokra, és nézd át, nincs-e benne csont.",
+      "A halat vaskos csíkokra vágd, ne érme alakú korongokra, és nézd át, nincs-e benne szálka.",
       "Minden csíkot előbb a lisztbe, aztán a tojásba, majd a zsemlemorzsába forgasd.",
       "Süsd, amíg a hal teljesen átsül, a panír pedig halvány és puha marad. Ne legyen kemény, és ne süsd ki.",
-      "Hűtsd langyosra, és ellenőrizd, hogy a csík szétnyomható, a tojás pedig teljesen átsült."
+      "Hagyd langyosra hűlni, és ellenőrizd, hogy a csík szétnyomható, a tojás pedig teljesen átsült."
     ],
     "allergens": [
       "fish",
@@ -626,8 +626,8 @@
     ],
     "verdict": "adjust",
     "issues": "A kisütött halrudak kérge megkeményedik, az érme alakú darabokat pedig nehéz megfogni. A kérget 9 hónapos kor előtt nehezebb kezelni.",
-    "changes": "A csont nélküli tőkehalat vagy hekket lisztbe, tojásba és finom zsemlemorzsába forgasd, majd sütőpapíron süsd, amíg a panír puha marad. Ne süsd ki. Zömök csíkokra vágd, ne érme alakú korongokra.",
-    "serve": "A zömök csíkokat akkor add oda, ha a panír már eléggé lehűlt ahhoz, hogy meg lehessen fogni. A külseje engedjen, ne pattanjon meg.",
+    "changes": "A szálkátlan tőkehalat vagy hekket lisztbe, tojásba és finom zsemlemorzsába forgasd, majd sütőpapíron süsd, amíg a panír puha marad. Ne süsd ki. Vaskos csíkokra vágd, ne érme alakú korongokra.",
+    "serve": "A vaskos csíkokat akkor add a kezébe, amikor a panír már annyira kihűlt, hogy meg tudja fogni. A külseje nyomásra engedjen, ne repedjen.",
     "freezer": true
   },
   {
@@ -684,7 +684,7 @@
     "verdict": "adjust",
     "issues": "A húsgolyókat gyakran keményre sütik, és sóval meg szerecsendióval fűszerezik. A barnára sült kéreg túl kemény, a nagy golyókat pedig nehéz az ínnyel szétnyomni.",
     "changes": "A darált marha- vagy sertéshúst kinyomkodott, reszelt cukkinivel vagy sárgarépával, tojással, zabpehellyel vagy zsemlemorzsával és petrezselyemmel keverd össze. A kis golyókat süsd végig puhára. Sót és szerecsendiót ne adj hozzá.",
-    "serve": "Kis puha golyókat adj, vagy vágj egyet ketté, hogy látszódjon: átsült. Ha a baba még csak most tanul rágni, egy darabot nyomj szét.",
+    "serve": "Kis, puha golyókat adj, vagy vágj ketté egyet, hogy lásd, átsült-e. Ha a baba még csak most tanul rágni, nyomj szét egy darabot.",
     "freezer": true
   },
   {
@@ -742,7 +742,7 @@
     "verdict": "adjust",
     "issues": "A szokásos nuggetset addig sütik ki bő olajban, amíg a külsejük kemény. A zellergumó, amit itt az íz miatt használunk, zellerallergén.",
     "changes": "A darált csirkét reszelt zellergumóval, fűszernövényekkel, tojással és zsemlemorzsával süsd, amíg a belseje puha. Bő olajban ne süsd ki, és sót ne adj hozzá.",
-    "serve": "Meleg, könnyen szétnyomható nuggetseket kínálj. A zellergumó miatt ez az étel zellert tartalmaz.",
+    "serve": "Melegen add, könnyen szétnyomható legyen. A zellergumó miatt ez az étel zellert tartalmaz.",
     "freezer": true
   },
   {
@@ -804,7 +804,7 @@
     "verdict": "adjust",
     "issues": "A cheddar ebben a korban nagyon sós, a kisütéstől pedig kemény kéreg kerülne erre a vasban gazdag falatra. A lencsének és a zöldségnek formázás előtt teljesen puhának kell lennie.",
     "changes": "A vöröslencsét, a sárgarépát és az édesburgonyát főzd puhára, majd tojással és kevés enyhe, pasztőrözött sajttal kösd össze, vagy a sajtot hagyd el. Cheddart ne használj. A falatokat süsd meg, ne süsd ki, és koriandert csak akkor tegyél bele, ha szeretnéd.",
-    "serve": "Hasznos, vasban gazdag étel. A puha falatokat melegen kínáld.",
+    "serve": "Remek vasforrás. A puha falatokat melegen add.",
     "freezer": true
   },
   {
@@ -861,7 +861,7 @@
     "verdict": "adjust",
     "issues": "Ezeket a nuggetseket gyakran sózzák, és addig sütik, amíg a zabos bevonat megkeményedik. A fehérbab csak akkor biztonságos a babának, ha teljesen ki van főzve.",
     "changes": "A brokkolit, a sárgarépát és a teljesen kifőzött fehérbabot tojással és zabpehellyel törd össze, és csak éppen megkötésig süsd. A külsejét tartsd puhán, és sót ne adj hozzá.",
-    "serve": "Olyan puha nuggetseket adj, amelyek az ujjaid között szétnyomhatók. Ép babot ne tálalj.",
+    "serve": "Olyan puha nuggetset adj, ami az ujjaid között szétnyomható. Egész babszemet ne tálalj.",
     "freezer": true
   },
   {
@@ -922,7 +922,7 @@
     "verdict": "adjust",
     "issues": "A megszokott fasírtokat sózták és borsozták, majd addig barnították, amíg a külsejük kemény lett. Az a kéreg keményebb, mint amilyenre egy 8 hónaposnak szüksége van.",
     "changes": "A brokkolit, a sárgarépát, a borsót és a darált csirkét vagy nyulat kevés sajttal és fokhagymával keverd össze. Sót és fekete borsot ne adj hozzá. A fasírtokat süsd meg, vagy közepes lángon, vékony olajrétegen készítsd el, hogy puhák maradjanak, ne barnuljanak keményre.",
-    "serve": "Puha csíkokban vagy pépes kanálnyiként kínáld. A borsót törd össze; ne maradjon ép, kemény szem.",
+    "serve": "Puha csíkokban vagy pépesítve, kanálról add. A borsót nyomd szét, ne maradjon egész, kemény szem.",
     "freezer": true
   },
   {
@@ -984,7 +984,7 @@
     "verdict": "adjust",
     "issues": "A száraz csicseriborsó kemény marad, és nehezen törhető, ha nincs teljesen kifőzve, a megszokott fasírtokat pedig sózzák. A sötétre kisütött kéreg 8 hónapos korban túl kemény is.",
     "changes": "Puhára főzött csicseriborsót használj, vagy leöblített, sótlan konzervet. Hagymával, fokhagymával, fűszernövényekkel, tojással és zabpehellyel kösd össze, majd só nélkül süsd meg.",
-    "serve": "Puha fasírtot adj, ha kell, széttörve. Minden csicseriborsó-darabnak szét kell nyomódnia, kemény közepe nem maradhat.",
+    "serve": "Puha fasírtot adj, ha kell, darabokra törve. Minden csicseriborsó-darab legyen szétnyomható, kemény közép nélkül.",
     "freezer": true
   },
   {
@@ -1095,7 +1095,7 @@
     "verdict": "adjust",
     "issues": "Az ép kukoricaszemek félrenyelési veszélyt jelentenek, és a megszokott megjegyzés a kisebb babáknál már figyelmeztetett is erre. Ebben a tojásos tésztában a só is felesleges.",
     "changes": "A kukoricát még a tésztába keverés előtt pépesítsd, ép szem ne kerüljön bele. Serpenyőben, vékony olajrétegen süsd meg a tojást reszelt sárgarépával és főtt bulgurral, vagy ha gluténmentes lepény kell, ebben a lépésben főtt rizst használj. Sót ne adj hozzá.",
-    "serve": "Puha darabokat adj. Laza kukoricaszemet soha ne tálalj. Ha az ételnek gluténmentesnek kell lennie, a rizses változatot használd.",
+    "serve": "Puha darabokat adj, kukoricaszemet soha ne kínálj külön. Ha gluténmentesen kell, a rizses változatot készítsd.",
     "freezer": true
   },
   {
@@ -1168,7 +1168,7 @@
     "verdict": "replace",
     "issues": "A megszokott mini pizzához sonkát, nádcukrot és sót használtak, és 9 vagy 10 hónapos korra szánták. A sonka sós, pácolt hús, abban a korban pedig a kenyér túl rágós.",
     "changes": "A sonka és a cukor volt a gond, a kenyér állaga miatt pedig csak 12 hónapos kortól kerüljön az asztalra. Süss puha, élesztős lepényt cukor és só nélkül, sonka nélkül. A tetejére paradicsom, sült zöldség és egy kevés mozzarella kerüljön, és vágd négyzetekre.",
-    "serve": "Négyzetekre vágva, meleg, puha darabokban kínáld. Az alja hajoljon meg, ne törjön szét.",
+    "serve": "Kockákra vágva, melegen, puha falatokként add. Az alja hajoljon, ne törjön.",
     "freezer": true
   },
   {
@@ -1215,7 +1215,7 @@
     "verdict": "sound",
     "issues": "Az érett banán, a tojás és egy kevés liszt már magában egyszerű tészta, cukor nem kell hozzá. Csak akkor gond a palacsinta, ha a közepe nyers marad, vagy a korong túl vastag a pépesítéshez.",
     "changes": "Az összetevőket nem kell megváltoztatni. Kis palacsintákat süss vékony olajrétegen, alacsony lángon, amíg a tojás teljesen megköt. Cukrot ne adj hozzá.",
-    "serve": "Törd szétnyomható darabokra, vagy 6 hónapos babának az adagot pépesítsd. Maradjanak cukrozatlanok.",
+    "serve": "Törd szétnyomható darabokra, 6 hónapos babának pedig pépesítsd. Ne édesítsd.",
     "freezer": true
   },
   {
@@ -1273,7 +1273,7 @@
     "verdict": "sound",
     "issues": "A megfőtt alma, a tojás, a pasztőrözött túró, a zabpehely és egy kanál liszt 6 hónapos korban már megfelelő, ha a palacsinta puha és teljesen átsült. Az almát reszelni és főzni kell, hogy pépesíthető legyen, a túrónak pedig pasztőrözöttnek kell lennie.",
     "changes": "Só és cukor nem kerül bele. A palacsintákat süsd át, majd annak a babának, aki az ételt még az ínyével nyomja szét, pépesítsd vagy törd el.",
-    "serve": "Nagyon puha darabokra pépesítsd vagy törd. Csak pasztőrözött túrót használj.",
+    "serve": "Pépesítsd, vagy törd nagyon puha darabokra. Csak pasztőrözött túrót használj.",
     "freezer": true
   }
 ]

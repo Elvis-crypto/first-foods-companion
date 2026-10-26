@@ -39,7 +39,7 @@
       "A banánt törd simára, és keverd bele a zabpelyhet, a tejet és a fahéjat.",
       "Kend el a keveréket egy kis sütőformában.",
       "Süsd, amíg éppen megköt, de még puha, körülbelül 18 percig.",
-      "Hűtsd langyosra, majd áztass egy darabot joghurtba, vagy morzsold bele.",
+      "Hagyd langyosra hűlni, majd áztass egy darabot joghurtba, vagy morzsold bele.",
       "Kínálj belőle kis, puha kanálnyi adagokat."
     ],
     "allergens": [
@@ -49,7 +49,7 @@
     "verdict": "replace",
     "issues": "A ropogós granola és az apróra vágott olajos mag volt a gond. A száraz csomó kemény darabokra eshet szét, amelyeken egy kisgyerek félrenyelhet.",
     "changes": "Ez puha, sült zabkása banánnal, zabpehellyel, egy csipet fahéjjal és tejjel. Ha belekeversz egy teáskanál olyan sima mandulavajat vagy földimogyoróvajat, amit a baba már jól tűr, hígítsd el a joghurtban, és az allergénekhez írd hozzá a diófélét vagy a földimogyorót. Súlyos ekcémás vagy ismert tojásallergiás babának az első földimogyoró-kóstolás előtt szakemberre van szüksége.",
-    "serve": "Tálald melegen, natúr joghurtba áztatva vagy belémorzsolva. A sütemény szeleteit joghurt nélkül fagyaszd le, és a joghurtot felolvasztás után add hozzá.",
+    "serve": "Melegen add, natúr joghurtba áztatva vagy belemorzsolva. A szeleteket joghurt nélkül fagyaszd le, és a joghurtot kiolvasztás után tedd hozzá.",
     "freezer": true
   },
   {
@@ -101,7 +101,7 @@
     "verdict": "replace",
     "issues": "A megszokott változat 11 vagy 12 hónapos korig várt, és száraz, puffasztott quinoát használt, amit könnyű belélegezni. Súlyos ekcémás vagy ismert tojásallergiás babának az első földimogyoró-kóstolás előtt szakemberre van szüksége.",
     "changes": "A quinoát főzd puhára, ne használd szárazon, puffasztva. Zabpelyhet is vehetsz helyette, de akkor a glutént írd hozzá az allergénekhez. Egy teáskanál sima földimogyoróvajat hígíts el joghurttal vagy a főzőlével, majd forgass bele reszelt, megfőtt almát.",
-    "serve": "Ha már jól tűri, hetente háromszor körülbelül két teáskanál sima, felhígított földimogyoróvaj. Sűrű földimogyoróvajból soha ne adj egy kanálnyit.",
+    "serve": "Ha már jól tűri, hetente háromszor kb. két teáskanál sima, hígított földimogyoróvajat adj. Sűrű földimogyoróvajat kanállal soha ne adj.",
     "freezer": true
   },
   {
@@ -143,7 +143,7 @@
     "verdict": "sound",
     "issues": "Hozzáadott cukor nem kell, mert az alma eleve édes. Aki tejet nem ehet, annak így is csak vizes adag kell.",
     "changes": "A zabpelyhet vízben vagy teljes tejben főzd reszelt almával, és cukrot ne adj hozzá. Tejmentes lépésként a csak vízzel főzött adagot kínáld.",
-    "serve": "A zabkásában a tehéntej rendben van; ez nem ital. Csak akkor használj kizárólag vizet, ha tejmentes tálra van szükség.",
+    "serve": "A kásában a tehéntej rendben van, hiszen nem italként kapja. Csak akkor főzd vízzel, ha tejmentes tál kell.",
     "freezer": true
   },
   {
@@ -174,7 +174,7 @@
     "method": [
       "A zabpelyhet a vízben főzd puhára.",
       "Vedd le a lábost a tűzről.",
-      "Hűtsd egy kicsit a kását, hogy meleg legyen, ne forró.",
+      "Hagyd kicsit hűlni a kását, hogy meleg legyen, ne forró.",
       "Keverd bele a natúr joghurtot.",
       "Azonnal tálald."
     ],
@@ -185,7 +185,7 @@
     "verdict": "sound",
     "issues": "Az édesített joghurt cukrot vinne ebbe a tálba, amire nincs szükség. A zabpelyhet vízben kell megfőzni, nem nyersen belekeverni.",
     "changes": "A zabpelyhet vízben főzd meg, hűtsd egy kicsit, és keverj bele natúr zsíros joghurtot.",
-    "serve": "Tálald melegen, tálban. A joghurt főzés után kerül bele, ezért frissen készítsd, ne fagyaszd le.",
+    "serve": "Melegen, tálban add. A joghurt főzés után kerül bele, ezért frissen készítsd, ne fagyaszd.",
     "freezer": false
   },
   {
@@ -231,7 +231,7 @@
     "verdict": "sound",
     "issues": "Ez egy tál kása, nem kókuszital cumisüvegben. Az édesített kókusztej cukrot vinne bele.",
     "changes": "A zabpelyhet vízzel hígított, cukrozatlan kókusztejben főzd, majd keverj bele érett banánt vagy mangót.",
-    "serve": "Kanállal, tálból kínáld. Kókusztejet ne tölts cumisüvegbe.",
+    "serve": "Tálból, kanállal add. Kókusztejet ne tölts cumisüvegbe.",
     "freezer": true
   },
   {
@@ -287,7 +287,7 @@
     "verdict": "sound",
     "issues": "A só kimarad, hogy a leves hat hónapos kortól is megfeleljen. A tetejére tett joghurt nem kötelező, és ez az egyetlen tejallergén a levesben.",
     "changes": "A vöröslencsét sárgarépával, paradicsommal és hagymával turmixold sima levéssé. Tejmentes befejezéshez hagyd le a joghurtot, vagy az asztalnál adj hozzá egy kanál natúr joghurtot. Kiváló vasforrás, és rendes étel.",
-    "serve": "Tálald melegen, tálban. Joghurt nélkül fagyaszd le, és ha használod, azt a kanalat felolvasztás után add hozzá.",
+    "serve": "Melegen, tálban add. Joghurt nélkül fagyaszd le, és ha teszel bele, a joghurtot kiolvasztás után keverd hozzá.",
     "freezer": true
   },
   {
@@ -341,7 +341,7 @@
     "verdict": "sound",
     "issues": "Só és tejszín nem kell. Az első hónapokban a zöldséget simára kell turmixolni.",
     "changes": "Főzd meg a paradicsomot, a répát, a burgonyát és a piros kaliforniai paprikát, turmixold össze, és a végén keverj bele olívaolajat.",
-    "serve": "Tálald melegen, tálban. Tejszín nélkül is teljes, puha étel.",
+    "serve": "Melegen, tálban add. Tejszín nélkül is teljes értékű, puha étel.",
     "freezer": true
   },
   {
@@ -380,7 +380,7 @@
       "Dolgozd bele a lisztet, amíg a massza puha halmot tart.",
       "Tegyél kis halmokat sütőpapírral bélelt tepsire, és ne vond be őket.",
       "Süsd, amíg a tojás teljesen megköt, a belsejük pedig puha marad, körülbelül 18 percig.",
-      "Hűtsd egy kicsit, és puha darabokban tálald."
+      "Hagyd kicsit hűlni, és puha darabokban tálald."
     ],
     "allergens": [
       "milk",
@@ -390,7 +390,7 @@
     "verdict": "adjust",
     "issues": "A ropogós zsemlemorzsa és a cukros bevonat rossz befejezés. A tojásnak teljesen meg kell kötnie, a gombócoknak pedig puhának kell maradniuk.",
     "changes": "Használj pasztőrözött túrót, sült édesburgonyát, egy kevés lisztet és tojást, és csak kötésig főzd vagy süsd. Ne forgass bele zsemlemorzsába, és ne édesítsd őket.",
-    "serve": "Tálald melegen és puhán, kis darabokban. Ujjnyomásra engedjenek, ne roppanjanak.",
+    "serve": "Melegen, puhán, kis darabokban add. Ujjal megnyomva engedjen, ne roppanjon.",
     "freezer": true
   },
   {
@@ -429,7 +429,7 @@
       "Keverd a túrót és a tojást a megfőtt quinoába.",
       "Kend el egy kis tálban.",
       "Süsd, amíg a tojás teljesen megköt, és a közepe már nem folyékony, körülbelül 20 percig.",
-      "Hűtsd egy kicsit, és kanalazz ki belőle puha adagokat."
+      "Hagyd kicsit hűlni, és kanalazz ki belőle puha adagokat."
     ],
     "allergens": [
       "milk",
@@ -438,7 +438,7 @@
     "verdict": "adjust",
     "issues": "A megszokott változatot úgy írták le, mintha nem kellene megsütni: így a tojás nyers maradna, a quinoa pedig kemény. Nyers tojást nem tálalunk.",
     "changes": "Főzd meg a quinoát, ne hagyd szárazon. Pasztőrözött túróval és tojással kösd össze, és süsd, amíg a tojás megköt. Cukrot ne adj hozzá.",
-    "serve": "Tálald melegen. A szemek legyenek puhák, ne különállók és szárazak.",
+    "serve": "Melegen add. A szemek legyenek puhák, ne pergősek és szárazak.",
     "freezer": true
   },
   {
@@ -477,7 +477,7 @@
       "Keverd bele a répát és a cukkinit.",
       "Oszd el hat kis formában.",
       "Süsd, amíg teljesen megköt, és nem marad folyékony tojás, körülbelül 15 percig.",
-      "Hűtsd langyosra, és vágd puha darabokra."
+      "Hagyd langyosra hűlni, és vágd puha darabokra."
     ],
     "allergens": [
       "egg",
@@ -486,7 +486,7 @@
     "verdict": "adjust",
     "issues": "A sonka sós és pácolt, ezért kimarad, és sót sem adunk hozzá. A tojással nem kell a hat hónapon túl várni.",
     "changes": "Süsd a tojást és a tejet reszelt répával és cukkinivel, amíg teljesen megköt. Ez jó korai tojásétel; ne várj vele.",
-    "serve": "Hat hónapos kortól kínálj belőle puha darabot, korai tojásételként. Tálalás előtt nézd meg, hogy a közepe megkötött-e.",
+    "serve": "Hat hónapos kortól adj belőle egy puha darabot, a tojás korai bevezetéséhez. Tálalás előtt nézd meg, hogy a közepe is megszilárdult-e.",
     "freezer": true
   },
   {
@@ -530,7 +530,7 @@
     "verdict": "replace",
     "issues": "A megszokott neve csirkesonka. A bolti sonka sós és pácolt.",
     "changes": "Süsd só nélkül darált csirkéből, reszelt répából és zöldfűszerből, és vágj belőle puha szeleteket. Nitrites sót nem használunk.",
-    "serve": "Puha szeleteket vágj, és kis darabokat kínálj. A süteményben nincs pácolt hús.",
+    "serve": "Szeleteld puhára, és kis darabokat adj. Pácolt hús nincs benne.",
     "freezer": true
   },
   {
@@ -569,7 +569,7 @@
       "Terítsd a zöldséget egy kis tálba, és öntsd rá a tojást.",
       "Szórd meg a sajttal.",
       "Süsd, amíg a tojás teljesen, végig megköt, körülbelül 18 percig.",
-      "Hűtsd egy kicsit, és vágd puha kockákra."
+      "Hagyd kicsit hűlni, és vágd puha kockákra."
     ],
     "allergens": [
       "egg",
@@ -578,7 +578,7 @@
     "verdict": "adjust",
     "issues": "A vastag réteg sós sajt túl sok ehhez az ételhez. A tojást kötésig kell sütni, folyékony közép nélkül.",
     "changes": "Süsd a tojást egy kevés enyhe sajttal, brokkolival és burgonyával. A sajt maradjon kevés, és sót ne adj hozzá.",
-    "serve": "Tálald melegen, puha kockákban. Egy kevés enyhe, pasztőrözött sajt elég.",
+    "serve": "Melegen, puha kockákra vágva add. Egy kevés enyhe, pasztőrözött sajt bőven elég.",
     "freezer": true
   },
   {
@@ -684,7 +684,7 @@
     "verdict": "replace",
     "issues": "A megszokott neve chili volt. A csípős chili és a só kimarad, az egész kukoricaszemet pedig nehezebb kezelni, mint a töröttet.",
     "changes": "A fehérbabot paradicsommal, édes kaliforniai paprikával és édes fűszerpaprikával főzd, amíg a bab teljesen puha, és a kukoricát törd a raguba. Csípős chilit és sót ne használj.",
-    "serve": "Tálalás előtt törj szét minden darabot, ami még egész. A bab könnyen szétnyomható legyen.",
+    "serve": "Tálalás előtt nyomj szét minden egész darabot. A babnak könnyen szét kell nyomódnia.",
     "freezer": true
   },
   {
@@ -723,7 +723,7 @@
       "Verd fel a tojásokat a tejjel, majd keverd bele a spenótot és a sajtot.",
       "Öntsd egy kis tálba, tésztahéj nélkül.",
       "Süsd, amíg a tojás megköt, a közepe pedig szilárd, körülbelül 22 percig.",
-      "Hűtsd egy kicsit, és vágd puha darabokra."
+      "Hagyd kicsit hűlni, és vágd puha darabokra."
     ],
     "allergens": [
       "egg",
@@ -732,7 +732,7 @@
     "verdict": "replace",
     "issues": "A tésztás quiche volt a gond. A tészta, a tejszín és a sós sajt nem az az étel, amit adni kell.",
     "changes": "Süsd héj nélkül a tojást, a tejet, a spenótot és egy kevés enyhe sajtot, amíg a tojás megköt. Tíz hónapos kortól kínáld.",
-    "serve": "Tíz hónapos kortól tálald melegen, puha darabokban. Nincs tésztahéja.",
+    "serve": "Tíz hónapos kortól, melegen, puha darabokban add. Tésztaalap nélkül készül.",
     "freezer": true
   },
   {
@@ -769,7 +769,7 @@
       "Melegítsd elő a sütőt 180 °C-ra.",
       "Keverd össze a marhahúst a reszelt hagymával, és formázz belőle négy puha pogácsát.",
       "Süsd, amíg a közepe átsül, és már nem rózsaszín, körülbelül 18 percig.",
-      "Pihentesd, majd vágd a húst zömök darabokra.",
+      "Pihentesd, majd vágd a húst vaskos darabokra.",
       "Tálald kis, puha kenyérdarabokkal és a paradicsommal."
     ],
     "allergens": [
@@ -777,8 +777,8 @@
     ],
     "verdict": "adjust",
     "issues": "A sós zsemle és a ketchup kimarad, és a húsba sem kerül só. A tíz hónapos kor a kenyér miatt van, nem azért, mert magával a pogácsával addig kellene várni.",
-    "changes": "Süsd puhára a marhahúsos, reszelt hagymás pogácsát, és darabokban tálald puha kenyérrel és paradicsommal. Maga a pogácsa gluténmentes; a glutén a kenyérből jön. A húst zömök darabokra vágd.",
-    "serve": "Vágd a húst zömök darabokra, és tálald puha kenyérrel és paradicsommal. A sós zsemlét hagyd ki, a ketchupot is. Maga a pogácsa gluténmentes.",
+    "changes": "Süsd puhára a marhahúsos, reszelt hagymás pogácsát, és darabokban tálald puha kenyérrel és paradicsommal. Maga a pogácsa gluténmentes; a glutén a kenyérből jön. A húst vaskos darabokra vágd.",
+    "serve": "Vágd a húst vaskos darabokra, és puha kenyérrel, paradicsommal add. Sós zsemle és ketchup nem kell. A húspogácsa magában gluténmentes.",
     "freezer": true
   },
   {
@@ -831,7 +831,7 @@
     "verdict": "adjust",
     "issues": "Még egy csipetnyi cukor sem megengedett, a kemény héj pedig félrenyelési kockázat. A héjnak puhának kell maradnia.",
     "changes": "Az élesztő táplálásához cukor helyett egy teáskanál összetört almát használj, és sót ne adj hozzá. Az alma helyettesíti a cukrot. A kifliket csak átsülésig süsd, hogy puhák maradjanak.",
-    "serve": "Tíz hónapos kortól tördeld kis darabokra, puha héjjal. Ne hagyd, hogy a kifli keményre száradjon.",
+    "serve": "Tíz hónapos kortól, kis darabokra tépve, puha héjjal add. Ne hagyd keményre száradni.",
     "freezer": true
   },
   {
@@ -879,7 +879,7 @@
     "verdict": "adjust",
     "issues": "A ropogós héj ezeknél a kifliknél is félrenyelési kockázat. A cukor és a só kimarad.",
     "changes": "Készíts joghurtos, sütőporos kiflit só és cukor nélkül. Süsd puhára, ne ropogósra, és kis darabokban tálald.",
-    "serve": "A héj maradjon puha, és tíz hónapos kortól kínálj belőle kis darabokat. Vedd ki őket, amíg még halványak.",
+    "serve": "A héja maradjon puha; tíz hónapos kortól kis darabokat adj belőle. Még halványan vedd ki a sütőből.",
     "freezer": true
   },
   {
@@ -918,9 +918,9 @@
       "gluten"
     ],
     "verdict": "adjust",
-    "issues": "A bolti babakeksz felesleges, és gyakran édes. Ezek a kekszek az állag gyakorlására valók, nem vasforrás ételek.",
+    "issues": "A bolti babakeksz felesleges, és gyakran édes. Ezek a kekszek az állag gyakorlására valók, nem vasforrások.",
     "changes": "Süsd puhára a kekszet banánból, zabpehelyből és olajból. Cukrot és mézet ne használj.",
-    "serve": "Egy puha darabot kínálj az állag gyakorlására, vasban gazdag étel mellé. Hajoljon, ne roppanjon.",
+    "serve": "Egy puha darabot adj, hogy az állaggal ismerkedjen, vasban gazdag étel mellé. Hajoljon, ne roppanjon.",
     "freezer": true
   },
   {
@@ -956,7 +956,7 @@
     "verdict": "sound",
     "issues": "A keményre sütött keksz nehezen kezelhető darabokra törhet. Érett banánhoz nem kell cukor.",
     "changes": "Törj össze banánt zabpehellyel, nyomd laposra a keveréket, és süsd puhára.",
-    "serve": "Olyan puha darabot adj, ami a hüvelyk- és a mutatóujj között szétnyomható. Ne süsd ropogósra.",
+    "serve": "Olyan puha darabot adj, ami két ujjad között szétnyomható. Ne süsd ropogósra.",
     "freezer": true
   },
   {
@@ -997,7 +997,7 @@
     "verdict": "adjust",
     "issues": "Az ilyesmit néha mézzel édesítik, de mézet nem használunk. A száraz, kemény keksz nem a cél.",
     "changes": "Süsd a sütőtököt és a zabpelyhet puha kekszzé, méz és cukor nélkül.",
-    "serve": "Puha, vastag darabokban tálald. Még azelőtt vedd ki a sütőből, hogy a szélek megszáradnának.",
+    "serve": "Puha, vastag darabokban add. Vedd ki a sütőből, mielőtt a széle kiszáradna.",
     "freezer": true
   },
   {
@@ -1038,7 +1038,7 @@
     "verdict": "adjust",
     "issues": "A kemény, aszalt alma olyan étel, amin könnyű félrenyelni. Ezek puha korongok, nem aszalt almakarikák.",
     "changes": "Keverj puha, megfőtt almát zabpehellyel, és süss belőle olyan korongot, ami puha marad. Ne szárítsd őket keményre.",
-    "serve": "A puha korongokat, ha lehet, még aznap tálald. Ne szárítsd őket kemény almakarikává.",
+    "serve": "A puha korongokat lehetőleg még aznap add. Ne szárítsd őket kemény almakarikává.",
     "freezer": true
   },
   {
@@ -1077,7 +1077,7 @@
       "Keverd bele a reszelt almát.",
       "Kend el egy kis tálban.",
       "Süsd, amíg a tojás megköt, a teteje pedig még puha, körülbelül 25 percig.",
-      "Hűtsd egy kicsit, és kanalazd tálakba."
+      "Hagyd kicsit hűlni, és kanalazd tálakba."
     ],
     "allergens": [
       "milk",
@@ -1087,7 +1087,7 @@
     "verdict": "replace",
     "issues": "A megszokott édes túrós sütemény tele van cukorral. Ez az édesség kimarad.",
     "changes": "Süsd a pasztőrözött túrót tojással, egy kevés búzadarával és reszelt almával. Cukrot ne adj hozzá.",
-    "serve": "Tálald melegen, puha kanálnyi adagokban. Az alma adja az egyetlen édességet.",
+    "serve": "Melegen, puha kanálnyi adagokban add. Az édességet csak az alma adja.",
     "freezer": true
   },
   {
@@ -1130,7 +1130,7 @@
       "Keverd össze az almát, a répát, a tojást, a zabpelyhet és az olajat.",
       "Kanalazd nyolc kis formába.",
       "Süsd, amíg puha, és a tojás teljesen megköt, körülbelül 18 percig.",
-      "Hűtsd langyosra, és tálald még aznap, vagy fagyaszd le."
+      "Hagyd langyosra hűlni, és tálald még aznap, vagy fagyaszd le."
     ],
     "allergens": [
       "egg",
@@ -1139,7 +1139,7 @@
     "verdict": "sound",
     "issues": "A gyümölcsös muffinba néha mézet és cukrot tesznek; itt egyik sincs. A tojásnak teljesen át kell sülnie.",
     "changes": "Süsd az almát, a répát, a tojást, a zabpelyhet és egy kevés olajat, amíg a muffin puha, a tojás pedig megköt.",
-    "serve": "Puha muffint tálalj; ha nagy a darab, tördeld szét. A masszában nincs méz és nincs cukor.",
+    "serve": "Puha muffint adj; ha nagy, törd darabokra. Se méz, se cukor nincs benne.",
     "freezer": true
   },
   {
@@ -1185,7 +1185,7 @@
     "verdict": "sound",
     "issues": "Nincs bennük tej és tojás, de nem édesített nasi. A cukor kimarad.",
     "changes": "Süsd a banánt, a sütőtököt, a zabpelyhet és az olajat puha muffinná. Tojást, tejet és cukrot ne használj.",
-    "serve": "Puhán tálald. Olyan gyereknek való, aki a tejet és a tojást kerüli.",
+    "serve": "Puhán add. Jó választás annak a gyereknek, akinek kerülnie kell a tejet és a tojást.",
     "freezer": true
   },
   {
@@ -1243,7 +1243,7 @@
     "verdict": "adjust",
     "issues": "Az ilyen kenyérnél a méz volt a kockázat. A kemény héj nem a kívánt állag.",
     "changes": "Süsd puhára a sütőtökös-banános kenyeret, amit egy tojás köt össze, és mézet ne használj. Szeleteld, és puhán tálald.",
-    "serve": "Szeleteld, és puha darabokban tálald. Takard le a kenyeret, hogy a héja ne száradjon ki.",
+    "serve": "Szeleteld fel, és puha darabokban add. Takard le, hogy a héja ne száradjon ki.",
     "freezer": true
   },
   {
@@ -1287,7 +1287,7 @@
     "verdict": "sound",
     "issues": "Ezek puha sült rudak, nem chips. A kemény, barnára sült szélek olyan állagúak, amelyeken könnyű félrenyelni.",
     "changes": "A répát, a paszternákot és a cukkinit olívaolajban süsd puhára, só nélkül. Vedd ki őket, amíg még hajlanak.",
-    "serve": "Olyan rudat adj, ami hajlik és szétnyomható. Nem chips.",
+    "serve": "Olyan rudakat adj, amelyek hajlanak és szétnyomhatók. Ez nem chips.",
     "freezer": true
   },
   {
@@ -1323,7 +1323,7 @@
     "verdict": "replace",
     "issues": "A csokoládés szelet volt a gond. A csokoládé és a cukros bevonat ide nem való.",
     "changes": "Keverj puha, pasztőrözött túrót eperrel, és tálald csokoládé és bevonat nélkül. Tizenkét hónapos kortól kínáld, alkalmi ételként.",
-    "serve": "Tizenkét hónapos kortól kínáld, néha, nem mindennap. Nincs benne csokoládé, és nincs bevonat.",
+    "serve": "Tizenkét hónapos kortól, alkalmanként, ne mindennap. Se csokoládé, se bevonat nincs rajta.",
     "freezer": true
   },
   {
@@ -1359,7 +1359,7 @@
     "method": [
       "Melegítsd elő a sütőt 160 °C-ra.",
       "Melegítsd meg a tejet, habverővel keverd bele a búzadarát, és főzd egy percig.",
-      "Hűtsd egy kicsit, majd verd bele a tojásokat.",
+      "Hagyd kicsit hűlni, majd verd bele a tojásokat.",
       "Öntsd kis tálkákba, és süsd, amíg éppen megköt, és nem marad folyékony tojás, körülbelül 25 percig.",
       "Közben a meghámozott gyümölcsöt egy kevés vízben főzd puhára.",
       "A sült krémet a gyümölccsel mellé tálald."
@@ -1372,7 +1372,7 @@
     "verdict": "replace",
     "issues": "A megszokott krémes leveles tészta és cukor. Tésztát és édesre kötött krémet nem használunk.",
     "changes": "Süsd cukrozatlanul a tejből, tojásból és egy kevés finom búzadarából készült krémet, és tálalj mellé megfőtt gyümölcsöt.",
-    "serve": "Tálald melegen vagy hűtve, mellé puha, megfőtt gyümölccsel. Nincs tésztatető.",
+    "serve": "Melegen vagy hidegen, puhára főtt gyümölccsel add. Tésztafedél nélkül készül.",
     "freezer": true
   },
   {
@@ -1414,7 +1414,7 @@
     "verdict": "replace",
     "issues": "A megszokott müzliszelet mézet és apróra vágott olajos magot használ. Az egész dió és mogyoró olyan étel, amin könnyű félrenyelni, mézet pedig nem használunk.",
     "changes": "Nyomd a zabpelyhet, a reszelt almát és a tejet kockákba, és süsd éppen kötésig, ne rágósra, keményre. Mézet ne adj hozzá, egész diót és mogyorót se.",
-    "serve": "Vágj puha kockákat, és ha lehet, a sütés napján tálald. Ne rágódjanak úgy, mint egy szárított szelet.",
+    "serve": "Vágd puha kockákra, és lehetőleg még a sütés napján add. Ne legyen olyan rágós, mint egy kiszáradt müzliszelet.",
     "freezer": true
   },
   {
@@ -1461,7 +1461,7 @@
     "verdict": "replace",
     "issues": "Az energigolyók ragadósak, édesek, és félrenyelési kockázatot jelentenek, és gyakran van bennük méz. Ez nem mindennapos étel, mert a datolya szabad cukornak számít.",
     "changes": "Az áztatott datolyát sima földimogyoróvajjal és zabpehellyel törd kanállal ehető krémmé, és kanállal tálald, ne gömbölyíts belőle kemény golyókat. Tizenkét hónapos kortól csak alkalmanként add, és mézet ne használj. Súlyos ekcémás vagy ismert tojásallergiás babának az első földimogyoró-kóstolás előtt szakemberre van szüksége.",
-    "serve": "Nem mindennapos étel. Tizenkét hónapos kortól adj belőle néhány kanállal, és csak akkor, ha a földimogyorót már jól tűri. Sűrű földimogyoróvajat magában, kanállal, soha ne adj.",
+    "serve": "Nem mindennapra való. Tizenkét hónapos kortól adj belőle néhány kanálnyit, de csak ha a földimogyorót már jól tűri. Sűrű földimogyoróvajat magában, kanállal soha ne adj.",
     "freezer": true
   },
   {
@@ -1495,7 +1495,7 @@
     "verdict": "sound",
     "issues": "A kemény jég félrenyelési és fogkockázat. Szilárd, fagyott tömböt ne adj a kezébe.",
     "changes": "A mangót és az epret cukor nélkül turmixold, és csak puha gombócig fagyaszd. Kanállal vagy etetőhálóban tálald.",
-    "serve": "Kanállal vagy etetőhálóban tálald, amíg még puha gombóc. Ha keményre fagy, kínálás előtt lágyítsd meg, és törd össze.",
+    "serve": "Kanállal vagy etetőhálóban add, amíg még puha. Ha keményre fagyott, előbb hagyd megpuhulni, és törd össze.",
     "freezer": true
   },
   {
@@ -1529,7 +1529,7 @@
     "verdict": "sound",
     "issues": "A kemény, fagyott tömb a babának nehéz, és a fogat is bántja. Cukrot nem adunk hozzá.",
     "changes": "Turmixold össze a banánt és a mangót, és fagyaszd puhára, ne szilárdra.",
-    "serve": "Puha kanálnyit tálalj. Ha keményre kezd fagyni, törd össze újra.",
+    "serve": "Puha kanálnyit adj. Ha kezd keményre fagyni, törd össze újra.",
     "freezer": true
   },
   {
@@ -1563,7 +1563,7 @@
     "verdict": "adjust",
     "issues": "Az egész cseresznye és a mag a veszély. Egy mag vagy egy egész cseresznye elzárhatja a légutat.",
     "changes": "Magozd ki a cseresznyét, turmixold banánnal, és a keveréket cukor nélkül fagyaszd puhára. Ellenőrizd újra, hogy minden mag kikerült.",
-    "serve": "Csak a magok ellenőrzése után tálalj puha kanálnyit. Egész cseresznyét ne kínálj.",
+    "serve": "Csak miután ellenőrizted, hogy nem maradt benne mag, adj belőle egy puha kanálnyit. Egész cseresznyét ne adj.",
     "freezer": true
   },
   {
@@ -1597,7 +1597,7 @@
     "verdict": "sound",
     "issues": "A kemény jég rossz állag fájó ínynek. Maradjon olyan puha, hogy kanállal szét lehessen törni.",
     "changes": "Turmixold össze a banánt és az avokádót, és fagyaszd puhára: fájó ínyre ugyanúgy, mint nasinak. Cukrot ne adj hozzá.",
-    "serve": "Fájó ínyre vagy nasinak kínálj puha kanálnyit. Ha megkeményedik, törd össze.",
+    "serve": "Fájó ínyre vagy uzsonnára adj belőle egy puha kanálnyit. Ha megkeményedik, törd össze.",
     "freezer": true
   }
 ]

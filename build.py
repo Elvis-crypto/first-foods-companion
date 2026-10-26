@@ -419,7 +419,7 @@ UI = {
         "h1": "Mit egyen a baba az első évben? Tudományosan ellenőrizve.",
         "lede": "Vas, allergének, só, állag, és hogy hogyan zajlik egy étkezés a valóságban. Saját receptek a magyar konyha kedvelt babaételeihez, átdolgozva ott, ahol a régi változat sót, cukrot, mézet vagy nehezen kezelhető állagot írt elő.",
         "read_guides": "Irány az útmutatók",
-        "browse": "Mind a(z) {n} recept",
+        "browse": "Böngéssz {n} recept között",
         "card_guides_h": "Tizenhét rövid téma",
         "card_guides_p": "Mindegyik a lényeggel kezdődik, utána jön a magyarázat, végül a tanulmányok és hivatalos oldalak, amelyekre épül.",
         "changed_h": "{n} receptet átdolgoztunk",
