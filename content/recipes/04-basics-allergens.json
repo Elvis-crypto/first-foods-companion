@@ -292,7 +292,7 @@
     "title": "Unsalted stock",
     "title_hu": "Sózatlan alaplé",
     "category": "basics",
-    "min_age_months": 6,
+    "min_age_months": 8,
     "portions": 10,
     "time_minutes": 90,
     "ingredients": [
@@ -314,7 +314,7 @@
     "verdict": "adjust",
     "issues": "Stock cubes are salt.",
     "changes": "Simmer chicken or vegetables with no salt, strain the liquid, and freeze it in small portions. Use it as an ingredient, not as a meal.",
-    "serve": "From 6 months, only inside another suitable dish. A shop-bought stock cube is no substitute, because those cubes are mostly salt.",
+    "serve": "From 8 months, only inside another suitable dish. A shop-bought stock cube is no substitute, because those cubes are mostly salt.",
     "freezer": true
   },
   {
@@ -322,7 +322,7 @@
     "title": "Liver dumplings",
     "title_hu": "Májgaluska",
     "category": "basics",
-    "min_age_months": 8,
+    "min_age_months": 9,
     "portions": 1,
     "time_minutes": 25,
     "ingredients": [
@@ -344,7 +344,7 @@
     "verdict": "adjust",
     "issues": "Liver is very rich in vitamin A, so the child's share must stay small even in a soup.",
     "changes": "Cook a few small dumplings of chicken liver, egg, breadcrumbs, and parsley in unsalted stock until fully done. Give the child about 15 g cooked liver, at most once a week, and not alongside a vitamin A supplement.",
-    "serve": "From 8 months. This portion is the liver meal for the week, so do not also serve liver spread or give a vitamin A supplement. Chop any dumpling that is still large.",
+    "serve": "From 9 months. This portion is the liver meal for the week, so do not also serve liver spread or give a vitamin A supplement. Chop any dumpling that is still large.",
     "freezer": true
   },
   {

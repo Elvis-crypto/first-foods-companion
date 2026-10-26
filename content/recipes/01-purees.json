@@ -1173,7 +1173,7 @@
     "title": "Veal with vegetables",
     "title_hu": "Zöldséges borjú",
     "category": "mixed-purees",
-    "min_age_months": 6,
+    "min_age_months": 8,
     "portions": 4,
     "time_minutes": 40,
     "ingredients": [
@@ -1207,7 +1207,7 @@
     "title": "Liver and potato with vegetables",
     "title_hu": "Zöldséges máj burgonyával",
     "category": "mixed-purees",
-    "min_age_months": 6,
+    "min_age_months": 9,
     "portions": 4,
     "time_minutes": 35,
     "ingredients": [
@@ -1234,7 +1234,7 @@
       "Fully cook the chicken liver, put only about 15 g of cooked liver in the child's portion, and serve liver at most once a week.",
       "Do not pair this meal with a vitamin A supplement."
     ],
-    "serve": "One portion covers the week’s liver: about 15 g of cooked liver in that bowl. Freeze the rest for later weeks, and don’t give a vitamin A supplement as well.",
+    "serve": "From 9–10 months. One portion covers the week’s liver: about 15 g of cooked liver in that bowl. Freeze the rest for later weeks, and don’t give a vitamin A supplement as well.",
     "freezer": true
   },
   {

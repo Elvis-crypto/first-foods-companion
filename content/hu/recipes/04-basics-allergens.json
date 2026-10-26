@@ -292,7 +292,7 @@
     "title": "Unsalted stock",
     "title_hu": "Sózatlan alaplé",
     "category": "basics",
-    "min_age_months": 6,
+    "min_age_months": 8,
     "portions": 10,
     "time_minutes": 90,
     "ingredients": [
@@ -314,7 +314,7 @@
     "verdict": "adjust",
     "issues": "A leveskocka só.",
     "changes": "Csirkét vagy zöldséget főzz só nélkül, szűrd le a levet, és kis adagokban fagyaszd le. Hozzávalóként használd, ne önálló ételként.",
-    "serve": "6 hónapos kortól, csak más, korának megfelelő ételbe keverve. A bolti leveskocka nem helyettesíti, mert az lényegében só.",
+    "serve": "8 hónapos kortól, csak más, korának megfelelő ételbe keverve. A bolti leveskocka nem helyettesíti, mert az lényegében só.",
     "freezer": true
   },
   {
@@ -322,7 +322,7 @@
     "title": "Liver dumplings",
     "title_hu": "Májgaluska",
     "category": "basics",
-    "min_age_months": 8,
+    "min_age_months": 9,
     "portions": 1,
     "time_minutes": 25,
     "ingredients": [
@@ -344,7 +344,7 @@
     "verdict": "adjust",
     "issues": "A máj nagyon gazdag A-vitaminban, ezért a gyerek adagja levesben is kicsi maradjon.",
     "changes": "Néhány kis galuskát főzz csirkemájból, tojásból, zsemlemorzsából és petrezselyemből sótlan alaplében, amíg teljesen meg nem fő. A gyerek kb. 15 g főtt májat kapjon, hetente legfeljebb egyszer, és ne A-vitamin-készítmény mellett.",
-    "serve": "8 hónapos kortól. Ez az adag a heti májas étel, ezért mellé ne adj májkrémet, se A-vitamin-készítményt. A nagyobb galuskákat vágd kisebbre.",
+    "serve": "9 hónapos kortól. Ez az adag a heti májas étel, ezért mellé ne adj májkrémet, se A-vitamin-készítményt. A nagyobb galuskákat vágd kisebbre.",
     "freezer": true
   },
   {

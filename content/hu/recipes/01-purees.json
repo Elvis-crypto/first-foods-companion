@@ -1173,7 +1173,7 @@
     "title": "Veal with vegetables",
     "title_hu": "Zöldséges borjú",
     "category": "mixed-purees",
-    "min_age_months": 6,
+    "min_age_months": 8,
     "portions": 4,
     "time_minutes": 40,
     "ingredients": [
@@ -1207,7 +1207,7 @@
     "title": "Liver and potato with vegetables",
     "title_hu": "Zöldséges máj burgonyával",
     "category": "mixed-purees",
-    "min_age_months": 6,
+    "min_age_months": 9,
     "portions": 4,
     "time_minutes": 35,
     "ingredients": [
@@ -1234,7 +1234,7 @@
       "A csirkemájat teljesen főzd át, a gyerek adagjába csak kb. 15 g megfőtt májat tegyél, és májat hetente legfeljebb egyszer adj.",
       "Ezt az ételt ne add A-vitamin-készítménnyel együtt."
     ],
-    "serve": "Egy adag fedezi a heti májat: ebben a tálban kb. 15 g főtt máj van. A többit fagyaszd le a következő hetekre, és mellette ne adj A-vitamin-készítményt.",
+    "serve": "9–10 hónapos kortól. Egy adag fedezi a heti májat: ebben a tálban kb. 15 g főtt máj van. A többit fagyaszd le a következő hetekre, és mellette ne adj A-vitamin-készítményt.",
     "freezer": true
   },
   {
